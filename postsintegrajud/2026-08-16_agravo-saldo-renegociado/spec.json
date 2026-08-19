@@ -1,0 +1,65 @@
+{
+ "slug": "integrajud_agravo_saldo_renegociado",
+ "outdir": "pc_20h",
+ "paleta": "P09",
+ "cenas": [
+  "doc:evolucao/copia",
+  "gesso",
+  "duna",
+  "doc:memoria/formulario",
+  "foto:px_762685.jpg"
+ ],
+ "seeds": [4101, 4102, 4103, 4104, 4105],
+ "overlay": [".88,.93,.97", ".42,.60", ".46,.74"],
+ "slides": [
+  {
+   "layout": "L1",
+   "chamada": "O PRAZO JÁ COMEÇOU",
+   "peca": "AGRAVO DE INSTRUMENTO",
+   "headline": "Homologaram a conta do credor. <b>Você tem quinze dias</b>",
+   "apoio": "Agravo que não demonstra o efeito do critério no valor devolve ao tribunal a mesma alegação que o juízo já rejeitou."
+  },
+  {
+   "kicker": "Bancário · execução e recurso",
+   "titulo": "O tribunal não refaz a conta. Ele decide sobre o critério que subir",
+   "passos": [
+    "<em>Na fase de cumprimento, toda decisão é agravável</em> — e os quinze dias correm da intimação da homologação, não da penhora.",
+    "<em>O que sobe não é o saldo, é o critério</em>: regime de juros, índice, termo inicial, encargo incorporado. Cada um move o valor sozinho.",
+    "<em>Critério sem efeito demonstrado é tese</em>. O tribunal precisa ver, em reais, quanto aquele critério pesou na conta homologada."
+   ],
+   "rodape": "Agravar contra o valor discute o resultado. Agravar contra o critério discute o que produziu o resultado."
+  },
+  {
+   "kicker": "O que a apuração responde",
+   "titulo": "Quatro perguntas que o agravo precisa levar respondidas",
+   "passos": [
+    "<em>Qual critério a conta homologada adotou</em> — e em que linha da memória ele aparece: regime, índice e periodicidade.",
+    "<em>Quanto o saldo muda</em> com o critério do título no lugar do critério aplicado: os dois números, na mesma base.",
+    "<em>Desde quando</em> a divergência corre. Termo inicial errado propaga por toda a série e cresce a cada mês.",
+    "<em>O que é incontroverso</em>: a parcela do débito que não depende do critério discutido e segue exigível de todo jeito."
+   ],
+   "rodape": "Esses quatro números cabem numa página. Sem eles, o agravo repete a petição que já foi indeferida."
+  },
+  {
+   "painel": true,
+   "kicker": "O erro que se repete",
+   "titulo": "O saldo renegociado entra na conta como se fosse principal",
+   "passos": [
+    "<em>A renegociação encerra um contrato e abre outro pelo saldo.</em> O que era encargo vira capital — e capital rende juros de novo.",
+    "<em>No demonstrativo isso não aparece.</em> A linha de abertura traz um valor único, sem dizer quanto era principal, quanto era juro e quanto era tarifa.",
+    "<em>Onde procurar</em>: o instrumento da renegociação, o saldo do contrato anterior na data da migração e o extrato do intervalo entre os dois.",
+    "<em>O que isso muda</em>: discutir o encargo do contrato antigo sem decompor o saldo migrado é discutir um número que já foi absorvido."
+   ],
+   "rodape": "A conta homologada começa exatamente onde a discussão deveria começar — no saldo que ninguém abriu."
+  },
+  {
+   "ponte": "O tribunal decide sobre o que sobe.<br>E o que sobe é a conta que instrui a peça.",
+   "itens": [
+    "Memória de cálculo alternativa para instruir agravo e embargos",
+    "Decomposição de saldo renegociado e de encargos incorporados",
+    "Assistência técnica em execução e revisional bancária"
+   ],
+   "oferta": "Mande o demonstrativo do credor. Em até 24h úteis eu digo se há divergência de critério"
+  }
+ ]
+}

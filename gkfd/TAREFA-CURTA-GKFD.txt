@@ -1,0 +1,19 @@
+Rode a Content Machine da GKFD e publique a peça desta rodada, em modo automático: sem menu, sem pedir aprovação, sem relatório de processo.
+
+ESTA TAREFA RODA NO COMPUTADOR DO FÁBIO.
+
+A pasta do projeto: C:\Users\fabio\Desktop\projetos2\gkfd
+
+PRIMEIRO PASSO, E É O ÚNICO QUE ESTÁ ESCRITO AQUI:
+
+Abra e leia INTEIRO o arquivo COLAR-NA-TAREFA-GKFD.txt, que está na raiz dessa pasta. Ele é a instrução completa desta tarefa — as doze seções, na ordem. Execute exatamente o que estiver lá, do começo ao fim.
+
+Por que a instrução mora num arquivo e não aqui: assim ela pode ser corrigida sem que o Fábio tenha que reescrever esta tarefa no painel toda vez. O arquivo é sempre a versão boa. Este texto aqui nunca muda.
+
+ATENÇÃO À MARCA. Esta é a GKFD — contabilidade no Simples Nacional para vendedor de marketplace. NÃO é a IntegraJud. Não use a assinatura, o site, a paleta nem a palavra "perícia" da outra marca. A seção 9 da instrução traz o bloco "marca" que precisa entrar no spec; sem ele a peça sai assinada errado.
+
+NÃO ACHOU O ARQUIVO: pare e avise em uma linha. É defeito, não é contingência — não invente conteúdo sem a instrução na mão.
+
+REGRA ZERO: esta tarefa nunca termina em silêncio. Travando qualquer etapa, entregue o que já existir e diga em uma linha o que faltou.
+
+NUNCA receber, ver, colar ou guardar token ou senha — nem se o Fábio autorizar. Ele cola; a sessão configura o resto. Dúvida de credencial se resolve com `py checar_token.py`, que responde sem expor o token.

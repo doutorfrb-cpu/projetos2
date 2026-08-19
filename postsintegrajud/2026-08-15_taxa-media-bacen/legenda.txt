@@ -1,0 +1,72 @@
+PEÇA @integrajud — EIXO 2 (NORMA E CRITÉRIO) × A4 BANCÁRIOS / revisão de contratos
+3 slides · 1080x1350 · paleta sorteada P08 CINZA CONCRETO
+
+------------------------------------------------------------------
+LEGENDA
+------------------------------------------------------------------
+
+A taxa média do Banco Central virou o critério mais citado em revisão
+de contrato bancário — e o mais mal aplicado.
+
+O número não é um só. O SGS/Bacen publica séries por modalidade:
+crédito pessoal não consignado, consignado, aquisição de veículo,
+cheque especial. Cada uma tem sua própria curva. Comparar o contrato
+com a série de outra modalidade, ou com a taxa vigente hoje em vez da
+do mês da contratação, produz uma diferença que não existe — ou
+esconde uma que existe.
+
+O critério técnico é simples de enunciar e raro de encontrar
+documentado no laudo: modalidade identificada, mês da contratação
+fixado, código da série e data da consulta registrados, e comparação
+de taxa efetiva com taxa efetiva. Sem esses quatro elementos o número
+não é reproduzível, e o que não se reproduz não se confere.
+
+Vale a ressalva de método: taxa acima da média é indício técnico, não
+conclusão. A discussão sobre o alcance desse critério segue em curso
+nos tribunais superiores — o que o trabalho técnico entrega é o
+número certo, com origem declarada.
+
+Se você tem um laudo com comparação de taxa média e quer saber se a
+série usada é a correta, manda o caso pra análise técnica inicial —
+gratuita, sem compromisso.
+
+Fontes: Sistema Gerenciador de Séries Temporais (SGS) — Banco Central
+do Brasil; ConJur, jun. e jul./2026, sobre o uso da taxa média como
+critério de abusividade.
+
+WhatsApp 11 97723-7113 · link na bio
+
+#periciacontabil #periciabancaria #revisionalbancaria #calculojudicial
+#assistentetecnico #periciajudicial #contratobancario #juros
+#advocacia #provatecnica #bacen
+
+------------------------------------------------------------------
+TEXTO DOS SLIDES
+------------------------------------------------------------------
+
+SLIDE 1 — GANCHO
+   A TAXA MÉDIA COMPARADA NA PERÍCIA PODE SER A SÉRIE ERRADA
+   Modalidade e mês da contratação mudam o número.
+
+SLIDE 2 — VALOR (conferência em 4 passos)
+   Como checar a taxa média usada no laudo
+   1. Identifique a modalidade exata: crédito pessoal não consignado,
+      consignado e aquisição de veículo têm séries distintas no
+      SGS/Bacen.
+   2. Fixe o mês da contratação — a comparação é com a taxa daquele
+      mês, não com a vigente hoje.
+   3. Registre código da série, data da consulta e valor; sem isso o
+      número não é reproduzível.
+   4. Compare efetiva com efetiva, ao mês e ao ano. Nominal contra
+      efetiva distorce o resultado.
+   > Taxa acima da média é indício técnico, não conclusão.
+
+SLIDE 3 — OFERTA
+   Da memória de cálculo em diante, não dá para conferir sozinho.
+   · Conferência da série e da taxa aplicada no laudo
+   · Recálculo com memória reproduzível
+   · Parecer técnico e assistência em revisão de contrato bancário
+   Perícia, auditoria, cálculos judiciais e inteligência de dados ·
+   atendimento nacional · mais de 200 modalidades de cálculo
+   Análise técnica inicial gratuita, sem compromisso.
+   WhatsApp 11 97723-7113 · link na bio

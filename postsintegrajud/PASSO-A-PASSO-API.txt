@@ -1,0 +1,155 @@
+PUBLICAR NO INSTAGRAM PELA API — PASSO A PASSO
+==============================================
+Objetivo: o agendador da sua máquina publicar sozinho, sem navegador, sem
+depender de conversa aberta. Uma vez configurado, nunca mais se mexe.
+
+São três blocos. O primeiro é o chato (console da Meta, ~20 min). O segundo é
+rápido. O terceiro é ligar no agendador.
+
+
+================================================================
+BLOCO 1 — CONTA E TOKEN (console da Meta)
+================================================================
+
+PRÉ-REQUISITO: o @integrajud precisa ser conta PROFISSIONAL (já é) e estar
+VINCULADO A UMA PÁGINA DO FACEBOOK. Sem a página, a API não enxerga o perfil.
+
+1.1 — Vincular a página
+     No app do Instagram: Configurações -> Central de Contas -> adicionar a
+     página do Facebook do IntegraJud. Não tendo página, crie uma: pode ser
+     simples, ela existe só para a API funcionar.
+
+1.2 — Criar o app
+     Vá em developers.facebook.com -> Meus Apps -> Criar app.
+     Tipo: "Empresa" (Business).
+     Nome: IntegraJud Publicador.
+
+1.3 — Adicionar o produto
+     No painel do app, adicione "Instagram" (publicação de conteúdo /
+     Instagram Graph API).
+
+1.4 — Permissões
+     Você vai precisar destas: instagram_basic, instagram_content_publish,
+     pages_read_engagement e pages_show_list.
+     Enquanto o app estiver em modo de desenvolvimento e você for o
+     administrador, elas funcionam sem revisão da Meta. Para uso próprio
+     basta isso — não precisa submeter o app para análise.
+
+1.5 — Pegar o ID da conta do Instagram
+     Use o Explorador da API Graph (developers.facebook.com/tools/explorer).
+     Selecione seu app, gere um token de usuário com as permissões acima, e
+     consulte:
+         me/accounts
+     Pegue o id da sua página. Depois:
+         {id-da-pagina}?fields=instagram_business_account
+     O número que voltar é o seu IG_USER_ID. Anote.
+
+1.6 — Token de longa duração
+     O token do Explorador dura poucas horas. Troque por um de 60 dias:
+         GET https://graph.facebook.com/v21.0/oauth/access_token
+             ?grant_type=fb_exchange_token
+             &client_id=SEU_APP_ID
+             &client_secret=SEU_APP_SECRET
+             &fb_exchange_token=TOKEN_CURTO
+     Guarde o token que voltar.
+
+     IMPORTANTE: esse token vence em 60 dias. Anote na agenda para renovar.
+     Vencido, o script para de publicar e avisa com a mensagem da Meta.
+
+
+================================================================
+BLOCO 2 — ONDE AS IMAGENS FICAM
+================================================================
+
+A API não aceita upload de arquivo: ela recebe uma URL e vai buscar a imagem.
+Por isso os três PNGs precisam estar num endereço público antes da chamada.
+
+O lugar natural é o seu próprio site. Crie uma pasta `posts` em
+www.integrajud.com.br e confirme que um arquivo colocado lá abre pelo
+navegador, sem senha.
+
+Teste: suba qualquer imagem e abra
+    https://www.integrajud.com.br/posts/teste.png
+Abriu, está pronto. Não abriu, a API vai recusar.
+
+Se a sua hospedagem tiver FTP, o script sobe sozinho. Anote servidor, usuário,
+senha e o caminho da pasta (algo como /public_html/posts).
+
+
+================================================================
+BLOCO 3 — CONFIGURAR E LIGAR
+================================================================
+
+3.1 — Crie o arquivo `config_publicacao.json` na raiz de
+      C:\Users\fabio\Desktop\projetos2\postsintegrajud
+      com este conteúdo, preenchido:
+
+{
+  "ig_user_id": "COLE_AQUI_O_ID",
+  "access_token": "COLE_AQUI_O_TOKEN",
+  "host": {
+    "tipo": "ftp",
+    "servidor": "ftp.integrajud.com.br",
+    "usuario": "SEU_USUARIO_FTP",
+    "senha": "SUA_SENHA_FTP",
+    "pasta_remota": "/public_html/posts",
+    "url_publica": "https://www.integrajud.com.br/posts"
+  }
+}
+
+      ESSE ARQUIVO GUARDA SEGREDOS. Não mande para ninguém, não cole em
+      conversa, não suba para repositório. O script lê e nunca imprime o
+      conteúdo — e eu nunca preciso ver o token.
+
+      Não tendo FTP, troque "tipo" para "manual" e suba os arquivos pelo
+      painel da hospedagem antes de rodar. O script monta as URLs sozinho.
+
+3.2 — Teste com uma peça que já existe:
+
+      python3 publicar_instagram.py "C:\Users\fabio\Desktop\projetos2\postsintegrajud\2026-08-15_exibicao-repasses"
+
+      Essa peça está pronta e não publicada — serve de cobaia. Se subir,
+      está funcionando de ponta a ponta.
+
+3.3 — Ligar no agendador
+      No texto da tarefa (COLAR-NA-TAREFA.txt), o passo 9 passa a ser:
+
+      9. PUBLICAR pela API. Depois de renderizar e salvar a peça na subpasta
+         AAAA-MM-DD_tema com a legenda.txt, rode:
+             python3 publicar_instagram.py <pasta_da_peca>
+         O script devolve o id do post. Se der erro, ele diz exatamente qual —
+         repassar a mensagem ao Fábio em uma linha, sem contornar por outro
+         caminho.
+
+      A partir daí o navegador sai do processo. A tarefa local faz tudo.
+
+
+================================================================
+O QUE PODE DAR ERRADO — e o que a mensagem significa
+================================================================
+
+"não abre publicamente"      a URL da imagem não responde. Confira a pasta
+                             do site e as permissões.
+
+"a Meta recusou o container" formato ou dimensão fora do aceito. Os nossos
+                             1080x1350 estão dentro; conferir se o arquivo
+                             subiu inteiro.
+
+OAuthException 190           token vencido ou inválido. Gere outro (passo 1.6).
+
+code 4 / 613                 limite de chamadas. A Meta permite 25 posts por
+                             24 horas por conta — nossa cadência de 4 está
+                             folgada. Se bater nisso, é sinal de laço.
+
+"sem 'host'"                 o config_publicacao.json está incompleto.
+
+
+================================================================
+POR QUE ESSE CAMINHO É O CERTO
+================================================================
+É o meio oficial da Meta para publicação automatizada. Não depende do Chrome
+estar aberto, nem do computador ter navegador logado, nem de conversa viva.
+Roda em qualquer máquina que tenha Python e internet.
+
+O custo é a configuração inicial e a renovação do token a cada 60 dias. Fora
+isso, a operação passa a andar sozinha de verdade.

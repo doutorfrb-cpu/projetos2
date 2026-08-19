@@ -1,0 +1,84 @@
+{
+  "slug": "gkfd_ads_acos_margem",
+  "outdir": "pc_gkfd2",
+  "paleta": "G05",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "credencial": "Contabilidade no Simples Nacional para vendedor de marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "cargo": "Contador",
+    "cta": "GKFD Contábil · atendimento nacional",
+    "site": "Fábio Rebouças — Contador",
+    "assinatura": "GKFD Contábil · Mercado Líder Platinum<br>Contabilidade no Simples Nacional para vendedor de marketplace",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório de campanha e o repasse do mês. Em até 24h úteis eu digo qual SKU não aguenta o anúncio",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "doc:planilha/formulario",
+    "gesso",
+    "concreto",
+    "linho",
+    "duna"
+  ],
+  "seeds": [8201, 8202, 8203, 8204, 8205],
+  "overlay": [
+    ".93,.955,.975",
+    ".18,.34",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L1",
+      "chamada": "ANTES DE SUBIR O ORÇAMENTO",
+      "peca": "ADS DA PLATAFORMA",
+      "headline": "Sua campanha fecha com ACOS bom e <b>a venda dá prejuízo</b>",
+      "apoio": "ACOS é publicidade dividida por receita bruta. Ele não sabe da comissão, do frete, do imposto nem do custo do produto. O número que decide se a campanha paga não está no painel de anúncios."
+    },
+    {
+      "kicker": "Marketplace · custo de mídia",
+      "titulo": "O ACOS mede a campanha contra o faturamento. A margem é o que sobra depois de todo mundo",
+      "passos": [
+        "<em>ACOS é uma fração da receita bruta.</em> Investimento dividido por venda atribuída, e só. Nessa conta não entram comissão, frete subsidiado, custo do produto nem o DAS — e são exatamente eles que decidem se sobra alguma coisa no fim.",
+        "<em>A plataforma cobra sobre o preço cheio, e o anúncio também.</em> A comissão incide sobre o valor da venda; o ADS é debitado do mesmo repasse. Dois percentuais mordendo o mesmo número, e nenhum dos dois enxerga o seu custo.",
+        "<em>O Simples corre sobre a receita bruta, e a publicidade não abate nada.</em> ADS é despesa: reduz o seu lucro e não reduz a base de cálculo. Campanha cara encarece a operação sem aliviar a guia de um centavo."
+      ],
+      "rodape": "Três descontos que o painel de anúncios não conhece."
+    },
+    {
+      "kicker": "O que a apuração por campanha responde",
+      "titulo": "Quatro perguntas antes de subir o orçamento",
+      "passos": [
+        "<em>Qual o ACOS máximo que este SKU aguenta?</em> É a margem antes da publicidade dividida pelo preço. Acima desse teto a venda entra no vermelho, por melhor que o painel pareça.",
+        "<em>A venda atribuída teria acontecido sem o anúncio?</em> Parte do que a campanha reivindica é venda orgânica que ela apenas cobriu. Rateio por origem mostra isso; rateio por faturamento, não.",
+        "<em>O débito da campanha tem documento hábil?</em> Publicidade descontada no repasse, sem nota, some do resultado — e a margem do relatório fica maior do que a real.",
+        "<em>Devolução e estorno voltaram para o cálculo?</em> A campanha continua paga; a venda, não. ACOS medido sobre receita que voltou é ACOS de mentira."
+      ],
+      "rodape": "As quatro saem do relatório de campanha cruzado com o de repasse."
+    },
+    {
+      "kicker": "Demonstração",
+      "titulo": "A mesma campanha, pelo ACOS e pela margem",
+      "formato": "quadro",
+      "linhas": [
+        ["Preço de venda da unidade", "R$ 120,00"],
+        ["Comissão de 14% e frete do vendedor", "− R$ 35,80"],
+        ["Custo do produto", "− R$ 62,00"],
+        ["Simples Nacional, 10% efetivos", "− R$ 12,00"],
+        ["<b>Margem antes da publicidade</b>", "<b>R$ 10,20</b>"],
+        ["ADS por unidade: 1.200 ÷ 100 vendas", "− R$ 12,00"],
+        ["<b>Resultado por unidade</b>", "<b>− R$ 1,80</b>"]
+      ],
+      "rodape": "ACOS na tela: 10,0%. Teto real: 10,20 ÷ 120 = 8,5%. Números de demonstração, não de caso real."
+    },
+    {
+      "ponte": "ACOS não mede lucro.<br>O teto do SKU é conta.",
+      "itens": [
+        "Margem líquida por SKU e por campanha, com imposto, tarifa e frete alocados",
+        "ACOS máximo calculado produto a produto, a partir do custo total da venda",
+        "Conciliação do débito de publicidade contra o relatório de repasse"
+      ],
+      "oferta": "Mande o relatório de campanha e o repasse do mês. Em até 24h úteis eu digo qual SKU não aguenta o anúncio"
+    }
+  ]
+}

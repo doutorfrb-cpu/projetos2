@@ -1,0 +1,46 @@
+{
+  "slug": "encargosmora",
+  "paleta": "P07",
+  "cores": { "fundo": "#1B0F13", "destaque": "#C9A227", "texto": "#F3E9EA" },
+  "cenas": ["foto:px_16978372.jpg", "granito", "foto:px_33656448.jpg"],
+  "overlay": [0.30, 0.52, 0.80],
+
+  "slide1": {
+    "marca": "@integrajud",
+    "headline": "A MORA FOI COBRADA TRÊS VEZES. O PRAZO DOS EMBARGOS CORREU",
+    "apoio": "Comissão de permanência, juros de mora e multa somados na mesma parcela. A conta entrou nos autos sem separação."
+  },
+
+  "slide2": {
+    "kicker": "EXECUÇÃO DE CONTRATO BANCÁRIO",
+    "titulo": "Onde o encargo se duplica",
+    "itens": [
+      "Comissão de permanência não acumula com juros remuneratórios, moratórios e multa — Súmula 472 do STJ.",
+      "Capitalização mensal exige pactuação expressa. Conferir a taxa anual contra o duodécuplo da mensal — Súmula 541.",
+      "Encargo de inadimplência incide a partir do vencimento, não da data do contrato.",
+      "Tarifa repassada ao saldo devedor passa a render juros e realimenta a dívida."
+    ],
+    "rodape": "Separar encargo por encargo é o que transforma alegação em demonstração."
+  },
+
+  "slide3": {
+    "ponte": [
+      "A conta da execução pode ser refeita linha a linha.",
+      "O que sustenta o embargo é a memória, não a alegação."
+    ],
+    "servicos": [
+      "Recálculo de contrato e execução bancária",
+      "Assistência técnica em embargos e impugnação",
+      "Parecer contábil com memória de cálculo"
+    ],
+    "credenciais": [
+      "Fábio Rebouças — Contador e Perito Contábil",
+      "IntegraJud · Inteligência pericial para advocacia"
+    ],
+    "oferta": "Mande a planilha do banco. Em até 24h úteis eu digo se há o que impugnar.",
+    "whatsapp": "11 97723-7113",
+    "site": "www.integrajud.com.br · link na bio"
+  },
+
+  "_nota": "Spec montado sem acesso ao gerador (sandbox Linux não subiu nesta máquina). Antes de rodar machine.py, conferir os nomes de chave contra spec_inss.json dentro de gerador-integrajud.zip e ajustar se divergirem. O conteúdo de texto está fechado e revisado."
+}

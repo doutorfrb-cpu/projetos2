@@ -1,0 +1,46 @@
+{
+  "slug": "integrajud_distrato",
+  "outdir": "peca_distrato",
+  "paleta": "P02",
+  "cenas": [
+    "foto:px_16143154.jpg",
+    "couro",
+    "foto:px_34293528.jpg"
+  ],
+  "seeds": [
+    730,
+    731,
+    732
+  ],
+  "overlay": [
+    ".30,.52,.80",
+    ".40,.50",
+    ".58,.84"
+  ],
+  "slides": [
+    {
+      "headline": "<b>A incorporadora devolveu</b> o que a planilha dela mandou devolver",
+      "apoio": "Retenção, fruição e correção entram no mesmo total. Sem memória de cálculo, não há o que discutir."
+    },
+    {
+      "kicker": "O que a perícia demonstra — e onde ela para",
+      "titulo": "Quatro critérios que a planilha soma sem separar",
+      "passos": [
+        "<em>Percentual de retenção</em>: 25% na regra geral, até 50% no patrimônio de afetação. A perícia calcula as duas hipóteses.",
+        "<em>Taxa de fruição</em>: até 0,5% ao mês, e só a partir da entrega das chaves. Sem posse, não há base.",
+        "<em>Correção dos valores pagos</em>, parcela a parcela: índice e termo inicial mudam o total.",
+        "<em>Corretagem e taxas</em> abatidas sem data, valor e destinatário demonstrados."
+      ],
+      "rodape": "A conta cabe à perícia. O critério, ao juízo — e o pedido, a você."
+    },
+    {
+      "ponte": "A planilha da incorporadora<br>não é o cálculo da devolução.",
+      "itens": [
+        "Recálculo da devolução sob cada percentual de retenção",
+        "Correção e fruição apuradas parcela a parcela, com memória",
+        "Assistência técnica e quesitos na perícia contábil"
+      ],
+      "oferta": "Mande a planilha de devolução. Em até 24h úteis eu digo se há diferença a discutir"
+    }
+  ]
+}

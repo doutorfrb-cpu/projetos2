@@ -1,0 +1,43 @@
+PEÇA @integrajud — EIXO 1 (ERRO DE APURAÇÃO) × A3 FINANCEIROS / Price, SAC e SACRE
+3 slides · 1080x1350 · paleta sorteada P10 AREIA E TINTA
+
+LEGENDA
+-------
+A planilha diz Price, o contrato diz SAC — e ninguém confere qual dos dois governa a série.
+
+Não é detalhe de nomenclatura. No SAC a amortização é constante: o saldo cai em linha reta e a parcela decresce. No Price a parcela é constante: nos primeiros anos quase tudo é juro e o saldo praticamente não anda. Trocar um pelo outro na reconstrução não erra uma parcela — reescreve a evolução inteira do contrato, e a diferença cresce justamente onde costuma estar o pedido.
+
+Quatro checagens resolvem a dúvida antes de qualquer discussão de valor: o sistema efetivamente pactuado no instrumento; a primeira parcela refeita pela fórmula do sistema declarado (no SAC, amortização = saldo ÷ prazo); o formato da curva do saldo devedor ao longo do tempo; e o CET declarado confrontado com a taxa aplicada, porque divergência entre os dois aponta encargo que ficou fora da simulação.
+
+Nenhuma dessas checagens depende de contratar ninguém. O que depende é o passo seguinte: refazer a série parcela a parcela, com memória que o outro lado consiga reproduzir.
+
+Se você tem um financiamento em discussão e quer saber qual sistema a planilha realmente aplicou, manda o caso pra análise técnica inicial — gratuita, sem compromisso.
+
+https://wa.me/5511977237113 · WhatsApp 11 97723-7113 · ou link na bio
+
+Fábio Rebouças — Contador e Perito Contábil
+IntegraJud · Inteligência pericial para advocacia
+
+#periciacontabil #periciabancaria #tabelaprice #sac #amortizacao #financiamento #calculojudicial #assistentetecnico #revisionalbancaria #provatecnica #advocacia
+
+TEXTO DOS SLIDES
+----------------
+1 GANCHO — A PLANILHA DIZ PRICE. O CONTRATO DIZ SAC
+  E a diferença aparece em toda a série.
+
+2 VALOR — Quatro checagens antes de aceitar a evolução do saldo
+  1. Sistema pactuado no contrato: Price tem parcela constante; SAC,
+     amortização constante e parcela decrescente.
+  2. Reconstrua a primeira parcela: no SAC, amortização = saldo ÷ prazo;
+     no Price, prestação pela fórmula de série uniforme.
+  3. Compare a curva do saldo devedor — no SAC cai em linha reta; no
+     Price, devagar no começo.
+  4. Cheque o CET declarado contra a taxa aplicada: divergência aponta
+     encargo fora da simulação.
+  > Sistema trocado não erra uma parcela: reescreve a série inteira.
+
+3 OFERTA — Identificar o sistema é leitura. Refazer a série é apuração.
+  · Reconstrução da evolução do saldo, parcela a parcela
+  · Conferência de sistema, taxa efetiva e CET
+  · Parecer técnico e assistência em revisão de financiamento
+  [faixa] 11 97723-7113 · ou pelo link na bio

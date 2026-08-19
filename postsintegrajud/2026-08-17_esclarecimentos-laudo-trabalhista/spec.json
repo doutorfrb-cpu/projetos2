@@ -1,0 +1,66 @@
+{
+ "slug": "integrajud_esclarecimentos_laudo_trabalhista",
+ "outdir": "pc_12h",
+ "paleta": "P06",
+ "cenas": [
+  "doc:liquidacao/envelhecido",
+  "couro",
+  "marmore",
+  "doc:comparativo/liso",
+  "foto:px_34293525.jpg"
+ ],
+ "seeds": [5201, 5202, 5203, 5204, 5205],
+ "overlay": [".96,.975,.985", ".50,.68", ".46,.74"],
+ "slides": [
+  {
+   "layout": "L3",
+   "chamada": "ISSO ESTÁ NOS SEUS AUTOS?",
+   "peca": "PEDIDO DE ESCLARECIMENTOS",
+   "headline": "Você pediu esclarecimentos. <b>O perito ratificou o laudo em uma linha</b>",
+   "apoio": "Pergunta aberta devolve resposta aberta. O prazo se gasta, o laudo continua igual, e a sentença sai dele."
+  },
+  {
+   "kicker": "Trabalhista · depois do laudo",
+   "titulo": "Esclarecimento não é discordância. É a pergunta que obriga o laudo a mostrar a conta",
+   "passos": [
+    "<em>Quem discorda impugna; quem esclarece pergunta.</em> São peças diferentes e prazos diferentes — e a segunda é a única que ainda faz o laudo produzir número novo dentro do mesmo processo.",
+    "<em>O perito responde ao que foi perguntado, na medida em que foi perguntado.</em> Pedido genérico — 'esclareça os critérios adotados' — se satisfaz com 'ratifico o laudo', e o juízo dá por cumprido.",
+    "<em>Pergunta com parâmetro dentro não se responde em uma linha.</em> Divisor, base de incidência, período e fonte do dado: cada um deles obriga o perito a escrever um número ou a admitir que não apurou."
+   ],
+   "rodape": "O que se perde nesse prazo não volta na sentença: o laudo esclarecido é o que o juízo vai liquidar."
+  },
+  {
+   "kicker": "O que a apuração responde",
+   "titulo": "Quatro perguntas que o pedido precisa levar prontas",
+   "passos": [
+    "<em>Qual divisor foi aplicado</em>, e em que folha do laudo ele aparece. Divisor não é premissa implícita — muda o valor da hora em todo o contrato.",
+    "<em>Que verbas entraram na base dos reflexos</em>, item a item. Adicional habitual fora da base reduz 13º, férias, aviso e FGTS de uma vez só.",
+    "<em>Se o repouso semanal foi apurado</em> sobre as horas reconhecidas, e por qual fórmula. É a omissão mais comum e a mais silenciosa do laudo.",
+    "<em>De que documento saiu cada dado</em>: cartão de ponto, folha, CCT ou arbitramento. Dado sem fonte não se confere e não se contraria."
+   ],
+   "rodape": "Essas quatro respostas cabem numa página do laudo. Sem elas, o cálculo é auditável só pelo perito que o fez."
+  },
+  {
+   "painel": true,
+   "kicker": "Demonstração · reflexo em repouso semanal",
+   "titulo": "O laudo apurou as horas. E parou antes do que elas geram",
+   "passos": [
+    "<em>Base:</em> salário de R$ 4.400,00, divisor 220. A hora normal sai a R$ 20,00, e a hora extra com adicional de 50% a R$ 30,00.",
+    "<em>Critério A — o do laudo:</em> 40 horas extras no mês × R$ 30,00 = R$ 1.200,00. O cálculo encerra aqui.",
+    "<em>Critério B — com o repouso apurado:</em> R$ 1.200,00 ÷ 25 dias úteis × 5 repousos = R$ 240,00 de DSR no mesmo mês.",
+    "<em>A diferença entre os dois critérios</em>, em 36 meses de contrato: R$ 8.640,00 — e isso antes dos reflexos que o próprio DSR gera em 13º, férias e FGTS."
+   ],
+   "rodape": "Números de demonstração, não de caso real. O pedido de esclarecimentos não afirma o valor: pergunta ao perito qual divisor e qual base ele adotou, e onde isso está no laudo."
+  },
+  {
+   "retrato": "sim",
+   "ponte": "O laudo esclarecido é o laudo que o juízo liquida.<br>A pergunta certa ainda cabe no prazo.",
+   "itens": [
+    "Análise crítica de laudo pericial contábil trabalhista",
+    "Formulação de quesitos e de pedido de esclarecimentos com parâmetro",
+    "Cálculo alternativo de liquidação e assistência técnica"
+   ],
+   "oferta": "Mande o laudo. Em até 24h úteis eu digo se há o que esclarecer"
+  }
+ ]
+}

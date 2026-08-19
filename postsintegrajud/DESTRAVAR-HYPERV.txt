@@ -1,0 +1,116 @@
+DESTRAVAR O HYPER-V PARA A CONTENT MACHINE RODAR LOCAL
+======================================================
+Tudo em PowerShell COMO ADMINISTRADOR.
+Botão direito no menu iniciar -> "Terminal (Admin)" ou "Windows PowerShell (Admin)".
+
+Faça na ordem. Os dois primeiros blocos só olham, não mudam nada.
+
+
+-------------------------------------------------------
+ETAPA 1 — DIAGNÓSTICO (não muda nada)
+-------------------------------------------------------
+
+Edição do Windows:
+
+    (Get-ComputerInfo).WindowsProductName
+
+Se responder algo com "Home", PARE. Hyper-V não existe no Windows Home e
+nenhum comando abaixo resolve. Nesse caso a saída é outra (subir para Pro,
+ou seguir com a corrente que já está montada).
+
+Virtualização habilitada no processador:
+
+    (Get-CimInstance Win32_Processor).VirtualizationFirmwareEnabled
+
+True  = ligada, siga para a etapa 2.
+False = está desligada na BIOS. Reinicie, entre no setup da placa (Del ou F2
+        na inicialização) e ative a opção chamada "Intel VT-x", "AMD-V" ou
+        "SVM Mode", conforme o processador. Salve, volte ao Windows e rode
+        o comando de novo antes de seguir.
+
+Panorama dos requisitos de virtualização:
+
+    systeminfo | Select-String "Hyper-V"
+
+
+-------------------------------------------------------
+ETAPA 2 — HABILITAR (muda o sistema, exige reinício)
+-------------------------------------------------------
+
+Os três recursos, em sequência:
+
+    Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All -NoRestart
+
+    Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -All -NoRestart
+
+    Enable-WindowsOptionalFeature -Online -FeatureName HypervisorPlatform -All -NoRestart
+
+Garantir que o hipervisor sobe junto com o Windows:
+
+    bcdedit /set hypervisorlaunchtype auto
+
+Agora reinicie de verdade:
+
+    Restart-Computer
+
+
+-------------------------------------------------------
+ETAPA 3 — CONFERIR DEPOIS DO REINÍCIO
+-------------------------------------------------------
+
+Estado dos recursos (os três devem dizer Enabled):
+
+    Get-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V | Select-Object State
+    Get-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform | Select-Object State
+    Get-WindowsOptionalFeature -Online -FeatureName HypervisorPlatform | Select-Object State
+
+Hipervisor ativo:
+
+    bcdedit /enum | Select-String "hypervisorlaunchtype"
+
+Deve aparecer "Auto".
+
+Serviço de máquina virtual rodando:
+
+    Get-Service vmms | Select-Object Name, Status
+
+
+-------------------------------------------------------
+ETAPA 4 — O TESTE QUE REALMENTE IMPORTA
+-------------------------------------------------------
+
+Abra o app do Claude, crie uma conversa configurada para rodar
+NO SEU COMPUTADOR (não na nuvem) e peça:
+
+    rode python3 --version e me diga onde isso executou
+
+Duas respostas possíveis:
+
+ - "workspace indisponível"  -> a VM ainda não sobe. Volte à etapa 1.
+ - a versão do Python        -> LEIA A CONTINUAÇÃO DA RESPOSTA.
+
+ARMADILHA IMPORTANTE: se junto com a versão vier algo como "não tenho shell
+na sua máquina, executei no ambiente da sessão", então quem respondeu foi a
+NUVEM, não o seu computador — e o teste não provou nada sobre o Hyper-V.
+O teste só vale se a conversa estiver marcada para executar no computador.
+
+Funcionando de verdade, a tarefa local passa a fazer o ciclo inteiro sozinha,
+sem depender de conversa nenhuma. Aí é só reativar a Carrossel 11h e criar as
+outras três com o mesmo texto do COLAR-NA-TAREFA.txt.
+
+
+-------------------------------------------------------
+AVISOS
+-------------------------------------------------------
+
+- VirtualBox e VMware Workstation antigos brigam com o Hyper-V ligado. Se você
+  usa algum, ou atualiza para versão compatível, ou escolhe um dos dois.
+
+- Para desfazer tudo, se der problema:
+
+    Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -NoRestart
+    bcdedit /set hypervisorlaunchtype off
+    Restart-Computer
+
+- Notebook com bateria: o Hyper-V ligado costuma reduzir um pouco a autonomia,
+  porque mantém o hipervisor sempre ativo.

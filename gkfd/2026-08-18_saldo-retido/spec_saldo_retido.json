@@ -1,0 +1,83 @@
+{
+  "slug": "gkfd_saldo_retido",
+  "outdir": "pc_gkfd3",
+  "paleta": "G06",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "credencial": "Contabilidade no Simples Nacional para vendedor de marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "cargo": "Contador",
+    "cta": "GKFD Contábil · atendimento nacional",
+    "site": "Fábio Rebouças — Contador",
+    "assinatura": "GKFD Contábil · Mercado Líder Platinum<br>Contabilidade no Simples Nacional para vendedor de marketplace",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o extrato de saldo e o repasse do mês. Em até 24h úteis eu digo o que está preso e desde quando",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "doc:extrato/dobra",
+    "linho",
+    "concreto",
+    "gesso",
+    "duna"
+  ],
+  "seeds": [4411, 4412, 4413, 4414, 4415],
+  "overlay": [
+    ".74,.84,.93",
+    ".18,.34",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L4",
+      "chamada": "O DINHEIRO JÁ É SEU",
+      "peca": "SALDO RETIDO",
+      "cifra": {
+        "rotulo": "o que a retenção abate da base do DAS",
+        "valor": "R$ 0,00"
+      },
+      "headline": "O saldo ficou retido e <b>o DAS venceu do mesmo jeito</b>",
+      "apoio": "Retenção é um problema de caixa que a plataforma cria e um problema fiscal que sobra para você. A venda aconteceu, a receita entrou na apuração, a guia venceu — e o dinheiro continua do outro lado da tela, sem composição e sem prazo."
+    },
+    {
+      "kicker": "Marketplace · retenção e capital de giro",
+      "titulo": "Reter o repasse não suspende nada: nem a receita, nem a guia, nem o prazo",
+      "passos": [
+        "<em>O fato gerador é a venda, não o crédito na conta.</em> Emitida a nota e concluída a operação, a receita entra na apuração do mês. O valor preso na plataforma é fato financeiro, não fato tributário: a base não encolhe porque o dinheiro atrasou.",
+        "<em>Saldo retido não é uma linha só.</em> Dentro do indisponível convivem garantia por reputação, valor a liberar por prazo de entrega, bloqueio por contestação aberta e retenção por divergência cadastral. Cada uma tem gatilho e prazo próprios.",
+        "<em>O capital de giro é seu e está com terceiro.</em> É aí que entra a antecipação e some a margem: custo financeiro para usar antes um dinheiro que já era seu — e, lançado como desconto de venda, ele ainda distorce a base de cálculo."
+      ],
+      "rodape": "Uma coisa é o prazo da plataforma. Outra é o prazo da Receita."
+    },
+    {
+      "kicker": "O que a auditoria de recebíveis abre",
+      "titulo": "Quatro perguntas que o extrato de saldo precisa responder",
+      "passos": [
+        "<em>Qual a composição exata do indisponível?</em> Bloqueado, a liberar e em garantia, separados por motivo e por data de entrada. Sem essa quebra não há como cobrar prazo nem contestar retenção.",
+        "<em>Cada retenção tem um pedido de origem?</em> Retenção sem vínculo com pedido, nota ou contestação identificada é a que ninguém acompanha — e a que envelhece.",
+        "<em>O que já venceu o prazo da própria plataforma?</em> Cruzar a data de conclusão do pedido com a data de liberação mostra o que passou da regra publicada.",
+        "<em>O que foi liberado voltou pelo valor cheio?</em> Liberação parcial, desconto na saída do bloqueio ou estorno embutido só aparecem confrontando o retido com o creditado em conta."
+      ],
+      "rodape": "As quatro saem do extrato de saldo cruzado com o repasse e o extrato bancário."
+    },
+    {
+      "kicker": "O erro que se repete",
+      "titulo": "O saldo preso vira prejuízo por falta de registro, não por falta de razão",
+      "passos": [
+        "<em>Ninguém datou a retenção.</em> O extrato mostra o saldo de hoje e sobrescreve o de ontem. Sem foto mensal do indisponível não há histórico — e sem histórico não se demonstra há quantos dias o valor está parado.",
+        "<em>A contestação não foi auditada até o fim.</em> Abre-se o chamado, a tela muda de status, e ninguém volta para conferir se o valor voltou. Sem controle de prazo e resultado, perde-se por decurso.",
+        "<em>A conciliação parou no total do mês.</em> Bater o valor global do repasse contra o banco dá sensação de fechado. O saldo retido só aparece linha a linha, contra pedido, nota e data."
+      ],
+      "rodape": "Identificamos cobranças e retenções indevidas e produzimos a apuração técnica necessária para buscar restituição, inclusive em dobro quando houver fundamento jurídico aplicável."
+    },
+    {
+      "ponte": "O saldo preso<br>tem data e dono.",
+      "itens": [
+        "Composição do indisponível aberta por motivo, por pedido e por data de entrada",
+        "Prazo de liberação conferido contra a regra publicada da plataforma, pedido a pedido",
+        "Conciliação do que foi liberado contra o crédito efetivo em conta, linha a linha"
+      ],
+      "oferta": "Mande o extrato de saldo e o repasse do mês. Em até 24h úteis eu digo o que está preso e desde quando"
+    }
+  ]
+}

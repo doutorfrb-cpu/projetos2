@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>IntegraJud — Encargos de mora / execução bancária — P07 Vinho Sóbrio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#1B0F13;        /* P07 VINHO SOBRIO - fundo */
+    --dest:#C9A227;      /* destaque */
+    --txt:#F3E9EA;       /* texto */
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#111;font-family:'Plus Jakarta Sans',sans-serif;display:flex;flex-direction:column;align-items:center;gap:28px;padding:28px}
+  .bar{width:1080px;display:flex;gap:12px;align-items:center;color:#aaa;font-size:14px}
+  .bar button{font:600 14px 'Plus Jakarta Sans';padding:10px 18px;border:0;border-radius:8px;background:var(--dest);color:#1B0F13;cursor:pointer}
+  .slide{
+    position:relative;width:1080px;height:1350px;overflow:hidden;
+    background-color:var(--bg);color:var(--txt);
+    display:flex;flex-direction:column;
+  }
+  .bgimg{position:absolute;inset:0;background-size:cover;background-position:center;filter:saturate(.65) contrast(1.02)}
+  .veil{position:absolute;inset:0}
+  /* overlay calibrado para paleta ESCURA sobre foto escura: .30 / .52 / .80 */
+  .veil.dark{background:linear-gradient(180deg,rgba(27,15,19,.30) 0%,rgba(27,15,19,.52) 46%,rgba(27,15,19,.80) 100%)}
+  .grain{position:absolute;inset:0;opacity:.16;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/></filter><rect width='240' height='240' filter='url(%23n)' opacity='.55'/></svg>")}
+  .inner{position:relative;z-index:3;display:flex;flex-direction:column;height:100%;padding:96px 88px}
+
+  .mark{font:800 22px 'Plus Jakarta Sans';letter-spacing:.24em;color:var(--dest);text-transform:uppercase}
+  .rule{width:96px;height:4px;background:var(--dest);margin:30px 0 0}
+
+  h1{font:700 96px/1.02 'Plus Jakarta Sans';letter-spacing:-.02em;text-transform:uppercase}
+  .sup{font:500 33px/1.45 'Plus Jakarta Sans';color:#E6D6C4;max-width:850px}
+
+  .kicker{font:800 21px 'Plus Jakarta Sans';letter-spacing:.24em;color:var(--dest);text-transform:uppercase}
+  h2{font:600 74px/1.08 'Playfair Display',serif;margin-top:22px}
+  ol{list-style:none;margin-top:56px;display:flex;flex-direction:column;gap:38px}
+  ol li{display:flex;gap:26px;align-items:flex-start}
+  ol li .n{font:700 30px 'Plus Jakarta Sans';color:var(--dest);line-height:1.35;min-width:44px}
+  ol li .t{font:400 32px/1.42 'Plus Jakarta Sans';color:#F0E4E6}
+  ol li .t b{font-weight:700;color:#fff}
+  .foot{font:500 27px/1.4 'Plus Jakarta Sans';color:#DCC9B6;border-top:1px solid rgba(201,162,39,.42);padding-top:30px}
+
+  .bridge{font:500 50px/1.28 'Playfair Display',serif}
+  .svc{margin-top:44px;display:flex;flex-direction:column;gap:20px}
+  .svc div{font:500 30px 'Plus Jakarta Sans';color:#F0E4E6;display:flex;gap:20px;align-items:center}
+  .svc div::before{content:"";width:12px;height:12px;background:var(--dest);flex:0 0 12px;transform:rotate(45deg)}
+  .cred{font:600 25px/1.5 'Plus Jakarta Sans';color:#DCC9B6;margin-top:40px}
+  .cred span{display:block;font-weight:400;color:#BFAA96}
+
+  .offer{font:600 30px/1.35 'Plus Jakarta Sans';color:#FFF;margin-top:44px;max-width:830px}
+  .band{margin:44px auto;width:78%;background:var(--dest);border-radius:14px;
+        display:flex;align-items:center;justify-content:center;gap:22px;padding:26px 30px}
+  .band svg{width:52px;height:52px;display:block}
+  .band span{font:800 52px 'Plus Jakarta Sans';color:#1B0F13;letter-spacing:.01em}
+  .site{text-align:center;font:500 25px 'Plus Jakarta Sans';color:#DCC9B6}
+  .spacer{flex:1}
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <button onclick="baixar()">Baixar os 3 PNGs</button>
+  <span>1080×1350 · P07 VINHO SÓBRIO · eixo 1 · A4 bancários</span>
+</div>
+
+<!-- ============ SLIDE 1 — GANCHO ============ -->
+<div class="slide" id="s1">
+  <div class="bgimg" style='background-image:url("https://images.pexels.com/photos/16978372/pexels-photo-16978372.jpeg?auto=compress&cs=tinysrgb&w=1600")'></div>
+  <div class="veil dark"></div>
+  <div class="grain"></div>
+  <div class="inner">
+    <div class="mark">@integrajud</div>
+    <div class="spacer"></div>
+    <h1>A mora foi cobrada três vezes. O prazo dos embargos correu</h1>
+    <div class="rule"></div>
+    <p class="sup" style="margin-top:38px">Comissão de permanência, juros de mora e multa somados na mesma parcela. A conta entrou nos autos sem separação.</p>
+  </div>
+</div>
+
+<!-- ============ SLIDE 2 — VALOR ============ -->
+<div class="slide" id="s2">
+  <div class="bgimg" style="background:
+      radial-gradient(120% 80% at 20% 10%, #2a1a1f 0%, #180d11 60%, #120a0d 100%),
+      repeating-linear-gradient(115deg, rgba(255,255,255,.035) 0 2px, transparent 2px 7px)"></div>
+  <div class="veil dark"></div>
+  <div class="grain" style="opacity:.28"></div>
+  <div class="inner">
+    <div class="kicker">Execução de contrato bancário</div>
+    <h2>Onde o encargo se duplica</h2>
+    <ol>
+      <li><span class="n">01</span><span class="t">Comissão de permanência <b>não acumula</b> com juros remuneratórios, moratórios e multa — Súmula 472 do STJ.</span></li>
+      <li><span class="n">02</span><span class="t">Capitalização mensal exige pactuação expressa. Conferir a taxa anual contra o duodécuplo da mensal — Súmula 541.</span></li>
+      <li><span class="n">03</span><span class="t">Encargo de inadimplência incide a partir do vencimento, não da data do contrato.</span></li>
+      <li><span class="n">04</span><span class="t">Tarifa repassada ao saldo devedor passa a render juros e realimenta a dívida.</span></li>
+    </ol>
+    <div class="spacer"></div>
+    <p class="foot">Separar encargo por encargo é o que transforma alegação em demonstração.</p>
+  </div>
+</div>
+
+<!-- ============ SLIDE 3 — OFERTA ============ -->
+<div class="slide" id="s3">
+  <div class="bgimg" style='background-image:url("https://images.pexels.com/photos/33656448/pexels-photo-33656448.jpeg?auto=compress&cs=tinysrgb&w=1600")'></div>
+  <div class="veil dark" style="background:linear-gradient(180deg,rgba(27,15,19,.62) 0%,rgba(27,15,19,.80) 50%,rgba(27,15,19,.92) 100%)"></div>
+  <div class="grain"></div>
+  <div class="inner">
+    <div class="mark">@integrajud</div>
+    <div class="spacer"></div>
+    <p class="bridge">A conta da execução pode ser refeita linha a linha.<br>O que sustenta o embargo é a memória, não a alegação.</p>
+    <div class="svc">
+      <div>Recálculo de contrato e execução bancária</div>
+      <div>Assistência técnica em embargos e impugnação</div>
+      <div>Parecer contábil com memória de cálculo</div>
+    </div>
+    <div class="cred">Fábio Rebouças — Contador e Perito Contábil<span>IntegraJud · Inteligência pericial para advocacia</span></div>
+    <p class="offer">Mande a planilha do banco. Em até 24h úteis eu digo se há o que impugnar.</p>
+    <div class="band">
+      <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path fill="#1B0F13" d="M16.02 3.2C8.94 3.2 3.2 8.94 3.2 16.02c0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.52-1.7a12.77 12.77 0 0 0 6.3 1.64h.01c7.07 0 12.81-5.74 12.81-12.82S23.1 3.2 16.02 3.2Zm0 23.05h-.01c-1.98 0-3.92-.53-5.61-1.54l-.4-.24-4.16 1.09 1.11-4.05-.26-.42a10.6 10.6 0 0 1-1.63-5.67c0-5.89 4.8-10.68 10.7-10.68 2.85 0 5.53 1.11 7.55 3.13a10.6 10.6 0 0 1 3.13 7.56c0 5.89-4.8 10.68-10.42 10.68Zm5.86-8c-.32-.16-1.9-.94-2.19-1.04-.3-.11-.51-.16-.72.16-.21.32-.83 1.04-1.02 1.25-.19.21-.38.24-.7.08-.32-.16-1.35-.5-2.58-1.59-.95-.85-1.6-1.9-1.79-2.22-.19-.32-.02-.49.14-.65.15-.14.32-.38.48-.57.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.99-2.37-.26-.62-.52-.54-.72-.55l-.61-.01c-.21 0-.56.08-.85.4-.29.32-1.11 1.09-1.11 2.65s1.14 3.08 1.3 3.29c.16.21 2.24 3.42 5.43 4.8.76.33 1.35.52 1.81.67.76.24 1.45.21 2 .13.61-.09 1.9-.78 2.16-1.53.27-.75.27-1.39.19-1.53-.08-.13-.29-.21-.61-.37Z"/></svg>
+      <span>11 97723-7113</span>
+    </div>
+    <p class="site">www.integrajud.com.br · link na bio</p>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+async function baixar(){
+  const nomes = {s1:'integrajud_encargosmora_1.png', s2:'integrajud_encargosmora_2.png', s3:'integrajud_encargosmora_3.png'};
+  for (const id of ['s1','s2','s3']) {
+    const c = await html2canvas(document.getElementById(id), {width:1080, height:1350, scale:1, useCORS:true, backgroundColor:'#1B0F13'});
+    const a = document.createElement('a');
+    a.download = nomes[id];
+    a.href = c.toDataURL('image/png');
+    a.click();
+    await new Promise(r=>setTimeout(r,700));
+  }
+}
+</script>
+</body>
+</html>

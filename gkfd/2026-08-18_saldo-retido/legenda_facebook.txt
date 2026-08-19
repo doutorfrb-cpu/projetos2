@@ -1,0 +1,23 @@
+Reter o repasse não suspende nada: nem a receita, nem a guia, nem o prazo.
+
+Para o vendedor de marketplace, saldo retido é um problema duplo. De caixa, porque o dinheiro existe, é seu e você não pode usar. E fiscal, porque o fato gerador é a venda, não o crédito na conta — concluída a operação e emitida a nota, a receita entra na apuração do mês e o DAS vence na data de sempre. A base de cálculo não diminui porque a plataforma segurou o pagamento.
+
+O que quase nunca é aberto é a composição. "Indisponível" é um saco onde cabem coisas diferentes: reserva de garantia ligada à reputação, valor a liberar por prazo de entrega, bloqueio por contestação em aberto, retenção por divergência cadastral. Cada uma tem gatilho próprio, prazo próprio e caminho próprio de solução. Enquanto tudo aparece somado num número só, não existe o que cobrar.
+
+E há o custo que ninguém contabiliza: capital de giro preso empurra para a antecipação de recebível. Você paga custo financeiro para usar antes um dinheiro que já era seu, e esse custo, lançado como desconto de venda, ainda distorce a base.
+
+Quatro perguntas que o extrato de saldo precisa responder:
+
+1. Qual a composição exata do indisponível, separada por motivo, por pedido e por data de entrada?
+2. Cada retenção tem um pedido de origem identificado?
+3. O que já venceu o prazo de liberação publicado pela própria plataforma?
+4. O que foi liberado voltou pelo valor cheio, ou houve desconto e estorno embutidos no mesmo lançamento?
+
+O erro que se repete raramente é falta de razão — é falta de registro. Ninguém datou a retenção, a contestação não foi auditada até o resultado, e a conciliação parou no total do mês. Saldo retido só aparece linha a linha, contra pedido, nota e data.
+
+Identificamos cobranças e retenções indevidas e produzimos a apuração técnica necessária para buscar restituição, inclusive em dobro quando houver fundamento jurídico aplicável.
+
+Mande o extrato de saldo e o repasse do mês. Em até 24h úteis eu digo o que está preso e desde quando: https://wa.me/5511977237113
+
+GKFD Contábil — contabilidade no Simples Nacional para vendedor de marketplace.
+Fábio Rebouças — Contador · Mercado Líder Platinum

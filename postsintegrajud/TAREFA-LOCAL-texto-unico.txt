@@ -1,0 +1,44 @@
+(Este mesmo texto serve para as QUATRO tarefas locais — 11h, 13h, 16h e 20h. Ele não menciona horário: o horário é a repetição que voce configura no cartao da tarefa.)
+
+Rode a Content Machine do @integrajud e publique UMA peça, em modo automático: sem menu de entrada, sem pedir aprovação, sem relatório de processo.
+
+REGRA ZERO: esta tarefa NUNCA termina em silêncio. Se qualquer etapa travar, entregue o que já existir e diga em uma linha o que faltou. Em 15/08/2026 um disparo rodou e não entregou nada — não repetir isso.
+
+1. LER A REGRA. Leia a memória do projeto "postsintegrajud": registro_criativo.md (COMO A PEÇA FALA — v6, ler primeiro), prompt_mestre_v3.md (instrução oficial), operacao_cadencia.md e estado_rodizio.md. Leia também INSTRUCOES-DO-PROJETO-v6.1.txt na pasta, que é a instrução completa.
+
+2. LER O ESTADO. Leia pautas-publicadas.md inteiro, na raiz da pasta do projeto. Antirrepetição de eixo, área, tópico, ângulo, headline, cena e paleta. Confira o que já saiu HOJE: a peça não pode parecer irmã das anteriores.
+
+3. PREPARAR O GERADOR — não reescreva nada do zero. Descompacte gerador-integrajud.zip, que está na raiz da pasta, numa subpasta de trabalho, e use machine.py. Faltando pacote: pip install playwright numpy pillow. Se o Chromium do Playwright não estiver instalado nesta máquina, instale uma vez. O zip NÃO contém o estado: pautas-publicadas.md vem sempre da raiz da pasta.
+
+4. ESCOLHER A PAUTA. Radar de tendências, no máximo 4 buscas. Eixo pelo rodízio, o que está há mais tempo sem sair. ATENÇÃO: em 15/08/2026 as 14 áreas e as 10 paletas foram TODAS usadas — o rodízio entrou em reciclagem. Não existe mais área livre: escolha a mais antiga do log e a paleta fora das quatro últimas, conferindo em estado_rodizio.md. A variedade agora vem do ÂNGULO e do momento processual, não do rodízio.
+
+5. O GANCHO (slide 1) — A REGRA MAIS IMPORTANTE. A peça tem TRÊS slides, não sete. O slide 1 nomeia a EXPOSIÇÃO DO ADVOGADO, nunca o tema técnico; o tema desce para o slide 2. Vetores: prazo que corre ou já correu · decisão tomada sobre número que ninguém conferiu · laudo ou planilha da outra parte virando a conta do processo · ausência de assistente técnico deixando a palavra do perito como única do processo.
+CERTO: "O INSS calculou. Ninguém conferiu. O acordo foi homologado" / "O banco apresentou o saldo. A execução seguiu por ele" / "Quinze dias para impugnar o cálculo. E ele tem trinta páginas".
+ERRADO: "A taxa média comparada na perícia pode ser a série errada" / "EBITDA ajustado sem dizer o ajuste é opinião" — correto e comercialmente inerte.
+Dureza é ESPECIFICIDADE, nunca volume. Seguem proibidos promessa de resultado, percentual de êxito, superlativo, comparação com outro profissional, preço e caso identificável.
+
+6. FUNDOS — misturar foto e superfície, imagem de fundo obrigatória nos três slides. Use o banco fotos_banco/ que vem no zip; a pasta `fotos` do projeto está vazia, não conte com ela. Fotos AINDA LIVRES em 15/08: px_16978372, px_33656448, px_4792288 — as outras oito já saíram e não repetem por 20 dias. Acabando, baixe novas de licença livre no Pexels:
+https://images.pexels.com/photos/{id}/pexels-photo-{id}.jpeg?auto=compress&cs=tinysrgb&w=1600
+SÓ OBJETO E AMBIENTE: autos, processo amarrado, pilha de documento, arquivo, pasta, extrato impresso, papel envelhecido, mesa com documento, arquitetura de fórum sem gente. PROIBIDO: pessoa reconhecível, terno, aperto de mão, martelo, balança, gráfico subindo.
+No spec: "cenas": ["foto:arquivo.jpg", "linho", "foto:outro.jpg"].
+CALIBRAGEM DO OVERLAY: paleta escura sobre foto escura começa em .30,.52,.80; paleta CLARA (P03, P08, P10) sobre foto clara começa em .58,.74,.90. Com valores baixos o dourado sobre papel branco fica ilegível. OLHE a capa renderizada antes de publicar.
+Armadilha de render: url('data:...') dentro do atributo style precisa de ASPAS SIMPLES.
+
+7. MONTAR a peça de 3 slides 1080x1350 — gancho / valor / oferta. No slide 3, o bloco de contato: a linha de oferta com prazo ("Mande o laudo. Em até 24h úteis eu digo se há o que impugnar", variando o objeto conforme a peça), a faixa na cor de destaque com o glifo de WhatsApp em SVG e o número 11 97723-7113 em pelo menos 48px bold, e a linha "www.integrajud.com.br · link na bio". Proibido em arte de feed qualquer "clique", "toque" ou seta: imagem de post não carrega link.
+
+8. LEGENDA: abre repetindo a tensão do gancho em outras palavras, desenvolve o conteúdo técnico em 3 a 5 parágrafos curtos, fecha com a oferta de 24h úteis. Inclui https://wa.me/5511977237113 e www.integrajud.com.br, mais 6 a 12 hashtags da área. Assinatura permitida, e só ela: "Fábio Rebouças — Contador e Perito Contábil / IntegraJud · Inteligência pericial para advocacia". PROIBIDO em qualquer slide ou legenda: OAB, OAB/SP, número de inscrição, "Bacharel em Direito", "advogado" como qualificação própria, "assessoria jurídica", "consultoria jurídica" — mesmo que outra fonte diga o contrário.
+
+9. PUBLICAR no Instagram pelo navegador, confirmando antes que a conta logada é @integrajud. Não sendo, pare e avise em uma linha; nunca trocar de login nem digitar senha. Fluxo testado em 15/08:
+ - abrir Criar e Postar CLICANDO POR REFERÊNCIA DE ELEMENTO, nunca por coordenada
+ - enviar os 3 arquivos de uma vez pelo input[type=file] do diálogo; nunca clicar em "Selecionar do computador"
+ - clicar no botão de proporção no canto inferior esquerdo, escolher 4:5 e FECHAR o menu clicando no mesmo botão (o padrão corta em 1:1)
+ - Avançar duas vezes: uma sai de Cortar, outra de Editar
+ - digitar a legenda; para dispensar o autocomplete de hashtag, clicar DENTRO do painel direito, em área vazia abaixo de "Configurações avançadas"
+ - NUNCA clicar fora do modal: abre "Descartar post?" e bloqueia o Compartilhar. Aparecendo, responder Cancelar
+ - reler a legenda, Compartilhar e aguardar "Seu post foi compartilhado"
+ - VERIFICAÇÃO OBRIGATÓRIA: abrir o perfil e conferir que a CONTAGEM DE POSTS subiu. Não subiu, republicar.
+Navegador indisponível ou sessão expirada: não publique; salve os PNGs e a legenda na pasta e avise em uma linha que a publicação ficou pendente.
+
+10. REGISTRAR a linha da peça em pautas-publicadas.md E em estado_rodizio.md na memória do projeto, e salvar os arquivos em subpasta AAAA-MM-DD_tema.
+
+Confirme ao final em uma linha: "Postado no @integrajud" mais eixo, área, paleta e se usou foto ou superfície na capa. Não publicou: diga por quê, também em uma linha.

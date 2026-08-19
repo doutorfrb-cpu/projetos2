@@ -1,0 +1,80 @@
+{
+ "slug": "integrajud_margem_consignavel",
+ "outdir": "pc_18h",
+ "paleta": "P04",
+ "cenas": [
+  "doc:extrato/formulario",
+  "linho",
+  "granito",
+  "doc:comparativo/liso",
+  "foto:px_9439258.jpg"
+ ],
+ "seeds": [
+  3101,
+  3102,
+  3103,
+  3104,
+  3105
+ ],
+ "overlay": [
+  ".84,.90,.96",
+  ".42,.60",
+  ".44,.72"
+ ],
+ "slides": [
+  {
+   "layout": "L4",
+   "chamada": "SE ISSO ESTÁ NO SEU PROCESSO",
+   "peca": "AÇÃO REVISIONAL",
+   "cifra": {
+    "rotulo": "o que passou da margem em 24 meses",
+    "valor": "R$ 8.880"
+   },
+   "headline": "Você pede revisão. <b>E ninguém somou o excesso</b>",
+   "apoio": "Sem o somatório contrato a contrato, o excesso não vira pedido — vira alegação, e o juízo arbitra."
+  },
+  {
+   "kicker": "Consumidor · superendividamento",
+   "titulo": "O percentual todo mundo sabe. A base é que ninguém abre",
+   "passos": [
+    "<em>A margem incide sobre a remuneração disponível</em>, não sobre o bruto do holerite — e a diferença entre as duas bases muda o teto em reais.",
+    "<em>Da base saem os descontos obrigatórios</em>: previdência, imposto de renda, pensão alimentícia. Cada um derruba o limite consignável.",
+    "<em>Verba eventual e indenizatória não compõe a base</em>. Incluí-la infla a margem e faz o excesso caber no papel."
+   ],
+   "rodape": "A discussão raramente é sobre o percentual. É sobre a base sobre a qual ele foi aplicado."
+  },
+  {
+   "kicker": "O que a apuração responde",
+   "titulo": "Quatro perguntas que a inicial precisa responder com número",
+   "passos": [
+    "<em>Em que mês</em> o somatório dos contratos rompeu o teto — e qual era a remuneração disponível naquele mês.",
+    "<em>Quanto, em reais</em>, foi descontado além do limite, mês a mês, até a data do pedido.",
+    "<em>Quanto sobra</em> depois dos descontos, confrontado com a despesa comprovada: é isso que dimensiona o mínimo existencial.",
+    "<em>Qual contrato entrou por último</em> — é ele que excede, e é ele que o pedido precisa alcançar."
+   ],
+   "rodape": "Repactuação sem esses quatro números é plano de pagamento que a outra parte reescreve."
+  },
+  {
+   "painel": true,
+   "kicker": "Demonstração · margem consignável",
+   "titulo": "A mesma folha, o teto legal e o que foi descontado",
+   "passos": [
+    "Remuneração disponível no mês de referência: <em>R$ 3.000,00</em>.",
+    "Teto legal de 35%: o máximo consignável é <em>R$ 1.050,00</em>.",
+    "Descontos lançados em folha, quatro contratos somados: <em>R$ 1.420,00</em>.",
+    "Excesso de <em>R$ 370,00</em> por mês. Em 24 meses de desconto, <em>R$ 8.880,00</em>."
+   ],
+   "rodape": "Números de demonstração, não de caso real. O que a perícia faz é somar contrato a contrato e apontar o mês em que o teto foi rompido."
+  },
+  {
+   "retrato": "sim",
+   "ponte": "O excesso não se alega.<br>Ele se soma, mês a mês, e vira pedido.",
+   "itens": [
+    "Somatório de consignados e apuração da margem, mês a mês",
+    "Levantamento do mínimo existencial com despesa comprovada",
+    "Assistência técnica em revisional e repactuação de dívidas"
+   ],
+   "oferta": "Mande os contracheques e os contratos. Em até 24h úteis eu digo se a margem foi rompida"
+  }
+ ]
+}

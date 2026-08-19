@@ -1,0 +1,25 @@
+{
+  "_leia": "Substitua os valores COLE_AQUI. Não mande este arquivo para ninguém depois de preenchido.",
+
+  "ig_user_id": "COLE_AQUI_O_ID_DA_CONTA_INSTAGRAM",
+  "access_token": "COLE_AQUI_O_TOKEN_DE_60_DIAS",
+
+  "host": {
+    "tipo": "ftp",
+    "servidor": "ftp.integrajud.com.br",
+    "usuario": "COLE_AQUI_O_USUARIO_FTP",
+    "senha": "COLE_AQUI_A_SENHA_FTP",
+    "pasta_remota": "/public_html/posts",
+    "url_publica": "https://www.integrajud.com.br/posts"
+  },
+
+  "facebook": {
+    "page_id": "COLE_AQUI_O_ID_DA_PAGINA",
+    "page_token": "COLE_AQUI_O_TOKEN_DA_PAGINA"
+  },
+
+  "_facebook": "O page_token e o token DA PAGINA, nao o do usuario. Sai de GET /me/accounts, campo access_token. O Facebook nao precisa de hospedagem: a API aceita o arquivo direto.",
+
+  "_sem_ftp": "Não tendo FTP, troque tipo para manual, suba os PNGs pelo painel da hospedagem antes de rodar, e mantenha url_publica apontando para a pasta.",
+  "_token_vence": "O token de 60 dias vence. Anote a data de renovação na agenda."
+}

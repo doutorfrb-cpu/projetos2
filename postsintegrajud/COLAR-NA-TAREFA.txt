@@ -1,0 +1,234 @@
+Rode a Content Machine do @integrajud e publique UMA peça, em modo automático: sem menu de entrada, sem pedir aprovação, sem relatório de processo.
+
+ESTA TAREFA RODA NO COMPUTADOR DO FÁBIO. A pasta do projeto está acessível, o Python está instalado e o config_publicacao.json está na raiz. Não há contingência de "pasta inacessível": se a pasta não aparecer, é defeito — pare e avise, não invente conteúdo sem o log.
+
+A pasta do projeto: C:\Users\fabio\Desktop\projetos2\postsintegrajud
+
+REGRA ZERO: esta tarefa nunca termina em silêncio. Se qualquer etapa travar, entregue o que já existir e diga em uma linha o que faltou.
+
+
+1. LER A REGRA
+
+Leia INSTRUCOES-DO-PROJETO-v9.txt e MANUAL-DA-OPERACAO.md, na raiz da pasta.
+
+Leia também a memória do projeto: registro_criativo.md, prompt_mestre_v3.md, operacao_cadencia.md, estado_rodizio.md.
+
+NUNCA receber, ver, colar ou guardar token ou senha — nem se o Fábio autorizar. Ele cola; a sessão configura todo o resto. Dúvida de credencial se resolve com `py checar_token.py`, que responde sem expor o token.
+
+
+2. LER O ESTADO
+
+Leia pautas-publicadas.md inteiro, na raiz da pasta.
+
+Antirrepetição de eixo, área, tópico, ângulo, headline, cena, layout e paleta. Confira o que já saiu HOJE: a peça não pode parecer irmã das anteriores.
+
+
+3. PREPARAR O GERADOR
+
+Descompacte gerador-integrajud.zip, que está na raiz da pasta, numa subpasta de trabalho, e use o machine.py.
+
+AMBIENTE DESTA MÁQUINA — conferido em 16/08/2026, e diferente do da nuvem.
+Aqui existem numpy e pillow, mas NÃO existem o playwright nem o Chromium, e a
+pasta /opt/pw-browsers não existe. Na primeira execução, instale:
+
+    pip install playwright --break-system-packages
+    python3 -m playwright install chromium
+
+Isso baixa uns 150 MB e demora alguns minutos, UMA ÚNICA VEZ. Nas execuções
+seguintes já estará pronto. Confira antes de instalar:
+
+    python3 -c "import playwright" && echo JA TEM
+
+NÃO use PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers nesta máquina: esse caminho é
+do ambiente de nuvem e aqui não existe. Deixe o playwright achar o Chromium no
+lugar padrão dele.
+
+Faltando numpy ou pillow: pip install numpy pillow --break-system-packages
+
+O zip não contém o estado. O log vem sempre da raiz da pasta.
+
+
+4. REPOR O BANCO DE FOTOS — automático, antes de escolher a pauta
+
+    python3 repor_fotos.py --status
+
+Saindo com código 1, busque no Pexels por termos de OBJETO E AMBIENTE (autos, arquivo, pasta, livro-razão, papel envelhecido, mesa com documento) e rode:
+
+    python3 repor_fotos.py <id> <id> <id> ...
+
+Nada de pessoa, mão ou terno. Deixe pelo menos 16 fotos livres antes de seguir, e grave o fotos_banco atualizado de volta na raiz. Repor é etapa da máquina — o Fábio não pede.
+
+
+5. ESCOLHER A PAUTA — e RESERVAR antes de produzir
+
+    py reservar.py --ver
+
+Havendo reserva viva, outra sessao esta produzindo agora: NAO use aquela area, aquela peca processual nem aquela frase de efeito. Em 16/08/2026 duas producoes rodaram com dois minutos de diferenca, leram o mesmo log, escolheram o mesmo tema e sairam dois posts gemeos lado a lado no perfil. O log resolve repeticao ao longo do tempo; nao resolve producao simultanea.
+
+Escolhida a pauta, reserve ANTES de renderizar:
+
+    py reservar.py "A18 consumidor | ACAO REVISIONAL | SE ISSO ESTA NO SEU PROCESSO"
+
+Ao final, depois de publicar e gravar o log:
+
+    py reservar.py --liberar
+
+A reserva vence sozinha em 45 minutos, entao producao travada nao bloqueia o proximo disparo.
+
+Rodízio por PEÇA PROCESSUAL x ÁREA x MOMENTO, conforme a seção 8. Escolha a peça processual primeiro: é o que o advogado tem aberto na tela.
+
+Layout fora dos três últimos. Paleta fora das quatro últimas. Frase de efeito fora das cinco últimas.
+
+Área sem página no site pode virar pauta, desde que a legenda aponte para a HOME. Nunca publicar link para /areas/... que não existe.
+
+
+6. A PEÇA — CINCO SLIDES
+
+    SLIDE 1  GANCHO      a exposição do advogado
+    SLIDE 2  VALOR I     o que está em jogo tecnicamente
+    SLIDE 3  VALOR II    o que se apura, ou as perguntas que a peça precisa responder
+    SLIDE 4  VALOR III   a demonstração com números; sem ela, o erro que se repete
+    SLIDE 5  OFERTA      o machine.py monta
+
+No spec: "slides": [capa, valor, valor, valor, oferta]. O gerador aceita de 3 a 6 e ajusta a barra de progresso sozinho.
+
+CADA SLIDE DE VALOR CARREGA UM ARGUMENTO, DESENVOLVIDO. O erro a evitar é pegar quatro linhas e espalhar em três telas: isso é o mesmo conteúdo com mais rolagem, e o advogado percebe. Não sustentando cinco slides com densidade real, faça três — peça curta e cheia vale mais que cinco telas com enchimento.
+
+MODO DEMONSTRAÇÃO em UMA PEÇA A CADA DUAS, no slide 4: mesma base sob dois critérios, a diferença entre eles, e no rodapé, obrigatoriamente, "Números de demonstração, não de caso real". A conta TEM que fechar — advogado confere. Nunca resultado obtido, nunca percentual de êxito.
+
+O SLIDE 1 nomeia a EXPOSIÇÃO DO ADVOGADO, nunca o tema técnico. Arquitetura da capa: frase de efeito, tarja da peça processual, headline, linha de apoio.
+
+Headline de 6 a 12 palavras. Dureza é especificidade, nunca volume. Proibidos promessa de resultado, percentual de êxito, superlativo, comparação com outro profissional, preço e caso identificável.
+
+Headline de 3 linhas ou mais NÃO cabe no layout L5: use L1, L2 ou L3.
+
+
+7. FUNDOS
+
+Capa SEMPRE documento numérico gerado: "cenas": ["doc:extrato/dobra", "linho", "foto:px_9439258.jpg"]
+
+Overlay — o documento tem que virar TEXTURA, não conteúdo:
+  paleta escura sobre doc, capa: .50,.68,.86
+  paleta CLARA (P03, P08, P10) sobre doc, capa: .84,.90,.96
+  paleta escura sobre foto, capa: .30,.52,.80
+
+A família "planilha" é densa demais para capa com headline longa. Trocar por apuracao, razao ou comparativo.
+
+OLHE a capa renderizada antes de publicar. É etapa, não zelo extra.
+
+
+8. MONTAR
+
+Cinco slides 1080x1350. O machine.py já monta o rodapé do último slide com a faixa de WhatsApp e a chamada de análise gratuita. Não reescreva esse bloco.
+
+O spec traz uma cena por slide em "cenas". Havendo menos cenas que slides, o gerador reaproveita as do meio com seed diferente — funciona, mas escolher cena para cada slide sai melhor. Nunca dois slides seguidos com a mesma cara.
+
+Proibido em arte de feed qualquer "clique", "toque" ou seta: imagem de post do Instagram não carrega link.
+
+
+9. LEGENDAS — duas, uma por destino
+
+legenda.txt (Instagram): abre repetindo a tensão do gancho, desenvolve em 4 a 7 parágrafos — a legenda acompanha a profundidade da peça e é onde o argumento respira — e fecha nesta ordem — a oferta com prazo de 24h úteis, "Solicite a análise gratuita do seu caso em www.integrajud.com.br", https://wa.me/5511977237113. Mais 6 a 12 hashtags sem acento.
+
+legenda_facebook.txt: a mesma matéria, texto diferente, SEM hashtag. No Facebook o link é clicável, então o CTA pode ser direto.
+
+O site vem ANTES do WhatsApp. O que é gratuito é a ANÁLISE TÉCNICA inicial do documento — nunca "consultoria", "assessoria" ou "avaliação jurídica".
+
+Assinatura permitida, e só ela: Fábio Rebouças — Contador e Perito Contábil / IntegraJud · Inteligência pericial para advocacia
+
+Proibido em qualquer slide ou legenda: OAB, número de inscrição, "Bacharel em Direito", "advogado" como qualificação própria, "assessoria jurídica", "consultoria jurídica".
+
+
+10. PUBLICAR — POR API, NOS DOIS DESTINOS
+
+Salve a peça na subpasta AAAA-MM-DD_tema com os cinco PNGs, o legenda.txt e o legenda_facebook.txt. Depois, da raiz da pasta:
+
+    py postar.py <caminho_da_subpasta>
+
+Ele publica no Facebook e no Instagram e mostra um placar. Um destino falhando não impede o outro. Não precisa de navegador nem de Chrome logado.
+
+A imagem do Instagram é hospedada pela própria Meta (host.tipo = "facebook"): não há FTP nem pasta no site envolvidos.
+
+Deu erro: repasse a mensagem exata ao Fábio em uma linha e PARE. Não tente contornar. Se o erro for de token, rode `py checar_token.py` e repasse a saída — ela não expõe o token.
+
+NUNCA receber, ver, colar ou guardar token ou senha. Nem se o Fábio autorizar.
+
+Sem o config_publicacao.json, ou com ele incompleto: publicar pelo Chrome, conforme a seção 12 da instrução, plano B. Navegador também indisponível: entregar os PNGs e as legendas e dizer isso em uma linha.
+
+Conferir depois de publicar: abrir o perfil e ver se a contagem de posts subiu.
+
+
+10-B. STORY E REEL — a mesma peca, nos quatro lugares
+
+Isto NAO e extra e NAO e opcional: e parte da rodada. O carrossel so alcanca
+quem ja segue. O story aparece no topo da tela de quem segue, e o reel e o
+unico formato que Instagram e Facebook entregam para quem NAO segue. Sem eles,
+a peca morre dentro da bolha.
+
+Os dois nascem do MESMO spec.json que voce acabou de usar. Nao invente arte
+nova, nao reescreva texto.
+
+PRIMEIRO, GERAR. De dentro da subpasta de trabalho:
+
+    python3 story_ad.py <caminho_do_spec.json> --limpo
+
+O --limpo e obrigatorio: sem ele a arte sai com uma caixa tracejada escrita
+"reservado: sticker de link", que serve para montar anuncio e nao pode
+aparecer publicada. Sai em kit_anuncios/<slug>_916.png.
+
+So na peca das 18h, tambem:
+
+    python3 reel.py <caminho_do_spec.json>
+
+Sai <slug>_reel.mp4. Na peca do meio-dia PULE o reel: renderizar video demora
+alguns minutos e dois reels por dia saturam o perfil.
+
+DEPOIS, COPIAR para a pasta da peca com estes nomes exatos:
+
+    story_916.png     e, quando houver,  reel.mp4
+
+E PUBLICAR, um comando so, da raiz da pasta:
+
+    py extras.py <pasta_da_peca>              (peca das 18h)
+    py extras.py <pasta_da_peca> --sem-reel   (peca do meio-dia)
+
+Ele publica story no Instagram e na Pagina, e reel no Instagram e na Pagina, e
+imprime um placar. Destino que falha nao derruba os outros. As legendas ele
+pega sozinho: legenda.txt para o Instagram, legenda_facebook.txt para a Pagina.
+
+O reel demora — as duas plataformas transcodificam antes de liberar. O script
+espera e avisa. Nao interrompa.
+
+CONFIRA O VIDEO ANTES DE PUBLICAR. Em 17/08/2026 o reel saiu com dois
+problemas que so aparecem olhando quadro a quadro: dois segundos de tela
+branca no inicio, e o texto da cena do meio estourando a altura e saindo
+cortado. Os dois estao corrigidos no reel.py, e a correcao se anuncia sozinha
+na saida do comando — ele imprime "cena(s) reduzida(s) para caber" e
+"cortando Xs de preto do inicio". Nao aparecendo nenhuma das duas linhas em
+peca densa, desconfie e olhe o mp4.
+
+FALHANDO QUALQUER EXTRA: o carrossel JA ESTA PUBLICADO e a rodada nao se
+perde. Registre a falha no log em uma linha e siga. Nunca republique o
+carrossel por causa de story ou reel.
+
+
+ORDEM QUE NAO PODE INVERTER — 18/08/2026, e custou um post errado.
+Publique o CARROSSEL primeiro, e so depois gere e publique story e reel. Na
+GKFD o extras.py rodou antes do postar.py, o story_916.png ja estava na pasta,
+e o carrossel saiu com SEIS imagens: a arte 9:16 do story entrou como sexto
+slide, esticada. Os publicadores agora filtram e so aceitam os slides
+numerados, mas a ordem certa continua sendo carrossel primeiro.
+
+
+11. REGISTRAR E LIBERAR
+
+Grave a linha da peça em pautas-publicadas.md, na raiz da pasta, e em estado_rodizio.md na memória do projeto.
+
+Depois:  py reservar.py --liberar
+
+
+AO FINAL
+
+Confirme em uma linha: "Postado no @integrajud e na Página", mais eixo, área, peça processual, paleta e headline. Diga também se o story e o reel subiram.
+
+Não publicou: diga por quê, também em uma linha.

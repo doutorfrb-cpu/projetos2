@@ -1,0 +1,56 @@
+CARROSSEL @integrajud — "6 sinais de que o cálculo da execução está errado"
+11 slides · 1080x1350 · acento ametista sobre preto · 2 figuras
+
+------------------------------------------------------------------
+LEGENDA
+------------------------------------------------------------------
+
+Ninguém impugna um total. Impugna-se o passo que produziu o total.
+
+Uma diferença de índice ou de data-base não fica onde nasceu: entra
+no principal, é corrigida junto e volta multiplicada em cada
+atualização seguinte da execução. Por isso o erro raro é o erro
+grosseiro — o comum é a escolha não declarada, que passa despercebida
+porque nenhuma linha isolada parece errada.
+
+No carrossel, os 6 sinais que costumam denunciar um cálculo que não
+se sustenta, a anatomia completa de um cálculo de liquidação (do
+principal ao total, com a escolha embutida em cada etapa) e o quadro
+das duas planilhas: a que se confere e a que não.
+
+Reviso e elaboro cálculos de liquidação e execução, produzo parecer
+técnico e atuo como assistente técnico em mais de 200 tipos de
+perícia — contábil, financeira, sistêmica e imobiliária.
+
+Mande a planilha e o título executivo.
+
+—
+Fábio Rebouças
+Administrador de Empresas (CRA/SP) · Bacharel em Direito (OAB/SP)
+
+------------------------------------------------------------------
+HASHTAGS
+------------------------------------------------------------------
+
+#execucao #liquidacao #calculojudicial #periciacontabil
+#periciajudicial #assistentetecnico #advocacia #direito
+#processocivil #advogado #cpc #impugnacao #direitocivil
+#atualizacaomonetaria #provapericial
+
+------------------------------------------------------------------
+ESTRUTURA DOS SLIDES
+------------------------------------------------------------------
+
+01 CAPA — 6 sinais de que o cálculo da execução está errado
+02 CONTEXTO — Ninguém impugna um total
+03 FIGURA 1 — Anatomia de um cálculo de liquidação (principal →
+   correção → juros → multa e honorários → abatimentos → total)
+04 SINAL 01 — Índice sem fonte declarada
+05 SINAL 02 — Data-base deslocada
+06 SINAL 03 — Juros contados duas vezes
+07 SINAL 04 — Ordem das operações trocada
+08 SINAL 05 — Pagamento abatido na data errada
+09 SINAL 06 — Planilha sem fórmula
+10 FIGURA 2 — Duas planilhas, dois destinos (não se confere × se
+   confere)
+11 CTA — Conta que não se refaz não se defende. @integrajud

@@ -1,0 +1,84 @@
+{
+  "slug": "gkfd_repasse_receita_bruta",
+  "outdir": "pc_gkfd1",
+  "paleta": "G01",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "credencial": "Contabilidade no Simples Nacional para vendedor de marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "cargo": "Contador",
+    "cta": "GKFD Contábil · atendimento nacional",
+    "site": "Fábio Rebouças — Contador",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa"
+  },
+  "cenas": [
+    "doc:apuracao/dobra",
+    "linho",
+    "gesso",
+    "doc:comparativo/liso",
+    "duna"
+  ],
+  "seeds": [
+    7101,
+    7102,
+    7103,
+    7104,
+    7105
+  ],
+  "overlay": [
+    ".93,.955,.975",
+    ".18,.34",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L2",
+      "chamada": "CONFERE UMA COISA",
+      "peca": "RELATÓRIO DE REPASSE",
+      "headline": "Sua nota saiu pelo preço da venda. <b>O dinheiro que entrou foi outro</b>",
+      "apoio": "Entre o valor anunciado e o que caiu na conta existem tarifa, frete subsidiado, publicidade e retenção. Se a receita foi lançada pelo bruto, o imposto correu sobre dinheiro que a plataforma nunca repassou."
+    },
+    {
+      "kicker": "Marketplace · apuração do mês",
+      "titulo": "O relatório de repasse não é extrato bancário. É a memória de cálculo da sua receita",
+      "passos": [
+        "<em>A plataforma não paga o preço da venda.</em> Ela paga a venda menos comissão, menos frete subsidiado, menos publicidade, menos ajuste de reclamação. O que sai do painel como faturamento e o que entra no banco são dois números diferentes — e os dois são verdadeiros.",
+        "<em>A receita de venda é a bruta, e isso é regra.</em> A comissão é despesa e não reduz a base do Simples. Mas devolução, venda estornada e valor retido em disputa não são despesa: são receita que não se realizou.",
+        "<em>Quem lança pelo que caiu na conta erra para menos.</em> Quem lança pelo bruto sem tratar estorno e retenção erra para mais, e paga a conta. Os dois erros nascem do mesmo lugar: ninguém abriu o relatório."
+      ],
+      "rodape": "O relatório existe, é baixável e quase nunca é aberto."
+    },
+    {
+      "kicker": "O que a conciliação responde",
+      "titulo": "Quatro perguntas que o seu mês precisa responder antes do dia 20",
+      "passos": [
+        "<em>A receita declarada bate com a soma das notas emitidas?</em> Se o painel e o arquivo de notas divergem, um dos dois está errado — e o Fisco cruza os dois.",
+        "<em>Toda devolução virou nota de entrada?</em> Devolução sem nota mantém a venda na apuração: a mercadoria voltou, o cliente foi reembolsado, e o imposto continua lá.",
+        "<em>O valor retido em disputa foi tratado?</em> Saldo bloqueado pela plataforma não é receita disponível. Tributado como se fosse, antecipa imposto sobre dinheiro que pode nunca vir.",
+        "<em>A publicidade e as tarifas têm documento hábil?</em> Débito sem nota não entra em lugar nenhum: some do resultado, e a margem que você acha que tem não é a que você tem."
+      ],
+      "rodape": "As quatro saem de dois arquivos que você já baixa todo mês."
+    },
+    {
+      "kicker": "O erro que se repete",
+      "titulo": "Quatro erros que nascem de fechar o mês olhando só o painel",
+      "passos": [
+        "<em>Lançar o total de vendas do painel como receita.</em> Um número, uma linha, mês fechado. O repasse fica sem abrir, e é dentro dele que estão as diferenças.",
+        "<em>Deixar estorno e devolução de fora</em>, porque no painel eles aparecem em outra aba. A receita nasce maior do que foi, e a diferença sai do seu bolso.",
+        "<em>Tratar retenção por disputa como receita normal.</em> O dinheiro está preso na plataforma, o imposto sai do caixa, e ninguém liga uma coisa na outra.",
+        "<em>Passar batido no DIFAL da venda interestadual.</em> Operação de rua quase não gera; marketplace gera toda semana, e a regra é a mesma."
+      ],
+      "rodape": "Nenhum é erro de tese. Todos são erro de leitura de documento.",
+      "painel": true
+    },
+    {
+      "ponte": "Apuração de marketplace se confere com o repasse na mão.<br>O arquivo você já baixa todo mês.",
+      "itens": [
+        "Conciliação de repasse contra nota fiscal, mês a mês",
+        "Tratamento de devolução, estorno e saldo retido na apuração",
+        "Revisão de anexo e Fator R para operação de marketplace"
+      ],
+      "oferta": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa"
+    }
+  ]
+}

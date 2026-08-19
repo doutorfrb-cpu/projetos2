@@ -1,0 +1,34 @@
+{
+  "slug": "integrajud_exibicao",
+  "outdir": "peca_exibicao",
+  "paleta": "P01",
+  "cenas": ["foto:px_31955577.jpg", "metal", "foto:px_17190476.jpg"],
+  "seeds": [521, 522, 523],
+  "overlay": [".34,.56,.84", ".38,.50", ".46,.74"],
+  "slides": [
+    {
+      "headline": "<b>O pedido de exibição tem hora.</b> Depois sobra o PDF da plataforma",
+      "apoio": "Sem os arquivos de repasse na fase de prova, a perícia trabalha sobre o relatório que a outra parte escolheu entregar."
+    },
+    {
+      "kicker": "Ação contra marketplace e plataforma",
+      "titulo": "O que pedir enquanto a prova cabe",
+      "passos": [
+        "<em>Repasses em formato aberto</em> (CSV), não PDF: sem dado tratável não há conciliação pedido a pedido.",
+        "<em>Extrato por transação</em> — venda, comissão, frete, estorno, chargeback e antecipação em colunas separadas.",
+        "<em>Período completo</em>, com os meses de estorno, que caem em competência diferente da venda.",
+        "<em>Quesitos e assistente técnico</em> em 15 dias da nomeação — art. 465, §1º, do CPC."
+      ],
+      "rodape": "Prova de repasse se pede na fase de prova. Depois, a conta é a que sobrou."
+    },
+    {
+      "ponte": "O repasse pode ser reconstruído pedido a pedido.<br>O que decide isso é o documento que entrou nos autos a tempo.",
+      "itens": [
+        "Conciliação de repasses de marketplace e adquirente",
+        "Quesitos e assistência técnica em perícia contábil",
+        "Parecer contábil com memória de cálculo"
+      ],
+      "oferta": "Mande o relatório de repasses. Em até 24h úteis eu digo se há o que conferir"
+    }
+  ]
+}

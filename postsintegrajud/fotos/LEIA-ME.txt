@@ -1,0 +1,36 @@
+FOTOS DE FUNDO — @integrajud
+============================
+
+Coloque aqui as fotos que quiser usar como fundo das peças.
+
+Como a máquina usa esta pasta
+-----------------------------
+A cada disparo (11h, 13h, 16h e 20h), a Content Machine lista esta pasta antes
+de montar a peça:
+
+- Havendo foto ainda não usada, ela entra em pelo menos um dos três slides —
+  de preferência a capa, que é o slide de maior impacto — com overlay da
+  paleta sorteada entre 45% e 75%, para o texto continuar legível.
+- Os outros dois slides são completados com superfícies geradas (concreto,
+  papel, linho, pedra, vidro, metal, madeira, granito, trama, guilhoche),
+  sempre cenas diferentes entre si.
+- Pasta vazia: a peça sai só com superfícies geradas, como as de hoje.
+- Cada foto usada fica registrada na coluna CENA DA CAPA do
+  pautas-publicadas.md, e não se repete nos 20 dias seguintes.
+
+O que funciona melhor
+---------------------
+- 1080x1350 ou maior, retrato de preferência (a arte é 4:5)
+- Registro sóbrio e institucional: documento, arquivo, papel, mesa de
+  trabalho, estante, arquitetura, textura, detalhe gráfico
+- Luz lateral e profundidade rasa ajudam o texto a assentar
+- Composição pouco ocupada, com área de respiro para a headline
+
+O que evitar (a instrução proíbe)
+---------------------------------
+- Martelo de juiz, balança da justiça, boneco de terno genérico
+- Aperto de mão corporativo, gráfico de barras subindo
+- Banco de imagens batido, rosto de pessoa reconhecível
+- Texto dentro da própria foto
+
+Nomes livres. JPG ou PNG.

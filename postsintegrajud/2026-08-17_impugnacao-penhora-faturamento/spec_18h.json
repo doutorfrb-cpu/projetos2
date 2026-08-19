@@ -1,0 +1,79 @@
+{
+ "slug": "integrajud_impugnacao_penhora_faturamento",
+ "outdir": "pc_18h",
+ "paleta": "P01",
+ "cenas": [
+  "doc:razao/dobra",
+  "madeira",
+  "linho",
+  "doc:apuracao/copia",
+  "foto:px_17869840.jpg"
+ ],
+ "seeds": [
+  6101,
+  6102,
+  6103,
+  6104,
+  6105
+ ],
+ "overlay": [
+  ".84,.90,.95",
+  ".44,.62",
+  ".42,.70"
+ ],
+ "slides": [
+  {
+   "layout": "L2",
+   "retrato": "fundo",
+   "retrato_lado": "esquerda",
+   "retrato_forca": 0.7,
+   "chamada": "QUEM FEZ ESSA CONTA",
+   "peca": "IMPUGNAÇÃO À PENHORA",
+   "headline": "Penhoraram o faturamento. <b>Ninguém apurou a margem que sobra</b>",
+   "apoio": "Receita bruta não é disponibilidade. O teto da penhora está no que resta depois de tributo, custo e folha — e esse número não está nos autos."
+  },
+  {
+   "kicker": "Empresarial · execução em curso",
+   "titulo": "A penhora de faturamento tem teto técnico. Ele não sai do percentual: sai da margem",
+   "passos": [
+    "<em>O art. 866 admite a constrição sobre percentual do faturamento</em> quando não há outros bens, desde que não inviabilize a atividade. Inviabilidade não é adjetivo de petição: é demonstração contábil, com base e período.",
+    "<em>Faturamento é o topo da DRE, não o fim dela.</em> Sobre a receita bruta ainda correm tributos sobre venda, custo de mercadoria, folha e encargos. Percentual modesto sobre a receita consome resultado operacional inteiro.",
+    "<em>O juízo fixa o percentual com o que está nos autos.</em> Sem demonstrativo do exequente e sem contraprova do executado, o número que sobra é o do pedido — e o credor não tem por que apurar o que a empresa aguenta."
+   ],
+   "rodape": "Sem margem apurada, o percentual se discute no abstrato."
+  },
+  {
+   "kicker": "O que a apuração responde",
+   "titulo": "Quatro números que a impugnação precisa levar prontos",
+   "passos": [
+    "<em>A receita bruta mês a mês nos últimos doze meses</em>, com a sazonalidade à vista. Média de ano cheio esconde o mês em que a constrição derruba o caixa.",
+    "<em>Quanto dessa receita já está comprometido</em> antes de qualquer disponibilidade: tributos sobre venda, custo direto, folha e encargos. Sai da DRE e do razão, não de estimativa.",
+    "<em>A margem operacional que efetivamente sobra</em>, e que percentual do faturamento ela representa. É esse percentual, e não o pedido do exequente, que define o teto real.",
+    "<em>As travas que já incidem sobre a mesma receita</em>: recebíveis cedidos, antecipação de cartão, penhora em outro processo. Duas de quinze somam trinta."
+   ],
+   "rodape": "Os quatro saem do que a empresa já tem. Não é perícia nova."
+  },
+  {
+   "kicker": "O erro que se repete",
+   "titulo": "A impugnação alega inviabilidade e junta o balanço inteiro",
+   "passos": [
+    "<em>Alegar risco de inviabilidade sem número</em> devolve ao juízo a tarefa de apurar. Ele mantém o percentual e adia a discussão.",
+    "<em>Juntar balanço e DRE sem cálculo</em> transfere a alguém a leitura de trinta páginas. Documento sem memória de cálculo é anexo, não prova.",
+    "<em>Pedir redução sem propor percentual</em> deixa o único número do processo sendo o do exequente. Quem não dá critério é julgado pelo do outro.",
+    "<em>Ignorar as travas que já pesam sobre a mesma receita.</em> A constrição nova recai sobre faturamento que já não entra inteiro no caixa."
+   ],
+   "rodape": "Nenhum dos quatro é erro de tese. Todos são erro de conta.",
+   "painel": true
+  },
+  {
+   "retrato": "sim",
+   "ponte": "Percentual se discute com margem apurada.<br>A base está na contabilidade que a empresa já tem.",
+   "itens": [
+    "Apuração de margem operacional e capacidade de pagamento",
+    "Memória de cálculo para impugnação à penhora de faturamento",
+    "Levantamento de cessões e travas sobre os mesmos recebíveis"
+   ],
+   "oferta": "Mande a DRE e os extratos. Em até 24h úteis eu digo se o percentual se sustenta"
+  }
+ ]
+}

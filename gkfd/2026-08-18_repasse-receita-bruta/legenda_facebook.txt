@@ -1,0 +1,21 @@
+Anunciou por R$ 300, vendeu, e o painel mostrou R$ 300 de faturamento. Na conta entraram R$ 231. Os dois números estão certos — e é aí que a apuração do mês começa a dar errado.
+
+Entre o preço anunciado e o dinheiro que cai existem comissão, frete subsidiado, publicidade e ajuste de reclamação.
+
+Um ponto que costuma ser explicado errado: a receita de venda é a BRUTA. A comissão da plataforma é despesa sua e não reduz a base do Simples. Quem lança pelo valor líquido que entrou está subdeclarando, e isso aparece no cruzamento com as notas fiscais.
+
+O erro do outro lado é mais caro e menos comentado. Devolução, venda estornada e valor retido em disputa não são despesa — são receita que não se realizou. Mantidos na apuração, você paga imposto sobre dinheiro que nunca esteve na sua mão.
+
+Quatro conferências que resolvem a maior parte disso, e que saem de dois arquivos que você já baixa todo mês:
+
+1. A receita declarada bate com a soma das notas emitidas.
+2. Toda devolução virou nota de entrada.
+3. O saldo retido pela plataforma não entrou como receita disponível.
+4. Tarifas e publicidade têm documento hábil para virar despesa.
+
+Não é auditoria nova. É abrir o relatório de repasse ao lado do arquivo de notas e conciliar linha a linha.
+
+Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa: https://wa.me/5511977237113
+
+GKFD Contábil — contabilidade no Simples Nacional para vendedor de marketplace.
+Fábio Rebouças — Contador

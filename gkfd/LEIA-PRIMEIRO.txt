@@ -1,0 +1,62 @@
+================================================================================
+CONTENT MACHINE — GKFD
+Contabilidade no Simples Nacional para vendedor de marketplace
+Estrutura montada em 16/08/2026, a partir da máquina da IntegraJud.
+================================================================================
+
+O QUE JÁ ESTÁ PRONTO NESTA PASTA
+
+  gerador-gkfd.zip          o mesmo gerador da IntegraJud, com SEIS PALETAS
+                            NOVAS (G01 a G06), claras e operacionais, para a
+                            GKFD não parecer irmã da IntegraJud.
+  BANCO-DE-AREAS-GKFD.md    10 áreas, 10 momentos do vendedor e 20 DOCUMENTOS
+                            mapeados ao buraco que cada um tem. É de onde sai
+                            toda pauta.
+  pautas-publicadas.md      o log, zerado. É o cérebro da antirrepetição.
+  BRIEFING-GKFD.md          o questionário que falta você responder.
+  publicar_facebook.py      publicadores, iguais aos da IntegraJud
+  publicar_instagram.py
+  postar.py                 publica nos dois de uma vez
+  checar_token.py           diz de quem é o token, sem imprimir o token
+  fixar_token.py            grava o token da Página, que não expira
+  reservar.py               trava contra produção simultânea
+  publicar_pendentes.py     publica o que ficou para trás
+  config_publicacao_MODELO.json
+
+O QUE FALTA, E DEPENDE DE VOCÊ
+
+  1. Responder o BRIEFING-GKFD.md. O que mais trava é: paleta definitiva,
+     oferta de entrada, e qual conta de Instagram.
+  2. Dizer se a GKFD já tem Instagram e Página do Facebook.
+  3. Confirmar se o "Mercado Líder Platinum" entra na assinatura.
+
+O QUE FALTA, E É MEU
+
+  1. Prompt mestre da GKFD, no molde da v9 da IntegraJud
+  2. Banco de frases de efeito próprio — as da IntegraJud interpelam o
+     PROCESSO; aqui precisam interpelar a OPERAÇÃO
+  3. Adaptar os scripts para escolher entre as duas contas
+  4. Banco de fotos próprio: caixa, etiqueta, galpão, painel de vendas —
+     e nada de pessoa, mão ou terno, mesma regra de lá
+
+A DIFERENÇA QUE ORGANIZA TUDO
+
+  IntegraJud fala com ADVOGADO. O gatilho é a peça processual aberta na tela.
+  GKFD fala com VENDEDOR. O gatilho é o DOCUMENTO aberto na tela — o DAS, o
+  relatório de repasse, a intimação da malha.
+
+  A regra do gancho é a mesma: o slide 1 nomeia a EXPOSIÇÃO de quem lê, nunca
+  o tema técnico. "Como funciona o Fator R" é aula. "Você está no anexo V e sua
+  folha diz outra coisa" é peça.
+
+O QUE NUNCA ENTRA
+
+  Percentual de economia tributária, "pague menos imposto", comparação com o
+  contador atual do cliente, preço em arte, print de cliente, promessa de
+  resultado em fiscalização. Contador tem regra de publicidade profissional, e
+  a disciplina aqui é a mesma que segurou a IntegraJud.
+
+  No lugar entra a DEMONSTRAÇÃO: a mesma receita, no anexo III e no V, dá dois
+  DAS diferentes. A diferença é conta, e conta se confere.
+
+================================================================================

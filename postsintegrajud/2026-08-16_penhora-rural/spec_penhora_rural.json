@@ -1,0 +1,41 @@
+{
+  "slug": "integrajud_penhora_rural",
+  "outdir": "peca_penhora_rural",
+  "paleta": "P07",
+  "cenas": ["doc:comparativo/dobra", "guilhoche", "papel"],
+  "seeds": [811, 812, 813],
+  "overlay": [".60,.78,.93", ".38,.50", ".30,.56"],
+  "slides": [
+    {
+      "layout": "L1",
+      "chamada": "CONFERE UMA COISA",
+      "peca": "IMPUGNAÇÃO À PENHORA",
+      "retrato": "fundo",
+      "retrato_forca": 0.84,
+      "retrato_lado": "direita",
+      "headline": "<b>Um número só para terra, benfeitoria e lavoura.</b> E ele vira preço",
+      "apoio": "A avaliação do oficial não separa o que compõe o valor. Sem impugnação técnica, ela vira a base do leilão."
+    },
+    {
+      "kicker": "Demonstração · avaliação de imóvel rural",
+      "titulo": "O mesmo imóvel, avaliado em bloco e em parcelas",
+      "passos": [
+        "<em>Laudo do oficial:</em> imóvel rural avaliado em valor único — R$ 6.000.000,00.",
+        "<em>Terra nua:</em> 200 hectares a R$ 25.000,00 o hectare — R$ 5.000.000,00.",
+        "<em>Benfeitorias</em> (galpão, cercas, irrigação): R$ 1.200.000,00. <em>Lavoura permanente</em> em formação: R$ 800.000,00.",
+        "<em>Somadas as três parcelas:</em> R$ 7.000.000,00. A diferença entre um critério e outro é de R$ 1.000.000,00."
+      ],
+      "rodape": "Números de demonstração, não de caso real. A perícia decompõe o valor e mostra em que parcela a avaliação parou."
+    },
+    {
+      "retrato": "sim",
+      "ponte": "Avaliação em bloco não é avaliação demonstrada.<br>A impugnação se sustenta na decomposição.",
+      "itens": [
+        "Avaliação de imóvel rural: terra nua e benfeitorias",
+        "Assistência técnica em impugnação à penhora",
+        "Parecer contábil com memória de cálculo"
+      ],
+      "oferta": "Mande o laudo de avaliação. Em até 24h úteis eu digo se há o que impugnar"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+ "slug": "integrajud_contas_plataforma",
+ "outdir": "pc_a9",
+ "paleta": "P06",
+ "cenas": [
+  "doc:razao/envelhecido",
+  "linho",
+  "granito"
+ ],
+ "seeds": [
+  1901,
+  1902,
+  1903
+ ],
+ "overlay": [
+  ".58,.76,.90",
+  ".34,.46",
+  ".38,.68"
+ ],
+ "slides": [
+  {
+   "layout": "L6",
+   "chamada": "TEM CONTA NESSA PEÇA?",
+   "peca": "PRESTAÇÃO DE CONTAS",
+   "headline": "<b>Excel não é forma contábil</b>",
+   "apoio": "A lei exige contas em forma mercantil: débito, crédito e saldo. Planilha solta não cumpre e a ação para nisso."
+  },
+  {
+   "kicker": "Ação de exigir contas",
+   "titulo": "O que a forma contábil exige",
+   "passos": [
+    "<em>Débito e crédito</em> em colunas próprias, com histórico de cada lançamento.",
+    "<em>Saldo demonstrado</em> após cada movimento, não só ao final.",
+    "<em>Documento de suporte</em> vinculado a cada linha.",
+    "<em>Período fechado</em>, sem salto de competência."
+   ],
+   "rodape": "Contas em forma diversa da mercantil equivalem a contas não prestadas."
+  },
+  {
+   "ponte": "Exigir contas é exigir forma.<br>Sem ela, não há o que homologar.",
+   "itens": [
+    "Contas em forma mercantil",
+    "Conciliação de repasses e retenções",
+    "Assistência técnica em ação de exigir contas"
+   ],
+   "oferta": "Mande os relatórios recebidos. Em até 24h úteis eu digo se são contas"
+  }
+ ]
+}

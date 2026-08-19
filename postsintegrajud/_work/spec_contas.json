@@ -1,0 +1,59 @@
+{
+  "slug": "integrajud_contas",
+  "outdir": "peca_contas",
+  "paleta": "P08",
+  "cenas": [
+    "foto:px_7054757.jpg",
+    "papel",
+    "foto:px_32201000.jpg"
+  ],
+  "seeds": [
+    830,
+    831,
+    832
+  ],
+  "overlay": [
+    ".62,.76,.92",
+    ".36,.46",
+    ".62,.86"
+  ],
+  "slides": [
+    {
+      "headline": "<b>A prestação de contas foi aprovada.</b> Ninguém abriu os extratos",
+      "apoio": "Aprovar conta apresentada não é o mesmo que conferir conta prestada."
+    },
+    {
+      "kicker": "Inventário, curatela, condomínio, associação",
+      "titulo": "O que separa prestação de contas de relatório",
+      "formato": "quadro",
+      "linhas": [
+        [
+          "Relatório",
+          "Lista o que o administrador diz que entrou e saiu"
+        ],
+        [
+          "Prestação de contas",
+          "Demonstra cada movimento contra o extrato, na data em que ocorreu"
+        ],
+        [
+          "Saldo declarado",
+          "Um número no fim da página"
+        ],
+        [
+          "Saldo demonstrado",
+          "O que sobra depois de conciliar entrada, saída e documento"
+        ]
+      ],
+      "rodape": "Conta sem documento de suporte é declaração. A forma contábil existe para transformá-la em prova."
+    },
+    {
+      "ponte": "Contas se prestam em forma contábil.<br>O resto é narrativa com números.",
+      "itens": [
+        "Conferência de prestação de contas contra extrato e documento",
+        "Apuração de despesas sem lastro e de saldo demonstrado",
+        "Parecer técnico e assistência em impugnação de contas"
+      ],
+      "oferta": "Mande a prestação de contas. Em até 24h úteis eu digo o que falta demonstrar"
+    }
+  ]
+}

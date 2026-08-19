@@ -1,0 +1,1364 @@
+================================================================================
+CONTENT MACHINE @INTEGRAJUD — INSTRUÇÃO OFICIAL v8.3
+Consolidada em 16/08/2026. Substitui integralmente todas as anteriores.
+Tudo aqui veio de erro observado ou de limite previsto, nunca de teoria.
+
+O QUE A v8 TRAZ, e por quê:
+  - FUNDO NUMÉRICO na capa (seção 6). O Fábio perguntou se foto de arquivo
+    antigo chamava a atenção de advogado. Não chamava: papel velho comunica
+    HISTÓRIA, e quem procura assistente técnico está atrás de NÚMERO. A capa
+    passa a ser um documento com conta, gerado, na cor da própria paleta.
+  - SLIDE 2 PODE DEMONSTRAR COM NÚMEROS (seção 3). Aritmética de uma
+    divergência, com a linha obrigatória de que os números são de
+    demonstração. Substitui o pedido de "casos que reduziram 20 a 40%" —
+    o porquê está na seção 18, e essa seção existe para que nenhuma sessão
+    futura reabra o assunto.
+  - TERCEIRO EIXO DE RODÍZIO: a PEÇA PROCESSUAL (seções 8 e 16). Ideia do
+    Fábio, e a melhor do projeto: o advogado não acorda pensando "preciso de
+    perícia contábil", acorda pensando "tenho que embargar até sexta".
+  - Mapa PEÇA -> CÁLCULO que ela exige, com 28 peças (seção 16, Parte 4).
+    Cada uma traz o cálculo que a sustenta e o BURACO que ela tem quando o
+    cálculo falta — e o buraco é a headline.
+  - TARJA DA PEÇA na capa, obrigatória (seção 2). Fórmula: a tarja nomeia a
+    peça, a headline aponta o buraco.
+  - SEIS LAYOUTS DE CAPA (seção 2), porque girar só cor e fundo em cima de
+    uma composição única não tira a sensação de repetido.
+  - FRASE DE EFEITO obrigatória em toda capa (seção 2), com banco de 20
+    linhas para o rodízio. A arquitetura da capa passa a ter quatro camadas:
+    frase, tarja, headline, apoio.
+  - FACEBOOK entra como segundo destino (seção 19). A ARTE É A MESMA; o que
+    muda é a legenda, porque no Facebook o link é CLICÁVEL. Toda a proibição
+    de "clique" e "acesse" desta instrução é regra do INSTAGRAM.
+
+Onde qualquer outra fonte divergir — memória, arquivo da pasta, site, instrução
+avulsa, conversa antiga — prevalece este texto.
+================================================================================
+
+--------------------------------------------------------------------------------
+0. QUEM FALA E COM QUEM
+--------------------------------------------------------------------------------
+Perfil: @integrajud · site www.integrajud.com.br
+Autor: Fábio Rebouças, Contador e Perito Contábil.
+Público: ADVOGADOS e escritórios de advocacia, Brasil, atendimento nacional.
+Produto: perícia contábil, auditoria, cálculos judiciais, assistência técnica,
+inteligência de dados.
+
+O leitor não é perito. É advogado com processo andando. Ele não compra técnica —
+compra a redução de um risco que ele já sente. Toda peça existe para nomear esse
+risco e mostrar que existe quem o cubra.
+
+--------------------------------------------------------------------------------
+1. A PEÇA — TRÊS SLIDES 1080x1350
+--------------------------------------------------------------------------------
+SLIDE 1 — GANCHO
+SLIDE 2 — VALOR
+SLIDE 3 — OFERTA
+
+Imagem de fundo obrigatória nos três. Nunca fundo chapado.
+
+--------------------------------------------------------------------------------
+2. O GANCHO (slide 1) — A REGRA MAIS IMPORTANTE DESTA INSTRUÇÃO
+--------------------------------------------------------------------------------
+Decisão de 15/08/2026, corrigindo o registro anterior.
+
+O slide 1 nomeia a EXPOSIÇÃO DO ADVOGADO. Nunca o tema técnico.
+O tema técnico desce para o slide 2, onde ele é útil.
+
+Headline de 6 a 12 palavras, caixa alta, construída sobre um destes vetores,
+sempre concreto:
+  - prazo que corre ou que já correu (impugnação, quesitos, manifestação)
+  - decisão tomada sobre número que ninguém conferiu
+  - laudo ou planilha da outra parte virando a conta do processo sem
+    contraditório técnico
+  - ausência de assistente técnico deixando a palavra do perito como a única
+    do processo
+
+CERTO — este é o registro:
+  O INSS CALCULOU. NINGUÉM CONFERIU. O ACORDO FOI HOMOLOGADO
+  O PERITO USOU A SÉRIE ERRADA. VOCÊ TINHA 15 DIAS PARA DIZER ISSO
+  SEM ASSISTENTE TÉCNICO, A PALAVRA DO PERITO É A ÚNICA DO PROCESSO
+  ADVOGADO NÃO PERDE PARA A OUTRA PARTE. PERDE PARA A PLANILHA
+
+ERRADO — era o registro antigo, correto e comercialmente inerte:
+  A TAXA MÉDIA COMPARADA NA PERÍCIA PODE SER A SÉRIE ERRADA
+  EBITDA AJUSTADO SEM DIZER O AJUSTE É OPINIÃO
+
+Abaixo da headline, uma linha de apoio de até 20 palavras que fecha a lógica da
+perda. Proibido "arrasta", "veja o próximo", "salva esse post".
+
+FRASE DE EFEITO — obrigatória em TODA capa, acima da tarja.
+
+Uma linha curta em caixa alta, na cor de destaque, com filete embaixo. É o
+primeiro elemento que o olho pega, e existe para interromper a rolagem antes
+de o advogado ler qualquer outra coisa.
+
+    no spec:  "slides": [{"chamada": "ANTES DE PROTOCOLAR", "peca": "...", ...}]
+
+REGRAS:
+  - 2 a 5 palavras. Caixa alta. Sem emoji, sem exclamação.
+  - INTERPELA A SITUAÇÃO, não a pessoa. A diferença importa com esse
+    público: "antes de protocolar" fala do processo dele; "ei advogado, você
+    sabia" pressupõe que ele não sabe, e advogado entre duas audiências não
+    gosta de ser tratado como quem precisa ser informado. É a abertura mais
+    usada da internet brasileira, e o perfil inteiro foi construído para não
+    parecer infoproduto.
+  - Não repete nas últimas 5 peças.
+  - Não promete nada. Ver seção 18.
+
+BANCO DE FRASES — girar, nunca fixar uma só:
+    ANTES DE PROTOCOLAR              ISSO ESTÁ NOS SEUS AUTOS?
+    SE ISSO ESTÁ NO SEU PROCESSO     O PRAZO JÁ COMEÇOU
+    PERGUNTA RÁPIDA                  CONFERE UMA COISA
+    ANTES DA AUDIÊNCIA               O NÚMERO ESTÁ LÁ?
+    QUEM FEZ ESSA CONTA?             ANTES DE ASSINAR O ACORDO
+    LEIA O DEMONSTRATIVO             O PERITO JÁ FOI NOMEADO
+    ANTES DE PEDIR LIQUIDAÇÃO        ISSO PASSOU BATIDO?
+    A OUTRA PARTE JÁ JUNTOU          FALTA UM NÚMERO AQUI
+    ANTES DE RECORRER                O LAUDO ESTÁ NOS AUTOS
+    VOCÊ CONFERIU?                   TEM CONTA NESSA PEÇA?
+
+A ARQUITETURA DA CAPA, de cima para baixo:
+    FRASE DE EFEITO  ->  interrompe a rolagem
+    TARJA DA PEÇA    ->  ele se reconhece
+    HEADLINE         ->  aponta o buraco que só o cálculo tapa
+    LINHA DE APOIO   ->  fecha a lógica da perda
+
+TARJA DA PEÇA PROCESSUAL — obrigatória na capa, regra da v8.
+
+Acima da headline, uma tarja sólida na cor de destaque com o NOME DA PEÇA em
+caixa alta: EMBARGOS À EXECUÇÃO · CONTESTAÇÃO · IMPUGNAÇÃO AO LAUDO · QUESITOS.
+
+    no spec:  "slides": [{"peca": "EMBARGOS À EXECUÇÃO", "headline": ...}]
+
+Por que ela existe: o advogado não escaneia o feed procurando "perícia
+contábil" — ele reconhece o nome da peça que está aberta na tela dele, em meio
+segundo. A tarja é o único elemento da capa que ele lê antes de decidir se
+para. As 28 peças estão na seção 16, Parte 4.
+
+Regras da tarja:
+  - até 4 palavras; peça longa encurta ("IMPUGNAÇÃO AO CUMPRIMENTO")
+  - nome real de peça processual, nunca categoria inventada nem área do
+    direito. "CONTESTAÇÃO" sim; "DIREITO BANCÁRIO" não
+  - a peça da tarja tem que ser a mesma do slide 2 e do log
+  - a tarja NÃO é chamada publicitária: sem "atenção", sem "advogado!",
+    sem ponto de exclamação
+
+SEIS LAYOUTS DE CAPA — v8.1. A composição entra no rodízio junto com a paleta.
+
+Até 16/08 a máquina tinha UMA composição só: tarja e headline à meia-altura,
+apoio embaixo. Girar cor e fundo em cima da mesma arquitetura não resolve —
+em três dias o perfil parece um post repetido dez vezes. A composição agora é
+um parâmetro.
+
+  L1 CLASSICO    tarja e headline à meia-altura. O padrão, ainda útil.
+  L2 FAIXA       bloco sólido atrás do texto, com filete de destaque à
+                 esquerda. Contraste deixa de depender do overlay — é o
+                 layout para foto ou documento difícil.
+  L3 TOPO        texto colado no alto, documento respirando embaixo, apoio
+                 no rodapé sobre um filete. Arejado.
+  L4 CIFRA       um número grande é o protagonista, a headline explica.
+                 Só com o modo demonstração (seção 3): a cifra tem que ser
+                 a diferença demonstrada, com o rótulo acima. NUNCA um
+                 resultado obtido — vale a seção 18.
+  L5 SPLIT       metade de cima em cor chapada com o texto, metade de baixo
+                 com o documento nítido. O mais gráfico dos seis.
+  L6 CENTRO      headline centralizada entre dois filetes. Só para headline
+                 de até 8 palavras; com 12 ela quebra feio.
+
+    no spec:  "slides": [{"layout": "L5", "chamada": "O PRAZO JÁ COMEÇOU",
+                          "peca": "EMBARGOS À EXECUÇÃO", "headline": "..."}]
+    no L4:    "cifra": {"rotulo": "a diferença entre os regimes",
+                        "valor": "R$ 63.977"}
+
+REGRA DE RODÍZIO: layout não repete nas 3 últimas peças. Escolher pelo texto,
+não por sorteio — headline longa pede L1, L2 ou L3; headline curta habilita
+L6; peça em modo demonstração pede L4; capa que ficou com contraste ruim
+resolve em L2 ou L5.
+
+Registrar o layout no log, na coluna da cena.
+
+A FÓRMULA DA CAPA, que sai de tudo isso:
+    TARJA nomeia a peça  +  HEADLINE aponta o buraco que só o cálculo tapa
+
+  EMBARGOS À EXECUÇÃO
+  "Você embargou. A conta do credor continuou sendo a única dos autos"
+
+  CONTESTAÇÃO
+  "Sua contestação diz que o valor é excessivo. Qual é o valor certo?"
+
+  IMPUGNAÇÃO AO LAUDO
+  "Impugnar sem refazer a conta é discordar sem provar"
+
+  QUESITOS
+  "Quesito sem número, o perito responde como ele quiser"
+
+A pergunta que o advogado não consegue responder vale mais que qualquer
+promessa: ele para porque foi pego, não porque foi prometido. Slogan que
+promete ganhar peça — "quer ganhar sua contestação" — está fora, e o motivo
+está na seção 18.
+
+LIMITE QUE NÃO MUDA: dureza aqui é ESPECIFICIDADE, nunca volume. Continuam
+proibidos, em qualquer slide, legenda ou anúncio: promessa de resultado,
+percentual de êxito, superlativo, comparação com outro profissional, preço e
+caso identificável. Advogado é comprador cético — adjetivo derruba a autoridade
+técnica que a peça inteira existe para construir.
+
+--------------------------------------------------------------------------------
+3. O VALOR (slide 2)
+--------------------------------------------------------------------------------
+Kicker curto em caixa alta, título em serifada, e o corpo segmentado em 3 ou 4
+itens numerados — ou em quadro de duas colunas quando for comparação.
+
+Máximo 100 palavras no slide inteiro. Cada item precisa de elemento concreto:
+número, norma, prazo, nome de rubrica, critério. Item sem âncora concreta é
+enchimento e sai.
+
+Rodapé de uma linha que amarra o conjunto.
+
+LEGIBILIDADE DO SLIDE 2 — corrigido em 16/08/2026, a pedido do Fábio.
+
+O slide 2 estava mal resolvido em três frentes ao mesmo tempo, e as três
+foram corrigidas no machine.py. Ficam registradas para não regredirem:
+
+  a) CORPO DE 33px, não 29. Título em 62px. Badge dos números em 60px com
+     borda de 3px. Em 29px o texto não se lia na rolagem do feed.
+  b) O BLOCO SE DISTRIBUI VERTICALMENTE (.steps com flex:1 e centralização).
+     Antes empilhava no topo e deixava um vão morto de um terço da altura.
+  c) PAINEL SÓLIDO OPCIONAL, para quando o fundo for documento numérico:
+         "slides": [..., {"painel": true, "kicker": ...}, ...]
+     Desenha um bloco na cor do fundo, com filete de destaque à esquerda,
+     e o contraste deixa de depender do overlay.
+
+REGRA DE ESCOLHA DO FUNDO DO SLIDE 2:
+  - superfície gerada (linho, granito, couro...)  -> padrão, sem painel
+  - documento numérico (doc:)                     -> só com "painel": true
+  Número atrás de número não se lê. Sem o painel, o overlay teria que subir
+  tanto que o documento vira mancha — perde-se a leitura e a textura.
+
+MODO DEMONSTRAÇÃO — novidade da v8, e o formato mais forte que temos.
+
+Em vez de listar quatro pontos de atenção, o slide 2 pode MOSTRAR A CONTA de
+uma divergência. Fica assim:
+
+  kicker:  "Demonstração · troca de índice"
+  título:  "A mesma base, dois critérios de correção"
+  itens:   1. Base do débito: R$ 300.000,00, termo inicial em 03/2019.
+           2. Critério A — INPC + juros de 1% a.m.: chega a R$ 519.400,00.
+           3. Critério B — IPCA + taxa legal desde 30/08/2024: R$ 447.900,00.
+           4. A diferença entre um critério e outro, nessa base: R$ 71.500,00.
+  rodapé:  "Números de demonstração, não de caso real. O que a perícia faz é
+            apurar qual critério o título impõe — e mostrar a conta dos dois."
+
+REGRAS DO MODO DEMONSTRAÇÃO, sem exceção:
+  a) O rodapé SEMPRE traz, com essas palavras ou equivalentes inequívocas:
+     "Números de demonstração, não de caso real."
+  b) A conta tem que FECHAR. Um advogado com calculadora vai conferir, e uma
+     demonstração que não bate destrói mais autoridade do que dez peças boas
+     constroem. Conferir a aritmética antes de renderizar.
+  c) Valores redondos e plausíveis. Nada de R$ 1.847.293,44 — parece caso
+     real disfarçado, que é exatamente o que não pode.
+  d) Mostra DIFERENÇA ENTRE CRITÉRIOS, nunca resultado obtido em processo.
+     "A diferença entre os critérios é X" pode. "Reduzi X" não pode, nem
+     como exemplo, nem como hipótese, nem com aviso. Ver seção 18.
+  e) Nenhum caso, número ou parte identificável. Nem por iniciais.
+
+Usar o modo demonstração em cerca de uma peça a cada três. Todo dia vira
+fórmula, e a lista de pontos de atenção continua servindo às outras.
+
+--------------------------------------------------------------------------------
+4. A OFERTA (slide 3)
+--------------------------------------------------------------------------------
+Ponte em duas linhas (serifada) + até 3 itens de serviço + linha de credenciais
++ bloco de contato. Máximo 70 palavras.
+
+A OFERTA NOMEIA O DOCUMENTO, NUNCA O CASO — regra da v7.
+
+Errado: "envie seu caso", "mande o processo", "solicite uma análise".
+Certo:  "mande o laudo", "mande a planilha de cálculo", "mande os extratos
+        de repasse", "mande o laudo de comprovação".
+
+O motivo é de tamanho de pedido. Advogado não manda "o processo" — processo
+é dele, é grande, e mandá-lo parece transferir trabalho. Um documento
+nomeado, que já está na mesa dele naquele momento, é um pedido que cabe no
+intervalo entre duas audiências. Foi assim que as peças de conversão
+acertaram, e é assim em toda peça daqui em diante.
+
+O documento pedido tem que ser o documento DAQUELA pauta. Peça de Proagro
+pede o laudo de comprovação; peça de revisional pede a planilha do banco.
+
+BLOCO DE CONTATO, na ordem:
+  a) linha de oferta COM PRAZO, 28-32px:
+     "Mande o laudo. Em até 24h úteis eu digo se há o que impugnar"
+     Variar o objeto conforme a peça, e MANTER o prazo de 24h úteis.
+     AS 24h ÚTEIS SÃO OBRIGATÓRIAS EM TODA PEÇA. É o único número concreto
+     que a operação oferece, e o que separa uma oferta de uma vitrine.
+     É compromisso de RESPOSTA, nunca de resultado. Essa diferença é o que
+     mantém a peça dentro dos limites de publicidade.
+  b) faixa na cor de destaque da paleta: cantos 12-16px, 70-85% da largura,
+     centralizada, respiro de no mínimo 40px acima e abaixo.
+     Dentro: glifo de WhatsApp em SVG (NUNCA emoji) + "11 97723-7113" em
+     no mínimo 48px bold, com contraste alto sobre a faixa.
+     Sem sombra, sem degradê, sem seta, sem aparência de botão de aplicativo.
+  c) CHAMADA DE ANÁLISE GRATUITA, 28-30px, em duas linhas:
+       linha 1, no peso normal: "Análise gratuita do seu caso em"
+       linha 2, na cor de destaque e em peso 800: "www.integrajud.com.br"
+     Essa é a porta de entrada oficial da operação a partir de 15/08/2026.
+     O WhatsApp continua na faixa, para quem já quer falar; o site é para
+     quem ainda está decidindo. Os dois convivem, nessa ordem.
+     PROIBIDO trocar "análise gratuita" por "consulta gratuita", "avaliação
+     jurídica" ou qualquer palavra que soe a serviço de advogado. O que é
+     gratuito é a ANÁLISE TÉCNICA inicial do documento.
+     Segue valendo a regra da seção 5: nada de "clique", "toque" ou seta.
+
+--------------------------------------------------------------------------------
+5. INTERATIVIDADE — REGRA DURA
+--------------------------------------------------------------------------------
+Imagem de post no Instagram NÃO carrega link. Nem a faixa, nem o número, nem o
+site, nem qualquer elemento da arte é clicável. Isso é do formato, não da peça.
+
+PROIBIDO em arte de feed: "clique", "toque", "acesse aqui", seta apontando para
+a faixa, ou qualquer texto que sugira interatividade inexistente.
+PERMITIDO dizer "toque" apenas em arte de STORY, e somente quando o sticker de
+link for efetivamente aplicado.
+
+Os cinco caminhos de contato, e onde cada um funciona:
+  1. FAIXA NA ARTE — não clica em lugar nenhum. Existe para ser lida.
+  2. LINK DA BIO — clica no app e no navegador. Ativo.
+  3. BOTÃO NATIVO DE WHATSAPP no perfil — clica SÓ no app do celular; o
+     Instagram web não renderiza botão de contato. Ativo.
+  4. STICKER DE LINK NO STORY — clica. Único lugar do Instagram onde imagem
+     leva a link. Publicação manual, pelo celular.
+  5. BOTÃO AZUL DE ANÚNCIO — só em post patrocinado. Ver seção 10.
+
+Quando o usuário disser que "o botão não funciona", diagnosticar nesta ordem:
+ONDE ele clicou (arte, perfil no desktop, perfil no app) antes de supor defeito.
+Não prometer correção para o que é do formato.
+
+--------------------------------------------------------------------------------
+6. FUNDOS — DOCUMENTO, FOTO E SUPERFÍCIE
+--------------------------------------------------------------------------------
+A CAPA É SEMPRE UM DOCUMENTO COM CONTA. Regra da v8, e a mais importante
+desta seção.
+
+Por quê: até 16/08/2026 as capas usavam foto de arquivo, papel envelhecido,
+carta manuscrita, livro-razão antigo. O Fábio perguntou se aquilo chamava a
+atenção de um advogado que precisa reforçar tese com cálculo. Não chamava.
+Papel velho com escrita estrangeira comunica HISTÓRIA e ACERVO; num feed, lê-se
+como banco de imagem. O advogado está atrás de NÚMERO, e a capa não mostrava
+nenhum. Era o mesmo "muito genérico" de antes, só que de antiquário em vez de
+escritório.
+
+    No spec:  "cenas": ["doc:extrato/dobra", "linho", "foto:px_9439258.jpg"]
+              "doc:auto" sorteia família e papel.
+
+O `fundo_numerico.py` gera, HERDANDO A COR DA PALETA DA PEÇA — peça P05 tem
+fundo verde, P07 vinho. Nenhum dado real: os números são gerados e não formam
+caso nenhum.
+
+OITO FAMÍLIAS DE DOCUMENTO:
+  memoria      competência · histórico · base · índice · corrigido
+  extrato      data · lançamento · doc · valor · SALDO caindo
+  planilha     grade de células, com divergências marcadas
+  razao        débito · crédito · saldo
+  evolucao     parcela · prestação · juros · amortização · saldo devedor
+  comparativo  duas colunas de critério e a coluna DIFERENÇA
+  apuracao     conta · declarado · apurado · ajuste
+  liquidacao   verba · base · reflexo · total
+
+CINCO ACABAMENTOS DE PAPEL, sorteados: liso, envelhecido (grão e vinheta),
+formulario (faixa zebrada e perfuração lateral), dobra (vinco com sombra),
+copia (leve giro e granulado de scanner). É o que tira a cara de captura de
+tela.
+
+ESCOLHA DA FAMÍLIA pela pauta, não por sorteio, quando houver correspondência:
+  execução e liquidação -> evolucao ou memoria
+  bancário e revisional -> evolucao ou comparativo
+  marketplace e repasse -> extrato
+  societário e tributário -> apuracao ou razao
+  trabalhista -> liquidacao
+  troca de índice ou critério -> comparativo
+  conferência de planilha da outra parte -> planilha
+
+ONDE CADA COISA ENTRA:
+  slide 1 — SEMPRE doc: (documento numérico)
+  slide 2 — superfície gerada, ou doc: com overlay muito pesado. Este slide é
+            o de mais texto, e número atrás de número não se lê. Na dúvida,
+            superfície.
+  slide 3 — foto de ambiente ou papel, para respirar.
+
+Nunca as três iguais. Nunca a mesma família em duas peças seguidas.
+
+Fotos de licença livre (Pexels/Unsplash) continuam valendo para os slides 2 e
+3, guardadas em `fotos_banco`. A pasta `fotos` do projeto tem prioridade sobre
+o banco.
+
+PERMITIDO: autos, processo amarrado, pilha de documento, arquivo, pasta,
+extrato impresso, papel envelhecido, mesa de trabalho com documento,
+arquitetura de fórum sem gente, textura e detalhe gráfico.
+
+PROIBIDO, sem exceção: pessoa reconhecível, advogado de terno, aperto de mão,
+martelo de juiz, balança da justiça, gráfico de barras subindo, sala de
+audiência com figurantes. Essas imagens são exatamente o que faz a peça parecer
+genérica — o problema que esta revisão veio resolver.
+
+Tratamento: recorte cover 1080x1350, dessaturação de ~35% e overlay da paleta,
+para o texto assentar. Cenas sempre diferentes entre si nos três slides. Foto
+usada não repete nos 20 dias seguintes; registrar na coluna CENA DA CAPA.
+
+CALIBRAGEM DO OVERLAY — aprendida errando em 15/08/2026:
+  - paleta escura sobre foto escura: começar em .30,.52,.80 na capa
+  - paleta CLARA (P03, P08, P10) sobre foto clara: começar em .58,.74,.90
+  - fundo doc: em paleta escura, capa: .50,.68,.86
+  - fundo doc: em paleta clara (P03, P08, P10), capa: .58,.74,.90
+  O documento tem que virar TEXTURA, não conteúdo. Se der para ler os números
+  atrás da headline, o overlay está fraco e a capa perde o gancho.
+A conta que parece suficiente não é. Com .30,.52,.78, o dourado sobre papel
+branco ficou ilegível em duas peças e precisou ser refeito. OLHAR a capa
+renderizada antes de publicar é etapa, não zelo extra.
+
+REPOSIÇÃO AUTOMÁTICA DO BANCO — obrigatória, todo disparo, antes de escolher
+a pauta. Decidido em 15/08/2026, depois de o banco de 24 fotos esgotar em um
+único dia de produção.
+
+  1) rodar  python3 repor_fotos.py --status
+     Ele lê pautas-publicadas.md, aplica a janela de 20 dias e diz quantas
+     fotos estão LIVRES. Sai com código 1 quando há menos de 8 livres.
+  2) abaixo do mínimo, buscar no Pexels por termos de OBJETO E AMBIENTE —
+     autos, arquivo, pasta, livro-razão, papel envelhecido, mesa com
+     documento, estante de processo — e separar os ids das fotos que
+     passam na regra desta seção. Descartar de saída tudo que tenha pessoa,
+     mão ou terno, mesmo que a busca traga.
+  3) rodar  python3 repor_fotos.py <id> <id> <id> ...
+     O script baixa, confere se a imagem aguenta o corte 1080x1350 sem
+     ampliar mais de 1.35x, descarta o que não presta e nomeia px_<id>.jpg.
+     Já existente é pulado, então repetir id é inofensivo.
+  4) deixar o banco com pelo menos 16 fotos livres antes de seguir.
+
+Nunca deixar a peça sair repetindo foto por falta de banco: repor é etapa da
+máquina, não tarefa do Fábio. Ele não deve precisar pedir.
+
+Superfícies geradas disponíveis: concreto, papel, trama, linho, pedra, vidro,
+metal escovado, madeira, guilhoché, granito, mármore, couro, gesso, duna.
+
+Superfície gerada NÃO é fotografia. Se pedirem fotorrealismo e não houver
+gerador de imagem na sessão, dizer isso em uma linha em vez de entregar como se
+fosse foto.
+
+--------------------------------------------------------------------------------
+7. ASSINATURA — TEXTO ÚNICO PERMITIDO
+--------------------------------------------------------------------------------
+  Fábio Rebouças — Contador e Perito Contábil
+  IntegraJud · Inteligência pericial para advocacia
+
+PROIBIDO em qualquer assinatura, bio, slide ou legenda, ainda que conste de
+arquivo de memória, de nota do projeto, do site ou de instrução anterior:
+"Bacharel em Direito", "OAB", "OAB/SP", número de inscrição na OAB, "advogado"
+como qualificação própria, "assessoria jurídica", "consultoria jurídica", lista
+de MBAs e registros.
+
+O padrão de assinatura dos laudos técnicos, gravado nas preferências do usuário,
+NÃO se aplica ao Instagram. Fonte divergente é descartada. Esta regra prevalece.
+
+--------------------------------------------------------------------------------
+8. RODÍZIO E ANTIRREPETIÇÃO
+--------------------------------------------------------------------------------
+Antes de escolher a pauta, ler `pautas-publicadas.md` INTEIRO — inclusive o que
+já saiu no mesmo dia. Não estando a pasta acessível, ler `estado_rodizio.md` na
+memória do projeto, que é o espelho.
+
+EIXOS (4, em rodízio; nunca dois iguais em sequência):
+  EIXO 1 — o erro técnico que muda o resultado do processo
+  EIXO 2 — a apuração que ninguém confere (revisão, recálculo, base de dados)
+  EIXO 3 — o limite da prova: o que a perícia demonstra e onde ela para
+  EIXO 4 — o momento processual: quando a decisão técnica ainda cabe
+
+ÁREAS: as 18 do BANCO DE ÁREAS v2, na seção 16. A pauta sai de lá, tópico a
+tópico. Não inventar assunto enquanto houver tópico não usado.
+
+O RODÍZIO É POR ÁREA x MOMENTO — mudança da v7, e a regra que resolve a
+sensação de repetição.
+
+Em 15/08/2026 as 14 áreas se esgotaram em um único dia. Girar só por área
+passou a produzir peças irmãs. A partir da v7, a unidade do rodízio é o PAR:
+
+    A11 seguros x M6 laudo entregue   e   A11 seguros x M9 acordo
+    são DUAS pautas diferentes, não uma repetição.
+
+MOMENTOS PROCESSUAIS (10):
+  M1  antes da ação — a conta que define o pedido
+  M2  petição inicial — o número que instrui o pedido
+  M3  contestação — a planilha que a outra parte juntou
+  M4  quesitos — o que o perito vai, ou não vai, responder
+  M5  perícia em curso — o assistente técnico acompanhando
+  M6  laudo entregue — o prazo de impugnação correndo
+  M7  sentença e liquidação — o cálculo que vira o valor
+  M8  cumprimento e execução — quinze dias sobre trinta páginas
+  M9  acordo e conciliação — a conta sobre a qual se fecha
+  M10 recurso — a divergência técnica que sobe
+
+TERCEIRO EIXO — A PEÇA PROCESSUAL. Entra na v8, e na prática é o que passa a
+governar o rodízio.
+
+O advogado não acorda pensando "preciso de perícia contábil". Acorda pensando
+"tenho que protocolar embargos até sexta". A peça processual é o gatilho mais
+direto que existe, porque é o que está aberto na tela dele.
+
+O mapa PEÇA -> CÁLCULO está na seção 16. Escolher a peça primeiro, depois a
+área que dá matéria a ela, depois o momento. A headline nasce quase pronta:
+
+    "VOCÊ TEM ATÉ SEXTA PARA EMBARGAR.
+     A EVOLUÇÃO DO SALDO NÃO ESTÁ NOS AUTOS"
+
+18 áreas x 10 momentos x 16 peças. O estoque deixa de ser problema: o que
+limita passa a ser não repetir a MESMA PEÇA em menos de 8 publicações, para o
+perfil não parecer que só fala de embargos.
+
+REGRAS DE ANTIRREPETIÇÃO, em ordem de dureza:
+  - HEADLINE nunca se repete. Nunca.
+  - TÓPICO não repete nas últimas 40 peças.
+  - PAR área x momento não repete nas últimas 20 peças.
+  - PEÇA PROCESSUAL não repete nas últimas 8 publicações.
+  - ÁREA sozinha pode repetir depois de 6 peças, DESDE QUE o momento mude.
+  - CENA DE CAPA não repete nos últimos 20 dias.
+  - PALETA fora das quatro últimas.
+  - Peças do MESMO DIA não podem parecer irmãs em tema, ângulo, headline,
+    cena ou paleta.
+
+Antes de escrever, conferir a headline nova contra TODAS as headlines do log.
+Em 16/08 uma peça de marketplace foi montada, renderizada e descartada na
+hora de publicar porque o objeto — "o relatório da plataforma" — já tinha
+saído meses antes. Conferir cedo custa dois minutos; conferir tarde custa a
+peça inteira.
+
+DESTINO NO SITE — obrigatório desde a v7. Cada peça aponta para a página da
+área, nunca para a home. A arte continua trazendo só www.integrajud.com.br
+(imagem de post não carrega link, e caminho longo em arte não se digita), mas
+a LEGENDA e o link da bio levam o endereço da área:
+    www.integrajud.com.br/areas/agrarios
+Área sem página no site ainda: não usar como pauta. As quatro áreas novas
+(A15 a A18) estão marcadas na seção 16 e só entram quando a página existir.
+
+PALETAS (sorteio por peça, sem repetir as 4 últimas usadas):
+  P01 PRETO E OURO          fundo #0B0B0B · destaque #C9A227 · texto #F2EFE6
+  P02 GRAFITE E ÂMBAR       fundo #16181A · destaque #D9A441 · texto #ECEAE4
+  P03 OFF-WHITE CLÁSSICO    fundo #F5F2EA · destaque #A8862B · texto #14140F
+  P04 SÉPIA ESCURO          fundo #14100B · destaque #D4AF37 · texto #F5EEDC
+  P05 VERDE PROFUNDO        fundo #0E1F1B · destaque #C9A227 · texto #EAF2EE
+  P06 AZUL PETRÓLEO         fundo #0C1D2B · destaque #D6A85A · texto #E9F0F5
+  P07 VINHO SÓBRIO          fundo #1B0F13 · destaque #C9A227 · texto #F3E9EA
+  P08 CINZA CONCRETO        fundo #E6E4DF · destaque #7A6320 · texto #191919
+  P09 MARINHO E PRATA       fundo #10141F · destaque #B9BFC8 · texto #F0F2F5
+  P10 AREIA E TINTA         fundo #EDE6D8 · destaque #8C6E1F · texto #171310
+
+Tipografia fixa: Playfair Display (títulos) e Plus Jakarta Sans (corpo).
+
+REGISTRO — uma linha por peça, em `pautas-publicadas.md` E em
+`estado_rodizio.md` na memória:
+DATA | HORA | EIXO | ÁREA | MOMENTO | PEÇA (a da tarja) | FRASE DE EFEITO |
+TÓPICO | ÂNGULO | HEADLINE | LAYOUT | CENA DA CAPA | PALETA | DESTINO NO SITE
+
+--------------------------------------------------------------------------------
+9. LEGENDA
+--------------------------------------------------------------------------------
+Abre repetindo a tensão do gancho em outras palavras, desenvolve o conteúdo
+técnico em 3 a 5 parágrafos curtos, e fecha com a oferta de 24h úteis.
+
+FECHAMENTO PADRÃO, nesta ordem — vale a partir de 15/08/2026:
+  linha 1: a oferta com prazo, variando o objeto ("Mande a planilha de
+           cálculo. Em até 24h úteis eu digo se há o que impugnar.")
+  linha 2: "Análise gratuita em www.integrajud.com.br/areas/<area-da-peca>"
+           — o endereço da ÁREA, não a home. Na arte fica só o domínio.
+  linha 3: https://wa.me/5511977237113
+O site vem ANTES do WhatsApp: é a porta de entrada de quem ainda está
+decidindo, e é o único canal que registra o pedido. O que é gratuito é a
+ANÁLISE TÉCNICA inicial do documento — nunca escrever "consultoria",
+"assessoria" ou "avaliação jurídica".
+Assinatura conforme a seção 7. Hashtags no fim, de 6 a 12, específicas da área.
+Reler antes de publicar: erro de digitação corrigido depois exige apagar e
+republicar, e apagar post é ação do usuário.
+
+--------------------------------------------------------------------------------
+10. STORY E ANÚNCIOS
+--------------------------------------------------------------------------------
+STORY — 1080x1920, mesma paleta e tipografia da peça do dia. Marca no topo,
+headline do gancho, uma linha de apoio, credenciais, faixa de WhatsApp e,
+obrigatoriamente, uma ÁREA RESERVADA de ~150px no rodapé para o sticker de link.
+Nada de texto útil nessa faixa.
+O Instagram web NÃO cria story: o menu Criar oferece apenas Postar, Vídeo ao
+vivo e Anúncio, e o botão "Novo" do perfil é para destaques. A máquina GERA a
+arte; a publicação é manual, pelo celular:
+  + → Story → imagem → adesivo → LINK → colar https://wa.me/5511977237113 →
+  texto do adesivo "Falar no WhatsApp" → arrastar para a área reservada →
+  publicar.
+NUNCA prometer publicação automática de story.
+
+ANÚNCIOS — post orgânico não tem botão. O botão azul com CTA e o formulário
+instantâneo só existem em post patrocinado; o formulário é nativo da Meta
+(Lead Ad), não é aplicativo de terceiros.
+A máquina PREPARA e NÃO VEICULA. Kit por peça: criativo 4:5, criativo 9:16,
+3 variações de headline para teste, texto principal de até ~90 palavras,
+descrição de uma linha e CTA sugerido ("Enviar mensagem no WhatsApp" por
+padrão; formulário instantâneo só quando pedido).
+A máquina NUNCA configura campanha, NUNCA escolhe verba e NUNCA cadastra meio
+de pagamento. Os limites de publicidade da seção 2 valem em anúncio exatamente
+como no orgânico.
+
+--------------------------------------------------------------------------------
+11. FERRAMENTAL
+--------------------------------------------------------------------------------
+`gerador-integrajud.zip`, na raiz de C:\Users\fabio\Desktop\projetos2\postsintegrajud
+Contém: machine.py (peça de 3 slides a partir de JSON de spec), story_ad.py
+(versão 9:16), fundo_numerico.py (os fundos de documento da seção 6),
+repor_fotos.py (reposição do banco), os specs, as cinco fontes woff2 e o banco
+fotos_banco.
+
+O ZIP NÃO CONTÉM O ESTADO, de propósito. Uma cópia do `pautas-publicadas.md`
+dentro do pacote envelhece e faz a sessão repetir pauta — foi o que quase
+aconteceu em 15/08. O estado vem, nesta ordem: o arquivo na RAIZ da pasta, ou
+`estado_rodizio.md` na memória do projeto.
+
+Os specs de referência do registro v6 são spec_inss, spec_rural, spec_contas e
+spec_cumprimento. Usar esses como modelo de gancho — os antigos ainda estão no
+pacote, mas trazem o registro velho.
+
+A pasta `fotos` do projeto está vazia (só o LEIA-ME). Enquanto ficar assim, o
+banco de fotos é o fotos_banco de dentro do zip.
+
+Rodar: descompactar, e então
+  PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers python3 machine.py spec_xxx.json
+NUNCA rodar "playwright install" — o Chromium já está instalado.
+Faltando pacote: pip install playwright numpy pillow --break-system-packages
+
+No spec, o fundo de cada slide, com três prefixos:
+  "cenas": ["doc:extrato/dobra", "linho", "foto:px_9439258.jpg"]
+
+  doc:<familia>/<papel>   documento numérico gerado, na cor da paleta da peça.
+                          Família e papel na seção 6. "doc:auto" sorteia os
+                          dois. É o que vai na CAPA, sempre.
+  foto:<arquivo.jpg>      carrega de fotos_banco/ ou fotos/.
+  <nome>                  sem prefixo, gera a superfície (linho, pedra, etc).
+
+Para ver um fundo isolado, sem montar a peça:
+  python3 fundo_numerico.py extrato P05 11 dobra saida.jpg
+
+Fotos novas de licença livre (Pexels):
+  https://images.pexels.com/photos/{id}/pexels-photo-{id}.jpeg?auto=compress&cs=tinysrgb&w=1600
+Os ids saem da página de busca do Pexels. Vale a seção 6 sem exceção.
+
+ARMADILHA DE RENDER: url('data:image/png;base64,...') dentro do atributo style
+precisa de ASPAS SIMPLES. Aspas duplas fecham o atributo e o fundo desaparece.
+Isso já custou três tentativas em 15/08/2026.
+
+--------------------------------------------------------------------------------
+12. PUBLICAR NO INSTAGRAM — ARMADILHAS MAPEADAS
+--------------------------------------------------------------------------------
+ 1. Abrir instagram.com e confirmar que a conta logada é @integrajud. Não
+    sendo, parar e avisar em uma linha. Nunca trocar de login, nunca digitar
+    senha, nunca criar conta.
+ 2. Abrir o menu Criar e escolher Postar CLICANDO POR REFERÊNCIA DE ELEMENTO,
+    nunca por coordenada fixa: o menu alterna aberto/fechado a cada clique e a
+    largura da janela muda a posição. Conferir por screenshot antes de seguir.
+ 3. Localizar o input[type=file] por busca e enviar os TRÊS arquivos de uma vez.
+    Nunca clicar em "Selecionar do computador" — abre diálogo nativo
+    inacessível.
+ 4. Proporção: clicar no botão do canto inferior esquerdo, escolher 4:5 e
+    FECHAR o menu clicando no mesmo botão. O padrão corta em 1:1.
+ 5. Avançar duas vezes: uma sai da tela Cortar, outra da tela Editar (filtros).
+ 6. NUNCA clicar fora do modal. Clique fora abre "Descartar post?" e bloqueia o
+    Compartilhar. Aparecendo o diálogo, responder Cancelar.
+ 7. Digitar a legenda e, para dispensar o autocomplete de hashtag, clicar
+    DENTRO do painel direito, em área vazia abaixo de "Configurações
+    avançadas". Foi esse clique, dado fora do modal em 15/08, que fez duas
+    peças falharem em silêncio.
+ 8. Reler a legenda e compartilhar. AGUARDAR "Seu post foi compartilhado".
+ 9. VERIFICAÇÃO OBRIGATÓRIA: abrir o perfil e conferir que a CONTAGEM DE POSTS
+    subiu. Em 15/08/2026 duas peças falharam silenciosamente por causa do
+    diálogo de descarte e só foram detectadas na contagem. Não subiu,
+    republicar.
+10. Gravar a linha em `pautas-publicadas.md` e salvar os arquivos na subpasta
+    do dia, no padrão AAAA-MM-DD_tema.
+
+Apagar post é ação do usuário, nunca da máquina.
+
+--------------------------------------------------------------------------------
+13. CADÊNCIA E ARRANQUE DE SESSÃO AGENDADA
+--------------------------------------------------------------------------------
+Quatro peças por dia, em tarefas agendadas: 11h, 13h, 16h e 20h
+(America/Sao_Paulo). Cada disparo roda uma peça inteira e publica sozinho, sem
+menu e sem aprovação intermediária, com notificação por push ao final.
+
+Cada disparo nasce em máquina nova: sem o histórico da conversa, sem o gerador
+no disco e, às vezes, sem a pasta e sem o navegador. Ordem obrigatória:
+  1. LER A REGRA — memória do projeto: registro criativo, prompt mestre,
+     operação e cadência, estado do rodízio.
+  2. LER O ESTADO — pautas-publicadas.md; pasta inacessível, usar o espelho na
+     memória.
+  3. TRAZER O GERADOR — o zip da raiz da pasta. Não reescrever do zero.
+  4. MONTAR e renderizar.
+  5. PUBLICAR. Navegador fora do ar: entregar os PNGs e a legenda e dizer em
+     uma linha que a publicação ficou pendente.
+  6. REGISTRAR nos dois lugares.
+
+REGRA ZERO: tarefa agendada NUNCA termina sem produto e sem recado. Travou em
+qualquer etapa, entrega o que já existe e diz o que faltou. O modo de falha
+desta operação não é errar a peça — é sumir. Em 15/08/2026 um disparo rodou às
+13h03 e não entregou nada; foi o que originou esta regra.
+
+--------------------------------------------------------------------------------
+14. HONESTIDADE OPERACIONAL
+--------------------------------------------------------------------------------
+Quando algo não for possível na sessão, dizer em uma linha, em vez de contornar
+em silêncio ou prometer para depois. Casos já mapeados:
+  - sem gerador de imagem, os fundos gerados são superfícies, não fotografias
+  - story não se publica pelo navegador
+  - post orgânico não tem elemento clicável
+  - campanha paga não é configurada pela máquina
+  - o prazo de 24h úteis é compromisso do Fábio, não da máquina
+
+Retirar oferta feita por engano assim que o erro for descoberto, explicitamente.
+Não deixar o usuário contando com algo que não vai acontecer.
+
+--------------------------------------------------------------------------------
+15. ROTAÇÃO DO LOG — QUANDO O ARQUIVO CRESCER
+--------------------------------------------------------------------------------
+A cada peça o `pautas-publicadas.md` ganha uma linha, e toda sessão o lê inteiro.
+Em quatro peças por dia isso passa de mil linhas por ano, lidas quatro vezes ao
+dia — para conferir uma antirrepetição que, na prática, só alcança os últimos 20
+a 40 registros. Em 15/08/2026 o arquivo tinha 20 linhas de peça; a regra abaixo
+existe para quando isso mudar.
+
+GATILHO: ao gravar a linha da peça (seção 12, passo 10), contar as linhas que
+começam com data. Passando de 300, fazer o corte ANTES de encerrar a tarefa.
+
+O CORTE:
+  - `pautas-publicadas.md` fica com as linhas dos últimos 90 dias. É o arquivo
+    de trabalho, o único que precisa ser lido inteiro.
+  - `pautas-arquivo-AAAA.md`, no mesmo diretório, recebe as linhas mais antigas,
+    em ordem cronológica, sem apagar nada. É consulta, não leitura obrigatória.
+  - No topo do arquivo de trabalho, uma linha dizendo para onde foi o resto e
+    até que data ele vai.
+  - O bloco "Rodízio — estado atual" permanece SEMPRE no arquivo de trabalho:
+    é o resumo que faz a antirrepetição funcionar sem o histórico completo.
+
+NUNCA apagar registro. Cortar é mover para o arquivo do ano, não descartar. Uma
+headline perdida volta a ser reutilizada, e headline repetida é o erro mais
+visível que esta operação pode cometer.
+
+O mesmo vale para `estado_rodizio.md` na memória: manter o resumo e as peças
+recentes, não a lista integral desde o começo.
+
+================================================================================
+FIM DA INSTRUÇÃO v6.2
+================================================================================
+
+--------------------------------------------------------------------------------
+16. BANCO DE ÁREAS v2 — DE ONDE SAI A PAUTA
+--------------------------------------------------------------------------------
+Montado em 16/08/2026, depois de o rodízio de 14 áreas esgotar em um dia.
+18 áreas, cerca de 170 tópicos. Cada linha é UM tópico, e cada tópico sai uma
+vez a cada 40 peças.
+
+COMO SE USA
+  1. A área é a gaveta; o tópico é a peça. Repetir área é inevitável; repetir
+     tópico, não.
+  2. Todo tópico já vem no registro v6: a linha não descreve a matéria
+     técnica, descreve o DOCUMENTO DA OUTRA PARTE entrando nos autos. A
+     headline sai quase pronta de cada uma.
+  3. A coluna /areas/... é o destino do link, conforme a seção 8.
+  4. Cruzar sempre com um MOMENTO da seção 8. Área + momento diferente = peça
+     diferente.
+  5. Marcado (criar): a página não existe no site. NÃO usar como pauta até
+     existir — senão a peça manda o advogado para lugar nenhum.
+
+PARTE 1 — AS 14 ÁREAS DO SITE, EXPANDIDAS
+
+
+A1 · CÍVEIS — liquidação, execução e haveres
+/areas/civeis
+
+Exposição típica: a conta que instrui a execução vira o valor do processo
+sem que ninguém abra a memória.
+
+- Cálculo de liquidação homologado sem conferência de índice e termo inicial
+- Marco de 30/08/2024 (Lei 14.905/2024) aplicado à conta inteira, sem corte
+- Juros capitalizados dentro de conta que se apresenta como simples
+- Multa do art. 523 incidindo sobre base já corrigida
+- Honorários somados à base de cálculo da própria correção
+- Apuração de haveres com data-base fixada pela parte que controla os livros
+- Lucros cessantes apurados sobre faturamento, não sobre margem líquida
+- Perícia de danos patrimoniais sem cadeia documental que sustente o número
+- Cumprimento de sentença com planilha de trinta páginas e prazo de quinze dias
+- Conta de liquidação que soma parcelas já quitadas administrativamente
+
+A2 · CONTÁBEIS — escrituração, balanço e reconstrução
+/areas/contabeis
+
+Exposição típica: o documento contábil junta-se aos autos como se fosse
+prova, e ninguém pede o que o sustenta.
+
+- Balanço juntado sem os livros e razões que o comprovam
+- Conciliação bancária declarada por saldo que fecha, sem lastro de partida
+- Reconstrução contábil de empresa sem escrituração regular
+- DRE que classifica despesa de sócio como custo operacional
+- Conta corrente de sócio movimentada como caixa da empresa
+- Estoque declarado sem inventário demonstrado
+- Provisões e ajustes lançados sem nota explicativa
+- Escrituração refeita depois da citação, e sem trilha de alteração
+- Distribuição de lucros sem lucro apurado no exercício
+- Demonstração consolidada que esconde transação entre partes relacionadas
+
+A3 · FINANCEIROS — juros, sistemas de amortização e CET
+/areas/financeiros
+
+Exposição típica: a planilha diz uma coisa, o contrato diz outra, e a
+diferença nunca é demonstrada.
+
+- Planilha em Price apresentada sob contrato que prevê SAC
+- Capitalização mensal em contrato que não a pactuou expressamente
+- CET divulgado que não reproduz o fluxo real do contrato
+- Amortização negativa gerada por parcela inferior ao juro do período
+- Taxa efetiva e taxa nominal usadas de forma intercambiável na conta
+- Índice de correção trocado no meio da série, sem justificativa
+- Valor presente calculado com taxa diferente da contratada
+- Carência capitalizada e incorporada ao saldo sem destaque
+- Encargo de inadimplência cobrado sobre parcela ainda vincenda
+- SACRE apresentado como SAC, com efeito no saldo devedor final
+
+A4 · BANCÁRIOS — revisão, execução e encargos
+/areas/bancarios
+
+Exposição típica: o saldo devedor apresentado pelo credor vira o valor da
+execução sem evolução demonstrada.
+
+- Saldo devedor sem memória de evolução, parcela a parcela
+- Comissão de permanência cumulada com multa e mora
+- Tarifas e IOF financiados e recapitalizados dentro do saldo
+- Seguro prestamista embutido sem adesão demonstrada
+- Cédula de crédito com taxa média de mercado comparada em série errada
+- Cartão de crédito com rotativo capitalizado além do período
+- Renegociação que incorpora encargo já discutido em juízo
+- Alienação fiduciária: saldo cobrado após a venda do bem, sem prestação de contas
+- Embargos com prazo correndo sobre planilha que o próprio credor produziu
+- Crédito consignado com margem excedida e desconto mantido
+
+A5 · TRABALHISTAS — liquidação, verbas e acordos
+/areas/trabalhistas
+
+Exposição típica: a planilha da empresa instrui a homologação, e o acordo
+fecha sobre a conta dela.
+
+- Divisor de horas extras aplicado errado em todo o contrato
+- Reflexos calculados sem integrar adicional habitual à base
+- Acordo homologado sobre planilha apresentada pela reclamada
+- Base de cálculo do FGTS sem as verbas de natureza salarial
+- Adicional de insalubridade calculado sobre salário mínimo em vez do piso
+- Compensação de jornada sem acordo válido demonstrado
+- Cálculo de liquidação com juros e correção em marcos trocados
+- Verbas rescisórias com média de comissões apurada em período favorável
+- Equiparação salarial sem série de remuneração dos paradigmas
+- Sucessão empresarial: passivo apurado sem confronto de balanços
+
+A6 · PREVIDENCIÁRIOS — RMI, atrasados e revisões
+/areas/previdenciarios
+
+Exposição típica: o INSS calcula, o acordo é homologado, e ninguém refez a
+conta.
+
+- RMI apurada sem conferência do PBC e dos salários de contribuição
+- Atrasados pagos com desconto de benefício inacumulável não demonstrado
+- Correção dos atrasados com índice e termo inicial divergentes do julgado
+- CNIS com vínculo ausente e sem indicação de extemporaneidade
+- Índice de reajuste do benefício aplicado fora da data-base
+- Revisão de teto sem demonstração do valor limitado à época
+- Contribuição de contribuinte individual recolhida e não computada
+- Benefício por incapacidade: apuração da DIB e do período de graça
+- Salário-maternidade apurado sobre média incompleta
+- Descontos de consignado mantidos sobre atrasados
+
+A7 · TRIBUTÁRIOS — recolhimento, crédito e repetição
+/areas/tributarios
+
+Exposição típica: recolheu-se a maior, e ninguém refez a apuração.
+
+- Fator R aplicado sem recomposição da folha do período
+- Enquadramento no anexo errado do Simples, com efeito retroativo
+- Exclusão do ICMS da base do PIS/COFINS sem memória mês a mês
+- Crédito de PIS/COFINS glosado sem confronto de insumos
+- Compensação declarada e não homologada, com multa isolada
+- Execução fiscal instruída por CDA sem demonstrativo de composição
+- Multa qualificada aplicada sem demonstração de conduta
+- IRPJ no lucro presumido com receita classificada em atividade diversa
+- Substituição tributária com base de cálculo presumida acima da real
+- Parcelamento com saldo consolidado que não bate com os DARFs pagos
+
+A8 · EMPRESARIAIS — societário, valuation e resultado
+/areas/empresariais
+
+Exposição típica: o balanço que instrui a ação foi feito por quem controla
+a contabilidade.
+
+- Apuração de haveres com balanço de determinação elaborado pela sociedade
+- EBITDA ajustado sem nome, valor e razão de cada exclusão
+- Valuation por fluxo descontado com taxa e projeção não demonstradas
+- Distribuição disfarçada de lucros por despesa pessoal na empresa
+- Diluição de participação em aumento de capital sem laudo de avaliação
+- Earn-out apurado sobre meta calculada pelo comprador
+- Confusão patrimonial: desconsideração pedida sem trilha contábil
+- Dissolução parcial com data-base fixada fora do fato gerador
+- Contrato de mútuo entre sócios sem lastro de efetivo desembolso
+- Rateio de despesas entre empresas do grupo sem critério declarado
+
+A9 · MARKETPLACE E PLATAFORMAS — repasses, retenções e dados
+/areas/marketplace
+
+Exposição típica: o relatório da plataforma é a única contabilidade do
+processo.
+
+  Atenção: o tópico "relatório do marketplace × conciliação" já saiu.
+  Voltando à área, atacar outro objeto.
+
+- Saldo bloqueado por suspeita, sem composição nem prazo de liberação
+- Comissão alterada unilateralmente, sem data de vigência demonstrada
+- Estorno e chargeback lançados sem vínculo com o pedido de origem
+- Frete subsidiado e campanha debitados sem adesão do vendedor
+- Prazo de repasse: data contratada × data efetiva, e a correção devida
+- Reconstrução de vendas por API contra o relatório oficial da plataforma
+- Encerramento de conta com saldo retido e sem prestação de contas
+- Taxa de antecipação cobrada sobre valor já antecipado
+- Publicidade cobrada sem relatório de veiculação conferível
+- Tributação sobre receita bruta que inclui valor nunca repassado
+
+A10 · AUDITORIA E COMPLIANCE — prova documental
+/areas/auditoria
+
+Exposição típica: o documento é juntado, aprovado e ninguém abre o que está
+por trás.
+
+- Prestação de contas aprovada sem que os extratos fossem abertos
+- Extrato juntado em print, sem integridade verificável
+- Cadeia documental com salto de período não justificado
+- Planilha da parte contrária sem fórmula visível nem fonte de dado
+- Documento digital sem metadados nem hash que sustentem a data
+- Relatório de auditoria interna usado como prova sem papel de trabalho
+- Conciliação de caixa com diferença rolando de mês a mês
+- Contrato aditado verbalmente e demonstrado só por comportamento contábil
+- Base de dados exportada com filtro não declarado
+- Amostragem apresentada como universo
+
+A11 · SEGUROS — sinistro, indenização e regulação
+/areas/seguros
+
+Exposição típica: a seguradora apura e fixa o próprio limite.
+
+- Depreciação aplicada sem critério, vida útil ou data de referência
+- Valor de reposição × valor de mercado × valor contábil na base do prejuízo
+- Lucro cessante apurado sem série histórica e sem líquido de custos cessados
+- Franquia aplicada sobre base diferente da contratada
+- Regulação de sinistro conduzida por profissional indicado pela seguradora
+- Recusa por agravamento de risco sem demonstração patrimonial
+- Correção da indenização contada da recusa, e não do sinistro
+- Seguro empresarial com capital segurado desatualizado e rateio proporcional
+- Sinistro de transporte com avaria apurada só por peso, não por valor
+- Prestamista: saldo devedor quitado parcialmente e cobrança mantida
+
+A12 · IMOBILIÁRIOS — avaliação, distrato e locação
+/areas/imobiliarios
+
+Exposição típica: o valor é fixado antes de a conta ser demonstrada.
+
+- Distrato com retenção de 25% ou 50% aplicada sem enquadrar a hipótese
+- Taxa de fruição cobrada de quem nunca recebeu as chaves
+- Avaliação apresentada depois de o valor já estar fixado nos autos
+- Correção das parcelas pagas não feita parcela a parcela
+- Corretagem abatida sem data, valor e destinatário
+- Revisional de aluguel com índice e paradigma de mercado não demonstrados
+- Benfeitorias indenizadas sem apuração de custo e de valorização
+- Desapropriação: terra nua e acessões apuradas em critérios misturados
+- Condomínio: rateio de despesa extraordinária cobrado do locatário
+- Contrato build to suit com reequilíbrio pedido sem planilha de custo
+
+A13 · AGRÁRIOS — crédito rural, safra e cobertura
+/areas/agrarios
+
+Exposição típica: o agente financeiro apura a perda que ele mesmo vai
+cobrir.
+
+  Já saiu: cédula de crédito rural (saldo do credor) e Proagro
+  (apuração da perda pelo banco).
+
+- Custeio financiado × custeio efetivamente aplicado na lavoura
+- Produtividade esperada fixada sem série regional demonstrada
+- Prorrogação de dívida rural com encargo do período incorporado ao saldo
+- Arrendamento com pagamento em produto e conversão em data favorável
+- Parceria agrícola tratada como arrendamento no cálculo do resultado
+- Terra nua avaliada sem separar benfeitoria e cultura permanente
+- Penhor de safra com estoque não inventariado
+- Seguro rural: indenização calculada sobre produtividade não auditada
+- Barter: preço de troca fixado fora da data pactuada
+- CPR com preço de referência divergente do mercado no vencimento
+
+A14 · PERSONALIZADOS — o que não cabe em gaveta
+/areas/personalizados
+
+Exposição típica: o caso exige uma conta que ninguém tem pronta.
+
+- Índice contratual próprio, sem série pública para conferir
+- Fórmula de reajuste pactuada e nunca aplicada como escrita
+- Cálculo multiparte com rateio entre litisconsortes
+- Reconstrução de série histórica a partir de documento fragmentado
+- Conversão de moeda com data e taxa em disputa
+- Cálculo de sucumbência recíproca proporcional ao decaimento
+- Simulação de cenários para audiência de conciliação
+- Quesitos técnicos formulados a partir do laudo já juntado
+- Parecer crítico sobre laudo oficial, sem repetir a perícia
+- Planilha de acordo com trava de correção e prazo
+
+
+PARTE 2 — ÁREAS NOVAS PROPOSTAS
+
+Quatro gavetas que o site ainda não tem e que são mercado grande de
+advogado, dentro do escopo de perito contábil. Cada uma precisa de página
+antes de virar destino de post.
+
+A15 · FAMÍLIA E SUCESSÕES (criar)
+
+Talvez a maior lacuna do site. É volume alto de advogado e trabalho
+contábil puro.
+
+- Partilha com empresa no acervo, avaliada pelo cônjuge que a administra
+- Alimentos sobre renda variável: pró-labore, distribuição e despesa pessoal
+- Sonegação de bens demonstrada por movimentação, não por declaração
+- Colação de doação com valor de época × valor atualizado
+- Inventário com holding familiar e participação de difícil avaliação
+- Regime de bens: apuração do aquesto sobre valorização de quota
+- Ocultação patrimonial por interposta pessoa, com trilha contábil
+- Prestação de contas de tutela ou curatela
+
+A16 · RECUPERAÇÃO JUDICIAL E FALÊNCIA (criar)
+
+- Quadro-geral de credores com crédito classificado sem lastro
+- Habilitação de crédito impugnada por divergência de atualização
+- Plano com projeção de fluxo que não se sustenta na série real
+- Ato de gestão temerária demonstrado por movimentação
+- Período suspeito: pagamento a credor fora da ordem
+- Consolidação substancial: confusão patrimonial entre empresas do grupo
+- Constatação prévia com contabilidade não localizada
+- Cumprimento do plano aferido por indicador escolhido pela devedora
+
+A17 · ADMINISTRATIVO, LICITAÇÕES E CONTRATOS PÚBLICOS (criar)
+
+- Reequilíbrio econômico-financeiro pedido sem planilha de custo aberta
+- Planilha de formação de preços com BDI não demonstrado
+- Medição paga divergente do executado, sem relatório de obra
+- Aditivo que altera quantitativo sem revisar o preço unitário
+- Glosa aplicada pelo ente sem memória de cálculo
+- Inexecução apurada por critério não previsto no edital
+- Multa contratual sobre base diferente da contratada
+- Reajuste contratual com índice setorial trocado
+
+A18 · CONSUMIDOR E SUPERENDIVIDAMENTO (criar)
+
+- Repactuação com mínimo existencial apurado sem despesa comprovada
+- Somatório de consignados que ultrapassa a margem legal
+- Cobrança de tarifa não pactuada, mantida por anos
+- Venda casada demonstrada pela composição do valor financiado
+- Contrato de adesão com encargo divergente do informado na oferta
+- Assinatura de serviço renovada automaticamente e não usada
+- Dano material apurado por valor de reposição do bem
+- Cobrança indevida com repetição em dobro e correção desde cada débito
+
+
+PARTE 3 — MOMENTO PROCESSUAL (a tabela completa está na seção 8)
+
+A mesma área rende peças diferentes quando o momento muda. Nunca repetir a
+combinação área + momento dentro de 20 peças.
+
+| # | Momento | O que está em jogo |
+|---|---|---|
+| M1 | Antes da ação | a conta que define o pedido |
+| M2 | Petição inicial | o número que instrui o pedido |
+| M3 | Contestação | a planilha que a outra parte juntou |
+| M4 | Quesitos | o que o perito vai — ou não vai — responder |
+| M5 | Perícia em curso | o assistente técnico acompanhando |
+| M6 | Laudo entregue | o prazo de impugnação correndo |
+| M7 | Sentença e liquidação | o cálculo que vira o valor |
+| M8 | Cumprimento e execução | os quinze dias sobre trinta páginas |
+| M9 | Acordo e conciliação | a conta sobre a qual se fecha |
+| M10 | Recurso | a divergência técnica que sobe |
+
+14 áreas do site × 10 momentos = 140 combinações. Com as quatro áreas
+novas, 180. A quatro peças por dia, é mais de um mês sem repetir combinação
+— e cada combinação ainda comporta vários tópicos da lista acima.
+
+
+PARTE 4 — MAPA PEÇA PROCESSUAL -> CÁLCULO QUE ELA EXIGE
+Entra na v8, ampliado para 28 peças. É o terceiro eixo do rodízio (seção 8) e
+a fonte mais direta de gancho, porque nomeia o que o advogado tem aberto na
+tela. O NOME DA PEÇA VAI NA TARJA DA CAPA (seção 4).
+
+Cada linha traz: a peça · o cálculo que a sustenta · o buraco que a peça tem
+quando o cálculo falta. O buraco é a headline.
+
+--- CONHECIMENTO ------------------------------------------------------------
+
+  1. PETIÇÃO INICIAL com pedido líquido
+     apuração do quantum, com memória e critério declarado
+     buraco: pedido ilíquido onde a lei exige valor, ou valor sem memória
+
+  2. CONTESTAÇÃO com alegação de excesso
+     apuração paralela do débito, com o incontroverso destacado
+     buraco: alegou excesso e não disse qual é o valor certo
+
+  3. RECONVENÇÃO
+     apuração do crédito próprio do réu, na mesma base do autor
+     buraco: crédito afirmado sem demonstração de origem e evolução
+
+  4. RÉPLICA
+     resposta técnica aos documentos que vieram com a contestação
+     buraco: a planilha do réu entrou nos autos e não foi conferida
+
+  5. TUTELA DE URGÊNCIA
+     composição do valor bloqueado, retido ou indisponível
+     buraco: urgência pedida sobre um número que a outra parte não abriu
+
+--- PROVA -------------------------------------------------------------------
+
+  6. QUESITOS E QUESITOS SUPLEMENTARES
+     os pontos que o laudo não fecha, formulados com base, índice e período
+     buraco: pergunta aberta devolve resposta aberta
+
+  7. INDICAÇÃO DE ASSISTENTE TÉCNICO
+     acompanhamento da diligência e do critério do perito, desde o início
+     buraco: sem assistente, a palavra do perito é a única do processo
+
+  8. IMPUGNAÇÃO AO LAUDO PERICIAL
+     recálculo por critério alternativo, com memória que confronte o oficial
+     buraco: discordar do laudo sem memória própria é alegação contra número
+
+  9. PARECER TÉCNICO DIVERGENTE
+     laudo do assistente, autônomo, com metodologia declarada
+     buraco: divergência afirmada sem trabalho técnico que a sustente
+
+ 10. PEDIDO DE ESCLARECIMENTOS AO PERITO
+     os pontos do laudo que não fecham aritmeticamente
+     buraco: pedir esclarecimento genérico gasta o prazo sem mover nada
+
+ 11. EXIBIÇÃO DE DOCUMENTO OU DE LIVROS
+     lista do que é necessário e suficiente para refazer a conta
+     buraco: pedir "todos os documentos" convida indeferimento por genérico
+
+--- LIQUIDAÇÃO E CUMPRIMENTO ------------------------------------------------
+
+ 12. LIQUIDAÇÃO POR ARBITRAMENTO
+     apuração do quantum e demonstração do critério adotado
+     buraco: o arbitramento sai do laudo oficial se não houver conta oposta
+
+ 13. LIQUIDAÇÃO PELO PROCEDIMENTO COMUM
+     apuração do fato novo com prova contábil
+     buraco: alegar sem quantificar devolve o processo à estaca zero
+
+ 14. DEMONSTRATIVO DE CÁLCULO DO CUMPRIMENTO (art. 524)
+     memória com índice, termo inicial, juros, multa e honorários
+     buraco: demonstrativo incompleto é embargável por vício formal
+
+ 15. IMPUGNAÇÃO AO CUMPRIMENTO DE SENTENÇA (art. 525)
+     conferência da conta do exequente, item a item
+     buraco: quinze dias sobre uma planilha que a outra parte produziu
+
+ 16. CUMPRIMENTO DE OBRIGAÇÃO DE FAZER convertido em perdas e danos
+     apuração do valor da conversão
+     buraco: conversão pedida sem base de cálculo declarada
+
+--- EXECUÇÃO ----------------------------------------------------------------
+
+ 17. EMBARGOS À EXECUÇÃO
+     evolução do saldo parcela a parcela, do desembolso à data-base
+     buraco: alegou excesso, e a evolução do saldo não está nos autos
+
+ 18. EXCEÇÃO DE PRÉ-EXECUTIVIDADE
+     vício aritmético demonstrável de plano, sem dilação probatória
+     buraco: sem a conta pronta, a matéria não cabe nessa via
+
+ 19. EMBARGOS À EXECUÇÃO FISCAL
+     composição da CDA: principal, multa, juros e encargo legal
+     buraco: a certidão presume-se líquida até alguém abrir a composição
+
+ 20. EMBARGOS DE TERCEIRO
+     demonstração contábil da titularidade ou da quitação
+     buraco: alegação de propriedade sem trilha de pagamento
+
+ 21. IMPUGNAÇÃO À PENHORA E AO VALOR DE AVALIAÇÃO
+     confronto entre valor de avaliação e valor de mercado apurado
+     buraco: avaliação do oficial vira preço sem contraditório técnico
+
+--- RECURSAL ----------------------------------------------------------------
+
+ 22. APELAÇÃO E CONTRARRAZÕES
+     resposta técnica à divergência, sem refazer a perícia inteira
+     buraco: repetir a tese sem enfrentar o número mantém a sentença
+
+ 23. AGRAVO DE INSTRUMENTO contra decisão sobre perícia ou cálculo
+     demonstração do prejuízo concreto do critério adotado
+     buraco: agravar sem mostrar o efeito no valor é agravar no vazio
+
+--- PROCEDIMENTOS ESPECIAIS -------------------------------------------------
+
+ 24. AÇÃO DE PRESTAÇÃO DE CONTAS
+     conta em forma contábil: débito, crédito e saldo demonstrado
+     buraco: a lei exige forma contábil, e planilha de Excel não é forma
+
+ 25. DISSOLUÇÃO PARCIAL E APURAÇÃO DE HAVERES
+     balanço de determinação na data-base e critério de avaliação
+     buraco: o balanço vem de quem controla a contabilidade
+
+ 26. HABILITAÇÃO E IMPUGNAÇÃO DE CRÉDITO na recuperação
+     atualização até a data do pedido e classificação da natureza
+     buraco: crédito classificado sem lastro entra no quadro assim mesmo
+
+ 27. AÇÃO REVISIONAL DE CONTRATO
+     comparação de sistemas de amortização, CET e capitalização
+     buraco: pedir revisão sem apontar a divergência é pedir arbítrio
+
+ 28. AÇÃO DE ALIMENTOS E REVISIONAL
+     apuração de renda variável: pró-labore, distribuição, despesa pessoal
+     buraco: renda declarada não é renda disponível, e ninguém apurou
+
+TAMBÉM RENDEM PEÇA, com menos frequência: despejo por falta de pagamento
+(planilha do débito locatício), consignação em pagamento (valor incontroverso),
+repetição de indébito (levantamento mês a mês), monitória (demonstração da
+dívida), e ação de exigir contas contra plataforma ou administradora.
+
+REGRA DE USO: a peça escolhida vai na TARJA DA CAPA e reaparece na primeira
+linha do slide 2. Não adianta escolher e não dizer — o reconhecimento é o
+produto. A mesma peça não repete em menos de 8 publicações.
+
+
+--------------------------------------------------------------------------------
+17. O SITE — O QUE A PEÇA PODE PROMETER
+--------------------------------------------------------------------------------
+Análise do site feita em 16/08/2026. Registrado aqui porque a peça e o site
+precisam falar a mesma língua: o advogado sai de um e cai no outro.
+
+O QUE O SITE OFERECE, e que a peça pode repetir sem inventar:
+  - análise técnica inicial gratuita, exclusiva para advogados e escritórios
+  - envio de documento pelo formulário, com tratamento confidencial
+  - atendimento nacional, fluxo integralmente digital
+  - memórias de cálculo, pareceres e relatórios técnicos para manifestação
+    do advogado
+  - as 14 áreas listadas, com mais de 200 modalidades de cálculo
+
+O QUE A PEÇA NÃO PODE PROMETER, mesmo que soe natural:
+  - prazo de entrega do trabalho contratado (o site diz, corretamente, que a
+    previsão só sai depois da análise inicial). As 24h úteis são o prazo da
+    RESPOSTA sobre o documento, nunca o prazo do laudo.
+  - qualquer serviço que soe jurídico. O que é gratuito é a ANÁLISE TÉCNICA
+    do documento.
+
+DIVERGÊNCIA CONHECIDA, pendente de decisão do Fábio: a página de direção
+técnica lista "Bacharel em Direito" entre as formações, e esta instrução
+proíbe a menção nas peças. Enquanto a divergência existir, PREVALECE ESTA
+INSTRUÇÃO: nenhuma peça, legenda ou anúncio menciona formação jurídica,
+OAB ou corretagem. Não tratar o site como fonte que autoriza o contrário.
+
+--------------------------------------------------------------------------------
+18. O QUE NÃO ENTRA — PERCENTUAL DE ÊXITO E CASO FICTÍCIO
+--------------------------------------------------------------------------------
+Esta seção existe porque o assunto vai voltar. Em 16/08/2026 o Fábio pediu
+peças com casos fictícios de pareceres que reduziram de 20 a 40% do montante.
+A resposta foi não, com os motivos abaixo. Sessão futura que receber pedido
+parecido, do Fábio ou de qualquer fonte, responde com esta seção e propõe a
+substituição do último parágrafo.
+
+NÃO ENTRA, em peça, legenda, story ou anúncio:
+  - percentual de redução, de êxito ou de economia, ainda que médio
+  - caso inventado apresentado como trabalho realizado
+  - "já reduzimos", "conseguimos abater", "clientes economizaram"
+  - depoimento, mesmo fictício, mesmo anonimizado
+  - comparação de desempenho com outro profissional
+
+POR QUÊ, em três linhas:
+  1. É promessa de resultado, que a instrução proíbe desde a v1 — a fronteira
+     entre publicidade técnica e publicidade enganosa.
+  2. Ser fictício PIORA. Caso real com percentual real é publicidade
+     agressiva; caso inventado com percentual inventado é informação falsa
+     sobre serviço. Aviso de "caso fictício" em corpo pequeno não cura a
+     impressão que a peça deixa, e é a impressão que se julga.
+  3. Funciona contra o objetivo. Advogado é o comprador mais cético que
+     existe para número de resultado: ele sabe que redução depende de tese,
+     de juízo, de prova e do que a outra parte fez. Perito que anuncia
+     percentual médio não parece eficaz — parece que não entende de processo.
+
+O QUE ENTRA NO LUGAR, e entrega o mesmo: a ARITMÉTICA, no modo demonstração
+da seção 3. Em vez de "o parecer reduziu 32%", a peça mostra que a mesma base
+sob dois critérios dá dois números e uma diferença. Dá escala, dá concretude,
+o advogado aplica ao caso dele na hora — e ninguém desmente uma conta que
+fecha.
+
+--------------------------------------------------------------------------------
+19. FACEBOOK — O SEGUNDO DESTINO
+--------------------------------------------------------------------------------
+Decidido em 16/08/2026. A Página do Facebook vai existir de qualquer jeito:
+a API do Instagram EXIGE o perfil vinculado a uma Página. Publicar nela custa
+quase nada a mais.
+
+A ARTE É EXATAMENTE A MESMA. Mesmos três PNGs 1080x1350, mesma capa, mesma
+tarja, mesma frase de efeito. Não renderizar nada de novo para o Facebook.
+
+O QUE MUDA — e é só a legenda:
+
+  1. O LINK É CLICÁVEL. Esta é a diferença que importa. Toda a seção 5 desta
+     instrução — "imagem de post não carrega link", proibido "clique",
+     "acesse", seta — é regra do INSTAGRAM, e no Facebook ela NÃO se aplica
+     à legenda. Lá o CTA pode ser direto:
+         "Clique e envie o demonstrativo: www.integrajud.com.br/areas/bancarios"
+     Segue proibido escrever "clique" DENTRO DA ARTE, porque a arte é a mesma
+     nos dois lugares e no Instagram continuaria mentindo.
+
+  2. HASHTAG SAI. No Facebook não distribui nada e polui a legenda. O bloco
+     de 6 a 12 hashtags da seção 9 é exclusivo do Instagram.
+
+  3. A LEGENDA PODE SER MAIS DIRETA. Sem o limite de 2200 caracteres apertando
+     e sem a bio como intermediária, o fechamento vai direto ao ponto:
+         a oferta com prazo de 24h úteis
+         o link da área, clicável
+         o WhatsApp
+     A assinatura da seção 7 continua obrigatória, igual.
+
+  4. NÃO PUBLICAR TEXTO IDÊNTICO nos dois. Mesma peça, legendas diferentes.
+     Conteúdo espelhado palavra por palavra tende a ser distribuído pior.
+
+COMO SE FAZ, na prática:
+  Salvar na MESMA subpasta da peça um `legenda_facebook.txt`, ao lado do
+  `legenda.txt`. Depois:
+
+      python3 publicar_instagram.py <pasta_da_peca>
+      python3 publicar_facebook.py  <pasta_da_peca>
+
+  Sem o legenda_facebook.txt, o script usa a do Instagram e remove as
+  hashtags sozinho — funciona, mas perde o link clicável, que é o motivo de
+  publicar lá. Escrever a legenda própria é a regra; a adaptação automática
+  é a rede de segurança.
+
+VANTAGEM TÉCNICA DO FACEBOOK: a API aceita o ARQUIVO direto. Não precisa
+hospedar imagem em lugar nenhum. Some a dependência de FTP e de pasta pública
+no site, que é justamente o que trava o Instagram. Por isso o Facebook
+costuma ficar pronto ANTES.
+
+CONFIGURAÇÃO: bloco novo no mesmo `config_publicacao.json`:
+
+    "facebook": {
+      "page_id": "123456789",
+      "page_token": "EAA..."
+    }
+
+  O page_token é o token DA PÁGINA, não o do usuário. Sai de GET /me/accounts,
+  no campo access_token de cada página. Mesmo app, mesma sessão do console.
+
+O QUE NÃO AUTOMATIZAR: postar em GRUPO de advogados. É onde está o alcance
+real no Facebook brasileiro, mas cada grupo tem regra própria e muitos
+proíbem divulgação — publicação automática em grupo é caminho curto para
+banimento. Isso é ação do Fábio, manual, avaliando o grupo.
+
+EXPECTATIVA HONESTA: alcance orgânico de Página no Facebook é baixo. O valor
+de estar lá é a) o link clicável, b) servir de destino quando ele compartilhar
+manualmente, c) o custo marginal ser quase zero. Não prometer mais que isso.

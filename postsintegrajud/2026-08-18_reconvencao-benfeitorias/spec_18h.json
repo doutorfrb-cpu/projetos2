@@ -1,0 +1,80 @@
+{
+ "slug": "integrajud_reconvencao_benfeitorias",
+ "outdir": "pc_18h",
+ "paleta": "P10",
+ "cenas": [
+  "doc:memoria/formulario",
+  "duna",
+  "trama",
+  "doc:comparativo/copia",
+  "foto:px_15102004.jpg"
+ ],
+ "seeds": [
+  6201,
+  6202,
+  6203,
+  6204,
+  6205
+ ],
+ "overlay": [
+  ".93,.96,.98",
+  ".46,.60",
+  ".52,.80"
+ ],
+ "slides": [
+  {
+   "layout": "L4",
+   "chamada": "ANTES DE PROTOCOLAR",
+   "peca": "RECONVENÇÃO",
+   "cifra": {
+    "rotulo": "a diferença entre os dois critérios",
+    "valor": "R$ 48.000"
+   },
+   "headline": "Você reconveio pedindo benfeitorias. <b>O valor delas ninguém apurou</b>",
+   "apoio": "Custo comprovado e valorização do imóvel são contas diferentes. A reconvenção que não escolhe uma delas termina em liquidação."
+  },
+  {
+   "kicker": "Imobiliário · resposta e reconvenção",
+   "titulo": "Benfeitoria não se indeniza por alegação. Indeniza-se por conta demonstrada",
+   "passos": [
+    "<em>O regime muda conforme o grupo da obra.</em> Necessária, útil e voluptuária têm tratamento próprio no art. 35 da Lei 8.245/91 e no contrato. A classificação é jurídica; o valor de cada grupo é apuração, e só se separa com nota fiscal, medição e data.",
+    "<em>Afastada a renúncia, ou havendo autorização escrita</em>, o processo volta ao ponto de sempre: quanto custou, quando custou, e o que disso permanece no imóvel na devolução.",
+    "<em>Reconvenção pede valor certo.</em> Crédito próprio na mesma base do autor exige memória: origem do gasto, correção do período e critério declarado. Pedido genérico devolve o crédito à liquidação."
+   ],
+   "rodape": "Sem custo apurado, a indenização se discute no abstrato."
+  },
+  {
+   "kicker": "O que a apuração responde",
+   "titulo": "Quatro números que a reconvenção precisa levar prontos",
+   "passos": [
+    "<em>O custo efetivo de cada obra, por documento.</em> Nota fiscal, recibo de mão de obra e medição, separados por grupo. Bloco único de “reforma” impede o juízo de deferir uma parte e negar outra.",
+    "<em>A data de cada desembolso.</em> A correção corre do gasto, não do fim do contrato. Obra de 2021 corrigida como se fosse de 2024 perde três anos de índice.",
+    "<em>O que permanece no imóvel na devolução.</em> Benfeitoria consumida pelo uso não entra como nova: entra depreciada, pela vida útil do que foi instalado.",
+    "<em>O saldo de aluguéis e encargos do mesmo período.</em> Ignorar o débito em aberto entrega ao autor a conta da compensação, feita pelo critério dele."
+   ],
+   "rodape": "Os quatro saem de documento que o locatário já tem em mãos."
+  },
+  {
+   "kicker": "Demonstração · dois critérios de indenização",
+   "titulo": "A mesma obra, duas contas: custo corrigido e valorização do imóvel",
+   "passos": [
+    "<em>Base:</em> obra autorizada e concluída em 03/2021, com R$ 90.000,00 em notas fiscais e medição.",
+    "<em>Critério A — custo comprovado corrigido</em> pelo índice de custo de construção do período, fator 1,40: R$ 126.000,00.",
+    "<em>Critério B — valorização acrescida ao imóvel</em>, apurada por avaliação na data da devolução: R$ 78.000,00.",
+    "<em>A diferença entre um critério e outro, nessa base: R$ 48.000,00.</em> É ela que a reconvenção discute — quem não demonstra os dois aceita o menor."
+   ],
+   "rodape": "Números de demonstração, não de caso real. A perícia apura os dois critérios e mostra a conta de cada um.",
+   "painel": true
+  },
+  {
+   "retrato": "sim",
+   "ponte": "Benfeitoria se discute com custo documentado.<br>A conta sai da nota fiscal, não da alegação.",
+   "itens": [
+    "Apuração de benfeitorias por grupo, com custo e data",
+    "Memória de cálculo para reconvenção com pedido líquido",
+    "Compensação entre indenização e saldo de aluguéis"
+   ],
+   "oferta": "Mande as notas da obra. Em até 24h úteis eu digo qual critério sustenta o pedido"
+  }
+ ]
+}

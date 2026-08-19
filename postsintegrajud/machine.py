@@ -1,0 +1,622 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Content Machine IntegraJud — peça de 3 a 6 slides a partir de um JSON de spec.
+
+O spec traz "slides": [capa, valor..., oferta]. Quantos slides de VALOR houver
+entre o primeiro e o último, tantos serão renderizados.
+
+uso: python3 machine.py spec1.json spec2.json ...
+"""
+import os, sys, json, base64
+import numpy as np
+from PIL import Image, ImageFilter
+from playwright.sync_api import sync_playwright
+
+BASE = os.path.dirname(os.path.abspath(__file__))
+W, H = 1080, 1350
+
+PALETAS = {
+    "P01": ("#0B0B0B", "#C9A227", "#F2EFE6", "PRETO E OURO"),
+    "P02": ("#16181A", "#D9A441", "#ECEAE4", "GRAFITE E ÂMBAR"),
+    "P03": ("#F5F2EA", "#A8862B", "#14140F", "OFF-WHITE CLÁSSICO"),
+    "P04": ("#14100B", "#D4AF37", "#F5EEDC", "SÉPIA ESCURO"),
+    "P05": ("#0E1F1B", "#C9A227", "#EAF2EE", "VERDE PROFUNDO"),
+    "P06": ("#0C1D2B", "#D6A85A", "#E9F0F5", "AZUL PETRÓLEO"),
+    "P07": ("#1B0F13", "#C9A227", "#F3E9EA", "VINHO SÓBRIO"),
+    "P08": ("#E6E4DF", "#7A6320", "#191919", "CINZA CONCRETO"),
+    "P09": ("#10141F", "#B9BFC8", "#F0F2F5", "MARINHO E PRATA"),
+    "P10": ("#EDE6D8", "#8C6E1F", "#171310", "AREIA E TINTA"),
+    # --- PALETAS DA GKFD ------------------------------------------------
+    # Contraste deliberado com a IntegraJud: lá é escuro, dourado e grave;
+    # aqui é claro, operacional, cor de painel e de extrato de repasse.
+    "G01": ("#F4F6F8", "#0B63CE", "#0E1720", "AZUL PAINEL"),
+    "G02": ("#FFFFFF", "#127A4B", "#101915", "VERDE LIBERADO"),
+    "G03": ("#F7F4EE", "#B4531A", "#1A1410", "LARANJA EMBALAGEM"),
+    "G04": ("#101B26", "#4FA3F7", "#EAF2FA", "NOTURNO OPERACIONAL"),
+    "G05": ("#F2F3F5", "#5B3FBF", "#141220", "ROXO PLATAFORMA"),
+    "G06": ("#FBF7F0", "#9A1B2F", "#1A1114", "VERMELHO RETIDO"),
+}
+
+
+def hexrgb(h):
+    h = h.lstrip("#")
+    return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
+
+
+def rgba(h, a):
+    r, g, b = hexrgb(h)
+    return f"rgba({r},{g},{b},{a})"
+
+
+def mix(c, target, t):
+    return tuple(int(round(c[i] * (1 - t) + target[i] * t)) for i in range(3))
+
+
+def b64file(p):
+    with open(p, "rb") as f:
+        return base64.b64encode(f.read()).decode()
+
+
+# ---------------- superfícies ----------------
+def octave_noise(rng, base, octaves, persistence=0.5):
+    total = np.zeros((H, W), dtype=np.float32)
+    amp, norm = 1.0, 0.0
+    for o in range(octaves):
+        gw = max(2, int(base * (2 ** o)))
+        gh = max(2, int(base * (2 ** o) * H / W))
+        layer = rng.random((gh, gw)).astype(np.float32)
+        img = Image.fromarray((layer * 255).astype(np.uint8)).resize((W, H), Image.BICUBIC)
+        total += np.asarray(img, dtype=np.float32) / 255.0 * amp
+        norm += amp
+        amp *= persistence
+    return total / norm
+
+
+def relight(height, az_deg, el_deg, strength=1.0):
+    gy, gx = np.gradient(height.astype(np.float32))
+    az, el = np.deg2rad(az_deg), np.deg2rad(el_deg)
+    lx, ly, lz = np.cos(el) * np.cos(az), np.cos(el) * np.sin(az), np.sin(el)
+    nz = 1.0 / np.sqrt(gx ** 2 + gy ** 2 + 1.0)
+    shade = (-gx * nz) * lx + (-gy * nz) * ly + nz * lz
+    return np.clip(0.5 + (shade - shade.mean()) * strength * 22.0, 0, 1)
+
+
+def vignette(power=1.7, amount=0.30):
+    yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+    r = np.sqrt(((xx - W / 2) / (W * 0.72)) ** 2 + ((yy - H * 0.42) / (H * 0.78)) ** 2)
+    return 1.0 - amount * np.clip(r, 0, 1) ** power
+
+
+def tint(gray, lo, hi):
+    g = gray[..., None]
+    return (np.array(lo, np.float32) * (1 - g) + np.array(hi, np.float32) * g).astype(np.uint8)
+
+
+def surface(kind, seed, lo, hi):
+    rng = np.random.default_rng(seed)
+    if kind == "concreto":
+        h = octave_noise(rng, 26, 6, .58) * .72 + octave_noise(rng, 4, 3, .7) * .28
+        lit = relight(h, 118, 42, 1.0)
+        stains = octave_noise(rng, 3, 4, .62)
+        lit = np.clip(lit * (0.82 + 0.30 * stains), 0, 1)
+        lit *= np.linspace(1.10, 0.78, H, dtype=np.float32)[:, None]
+    elif kind == "papel":
+        h = octave_noise(rng, 300, 3, .5) * .55 + octave_noise(rng, 8, 4, .6) * .45
+        lit = np.clip(relight(h, 75, 58, .55) * .35 + .66, 0, 1)
+        grid = np.ones((H, W), np.float32)
+        for y in range(120, H, 58):
+            grid[y:y + 1, :] *= 0.92
+        lit = np.clip(lit * grid, 0, 1)
+    elif kind == "trama":
+        yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+        weave = (np.sin((xx + yy) / 5.2) * .5 + .5) * .5 + (np.sin((xx - yy) / 7.8) * .5 + .5) * .5
+        h = weave * .42 + octave_noise(rng, 60, 5, .55) * .58
+        lit = np.clip(relight(h, 232, 46, .7) * .42 + .60, 0, 1)
+        lit = np.clip(lit * (0.86 + 0.26 * octave_noise(rng, 2, 3, .7)), 0, 1)
+    elif kind == "linho":
+        yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+        warp = (np.sin(xx / 3.1) * .5 + .5) * .5 + (np.sin(yy / 3.7) * .5 + .5) * .5
+        h = warp * .5 + octave_noise(rng, 90, 4, .5) * .5
+        lit = np.clip(relight(h, 40, 55, .8) * .40 + .62, 0, 1)
+        lit = np.clip(lit * (0.88 + 0.22 * octave_noise(rng, 3, 3, .65)), 0, 1)
+    elif kind == "pedra":
+        h = octave_noise(rng, 12, 6, .62) * .8 + octave_noise(rng, 2, 3, .8) * .2
+        lit = relight(h, 200, 35, 1.15)
+        lit = np.clip(lit * (0.78 + 0.34 * octave_noise(rng, 5, 4, .6)), 0, 1)
+        lit *= np.linspace(1.08, 0.74, H, dtype=np.float32)[:, None]
+    elif kind == "vidro":
+        yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+        band = (np.sin((xx * 0.9 + yy * 0.35) / 46.0) * .5 + .5)
+        h = band * .55 + octave_noise(rng, 40, 4, .5) * .45
+        lit = np.clip(relight(h, 150, 62, .5) * .38 + .64, 0, 1)
+        lit *= np.linspace(1.06, 0.82, H, dtype=np.float32)[:, None]
+    elif kind == "madeira":
+        yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+        rings = np.sin((xx * 0.06 + octave_noise(rng, 5, 3, .6) * 26.0)) * .5 + .5
+        h = rings * .55 + octave_noise(rng, 260, 3, .5) * .45
+        lit = np.clip(relight(h, 20, 50, .9) * .42 + .60, 0, 1)
+        lit = np.clip(lit * (0.84 + 0.28 * octave_noise(rng, 3, 3, .7)), 0, 1)
+        lit *= np.linspace(1.06, 0.80, H, dtype=np.float32)[:, None]
+    elif kind == "guilhoche":
+        yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+        g = (np.sin(xx / 6.5 + np.sin(yy / 40.0) * 3.0) * .5 + .5)
+        g2 = (np.sin(yy / 9.0 + np.sin(xx / 55.0) * 2.4) * .5 + .5)
+        h = g * .5 + g2 * .3 + octave_noise(rng, 120, 3, .5) * .2
+        lit = np.clip(relight(h, 300, 60, .45) * .34 + .66, 0, 1)
+    elif kind == "granito":
+        speck = octave_noise(rng, 320, 2, .5)
+        h = octave_noise(rng, 18, 5, .6) * .55 + speck * .45
+        lit = relight(h, 160, 40, 1.05)
+        lit = np.clip(lit * (0.80 + 0.32 * octave_noise(rng, 6, 4, .6)), 0, 1)
+        lit *= np.linspace(1.07, 0.76, H, dtype=np.float32)[:, None]
+    elif kind == "marmore":
+        yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+        warp = octave_noise(rng, 4, 5, .62)
+        veins = np.abs(np.sin((xx * .012 + yy * .006) * 3.0 + warp * 9.0))
+        h = (1.0 - veins ** .35) * .62 + octave_noise(rng, 200, 3, .5) * .38
+        lit = np.clip(relight(h, 130, 58, .55) * .40 + .62, 0, 1)
+        lit *= np.linspace(1.05, 0.82, H, dtype=np.float32)[:, None]
+    elif kind == "couro":
+        cells = octave_noise(rng, 34, 3, .55)
+        grain = octave_noise(rng, 220, 3, .5)
+        h = cells * .68 + grain * .32
+        lit = relight(h, 55, 38, 1.25)
+        lit = np.clip(lit * (0.80 + 0.30 * cells), 0, 1)
+        lit *= np.linspace(1.06, 0.78, H, dtype=np.float32)[:, None]
+    elif kind == "gesso":
+        h = octave_noise(rng, 9, 6, .5) * .7 + octave_noise(rng, 150, 3, .5) * .3
+        lit = np.clip(relight(h, 100, 30, .95) * .46 + .58, 0, 1)
+        lit = np.clip(lit * (0.88 + 0.22 * octave_noise(rng, 4, 3, .6)), 0, 1)
+    elif kind == "duna":
+        yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+        ripple = np.sin(yy / 11.0 + octave_noise(rng, 6, 3, .6) * 8.0) * .5 + .5
+        h = ripple * .6 + octave_noise(rng, 180, 3, .5) * .4
+        lit = np.clip(relight(h, 15, 28, 1.0) * .44 + .58, 0, 1)
+        lit *= np.linspace(1.08, 0.76, H, dtype=np.float32)[:, None]
+    else:  # metal escovado
+        h = octave_noise(rng, 480, 3, .5) * .7 + octave_noise(rng, 6, 3, .7) * .3
+        lit = np.clip(relight(h, 90, 50, .6) * .40 + .62, 0, 1)
+        lit *= np.linspace(1.05, 0.85, H, dtype=np.float32)[:, None]
+    lit = np.clip(lit, 0, 1) * vignette(1.6, 0.26)
+    img = Image.fromarray(tint(np.clip(lit, 0, 1), lo, hi))
+    return img.filter(ImageFilter.GaussianBlur(0.45))
+
+
+# ---------------- render ----------------
+FONT_FILES = {
+    "pf700": "playfair-display/files/playfair-display-latin-700-normal.woff2",
+    "pf900": "playfair-display/files/playfair-display-latin-900-normal.woff2",
+    "pj400": "plus-jakarta-sans/files/plus-jakarta-sans-latin-400-normal.woff2",
+    "pj600": "plus-jakarta-sans/files/plus-jakarta-sans-latin-600-normal.woff2",
+    "pj800": "plus-jakarta-sans/files/plus-jakarta-sans-latin-800-normal.woff2",
+}
+FT = {k: b64file(os.path.join(BASE, "node_modules/@fontsource", v)) for k, v in FONT_FILES.items()}
+
+FACES = f"""
+@font-face{{font-family:'Playfair Display';font-weight:700;src:url(data:font/woff2;base64,{FT['pf700']}) format('woff2')}}
+@font-face{{font-family:'Playfair Display';font-weight:900;src:url(data:font/woff2;base64,{FT['pf900']}) format('woff2')}}
+@font-face{{font-family:'Plus Jakarta Sans';font-weight:400;src:url(data:font/woff2;base64,{FT['pj400']}) format('woff2')}}
+@font-face{{font-family:'Plus Jakarta Sans';font-weight:600;src:url(data:font/woff2;base64,{FT['pj600']}) format('woff2')}}
+@font-face{{font-family:'Plus Jakarta Sans';font-weight:800;src:url(data:font/woff2;base64,{FT['pj800']}) format('woff2')}}
+"""
+
+
+def css(fundo, accent, texto, dark):
+    ar, ag, ab = hexrgb(accent)
+    cta_fg = "#12100a" if (ar * .299 + ag * .587 + ab * .114) > 150 else "#FFFFFF"
+    soft = rgba(texto, .74)
+    line = rgba(accent, .40)
+    return f"""
+*{{margin:0;padding:0;box-sizing:border-box}}
+{FACES}
+body{{width:{W}px;height:{H}px;overflow:hidden;-webkit-font-smoothing:antialiased}}
+.s{{position:relative;width:{W}px;height:{H}px;background-color:{fundo};color:{texto};
+   font-family:'Plus Jakarta Sans',sans-serif;display:flex;flex-direction:column;
+   padding:96px 84px 104px}}
+.accentbar{{position:absolute;top:0;left:0;right:0;height:10px;background:{accent}}}
+.brand{{position:absolute;top:44px;left:84px;font-size:24px;letter-spacing:.24em;
+   font-weight:600;color:{accent};text-transform:uppercase}}
+.prog{{position:absolute;bottom:52px;left:84px;right:84px;height:4px;background:{rgba(texto,.18)}}}
+.prog i{{display:block;height:4px;background:{accent}}}
+h1{{font-family:'Playfair Display',serif;font-weight:900;text-transform:uppercase;
+   font-size:var(--h1,92px);line-height:1.03;letter-spacing:-.015em}}
+h1 b{{color:{accent}}}
+.apoio{{font-size:34px;line-height:1.4;margin-top:34px;font-weight:400;color:{soft};max-width:840px}}
+.painel-box{{background:{rgba(fundo,.93)};margin:0 -84px;padding:44px 84px 40px;
+   flex:1;display:flex;flex-direction:column;
+   border-left:14px solid {accent}}}
+.selo{{position:absolute;bottom:44px;right:80px;width:132px;height:132px;
+   border-radius:50%;overflow:hidden;z-index:5}}
+.selo img{{width:100%;height:100%;object-fit:cover;display:block}}
+.selo-cred{{position:absolute;bottom:70px;right:232px;text-align:right;z-index:5;
+   font-family:'Plus Jakarta Sans',sans-serif}}
+.selo-cred b{{display:block;font-size:24px;font-weight:800;color:{texto};
+   letter-spacing:.02em}}
+.selo-cred span{{display:block;font-size:19px;font-weight:600;color:{accent};
+   letter-spacing:.10em;text-transform:uppercase;margin-top:4px}}
+.colret{{position:absolute;top:0;right:0;bottom:0;width:352px;z-index:1;
+   border-left:8px solid {accent}}}
+.colret img{{width:100%;height:100%;object-fit:cover;display:block}}
+.temcol{{padding-right:420px}}
+.retfundo{{justify-content:flex-end;padding-bottom:150px}}
+.retesq{{padding-left:430px}}
+.retesq h1{{font-size:calc(var(--h1,92px) * .88)}}
+.retfundo .peca{{margin-bottom:26px}}
+.retcontato{{position:absolute;top:0;right:0;bottom:0;width:330px;z-index:1;
+   border-left:8px solid {accent}}}
+.retcontato img{{width:100%;height:100%;object-fit:cover;display:block}}
+.temret3{{padding-right:400px}}
+.temret3 .faixa{{width:100%}}
+.temret3 .oferta-cta .acima{{max-width:none}}
+.chamada{{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:31px;
+   letter-spacing:.15em;text-transform:uppercase;color:{accent};margin-bottom:22px;
+   align-self:flex-start;line-height:1.2;padding-bottom:12px;
+   border-bottom:3px solid {rgba(accent,.55)}}}
+.chamada b{{color:{texto}}}
+.L6 .chamada{{align-self:center;text-align:center}}
+.L2 .chamada{{margin-bottom:26px}}
+.L4 .chamada{{margin-bottom:26px}}
+.peca{{display:inline-block;align-self:flex-start;background:{accent};color:{cta_fg};
+   font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:31px;
+   letter-spacing:.10em;text-transform:uppercase;padding:16px 26px 14px;
+   margin-bottom:30px;line-height:1}}
+h2{{font-family:'Playfair Display',serif;font-weight:700;font-size:62px;line-height:1.08;
+   letter-spacing:-.01em}}
+.kicker{{font-size:26px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;
+   color:{accent};margin-bottom:22px}}
+.steps{{margin-top:48px;display:flex;flex-direction:column;gap:40px;flex:1;justify-content:center}}
+.st{{display:flex;gap:24px;align-items:flex-start}}
+.st .n{{flex:none;width:60px;height:60px;border:3px solid {accent};color:{accent};
+   font-weight:800;font-size:26px;display:flex;align-items:center;justify-content:center}}
+.st p{{font-size:33px;line-height:1.42;font-weight:400;max-width:830px}}
+.st p em{{font-style:normal;font-weight:600;color:{accent}}}
+.quadro{{margin-top:46px;border-top:2px solid {line}}}
+.qrow{{display:flex;gap:20px;padding:22px 0;border-bottom:1px solid {rgba(accent,.22)}}}
+.qrow div{{font-size:26px;line-height:1.35}}
+.qrow .a{{flex:0 0 260px;font-weight:600;color:{accent}}}
+.qrow .b{{flex:1;font-weight:400}}
+.rodape{{margin-top:auto;font-size:30px;line-height:1.4;font-weight:600;
+   border-top:2px solid {line};padding-top:26px}}
+.lista{{margin-top:36px;display:flex;flex-direction:column;gap:18px}}
+.lista div{{font-size:29px;line-height:1.35;font-weight:600;padding-left:26px;position:relative}}
+.lista div:before{{content:'';position:absolute;left:0;top:13px;width:10px;height:10px;
+   background:{accent};transform:rotate(45deg)}}
+.cred{{margin-top:38px;font-size:23px;line-height:1.5;color:{soft};font-weight:400}}
+.oferta-cta{{margin-top:auto;display:flex;flex-direction:column;align-items:center;
+   text-align:center;width:100%}}
+.oferta-cta .acima{{font-size:30px;line-height:1.35;font-weight:600;max-width:760px}}
+.faixa{{margin:44px 0;width:78%;background:{accent};border-radius:14px;
+   padding:30px 34px;display:flex;align-items:center;justify-content:center;gap:20px}}
+.faixa svg{{width:56px;height:56px;flex:none;fill:{cta_fg}}}
+.faixa span{{font-size:56px;font-weight:800;letter-spacing:.01em;color:{cta_fg};
+   font-family:'Plus Jakarta Sans',sans-serif;white-space:nowrap}}
+.oferta-cta .abaixo{{font-size:29px;font-weight:600;color:{texto};line-height:1.4}}
+.oferta-cta .abaixo b{{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;
+   color:{accent};letter-spacing:.005em}}
+.cta{{margin-top:auto;background:{accent};color:{'#12100a' if dark else '#fdfcf8'};padding:34px 36px}}
+.cta .t{{font-family:'Playfair Display',serif;font-weight:700;font-size:40px;line-height:1.15}}
+.cta .c{{margin-top:16px;font-size:27px;font-weight:600;line-height:1.35}}
+/* ---------- LAYOUTS DE CAPA (v8.1) ---------- */
+/* L1 classico: o padrao, headline no meio-esquerda. Nada a acrescentar. */
+
+/* L2 faixa: bloco solido atras do texto. Contraste nao depende de overlay. */
+.L2 .bloco{{background:{rgba(fundo,.94)};margin:0 -84px;padding:56px 84px 62px;
+   border-left:14px solid {accent}}}
+.L2 h1{{font-size:calc(var(--h1,92px) * .96)}}
+
+/* L3 topo: texto colado no alto, documento respira embaixo. */
+.L3{{justify-content:flex-start;padding-top:150px}}
+.L3 .apoio{{position:absolute;bottom:120px;left:84px;right:84px;max-width:none;
+   border-top:2px solid {rgba(accent,.55)};padding-top:26px;margin-top:0}}
+
+/* L4 numero: o valor e o protagonista; a headline explica. */
+.L4 .cifra{{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;
+   font-size:150px;line-height:.9;color:{accent};letter-spacing:-.02em;
+   margin-bottom:10px}}
+.L4 .cifra small{{display:block;font-size:30px;font-weight:600;letter-spacing:.16em;
+   text-transform:uppercase;color:{soft};margin-bottom:18px;letter-spacing:.18em}}
+.L4 h1{{font-size:calc(var(--h1,92px) * .74)}}
+
+/* L5 split: metade cor chapada, metade documento nitido. */
+.L5{{padding-top:96px}}
+.L5 .metade{{position:absolute;top:0;left:0;right:0;height:58%;
+   background:{fundo};border-bottom:10px solid {accent}}}
+.L5 .conteudo{{position:relative;z-index:2;margin-top:0}}
+.L5 h1{{font-size:calc(var(--h1,92px) * .92)}}
+
+/* L6 centro: simetrico, com filetes. Serve headline curta. */
+.L6{{align-items:center;text-align:center;justify-content:center}}
+.L6 h1{{border-top:3px solid {accent};border-bottom:3px solid {accent};
+   padding:38px 0 42px;max-width:900px}}
+.L6 .apoio{{max-width:760px}}
+.L6 .peca{{align-self:center}}
+"""
+
+
+import re as _re
+
+
+def fit_headline(html, base=92, minimo=62):
+    """Escolhe o corpo da headline pelo tamanho do texto.
+
+    A headline de 6-12 palavras cabe em 92px. Passando disso ela quebrava em
+    cinco linhas e comia metade da capa (peça do INSS, 15/08/2026). Aqui a fonte
+    encolhe por faixa, em vez de depender de quem escreve lembrar do limite.
+    """
+    texto = _re.sub(r"<[^>]+>", "", html)
+    n = len(texto)
+    if n <= 46:
+        return base
+    if n <= 58:
+        return 86
+    if n <= 70:
+        return 78
+    if n <= 84:
+        return 71
+    return minimo
+
+
+FOTO_DIRS = ["fotos_banco", "fotos"]
+
+
+def fotocrop(nome, dessatura=0.35):
+    """Carrega uma foto de fotos_banco/ ou fotos/ e recorta em cover para W x H.
+
+    Dessatura levemente para o overlay da paleta assentar sem briga de cor.
+    """
+    src = None
+    for d in FOTO_DIRS:
+        cand = nome if os.path.isabs(nome) else os.path.join(BASE, d, nome)
+        if os.path.exists(cand):
+            src = cand
+            break
+    if src is None:
+        raise FileNotFoundError(f"foto nao encontrada: {nome}")
+    im = Image.open(src).convert("RGB")
+    s = max(W / im.width, H / im.height)
+    im = im.resize((max(W, int(im.width * s)), max(H, int(im.height * s))), Image.LANCZOS)
+    l, t = (im.width - W) // 2, (im.height - H) // 2
+    im = im.crop((l, t, l + W, t + H))
+    if dessatura:
+        g = im.convert("L").convert("RGB")
+        im = Image.blend(im, g, dessatura)
+    return im
+
+
+def bgstyle(png_b64, overlay):
+    return (f"background-image:linear-gradient({overlay}),"
+            f"url('data:image/png;base64,{png_b64}');"
+            "background-size:cover;background-position:center;")
+
+
+def build(spec_path):
+    spec = json.load(open(spec_path, encoding="utf-8"))
+
+    # MARCA — 18/08/2026. O mesmo gerador serve duas operacoes. Tudo que era
+    # texto fixo da IntegraJud virou campo, com o valor antigo como padrao:
+    # spec sem bloco "marca" continua saindo exatamente como saia antes.
+    _m = spec.get("marca") or {}
+    MK_ARROBA = _m.get("arroba", "@integrajud")
+    MK_CRED = _m.get("credencial",
+                     "Perícia, auditoria, cálculos judiciais e inteligência "
+                     "de dados · atendimento nacional · mais de 200 "
+                     "modalidades de cálculo")
+    MK_ZAP = _m.get("whatsapp", "11 97723-7113")
+    MK_CTA = _m.get("cta", "Análise gratuita do seu caso em")
+    MK_SITE = _m.get("site", "www.integrajud.com.br")
+    MK_CARGO = _m.get("cargo", "Perito Contábil")
+    MK_NOME = _m.get("nome", "Fábio Rebouças")
+    MK_OFERTA = _m.get("oferta_padrao",
+                       "Mande o laudo. Em até 24h úteis eu digo se há o que impugnar")
+
+    # SELO DA MARCA — 18/08/2026, diretiva do Fabio para a GKFD.
+    # Um PNG de credencial (o Mercado Lider Platinum) que entra na CAPA e no
+    # slide de OFERTA. E credencial verificavel de quem vive a operacao, e e a
+    # maior diferenciacao da marca — nenhum escritorio de contabilidade pode
+    # exibir isso. Nao entra nos slides de valor para nao virar marca d'agua.
+    # Ausente o arquivo, a peca sai sem ele e nada quebra.
+    MK_SELO = _m.get("selo", "")
+    _selo_html = ""
+    if MK_SELO:
+        _sp = MK_SELO if os.path.isabs(MK_SELO) else os.path.join(BASE, MK_SELO)
+        if os.path.exists(_sp):
+            _selo_html = (
+                '<img class="selomarca" src="data:image/png;base64,%s" '
+                'style="position:absolute;top:56px;right:64px;width:%dpx;'
+                'height:auto;z-index:9;filter:drop-shadow(0 6px 18px rgba(0,0,0,.28))">'
+                % (b64file(_sp), int(_m.get("selo_largura", 190))))
+        else:
+            print("  !! selo nao encontrado: %s" % _sp)
+    fundo, accent, texto, pname = PALETAS[spec["paleta"]]
+    frgb, trgb = hexrgb(fundo), hexrgb(texto)
+    dark = sum(frgb) / 3 < 128
+    lo = mix(frgb, (0, 0, 0), .55 if dark else .38)
+    hi = mix(frgb, (255, 255, 255), .30 if dark else .22)
+
+    out = os.path.join(BASE, spec["outdir"])
+    os.makedirs(out, exist_ok=True)
+
+    kinds = list(spec.get("cenas", ["concreto", "papel", "trama"]))
+    seeds = list(spec.get("seeds", [11, 22, 33]))
+
+    # A peca pode ter de 3 a 6 slides: capa, um ou mais slides de VALOR, oferta.
+    # O spec costuma trazer 3 cenas (capa, miolo, oferta). Havendo mais slides
+    # que cenas, os miolos reaproveitam as cenas do meio, com seed diferente —
+    # senao dois slides seguidos sairiam com o fundo identico.
+    _n = len(spec["slides"])
+    if len(kinds) < _n:
+        _mid = kinds[1:-1] or ["linho"]
+        kinds = [kinds[0]] + [_mid[i % len(_mid)] for i in range(_n - 2)] + [kinds[-1]]
+    if len(seeds) < _n:
+        _sm = seeds[1] if len(seeds) > 2 else 22
+        seeds = [seeds[0]] + [_sm + i * 37 for i in range(_n - 2)] + [seeds[-1]]
+    imgs = []
+    for i, (k, sd) in enumerate(zip(kinds, seeds)):
+        p = os.path.join(out, f"_fundo{i+1}.png")
+        if str(k).startswith("foto:"):
+            fotocrop(str(k)[5:]).save(p, optimize=True)
+        elif str(k).startswith("doc:"):
+            # documento numerico gerado, herdando a paleta da peca
+            import fundo_numerico as fnum
+            arg = str(k)[4:]                       # "extrato" ou "extrato/dobra"
+            fam, _, pap = arg.partition("/")
+            im, fam_u, pap_u = fnum.gerar(fam or "auto", spec["paleta"], sd, pap or "auto")
+            im.save(p, optimize=True)
+            print(f"   fundo {i+1}: doc {fam_u} · papel {pap_u}")
+        else:
+            surface(k, sd, lo, hi).save(p, optimize=True)
+        imgs.append(b64file(p))
+
+    ov = spec.get("overlay", [".22,.42,.66", ".34,.44", ".28,.52"])
+    a1 = [float(x) for x in ov[0].split(",")]
+    a2 = [float(x) for x in ov[1].split(",")]
+    a3 = [float(x) for x in ov[2].split(",")]
+    g1 = f"{rgba(fundo,a1[0])} 0%,{rgba(fundo,a1[1])} 40%,{rgba(fundo,a1[2])} 100%"
+    g2 = f"{rgba(fundo,a2[0])},{rgba(fundo,a2[1])}"
+    g3 = f"{rgba(fundo,a3[0])} 0%,{rgba(fundo,a3[1])} 100%"
+
+    s = spec["slides"]
+    h1size = fit_headline(s[0]["headline"])
+    lay = str(s[0].get("layout", "L1")).upper()
+    if lay not in ("L1", "L2", "L3", "L4", "L5", "L6"):
+        lay = "L1"
+    peca_html = f'<div class="peca">{s[0]["peca"]}</div>' if s[0].get("peca") else ""
+    if s[0].get("chamada"):
+        peca_html = f'<div class="chamada">{s[0]["chamada"]}</div>' + peca_html
+    cifra = s[0].get("cifra")          # {"valor": "R$ 63.977", "rotulo": "a diferenca"}
+    cifra_html = ""
+    if lay == "L4" and cifra:
+        cifra_html = (f'<div class="cifra"><small>{cifra.get("rotulo","")}</small>'
+                      f'{cifra.get("valor","")}</div>')
+    miolo = f"""{peca_html}{cifra_html}
+<h1>{s[0]['headline']}</h1>
+<div class="apoio">{s[0]['apoio']}</div>"""
+    if lay == "L2":
+        miolo = f'{peca_html}<div class="bloco"><h1>{s[0]["headline"]}</h1>' \
+                f'<div class="apoio">{s[0]["apoio"]}</div></div>'
+    if lay == "L5":
+        miolo = f'<div class="metade"></div><div class="conteudo">{miolo}</div>'
+
+    # --- retrato do autor, opcional: "retrato": "selo" | "faixa" | "nao"
+    modo_ret = str(s[0].get("retrato", "nao")).lower()
+    ret_html, ret_cls = "", ""
+    if modo_ret == "fundo":
+        import retrato as _rf
+        _pf = os.path.join(out, "_ret_fundo.png")
+        _lado = s[0].get("retrato_lado", "direita")
+        _fig = _rf.fundo_capa(_rf.carregar(), W, H,
+                              float(s[0].get("retrato_forca", 0.70)), _lado)
+        # se a cena da capa for um documento, ele entra no lado do texto
+        _cena0 = str(kinds[0])
+        if _cena0.startswith("doc:"):
+            import fundo_numerico as _fn
+            _fam, _, _pap = _cena0[4:].partition("/")
+            _doc, _, _ = _fn.gerar(_fam or "auto", spec["paleta"], seeds[0], _pap or "auto")
+            _fig = _rf.mistura_doc(_fig, _doc, _lado)
+        _fig.save(_pf)
+        imgs[0] = b64file(_pf)
+        ret_cls = " retfundo" + (" retesq" if _lado == "esquerda" else "")
+    if modo_ret in ("selo", "faixa"):
+        import retrato as _ret
+        _src = _ret.carregar()
+        _p = os.path.join(out, f"_ret_{modo_ret}.png")
+        if modo_ret == "selo":
+            _ret.selo(_src, 396, accent).save(_p)
+            ret_html = (f'<div class="selo"><img src="data:image/png;base64,{b64file(_p)}"></div>'
+                        f'<div class="selo-cred"><b>{MK_NOME}</b>'
+                        f'<span>{MK_CARGO}</span></div>')
+        else:
+            _ret.faixa(_src, 352, H).save(_p)
+            ret_html = f'<div class="colret"><img src="data:image/png;base64,{b64file(_p)}"></div>'
+            ret_cls = " temcol"
+
+    espaco = "" if (lay in ("L3", "L6") or modo_ret == "fundo") else '<div style="margin-top:auto"></div>'
+
+    s1 = f"""<div class="s {lay}{ret_cls}" style="--h1:{h1size}px;{bgstyle(imgs[0], g1)}">
+<div class="accentbar"></div><div class="brand">{MK_ARROBA}</div>{_selo_html}
+{espaco}
+{miolo}
+{espaco}
+{ret_html}
+<div class="prog"><i style="width:33.3%"></i></div></div>"""
+
+    # SLIDES DE VALOR — de 1 a 4 deles, entre a capa e a oferta.
+    # Ate 16/08/2026 a peca tinha exatamente 3 slides. Com a cadencia caindo
+    # para 2 posts por dia, a profundidade passou a vir do NUMERO de slides:
+    # um argumento por slide, em vez de quatro linhas espremidas num so.
+    slides_valor = []
+    n_total = len(s)
+    for _i, _sv in enumerate(s[1:-1], start=1):
+        if _sv.get("formato") == "quadro":
+            rows = "".join(
+                f'<div class="qrow"><div class="a">{r[0]}</div><div class="b">{r[1]}</div></div>'
+                for r in _sv["linhas"])
+            corpo = f'<div class="quadro">{rows}</div>'
+        else:
+            items = "".join(
+                f'<div class="st"><div class="n">{j+1}</div><p>{x}</p></div>'
+                for j, x in enumerate(_sv.get("passos", [])))
+            corpo = f'<div class="steps">{items}</div>'
+
+        miolo_v = (f'<div class="kicker">{_sv.get("kicker","")}</div>'
+                   f'<h2>{_sv["titulo"]}</h2>{corpo}'
+                   f'<div class="rodape">{_sv.get("rodape","")}</div>')
+        if _sv.get("painel"):
+            miolo_v = f'<div class="painel-box">{miolo_v}</div>'
+        _pct = round(100.0 * (_i + 1) / n_total, 1)
+        slides_valor.append(f"""<div class="s" style="{bgstyle(imgs[_i], g2)}">
+<div class="accentbar"></div><div class="brand">{MK_ARROBA}</div>
+<div style="margin-top:28px"></div>
+{miolo_v}
+<div class="prog"><i style="width:{_pct}%"></i></div></div>""")
+
+    lst = "".join(f"<div>{x}</div>" for x in s[-1]["itens"])
+
+    ret3 = ""
+    if str(s[-1].get("retrato", "nao")).lower() in ("sim", "contato", "true"):
+        import retrato as _ret3
+        _p3 = os.path.join(out, "_ret_contato.png")
+        _ret3.faixa(_ret3.carregar(), 330, H, escurecer=0.16).save(_p3)
+        ret3 = f'<div class="retcontato"><img src="data:image/png;base64,{b64file(_p3)}"></div>'
+
+    ZAP = ('<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">'
+           '<path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.13h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.21-8.24 8.21Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.85.83-.85 2.03s.87 2.35.99 2.51c.12.16 1.71 2.61 4.14 3.66.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/>'
+           '</svg>')
+    cls3 = " temret3" if ret3 else ""
+    s3 = f"""<div class="s{cls3}" style="{bgstyle(imgs[-1], g3)}">
+<div class="accentbar"></div><div class="brand">{MK_ARROBA}</div>{_selo_html}
+<div style="margin-top:auto"></div>
+<h2>{s[-1]['ponte']}</h2>
+<div class="lista">{lst}</div>
+<div class="cred">{MK_CRED}</div>
+{ret3}<div class="oferta-cta">
+  <div class="acima">{s[-1].get('oferta', MK_OFERTA)}</div>
+  <div class="faixa">{ZAP}<span>{MK_ZAP}</span></div>
+  <div class="abaixo">{MK_CTA}<br><b>{MK_SITE}</b></div>
+</div>
+<div class="prog"><i style="width:100%"></i></div></div>"""
+
+    sheet = css(fundo, accent, texto, dark)
+    with sync_playwright() as p:
+        b = p.chromium.launch()
+        pg = b.new_page(viewport={"width": W, "height": H}, device_scale_factor=1)
+        for i, body in enumerate([s1] + slides_valor + [s3], 1):
+            html = (f"<!doctype html><html lang='pt-BR'><head><meta charset='utf-8'>"
+                    f"<style>{sheet}</style></head><body>{body}</body></html>")
+            pg.set_content(html, wait_until="load")
+            pg.wait_for_timeout(350)
+            pg.screenshot(path=os.path.join(out, f"{spec['slug']}_{i}.png"))
+            o = pg.evaluate("()=>{const e=document.querySelector('.s');return {a:e.scrollHeight,b:e.clientHeight}}")
+            if o["a"] > o["b"] + 1:
+                print(f"  !! {spec['slug']} slide {i} TRANSBORDO {o['a']}/{o['b']}")
+        b.close()
+    for i in range(len(kinds)):
+        _f = os.path.join(out, f"_fundo{i+1}.png")
+        if os.path.exists(_f):
+            os.remove(_f)
+    print(f"{spec['slug']} [{spec['paleta']} {pname}] -> {out}")
+
+
+if __name__ == "__main__":
+    for a in sys.argv[1:]:
+        build(a)

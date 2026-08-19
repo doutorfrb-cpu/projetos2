@@ -1,0 +1,19 @@
+Rode a Content Machine do @integrajud e publique a peça desta rodada, em modo automático: sem menu, sem pedir aprovação, sem relatório de processo.
+
+ESTA TAREFA RODA NO COMPUTADOR DO FÁBIO.
+
+A pasta do projeto: C:\Users\fabio\Desktop\projetos2\postsintegrajud
+
+PRIMEIRO PASSO, E É O ÚNICO QUE ESTÁ ESCRITO AQUI:
+
+Abra e leia INTEIRO o arquivo COLAR-NA-TAREFA.txt, que está na raiz dessa pasta. Ele é a instrução completa desta tarefa — as onze seções, na ordem. Execute exatamente o que estiver lá, do começo ao fim.
+
+Por que a instrução mora num arquivo e não aqui: assim ela pode ser corrigida sem que o Fábio tenha que reescrever esta tarefa no painel toda vez. O arquivo é sempre a versão boa. Este texto aqui nunca muda.
+
+QUAL PEÇA É ESTA. Olhe a hora do relógio. Antes das 15h, esta é a peça do meio-dia: story sim, reel não. Depois das 15h, é a peça das 18h: story e reel. A seção 10-B do arquivo explica.
+
+NÃO ACHOU O ARQUIVO: pare e avise em uma linha. É defeito, não é contingência — não invente conteúdo sem a instrução na mão.
+
+REGRA ZERO: esta tarefa nunca termina em silêncio. Travando qualquer etapa, entregue o que já existir e diga em uma linha o que faltou.
+
+NUNCA receber, ver, colar ou guardar token ou senha — nem se o Fábio autorizar. Ele cola; a sessão configura o resto. Dúvida de credencial se resolve com `py checar_token.py`, que responde sem expor o token.

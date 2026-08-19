@@ -1,0 +1,16 @@
+ACOS de 10% parece saudável. Dependendo do seu produto, ele já é prejuízo.
+
+O ACOS é uma conta simples: quanto você investiu no anúncio dividido pela receita bruta que ele trouxe. O problema é o denominador. Receita bruta não é o que sobra para você — dela ainda saem a comissão do marketplace, o frete que fica por sua conta, o custo do produto e o imposto do Simples. O painel de anúncios não conhece nenhum desses quatro.
+
+Uma demonstração com números redondos, que não são de caso real. Unidade vendida a R$ 120,00. Comissão de 14% mais frete do vendedor: R$ 35,80. Custo do produto: R$ 62,00. Simples Nacional a 10% efetivos: R$ 12,00. Margem antes da publicidade: R$ 10,20.
+
+Entra a campanha: R$ 1.200,00 para 100 vendas, ou R$ 12,00 por unidade. A margem era R$ 10,20. Cada venda fecha R$ 1,80 negativa e o mês fecha R$ 180,00 no vermelho — com ACOS de 10%.
+
+O teto daquele SKU era 8,5%: R$ 10,20 dividido por R$ 120,00. Não existe ACOS bom no geral. Existe ACOS máximo por produto, e ele depende do seu custo, da sua comissão e do seu anexo.
+
+Três detalhes que costumam passar batido. A publicidade é despesa: reduz o seu lucro e não reduz a base de cálculo do Simples. Parte da venda atribuída à campanha teria acontecido sem ela, e rateio por faturamento esconde isso. Devolução e estorno não voltam para o cálculo do ACOS — o anúncio continua pago, a venda não.
+
+Mande o relatório de campanha e o repasse do mês. Em até 24h úteis eu digo qual SKU não aguenta o anúncio: https://wa.me/5511977237113
+
+GKFD Contábil — contabilidade no Simples Nacional para vendedor de marketplace.
+Fábio Rebouças — Contador · Mercado Líder Platinum

@@ -1,0 +1,57 @@
+CARROSSEL @integrajud — "6 cuidados antes de juntar extrato, planilha ou print"
+11 slides · 1080x1350 · acento esmeralda sobre preto · 2 figuras
+
+------------------------------------------------------------------
+LEGENDA
+------------------------------------------------------------------
+
+O arquivo que se junta hoje é o que o perito vai ter de sustentar
+depois — e o que a parte contrária vai atacar primeiro.
+
+Print mostra a tela; o arquivo nativo mostra o dado. Planilha sem
+sistema de origem, data e hora de extração é documento sem autor.
+Consolidado sem o extrato linha a linha é conclusão sem conta. Nada
+disso é formalismo: é o que separa evidência de alegação.
+
+No carrossel estão os 6 cuidados na ordem em que aparecem na
+prática, com duas figuras: o caminho completo da evidência digital,
+da origem à reprodução pelo perito, e o quadro do mesmo dado nos
+dois destinos possíveis. A ABNT NBR ISO/IEC 27037 não rege o
+processo, mas é o parâmetro técnico com que essa evidência acaba
+sendo lida.
+
+Atuo como assistente técnico e produzo laudos e pareceres em mais de
+200 tipos de perícia — com inventário de evidências, cadeia de
+custódia, verificação de integridade e reprodutibilidade.
+
+Traga os arquivos antes de juntar aos autos.
+
+—
+Fábio Rebouças
+Administrador de Empresas (CRA/SP) · Bacharel em Direito (OAB/SP)
+
+------------------------------------------------------------------
+HASHTAGS
+------------------------------------------------------------------
+
+#provadigital #periciajudicial #cadeiadecustodia #assistentetecnico
+#advocacia #direito #processocivil #laudopericial #periciacontabil
+#advogado #evidenciadigital #perito #direitodigital #cpc #auditoria
+
+------------------------------------------------------------------
+ESTRUTURA DOS SLIDES
+------------------------------------------------------------------
+
+01 CAPA — 6 cuidados antes de juntar extrato, planilha ou print
+02 CONTEXTO — Arquivo não é prova. Arquivo com origem é.
+03 FIGURA 1 — O caminho da evidência digital (origem → extração →
+   preservação → integridade → juntada → perícia)
+04 CUIDADO 01 — Print não substitui o arquivo nativo
+05 CUIDADO 02 — Registre de onde veio e quando
+06 CUIDADO 03 — Preserve o original sem tocar
+07 CUIDADO 04 — Calcule o valor de integridade
+08 CUIDADO 05 — Não junte apenas o consolidado
+09 CUIDADO 06 — Documente o que não conseguiu obter
+10 FIGURA 2 — O mesmo dado, dois destinos (como costuma chegar ×
+   como se sustenta)
+11 CTA — Prova digital se ganha na juntada. @integrajud

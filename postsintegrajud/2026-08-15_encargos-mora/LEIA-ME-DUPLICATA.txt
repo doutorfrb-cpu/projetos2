@@ -1,0 +1,19 @@
+ESTA PASTA É DUPLICATA. NÃO PUBLICAR NADA DAQUI.
+
+A peça "A MORA FOI COBRADA TRÊS VEZES. O PRAZO DOS EMBARGOS CORREU" já foi publicada
+no @integrajud em 15/08/2026, às 16h50, por outra execução da Content Machine.
+
+O que está aqui foi produzido por uma segunda execução que rodou em paralelo, leu o
+mesmo `pautas-publicadas.md` desatualizado e chegou exatamente à mesma pauta: mesmo
+eixo (1), mesma área (A4 bancários), mesma paleta (P07), mesmas fotos (px_16978372 e
+px_33656448) e o mesmo texto, palavra por palavra. Não foi coincidência — foram
+entradas idênticas numa regra de escolha determinística.
+
+Descoberto na hora de publicar, conferindo as headlines direto no perfil. Nada foi
+postado. Pode apagar a pasta inteira.
+
+Arquivos: integrajud_mora_1/2/3.png, legenda.txt, spec_encargos_mora.json, peca.html
+
+A lição virou:
+ - `licao_corrida_entre_sessoes.md`, na memória do projeto
+ - a "GUARDA DE CORRIDA" na seção 8 de INSTRUCOES-DO-PROJETO-v6.2.txt
