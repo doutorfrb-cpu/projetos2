@@ -1,0 +1,75 @@
+{
+ "slug": "integrajud_impugnacao_laudo_dano",
+ "outdir": "pc_12h",
+ "paleta": "P08",
+ "cenas": [
+  "doc:apuracao/dobra",
+  "granito",
+  "linho",
+  "doc:razao/formulario",
+  "foto:px_12983115.jpg"
+ ],
+ "seeds": [
+  7101,
+  7102,
+  7103,
+  7104,
+  7105
+ ],
+ "overlay": [
+  ".965,.98,.99",
+  ".46,.62",
+  ".52,.80"
+ ],
+ "slides": [
+  {
+   "layout": "L1",
+   "chamada": "TEM CONTA NESSA PEÇA?",
+   "peca": "IMPUGNAÇÃO AO LAUDO",
+   "headline": "O laudo fixou o dano. <b>Você impugnou sem apresentar outro número</b>",
+   "apoio": "Impugnação sem memória própria é alegação contra número. E entre alegação e conta, o juízo fica com a conta."
+  },
+  {
+   "kicker": "Cível · danos patrimoniais",
+   "titulo": "Discordar do laudo é uma coisa. Refazer a conta dele é outra",
+   "passos": [
+    "<em>O laudo não se combate por adjetivo.</em> Dizer que o valor é excessivo, irreal ou sem lastro não cria fato novo nos autos. O art. 477, §1º do CPC abre prazo para manifestação técnica — e manifestação técnica se lê como cálculo, não como impressão.",
+    "<em>O que se ataca é o critério, não o resultado.</em> Base de apuração, período considerado, fonte do dado e método de projeção. Cada um é uma escolha do perito, e cada escolha tem alternativa defensável que muda o valor final.",
+    "<em>Sem conta oposta, o laudo vira o valor da sentença.</em> A liquidação sai do único número demonstrado nos autos. Impugnação genérica não substitui esse número: registra apenas que a parte não concordou com ele."
+   ],
+   "rodape": "O prazo corre sobre um documento que a outra parte teve meses para montar."
+  },
+  {
+   "kicker": "O que a apuração responde",
+   "titulo": "Quatro perguntas que a impugnação precisa levar respondidas",
+   "passos": [
+    "<em>De onde saiu a base do dano.</em> Faturamento bruto e resultado líquido são bases diferentes. Dano apurado sobre receita, sem deduzir o custo que deixou de ocorrer, superestima por construção.",
+    "<em>Qual documento sustenta cada número.</em> Valor que aparece no laudo sem remissão a documento dos autos é estimativa do perito — e estimativa se confronta.",
+    "<em>Que período foi considerado, e por quê.</em> Série curta escolhida em janela favorável distorce a média. Por que este intervalo, e não o exercício inteiro.",
+    "<em>Como o valor foi trazido a valor presente.</em> Índice, termo inicial e juros. Laudo correto na apuração pode estar errado só na atualização — e o erro corre sobre o total."
+   ],
+   "rodape": "As quatro saem de documento que já está nos autos."
+  },
+  {
+   "kicker": "O erro que se repete",
+   "titulo": "O dano apurado sobre faturamento, não sobre a margem",
+   "passos": [
+    "<em>Onde ele aparece.</em> No quadro de apuração, quando a coluna de partida traz “receita do período” e a linha seguinte já é o valor indenizável. Não há linha de custo entre as duas.",
+    "<em>O que ele muda.</em> Lucro cessante indeniza o que se deixou de ganhar, líquido do custo que deixou de ocorrer. Manter o custo na base transforma despesa evitada em indenização.",
+    "<em>Como se demonstra.</em> Razão contábil do período e custo variável por conta, com a margem reconstruída exercício a exercício. A conta fecha em qualquer laudo; o vício está na premissa."
+   ],
+   "rodape": "Não é opinião contra o perito: é a mesma base, com a linha que faltava.",
+   "painel": true
+  },
+  {
+   "retrato": "sim",
+   "ponte": "O prazo de impugnação é curto.<br>A conta que o sustenta cabe nele.",
+   "itens": [
+    "Parecer técnico sobre laudo de danos patrimoniais",
+    "Recálculo por critério alternativo, com memória própria",
+    "Quesitos suplementares a partir do laudo já juntado"
+   ],
+   "oferta": "Mande o laudo. Em até 24h úteis eu digo se há o que impugnar"
+  }
+ ]
+}

@@ -275,11 +275,24 @@ Exposição típica: o caso exige uma conta que ninguém tem pronta.
 
 # PARTE 2 — ÁREAS NOVAS PROPOSTAS
 
+> **LIBERADAS em 19/08/2026 pelo Fábio — com trava.** Ele decidiu criar as
+> quatro páginas no site. Enquanto a página não existir, a área NÃO entra no
+> rodízio: peça que oferece área sem página quebra a promessa quando o
+> advogado clica.
+>
+> **Como a trava funciona:** cada uma traz a linha `PÁGINA:` abaixo do título.
+> Estando `pendente`, a sessão pula a área. Criada a página, o Fábio troca
+> `pendente` pelo endereço e a área entra sozinha, sem mexer em mais nada.
+>
+> A16 recuperação judicial e A15 sucessões são as que mais pesam: inventário e
+> RJ são onde o perito contábil mais trabalha.
+
 Quatro gavetas que o site ainda não tem e que são mercado grande de
 advogado, dentro do escopo de perito contábil. **Cada uma precisa de página
 antes de virar destino de post.**
 
 ## A15 · FAMÍLIA E SUCESSÕES `(criar)`
+`PÁGINA: pendente`  ← trocar por `integrajud.com.br/familia-sucessoes` quando existir
 
 Talvez a maior lacuna do site. É volume alto de advogado e trabalho
 contábil puro.
@@ -294,6 +307,7 @@ contábil puro.
 - Prestação de contas de tutela ou curatela
 
 ## A16 · RECUPERAÇÃO JUDICIAL E FALÊNCIA `(criar)`
+`PÁGINA: pendente`  ← trocar por `integrajud.com.br/recuperacao-judicial` quando existir
 
 - Quadro-geral de credores com crédito classificado sem lastro
 - Habilitação de crédito impugnada por divergência de atualização
@@ -305,6 +319,7 @@ contábil puro.
 - Cumprimento do plano aferido por indicador escolhido pela devedora
 
 ## A17 · ADMINISTRATIVO, LICITAÇÕES E CONTRATOS PÚBLICOS `(criar)`
+`PÁGINA: pendente`  ← trocar por `integrajud.com.br/administrativo-licitacoes` quando existir
 
 - Reequilíbrio econômico-financeiro pedido sem planilha de custo aberta
 - Planilha de formação de preços com BDI não demonstrado
@@ -316,6 +331,7 @@ contábil puro.
 - Reajuste contratual com índice setorial trocado
 
 ## A18 · CONSUMIDOR E SUPERENDIVIDAMENTO `(criar)`
+`PÁGINA: pendente`  ← trocar por `integrajud.com.br/consumidor` quando existir
 
 - Repactuação com mínimo existencial apurado sem despesa comprovada
 - Somatório de consignados que ultrapassa a margem legal

@@ -1,0 +1,80 @@
+{
+  "slug": "gkfd_chargeback_venda_desfeita",
+  "outdir": "pc_gkfd5",
+  "paleta": "G03",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "credencial": "Contabilidade no Simples Nacional para vendedor de marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "cargo": "Contador",
+    "cta": "GKFD Contábil · atendimento nacional",
+    "site": "Fábio Rebouças — Contador",
+    "assinatura": "GKFD Contábil · Mercado Líder Platinum<br>Contabilidade no Simples Nacional para vendedor de marketplace",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo quanto de venda desfeita ainda está na sua base",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "doc:extrato/copia",
+    "linho",
+    "concreto",
+    "madeira",
+    "duna"
+  ],
+  "seeds": [6601, 6602, 6603, 6604, 6605],
+  "overlay": [
+    ".74,.84,.93",
+    ".18,.34",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L2",
+      "chamada": "VENDA DESFEITA",
+      "peca": "CHARGEBACK",
+      "headline": "Perdeu a mercadoria, perdeu o valor, <b>e o imposto continuou na base</b>",
+      "apoio": "Chargeback é a venda desfeita pelo emissor do cartão depois que o produto já saiu. O estorno aparece no repasse, a mercadoria quase nunca volta, e a receita segue lançada na apuração do mês como se a venda tivesse acontecido."
+    },
+    {
+      "kicker": "Marketplace · estorno e chargeback",
+      "titulo": "O chargeback abre duas frentes, em prazos diferentes",
+      "passos": [
+        "<em>A frente financeira tem relógio.</em> A plataforma abre um prazo para contestar, com comprovante de postagem, rastreio de entrega e histórico da conversa. Passado o prazo sem resposta, a perda se consolida e não há segunda instância.",
+        "<em>A frente fiscal não tem relógio, tem competência.</em> A nota foi emitida e a receita entrou na apuração do mês. Sem o cancelamento ou a devolução registrados no documento próprio, o tributo segue correndo sobre uma venda que deixou de existir.",
+        "<em>As duas se cruzam num ponto só.</em> O débito chega no repasse, misturado a tarifa, frete e ajuste. Sem o número do pedido de origem, ele vira despesa genérica e some da conciliação — junto com a chance de contestar."
+      ],
+      "rodape": "Uma se perde por prazo. A outra, por lançamento."
+    },
+    {
+      "kicker": "O que a auditoria de recebíveis abre",
+      "titulo": "Quatro perguntas que o fechamento do mês precisa responder",
+      "passos": [
+        "<em>Todo estorno tem um pedido?</em> Débito sem número de pedido não cruza com nota nem com retorno físico, e vira despesa sem origem.",
+        "<em>Qual contestação venceu por prazo?</em> Sem data por ocorrência, a perda só aparece meses depois, diluída no total do mês.",
+        "<em>A receita estornada saiu da apuração?</em> Cancelamento e devolução exigem documento próprio; sem ele, a base do mês fica maior que a venda real.",
+        "<em>A mercadoria voltou?</em> Chargeback com produto entregue e não devolvido é perda de estoque, e precisa aparecer no CMV, não só no financeiro."
+      ],
+      "rodape": "As quatro saem do relatório de repasse cruzado com as notas e o estoque."
+    },
+    {
+      "kicker": "O erro que se repete",
+      "titulo": "Quatro práticas que mantêm a venda desfeita viva na apuração",
+      "passos": [
+        "<em>Conferir o repasse pelo total.</em> Uma linha de líquido fecha com o banco e esconde estorno, ajuste e tarifa dentro do mesmo número.",
+        "<em>Lançar o estorno como despesa.</em> Reduz o resultado e não reduz a base: a receita original permanece inteira na apuração.",
+        "<em>Tratar reenvio como venda nova.</em> O pedido substituído entra outra vez no faturamento e duplica receita que nunca foi recebida duas vezes.",
+        "<em>Não abrir o índice por SKU.</em> Sem saber qual produto concentra contestação, o preço continua formado como se a perda não existisse."
+      ],
+      "rodape": "Nenhuma delas aparece no total do mês. Todas aparecem linha a linha."
+    },
+    {
+      "ponte": "A venda desfeita<br>precisa sair<br>da base.",
+      "itens": [
+        "Estorno e chargeback identificados por pedido, contra nota e comprovante de entrega",
+        "Receita cancelada e devolvida baixada com documento próprio, antes do fechamento",
+        "Índice de contestação por SKU, com o custo da perda alocado ao produto"
+      ],
+      "oferta": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo quanto de venda desfeita ainda está na sua base"
+    }
+  ]
+}

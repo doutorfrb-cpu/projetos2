@@ -13,7 +13,39 @@ REGRA ZERO: esta tarefa nunca termina em silêncio. Se qualquer etapa travar, en
 
 Leia BANCO-DE-AREAS-GKFD.md inteiro, na raiz da pasta. Ele foi REMONTADO em 18/08/2026 a partir dos 90 tópicos de dor ditados pelo Fábio, e a versão anterior foi descartada inteira por estar errada no essencial.
 
-Ele traz as 12 áreas, os 10 momentos do vendedor, os 20 pontos de vazamento e — o mais importante — o BURACO de cada um, que é de onde sai a headline.
+Ele traz as 9 ÁREAS DO SITE (G1 a G9), os 10 momentos do vendedor, os 20 pontos
+de vazamento e — o mais importante — o BURACO de cada um, que é de onde sai a headline.
+
+CORRIGIDO EM 19/08/2026 — A BASE É O SITE. Antes este banco tinha 12 áreas que a
+sessão tinha deduzido. O site gkfd.com.br oferece 9, com nomes próprios, e quem
+manda é o site: é para lá que a pessoa vai depois de ver o post. Peça que oferece
+área inexistente quebra a promessa na chegada. Use G1 a G9 e mais nada.
+A antiga A12 (prova técnica e disputa com a plataforma) SAIU do rodízio: não
+consta do site da GKFD. A tabela de correspondência com a numeração velha está
+no banco, para o rodízio não perder o histórico.
+
+SEIS PLATAFORMAS, NÃO UMA. O site atende Mercado Livre, Shopee, Amazon, Magalu e
+outras. As peças até 19/08 leem como exclusivas do Mercado Livre. REGRA: no
+máximo uma peça em três cita plataforma pelo nome; as demais dizem "a
+plataforma". Quando citar, revezar entre as seis.
+
+FAIXA DE MARCA NA CAPA — OBRIGATÓRIA desde 19/08/2026. O bloco "marca" do
+spec TEM de trazer o campo "descritor". Sem ele a capa sai sem dizer o que a
+GKFD é, e a peça lê como informação de vendedor em vez de serviço de contador.
+
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E\u2011COMMERCE"
+    "prova": ["25 ANOS DE EXPERI\u00caNCIA", "6 PLATAFORMAS ATENDIDAS", "ATENDIMENTO NACIONAL"]
+    "assinatura": "GKFD Contábil — contabilidade especializada em e-commerce e marketplace<br>Fábio Rebouças — Contador · Mercado Líder Platinum"
+
+O hífen de E\u2011COMMERCE é o não separável (U+2011). Com hífen comum a palavra
+quebra em duas linhas na faixa.
+
+A ASSINATURA foi ALARGADA em 19/08/2026: era "no Simples Nacional para vendedor
+de marketplace" e virou "especializada em e-commerce e marketplace", porque o
+site atende também loja virtual. Não use mais a antiga.
+
+A CHAMADA É A DO SITE, não invente outra: "Análise Contábil Inicial Gratuita".
+A pergunta-mãe do site é "Seus números do marketplace realmente fecham?".
 
 OS QUATRO PILARES, e eles definem o que a GKFD é:
   1. Tributário consultivo — regime e base decididos com simulação, não por hábito
@@ -220,13 +252,22 @@ O mesmo machine.py serve as duas operações. Sem o bloco "marca" no spec, a pe�
 
   "marca": {
     "arroba": "@gkfdfisco",
-    "credencial": "Contabilidade no Simples Nacional para vendedor de marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E\u2011COMMERCE",
+    "prova": ["25 ANOS DE EXPERI\u00caNCIA", "6 PLATAFORMAS ATENDIDAS", "ATENDIMENTO NACIONAL"],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil — contabilidade especializada em e-commerce e marketplace<br>Fábio Rebouças — Contador · Mercado Líder Platinum",
     "cargo": "Contador",
     "cta": "GKFD Contábil · atendimento nacional",
     "site": "Fábio Rebouças — Contador",
     "whatsapp": "11 97723-7113",
-    "oferta_padrao": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa"
+    "oferta_padrao": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
   }
+
+ESTE É O BLOCO CANÔNICO. Copie ele inteiro, sem editar nada além do que a peça
+exigir. Ele foi corrigido em 19/08/2026 e passou a incluir "descritor", "prova",
+"assinatura" e o selo — que antes ficavam espalhados e vinham sendo esquecidos.
 
 Cinco slides 1080x1350. Proibido em arte de feed qualquer "clique", "toque" ou seta.
 
@@ -241,8 +282,12 @@ legenda_facebook.txt: a mesma matéria, texto diferente, SEM hashtag. No Faceboo
 
 ASSINATURA PERMITIDA, e só ela:
 
-    GKFD Contábil — contabilidade no Simples Nacional para vendedor de marketplace.
+    GKFD Contábil — contabilidade especializada em e-commerce e marketplace.
     Fábio Rebouças — Contador
+
+ALARGADA EM 19/08/2026. A anterior dizia "no Simples Nacional para vendedor de
+marketplace" e era mais estreita que o site, que atende loja virtual e operação
+própria em seis plataformas. Não use mais a antiga em lugar nenhum.
 
 O "Mercado Líder Platinum" pode ser usado, porque é fato verificável e é a maior diferenciação da marca — a própria Página se chama GKFD Contábil Seller Platinum. Use como credencial de quem vive a operação, nunca como promessa de resultado ao cliente.
 
@@ -308,3 +353,169 @@ AO FINAL
 Confirme em uma linha: "Postado no @gkfdfisco e na Página", mais área, momento, documento, paleta e headline. Diga também se o story e o reel subiram.
 
 Não publicou: diga por quê, também em uma linha.
+
+
+GRAMATICA DE ANUNCIO NA CAPA E NA OFERTA — 19/08/2026, pedido do Fabio:
+"gramatica de anuncio, com informacao documental no miolo".
+
+O QUE MUDOU, e e automatico — voce nao escreve nada a mais no spec alem dos
+campos "descritor" e "prova":
+  - a chamada e a tarja viram UMA pilula com gradiente e brilho (o selo de
+    pauta). Continue preenchendo "chamada" e "peca" como sempre.
+  - a capa ganha faixa de WhatsApp e tira de prova no rodape.
+  - o slide 5 fecha com a mesma tira, e o selo Platinum entra menor, dentro
+    da faixa de marca: em tamanho de capa ele cobria a ponte.
+  - a manchete se mede contra a faixa em cima E contra o rodape embaixo, e
+    encolhe sozinha ate caber entre os dois.
+
+OS SLIDES 2, 3 E 4 NAO MUDARAM E NAO DEVEM MUDAR. E la que mora a densidade
+que filtra: quem chega no slide 4 de uma peca sobre conciliacao de repasse E
+vendedor de marketplace. A capa para o dedo; o miolo convence. Nao encurte o
+miolo para deixar a peca mais leve — isso destroi o filtro.
+
+DOS NOVE BLOCOS do exemplo que o Fabio mandou, ficaram CINCO na capa: faixa de
+marca, selo de pauta, manchete, apoio, rodape de contato e prova. O resto e
+ruido a 400 pixels, que e o tamanho real no feed.
+
+LIMITE CONHECIDO: o visual de anuncio nasce de fundo escuro. Nas paletas
+claras ele existe, mas discreto — sem brilho, so borda e contraste. Nao e
+defeito, e fisica: nao ha como brilhar sobre papel claro.
+
+
+NENHUMA MENÇÃO A CRC — determinado pelo Fábio em 19/08/2026.
+Não escreva "CRC", número de registro no conselho, nem sigla de conselho em
+slide, legenda, tira de prova ou bio. Vale para esta marca e para a
+IntegraJud, que já tinha a mesma regra quanto a credencial jurídica.
+A tira de prova passou a usar "25 ANOS DE EXPERIÊNCIA", que está no site, é
+verificável e diz mais ao vendedor do que uma sigla de conselho.
+
+
+LINK COM ORIGEM, COMENTARIO FIXADO, PRIMEIRA LINHA E ARTIGO — 19/08/2026.
+Quatro coisas que faltavam. Todas entram na rotina normal, sem custo.
+
+1) NUNCA MAIS ESCREVA O wa.me NA MAO. Use o links.py, que embute a origem na
+mensagem que a pessoa ja abre digitada. As duas marcas usam o MESMO numero:
+sem isso nao da para saber se o contato veio da GKFD ou da IntegraJud, do
+carrossel ou do story, do Instagram ou do Facebook.
+
+    py links.py carrossel instagram "<tema da peca>"
+    py links.py carrossel facebook "<tema da peca>"
+    py links.py story instagram "<tema da peca>"
+
+Cada legenda leva o link do SEU destino. Errar o destino estraga a medicao.
+
+2) PRIMEIRO COMENTARIO, logo depois de publicar:
+
+    py comentar.py <ig_media_id> <fb_post_id> "<tema da peca>"
+
+Os dois ids sao os mesmos que voce ja grava no log. Imagem de feed NAO clica —
+e por isso que a arte tem proibicao de "clique" e de seta. O comentario clica.
+Ate hoje a gente publicava sem deixar link em lugar nenhum no Instagram.
+Falhando, NAO desfaca nada: a peca ja esta publicada, anote e siga.
+FIXAR o comentario nao tem endpoint na API. E no aplicativo, e so vale a pena
+nas pecas que engrenarem.
+
+3) A PRIMEIRA LINHA DA LEGENDA e a unica que aparece no feed antes do "mais".
+Ela nao pode ser aquecimento nem repeticao da headline que ja esta na arte.
+Ela precisa carregar UMA informacao nova, concreta, que faca o dedo parar —
+de preferencia um numero ou uma consequencia. Escreva ela por ultimo, depois
+que a legenda estiver pronta, olhando o texto inteiro.
+
+4) ARTIGO. Grave tambem artigo.md na pasta da peca: titulo, 4 a 7 paragrafos e
+um fecho. O corpo sai dos slides 2, 3 e 4, que ja estao escritos — nao e
+conteudo novo, e o mesmo conteudo em prosa corrida, sem as quebras de slide.
+O Fabio publica no blog quando quiser. Motivo: quem digita a duvida no Google
+e cem por cento do nicho, o artigo trabalha por anos, e o carrossel do dia
+morre em 48 horas. Custo marginal quase zero, alcance que nao expira.
+Sem promessa de resultado, sem percentual, sem caso identificavel — as mesmas
+regras da arte valem no artigo.
+
+
+TEXTO ALTERNATIVO E REVISITA — 19/08/2026.
+
+5) ALT.TXT. Grave na pasta da peca um arquivo alt.txt com UMA LINHA POR SLIDE,
+na ordem. Cada linha descreve o que o slide mostra, em uma frase, comecando
+pelo assunto. Exemplo da capa: "Capa sobre chargeback: venda desfeita que
+continua na apuracao do mes." O publicar_instagram.py le esse arquivo sozinho
+e manda como alt_text de cada imagem. Sem o arquivo, publica sem alt e nada
+quebra — mas grave, porque serve para leitor de tela e para a propria Meta
+entender do que a peca trata. Maximo 990 caracteres por linha.
+
+6) REVISITA, uma vez por dia, na ULTIMA rodada da marca:
+
+    py revisitar.py
+
+Ele pega a peca mais antiga que ainda nao foi revisitada e republica a capa
+dela como story. Peca de tres semanas atras e NOVA para quem comecou a seguir
+semana passada, e a conta cresce todo dia. Nao toca no feed, nao refaz nada,
+nao gasta producao: e material ja pago e ja revisado.
+Ele guarda quem ja foi em .revisitados.txt e nao repete. Falhando, siga em
+frente e anote — revisita nao e o trabalho principal da rodada.
+
+7) O LINK DA BIO tambem tem origem propria:  py links.py bio instagram
+
+
+LINKEDIN — 19/08/2026. SUBSTITUI o artigo.md, nao soma.
+
+Grave o texto em  linkedin/<AAAA-MM-DD>-<tema-curto>.md  na RAIZ da pasta da
+marca, e nao dentro da pasta da peca. Motivo: o Fabio abre uma pasta so, em
+ordem, sem cacar dentro de pasta datada.
+
+NAO gere tambem artigo.md. Um texto so, no formato do LinkedIn, que serve para
+blog com ajuste minimo. Produzir dois seria trabalho dobrado sobre o mesmo
+conteudo — e a rodada ja esta longa.
+
+FORMATO DO LINKEDIN, que nao e o da legenda do Instagram:
+  - a PRIMEIRA LINHA e o gancho e aparece sozinha antes do "ver mais".
+    Uma frase, curta, com a tensao inteira dentro dela.
+  - PARAGRAFOS AGRUPADOS, SEM LINHA EM BRANCO entre eles. Determinacao do
+    Fabio em 19/08/2026. Blocos densos, cada um fechando uma ideia inteira,
+    separados por UMA quebra de linha simples. Nao espalhe em frases soltas.
+  - o gancho da primeira linha continua sozinho, sendo o primeiro bloco.
+  - listas viram TEXTO CORRIDO dentro do paragrafo, separadas por ponto e
+    virgula ou por travessao. Sem marcador, sem numeracao: o LinkedIn nao
+    renderiza markdown e asterisco aparece cru na tela.
+  - TEXTO JUSTIFICADO NAO EXISTE no LinkedIn. A plataforma nao tem formatacao
+    nenhuma: e texto puro, sempre alinhado a esquerda. Nao tente, nao promete.
+  - hashtags SEM ACENTO (#PericiaContabil, nao #PericiaContabil com acento):
+    hashtag acentuada quebra a indexacao no LinkedIn.
+  - entre 1.500 e 2.200 caracteres. O teto e 3.000.
+  - fecha com pergunta ao leitor OU com um teste que ele pode fazer sozinho.
+    Nao repita a oferta de 24h uteis: no LinkedIn ela soa comercial demais.
+  - de 3 a 5 hashtags, no fim, com acento e em CamelCase (#PericiaContabil).
+  - TITULO na primeira linha, em caixa alta, curto e direto. Requisito do
+    Fabio, 19/08/2026. Ele e a primeira coisa que aparece antes do "ver mais",
+    entao precisa segurar sozinho. O gancho vem logo abaixo, no bloco seguinte.
+  - LINK NO COMENTARIO, NAO NO POST — decidido em 20/08/2026, depois de o
+    Fabio ver na tela como fica. O arquivo sai com DUAS partes separadas por
+    uma linha de tracos:
+        ### POST — copie daqui ate a linha de tracos
+        <o post, terminando nas hashtags>
+        ------------------------------------------------------------------
+        ### COMENTARIO — cole depois de publicar, no seu proprio post
+        Quem quiser que eu olhe o caso, me chama aqui:
+        <link>
+    Ele publica o post limpo e cola o comentario logo em seguida, no proprio
+    post. Depois pode fixar o comentario nos tres pontinhos.
+    MOTIVO: o LinkedIn empurra menos post que manda gente para fora. No
+    comentario isso nao conta como saida, e o post circula mais.
+    O link e colado CRU: o LinkedIn transforma em clicavel sozinho, desde que
+    comece com https://. Nao existe link com texto embutido no LinkedIn.
+    Requisito do Fabio. Gere com:  py links.py post linkedin "<tema>"
+    NO LINKEDIN O LINK SAI CURTO de proposito ("Vim do LinkedIn - <tema>").
+    Em 20/08/2026 a frase completa codificada virou uma URL de QUATRO LINHAS
+    na caixa de publicacao — feia e com cara de link suspeito. Nao volte a
+    usar a mensagem longa no LinkedIn; nos outros destinos ela continua.
+    O aviso "nao foi possivel exibir pre-visualizacao" e NORMAL: o LinkedIn
+    nao gera cartao de preview para link de WhatsApp com parametro. Publique.
+    O destino linkedin existe no links.py desde 19/08/2026, entao o contato
+    que vier de la chega identificado como LinkedIn.
+    RESSALVA REGISTRADA: link no corpo derruba o alcance no LinkedIn — a
+    plataforma nao quer tirar gente de la. O Fabio sabe e decidiu assim. Nao
+    refaca essa discussao a cada rodada; a decisao esta tomada.
+  - assinatura da marca no fim, a mesma da legenda.
+
+VALEM AS MESMAS PROIBICOES da arte e da legenda: nada de promessa de resultado,
+percentual de exito, comparacao com outro profissional, preco, caso
+identificavel, credencial juridica ou sigla de conselho. Numero de demonstracao
+sempre rotulado como tal.

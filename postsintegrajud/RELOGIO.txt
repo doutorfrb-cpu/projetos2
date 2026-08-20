@@ -1,0 +1,35 @@
+RELOGIO DA OPERACAO — quem decide a marca de cada rodada.
+
+Este arquivo e identico nas duas pastas, de proposito: a sessao le ele ANTES de
+saber qual marca vai produzir. Por isso ele nao pode morar dentro da instrucao
+de uma marca so.
+
+    entre 13h45 e 15h44  ->  INTEGRAJUD    com story E reel
+    entre 15h45 e 17h44  ->  GKFD          com story E reel
+    entre 17h45 e 19h44  ->  INTEGRAJUD    com story E reel
+    entre 19h45 e 22h00  ->  GKFD          com story E reel
+
+Fora dessas faixas: PARE e avise em uma linha qual hora encontrou. Nao escolha
+por conta propria — publicar na marca errada e o pior erro possivel aqui,
+porque sao dois publicos diferentes e a peca sai assinada errada.
+
+AS DUAS PASTAS
+
+    GKFD        C:\Users\fabio\Desktop\projetos2\gkfd
+    INTEGRAJUD  C:\Users\fabio\Desktop\projetos2\postsintegrajud
+
+GRADE desde 20/08/2026, definida pelo Fabio: disparos as 14h, 16h, 18h e 20h.
+Cada faixa abre 15 minutos ANTES do disparo e vai ate 15 minutos antes do
+seguinte: 1h45 de tolerancia para a rodada atrasar sem virar a marca errada.
+
+POR QUE ESSA ORDEM: as 14h o advogado esta depois do almoco, entre audiencias,
+em janela de leitura — e a peca da IntegraJud e densa. As 20h e o horario de
+maior alcance do dia, e vai para a GKFD, que e a conta mais nova. A manha ficou
+vazia de proposito.
+
+POR QUE ESTE ARQUIVO EXISTE — 20/08/2026, e a licao e cara.
+A tabela morava dentro do texto colado no painel. Quando a grade mudou, o
+arquivo no disco mudou e as quatro tarefas continuaram com a tabela velha, sem
+ninguem perceber — uma delas ainda dizia "SEM reel", regra que ja tinha sido
+revogada. Texto colado em painel CONGELA. Daqui pra frente nada que muda mora
+la: o painel so aponta, e a verdade fica no disco.

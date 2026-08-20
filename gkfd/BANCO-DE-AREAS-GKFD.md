@@ -67,6 +67,14 @@ de vazamento**: o lugar exato por onde o dinheiro sai. O vendedor não reconhece
 Cada linha traz: o ponto de vazamento · a conta que ele exige · **o buraco, que
 é de onde sai a headline**.
 
+**Ampliado em 19/08/2026, junto com a conformação ao site.** Eram 20 e viraram
+28. Ao conferir eixo por eixo apareceu o furo: os 20 pontos originais cobriam
+bem sete das nove áreas do site, deixavam a G1 com um único ponto, e deixavam a
+**G8 Abertura e Regularização com nenhum** — porque abertura não é vazamento, é
+decisão que cobra depois. Nas cinco linhas da G8, leia "ponto de vazamento"
+como "decisão que custa depois": a peça pressupõe dúvida de quem está
+começando, não vício de quem já erra.
+
 | tarja | a conta que ela exige | o buraco |
 |---|---|---|
 | **REPASSE DO MÊS** | venda × tarifa × frete × ADS × líquido creditado | a receita é lançada pelo bruto e o imposto corre sobre valor que nunca foi repassado |
@@ -89,171 +97,196 @@ Cada linha traz: o ponto de vazamento · a conta que ele exige · **o buraco, qu
 | **BLOQUEIO DE CONTA** | faturamento perdido no período, com base histórica | prejuízo alegado sem cálculo, e por isso não indenizado |
 | **CONCILIAÇÃO ERP × PLATAFORMA** | pedido → NF-e → entrega → repasse → banco | quatro sistemas com quatro verdades, e ninguém sabe qual é a certa |
 | **MALHA E INTIMAÇÃO** | resposta com memória de cálculo e conciliação | responder sem a conciliação repasse × nota é confessar a diferença |
+| **ESCRITURAÇÃO POR EXTRATO** | repasse por trás de cada crédito bancário | escritura-se o que caiu no banco; o que foi descontado antes some da contabilidade |
+| **BALANCETE SEM CANAL** | resultado separado por plataforma | um balancete só para seis canais: não dá para decidir onde parar de vender |
+| **FECHAMENTO FORA DO PRAZO** | contabilidade pronta antes de decidir preço | número que chega depois da decisão é histórico, não gestão |
+| **CNPJ E CNAE** | atividade real × CNAE declarado × anexo resultante | CNAE escolhido no genérico empurra a empresa para o anexo caro desde o primeiro dia |
+| **INSCRIÇÃO ESTADUAL** | obrigação estadual da operação com mercadoria | vende sem IE e descobre a substituição tributária na primeira multa |
+| **MEI NO LIMITE** | receita acumulada × teto × atividade permitida | ultrapassa o limite vendendo e o desenquadramento vem retroativo |
+| **EMPRESA PARADA** | obrigação acessória de quem não fatura | parou de vender e não deu baixa: a obrigação continua correndo sozinha |
+| **TROCA DE CONTADOR** | o que se herda, o que se refaz, o que se recupera | migra sem inventário de pendência e herda erro que vira multa no seu nome |
 
 ---
 
-## AS ÁREAS
+## A BASE É O SITE — corrigido em 19/08/2026
 
-### A1 · REGIME, ANEXO E CARGA TRIBUTÁRIA
-`/areas/regime`
-Exposição típica: a empresa cresceu e continua pagando pelo enquadramento de
-quando era pequena.
+Até hoje este banco tinha **12 áreas que eu deduzi**. O site gkfd.com.br
+oferece **9**, com nomes próprios. Quem manda é o site: é para lá que a pessoa
+vai depois de ver o post, e peça que promete área inexistente quebra a promessa
+na chegada.
 
-- Simples Nacional enquadrado de forma inadequada para operação de marketplace
+As nove abaixo são as do site, com os nomes do site. Os quatro pilares e os
+vinte pontos de vazamento continuam válidos — eles não são áreas, são método
+e eixo de pauta, e nada no site os contradiz.
+
+**O que o site atende e o banco vinha ignorando:** seis plataformas — Mercado
+Livre, Shopee, Amazon, Magalu e outras. As peças até aqui leem como se fossem
+exclusivas do Mercado Livre. **Regra nova: no máximo uma peça em três pode
+citar uma plataforma pelo nome.** As demais falam em "a plataforma", e quando
+citarem nome, revezar entre as seis.
+
+**Chamada oficial do site**, para as peças pararem de inventar a própria:
+
+> Análise Contábil Inicial Gratuita — "Seus números do marketplace realmente
+> fecham?"
+
+### CORRESPONDÊNCIA COM O HISTÓRICO
+
+O rodízio não pode perder o que já rodou. Equivalência da numeração velha:
+
+| numeração velha | área nova do site |
+|---|---|
+| A1 regime, anexo e carga · A2 base de cálculo · A6 ST, DIFAL e créditos | **G2 Fiscal e Tributário** |
+| A3 repasse, tarifa e comissão | **G3 Conciliação de Repasses** |
+| A4 retenção, bloqueio e capital de giro | **G9 Retenções e Bloqueios** |
+| A5 devolução, estorno e chargeback | **G6 Devoluções e Estornos** |
+| A7 margem e preço · A9 DRE por canal e SKU | **G7 Gestão e Rentabilidade** |
+| A8 ADS e custo de mídia | **G5 Tarifas e Publicidade** |
+| A10 logística, estoque e ressarcimento | **G4 Estoque e Custos** (fulfillment também em G5) |
+| A11 integração e rastreabilidade | **G1 Contabilidade do E-commerce** |
+| A12 prova técnica e disputa com a plataforma | **SAI DO RODÍZIO — não está no site** |
+
+**JÁ PUBLICADAS:** G2 (Fator R, 19/08) · G5 (ADS, 18/08) · G9 (saldo retido, 18/08).
+**INTACTAS:** G1, G3, G4, G6, G7, G8.
+
+**Sobre a A12.** Era a ponte para a IntegraJud, e era boa. Mas prova técnica e
+disputa com a plataforma **não consta do site da GKFD** — consta do site da
+IntegraJud, na área A9 marketplace. Enquanto não entrar no site, não entra no
+rodízio: post que oferece o que a página não oferece é promessa quebrada.
+Decisão do Fábio, não minha.
+
+---
+
+## AS NOVE ÁREAS
+
+### G1 · CONTABILIDADE DO E-COMMERCE
+`escrituração · balancete · DRE · conciliação bancária`
+Exposição típica: a contabilidade existe no papel e não descreve a operação.
+
+- Escrituração feita pelo extrato bancário, sem o repasse que está por trás
+- Balancete que não separa canal, e por isso não serve para decidir nada
+- Conciliação bancária que fecha "no total" e esconde diferença por pedido
+- DRE montada sobre faturamento de painel em vez de receita escriturada
+- Quatro sistemas com quatro verdades: ERP, plataforma, NF-e e banco
+- Lançamento manual em volume alto, com erro que ninguém audita
+- Contabilidade entregue depois do prazo de decidir preço
+- Encerramento do exercício sem conciliação prévia de repasse
+
+### G2 · FISCAL E TRIBUTÁRIO
+`Simples Nacional · NF-e · ICMS · DIFAL`
+Exposição típica: o imposto corre sobre um número que não é o da empresa.
+
 - Anexo e alíquota efetiva aplicados sem conferir a atividade real
-- Fator R apurado sem considerar pró-labore e encargos dos doze meses
-- Simples × Lucro Presumido × Lucro Real decidido sem simulação econômica
-- Empresa crescendo e permanecendo no regime errado, mês após mês
+- Fator R apurado sem pró-labore e encargos dos doze meses
+- Simples × Presumido × Real decidido sem simulação econômica
 - CNAE que não descreve a operação e empurra para o anexo caro
-- Ausência de revisão tributária periódica — o erro que se acumula em silêncio
 - Sublimite estadual estourado sem ninguém perceber
-
-### A2 · BASE DE CÁLCULO E RECEITA APURADA
-`/areas/base-de-calculo`
-Exposição típica: o imposto é calculado sobre um número que não é o da empresa.
-
-- Faturamento do marketplace diferente da receita efetivamente recebida
-- Imposto pago sobre valores cancelados ou devolvidos
-- Tributação sobre vendas estornadas
 - Receita lançada pelo painel da plataforma em vez da escrituração
-- Notas fiscais divergentes das vendas efetivamente realizadas
-- Vendas duplicadas e lançamentos duplicados inflando a base
+- Imposto pago sobre venda cancelada, devolvida ou estornada
+- DIFAL de venda interestadual tratado como operação interna
+- Produto com ICMS-ST tributado de novo na saída, e ressarcimento não pedido
+- NF-e emitida em desacordo com o pedido da plataforma
+- Malha e intimação respondidas sem a conciliação repasse × nota
+
+### G3 · CONCILIAÇÃO DE REPASSES
+`pedidos · comissões · tarifas · fretes · antecipações`
+Exposição típica: o relatório de repasse é baixável, e quase nunca é aberto.
+
+- Venda anunciada × valor efetivamente creditado, pedido a pedido
+- Comissão praticada diferente da contratada, sem vigência demonstrada
+- Frete subsidiado debitado sem vínculo com o pedido de origem
+- Centavos descontados milhares de vezes, invisíveis no total do mês
 - Antecipação de recebível lançada como desconto de venda
-- Receita de frete cobrado do comprador tratada como receita própria
+- Repasse conferido pelo total do mês: uma linha, mês fechado
+- Data do repasse × competência da receita, que quase nunca coincidem
+- Ajuste de reclamação debitado sem identificação do pedido
 
-### A3 · REPASSE, TARIFA E COMISSÃO
-`/areas/repasse`
-Exposição típica: entre o valor da venda e o valor que cai na conta há uma
-diferença que ninguém abre.
+### G4 · ESTOQUE E CUSTOS
+`entradas · custo da mercadoria vendida · margem por produto`
+Exposição típica: não se sabe quanto custou aquilo que foi vendido.
 
-- Comissões cobradas pelo marketplace sem nenhuma conferência
-- Tarifas e taxas divergentes do que foi contratado
-- Fretes cobrados ou descontados incorretamente
-- Diferença entre valor vendido, valor liquidado e valor recebido
-- Extrato do marketplace que não fecha com a contabilidade
-- Conta bancária que não fecha com os relatórios das plataformas
-- Valores pequenos descontados milhares de vezes, sem auditoria
-- Perdas invisíveis pelo volume: cada uma é irrelevante, a soma não é
-- Conciliação de milhares de transações feita manualmente
+- CMV apurado por média grosseira em vez de entrada real
+- Estoque físico × estoque da plataforma × Bloco H que não batem
+- Mercadoria em fulfillment: estoque em poder de terceiro, sem controle próprio
+- Extravio e avaria indenizados a preço de custo antigo, ou nunca pedidos
+- Inventário sem contagem, replicado do ano anterior
+- Custo de embalagem e de manuseio fora da conta do produto
+- Kit e composto sem ficha técnica, com custo impossível de apurar
 
-### A4 · RETENÇÃO, BLOQUEIO E CAPITAL DE GIRO
-`/areas/retencao`
-Exposição típica: o dinheiro existe, é seu, e você não pode usar.
+### G5 · TARIFAS E PUBLICIDADE
+`comissões · Ads das plataformas · fulfillment`
+Exposição típica: o custo de vender subiu e ninguém recalculou o preço.
 
-- Valores retidos pelo marketplace sem composição demonstrada
-- Saldo bloqueado ou indisponível sem justificativa clara nem prazo
-- Recebíveis que simplesmente não chegaram à conta
-- Capital de giro preso dentro da plataforma
-- Dependência de antecipação para manter a operação de pé
-- Antecipação de recebíveis com custo financeiro desconhecido
-- Empréstimo oferecido pela própria plataforma consumindo a margem
-- Ausência de auditoria histórica dos recebíveis
+- ACOS lido antes de imposto e de tarifa, mostrando lucro que não existe
+- Campanha avaliada pelo ROAS da tela, não pela margem líquida
+- Tarifa de fulfillment tratada como frete, sem alocação por SKU
+- Débito de publicidade sem documento hábil, que some do resultado
+- Tarifa por faixa de preço que vira a margem ao cruzar o limite
+- Anúncio patrocinado de produto que já dava prejuízo no orgânico
+- Custo de mídia somado ao mês, nunca ao produto
 
-### A5 · DEVOLUÇÃO, ESTORNO E CHARGEBACK
-`/areas/devolucao`
-Exposição típica: a mercadoria voltou, o dinheiro saiu, e a contabilidade não
-soube de nada.
+### G6 · DEVOLUÇÕES E ESTORNOS
+`logística reversa · reembolsos · chargebacks`
+Exposição típica: a venda desfeita continua viva na apuração.
 
-- Devoluções sem conciliação contábil, fiscal e financeira
-- Mercadoria devolvida sem o correspondente ajuste financeiro
-- Reembolso ao comprador sem conferência do retorno da mercadoria
-- NF-e de devolução ausente ou incorreta
-- Chargebacks e contestações sem auditoria de prazo e resultado
-- Cancelamentos que continuam impactando o financeiro meses depois
-- Estornos sem conciliação com a venda de origem
-- Pedidos sem correspondência financeira, e recebimentos sem pedido
+- Devolução sem nota de entrada: a mercadoria voltou, o imposto ficou
+- Estorno lançado solto, sem baixar a venda que o originou
+- Chargeback não contestado, perdido por decurso de prazo
+- Reembolso ao cliente sem o crédito correspondente da plataforma
+- Custo da logística reversa não alocado ao pedido
+- Índice de devolução por SKU nunca apurado — e é ele que decide o preço
+- Reenvio tratado como venda nova, duplicando receita
 
-### A6 · ST, DIFAL E CRÉDITOS
-`/areas/st-difal`
-Exposição típica: vende para o Brasil inteiro e apura como se fosse tudo local.
+### G7 · GESTÃO E RENTABILIDADE
+`DRE por marketplace · margem de contribuição`
+Exposição típica: a decisão é tomada pelo faturamento.
 
-- DIFAL calculado ou recolhido incorretamente
-- ICMS-ST pago indevidamente, e ressarcimento nunca pedido
-- Produto com ST na entrada tributado de novo na saída
-- Créditos tributários esquecidos dentro da operação
-- Retenções tributárias não recuperadas
-- CT-e e custos logísticos fora da apuração
-- Identificação de cobranças que fundamentam pedido de restituição
+- O canal que mais fatura é o que mais dá prejuízo
+- Margem de contribuição por SKU nunca calculada
+- Ponto de equilíbrio desconhecido: não se sabe o próprio piso de preço
+- Preço formado olhando o concorrente
+- Custo total da venda sem comissão, imposto, frete, ADS e devolução
+- Faturamento crescendo e resultado caindo, ao mesmo tempo
+- Decisão de descontinuar produto sem número que a sustente
 
-### A7 · MARGEM, PREÇO E PONTO DE EQUILÍBRIO
-`/areas/margem`
-Exposição típica: fatura alto, e ninguém sabe se sobra.
+### G8 · ABERTURA E REGULARIZAÇÃO
+`CNPJ · CNAEs · inscrição estadual · encerramento`
+**Área nova — estava no site e faltava neste banco.**
+Exposição típica: começa vendendo e resolve o cadastro depois. O depois cobra caro.
 
-- Margem real desconhecida depois de impostos e taxas
-- Produto que vende muito e dá pouco ou nenhum lucro
-- Precificação sem considerar comissão, imposto, frete, ADS e devolução
-- Desconhecimento do custo total de cada venda
-- Falta de cálculo do ponto de equilíbrio da operação
-- Preço definido olhando apenas o concorrente
-- Promoções que aumentam faturamento e destroem margem
-- Cupons e descontos sem análise do impacto tributário e financeiro
-- Falta de indicadores para saber onde a operação perde dinheiro
+É a única área que fala com quem **ainda não tem contador**. Todas as outras
+falam com quem já opera e já errou. Por isso ela é a porta de entrada, e por
+isso a peça dela não pode pressupor vício de operação — pressupõe dúvida.
 
-### A8 · ADS E CUSTO DE MÍDIA
-`/areas/ads`
-Exposição típica: a campanha parece lucrativa até alguém tirar imposto e tarifa.
+- Vender como pessoa física até a plataforma exigir CNPJ
+- CNAE escolhido no genérico, que empurra a empresa para o anexo caro
+- Inscrição estadual ausente, e substituição tributária impossível de tratar
+- MEI usado além do limite de receita ou da atividade permitida
+- Endereço fiscal incompatível com operação que guarda estoque
+- Regime escolhido no ato da abertura, sem simular os doze meses seguintes
+- Obrigação acessória estadual descoberta na primeira multa
+- Empresa parada sem baixa, acumulando obrigação e débito
+- Troca de contador com pendência herdada e nunca mapeada
 
-- ADS consumindo margem sem cálculo do lucro líquido da campanha
-- ACOS e ROAS analisados sem considerar tributação e margem líquida
-- Campanha aparentemente lucrativa que gera prejuízo depois dos custos
-- Cashback e incentivos sem conciliação
-- Bonificações da plataforma não identificadas nem contabilizadas
-- Publicidade rateada por faturamento em vez de por origem da venda
+### G9 · RETENÇÕES E BLOQUEIOS
+`valores retidos · contas suspensas`
+Exposição típica: o dinheiro é seu, está lá, e você não alcança.
 
-### A9 · DRE POR CANAL E POR SKU
-`/areas/resultado`
-Exposição típica: três plataformas tratadas como se fossem a mesma coisa.
+- Saldo retido tributado como receita realizada
+- Composição do bloqueado, do disponível e do a liberar, sem transparência
+- Reserva de segurança sem prazo e sem critério publicado
+- Conta suspensa: faturamento perdido no período, sem base histórica apurada
+- Capital de giro planejado sobre saldo que não está disponível
+- Retenção por disputa que nunca é revisitada depois de resolvida
+- Prejuízo de bloqueio alegado sem cálculo, e por isso não indenizado
 
-- Falta de DRE específica por marketplace
-- Falta de DRE por produto e por SKU
-- Falta de rentabilidade individual por canal de venda
-- Mercado Livre, Shopee e Amazon tratados contabilmente como iguais
-- Falta de conciliação separada por marketplace
-- Falta de acompanhamento de margem por SKU
-- Tarifa e frete não alocados por canal
+---
 
-### A10 · LOGÍSTICA, ESTOQUE E RESSARCIMENTO
-`/areas/logistica`
-Exposição típica: o estoque some dentro do fulfillment e ninguém cobra.
+## AS DUAS MARCAS
 
-- Mercadoria extraviada sem ressarcimento
-- Produto avariado dentro da logística da plataforma
-- Ressarcimentos logísticos que nunca foram cobrados
-- Valores de indenização inferiores ao efetivamente devido
-- Estoque físico diferente do estoque apresentado pela plataforma
-- Estoque parado consumindo capital de giro
-- Inventário e Bloco H sem lastro de entradas e saídas
-
-### A11 · INTEGRAÇÃO E RASTREABILIDADE
-`/areas/integracao`
-Exposição típica: quatro sistemas, quatro verdades, nenhuma conferida.
-
-- Erros fiscais causados pela integração ERP × marketplace
-- Diferenças entre ERP, marketplace, banco e contabilidade
-- Falta de rastreabilidade entre pedido → NF-e → entrega → recebimento
-- Auditoria de milhares de lançamentos para localizar diferenças
-- Cruzamento automatizado de pedidos, notas, extratos e recebíveis
-
-### A12 · PROVA TÉCNICA E DISPUTA COM A PLATAFORMA
-`/areas/prova-tecnica`
-Exposição típica: sabe que perdeu dinheiro, e não consegue provar quanto.
-
-- Bloqueio de conta causando perda de faturamento mensurável
-- Suspensão de anúncio ou queda de reputação com prejuízo real
-- Ausência de cálculo técnico do prejuízo causado por bloqueios
-- Falta de documentação técnica para contestar cobranças da plataforma
-- Falta de prova contábil para processos contra plataformas
-- Lucros cessantes sem cálculo técnico
-- Danos emergentes sem documentação contábil organizada
-- Auditoria de contratos e condições comerciais das plataformas
-- Quantificação técnica de valores para eventual cobrança judicial
-- Produção de memória de cálculo para o jurídico
-- Transformação de milhares de lançamentos em prova técnica auditável
-
-**Esta área é a ponte com a IntegraJud, e vale entender a diferença:** aqui o
-cliente é o **vendedor**, e o advogado dele é quem recebe a memória de cálculo.
-Na IntegraJud o cliente é o **advogado**. Mesma competência técnica, dois
-compradores diferentes. Nunca misturar as duas marcas na mesma peça.
+Na GKFD o cliente é o **vendedor**. Na IntegraJud o cliente é o **advogado**.
+Mesma competência técnica, dois compradores diferentes. Nunca misturar as duas
+marcas na mesma peça.
 
 ---
 
@@ -312,10 +345,37 @@ dois DAS diferentes — e a diferença é conta, não promessa.
 
 ---
 
+## A FAIXA DE MARCA NA CAPA — obrigatória desde 19/08/2026
+
+A capa carrega uma faixa no topo com o @ e o DESCRITOR, grande. Motivo, nas
+palavras do problema: "GKFD" não diz o que a empresa faz. Quem vê a peça sem
+o descritor entende informação de colega vendedor, não serviço de contador —
+e o selo Platinum, sozinho, reforça a leitura errada.
+
+Com o descritor, os dois se somam: contador especializado que também é
+Mercado Líder Platinum. Essa combinação nenhum concorrente copia.
+
+No bloco "marca" de TODO spec da GKFD:
+
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E\u2011COMMERCE"
+
+O hífen é o U+2011 (não separável) de propósito: com hífen comum, "E-COMMERCE"
+quebrava em duas linhas e ficava feio.
+
+Sem esse campo a peça sai sem a faixa e nada quebra — mas sai sem dizer o que
+a empresa é, que é o defeito que isto veio consertar.
+
+---
+
 ## A ASSINATURA
 
-    GKFD Contábil — contabilidade no Simples Nacional para vendedor de marketplace
+    GKFD Contábil — contabilidade especializada em e-commerce e marketplace
     Fábio Rebouças — Contador · Mercado Líder Platinum
+
+ALARGADA EM 19/08/2026, decisão do Fábio. A anterior dizia "no Simples
+Nacional para vendedor de marketplace" e era mais estreita que a base: o
+site atende também loja virtual e operação própria, em seis plataformas.
+A assinatura agora cobre o que o site oferece.
 
 O selo Mercado Líder Platinum entra em toda peça, conforme a seção 8-B da
 instrução. É a única credencial desta operação que nenhum concorrente pode

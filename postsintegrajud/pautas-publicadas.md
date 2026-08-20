@@ -250,3 +250,257 @@ Os IDs de Facebook e Instagram não foram capturados — a publicação manual n
 - LICAO DE OVERLAY (paleta CLARA sobre doc, primeira medicao em P10): a familia 'memoria' tem coluna CORRIGIDO em destaque e se comporta como extrato/evolucao/liquidacao. .93,.96,.98 assentou de primeira em P10 — o documento virou textura e a headline preta leu limpa. Confirma a regra dos .93+ e estende a familia memoria a lista.
 - LICAO DE TRANSBORDO (nova, e vale para toda peca de cinco slides): o machine.py avisa "TRANSBORDO 1374/1350" e a arte SAI MESMO ASSIM, cortada no rodape. No slide 5 o corte come justamente a linha do www.integrajud.com.br — o destino oficial da operacao. Nunca publicar com aviso de transbordo no slide da oferta: encurtar a ponte para DUAS linhas (como manda a secao 4) e a oferta para duas, e rerodar. Nos slides de valor, cortar uma frase de cada passo resolve.
 - LICAO DE AMBIENTE (quarta confirmacao, sandbox Linux): playwright ausente a cada sessao nova. `pip install playwright --break-system-packages` + `python3 -m playwright install chromium` + `apt-get download` das libs X/GTK com `dpkg -x` e LD_LIBRARY_PATH. Processo em background com nohup NAO sobrevive entre chamadas de shell: rodar a instalacao em primeiro plano. Trabalhar em /tmp e copiar o resultado para a pasta montada evita o PermissionError da limpeza.
+
+### Peça das 12h de 19/08 — cadência v9 (duas por dia), cinco slides
+2026-08-19 | 12h10 | 1 | A1 civeis | M6 laudo entregue | IMPUGNACAO AO LAUDO PERICIAL | TEM CONTA NESSA PECA? | dano patrimonial apurado sobre faturamento, sem a linha de custo | discordar do laudo sem memoria propria e alegacao contra numero | O LAUDO FIXOU O DANO. VOCE IMPUGNOU SEM APRESENTAR OUTRO NUMERO | L1 classico | doc apuracao/dobra (capa), granito (2), linho (3), doc razao/formulario + painel (4), foto px_12983115 (5) | P08 CINZA CONCRETO | /areas/civeis | modo demonstracao NAO (erro que se repete no slide 4) | retrato no slide 5 | FB 1164892873373934_122133465939355676 · IG 18082391405416667 | story IG+Pagina PUBLICADO · sem reel (peca do meio-dia)
+
+## Rodizio — estado atual (ATUALIZADO 19/08/2026 as 12h; este bloco substitui o anterior)
+- Eixos: sequencia recente 3 (18h/17), 2 (18h/18), 1 (12h/19). A proxima sai por 2, 3 ou 4 — nao por 1.
+- Pecas processuais: nova IMPUGNACAO AO LAUDO PERICIAL (n. 8). Restam sem uso: PETICAO INICIAL com pedido liquido, OBRIGACAO DE FAZER convertida, APELACAO/CONTRARRAZOES, DISSOLUCAO PARCIAL.
+- Frases de efeito: ultimas cinco = tem conta nessa peca? / antes de protocolar / quem fez essa conta / isso esta nos seus autos? / o prazo ja comecou. Nao repetir nenhuma na proxima.
+- Layouts: ultimos tres = L2 (18h/17), L4 (18h/18), L1 (12h/19). Livres para a proxima: L3, L5, L6.
+- Paletas: ultimas quatro = P06, P01, P10, P08. Livres: P02, P03, P04, P05, P07, P09.
+- Pares area x momento novos: A1xM6. A1 civeis voltou depois de ~25 pecas, com momento novo (antes M7 liquidacao).
+- Modo demonstracao: a de 18h/18 TEVE, esta NAO teve. A proxima sai COM demonstracao.
+- Banco de fotos conferido antes da pauta: 53 no banco, 16 livres na janela de 20 dias — no limite do minimo, script saiu com "banco em ordem" (codigo 0), sem reposicao. px_12983115 entra na janela, restam 15 livres. REPOR na proxima rodada.
+- LICAO DE OVERLAY (paleta CLARA sobre doc, familia 'apuracao'): .93,.96,.98 NAO bastou em P08 — a coluna AJUSTE, que sai na cor de destaque, continuou legivel e brigando com a headline. So virou textura em .965,.98,.99. Regra pratica ampliada: a familia apuracao tambem tem coluna em destaque e entra na lista dos .93+, mas em paleta CLARA precisa de .96+.
+- LICAO DE TRANSBORDO (confirma a de 18/08): slide de valor com 4 passos densos transborda (1400-1540/1350). Nesta peca, o slide 4 so coube com TRES passos; os slides 2 e 3 cabem com 4 passos se cada um ficar em ~2 frases. Escrever mirando 3 passos no slide 4.
+- LICAO DE AMBIENTE (quinta confirmacao, sandbox Linux): playwright ausente de novo. `pip install playwright --break-system-packages` + `python3 -m playwright install chromium`, e o Chromium quebra por libXdamage.so.1. ATENCAO: `apt-get download` falha com "Permission denied" quando o diretorio de trabalho nao e gravavel pelo usuario _apt — usar um diretorio novo em $HOME e `chmod 777` nele antes. Depois `dpkg -x` e LD_LIBRARY_PATH apontando para o diretorio extraido. Nesta sessao, /tmp/libs/ext ja trazia o libXdamage extraido de uma sessao anterior.
+
+
+**19/08/2026 — A BASE E O SITE. Rodizio limitado as 14 areas de integrajud.com.br.**
+As 14 areas do banco batem uma a uma com o site: nada a corrigir aqui.
+O que estava errado era a PARTE 2 — A15 familia e sucessoes, A16 recuperacao
+judicial, A17 administrativo e licitacoes, A18 consumidor — quatro areas
+propostas cujas paginas NAO EXISTEM. Estavam soltas no banco e o exemplo do
+comando reservar.py, na instrucao, usava justamente A18: bastava uma sessao
+copiar o exemplo para publicar oferta de area inexistente. Corrigido: exemplo
+trocado para A4 bancarios, e a PARTE 2 marcada FORA DO RODIZIO.
+CHAMADA: passa a ser a do site, "Analise Tecnica Inicial Gratuita".
+PENDENTE PARA O FABIO, e e o mais serio: o site lista "Bacharel em Direito"
+entre as qualificacoes do diretor tecnico. E exatamente o termo que ele proibiu
+em slide, legenda e bio. A regra dos posts continua valendo integralmente; a
+inconsistencia esta no site, e a decisao e dele.
+
+**19/08/2026 — DECIDIDO: nenhuma credencial juridica na IntegraJud.**
+O site listava "Bacharel em Direito". Cogitou-se trocar pelo numero de
+inscricao OAB/SP com sufixo E — e o sufixo E e de ESTAGIARIO, conforme a
+propria OAB. Para um publico feito de advogados, isso le pior que o bacharel,
+nao melhor: eles decodificam o sufixo na hora. Alem disso a inscricao de
+estagiario caduca com a formatura.
+FABIO DECIDIU: tirar e nao por nada no lugar. Ele ajusta o site; os posts ja
+estavam proibidos e a proibicao foi reforcada e ampliada (agora cobre
+explicitamente numero com sufixo E e a palavra estagiario).
+
+### Peça das 18h de 19/08 — cadência v9 (duas por dia), cinco slides
+2026-08-19 | 18h20 | 4 | A7 tributarios | M10 recurso | APELACAO / CONTRARRAZOES | ANTES DE RECORRER | repeticao de indebito: periodo recuperavel, base por competencia, compensacao ja aproveitada e indice ate o transito | a tese sobe e o quantum fica; tribunal nao reabre instrucao e a Fazenda apresenta a primeira conta na liquidacao | A APELACAO SOBE COM A TESE. O NUMERO NAO SUBIU JUNTO | L6 centrado | doc comparativo/envelhecido (capa), guilhoche (2), pedra (3), doc evolucao/copia + painel (4), foto px_33352856 (5) | P07 VINHO SOBRIO | /areas/tributarios | modo demonstracao SIM (receita 12.000.000; ICMS destacado 2.160.000 x 9,25% = 199.800,00; ICMS recolhido 840.000 x 9,25% = 77.700,00; diferenca 122.100,00) | retrato no slide 5 | FB 1164892873373934_122133564405355676 · IG 18090635672215099 | story IG+Pagina PUBLICADO · reel IG+Pagina PUBLICADO
+
+## Rodizio — estado atual (ATUALIZADO 19/08/2026 as 18h20; este bloco substitui o anterior)
+- Eixos: sequencia recente 2 (18h/18), 1 (12h/19), 4 (18h/19). A proxima sai por 1, 2 ou 3 — nao por 4.
+- Pecas processuais: nova APELACAO / CONTRARRAZOES. Restam sem uso: PETICAO INICIAL com pedido liquido, OBRIGACAO DE FAZER convertida, DISSOLUCAO PARCIAL.
+- Frases de efeito: ultimas cinco = antes de recorrer / tem conta nessa peca? / antes de protocolar / quem fez essa conta / isso esta nos seus autos?. Nao repetir nenhuma na proxima.
+- Layouts: ultimos tres = L4 (18h/18), L1 (12h/19), L6 (18h/19). Livres para a proxima: L2, L3, L5.
+- Paletas: ultimas quatro = P01, P10, P08, P07. Livres: P02, P03, P04, P05, P06, P09.
+- Pares area x momento novos: A7xM10. A7 tributarios voltou depois de ~14 pecas, com momento novo (antes M8, embargos a execucao fiscal).
+- Modo demonstracao: a de 12h/19 NAO teve, esta TEVE. A proxima sai SEM demonstracao, com o erro que se repete no slide 4.
+- Banco de fotos REPOSTO nesta rodada, conforme a pendencia registrada as 12h: 2 fotos novas do Pexels (px_28238205 livros antigos em prateleira, px_33352856 livros encadernados sobre mesa de madeira), conferidas uma a uma — so objeto, sem pessoa. Um id (51191) deu 404 e foi descartado pelo proprio script. Banco passou de 53 para 55; livres de 15 para 17. px_33352856 entra na janela de 20 dias.
+- LICAO DE OVERLAY (familia 'comparativo', primeira medicao): comparativo tambem tem coluna DIFERENCA em destaque e entra na lista dos .93+. Em P07 (escura), .945,.97,.985 AINDA deixava a coluna DIFERENCA legivel e competindo com a headline; so virou textura em .965,.985,.995. Regra pratica: comparativo se comporta como extrato/evolucao/liquidacao/memoria/apuracao.
+- CORRECAO NO machine.py: a barra de progresso da CAPA continuava fixa em 33,3% nesta copia (a correcao registrada em 16/08 nao estava no arquivo da raiz). Trocada por 100/n — em peca de cinco slides a capa agora mostra 20%. Alteracao gravada de volta na raiz.
+- LICAO DE LAYOUT (L6, primeira medicao em peca de cinco slides): L6 e centrado, com filete acima e abaixo da headline, e aguenta headline de 3 a 4 linhas sem transbordo. Serve bem quando L5 esta barrado por headline longa.
+- Sem aviso de transbordo em nenhum slide. Legenda do Instagram fechada em 2111 caracteres, dentro do limite, na primeira escrita.
+- Reel conferido quadro a quadro antes de publicar: saida trouxe "cortando 1.21s de preto do inicio" e nenhum texto cortado. 17,9s.
+- LICAO DE AMBIENTE (sexta confirmacao, sandbox Linux): playwright ausente de novo. `pip install playwright --break-system-packages` + `python3 -m playwright install chromium`, e o Chromium quebra por libXdamage.so.1. Resolvido com um diretorio novo em $HOME com chmod 777, `apt-get download` das libs X/GTK, `dpkg -x` e LD_LIBRARY_PATH. ffmpeg JA EXISTE nesta maquina — o reel.py rodou sem instalar nada.
+
+
+**19/08/2026 — FAIXA DE MARCA NA CAPA, REEL NAS QUATRO, E O QUE MAIS MUDOU.**
+Reclamação do Fábio: a peça lia como INFORMAÇÃO e não como serviço. Diagnóstico:
+o nome da marca não estava fazendo o trabalho. "GKFD" não diz nada; "IntegraJud"
+diz o mundo (jurídico) e não o serviço (perícia contábil).
+CONSERTO: a capa ganhou uma FAIXA DE MARCA no topo, largura inteira, com o @ em
+cima e o DESCRITOR grande (34px) embaixo — igual ao cabeçalho do site.
+A PRIMEIRA TENTATIVA FALHOU e vale registrar: texto solto no canto superior
+esquerdo, pequeno (16px). O Fábio: "aumentar a fonte, ninguém enxerga". Ao
+aumentar, o texto COBRIU a chamada nos layouts de bloco alto (.retfundo e L2 com
+headline de 7 linhas), porque nesses o conteúdo sobe até o topo. Texto solto não
+aguenta tamanho. Por isso virou FAIXA ESTRUTURAL: o conteúdo começa abaixo dela
+e não existe colisão possível.
+TRAVA NOVA: a headline se mede contra a faixa e ENCOLHE sozinha (até 8 passos de
+7%) até limpar. Sem isso, uma manchete comprida numa rodada autônoma de domingo
+cobriria a chamada e ninguém veria antes de publicar. Falhando, imprime
+"capa nao limpou a faixa de marca".
+REEL: passa a sair nas QUATRO faixas. Não existe mais faixa sem reel.
+BLINDAGEM JUNTO: reel que falhar NÃO derruba a rodada — carrossel e story ficam
+publicados, o log recebe "reel falhou", e a ordem passa a ser carrossel, story,
+reel por último. O reel é a peça mais frágil e agora está no fim da fila.
+BACKUP: machine.py.antes-da-faixa, nas duas pastas.
+DESCRITOR DA INTEGRAJUD: "INTELIGÊNCIA PERICIAL PARA ADVOCACIA" — a mesma linha
+do cabeçalho do site, não inventada aqui. A faixa vai com OPACIDADE 0.86, a
+pedido do Fábio, para a foto dele aparecer um pouco atrás. Não subir para 1.0
+nem descer de 0.80, que é onde o texto perde contraste. Esta operação passa a
+ter bloco "marca" no spec, que antes não tinha.
+A15 A A18 LIBERADAS (SIM do Fábio): família e sucessões, recuperação judicial e
+falência, administrativo e licitações, consumidor e superendividamento. Ele vai
+criar as páginas. TRAVA: cada uma tem a linha PÁGINA: no banco; enquanto disser
+"pendente", a área NÃO entra no rodízio. Criada a página, ele troca pelo
+endereço e a área entra sozinha.
+
+
+**19/08/2026 — GRAMÁTICA DE ANÚNCIO NA CAPA E NA OFERTA. Miolo intocado.**
+Pedido do Fábio, com as palavras dele: "gramática de anúncio, com informação
+documental no miolo". Ele mandou dois exemplos de peça comercial e perguntou
+se dava para aplicar considerando as paletas. Dava.
+O QUE ENTROU NA CAPA: a chamada e a tarja fundiram numa PÍLULA com gradiente e
+brilho — dois elementos soltos eram duas vozes, juntos viram selo de pauta.
+Rodapé novo com faixa de WhatsApp e tira de três provas. Campo "prova" no
+bloco marca.
+O QUE ENTROU NO SLIDE 5: a mesma tira de prova, a faixa de marca no topo, e o
+selo em tamanho reduzido DENTRO da faixa — em tamanho de capa ele cobria a
+ponte, defeito que existia e ninguém tinha visto.
+O QUE NÃO MUDOU, DE PROPÓSITO: slides 2, 3 e 4. É lá que mora a densidade que
+filtra. A capa para o dedo; o miolo convence. Encurtar o miolo para a peça
+ficar mais leve destrói o filtro — quem chega no slide 4 é do nicho.
+RUÍDO CORTADO: o exemplo tinha nove blocos na capa. Ficaram cinco. A 400
+pixels, que é o tamanho real no feed, o resto vira textura.
+AUTOAJUSTE AMPLIADO: a manchete agora se mede contra a faixa em cima E contra
+o rodapé embaixo, e encolhe até caber entre os dois. Sem isso, na primeira
+rodada autônoma o apoio passaria por baixo da faixa de WhatsApp — aconteceu no
+teste e foi assim que o problema apareceu.
+LIMITE HONESTO: o visual de anúncio nasce de fundo escuro. Nas paletas claras
+ele fica discreto — sem brilho, só borda e contraste. Não é defeito, é física.
+Se o Fábio quiser o impacto do exemplo em toda peça, as capas teriam de ficar
+só nas paletas escuras, e aí se perde metade da variação que evita monotonia.
+NÃO FEITO, E É O MAIOR GANHO QUE FALTA: a foto RECORTADA, com fundo removido,
+que existe nos exemplos dele. Isso não sai de CSS — precisa de um PNG com
+transparência. Com o arquivo na mão, posicionar é trivial.
+BACKUPS: machine.py.antes-da-faixa e machine.py.antes-do-anuncio.
+
+**19/08/2026 — NENHUMA SIGLA DE CONSELHO. Determinação do Fábio.**
+Ele mandou tirar menção a CRC. Aplicado nas duas marcas e ampliado para
+qualquer conselho: aqui saiu o "(CRA-SP)" que acompanhava Administrador na
+lista de credenciais. Não se escreve CRC, CRA, número de registro nem sigla de
+conselho em slide, legenda, tira de prova ou bio.
+A tira de prova desta marca não usava sigla — segue PERITO CONTÁBIL E
+FINANCEIRO · +200 MODALIDADES DE CÁLCULO · ATUAÇÃO EM TODO O BRASIL.
+Soma-se à regra de credencial jurídica gravada mais cedo hoje.
+
+**19/08/2026 — CAPAS DE DESTAQUE. O story parava de existir em 24h.**
+Todo story publicado sumia. Salvo num destaque por área, vira menu
+permanente no perfil. O material já era produzido todo dia e ia para o lixo.
+A Graph API NÃO cria destaque — não existe endpoint, confirmado. O que dava
+para automatizar era a arte: 23 capas, 14 na IntegraJud (P01 preto e ouro) e
+9 na GKFD (G04 noturno operacional), uma por área do site.
+Arquivos em capas-destaque.zip; o gerador é capas_destaque.py e roda de novo
+quando as quatro áreas novas da IntegraJud ganharem página.
+ERRO NO CAMINHO: usei hífen não separável para quebrar palavra longa e saiu
+"EMPRESA-RIAIS", "PREVIDEN-CIÁRIOS" na arte. Hífen não separável NÃO quebra
+linha, ele impede a quebra. Corrigido baixando a fonte de 96 para 74px e
+deixando a palavra inteira; PREVIDENCIÁRIOS virou PREVIDÊNCIA.
+O RESTO É NO APLICATIVO, uma vez por área: story da área > Destacar > nomear
+> Editar destaque > Editar capa > escolher o arquivo. Depois é só somar o
+story do dia ao destaque que já existe.
+
+**19/08/2026 — LINK COM ORIGEM, COMENTÁRIO, PRIMEIRA LINHA E ARTIGO.**
+Quatro buracos fechados de uma vez, todos de custo zero.
+LINKS.PY: as duas marcas usam o mesmo WhatsApp, então nenhum contato era
+rastreável. Agora o wa.me leva a mensagem já digitada com marca, formato e
+destino. Sem isso a mudança de capa de hoje seria imensurável — e era
+justamente o que ia acontecer.
+COMENTAR.PY: imagem de feed não clica, e a instrução proíbe "clique" e seta na
+arte por isso mesmo. Só que ninguém tinha reparado que a gente publicava sem
+deixar link em lugar NENHUM no Instagram. O primeiro comentário resolve.
+Fixar não tem endpoint — é no aplicativo, e só nas peças que engrenarem.
+PRIMEIRA LINHA DA LEGENDA: é a única que aparece no feed antes do "mais", e
+vinha sendo escrita como aquecimento. Regra nova: informação nova e concreta,
+escrita por último.
+ARTIGO.MD: o texto dos slides 2, 3 e 4 já é um artigo. Passa a ser gravado na
+pasta da peça. Quem busca no Google é 100% do nicho e o artigo não expira.
+
+**19/08/2026 — ALT TEXT E REVISITA DE ARQUIVO.**
+ALT: a API sempre aceitou alt_text e a gente nunca preencheu. Agora o
+publicar_instagram.py lê alt.txt (uma linha por slide) e manda junto. Backup
+em publicar_instagram.py.antes-do-alt.
+REVISITA: cada peça vivia 48h e morria. revisitar.py republica a capa da peça
+mais antiga ainda não revisitada como story, uma por dia, e marca em
+.revisitados.txt. Hoje há 25 peças de arquivo na IntegraJud e 5 na GKFD — um
+mês de story de graça sobre material já produzido e já revisado.
+O story vai para quem JÁ segue, que é o público mais qualificado que existe.
+LINKS.PY ganhou o formato "bio", para o link do perfil também ter origem.
+
+**19/08/2026 — PASTA LINKEDIN, substituindo o artigo.md.**
+O artigo.md ia nascer dentro da pasta de cada peça. O Fábio pediu pasta
+própria, e ele tem razão: uma pasta só, em ordem, sem caçar dentro de pasta
+datada. Fica em linkedin/AAAA-MM-DD-tema.md na raiz da marca.
+DECISÃO: um texto só, não dois. Post de LinkedIn e artigo de blog são formatos
+diferentes, e produzir os dois seria trabalho dobrado sobre o mesmo conteúdo.
+O texto sai no formato do LinkedIn e serve para blog com ajuste mínimo.
+MOTIVO DE FUNDO: hoje somamos seis itens à rotina. Cada rodada já faz
+carrossel, story, reel, duas legendas, alt, comentário, revisita e log. Existe
+um ponto em que a rodada fica longa e passa a pular etapa no fim da fila.
+Daqui pra frente, TROCAR em vez de empilhar.
+REGRA QUE SURPREENDE: sem link no corpo do post. Link externo derruba alcance
+no LinkedIn — vai no primeiro comentário, na mão.
+As quatro peças de 19/08 já foram escritas e estão na pasta.
+
+**19/08/2026 — LINKEDIN EM PARÁGRAFOS AGRUPADOS. Pedido do Fábio.**
+A primeira versão saiu espalhada, com linha em branco entre cada frase. Ele
+pediu agrupado e sem espaços. Regravado: blocos densos, cada um fechando uma
+ideia, separados por quebra simples. As listas viraram texto corrido.
+TEXTO JUSTIFICADO NÃO EXISTE no LinkedIn — a plataforma não tem formatação
+nenhuma, é texto puro alinhado à esquerda. Ele pediu, eu não consigo, e isso
+fica registrado para nenhuma sessão futura prometer.
+Também tirei o acento das hashtags: hashtag acentuada quebra a indexação lá.
+As quatro peças de 19/08 foram regravadas no formato novo.
+
+**19/08/2026 — LINKEDIN COM TÍTULO E LINK NO FIM. Requisito do Fábio.**
+Título em caixa alta na primeira linha, e o link do WhatsApp fechando o post,
+antes das hashtags. Ele decidiu assim e a decisão está tomada — não reabrir.
+RESSALVA, que fica registrada e não vira discussão a cada rodada: link no
+corpo derruba o alcance no LinkedIn, porque a plataforma não quer tirar gente
+de lá. O Fábio foi avisado e escolheu mesmo assim.
+O links.py ganhou o destino "linkedin" e o formato "post", então o contato
+que vier de lá chega identificado. As quatro peças de 19/08 foram regravadas.
+
+**20/08/2026 — LINK CURTO NO LINKEDIN.**
+A mensagem pré-preenchida inteira, codificada, virou uma URL de quatro linhas
+na caixa de publicação. Ficou feia e com cara de link suspeito — o Fábio
+mandou print. No LinkedIn o texto passa a ser só "Vim do LinkedIn - <tema>":
+cabe numa linha e continua rastreável. Nos outros destinos segue a frase longa,
+que lá não aparece para ninguém.
+O aviso do LinkedIn de que não conseguiu exibir pré-visualização é NORMAL:
+ele não gera cartão para link de WhatsApp com parâmetro. Não é erro.
+
+**20/08/2026 — LINKEDIN: LINK VAI NO COMENTÁRIO, NÃO NO POST.**
+O Fábio pediu o link no fim do post, viu na tela como ficava, e mudou de
+ideia. Decisão final: post limpo, link no primeiro comentário.
+O arquivo em linkedin/ passa a sair com DUAS partes separadas por uma linha de
+traços: o POST em cima, o COMENTÁRIO embaixo. Ele copia um, publica, copia o
+outro, comenta no próprio post. Pode fixar o comentário depois.
+DÚVIDA QUE ELE TEVE, e vale registrar: não se "transforma" o endereço em link
+no LinkedIn. Cola cru e ele vira clicável sozinho, desde que comece com
+https://. Link com texto embutido não existe naquela plataforma.
+
+**20/08/2026 — GRADE NOVA: 14h, 16h, 18h e 20h.**
+Definida pelo Fábio. Intercalada: 14h IntegraJud, 16h GKFD, 18h IntegraJud,
+20h GKFD. Reel nos quatro.
+FAIXAS com 1h45 de tolerância cada: 13h45–15h44 IJ, 15h45–17h44 GKFD,
+17h45–19h44 IJ, 19h45–22h00 GKFD. A grade anterior dava só 1h29 na faixa da
+tarde, e em 18/08 uma rodada atrasada quase saiu com a marca trocada.
+O PAINEL E AS FAIXAS TÊM DE MUDAR JUNTOS. Enquanto o Fábio não trocar os
+quatro horários no painel, as tarefas antigas (11h, 12h, 16h, 18h) vão acordar
+fora de faixa e PARAR sem produzir. Isso é proposital: parar é melhor do que
+publicar na marca errada.
+A manhã ficou vazia de propósito. Se um dia incomodar, a alternativa discutida
+foi 11-14-17-20, mesma quantidade com o dia mais espalhado.
+
+**20/08/2026 — A TABELA SAIU DO PAINEL. Lição cara.**
+A tabela de horários morava dentro do texto colado nas quatro tarefas. Quando
+a grade mudou, o arquivo no disco mudou e o painel continuou com a tabela
+velha — uma tarefa ainda mandava produzir SEM REEL, regra revogada horas
+antes. O Fábio percebeu; eu tinha dito a ele que não precisava mexer no texto,
+e estava errado.
+CAUSA: texto colado em painel CONGELA. Não recebe correção.
+CONSERTO ESTRUTURAL: a tabela virou RELOGIO.txt, idêntico nas duas pastas
+(precisa estar nas duas porque é lido ANTES de saber qual marca é). O texto do
+painel virou um apontador curto que não contém nenhuma regra que possa mudar.
+REGRA PERMANENTE: nada que muda mora no painel. O painel aponta; a verdade
+fica no disco.

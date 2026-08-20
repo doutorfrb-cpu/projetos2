@@ -1,0 +1,75 @@
+{
+ "slug": "integrajud_apelacao_indebito_tributario",
+ "outdir": "pc_18h",
+ "paleta": "P07",
+ "cenas": [
+  "doc:comparativo/envelhecido",
+  "guilhoche",
+  "pedra",
+  "doc:evolucao/copia",
+  "foto:px_33352856.jpg"
+ ],
+ "seeds": [
+  8101,
+  8102,
+  8103,
+  8104,
+  8105
+ ],
+ "overlay": [
+  ".965,.985,.995",
+  ".46,.62",
+  ".50,.78"
+ ],
+ "slides": [
+  {
+   "layout": "L6",
+   "chamada": "ANTES DE RECORRER",
+   "peca": "APELAÇÃO / CONTRARRAZÕES",
+   "headline": "A apelação sobe com a tese. <b>O número não subiu junto</b>",
+   "apoio": "Tribunal não reabre instrução. O que não foi apurado em primeiro grau sobe como alegação — e alegação não vira valor na liquidação."
+  },
+  {
+   "kicker": "Tributário · repetição de indébito",
+   "titulo": "A tese decide o direito. A memória decide o quanto",
+   "passos": [
+    "<em>Sentença de procedência sem valor é sentença ilíquida.</em> O direito à restituição fica reconhecido e o quantum vai para a liquidação, onde a Fazenda apresenta a conta dela primeiro. O prazo passa a correr sobre um número que não é o seu.",
+    "<em>O segundo grau não produz prova nova.</em> Perícia contábil requerida em apelação depende de a matéria ter sido suscitada antes. O que não entrou na inicial ou na réplica chega ao tribunal como tese, não como demonstração.",
+    "<em>Contrarrazões sem conta própria apenas negam.</em> Quando quem apela é a Fazenda, a resposta que repete a fundamentação da sentença deixa o cálculo do recorrente como o único número dos autos."
+   ],
+   "rodape": "Sobe demonstrado o que foi apurado. O resto sobe como argumento."
+  },
+  {
+   "kicker": "O que a apuração responde",
+   "titulo": "Quatro perguntas que a peça precisa levar respondidas",
+   "passos": [
+    "<em>Qual o período efetivamente recuperável.</em> Cinco anos contados de cada recolhimento, guia a guia. Prescrição aplicada por estimativa infla o pedido e derruba a parte boa junto.",
+    "<em>De onde sai a base de cada competência.</em> EFD-Contribuições, DCTF e as notas do período — nunca percentual aplicado sobre faturamento anual.",
+    "<em>Quanto já foi compensado.</em> Valor aproveitado em compensação não é indébito. Sem esse abatimento, a conta cobra duas vezes o mesmo crédito.",
+    "<em>Por qual índice o valor chega ao trânsito.</em> Selic desde o recolhimento, e não correção genérica. O índice sozinho responde por parte relevante do total."
+   ],
+   "rodape": "As quatro saem de obrigação acessória que a empresa já transmitiu."
+  },
+  {
+   "kicker": "Demonstração",
+   "titulo": "Mesma escrituração, dois critérios de exclusão do ICMS",
+   "passos": [
+    "<em>A base.</em> Receita bruta de R$ 12.000.000 no período. ICMS destacado nas notas: R$ 2.160.000. ICMS efetivamente recolhido, após créditos: R$ 840.000. PIS e COFINS somam 9,25%.",
+    "<em>Critério A — ICMS destacado.</em> 2.160.000 × 9,25% = <b>R$ 199.800,00</b> de indébito no período.",
+    "<em>Critério B — ICMS recolhido.</em> 840.000 × 9,25% = <b>R$ 77.700,00</b>. Entre um critério e outro, diferença de <b>R$ 122.100,00</b> sobre a mesma escrituração."
+   ],
+   "rodape": "Números de demonstração, não de caso real.",
+   "painel": true
+  },
+  {
+   "retrato": "sim",
+   "ponte": "O prazo do recurso é curto.<br>A memória que o sustenta cabe nele.",
+   "itens": [
+    "Memória do indébito, competência a competência",
+    "Parecer técnico para instruir apelação ou contrarrazões",
+    "Revisão da conta que a Fazenda apresenta na liquidação"
+   ],
+   "oferta": "Mande a apuração do período. Em até 24h úteis eu digo o que dá para demonstrar"
+  }
+ ]
+}

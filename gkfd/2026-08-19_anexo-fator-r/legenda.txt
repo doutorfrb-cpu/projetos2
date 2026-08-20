@@ -1,0 +1,27 @@
+Você paga anexo V com uma folha que já dá anexo III.
+
+O Fator R não é um cadastro que alguém preenche uma vez. É uma divisão: a folha dos últimos doze meses dividida pela receita bruta dos mesmos doze meses. Chegou a 28%, o serviço da operação é tributado pelo Anexo III. Ficou abaixo, vai para o Anexo V. E a janela de doze meses anda: todo mês entra um e sai outro.
+
+Antes disso, uma separação que quase nunca é feita direito. A venda de mercadoria fica no Anexo I e não muda de lugar por causa de folha nenhuma. O Fator R decide apenas a receita de SERVIÇO: instalação, montagem, assistência técnica, gestão de anúncio para terceiros. Quem faz as duas coisas tem duas receitas e dois anexos, e o PGDAS-D precisa saber disso.
+
+O que mais derruba o Fator R é a própria folha mal montada. Pró-labore não registrado, encargos fora da conta, FGTS esquecido. A empresa tem a folha que colocaria o serviço no Anexo III e declara uma folha menor do que a real.
+
+O outro lado é o crescimento: quem cresce em receita mais rápido do que em folha atravessa o corte de 28% num mês qualquer, e nada muda de aparência no painel. Não existe aviso. Existe uma razão que virou.
+
+A conta, com números de demonstração e não de caso real:
+
+Receita dos doze meses: R$ 1.200.000,00 nos dois cenários. Serviço no mês: R$ 40.000,00.
+Folha de R$ 312.000, sem o pró-labore: Fator R de 26,00%, Anexo V. 20,5% menos R$ 17.100, efetiva de 19,075%, DAS de R$ 7.630,00.
+Folha de R$ 348.000, com pró-labore e encargos: Fator R de 29,00%, Anexo III. 16% menos R$ 35.640, efetiva de 13,03%, DAS de R$ 5.212,00.
+Diferença: R$ 2.418,00 no mês, sobre exatamente a mesma receita de serviço.
+
+Não é economia prometida: é a mesma base sob dois critérios.
+
+Mande o PGDAS-D e a folha dos últimos doze meses. Em até 24h úteis eu digo em qual anexo o serviço deveria estar.
+
+GKFD Contábil — contabilidade no Simples Nacional para vendedor de marketplace.
+Fábio Rebouças — Contador · Mercado Líder Platinum
+
+https://wa.me/5511977237113
+
+#simplesnacional #fatorr #anexoiii #anexov #contabilidadeparaecommerce #vendedordemarketplace #mercadolivre #shopee #ecommercebrasil #contabilidadedigital #planejamentotributario #sellers

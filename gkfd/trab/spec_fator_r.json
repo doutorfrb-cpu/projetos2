@@ -1,0 +1,85 @@
+{
+  "slug": "gkfd_anexo_fator_r",
+  "outdir": "pc_gkfd4",
+  "paleta": "G04",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "credencial": "Contabilidade no Simples Nacional para vendedor de marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "cargo": "Contador",
+    "cta": "GKFD Contábil · atendimento nacional",
+    "site": "Fábio Rebouças — Contador",
+    "assinatura": "GKFD Contábil · Mercado Líder Platinum<br>Contabilidade no Simples Nacional para vendedor de marketplace",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o PGDAS-D e a folha dos últimos doze meses. Em até 24h úteis eu digo em qual anexo o serviço deveria estar",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "granito",
+    "linho",
+    "concreto",
+    "couro",
+    "duna"
+  ],
+  "seeds": [5501, 5502, 5503, 5504, 5505],
+  "overlay": [
+    ".26,.46,.68",
+    ".18,.34",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L5",
+      "chamada": "A FOLHA DECIDE O ANEXO",
+      "peca": "ANEXO E FATOR R",
+      "headline": "Você paga anexo V <b>com uma folha que já dá anexo III</b>",
+      "apoio": "Fator R é a folha dos últimos doze meses dividida pela receita dos mesmos doze meses. É ela que decide se o serviço da sua operação cai no Anexo III ou no Anexo V — e ela vira sozinha, sem aviso."
+    },
+    {
+      "kicker": "Marketplace · anexo e Fator R",
+      "titulo": "Quem vende produto e ainda presta serviço tem duas receitas e dois anexos",
+      "passos": [
+        "<em>A venda de produto não muda de anexo.</em> Mercadoria revendida fica no Anexo I, e nenhum cálculo de folha altera isso. O Fator R existe só para a receita de serviço: instalação, montagem, assistência técnica, gestão de anúncio para terceiros.",
+        "<em>O Fator R é uma razão, não um cadastro.</em> Folha dos últimos doze meses dividida pela receita bruta dos mesmos doze meses. Chegando a 28%, o serviço é tributado pelo Anexo III; abaixo disso, pelo Anexo V.",
+        "<em>Ele é móvel, e a tela não avisa quando vira.</em> Todo mês entra um e sai outro na janela de doze. Quem cresce em receita mais rápido do que em folha atravessa o corte de 28% sem que nada mude de aparência no painel."
+      ],
+      "rodape": "Uma parte da receita segue no Anexo I. A outra depende de uma divisão que se refaz todo mês."
+    },
+    {
+      "kicker": "O que a revisão de enquadramento abre",
+      "titulo": "Quatro perguntas que a folha e a receita respondem antes do DAS",
+      "passos": [
+        "<em>A folha do cálculo é a folha inteira?</em> Salário, pró-labore, FGTS e encargos entram. Pró-labore não registrado é a omissão que mais derruba o Fator R.",
+        "<em>A receita de serviço está separada da de produto?</em> Sem segregação por atividade no PGDAS-D, tudo vai para um anexo só, e costuma ser o mais caro dos dois.",
+        "<em>O CNAE descreve o que a empresa faz hoje?</em> A operação passou a prestar serviço pelo caminho e o cadastro ficou parado no que ela era quando abriu.",
+        "<em>Em que mês exatamente o Fator R virou?</em> A razão se refaz a cada apuração, e o mês em que ela cruzou os 28% define desde quando a base ficou errada."
+      ],
+      "rodape": "As quatro saem da folha dos doze meses cruzada com o PGDAS-D."
+    },
+    {
+      "kicker": "Demonstração aritmética",
+      "formato": "quadro",
+      "titulo": "A receita não muda. A folha muda, e o DAS muda junto",
+      "linhas": [
+        ["Receita 12 meses", "R$ 1.200.000,00 — idêntica nos dois cenários"],
+        ["Folha 12 meses", "Sem o pró-labore: R$ 312.000 · com ele e os encargos: R$ 348.000"],
+        ["Fator R", "312.000 ÷ 1.200.000 = 26,00% → Anexo V · corte em 28%"],
+        ["Fator R", "348.000 ÷ 1.200.000 = 29,00% → Anexo III"],
+        ["Serviço no mês", "R$ 40.000,00 nos dois cenários"],
+        ["Anexo V", "20,5% − R$ 17.100 → efetiva 19,075% → DAS R$ 7.630,00"],
+        ["Anexo III", "16% − R$ 35.640 → efetiva 13,03% → DAS R$ 5.212,00"],
+        ["A diferença", "R$ 2.418,00 no mês, sobre a mesma receita de serviço"]
+      ],
+      "rodape": "Números de demonstração, não de caso real. A venda de produto segue no Anexo I."
+    },
+    {
+      "ponte": "A folha decide<br>o anexo do serviço.",
+      "itens": [
+        "Fator R recalculado mês a mês, na janela móvel dos últimos doze meses",
+        "Receita de produto e receita de serviço segregadas por atividade no PGDAS-D",
+        "Simulação do DAS no Anexo III e no Anexo V, com memória de cálculo auditável"
+      ],
+      "oferta": "Mande o PGDAS-D e a folha dos últimos doze meses. Em até 24h úteis eu digo em qual anexo o serviço deveria estar"
+    }
+  ]
+}

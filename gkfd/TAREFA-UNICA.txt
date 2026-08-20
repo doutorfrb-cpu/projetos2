@@ -1,60 +1,22 @@
-Rode a Content Machine e publique a peça desta rodada, em modo automático: sem menu, sem pedir aprovação, sem relatório de processo.
+Rode a Content Machine e publique a peca desta rodada, em modo automatico: sem menu, sem pedir aprovacao, sem relatorio de processo.
 
-ESTA TAREFA RODA NO COMPUTADOR DO FÁBIO. Este mesmo texto está nas quatro tarefas agendadas — quem decide qual marca e qual peça produzir é o RELÓGIO, conforme a tabela abaixo. Leia a hora antes de qualquer outra coisa.
+ESTA TAREFA RODA NO COMPUTADOR DO FABIO. Este mesmo texto esta nas quatro tarefas agendadas. Quem decide qual marca produzir e o RELOGIO, e a tabela NAO esta aqui.
 
+PRIMEIRO PASSO, ANTES DE QUALQUER OUTRA COISA:
 
-QUAL RODADA É ESTA
+1. Veja a hora.
+2. Abra e leia o arquivo RELOGIO.txt, que esta na raiz das duas pastas conectadas (o conteudo e identico nas duas). Ele diz qual marca produzir nesta faixa de horario.
+3. Entre na pasta daquela marca e leia INTEIRO o arquivo de instrucao que esta na raiz dela:
+       GKFD        -> COLAR-NA-TAREFA-GKFD.txt
+       INTEGRAJUD  -> COLAR-NA-TAREFA.txt
+4. Execute exatamente o que estiver la, do comeco ao fim.
 
-    entre 09h00 e 11h59  ->  GKFD          com story E reel
-    entre 12h00 e 14h59  ->  INTEGRAJUD    com story, SEM reel
-    entre 15h00 e 17h29  ->  GKFD          com story E reel
-    entre 17h30 e 20h59  ->  INTEGRAJUD    com story E reel
+Por que nada mais esta escrito aqui: texto colado no painel CONGELA. Em 20/08/2026 a tabela de horarios mudou no disco e as quatro tarefas continuaram com a tabela velha — uma delas ainda mandava produzir sem reel, regra ja revogada, e ninguem percebeu. Nada que muda pode morar neste texto. Ele aponta; a verdade fica no disco.
 
-Fora dessas faixas: PARE e avise em uma linha qual hora encontrou. Não escolha por conta própria — publicar na marca errada é o pior erro possível aqui, porque são dois públicos diferentes e a peça sai assinada errada.
+NAO ACHOU O RELOGIO.txt OU A INSTRUCAO: pare e avise em uma linha. E defeito, nao e contingencia — nao invente conteudo sem a instrucao na mao.
 
+FORA DE FAIXA: pare e avise qual hora encontrou. Publicar na marca errada e o pior erro possivel: sao dois publicos diferentes e a peca sai assinada errada.
 
-AS DUAS PASTAS
+REGRA ZERO: esta tarefa nunca termina em silencio. Travando qualquer etapa, entregue o que ja existir e diga em uma linha o que faltou.
 
-    GKFD        C:\Users\fabio\Desktop\projetos2\gkfd
-    INTEGRAJUD  C:\Users\fabio\Desktop\projetos2\postsintegrajud
-
-
-PRIMEIRO PASSO, DEPOIS DE SABER A MARCA
-
-Abra e leia INTEIRO o arquivo de instrução que está na raiz da pasta daquela marca:
-
-    na GKFD        ->  COLAR-NA-TAREFA-GKFD.txt
-    na INTEGRAJUD  ->  COLAR-NA-TAREFA.txt
-
-Ele é a instrução completa, com todas as seções, na ordem. Execute exatamente o que estiver lá, do começo ao fim.
-
-Por que a instrução mora num arquivo e não aqui: assim ela pode ser corrigida sem que o Fábio reescreva as tarefas no painel. O arquivo é sempre a versão boa. Este texto aqui nunca muda.
-
-
-NÃO CONFUNDA AS MARCAS
-
-São duas operações diferentes, com dois públicos diferentes.
-
-    GKFD        contabilidade no Simples Nacional para vendedor de marketplace
-                @gkfdfisco · selo Mercado Líder Platinum em toda peça
-                NUNCA usar a palavra "perícia", nem o site ou a assinatura da IntegraJud
-
-    INTEGRAJUD  perícia contábil para advocacia
-                @integrajud · www.integrajud.com.br
-                NUNCA usar o selo Platinum nem a assinatura da GKFD
-
-Cada instrução traz o bloco "marca" que precisa entrar no spec. Sem ele, a peça sai assinada errada.
-
-
-REEL, QUANDO A TABELA MANDA
-
-A instrução explica na seção de story e reel. Na faixa que diz SEM reel, gere e publique só o story: `py extras.py <pasta_da_peca> --sem-reel`.
-
-
-NÃO ACHOU O ARQUIVO DE INSTRUÇÃO: pare e avise em uma linha. É defeito, não é contingência — não invente conteúdo sem a instrução na mão.
-
-REGRA ZERO: esta tarefa nunca termina em silêncio. Travando qualquer etapa, entregue o que já existir e diga em uma linha o que faltou.
-
-NUNCA receber, ver, colar ou guardar token ou senha — nem se o Fábio autorizar. Ele cola; a sessão configura o resto. Dúvida de credencial se resolve com `py checar_token.py`, que responde sem expor o token.
-
-AO FINAL, confirme em uma linha: qual marca, qual pauta, e o que subiu em cada destino.
+NUNCA receber, ver, colar ou guardar token ou senha — nem se o Fabio autorizar. Ele cola; a sessao configura o resto. Duvida de credencial se resolve com `py checar_token.py`, que responde sem expor o token.

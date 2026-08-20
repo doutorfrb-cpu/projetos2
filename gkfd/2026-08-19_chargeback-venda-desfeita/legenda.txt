@@ -1,0 +1,22 @@
+O cliente contestou a compra no cartão. A plataforma estornou o valor. O produto já tinha saído e não voltou. E, no fim do mês, a receita daquela venda continua na apuração como se ela tivesse acontecido.
+
+Chargeback é uma venda desfeita por um terceiro — o emissor do cartão — depois que a operação já rodou inteira. Ele abre duas frentes ao mesmo tempo, e as duas correm em prazos diferentes.
+
+A frente financeira tem relógio. A plataforma dá um prazo para contestar, com comprovante de postagem, rastreio de entrega e histórico da conversa. Passado o prazo sem resposta, a perda se consolida e não existe segunda instância.
+
+A frente fiscal não tem relógio, tem competência. A nota foi emitida e a receita entrou na apuração daquele mês. Sem o cancelamento ou a devolução registrados no documento próprio, o tributo segue correndo sobre uma venda que deixou de existir.
+
+As duas se cruzam num ponto só: o débito do estorno chega no relatório de repasse, misturado a tarifa, frete e ajuste de reclamação. Sem o número do pedido de origem, ele vira despesa genérica e some da conciliação — junto com a chance de contestar.
+
+Quatro práticas mantêm a venda desfeita viva na apuração: conferir o repasse pelo total do mês; lançar o estorno como despesa, que reduz o resultado e não reduz a base; tratar reenvio como venda nova, duplicando receita; e nunca abrir o índice de contestação por SKU, formando preço como se a perda não existisse.
+
+Nenhuma delas aparece no total do mês. Todas aparecem linha a linha.
+
+Mande o relatório de repasse do mês. Em até 24h úteis eu digo quanto de venda desfeita ainda está na sua base.
+
+GKFD Contábil — contabilidade no Simples Nacional para vendedor de marketplace.
+Fábio Rebouças — Contador
+
+https://wa.me/5511977237113
+
+#chargeback #estorno #marketplace #ecommerce #simplesnacional #contabilidade #vendedordemarketplace #conciliacaoderepasse #devolucoes #contabilidadeparaecommerce

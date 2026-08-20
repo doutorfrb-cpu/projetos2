@@ -36,6 +36,7 @@ de url_publica, presumindo que os arquivos já estão lá.
 
 import json
 import re
+import io
 import os
 import sys
 import time
@@ -201,12 +202,18 @@ def conferir_url(url):
 
 # ------------------------------------------------------------------- publicar
 
-def criar_filho(cfg, url):
-    return http_post(f"{API}/{cfg['ig_user_id']}/media", {
+def criar_filho(cfg, url, alt=""):
+    # TEXTO ALTERNATIVO — 19/08/2026. A API aceita alt_text e a gente nunca
+    # preencheu. Serve para leitor de tela e para a propria Meta entender do
+    # que a peca trata. Custa zero: o texto sai da headline do slide.
+    campos = {
         "image_url": url,
         "is_carousel_item": "true",
         "access_token": cfg["access_token"],
-    })["id"]
+    }
+    if alt:
+        campos["alt_text"] = alt[:990]
+    return http_post(f"{API}/{cfg['ig_user_id']}/media", campos)["id"]
 
 
 def criar_pai(cfg, filhos, legenda):
@@ -307,7 +314,15 @@ def main():
     log("todas as URLs respondem publicamente")
 
     try:
-        filhos = [criar_filho(cfg, u) for u in urls]
+        # O alt de cada slide sai do proprio arquivo alt.txt, uma linha por
+        # slide, se ele existir. Sem o arquivo, publica sem alt e nada quebra.
+        _altf = os.path.join(pasta, "alt.txt")
+        _alts = []
+        if os.path.exists(_altf):
+            _alts = [l.strip() for l in io.open(_altf, encoding="utf-8")
+                     if l.strip()]
+        filhos = [criar_filho(cfg, u, _alts[i] if i < len(_alts) else "")
+                  for i, u in enumerate(urls)]
         log(f"containers filhos criados: {len(filhos)}")
 
         pai = criar_pai(cfg, filhos, legenda)

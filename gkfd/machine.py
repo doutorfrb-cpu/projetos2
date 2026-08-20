@@ -397,6 +397,17 @@ def build(spec_path):
     # spec sem bloco "marca" continua saindo exatamente como saia antes.
     _m = spec.get("marca") or {}
     MK_ARROBA = _m.get("arroba", "@integrajud")
+    # FAIXA DE MARCA NA CAPA — 19/08/2026. Marcador de idempotencia:
+    # patch_faixa.py procura esta frase para nao aplicar duas vezes.
+    MK_DESC = _m.get("descritor", "")
+    # GRAMATICA DE ANUNCIO — 19/08/2026, pedido do Fabio: "gramatica de
+    # anuncio, com informacao documental no miolo". A capa e o slide de
+    # oferta param de ser pagina de revista e viram peca de campanha.
+    # Os slides 2, 3 e 4 NAO mudam: e la que mora a densidade que filtra.
+    # Dos nove blocos do exemplo que ele mandou, ficaram cinco. O resto
+    # vira ruido a 400 pixels, que e o tamanho real no feed.
+    MK_PROVA = _m.get("prova") or []
+    AD = bool(MK_DESC)
     MK_CRED = _m.get("credencial",
                      "Perícia, auditoria, cálculos judiciais e inteligência "
                      "de dados · atendimento nacional · mais de 200 "
@@ -427,6 +438,10 @@ def build(spec_path):
                 % (b64file(_sp), int(_m.get("selo_largura", 190))))
         else:
             print("  !! selo nao encontrado: %s" % _sp)
+    _desc_html = ('<span class="desc">%s</span>' % MK_DESC) if MK_DESC else ""
+    _bcls = " comdesc" if MK_DESC else ""
+    descw = 588 if _m.get("selo") else 880
+    faixa_op = float(_m.get("faixa_opacidade", 1.0))
     fundo, accent, texto, pname = PALETAS[spec["paleta"]]
     frgb, trgb = hexrgb(fundo), hexrgb(texto)
     dark = sum(frgb) / 3 < 128
@@ -483,6 +498,12 @@ def build(spec_path):
     peca_html = f'<div class="peca">{s[0]["peca"]}</div>' if s[0].get("peca") else ""
     if s[0].get("chamada"):
         peca_html = f'<div class="chamada">{s[0]["chamada"]}</div>' + peca_html
+    if AD and (s[0].get("peca") or s[0].get("chamada")):
+        # A chamada e a tarja viram UMA pilula: dois elementos soltos eram duas
+        # vozes; juntos viram selo de pauta, que e linguagem de anuncio.
+        _pa = f'<div class="pa">{s[0]["chamada"]}</div>' if s[0].get("chamada") else ""
+        _pb = f'<div class="pb">{s[0]["peca"]}</div>' if s[0].get("peca") else ""
+        peca_html = f'<div class="pauta">{_pa}{_pb}</div>' 
     cifra = s[0].get("cifra")          # {"valor": "R$ 63.977", "rotulo": "a diferenca"}
     cifra_html = ""
     if lay == "L4" and cifra:
@@ -532,11 +553,26 @@ def build(spec_path):
 
     espaco = "" if (lay in ("L3", "L6") or modo_ret == "fundo") else '<div style="margin-top:auto"></div>'
 
-    s1 = f"""<div class="s {lay}{ret_cls}" style="--h1:{h1size}px;{bgstyle(imgs[0], g1)}">
-<div class="accentbar"></div><div class="brand">{MK_ARROBA}</div>{_selo_html}
+    # RODAPE DE ANUNCIO: faixa de WhatsApp e tira de prova, na capa.
+    # Sao os dois blocos do exemplo do Fabio que sobrevivem no polegar.
+    ZAP = ('<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">'
+           '<path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.13h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.21-8.24 8.21Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.85.83-.85 2.03s.87 2.35.99 2.51c.12.16 1.71 2.61 4.14 3.66.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/>'
+           '</svg>')
+    _adcls = " ad" if AD else ""
+    rodape_ad = ""
+    if AD:
+        _pv = "".join("<div>%s</div>" % x for x in MK_PROVA[:3])
+        _pvh = ('<div class="provas">%s</div>' % _pv) if _pv else ""
+        rodape_ad = ('<div class="rodape-ad"><div class="zapbar">' + ZAP +
+                     '<div><div class="zt">Fale agora no WhatsApp</div>'
+                     '<div class="zn">' + MK_ZAP + '</div></div></div>' +
+                     _pvh + '</div>')
+    s1 = f"""<div class="s {lay}{ret_cls}{_bcls}{_adcls}" style="--h1:{h1size}px;{bgstyle(imgs[0], g1)}">
+<div class="{"topband" if MK_DESC else "accentbar"}"></div><div class="brand{_bcls}">{MK_ARROBA}{_desc_html}</div>{_selo_html}
 {espaco}
 {miolo}
 {espaco}
+{rodape_ad}
 {ret_html}
 <div class="prog"><i style="width:33.3%"></i></div></div>"""
 
@@ -579,12 +615,19 @@ def build(spec_path):
         _ret3.faixa(_ret3.carregar(), 330, H, escurecer=0.16).save(_p3)
         ret3 = f'<div class="retcontato"><img src="data:image/png;base64,{b64file(_p3)}"></div>'
 
-    ZAP = ('<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">'
-           '<path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.13h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.21-8.24 8.21Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.85.83-.85 2.03s.87 2.35.99 2.51c.12.16 1.71 2.61 4.14 3.66.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/>'
-           '</svg>')
+    # SELO NO SLIDE DE OFERTA: em tamanho de capa ele cobria a ponte.
+    # Na peca de anuncio ele vira insignia dentro da faixa de marca.
+    _selo5 = _selo_html
+    if AD and _selo_html:
+        _selo5 = _selo_html.replace("top:56px", "top:26px").replace(
+            "width:%dpx" % int(_m.get("selo_largura", 190)), "width:150px")
+    provas_s3 = ""
+    if AD and MK_PROVA:
+        provas_s3 = ('<div class="provas provas5">%s</div>'
+                     % "".join("<div>%s</div>" % x for x in MK_PROVA[:3]))
     cls3 = " temret3" if ret3 else ""
-    s3 = f"""<div class="s{cls3}" style="{bgstyle(imgs[-1], g3)}">
-<div class="accentbar"></div><div class="brand">{MK_ARROBA}</div>{_selo_html}
+    s3 = f"""<div class="s{cls3}{_bcls}{_adcls}" style="{bgstyle(imgs[-1], g3)}">
+<div class="{"topband" if MK_DESC else "accentbar"}"></div><div class="brand{_bcls}">{MK_ARROBA}{_desc_html}</div>{_selo5}
 <div style="margin-top:auto"></div>
 <h2>{s[-1]['ponte']}</h2>
 <div class="lista">{lst}</div>
@@ -594,9 +637,59 @@ def build(spec_path):
   <div class="faixa">{ZAP}<span>{MK_ZAP}</span></div>
   <div class="abaixo">{MK_CTA}<br><b>{MK_SITE}</b></div>
 </div>
+{provas_s3}
 <div class="prog"><i style="width:100%"></i></div></div>"""
 
     sheet = css(fundo, accent, texto, dark)
+    if AD:
+        _ar, _ag, _ab = hexrgb(accent)
+        _cta = "#12100a" if (_ar*.299 + _ag*.587 + _ab*.114) > 150 else "#FFFFFF"
+        _glow = ".42" if dark else ".22"
+        sheet += ("""
+.pauta{display:inline-flex;align-self:flex-start;flex-direction:column;gap:7px;
+ background:linear-gradient(135deg,%s,%s);border:2px solid %s;border-radius:16px;
+ padding:19px 34px 17px;margin-bottom:38px;
+ box-shadow:0 10px 34px rgba(0,0,0,%s),inset 0 1px 0 rgba(255,255,255,.28)}
+.pauta .pa{font-family:'Plus Jakarta Sans',sans-serif;font-size:25px;
+ letter-spacing:.16em;font-weight:800;color:%s;opacity:.82;text-transform:uppercase;line-height:1}
+.pauta .pb{font-family:'Plus Jakarta Sans',sans-serif;font-size:33px;
+ letter-spacing:.05em;font-weight:800;color:%s;text-transform:uppercase;line-height:1}
+.rodape-ad{position:absolute;left:84px;right:84px;bottom:96px;z-index:12}
+.zapbar{display:flex;align-items:center;gap:24px;background:%s;
+ border:2px solid %s;border-radius:18px;padding:20px 30px;
+ box-shadow:0 12px 40px rgba(0,0,0,%s)}
+.zapbar svg{width:60px;height:60px;fill:#25D366;flex:none}
+.zapbar .zt{font-family:'Plus Jakarta Sans',sans-serif;font-size:23px;letter-spacing:.11em;
+ font-weight:700;color:%s;text-transform:uppercase;line-height:1.25}
+.zapbar .zn{font-family:'Plus Jakarta Sans',sans-serif;font-size:45px;font-weight:800;
+ color:%s;line-height:1.06;letter-spacing:.01em}
+.provas{display:flex;margin-top:16px;border-top:2px solid %s;padding-top:14px;background:%s;border-radius:0 0 12px 12px}
+.provas div{flex:1;text-align:center;font-family:'Plus Jakarta Sans',sans-serif;
+ font-size:20px;letter-spacing:.09em;font-weight:700;color:%s;text-transform:uppercase;
+ border-right:1px solid %s;line-height:1.3;padding:0 8px}
+.provas div:last-child{border-right:none}
+.s.ad,.s.ad.retfundo,.s.comdesc.ad.retfundo{padding-bottom:344px!important}
+.provas5{position:absolute;left:84px;right:84px;bottom:92px;margin-top:0;z-index:12;border-radius:0}
+.s.ad.temret3,.s.ad:not(.L1):not(.L2):not(.L3):not(.L4):not(.L5):not(.L6){padding-bottom:200px!important}
+.s.ad h1{letter-spacing:-.022em}
+""" % (rgba(accent, .96), rgba(accent, .70), rgba(accent, .92), _glow,
+       _cta, _cta,
+       fundo, rgba(accent, .68), _glow,
+       rgba(texto, .68), texto,
+       rgba(accent, .38), fundo, rgba(texto, .60), rgba(texto, .20)))
+    if MK_DESC:
+        BH = 196
+        _fx = fundo if faixa_op >= .999 else rgba(fundo, faixa_op)
+        sheet += (".topband{position:absolute;top:0;left:0;right:0;height:%dpx;"
+            "background:%s;border-bottom:3px solid %s;z-index:8}"
+            ".brand.comdesc{top:40px;z-index:10;font-size:19px;letter-spacing:.26em}"
+            ".brand .desc{display:block;margin-top:13px;font-size:34px;"
+            "line-height:1.14;letter-spacing:.005em;font-weight:800;color:%s;"
+            "text-transform:uppercase;max-width:%dpx}"
+            ".s.comdesc{padding-top:%dpx}"
+            ".s.comdesc h1{font-size:calc(var(--h1,92px) * .88)}"
+            ".s.comdesc.retfundo{padding-bottom:96px}"
+            % (BH, _fx, accent, rgba(texto, .95), descw, BH + 44))
     with sync_playwright() as p:
         b = p.chromium.launch()
         pg = b.new_page(viewport={"width": W, "height": H}, device_scale_factor=1)
@@ -605,6 +698,15 @@ def build(spec_path):
                     f"<style>{sheet}</style></head><body>{body}</body></html>")
             pg.set_content(html, wait_until="load")
             pg.wait_for_timeout(350)
+            if i == 1 and MK_DESC:
+                for _ in range(8):
+                    topo = pg.evaluate("()=>{const s=document.querySelector('.s');let m=1e9;for(const c of s.children){if(c.classList.contains('topband')||c.classList.contains('brand')||c.classList.contains('selomarca')||c.classList.contains('prog'))continue;const r=c.getBoundingClientRect();if(r.height>2&&r.top<m)m=r.top}return m}")
+                    if topo > 210: break
+                    h1size = int(h1size * 0.93)
+                    pg.evaluate("(v)=>document.querySelector('.s').style.setProperty('--h1', v+'px')", h1size)
+                    pg.wait_for_timeout(120)
+                else:
+                    print("  !! %s capa nao limpou a faixa" % spec['slug'])
             pg.screenshot(path=os.path.join(out, f"{spec['slug']}_{i}.png"))
             o = pg.evaluate("()=>{const e=document.querySelector('.s');return {a:e.scrollHeight,b:e.clientHeight}}")
             if o["a"] > o["b"] + 1:

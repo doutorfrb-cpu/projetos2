@@ -1,0 +1,28 @@
+O anexo do seu serviço não está no cadastro. Está numa divisão.
+
+Fator R é a folha dos últimos doze meses dividida pela receita bruta dos mesmos doze meses. Se essa razão chega a 28%, a receita de serviço é tributada pelo Anexo III. Se fica abaixo, cai no Anexo V. E a janela de doze meses se refaz a cada apuração: todo mês entra um e sai outro.
+
+Duas observações que mudam a leitura da conta.
+
+A primeira: a venda de mercadoria não entra nessa discussão. Ela fica no Anexo I, e nenhum cálculo de folha altera isso. O Fator R decide apenas a receita de serviço — instalação, montagem, assistência técnica, gestão de anúncio para terceiros. Quem vende produto e ainda presta serviço tem duas receitas e dois anexos, e isso precisa estar segregado por atividade no PGDAS-D. Sem segregação, tudo vai para um anexo só, e costuma ser o mais caro dos dois.
+
+A segunda: quem derruba o Fator R, na maior parte dos casos, é a própria folha declarada. Pró-labore não registrado é a omissão mais comum, seguida dos encargos deixados de fora do cálculo. A empresa tem a folha que colocaria o serviço no Anexo III, e apura como se não tivesse.
+
+Há ainda o efeito do crescimento. Quem cresce em receita mais rápido do que em folha atravessa o corte de 28% num mês qualquer, sem que nada mude de aparência no painel. Não existe alerta. Existe uma razão que virou, e um mês a partir do qual a base ficou errada.
+
+A demonstração, com números que não são de caso real:
+
+Receita dos doze meses de R$ 1.200.000,00 e serviço de R$ 40.000,00 no mês, iguais nos dois cenários.
+
+Com folha de R$ 312.000, sem o pró-labore, o Fator R fica em 26,00% e o serviço vai para o Anexo V: alíquota de 20,5% menos a parcela a deduzir de R$ 17.100, alíquota efetiva de 19,075%, DAS de R$ 7.630,00.
+
+Com folha de R$ 348.000, já com o pró-labore e os encargos, o Fator R sobe para 29,00% e o serviço vai para o Anexo III: 16% menos R$ 35.640, alíquota efetiva de 13,03%, DAS de R$ 5.212,00.
+
+A diferença é de R$ 2.418,00 no mês, sobre exatamente a mesma receita. Não é promessa de economia — é a mesma base sob dois critérios, e a conta fecha.
+
+Se quiser conferir a sua: mande o PGDAS-D e a folha dos últimos doze meses. Em até 24h úteis eu digo em qual anexo o serviço deveria estar, com a memória de cálculo.
+
+Fale comigo no WhatsApp: https://wa.me/5511977237113
+
+GKFD Contábil — contabilidade no Simples Nacional para vendedor de marketplace.
+Fábio Rebouças — Contador · Mercado Líder Platinum
