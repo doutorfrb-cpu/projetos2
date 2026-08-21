@@ -504,3 +504,162 @@ CONSERTO ESTRUTURAL: a tabela virou RELOGIO.txt, idêntico nas duas pastas
 painel virou um apontador curto que não contém nenhuma regra que possa mudar.
 REGRA PERMANENTE: nada que muda mora no painel. O painel aponta; a verdade
 fica no disco.
+
+
+### Peça das 14h de 20/08 — primeira rodada da grade nova (14/16/18/20), marca definida pelo RELOGIO.txt
+2026-08-20 | 14h20 | 2 | A11 seguros | M2 peticao inicial | PETICAO INICIAL com pedido liquido | FALTA UM NUMERO AQUI | valor de reposicao x valor de mercado x valor contabil na base do prejuizo | pedido liquido vira teto do processo; a base do prejuizo e escolhida antes de alguem apurar | A INICIAL FIXOU O PREJUIZO. REPOSICAO, MERCADO OU VALOR CONTABIL? | L2 faixa (arranjo 8) | doc planilha/formulario (capa), gesso (2), vidro (3), doc apuracao/liso + painel (4), foto px_27872005 (5) | P05 VERDE PROFUNDO | /areas/seguros | modo demonstracao NAO (erro que se repete no slide 4) | retrato no slide 5 | FB 1164892873373934_122133749295355676 · IG 17861085651675367 | story IG+Pagina PUBLICADO · reel IG+Pagina PUBLICADO | primeiro comentario FALHOU (permissao de app)
+
+## Rodizio — estado atual (ATUALIZADO 20/08/2026 as 14h20; este bloco substitui o anterior)
+- RELOGIO.txt lido antes de tudo, as 14h01: faixa 13h45–15h44 = INTEGRAJUD com story E reel. A tabela veio do disco, nao do painel — foi para isso que o arquivo existe.
+- Eixos: sequencia recente 1 (12h/19), 4 (18h/19), 2 (14h/20). A proxima sai por 1, 3 ou 4 — nao por 2.
+- Pecas processuais: nova PETICAO INICIAL com pedido liquido. Restam sem uso: OBRIGACAO DE FAZER convertida, DISSOLUCAO PARCIAL.
+- Frases de efeito: ultimas cinco = falta um numero aqui / antes de recorrer / tem conta nessa peca? / antes de protocolar / quem fez essa conta. Nao repetir nenhuma na proxima. Seguem sem uso: A OUTRA PARTE JA JUNTOU, ANTES DE ASSINAR O ACORDO.
+- Layouts: ultimos tres = L1 (12h/19), L6 (18h/19), L2 (14h/20). Livres para a proxima: L3 (ver ressalva abaixo), L4, L5.
+- Paletas: ultimas quatro = P10, P08, P07, P05. Livres: P01, P02, P03, P04, P06, P09.
+- Pares area x momento novos: A11xM2. A11 seguros voltou depois de ~16 pecas, com momento novo (antes M6 laudo entregue).
+- Modo demonstracao: a de 18h/19 TEVE, esta NAO teve. A proxima sai COM demonstracao.
+- Banco de fotos REPOSTO nesta rodada, conforme a pendencia aberta em 19/08: estava em 16 livres, o minimo. 4 fotos novas do Pexels (px_17269117 mesa de trabalho com livro, px_27872005 escrivaninha de tampo curvo com papeis, px_36040441 mesa com maquina de somar e carimbo, px_8872366 mesa com papeis, moedas e maquina de escrever), conferidas uma a uma em folha de contato — so objeto e ambiente, nenhuma com pessoa ou mao. Descartadas na conferencia visual: 33883996, 8297220, 8872403, 8872447, 8872511 (pessoa). Descartada pelo proprio script: 18624674 (exigiria ampliar 1.48x). Banco passou de 55 para 59; livres de 16 para 20. px_27872005 entra na janela de 20 dias.
+- DEFEITO ENCONTRADO E CONTORNADO — L3 NAO SERVE MAIS PARA CAPA. O `.L3 .apoio` e absoluto em `bottom:120px`, e o rodape de anuncio (faixa de WhatsApp + tira de prova) ocupa exatamente essa faixa desde 19/08. A linha de apoio saiu POR BAIXO da faixa de WhatsApp, ilegivel, e o gerador NAO avisa — o autoajuste so mede a manchete, nao o apoio. Trocado para L2, que resolveu de primeira. Enquanto o `.L3 .apoio` nao virar fluxo normal ou nao subir para `bottom:300px`, nao usar L3 em capa com bloco de anuncio.
+- LICAO DO SLIDE 5 COM FAIXA DE MARCA (primeira vez que esta combinacao roda): com bloco "marca" o slide de oferta perde 384px de area util — o padding sobe de 96 para 240 no topo e de 104 para 200 embaixo, e ainda entra a tira de prova absoluta em `bottom:92px`. O texto do 19/08 (ponte de 2 linhas largas, itens de 2 linhas, credencial de 3 linhas) NAO cabe mais: transbordou 1377/1350 e depois, mesmo sem aviso, atropelou a tira de prova e cortou a linha "Analise gratuita do seu caso em". Medida pratica: ponte de 2 linhas curtas, os tres itens em UMA linha cada (ate ~40 caracteres) e credencial curta pelo campo `marca.credencial`. Com isso coube com folga. ATENCAO: aumentar `padding-bottom` NAO resolve, porque o bloco tem `margin-top:auto` e simplesmente transborda a area de padding — o que resolve e encurtar o texto.
+- LICAO DE OVERLAY (familia 'planilha', primeira medicao): planilha tambem tem celulas marcadas na cor de destaque e entra na lista dos .93+. Em P05 (escura), .955,.98,.99 ainda deixava numeros legiveis brigando com a manchete; virou textura em .975,.99,.995. A lista dos .96+ agora cobre planilha, comparativo, apuracao, extrato, evolucao, liquidacao e memoria — na pratica, todas as familias.
+- Sem aviso de transbordo em nenhum slide na renderizacao final. Legenda do Instagram fechada em 2185 caracteres (a primeira escrita saiu em 2505 e precisou de dois cortes). LinkedIn em 2186, dentro da faixa de 1.500 a 2.200.
+- Reel conferido quadro a quadro antes de publicar: saida trouxe as DUAS linhas de correcao, "cena(s) reduzida(s) para caber: [98]%" e "cortando 1.13s de preto do inicio". 17,9s, sem tela branca e sem texto cortado.
+- COMENTAR.PY FALHOU nos dois destinos, e e a unica coisa que nao saiu desta rodada: Instagram devolveu "(#10) Application does not have permission for this action" e Facebook "(#200) You do not have sufficient permissions to perform this action". Nao e token vencido — e escopo de app faltando (instagram_manage_comments e pages_manage_engagement). Nada foi desfeito, conforme a regra. PENDENCIA PARA O FABIO: liberar as permissoes no app da Meta, senao nenhuma peca vai ter link no Instagram.
+- REVISITA nao rodou de proposito: e uma vez por dia, na ULTIMA rodada da marca, e a IntegraJud ainda tem a rodada das 18h hoje.
+- MEMORIA DO PROJETO AUSENTE nesta sessao: registro_criativo.md, prompt_mestre_v3.md, operacao_cadencia.md e estado_rodizio.md nao existem em lugar nenhum da pasta. O rodizio foi montado so com este arquivo, que e a fonte primaria de qualquer jeito. Fica o registro de que o espelho na memoria nao esta disponivel.
+- LICAO DE AMBIENTE (setima confirmacao, sandbox Linux): playwright ausente de novo. `pip install playwright --break-system-packages` + `python3 -m playwright install chromium`, e o Chromium quebra por libXdamage.so.1. Resolvido em /tmp (gravavel, ao contrario da pasta montada): `apt-get download` das libs X/GTK com dependencia recursiva, `dpkg -x` para /tmp/pwroot e LD_LIBRARY_PATH apontando para la. ffmpeg ja existe. NOVIDADE DESTA SESSAO: a pasta montada NAO permite os.remove — machine.py, story_ad.py e reel.py terminam com PermissionError ao limpar os arquivos temporarios `_fundo*.png`, `_f.png` e `_reelbg*.png`. O erro e SO da limpeza: as artes ja sairam completas antes dele. Nao interromper a rodada por causa disso; os temporarios ficam para tras em _work/pc_14h e _work/kit_anuncios.
+- RESERVA LIBERADA na mao: `reservar.py --liberar` tambem morre no os.remove da pasta montada. Solucao sem risco: gravar `{"pauta": "", "em": 0}` por cima do pauta-em-producao.json, que o proprio script le como "nenhuma reserva viva". Confirmado com `--ver`.
+- SOBRA NA PASTA: _work_fb_tmp/ ficou para tras (descompactacao do fotos_banco_atualizado.zip) e nao pode ser apagada daqui, pela mesma restricao de os.remove. O Fabio pode apagar a mao; nao atrapalha nada.
+- CONFERIDO NO PERFIL depois de publicar: conta @integrajud (a certa, conferida pelo username antes de olhar o resto), media_count 69, 30 seguidores. Carrossel https://www.instagram.com/p/DcRSSmcn1qh/ e reel https://www.instagram.com/reel/DcRSmYWEocg/ , ambos com carimbo de 20/08 17h2x UTC = 14h2x de Brasilia.
+
+**20/08/2026 — FAIXA DE CHAMADA DE PÚBLICO NA CAPA.**
+Proposta do Fábio: "EI VOCÊ ADVOGADO" e "EI DONO DE MARKETPLACE".
+CORREÇÃO TÉCNICA: "dono de marketplace" é o Mercado Livre. Ele é VENDEDOR no
+marketplace. Vendedor lê "dono de marketplace" e sente que quem escreveu não é
+do meio — e ser do meio é a maior força da GKFD. Ficou SELLER, palavra que ele
+mesmo escolheu e que o público usa.
+REGISTRO POR MARCA: GKFD ficou "EI SELLER", informal, que casa com laranja e
+com o mundo do vendedor. IntegraJud ficou "ADVOGADO:" seco — o "EI" briga com
+o preto e ouro e com autoridade técnica, que é o que aquele comprador paga.
+Foram renderizadas as quatro versões e o Fábio comparou olhando.
+FEITO EM TEXTO, NÃO EM IMAGEM: acompanha a paleta de cada peça. Sticker PNG
+ficaria sempre da mesma cor e brigaria com metade das peças.
+DEFEITO CORRIGIDO NO CAMINHO: com a faixa, o bloco central afundava no layout
+de retrato ao fundo, porque ele é ancorado no rodapé. Passou a começar logo
+abaixo da faixa. O autoajuste agora mede topo E base.
+CUSTO ACEITO: a faixa come 74px e a manchete encolhe para caber. E por ser
+fixa, cansa o seguidor antigo em uma ou duas semanas — ela trabalha para o
+desconhecido.
+
+**20/08/2026 — O SLIDE INTERNO PASSA A SE MEDIR SOZINHO. Reincidencia.**
+O slide 3 da peca das 16h (DRE POR CANAL) saiu publicado com a barra de
+progresso atravessando a segunda linha do rodape.
+MESMO DEFEITO DE 19/08. Naquele dia a "correcao" foi escrever na instrucao
+"conferir o rodape OLHANDO, sempre". Falhou no dia seguinte. Fica a licao:
+REGRA QUE DEPENDE DE ALGUEM OLHAR NAO E REGRA. Se pode ser medido, tem de ser
+medido pelo codigo.
+CAUSA TECNICA: o medidor comparava scrollHeight com clientHeight. A barra e
+absoluta, fora do fluxo — o slide cabia pela conta e saia riscado. Sobreposicao
+nao e transbordo, e o medidor so sabia medir transbordo.
+CONSERTO: cada slide interno mede o fundo do conteudo contra o topo da barra e
+encolhe passo, fonte, espacamento e titulo em ate 9 passos de 6%. Testado com
+um rodape MAIOR que o que falhou: coube a 94%.
+AVISO NOVO no console: ".. slide N encolhido para X%" — encolher e rede, nao
+licenca. Abaixo de 90% a peca perde presenca e o texto devia ser cortado.
+A peca de hoje fica como esta; nao se apaga post publicado.
+
+### Peça das 18h de 20/08 — segunda rodada IntegraJud da grade nova, marca definida pelo RELOGIO.txt
+2026-08-20 | 18h21 | 1 | A13 agrarios | M7 sentenca e liquidacao | CUMPRIMENTO DE OBRIGACAO DE FAZER convertido em perdas e danos | A OUTRA PARTE JA JUNTOU | CPR/barter: preco de referencia e data de leitura na conversao em perdas e danos | convertida a obrigacao, preco, data e volume saem da planilha de quem cobra | A ENTREGA VIROU DINHEIRO. A DATA DO PRECO NINGUEM DISCUTIU | L4 cifra R$ 64.500 (arranjo 6) | doc evolucao/liso (capa), madeira (2), marmore (3), doc comparativo/formulario + painel (4), foto px_36040441 (5) | P09 MARINHO E PRATA | /areas/agrarios | modo demonstracao SIM (3.000 sacas; 30/04 a R$ 128,00 = R$ 384.000,00; 30/09 a R$ 149,50 = R$ 448.500,00; diferenca R$ 64.500,00) | retrato no slide 5 | FB 1164892873373934_122133789309355676 · IG 17902591674487763 | story IG+Pagina PUBLICADO · reel IG+Pagina PUBLICADO | primeiro comentario FALHOU de novo (permissao de app) | revisita PUBLICADA (2026-08-15_apuracao-haveres)
+
+## Rodizio — estado atual (ATUALIZADO 20/08/2026 as 18h21; este bloco substitui o anterior)
+- RELOGIO.txt lido antes de tudo, as 18h09: faixa 17h45–19h44 = INTEGRAJUD com story E reel. Tabela veio do disco, painel so apontou.
+- Eixos: sequencia recente 4 (18h/19), 2 (14h/20), 1 (18h/20). A proxima sai por 2, 3 ou 4 — nao por 1.
+- Pecas processuais: nova CUMPRIMENTO DE OBRIGACAO DE FAZER convertido em perdas e danos. Resta UMA sem uso em 28: DISSOLUCAO PARCIAL E APURACAO DE HAVERES. Esgotada essa, o rodizio da peca passa a ser por reciclagem — nao repetir a mesma peca em menos de 8 publicacoes.
+- Frases de efeito: ultimas cinco = antes de recorrer / tem conta nessa peca? / antes de protocolar / falta um numero aqui / a outra parte ja juntou. Nao repetir nenhuma na proxima. Segue sem uso: ANTES DE ASSINAR O ACORDO.
+- Layouts: ultimos tres = L6 (18h/19), L2 (14h/20), L4 (18h/20). Livres para a proxima: L1, L5 e L3 — este ultimo SO fora de capa, pela ressalva abaixo, que continua valendo.
+- Paletas: ultimas quatro = P08, P07, P05, P09. Livres: P01, P02, P03, P04, P06, P10.
+- Pares area x momento novos: A13xM7. A13 agrarios voltou depois de ~45 pecas, com momento novo (antes so M1). Continua sendo a area mais antiga do log junto com A2, A3, A6, A9, A10 e A14.
+- Modo demonstracao: a de 14h/20 NAO teve, esta TEVE. A proxima sai SEM demonstracao.
+- Areas A15 a A18 seguem com PAGINA: pendente no banco e continuam FORA do rodizio. Nao foram usadas.
+- Banco de fotos conferido no inicio da rodada: 59 fotos, 19 livres, acima do minimo de 16. Nao precisou repor. px_36040441 entra na janela de 20 dias.
+- DEFEITO REAL ENCONTRADO E CORRIGIDO NO CODIGO — o autoajuste novo dos slides internos quebrava o slide 5. O machine.py de 20/08 as 16h38 (o que traz o medidor contra a barra de progresso) roda o autoajuste em TODO slide com i>1, e o slide de oferta tem `.prog`. So que o retrato do slide 5 (`div.retcontato`) e filho direto de `.s`, encostado no rodape, e entrava na medicao do ponto mais baixo do conteudo. Resultado: o slide NUNCA fechava a conta, imprimia "nao coube acima da barra" e encolhia a ponte ate 57% — sem nada estar transbordando de verdade. Primeira renderizacao desta peca saiu assim.
+  CONSERTO: `retcontato` e `provas` entraram na lista de exclusao do medidor, ao lado de prog, brand, topband, accentbar e selomarca — sao elementos posicionados fora do fluxo do texto, iguais aos outros. Aplicado nos TRES arquivos: postsintegrajud/machine.py, postsintegrajud/_work/machine.py e gkfd/machine.py, porque o defeito e o mesmo codigo nas duas marcas. Depois do conserto: slide 5 a 100%, nenhum aviso.
+  LICAO: o medidor de 20/08 nasceu certo na ideia (medir em vez de olhar) e errado na lista de exclusao. Toda vez que entrar elemento absoluto novo no slide, ele precisa entrar tambem nessa lista, senao o autoajuste luta contra a decoracao.
+- Slide 3 encolheu para 94% mesmo depois de o rodape ser cortado para uma linha. Fica registrado: a densidade dos quatro passos e que pesa, nao o rodape. 94% esta acima do piso de 90% e a peca saiu com presenca. Na proxima peca de quatro passos longos, cortar uma linha de passo antes de renderizar.
+- L3 EM CAPA continua PROIBIDO — a ressalva de 20/08 as 14h20 segue valendo: `.L3 .apoio` e absoluto em `bottom:120px` e some por baixo da faixa de WhatsApp do rodape de anuncio, sem aviso nenhum.
+- L4 COM FAIXA DE PUBLICO, primeira vez: a cifra grande + chamada + tarja + headline de 3 linhas + rodape de anuncio couberam sem aviso de "capa nao limpou". O L4 aguenta headline de 3 linhas porque reduz a h1 para 74% — e o unico layout livre, alem do L1, que aguenta.
+- Legenda do Instagram fechada em 2191 caracteres. ATENCAO PARA AS PROXIMAS SESSOES: o teto do Instagram e 2.200 e a primeira escrita saiu em 2.656 — precisou de tres cortes. LinkedIn em 2.175, dentro da faixa de 1.500 a 2.200 (a primeira saiu em 2.614). Escrever ja mirando o teto economiza uma volta.
+- Reel conferido quadro a quadro em folha de contato antes de publicar, como manda a instrucao: 19,3s, 1080x1920, sem tela branca no inicio, sem texto cortado. A saida trouxe "cortando 1.13s de preto do inicio"; NAO trouxe "cena(s) reduzida(s) para caber", e nesse caso estava certo — a conferencia visual confirmou que nenhuma cena precisou encolher.
+- COMENTAR.PY FALHOU DE NOVO, mesma causa da rodada das 14h: Instagram "(#10) Application does not have permission for this action" e Facebook "(#200) You do not have sufficient permissions". Nao e token — o checar_token.py responde PAGE, NAO EXPIRA. E escopo de app faltando: instagram_manage_comments e pages_manage_engagement. SEGUNDA OCORRENCIA NO MESMO DIA. PENDENCIA DO FABIO, e ela agora custa toda peca: sem esses escopos nenhum post do Instagram sai com link em lugar nenhum, porque imagem de feed nao clica.
+- REVISITA RODADA nesta peca, por ser a ULTIMA rodada da IntegraJud no dia: republicou a capa de 2026-08-15_apuracao-haveres como story (id 18135669238589325). Marcada no .revisitados.txt, nao repete.
+- MEMORIA DO PROJETO AUSENTE de novo: registro_criativo.md, prompt_mestre_v3.md, operacao_cadencia.md e estado_rodizio.md nao existem em lugar nenhum da pasta. Segunda sessao seguida sem eles. O rodizio foi montado so com este arquivo, que e a fonte primaria de qualquer jeito — mas o espelho continua indisponivel e ninguem esta gravando nele.
+- LICAO DE AMBIENTE (oitava confirmacao, sandbox Linux): playwright ausente de novo. `pip install playwright --break-system-packages` + `python3 -m playwright install chromium`, e o Chromium quebra por libXdamage.so.1. Resolvido em /tmp: `apt-get download libxdamage1`, `dpkg -x` para /tmp/pwroot e LD_LIBRARY_PATH=/tmp/pwroot/usr/lib/x86_64-linux-gnu. ffmpeg ja existe. A pasta montada continua sem permitir os.remove: machine.py, story_ad.py e reel.py terminam com PermissionError ao limpar `_fundo*.png`, `_f.png` e `_reelbg*.png`. E SO da limpeza — as artes ja sairam completas. Nao interromper a rodada por causa disso.
+- RESERVA LIBERADA na mao, pelo mesmo motivo: `reservar.py --liberar` morre no os.remove. Gravado `{"pauta": "", "em": 0}` por cima do pauta-em-producao.json, que o proprio script le como nenhuma reserva viva. Confirmado com `--ver`.
+- CONFERIDO NO PERFIL depois de publicar: conta @integrajud (username conferido antes do resto), media_count 71 — eram 69 as 14h20, subiu 2 (carrossel + reel) —, 31 seguidores. Carrossel https://www.instagram.com/p/DcRt5WDH1QF/ com carimbo 20/08 21h21 UTC = 18h21 de Brasilia.
+
+**20/08/2026 — MEDIDOR VIRA REGRA, E A PASTA _work FOI NEUTRALIZADA.**
+
+O MEDIDOR. Em um unico dia a lista de nomes de classe falhou duas vezes, nas
+duas direcoes opostas: faltou a barra de progresso e o slide 3 saiu RISCADO e
+publicado; depois faltaram o retrato e a tira de prova e o slide 5 ENCOLHEU a
+57% sem nada estar sobrepondo. Os dois defeitos tem a mesma raiz — a lista nao
+sabe o que ela nao conhece.
+AGORA E REGRA: o medidor pergunta a posicao do elemento. Absolute ou fixed
+esta fora do fluxo, nao empurra texto, nao entra na medida. Vale para a capa e
+para os internos, nas duas marcas. Nenhuma classList.contains sobrou no
+medidor — conferido, zero ocorrencias.
+TESTADO: slide genuinamente estourado ainda encolhe (94%); peca normal de 5
+slides nao encolhe nada, e o falso aviso na capa da IntegraJud sumiu.
+Backup: machine.py.antes-da-regra.
+
+A PASTA _work. Descoberta hoje: postsintegrajud/_work era uma copia de
+trabalho inteira, criada por sessoes que rodam em sandbox Linux (a pasta
+montada nao permite apagar temporario). Ninguem a referencia.
+O PERIGO ERA O LOG: ela tinha um pautas-publicadas.md DESATUALIZADO — 59
+linhas contra 60 da raiz, faltando a rodada das 18h. Sessao que lesse o log
+errado repetiria tema achando que nunca tinha rodado.
+NEUTRALIZADA: o log de la virou _LIXO-log-antigo-NAO-USAR.md e a pasta ganhou
+um LEIA-ME-NAO-USE.txt explicando. Nao deu para apagar — a pasta montada nao
+permite. O Fabio pode apagar a pasta inteira quando quiser; nada depende dela.
+LICAO: copia de arquivo de estado (log, config, banco) e bomba-relogio. Copia
+de codigo diverge e da erro visivel; copia de ESTADO diverge em silencio.
+
+**21/08/2026 — AS DUAS PASTAS VIRARAM AUTOSSUFICIENTES. Susto evitado.**
+
+Em 20/08 eu disse ao Fabio que a pasta _work era descartavel e que ele podia
+apagar. ERRADO, e perigoso: as cinco FONTES do gerador, o BANCO DE 59 FOTOS,
+o retrato.py e o repor_fotos.py existiam SOMENTE dentro dela. Apagar teria
+quebrado a producao das duas marcas — e o erro so apareceria numa rodada de
+madrugada, calado.
+Descoberto porque o teste manual no Windows falhou com FileNotFoundError
+procurando a fonte playfair-display. O teste que parecia burocracia achou
+uma bomba.
+
+CONSERTADO: fontes (104 woff2), fotos_banco (59 fotos), retrato.py e
+repor_fotos.py copiados para a raiz das DUAS marcas. Checagem item por item
+passou nas duas: gerador, publicadores, links, comentar, revisitar, capas,
+RELOGIO, config, selo.
+
+EXISTEM DUAS PASTAS DE RASCUNHO, nao uma: postsintegrajud/_work e gkfd/trab.
+As duas ganharam LEIA-ME-NAO-USE.txt explicando o que aconteceu.
+AGORA sim podem ser apagadas — mas a regra que fica e: antes de apagar
+qualquer pasta de rascunho, CONFERIR se fontes, fotos e .py estao na raiz.
+
+LICAO GERAL, e e a mesma da copia de log: pasta de rascunho acumula
+dependencia sem ninguem decidir isso. O codigo foi copiado para a raiz varias
+vezes; os ATIVOS (fonte, foto) ficaram para tras porque ninguem pensa neles.
+
+AMBIENTE WINDOWS, para o plano do Agendador de Tarefas: o Python do Windows
+agora renderiza sozinho. Instalados playwright 1.62, numpy 2.5.2, pillow 12.3
+e chromium no Python314.
+ARMADILHA REGISTRADA: NAO use `py script.py` no Windows. O `py` e um lancador
+que le o shebang do arquivo e escolhe OUTRO Python, sem as bibliotecas. Use
+sempre o caminho completo:
+    C:\Users\fabio\AppData\Local\Programs\Python\Python314\python.exe
+
+TESTE DO MEDIDOR NOVO: rodou na peca real de 20/08 da GKFD. Slides 3 e 4
+encolheram para 94% e o rodape de duas linhas passou folgado acima da barra —
+exatamente o caso que saiu riscado no dia anterior. Nenhum falso alarme.
+OBSERVAR: 94% duas vezes na mesma peca indica que o texto vem sistematicamente
+maior que o layout comporta. Se virar rotina, apertar a regra de tamanho em
+vez de depender do encolhimento — letra menor que as vizinhas custa presenca.

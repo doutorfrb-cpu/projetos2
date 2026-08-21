@@ -1,0 +1,17 @@
+Dois canais, o mesmo produto, o mesmo preço. Um deles fatura mais e sobra menos — e o balancete do mês não conta isso.
+
+Abrir a segunda plataforma soma receita no mesmo dia. O custo chega escalonado: comissão de outra categoria, frete subsidiado pelo vendedor em uma e pelo comprador na outra, verba de anúncio maior para aparecer, tarifa de fulfillment, logística reversa e um índice de devolução próprio. O mesmo SKU, anunciado pelo mesmo valor, chega ao caixa por dois líquidos diferentes.
+
+No consolidado essa diferença desaparece. Receita num grupo, comissões noutro, frete num terceiro: o canal caro e o canal barato somam. O resultado do mês está correto e não diz onde colocar estoque e verba no mês seguinte.
+
+O que separa um resultado consolidado de um resultado por canal são quatro coisas: receita líquida apurada por plataforma, do repasse ao banco e pedido a pedido; cada custo alocado ao canal que o gerou, em vez de rateado por faturamento; margem de contribuição por SKU dentro de cada canal; e o peso do imposto sobre a sobra de cada um.
+
+Uma demonstração, com números de demonstração e não de caso real. Mesmo produto a R$ 150,00, custo de R$ 78,00 nos dois canais. O canal A vendeu 200 unidades: R$ 30.000 de receita e R$ 7.800 de sobra, 26%. O canal B vendeu 300: R$ 45.000 de receita e R$ 5.400 de sobra, 12%. O canal B faturou R$ 15.000 a mais e deixou R$ 2.400 a menos. No consolidado, os dois viram R$ 75.000 de receita e R$ 13.200 de sobra, sem dizer de onde veio.
+
+Enquanto a decisão for tomada pelo faturamento, ela favorece o canal que mais consome caixa.
+
+Mande o relatório de repasse dos seus canais. Em até 24h úteis eu digo qual deles está sustentando o outro:
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Facebook%20sobre%20DRE%20por%20canal%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.
+
+GKFD Contábil — contabilidade especializada em e-commerce e marketplace.
+Fábio Rebouças — Contador

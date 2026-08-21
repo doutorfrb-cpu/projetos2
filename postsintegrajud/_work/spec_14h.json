@@ -1,0 +1,86 @@
+{
+ "slug": "integrajud_peticao_inicial_base_indenizacao",
+ "outdir": "pc_14h",
+ "paleta": "P05",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia, auditoria e cálculos judiciais · atendimento nacional"
+ },
+ "cenas": [
+  "doc:planilha/formulario",
+  "gesso",
+  "vidro",
+  "doc:apuracao/liso",
+  "foto:px_27872005.jpg"
+ ],
+ "seeds": [
+  2141,
+  2142,
+  2143,
+  2144,
+  2145
+ ],
+ "overlay": [
+  ".975,.99,.995",
+  ".46,.62",
+  ".50,.78"
+ ],
+ "slides": [
+  {
+   "layout": "L2",
+   "chamada": "FALTA UM NÚMERO AQUI",
+   "peca": "PETIÇÃO INICIAL",
+   "headline": "A inicial fixou o prejuízo. <b>Reposição, mercado ou valor contábil?</b>",
+   "apoio": "Pedido líquido vira teto. Sem memória, o valor foi fixado antes de saber qual base a apólice impõe."
+  },
+  {
+   "kicker": "Seguros · base da indenização",
+   "titulo": "Três valores diferentes para o mesmo bem",
+   "passos": [
+    "<em>Valor de reposição.</em> Quanto custa repor o bem por outro de mesma espécie e qualidade, em preço da praça na data do sinistro. É a base das apólices contratadas a valor de novo, e não desconta idade.",
+    "<em>Valor de mercado.</em> Quanto o bem usado valia naquela data, já reduzido por idade, uso e estado de conservação. É a base mais frequente em apólice de valor de mercado referenciado.",
+    "<em>Valor contábil.</em> Custo de aquisição menos depreciação acumulada, no critério fiscal do ativo imobilizado. Serve ao balanço, e quase nunca ao prejuízo: a taxa de depreciação contábil é convenção, não medida de perda."
+   ],
+   "rodape": "A apólice escolhe uma delas. A inicial precisa dizer qual, e mostrar a conta."
+  },
+  {
+   "kicker": "O que a apuração responde",
+   "titulo": "Quatro perguntas antes de liquidar o pedido",
+   "passos": [
+    "<em>Qual cláusula fixa a base.</em> Valor de novo, valor de mercado referenciado ou primeiro risco absoluto. Cada uma leva a um número diferente sobre o mesmo sinistro.",
+    "<em>Qual a data de referência.</em> Preço da praça no dia do sinistro, no aviso ou no encerramento da regulação. Entre um marco e outro corre correção, e ela não é detalhe.",
+    "<em>Sobre qual base incide a franquia.</em> Valor apurado antes ou depois da depreciação, e se ela é dedutível ou simples. A ordem das operações muda o líquido.",
+    "<em>O que foi feito dos salvados.</em> Havendo, entram por valor de realização demonstrado, com nota ou laudo de venda. Estimativa lançada como abatimento reduz o pedido sem prova."
+   ],
+   "rodape": "As quatro se respondem com a apólice, o relatório de regulação e a nota do bem."
+  },
+  {
+   "kicker": "O erro que se repete",
+   "titulo": "A depreciação aplicada onde a apólice não previu",
+   "passos": [
+    "<em>Onde ele aparece no documento.</em> No relatório de regulação, procure a linha do valor de novo e a linha do valor indenizável. A diferença entre as duas é depreciação — e ela costuma entrar sem rubrica própria, diluída em um percentual de ajuste.",
+    "<em>O que conferir na apólice.</em> A cláusula de base de indenização. Contratado o valor de novo, não há previsão para reduzir por idade do bem; a redução ali é critério do regulador, não do contrato.",
+    "<em>O que isso muda no processo.</em> A base do pedido. Quem copia o valor indenizável do relatório para a inicial pede o número da seguradora, já com o desconto dela dentro — e passa a discutir acima do próprio pedido."
+   ],
+   "rodape": "A conta do regulador não é a conta do contrato. Só a memória mostra onde as duas se separam.",
+   "painel": true
+  },
+  {
+   "retrato": "sim",
+   "ponte": "O pedido é o teto.<br>A base cabe em uma memória.",
+   "itens": [
+    "Apuração do prejuízo na base da apólice",
+    "Parecer crítico sobre a regulação",
+    "Memória de cálculo do pedido líquido"
+   ],
+   "oferta": "Mande o relatório de regulação. Em até 24h úteis eu respondo"
+  }
+ ]
+}

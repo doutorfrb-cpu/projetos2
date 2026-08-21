@@ -1,0 +1,5 @@
+Capa sobre extravio e avaria no fulfillment: mercadoria que some no galpão da plataforma e é ressarcida por valor menor que o custo do vendedor.
+Slide sobre estoque em poder de terceiro: mandar a mercadoria para o fulfillment não tira o estoque do balanço do vendedor, muda apenas o endereço da contagem física.
+Slide com quatro perguntas do fechamento: quantas unidades o galpão reconhece, como cada perda foi classificada, se o ressarcimento pago bate com o devido e se o indenizado saiu do estoque.
+Slide sobre o erro que se repete: a perda vira ajuste de inventário lançado como custo e o reembolso por extravio é escriturado como receita de venda, errando o CMV e a base do imposto.
+Slide de oferta da GKFD Contábil: auditoria de inventário do fulfillment contra nota de remessa e venda, com memória de cálculo auditável e contato por WhatsApp.

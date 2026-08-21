@@ -1,0 +1,114 @@
+{
+  "slug": "gkfd_dre_por_canal",
+  "outdir": "pc_gkfd6",
+  "paleta": "G01",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil — contabilidade especializada em e-commerce e marketplace<br>Fábio Rebouças — Contador · Mercado Líder Platinum",
+    "cargo": "Contador",
+    "cta": "GKFD Contábil · atendimento nacional",
+    "site": "Fábio Rebouças — Contador",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório de repasse dos seus canais. Em até 24h úteis eu digo qual deles está sustentando o outro",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "concreto",
+    "linho",
+    "gesso",
+    "couro",
+    "duna"
+  ],
+  "seeds": [
+    6701,
+    6702,
+    6703,
+    6704,
+    6705
+  ],
+  "overlay": [
+    ".30,.52,.74",
+    ".18,.34",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L1",
+      "chamada": "FATURA MAIS, SOBRA MENOS",
+      "peca": "DRE POR CANAL",
+      "headline": "Abriu o segundo canal, o faturamento subiu <b>e a sobra caiu</b>",
+      "apoio": "Cada plataforma cobra de um jeito: comissão diferente, frete subsidiado diferente, verba de anúncio diferente. Somados num balancete só, os dois canais viram um número — e esse número não diz qual dos dois está pagando a conta do outro."
+    },
+    {
+      "kicker": "Marketplace · resultado por canal",
+      "titulo": "Faturamento é volume. Sobra é o que resta da equação do canal",
+      "passos": [
+        "<em>O preço é o mesmo; o custo de vender, não.</em> O mesmo SKU, pelo mesmo valor em duas plataformas, chega ao caixa por dois líquidos: a comissão muda por categoria e por faixa de preço, o frete é subsidiado pelo vendedor em uma e pelo comprador na outra, e a verba de anúncio não é igual nas duas.",
+        "<em>O balancete único apaga essa diferença.</em> Receita num grupo, comissões noutro, frete num terceiro: no consolidado, o canal caro e o canal barato somam. O resultado do mês está correto e não diz onde colocar estoque e verba.",
+        "<em>Faturamento cresce mais rápido que margem.</em> Abrir canal soma receita no mesmo dia e custo escalonado: tarifa, devolução, reversa e ADS chegam depois. Por semanas o painel mostra crescimento, e o banco ainda não mostrou o preço dele."
+      ],
+      "rodape": "Resultado consolidado não é resultado por canal."
+    },
+    {
+      "kicker": "O que a inteligência de margem abre",
+      "titulo": "Quatro perguntas que o fechamento responde",
+      "passos": [
+        "<em>Qual é a receita líquida de cada canal?</em> Não o valor anunciado: o creditado, depois de comissão, tarifa fixa, frete por conta do vendedor e ajuste, pedido a pedido.",
+        "<em>Cada custo está no canal que o gerou?</em> ADS, fulfillment, embalagem e reversa nascem em um canal. Rateados por faturamento, transferem custo do canal caro para o barato.",
+        "<em>Qual a margem por SKU em cada canal?</em> O mesmo produto sustenta a operação em uma plataforma e consome caixa em outra, e a média do mês esconde os dois.",
+        "<em>O imposto está por canal?</em> A receita entra na mesma apuração, mas o peso do tributo sobre cada sobra é diferente, porque o que sobra antes dele é diferente."
+      ],
+      "rodape": "As quatro saem do repasse de cada plataforma, cruzado com nota e estoque."
+    },
+    {
+      "kicker": "Demonstração · mesmo produto, mesmo preço",
+      "titulo": "O canal que faturou 50% a mais devolveu R$ 2.400 a menos de sobra",
+      "formato": "quadro",
+      "linhas": [
+        [
+          "Preço unitário e CMV",
+          "R$ 150,00 de venda e R$ 78,00 de custo, iguais nos dois canais"
+        ],
+        [
+          "Canal A · 200 unidades",
+          "Receita R$ 30.000 · CMV R$ 15.600 · comissão 12% R$ 3.600 · frete por conta do comprador · ADS 2% R$ 600 · imposto 8% R$ 2.400"
+        ],
+        [
+          "Sobra do canal A",
+          "R$ 7.800 — 26% da receita"
+        ],
+        [
+          "Canal B · 300 unidades",
+          "Receita R$ 45.000 · CMV R$ 23.400 · comissão 16% R$ 7.200 · frete subsidiado R$ 9/un R$ 2.700 · ADS 6% R$ 2.700 · imposto 8% R$ 3.600"
+        ],
+        [
+          "Sobra do canal B",
+          "R$ 5.400 — 12% da receita"
+        ],
+        [
+          "A diferença",
+          "B faturou R$ 15.000 a mais e deixou R$ 2.400 a menos. No consolidado, some: R$ 75.000 de receita e R$ 13.200 de sobra, sem dizer de onde veio"
+        ]
+      ],
+      "rodape": "Números de demonstração, não de caso real."
+    },
+    {
+      "ponte": "Cada canal<br>com o próprio<br>resultado.",
+      "itens": [
+        "Receita líquida apurada por plataforma, do repasse ao banco, pedido a pedido",
+        "Comissão, frete, ADS e reversa alocados ao canal que gerou cada um",
+        "Margem de contribuição por SKU dentro de cada canal, com memória de cálculo auditável"
+      ],
+      "oferta": "Mande o relatório de repasse dos seus canais. Em até 24h úteis eu digo qual deles está sustentando o outro"
+    }
+  ]
+}

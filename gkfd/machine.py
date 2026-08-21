@@ -397,8 +397,6 @@ def build(spec_path):
     # spec sem bloco "marca" continua saindo exatamente como saia antes.
     _m = spec.get("marca") or {}
     MK_ARROBA = _m.get("arroba", "@integrajud")
-    # FAIXA DE MARCA NA CAPA — 19/08/2026. Marcador de idempotencia:
-    # patch_faixa.py procura esta frase para nao aplicar duas vezes.
     MK_DESC = _m.get("descritor", "")
     # GRAMATICA DE ANUNCIO — 19/08/2026, pedido do Fabio: "gramatica de
     # anuncio, com informacao documental no miolo". A capa e o slide de
@@ -407,6 +405,7 @@ def build(spec_path):
     # Dos nove blocos do exemplo que ele mandou, ficaram cinco. O resto
     # vira ruido a 400 pixels, que e o tamanho real no feed.
     MK_PROVA = _m.get("prova") or []
+    MK_PUBLICO = _m.get("chamada_publico", "")
     AD = bool(MK_DESC)
     MK_CRED = _m.get("credencial",
                      "Perícia, auditoria, cálculos judiciais e inteligência "
@@ -558,7 +557,8 @@ def build(spec_path):
     ZAP = ('<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">'
            '<path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.13h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.21-8.24 8.21Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.85.83-.85 2.03s.87 2.35.99 2.51c.12.16 1.71 2.61 4.14 3.66.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/>'
            '</svg>')
-    _adcls = " ad" if AD else ""
+    _adcls = (" ad" if AD else "") + (" compub" if MK_PUBLICO else "")
+    pub_html = ('<div class="publico">%s</div>' % MK_PUBLICO) if MK_PUBLICO else ""
     rodape_ad = ""
     if AD:
         _pv = "".join("<div>%s</div>" % x for x in MK_PROVA[:3])
@@ -568,7 +568,7 @@ def build(spec_path):
                      '<div class="zn">' + MK_ZAP + '</div></div></div>' +
                      _pvh + '</div>')
     s1 = f"""<div class="s {lay}{ret_cls}{_bcls}{_adcls}" style="--h1:{h1size}px;{bgstyle(imgs[0], g1)}">
-<div class="{"topband" if MK_DESC else "accentbar"}"></div><div class="brand{_bcls}">{MK_ARROBA}{_desc_html}</div>{_selo_html}
+<div class="{"topband" if MK_DESC else "accentbar"}"></div><div class="brand{_bcls}">{MK_ARROBA}{_desc_html}</div>{pub_html}{_selo_html}
 {espaco}
 {miolo}
 {espaco}
@@ -616,7 +616,6 @@ def build(spec_path):
         ret3 = f'<div class="retcontato"><img src="data:image/png;base64,{b64file(_p3)}"></div>'
 
     # SELO NO SLIDE DE OFERTA: em tamanho de capa ele cobria a ponte.
-    # Na peca de anuncio ele vira insignia dentro da faixa de marca.
     _selo5 = _selo_html
     if AD and _selo_html:
         _selo5 = _selo_html.replace("top:56px", "top:26px").replace(
@@ -626,7 +625,7 @@ def build(spec_path):
         provas_s3 = ('<div class="provas provas5">%s</div>'
                      % "".join("<div>%s</div>" % x for x in MK_PROVA[:3]))
     cls3 = " temret3" if ret3 else ""
-    s3 = f"""<div class="s{cls3}{_bcls}{_adcls}" style="{bgstyle(imgs[-1], g3)}">
+    s3 = f"""<div class="s{cls3}{_bcls}{" ad" if AD else ""}" style="{bgstyle(imgs[-1], g3)}">
 <div class="{"topband" if MK_DESC else "accentbar"}"></div><div class="brand{_bcls}">{MK_ARROBA}{_desc_html}</div>{_selo5}
 <div style="margin-top:auto"></div>
 <h2>{s[-1]['ponte']}</h2>
@@ -663,14 +662,12 @@ def build(spec_path):
  font-weight:700;color:%s;text-transform:uppercase;line-height:1.25}
 .zapbar .zn{font-family:'Plus Jakarta Sans',sans-serif;font-size:45px;font-weight:800;
  color:%s;line-height:1.06;letter-spacing:.01em}
-.provas{display:flex;margin-top:16px;border-top:2px solid %s;padding-top:14px;background:%s;border-radius:0 0 12px 12px}
+.provas{display:flex;margin-top:16px;border-top:2px solid %s;padding-top:14px;background:%s}
 .provas div{flex:1;text-align:center;font-family:'Plus Jakarta Sans',sans-serif;
  font-size:20px;letter-spacing:.09em;font-weight:700;color:%s;text-transform:uppercase;
  border-right:1px solid %s;line-height:1.3;padding:0 8px}
 .provas div:last-child{border-right:none}
-.s.ad,.s.ad.retfundo,.s.comdesc.ad.retfundo{padding-bottom:344px!important}
-.provas5{position:absolute;left:84px;right:84px;bottom:92px;margin-top:0;z-index:12;border-radius:0}
-.s.ad.temret3,.s.ad:not(.L1):not(.L2):not(.L3):not(.L4):not(.L5):not(.L6){padding-bottom:200px!important}
+.s.ad,.s.ad.retfundo,.s.comdesc.ad.retfundo,.s.compub{padding-bottom:352px!important}
 .s.ad h1{letter-spacing:-.022em}
 """ % (rgba(accent, .96), rgba(accent, .70), rgba(accent, .92), _glow,
        _cta, _cta,
@@ -689,7 +686,18 @@ def build(spec_path):
             ".s.comdesc{padding-top:%dpx}"
             ".s.comdesc h1{font-size:calc(var(--h1,92px) * .88)}"
             ".s.comdesc.retfundo{padding-bottom:96px}"
-            % (BH, _fx, accent, rgba(texto, .95), descw, BH + 44))
+            ".publico{position:absolute;top:199px;left:0;right:0;height:74px;"
+            "background:%s;display:flex;align-items:center;padding-left:84px;"
+            "font-family:'Plus Jakarta Sans',sans-serif;font-size:36px;"
+            "font-weight:800;letter-spacing:.13em;color:%s;text-transform:uppercase;"
+            "z-index:9;box-shadow:0 8px 26px rgba(0,0,0,.35)}"
+            ".s.compub{padding-top:306px}"
+            ".s.compub.retfundo{justify-content:flex-start}"
+            ".s.compub .bloco{margin-top:0}"
+            ".provas5{position:absolute;left:84px;right:84px;bottom:92px;margin-top:0;z-index:12;border-radius:0}"
+            ".s.ad.temret3{padding-bottom:200px!important}"
+            % (BH, _fx, accent, rgba(texto, .95), descw, BH + 44,
+               accent, _cta))
     with sync_playwright() as p:
         b = p.chromium.launch()
         pg = b.new_page(viewport={"width": W, "height": H}, device_scale_factor=1)
@@ -698,12 +706,85 @@ def build(spec_path):
                     f"<style>{sheet}</style></head><body>{body}</body></html>")
             pg.set_content(html, wait_until="load")
             pg.wait_for_timeout(350)
+            # AUTOAJUSTE DOS SLIDES INTERNOS — 20/08/2026.
+            # A barra de progresso e posicionada por cima, fora do fluxo. O
+            # medidor de transbordo compara altura de conteudo com altura da
+            # caixa e NAO enxerga sobreposicao: o slide "cabia" e mesmo assim
+            # saia com o rodape riscado. Aconteceu em 19/08 e de novo em 20/08.
+            # A regra escrita na epoca foi "conferir olhando" — e regra que
+            # depende de alguem olhar nao e regra. Agora o slide se mede contra
+            # a barra e encolhe sozinho ate passar acima dela.
+            if i > 1:
+                _k = 1.0
+                for _ in range(9):
+                    _ov = pg.evaluate(
+                        "()=>{const s=document.querySelector('.s');"
+                        "const pr=s.querySelector('.prog');"
+                        "if(!pr)return -999;"
+                        "const lim=pr.getBoundingClientRect().top-14;"
+                        "let low=-1e9;"
+                        "for(const c of s.children){"
+                        # REGRA, NAO LISTA — 20/08/2026. Isto era uma lista de
+                        # nomes de classe e falhou DUAS VEZES no mesmo dia:
+                        # primeiro esqueci a barra de progresso, depois o
+                        # retrato e a tira de prova. Lista esquece; regra nao.
+                        # Elemento fora do fluxo nao empurra texto nenhum,
+                        # entao nao entra na medida — qualquer que seja o nome.
+                        "const st=getComputedStyle(c);"
+                        "if(st.position==='absolute'||st.position==='fixed')continue;"
+                        "if(st.display==='none'||st.visibility==='hidden')continue;"
+                        "const r=c.getBoundingClientRect();"
+                        "if(r.height>2&&r.bottom>low)low=r.bottom}"
+                        "return low-lim}")
+                    if _ov <= 0:
+                        break
+                    _k *= 0.94
+                    pg.evaluate(
+                        "(k)=>{let e=document.getElementById('fitint');"
+                        "if(!e){e=document.createElement('style');e.id='fitint';"
+                        "document.head.appendChild(e)}"
+                        "e.textContent='.s .steps{gap:'+(40*k).toFixed(1)+'px;margin-top:'"
+                        "+(48*k).toFixed(1)+'px}"
+                        ".s .st p{font-size:'+(33*k).toFixed(1)+'px}"
+                        ".s .st{gap:'+(24*k).toFixed(1)+'px}"
+                        ".s .st .n{width:'+(60*k).toFixed(1)+'px;height:'+(60*k).toFixed(1)"
+                        "+'px;font-size:'+(26*k).toFixed(1)+'px}"
+                        ".s .rodape{font-size:'+(30*k).toFixed(1)+'px}"
+                        ".s .qrow div{font-size:'+(26*k).toFixed(1)+'px}"
+                        ".s .qrow{padding:'+(22*k).toFixed(1)+'px 0}"
+                        ".s h2{font-size:'+(62*k).toFixed(1)+'px}'}", _k)
+                    pg.wait_for_timeout(110)
+                else:
+                    print("  !! %s slide %d nao coube acima da barra" % (spec['slug'], i))
+                if _k < 0.999:
+                    print("  .. %s slide %d encolhido para %d%%"
+                          % (spec['slug'], i, round(_k * 100)))
             if i == 1 and MK_DESC:
                 for _ in range(8):
-                    topo = pg.evaluate("()=>{const s=document.querySelector('.s');let m=1e9;for(const c of s.children){if(c.classList.contains('topband')||c.classList.contains('brand')||c.classList.contains('selomarca')||c.classList.contains('prog'))continue;const r=c.getBoundingClientRect();if(r.height>2&&r.top<m)m=r.top}return m}")
-                    if topo > 210: break
+                    m = pg.evaluate("()=>{const s=document.querySelector('.s');"
+                        "let t=1e9,b=-1;for(const c of s.children){"
+                        # MESMA REGRA NA CAPA — 20/08/2026. Aqui a lista de nomes
+                        # estava fazendo o oposto do defeito dos internos: ela
+                        # ate excluia certo, mas bastava criar um elemento novo
+                        # posicionado por cima para a capa passar a encolher
+                        # manchete a toa, sem nada estar sobrepondo.
+                        "const st=getComputedStyle(c);"
+                        "if(st.position==='absolute'||st.position==='fixed')continue;"
+                        "if(st.display==='none'||st.visibility==='hidden')continue;"
+                        "const r=c.getBoundingClientRect();if(r.height>2){"
+                        "if(r.top<t)t=r.top; if(r.bottom>b)b=r.bottom}}"
+                        "return {t:t,b:b}}")
+                    limite_topo = 296 if MK_PUBLICO else 210
+                    limite_base = 1350 - 352
+                    if m["t"] > limite_topo and m["b"] < limite_base: break
                     h1size = int(h1size * 0.93)
-                    pg.evaluate("(v)=>document.querySelector('.s').style.setProperty('--h1', v+'px')", h1size)
+                    pg.evaluate("(v)=>document.querySelector('.s')"
+                                ".style.setProperty('--h1', v+'px')", h1size)
+                    # o apoio nao depende do --h1 e sozinho ja estoura o rodape
+                    pg.evaluate("()=>{for(const a of document.querySelectorAll('.apoio')){"
+                                "const s=getComputedStyle(a);"
+                                "a.style.fontSize=(parseFloat(s.fontSize)*0.94)+'px';"
+                                "a.style.lineHeight='1.34'}}")
                     pg.wait_for_timeout(120)
                 else:
                     print("  !! %s capa nao limpou a faixa" % spec['slug'])

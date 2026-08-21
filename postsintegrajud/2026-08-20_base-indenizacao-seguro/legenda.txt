@@ -1,0 +1,28 @@
+O mesmo bem sinistrado tem três valores possíveis, e o pedido líquido só pode carregar um deles.
+
+Reposição é quanto custa repor o bem por outro de mesma espécie e qualidade, em preço da praça na data do sinistro, sem desconto de idade. Mercado é quanto o bem usado valia naquela data, já reduzido por uso e conservação. Contábil é custo de aquisição menos depreciação acumulada, critério fiscal do imobilizado, que serve ao balanço e quase nunca mede a perda.
+
+A apólice escolhe uma delas. A inicial precisa dizer qual, e mostrar a conta — pedido líquido é teto, e o juízo não concede acima dele.
+
+Quatro perguntas antes de liquidar o pedido:
+
+1. Qual cláusula fixa a base — valor de novo, valor de mercado referenciado ou primeiro risco absoluto.
+
+2. Qual a data de referência do preço — dia do sinistro, aviso ou encerramento da regulação. Entre um marco e outro corre correção.
+
+3. Sobre qual base incide a franquia — antes ou depois da depreciação, dedutível ou simples. A ordem das operações muda o líquido.
+
+4. O que foi feito dos salvados — entram por valor de realização demonstrado, com nota ou laudo de venda, nunca por estimativa.
+
+O erro que se repete tem endereço no documento: no relatório de regulação, compare a linha do valor de novo com a linha do valor indenizável. A diferença entre as duas é depreciação, e ela costuma entrar sem rubrica própria, diluída em um percentual de ajuste. Se a apólice contratou valor de novo, essa redução é critério do regulador, não do contrato.
+
+Quem copia o valor indenizável do relatório para a inicial pede o número da seguradora, com o desconto dela dentro.
+
+Mande o relatório de regulação. Em até 24h úteis eu digo se a base está demonstrada.
+Solicite a análise técnica inicial gratuita em www.integrajud.com.br/areas/seguros
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20IntegraJud%20no%20Instagram%20sobre%20base%20da%20indenizacao%20no%20seguro%20e%20queria%20falar%20sobre%20o%20c%C3%A1lculo%20do%20meu%20processo.
+
+Fábio Rebouças — Contador e Perito Contábil
+IntegraJud · Inteligência pericial para advocacia
+
+#periciacontabil #direitosecuritario #seguros #regulacaodesinistro #pedidoliquido #calculojudicial

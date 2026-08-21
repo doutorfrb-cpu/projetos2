@@ -459,3 +459,69 @@ VALEM AS MESMAS PROIBICOES da arte e da legenda: nada de promessa de resultado,
 percentual de exito, comparacao com outro profissional, preco, caso
 identificavel, credencial juridica ou sigla de conselho. Numero de demonstracao
 sempre rotulado como tal.
+
+
+CHAMADA DE PUBLICO NA CAPA — 20/08/2026, proposta do Fabio.
+Campo novo, OBRIGATORIO no bloco "marca":
+
+    "chamada_publico": "ADVOGADO:"
+
+Vira uma FAIXA cheia, largura inteira, na cor de destaque, logo abaixo da
+faixa de marca. So na CAPA — nunca nos slides internos.
+E FIXA: nao invente variacao, nao troque por peca. A frase e sempre essa.
+
+POR QUE: nomear o leitor faz ele parar, e filtra — quem nao e do ramo passa
+direto. Cada marca no registro do proprio comprador: a GKFD informal, com a
+palavra que o vendedor usa para se descrever; a IntegraJud seca, porque o
+advogado compra autoridade e "EI" derruba o tom caro da peca.
+
+CUSTO CONHECIDO: a faixa come 74px e empurra o conteudo. A manchete encolhe
+sozinha para caber — o autoajuste ja mede contra a faixa em cima E contra o
+rodape embaixo. Havendo aviso "capa nao limpou", encurte a headline.
+
+E ELA CANSA: sendo fixa, o seguidor antigo para de ve-la em uma ou duas
+semanas. Ela trabalha para quem ainda nao conhece a marca, nao para quem ja
+segue. Isso e esperado e nao e defeito.
+
+
+TRANSBORDO DOS SLIDES INTERNOS — corrigido no CODIGO em 20/08/2026.
+
+NAO EXISTE MAIS a regra "conferir o rodape olhando". Ela estava escrita desde
+19/08 e falhou de novo em 20/08: o slide 3 da peca das 16h saiu com a barra de
+progresso atravessando a segunda linha do rodape, publicado. Regra que depende
+de alguem olhar nao e regra.
+
+AGORA O SLIDE SE MEDE E ENCOLHE SOZINHO. Cada slide interno compara o fundo do
+seu conteudo com o topo da barra de progresso e reduz passo, fonte, espacamento
+e titulo em ate 9 passos de 6% ate passar acima dela.
+
+POR QUE O MEDIDOR ANTIGO NAO PEGAVA: ele compara altura do conteudo com altura
+da caixa. A barra e posicionada por cima, FORA do fluxo — entao o slide "cabia"
+pela conta e mesmo assim saia riscado. Sobreposicao nao e transbordo.
+
+O QUE ISSO NAO DISPENSA: se aparecer no console
+      .. <slug> slide N encolhido para 86%
+o texto ESTA grande demais. Encolher e rede de seguranca, nao licenca para
+escrever sem limite — abaixo de 90% a peca comeca a perder presenca ao lado das
+outras do carrossel. Aparecendo isso, encurte o passo mais longo ou o rodape.
+E se aparecer "nao coube acima da barra", ai e defeito real: corte texto.
+
+REFERENCIA DE TAMANHO que costuma caber a 100%: quatro passos de ate 4 linhas
+cada, titulo de 2 linhas e rodape de 1 linha. Rodape de 2 linhas ja aperta.
+
+
+MEDIDOR POR REGRA — 20/08/2026, e vale entender o principio.
+
+O medidor que impede texto riscado NAO usa mais lista de nomes de classe.
+Ele pergunta a posicao do elemento: quem esta fora do fluxo (absolute ou
+fixed) nao empurra texto nenhum e por isso nao entra na medida.
+
+POR QUE MUDOU: a lista falhou DUAS VEZES no mesmo dia. Primeiro faltava a
+barra de progresso e o slide 3 saiu riscado, publicado. Depois faltavam o
+retrato e a tira de prova, e o slide 5 encolheu a 57% sem nada sobrepondo.
+Lista esquece o proximo elemento que alguem criar. Regra nao esquece.
+
+CONSEQUENCIA PRATICA para quem escreve peca: nada muda no seu trabalho. Mas
+se aparecer no console
+      .. <slug> slide N encolhido para X%
+agora e verdade — nao e mais falso alarme. Abaixo de 90%, corte texto.

@@ -43,6 +43,14 @@ PALETAS = {
     "P08": ("#E6E4DF", "#7A6320", "#191919"),
     "P09": ("#10141F", "#B9BFC8", "#F0F2F5"),
     "P10": ("#EDE6D8", "#8C6E1F", "#171310"),
+    # GKFD — 18/08/2026. Espelha os G0x do machine.py. Sem eles aqui, todo
+    # fundo de documento gerado quebrava com KeyError na peca da GKFD.
+    "G01": ("#F4F6F8", "#0B63CE", "#0E1720"),
+    "G02": ("#FFFFFF", "#127A4B", "#101915"),
+    "G03": ("#F7F4EE", "#B4531A", "#1A1410"),
+    "G04": ("#101B26", "#4FA3F7", "#EAF2FA"),
+    "G05": ("#F2F3F5", "#5B3FBF", "#141220"),
+    "G06": ("#FBF7F0", "#9A1B2F", "#1A1114"),
 }
 
 

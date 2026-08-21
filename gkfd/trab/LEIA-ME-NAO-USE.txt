@@ -1,0 +1,35 @@
+ESTA PASTA E RASCUNHO MORTO. NAO USE NADA DAQUI.
+
+ATUALIZADO EM 21/08/2026, DEPOIS DE UM SUSTO.
+
+Em 20/08 eu escrevi aqui que "nada depende desta pasta" e que o Fabio podia
+apagar. ESTAVA ERRADO, e o erro era grave:
+
+  - as CINCO FONTES do gerador existiam SO aqui (node_modules/@fontsource)
+  - o BANCO DE 59 FOTOS existia SO aqui (fotos_banco)
+  - retrato.py e repor_fotos.py existiam SO aqui
+
+Apagar teria quebrado a producao das DUAS marcas, e o erro apareceria numa
+rodada de madrugada, sem ninguem para ver.
+
+CONSERTADO: fontes, fotos e utilitarios foram copiados para a raiz das duas
+marcas. As duas pastas agora sao AUTOSSUFICIENTES — conferido item por item.
+
+O QUE SOBROU AQUI e so isto, e nada disso e usado:
+  - specs antigos (cada peca publicada ja guarda o seu proprio spec na pasta
+    dela; estes sao copias historicas)
+  - _contact1.png, sobra de renderizacao
+  - _LIXO-log-antigo-NAO-USAR.md, o log DESATUALIZADO que era a armadilha
+    original: 59 linhas contra 60 da raiz. Sessao que lesse o log errado
+    repetiria tema achando que ele nunca tinha rodado.
+  - pastas pc_* e kit_anuncios, saidas antigas
+
+AGORA SIM PODE APAGAR A PASTA INTEIRA. Mas antes de apagar QUALQUER pasta de
+rascunho, rode a checagem: veja se as fontes, o fotos_banco e os .py estao na
+raiz. Foi assim que este erro apareceu.
+
+A UNICA VERDADE e a raiz de cada marca:
+    C:\Users\fabio\Desktop\projetos2\postsintegrajud
+    C:\Users\fabio\Desktop\projetos2\gkfd
+
+O MESMO VALE PARA gkfd/trab, que e a pasta irma desta.

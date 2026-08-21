@@ -13,6 +13,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(BASE, "kit_anuncios")
 os.makedirs(OUT, exist_ok=True)
 W, H = 1080, 1920
+LIMPO = "--limpo" in sys.argv
 
 ZAP = ('<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">'
        '<path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.13h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.21-8.24 8.21Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.85.83-.85 2.03s.87 2.35.99 2.51c.12.16 1.71 2.61 4.14 3.66.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/>'
@@ -21,6 +22,27 @@ ZAP = ('<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">'
 
 def build(spec_path):
     spec = json.load(open(spec_path, encoding="utf-8"))
+    # MARCA — 18/08/2026. O mesmo gerador serve duas operacoes. Sem isto, o
+    # story da GKFD saia assinado @integrajud, com a credencial de pericia.
+    _m = spec.get("marca") or {}
+    MK_ARROBA = _m.get("arroba", "@integrajud")
+    MK_CRED = _m.get("credencial",
+                     "Perícia, auditoria, cálculos judiciais e inteligência "
+                     "de dados · atendimento nacional")
+    MK_ZAP = _m.get("whatsapp", "11 97723-7113")
+    # SELO DA MARCA — 18/08/2026. Mesma diretiva do machine.py: a credencial
+    # entra tambem no story, que muitas vezes e a unica coisa que a pessoa ve.
+    MK_SELO = _m.get("selo", "")
+    _selo_html = ""
+    if MK_SELO:
+        _sp = MK_SELO if os.path.isabs(MK_SELO) else os.path.join(BASE, MK_SELO)
+        if os.path.exists(_sp):
+            _selo_html = ('<img src="data:image/png;base64,%s" style="position:absolute;'
+                          'bottom:96px;right:90px;width:%dpx;height:auto;z-index:9;'
+                          'filter:drop-shadow(0 6px 18px rgba(0,0,0,.28))">'
+                          % (M.b64file(_sp), int(_m.get('selo_largura', 190))))
+        else:
+            print("  !! selo nao encontrado: %s" % _sp)
     fundo, accent, texto, pnome = M.PALETAS[spec["paleta"]]
     frgb = M.hexrgb(fundo)
     dark = sum(frgb) / 3 < 128
@@ -62,12 +84,12 @@ h1 b{{color:{accent}}}
  align-items:center;justify-content:center;font-size:25px;color:{M.rgba(texto,.42)};
  font-weight:500;letter-spacing:.04em}}
 """
-    body = f"""<div class="s"><div class="accentbar"></div><div class="brand">@integrajud</div>
+    body = f"""<div class="s"><div class="accentbar"></div><div class="brand">{MK_ARROBA}</div>{_selo_html}
 <h1>{s1['headline']}</h1>
 <div class="apoio">{s1['apoio']}</div>
-<div class="cred">Perícia, auditoria, cálculos judiciais e inteligência de dados · atendimento nacional</div>
-<div class="faixa">{ZAP}<span>11 97723-7113</span></div>
-<div class="reserva">reservado: sticker de link (story) ou botão do anúncio</div></div>"""
+<div class="cred">{MK_CRED}</div>
+<div class="faixa">{ZAP}<span>{MK_ZAP}</span></div>
+{'' if LIMPO else '<div class="reserva">reservado: sticker de link (story) ou botão do anúncio</div>'}</div>"""
 
     html = (f"<!doctype html><html lang='pt-BR'><head><meta charset='utf-8'>"
             f"<style>{css}</style></head><body>{body}</body></html>")
@@ -87,5 +109,8 @@ h1 b{{color:{accent}}}
 
 
 if __name__ == "__main__":
-    for a in sys.argv[1:]:
+    # --limpo tira a caixa tracejada "reservado: sticker de link".
+    # Ela serve para MONTAR anuncio, e nao pode aparecer num story publicado.
+    args = [a for a in sys.argv[1:] if a != "--limpo"]
+    for a in args:
         build(a)

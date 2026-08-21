@@ -1,0 +1,17 @@
+O item some no galpão da plataforma e a indenização é calculada por um valor de referência do cadastro dela — não pelo custo que está na sua nota de entrada.
+
+Mandar estoque para o fulfillment muda o endereço da mercadoria, não a propriedade dela. A remessa sai com nota e CFOP próprios: o produto continua no seu ativo, no seu inventário e na sua obrigação acessória. O que você perdeu foi a contagem física ao alcance da mão.
+
+A partir daí, a prova do que existe no galpão é o inventário publicado pela plataforma. Sem confronto com a nota de remessa e com a venda, o estoque contábil e o estoque real se afastam em silêncio. Extravio, avaria e item não localizado não geram lançamento sozinhos: aparecem no Bloco H no fim do ano, ou quando alguém compara o CMV com a entrada.
+
+São quatro perguntas no fechamento. Quantas unidades saíram daqui e quantas o galpão reconhece, SKU a SKU. Cada perda foi classificada — extravio no transporte, avaria no manuseio, item sinistrado na entrega e devolução que não voltou ao estoque são quatro eventos diferentes, e somados como "perda" nenhum é recuperável. O ressarcimento pago bate com o devido, medido contra o CMV real. E o que foi indenizado saiu do estoque com a natureza certa.
+
+O erro se repete em duas frentes. A perda sem classificação vira ajuste de inventário, entra como custo e derruba a margem do SKU, levando a decisão de preço para o lado errado. E o reembolso por extravio, que chega dentro do repasse de vendas com descrição genérica, acaba escriturado como venda: infla a receita, que no Simples é a base do imposto.
+
+Identificamos cobranças e retenções indevidas e produzimos a apuração técnica necessária para buscar restituição, inclusive em dobro quando houver fundamento jurídico aplicável.
+
+Mande o inventário do fulfillment. Em até 24h úteis eu digo se o que sumiu foi ressarcido pelo valor certo. É só chamar aqui:
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Facebook%20sobre%20extravio%20e%20ressarcimento%20no%20fulfillment%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.
+
+GKFD Contábil — contabilidade especializada em e-commerce e marketplace.
+Fábio Rebouças — Contador

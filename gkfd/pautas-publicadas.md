@@ -17,33 +17,44 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
 
 2026-08-19 | 16h13 | G6 devoluções e estornos | M7 fechamento do mês | CHARGEBACK | VENDA DESFEITA | venda desfeita por terceiro que continua viva na apuração do mês | as duas frentes do chargeback (prazo de contestação e competência fiscal) e o erro que se repete | Perdeu a mercadoria, perdeu o valor, e o imposto continuou na base | L2 | doc:extrato/copia (DOCUMENTO) | G03 laranja embalagem | /areas/devolucoes | FB 1336325419554251_122096370201451002 | IG 17978503293072708 | story e reel publicados nos dois destinos
 
+2026-08-20 | 16h13 | G7 gestão e rentabilidade | M5 abrindo em segunda plataforma | DRE POR CANAL | FATURA MAIS, SOBRA MENOS | resultado consolidado que soma canal caro e canal barato num número só | demonstração aritmética do mesmo SKU em dois canais: o que faturou 50% a mais deixou R$ 2.400 a menos de sobra | Abriu o segundo canal, o faturamento subiu e a sobra caiu | L1 | concreto (SUPERFÍCIE) | G01 azul painel | /areas/gestao | FB 1336325419554251_122097390639451002 | IG 17967418851137021 | story e reel publicados nos dois destinos | primeiro comentário FALHOU (permissão)
+
+2026-08-20 | 20h13 | G4 estoque e custos | M4 entrando no fulfillment | EXTRAVIO E AVARIA | ESTOQUE FORA DE CASA | estoque em poder de terceiro: perda nao classificada e ressarcimento pago por valor de referencia da plataforma | as quatro perguntas do inventario e o erro que se repete (perda vira custo, ressarcimento vira receita de venda) | Sumiu no fulfillment e o ressarcimento veio menor que o seu custo | L4 | doc:extrato/formulario (DOCUMENTO) | G02 verde liberado | /areas/estoque | FB 1336325419554251_122097515937451002 | IG 18204594271366220 | story e reel publicados nos dois destinos | primeiro comentario FALHOU (permissao, mesmo erro de 16h) | revisita: story da peca 2026-08-18_repasse-receita-bruta
+
 ## Rodízio — estado atual
-- Total do perfil: 4 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
+- Total do perfil: 6 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
   de 17-18/08, saiu antes do log existir — considerar A3 e o ponto de
   vazamento REPASSE DO MÊS como usados, e a paleta G01 e o layout L2 também.)
 - Áreas usadas: A3/G3 repasse, A8/G5 ads, A4/G9 retenção, A1/G2 regime,
-  G6 devoluções e estornos. INTACTAS: G1, G4, G7, G8.
+  G6 devoluções e estornos, G7 gestão e rentabilidade, G4 estoque e custos.
+  INTACTAS: G1, G8.
 - Momentos usados: M7 fechamento do mês (2x — G3 e G6), M6 investindo em ADS,
-  M8 saldo retido, M3 crescendo rápido.
+  M8 saldo retido, M3 crescendo rápido, M5 abrindo em segunda plataforma,
+  M4 entrando no fulfillment.
 - Pontos de vazamento usados: REPASSE DO MÊS, ADS DA PLATAFORMA, SALDO RETIDO,
-  ANEXO E FATOR R, CHARGEBACK.
+  ANEXO E FATOR R, CHARGEBACK, DRE POR CANAL, EXTRAVIO E AVARIA.
 - Paletas GKFD: G01 azul painel, G02 verde liberado, G03 laranja embalagem,
   G04 noturno operacional, G05 roxo plataforma, G06 vermelho retido.
-  Últimas três: G06, G04, G03. Próxima peça sai em G01, G02 ou G05.
+  Últimas três: G03, G01, G02. Próxima peça sai em G04, G05 ou G06.
 - Frases de efeito usadas: CONFERE UMA COISA, ANTES DE SUBIR O ORÇAMENTO,
-  O DINHEIRO JÁ É SEU, A FOLHA DECIDE O ANEXO, VENDA DESFEITA.
-- Layouts: L1 a L6. Últimos três: L4, L5, L2. Próxima peça sai em L1
+  O DINHEIRO JÁ É SEU, A FOLHA DECIDE O ANEXO, VENDA DESFEITA,
+  FATURA MAIS, SOBRA MENOS, ESTOQUE FORA DE CASA.
+- Layouts: L1 a L6. Últimos três: L2, L1, L4. Próxima peça sai em L5
   (L3 e L6 seguem vetados por causa do selo de 320px).
-- Modo demonstração: usada em 18/08 (ADS) e em 19/08 manhã (Fator R). A peça
-  de 19/08 tarde saiu SEM demonstração, com o slide 4 no formato "o erro que
-  se repete". A PRÓXIMA peça pode voltar a usar demonstração.
+- Modo demonstração: usada em 18/08 (ADS), 19/08 manhã (Fator R) e 20/08 16h
+  (DRE por canal). A peça de 20/08 20h saiu SEM demonstração, com o slide 4 no
+  formato "o erro que se repete". A PRÓXIMA peça VOLTA a trazer demonstração,
+  em quadro.
 - Sem banco de fotos: fundo sempre gerado (documento numérico + superfície
   neutra). Nada de foto.
-- TIPO DE CAPA DAS ÚLTIMAS TRÊS: documento, SUPERFÍCIE (granito), documento
-  (extrato/copia). A PRÓXIMA CAPA PODE SER QUALQUER UM DOS DOIS — nunca três
-  seguidas do mesmo tipo, e as duas últimas foram tipos diferentes.
-- Plataforma citada pelo nome: nenhuma nas peças de 19/08 (ambas dizem
-  "a plataforma"). A PRÓXIMA pode citar uma, revezando entre as seis.
+- TIPO DE CAPA DAS ÚLTIMAS TRÊS: documento (extrato/copia), SUPERFÍCIE
+  (concreto), DOCUMENTO (extrato/formulario). A PRÓXIMA CAPA PODE SER QUALQUER
+  UM DOS DOIS — nunca três seguidas do mesmo tipo.
+- Plataforma citada pelo nome: nenhuma desde 18/08 — as peças de 19/08 e as
+  duas de 20/08 dizem "a plataforma", "o canal" ou "o galpão". A de 20/08 20h
+  chegou a considerar citar (fulfillment: Full, FBA) e não citou, para não
+  afirmar política de plataforma específica. A PRÓXIMA deveria citar uma,
+  revezando entre as seis — já são quatro peças seguidas sem citar.
 
 ## LIÇÕES
 
@@ -395,3 +406,172 @@ CONSERTO ESTRUTURAL: a tabela virou RELOGIO.txt, idêntico nas duas pastas
 painel virou um apontador curto que não contém nenhuma regra que possa mudar.
 REGRA PERMANENTE: nada que muda mora no painel. O painel aponta; a verdade
 fica no disco.
+
+**20/08/2026 — FAIXA DE CHAMADA DE PÚBLICO NA CAPA.**
+Proposta do Fábio: "EI VOCÊ ADVOGADO" e "EI DONO DE MARKETPLACE".
+CORREÇÃO TÉCNICA: "dono de marketplace" é o Mercado Livre. Ele é VENDEDOR no
+marketplace. Vendedor lê "dono de marketplace" e sente que quem escreveu não é
+do meio — e ser do meio é a maior força da GKFD. Ficou SELLER, palavra que ele
+mesmo escolheu e que o público usa.
+REGISTRO POR MARCA: GKFD ficou "EI SELLER", informal, que casa com laranja e
+com o mundo do vendedor. IntegraJud ficou "ADVOGADO:" seco — o "EI" briga com
+o preto e ouro e com autoridade técnica, que é o que aquele comprador paga.
+Foram renderizadas as quatro versões e o Fábio comparou olhando.
+FEITO EM TEXTO, NÃO EM IMAGEM: acompanha a paleta de cada peça. Sticker PNG
+ficaria sempre da mesma cor e brigaria com metade das peças.
+DEFEITO CORRIGIDO NO CAMINHO: com a faixa, o bloco central afundava no layout
+de retrato ao fundo, porque ele é ancorado no rodapé. Passou a começar logo
+abaixo da faixa. O autoajuste agora mede topo E base.
+CUSTO ACEITO: a faixa come 74px e a manchete encolhe para caber. E por ser
+fixa, cansa o seguidor antigo em uma ou duas semanas — ela trabalha para o
+desconhecido.
+
+**20/08/2026 — O QUADRO ("formato": "quadro") É O LUGAR CERTO DA DEMONSTRAÇÃO.**
+Na peça do DRE por canal o slide 4 saiu em `formato: quadro`, com seis linhas
+de dois campos, em vez dos `passos` numerados. Coube sem transbordo, e a conta
+ficou legível a 400px porque cada linha tem rótulo curto à esquerda e números à
+direita. Nas demonstrações anteriores os números vinham dentro de parágrafo de
+`passos` e disputavam espaço com o argumento. REGRA: demonstração aritmética
+vai em quadro; argumento vai em passos.
+
+**20/08/2026 — TRANSBORDO NÃO CEDE A CORTE DE PALAVRA, CEDE A CORTE DE LINHA.**
+Os slides 2 e 3 avisaram TRANSBORDO (1421 e 1410 contra 1350). Duas rodadas de
+enxugamento de texto NÃO mudaram a altura em nada — 1354 e 1363, idênticos.
+O que resolveu o slide 3 foi encurtar o TÍTULO de três linhas para duas: caiu
+para dentro do limite de uma vez. A altura é contada em linhas renderizadas,
+não em caracteres. Tirar cinco palavras do meio de um parágrafo que continua
+com o mesmo número de linhas não devolve um pixel. O slide 2 ficou em 1354, 4px
+acima: renderizado, o rodapé aparece inteiro e não há corte. Abaixo de ~10px de
+transbordo dá para olhar e seguir; acima disso, corte uma linha de título.
+
+**20/08/2026 — O comentar.py FALHOU nos dois destinos: falta permissão.**
+`py comentar.py <ig> <fb>` devolveu OAuthException 10 no Instagram
+("Application does not have permission for this action") e OAuthException 200
+no Facebook ("You do not have sufficient permissions"). Não é token vencido — o
+`checar_token.py` diz PAGE e NÃO EXPIRA, e postar.py e extras.py publicaram os
+quatro formatos sem erro na mesma rodada. É escopo faltando no app: comentar
+exige permissões que publicar não exige. Enquanto não for resolvido, a peça sai
+publicada e SEM link no primeiro comentário do Instagram, que era justamente o
+buraco que o comentar.py veio tapar. Não desfiz nada, conforme a instrução.
+
+**20/08/2026 — `reservar.py --liberar` NÃO CONSEGUE APAGAR O ARQUIVO NESTA SESSÃO.**
+`os.remove(pauta-em-producao.json)` devolveu PermissionError: Operation not
+permitted. O mesmo aconteceu no `machine.py`, que apaga os `_fundo*.png`
+temporários no fim — por isso a renderização desta rodada foi feita numa pasta
+de trabalho fora da pasta do projeto, com os PNGs copiados para cá no fim.
+GRAVAR funciona; APAGAR, não. A reserva foi liberada por outro caminho: o
+arquivo foi reescrito com `"em": 0`, e o `ler()` trata reserva com mais de 45
+minutos como inexistente — `--ver` confirma "NENHUMA reserva viva". Fica o
+registro para a próxima sessão não travar aqui: se `--liberar` der
+PermissionError, reescreva o pauta-em-producao.json com `"em": 0` em vez de
+tentar apagar.
+
+**20/08/2026 — O SLIDE INTERNO PASSA A SE MEDIR SOZINHO. Reincidencia.**
+O slide 3 da peca das 16h (DRE POR CANAL) saiu publicado com a barra de
+progresso atravessando a segunda linha do rodape.
+MESMO DEFEITO DE 19/08. Naquele dia a "correcao" foi escrever na instrucao
+"conferir o rodape OLHANDO, sempre". Falhou no dia seguinte. Fica a licao:
+REGRA QUE DEPENDE DE ALGUEM OLHAR NAO E REGRA. Se pode ser medido, tem de ser
+medido pelo codigo.
+CAUSA TECNICA: o medidor comparava scrollHeight com clientHeight. A barra e
+absoluta, fora do fluxo — o slide cabia pela conta e saia riscado. Sobreposicao
+nao e transbordo, e o medidor so sabia medir transbordo.
+CONSERTO: cada slide interno mede o fundo do conteudo contra o topo da barra e
+encolhe passo, fonte, espacamento e titulo em ate 9 passos de 6%. Testado com
+um rodape MAIOR que o que falhou: coube a 94%.
+AVISO NOVO no console: ".. slide N encolhido para X%" — encolher e rede, nao
+licenca. Abaixo de 90% a peca perde presenca e o texto devia ser cortado.
+A peca de hoje fica como esta; nao se apaga post publicado.
+
+**20/08/2026 (20h) — A TIRA DE PROVA COBRE A ÚLTIMA LINHA DA MARCA NO SLIDE 5.**
+No slide de oferta, a `.provas5` é absoluta em `bottom:92px` e a `.oferta-cta`
+termina no fim da caixa de conteúdo. Quando ponte, itens, credencial e oferta
+somam mais que a caixa, o bloco transborda e a linha `<b>Fábio Rebouças —
+Contador</b>` fica DEBAIXO da tira. Conferi na peça das 16h de hoje, já
+publicada: acontece lá também. NÃO é defeito novo desta peça.
+TENTATIVA QUE NÃO FUNCIONOU, para ninguém repetir: `.s.ad .oferta-cta
+{margin-bottom:62px}`. Margem em bloco empurrado por `margin-top:auto` dentro de
+container que já transborda não devolve pixel nenhum.
+O QUE FUNCIONOU nesta rodada, e é paliativo: encurtar os três itens da oferta
+para no máximo 2 linhas e a linha de oferta para 2 linhas. Aí o bloco cabe e a
+tira encosta na linha da marca sem riscar nada.
+CONSERTO DE VERDADE, para uma sessão com tempo: o slide 5 precisa do mesmo
+autoajuste dos slides internos — medir o fundo da `.oferta-cta` contra o topo da
+`.provas5` e encolher. Enquanto isso não existir, vale a regra de tamanho:
+ponte de 3 linhas, 3 itens de até 2 linhas, oferta de até 2 linhas.
+
+**20/08/2026 (20h) — O comentar.py FALHOU DE NOVO, nos dois destinos.**
+Mesma dupla de erros da rodada das 16h: OAuthException 10 no Instagram e
+OAuthException 200 no Facebook. Duas rodadas seguidas confirmam que é escopo do
+app, não intermitência: `postar.py`, `extras.py` e `revisitar.py` publicaram os
+quatro formatos na mesma sessão, com o mesmo token. Enquanto a permissão de
+comentário não for concedida ao app, NÃO vale mais gastar a chamada nem
+registrar como novidade — é estado conhecido. O link continua chegando ao
+Instagram só pela bio.
+
+**20/08/2026 — MEDIDOR VIRA REGRA, E A PASTA _work FOI NEUTRALIZADA.**
+
+O MEDIDOR. Em um unico dia a lista de nomes de classe falhou duas vezes, nas
+duas direcoes opostas: faltou a barra de progresso e o slide 3 saiu RISCADO e
+publicado; depois faltaram o retrato e a tira de prova e o slide 5 ENCOLHEU a
+57% sem nada estar sobrepondo. Os dois defeitos tem a mesma raiz — a lista nao
+sabe o que ela nao conhece.
+AGORA E REGRA: o medidor pergunta a posicao do elemento. Absolute ou fixed
+esta fora do fluxo, nao empurra texto, nao entra na medida. Vale para a capa e
+para os internos, nas duas marcas. Nenhuma classList.contains sobrou no
+medidor — conferido, zero ocorrencias.
+TESTADO: slide genuinamente estourado ainda encolhe (94%); peca normal de 5
+slides nao encolhe nada, e o falso aviso na capa da IntegraJud sumiu.
+Backup: machine.py.antes-da-regra.
+
+A PASTA _work. Descoberta hoje: postsintegrajud/_work era uma copia de
+trabalho inteira, criada por sessoes que rodam em sandbox Linux (a pasta
+montada nao permite apagar temporario). Ninguem a referencia.
+O PERIGO ERA O LOG: ela tinha um pautas-publicadas.md DESATUALIZADO — 59
+linhas contra 60 da raiz, faltando a rodada das 18h. Sessao que lesse o log
+errado repetiria tema achando que nunca tinha rodado.
+NEUTRALIZADA: o log de la virou _LIXO-log-antigo-NAO-USAR.md e a pasta ganhou
+um LEIA-ME-NAO-USE.txt explicando. Nao deu para apagar — a pasta montada nao
+permite. O Fabio pode apagar a pasta inteira quando quiser; nada depende dela.
+LICAO: copia de arquivo de estado (log, config, banco) e bomba-relogio. Copia
+de codigo diverge e da erro visivel; copia de ESTADO diverge em silencio.
+
+**21/08/2026 — AS DUAS PASTAS VIRARAM AUTOSSUFICIENTES. Susto evitado.**
+
+Em 20/08 eu disse ao Fabio que a pasta _work era descartavel e que ele podia
+apagar. ERRADO, e perigoso: as cinco FONTES do gerador, o BANCO DE 59 FOTOS,
+o retrato.py e o repor_fotos.py existiam SOMENTE dentro dela. Apagar teria
+quebrado a producao das duas marcas — e o erro so apareceria numa rodada de
+madrugada, calado.
+Descoberto porque o teste manual no Windows falhou com FileNotFoundError
+procurando a fonte playfair-display. O teste que parecia burocracia achou
+uma bomba.
+
+CONSERTADO: fontes (104 woff2), fotos_banco (59 fotos), retrato.py e
+repor_fotos.py copiados para a raiz das DUAS marcas. Checagem item por item
+passou nas duas: gerador, publicadores, links, comentar, revisitar, capas,
+RELOGIO, config, selo.
+
+EXISTEM DUAS PASTAS DE RASCUNHO, nao uma: postsintegrajud/_work e gkfd/trab.
+As duas ganharam LEIA-ME-NAO-USE.txt explicando o que aconteceu.
+AGORA sim podem ser apagadas — mas a regra que fica e: antes de apagar
+qualquer pasta de rascunho, CONFERIR se fontes, fotos e .py estao na raiz.
+
+LICAO GERAL, e e a mesma da copia de log: pasta de rascunho acumula
+dependencia sem ninguem decidir isso. O codigo foi copiado para a raiz varias
+vezes; os ATIVOS (fonte, foto) ficaram para tras porque ninguem pensa neles.
+
+AMBIENTE WINDOWS, para o plano do Agendador de Tarefas: o Python do Windows
+agora renderiza sozinho. Instalados playwright 1.62, numpy 2.5.2, pillow 12.3
+e chromium no Python314.
+ARMADILHA REGISTRADA: NAO use `py script.py` no Windows. O `py` e um lancador
+que le o shebang do arquivo e escolhe OUTRO Python, sem as bibliotecas. Use
+sempre o caminho completo:
+    C:\Users\fabio\AppData\Local\Programs\Python\Python314\python.exe
+
+TESTE DO MEDIDOR NOVO: rodou na peca real de 20/08 da GKFD. Slides 3 e 4
+encolheram para 94% e o rodape de duas linhas passou folgado acima da barra —
+exatamente o caso que saiu riscado no dia anterior. Nenhum falso alarme.
+OBSERVAR: 94% duas vezes na mesma peca indica que o texto vem sistematicamente
+maior que o layout comporta. Se virar rotina, apertar a regra de tamanho em
+vez de depender do encolhimento — letra menor que as vizinhas custa presenca.

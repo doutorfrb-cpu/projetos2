@@ -1,0 +1,86 @@
+{
+ "slug": "integrajud_conversao_cpr_perdas_danos",
+ "outdir": "pc_18h_20ago",
+ "paleta": "P09",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil e cálculos judiciais · atendimento nacional"
+ },
+ "cenas": [
+  "doc:evolucao/liso",
+  "madeira",
+  "marmore",
+  "doc:comparativo/formulario",
+  "foto:px_36040441.jpg"
+ ],
+ "seeds": [3181, 3182, 3183, 3184, 3185],
+ "overlay": [
+  ".965,.985,.995",
+  ".46,.62",
+  ".50,.78"
+ ],
+ "slides": [
+  {
+   "layout": "L4",
+   "chamada": "A OUTRA PARTE JÁ JUNTOU",
+   "peca": "CUMPRIMENTO DE OBRIGAÇÃO DE FAZER",
+   "cifra": {
+    "rotulo": "a diferença, em demonstração",
+    "valor": "R$ 64.500"
+   },
+   "headline": "A entrega virou dinheiro. <b>A data do preço ninguém discutiu</b>",
+   "apoio": "Convertida a obrigação, o valor sai de uma cotação e de uma data. As duas entraram nos autos pela mão do credor."
+  },
+  {
+   "kicker": "Agrários · conversão em perdas e danos",
+   "titulo": "Três variáveis fixam o valor da conversão",
+   "passos": [
+    "<em>O preço de referência.</em> A cédula costuma eleger um indicador de praça — Cepea/Esalq, B3, boletim de cooperativa ou preço de balcão da região. Indicador diferente devolve valor diferente sobre a mesma saca. A cédula diz qual; o pedido só repete o que ela diz.",
+    "<em>A data em que esse preço é lido.</em> Vencimento pactuado, data do inadimplemento, data da propositura ou data da liquidação. Entre um marco e outro cabe uma safra inteira, e o preço da soja não fica parado esperando o processo.",
+    "<em>O volume que sobrou.</em> Entrega parcial, desconto de royalties, classificação fora do padrão e umidade acima do contratado reduzem a quantidade inadimplida antes de qualquer multiplicação."
+   ],
+   "rodape": "Preço, data e volume. O valor da conversão é o produto dos três, e não a estimativa de nenhum deles."
+  },
+  {
+   "kicker": "O que a apuração responde",
+   "titulo": "Quatro perguntas antes de liquidar a conversão",
+   "passos": [
+    "<em>Qual indicador a cédula elegeu.</em> Cepea/Esalq, B3, boletim regional ou preço de balcão. A cédula elegeu um só; a conta não pode eleger outro na hora de calcular.",
+    "<em>Qual data o título manda ler.</em> Vencimento, notificação ou liquidação. Não havendo cláusula expressa, a discussão é jurídica — mas o efeito é aritmético e precisa estar demonstrado nos dois cenários.",
+    "<em>Que volume ficou de fora.</em> Romaneios, notas de entrega e tickets de balança dizem quanto já foi entregue. O saldo inadimplido é o que a conta multiplica, nunca o total da cédula.",
+    "<em>O que já foi pago por dentro.</em> Adiantamento em insumo, operação de barter e frete contratado abatem o prejuízo. Fora da conta, viram cobrança em duplicidade e devolvem o crédito à liquidação."
+   ],
+   "rodape": "Cédula, romaneios e boletim da praça respondem as quatro."
+  },
+  {
+   "kicker": "Demonstração",
+   "titulo": "A mesma saca, dois marcos de preço",
+   "passos": [
+    "<em>A base, igual nos dois.</em> Saldo inadimplido de 3.000 sacas de soja, apurado por romaneio, sem entrega parcial em disputa.",
+    "<em>Critério A — preço do vencimento.</em> Indicador da praça em 30/04, a R$ 128,00 a saca. 3.000 × 128,00 = R$ 384.000,00.",
+    "<em>Critério B — preço da liquidação.</em> Indicador da mesma praça em 30/09, a R$ 149,50 a saca. 3.000 × 149,50 = R$ 448.500,00.",
+    "<em>A diferença.</em> R$ 64.500,00 sobre a mesma quantidade e o mesmo grão. Nenhuma saca a mais entrou: mudou só a data em que o preço foi lido."
+   ],
+   "rodape": "Números de demonstração, não de caso real.",
+   "painel": true
+  },
+  {
+   "retrato": "sim",
+   "ponte": "O valor da conversão é<br>preço, data e volume.",
+   "itens": [
+    "Conversão de CPR em perdas e danos",
+    "Memória com dois marcos de preço",
+    "Parecer crítico sobre a conta do credor"
+   ],
+   "oferta": "Mande a cédula e os romaneios. Em até 24h úteis eu respondo"
+  }
+ ]
+}

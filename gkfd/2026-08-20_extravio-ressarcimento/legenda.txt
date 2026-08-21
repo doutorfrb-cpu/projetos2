@@ -1,0 +1,20 @@
+A indenização por item extraviado sai por um valor de referência do cadastro da plataforma — que não é o custo da sua nota de entrada.
+
+Quando o estoque vai para o fulfillment, muda o endereço e não muda a propriedade. A remessa sai com nota e CFOP próprios: a mercadoria continua no seu ativo, no seu inventário e na sua obrigação acessória. O que acabou foi a contagem física ao seu alcance.
+
+Da remessa em diante, a prova do que existe no galpão é o inventário que a plataforma publica. Sem confronto com a nota e com a venda, o estoque contábil e o real se afastam em silêncio: extravio, avaria e item não localizado não geram lançamento sozinhos.
+
+São quatro perguntas no fechamento. Quantas saíram daqui e quantas o galpão reconhece, SKU a SKU. Cada perda foi classificada — extravio, avaria, item sinistrado e devolução que não voltou são eventos distintos, e somados como "perda" nenhum é recuperável. O ressarcimento pago bate com o devido, medido contra o CMV real. E o que foi indenizado saiu do estoque com a natureza certa.
+
+O erro se repete em duas frentes. A perda sem classificação vira ajuste de inventário, entra como custo e derruba a margem do SKU. E o reembolso por extravio, que chega dentro do repasse com descrição genérica, é escriturado como venda: infla a receita, que no Simples é a base do imposto.
+
+Identificamos cobranças e retenções indevidas e produzimos a apuração técnica necessária para buscar restituição, inclusive em dobro quando houver fundamento jurídico aplicável.
+
+Mande o inventário do fulfillment. Em até 24h úteis eu digo se o que sumiu foi ressarcido pelo valor certo.
+
+GKFD Contábil — contabilidade especializada em e-commerce e marketplace.
+Fábio Rebouças — Contador
+
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Instagram%20sobre%20extravio%20no%20fulfillment.
+
+#contabilidadeparaecommerce #marketplace #fulfillment #estoque #ressarcimento #inventario #simplesnacional #seller #cmv

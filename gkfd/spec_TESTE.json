@@ -1,0 +1,92 @@
+{
+ "slug": "TESTE_MEDIDOR",
+ "outdir": "_teste_medidor",
+ "paleta": "G02",
+ "marca": {
+  "arroba": "@gkfdfisco",
+  "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+  "chamada_publico": "EI SELLER",
+  "prova": [
+   "25 ANOS DE EXPERIÊNCIA",
+   "6 PLATAFORMAS ATENDIDAS",
+   "ATENDIMENTO NACIONAL"
+  ],
+  "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+  "assinatura": "GKFD Contábil — contabilidade especializada em e-commerce e marketplace<br>Fábio Rebouças — Contador · Mercado Líder Platinum",
+  "cargo": "Contador",
+  "cta": "GKFD Contábil · atendimento nacional",
+  "site": "Fábio Rebouças — Contador",
+  "whatsapp": "11 97723-7113",
+  "oferta_padrao": "Mande o inventário do fulfillment. Em até 24h úteis eu digo se o que sumiu foi ressarcido pelo valor certo",
+  "selo": "selo-platinum.png",
+  "selo_largura": 320
+ },
+ "cenas": [
+  "doc:extrato/formulario",
+  "granito",
+  "linho",
+  "couro",
+  "gesso"
+ ],
+ "seeds": [
+  7101,
+  7102,
+  7103,
+  7104,
+  7105
+ ],
+ "overlay": [
+  ".74,.84,.93",
+  ".18,.34",
+  ".16,.30"
+ ],
+ "slides": [
+  {
+   "layout": "L4",
+   "chamada": "ESTOQUE FORA DE CASA",
+   "peca": "EXTRAVIO E AVARIA",
+   "headline": "Sumiu no fulfillment e o ressarcimento veio <b>menor que o seu custo</b>",
+   "apoio": "A mercadoria está no galpão da plataforma, mas o estoque continua sendo seu. Quando some, quem calcula a indenização é quem perdeu — e o valor sai de um cadastro, não da sua nota de entrada."
+  },
+  {
+   "kicker": "Marketplace · estoque em poder de terceiro",
+   "titulo": "Mandar para o fulfillment não tira o estoque do seu balanço",
+   "passos": [
+    "<em>Muda o endereço, não a propriedade.</em> A remessa sai com nota e CFOP próprios: a mercadoria continua no seu ativo, no seu inventário e na sua obrigação acessória. O que mudou é que a contagem física não está mais ao seu alcance.",
+    "<em>O controle vira um relatório.</em> Da remessa em diante, a prova do que existe no galpão é o inventário que a plataforma publica. Sem confronto com a nota e com a venda, o estoque contábil e o real se afastam — em silêncio.",
+    "<em>A diferença aparece tarde.</em> Extravio, avaria e item não localizado não geram lançamento sozinhos. Chegam no Bloco H no fim do ano, ou quando alguém compara o CMV com a entrada — e aí a explicação é reconstruída de trás para frente."
+   ],
+   "rodape": "Estoque em poder de terceiro é estoque seu, com a prova em poder de outro."
+  },
+  {
+   "kicker": "O que a auditoria de estoque abre",
+   "titulo": "Quatro perguntas que o fechamento precisa responder",
+   "passos": [
+    "<em>Quantas saíram daqui e quantas o galpão reconhece?</em> Nota de remessa contra inventário publicado, SKU a SKU. A diferença é o primeiro número da conversa, e quase nunca é zero.",
+    "<em>Cada perda foi classificada?</em> Extravio no transporte, avaria no manuseio, item sinistrado na entrega e devolução que não voltou ao estoque são eventos distintos. Somados como perda, nenhum é recuperável.",
+    "<em>O ressarcimento pago bate com o devido?</em> A indenização sai por um valor de referência do cadastro da plataforma. Compará-lo com o CMV real de entrada é o que separa recebi algo de recebi o devido.",
+    "<em>O que foi indenizado saiu do estoque?</em> Ressarcimento não é venda: tem baixa própria e natureza própria. Lançado junto do repasse, distorce receita e CMV no mesmo mês."
+   ],
+   "rodape": "As quatro saem do inventário da plataforma cruzado com as suas notas."
+  },
+  {
+   "kicker": "O erro que se repete",
+   "titulo": "A perda vira custo e o ressarcimento vira receita de venda",
+   "passos": [
+    "<em>Como ele aparece.</em> O estoque contábil fica maior que o inventário do galpão, sem venda, sem devolução e sem registro de perda que explique a sobra. No fechamento a diferença vira ajuste, e o ajuste entra como custo.",
+    "<em>Onde procurar.</em> No inventário da plataforma, nas linhas de ajuste do extrato financeiro e nas ordens de remessa. O reembolso por extravio chega dentro do repasse de vendas, com descrição genérica — e é escriturado como venda.",
+    "<em>O que ele muda, duas vezes.</em> A perda que vira custo derruba a margem do SKU e leva o preço para o lado errado. E o ressarcimento lançado como venda infla a receita, que no Simples é a própria base do imposto."
+   ],
+   "rodape": "Perda sem classificação não se recupera; ressarcimento sem natureza vira base."
+  },
+  {
+   "ponte": "O estoque é seu.<br>A prova está<br>com o galpão.",
+   "itens": [
+    "Inventário da plataforma confrontado com nota de remessa e venda, SKU a SKU",
+    "Extravio, avaria e devolução separados por evento, com o ressarcimento apurado contra o CMV real",
+    "Memória de cálculo auditável do que se perdeu e do que foi indenizado"
+   ],
+   "oferta": "Mande o inventário do fulfillment. Em até 24h úteis eu digo se o que sumiu foi ressarcido pelo valor certo"
+  }
+ ]
+}
