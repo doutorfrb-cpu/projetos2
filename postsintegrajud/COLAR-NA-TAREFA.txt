@@ -525,3 +525,49 @@ CONSEQUENCIA PRATICA para quem escreve peca: nada muda no seu trabalho. Mas
 se aparecer no console
       .. <slug> slide N encolhido para X%
 agora e verdade — nao e mais falso alarme. Abaixo de 90%, corte texto.
+
+
+ARTIGO SEMANAL DO LINKEDIN — so na rodada das 18h, e so as QUARTAS.
+Definido pelo Fabio em 21/08/2026: "ou tem rotina ou nao faz".
+
+CONDICAO: se hoje for QUARTA-FEIRA e esta for a rodada das 18h, produza tambem
+o artigo. Nos outros dias, NAO produza — nao pergunte, nao avise, so siga.
+Para saber o dia: `py -c "import datetime;print(datetime.date.today().weekday())"`
+devolve 0 para segunda e 2 para QUARTA.
+
+POR QUE SEMANAL E NAO DIARIO: artigo nao e post grande, e outra funcao. O post
+alcanca; o artigo PERMANECE e ranqueia no Google. O LinkedIn distribui artigo
+bem menos que post, de proposito. Sessenta artigos rasos por mes nao valem
+quatro bons — e artigo bom exige profundidade, que nao existe em ritmo diario.
+
+DE ONDE SAI O TEMA: das QUATRO pecas da semana da IntegraJud, escolha a mais
+forte e APROFUNDE. Nao repita o texto do post — o post ficou na superficie das
+perguntas; o artigo desce ao mecanismo, explica POR QUE o erro passa
+despercebido, e traz uma demonstracao aritmetica que FECHA.
+
+DOIS ARQUIVOS, os dois em linkedin/:
+
+  1) linkedin/AAAA-MM-DD-ARTIGO-<tema>.md
+     - 800 a 1.200 palavras
+     - primeira linha: [TITULO DO ARTIGO — cole no campo de titulo]
+       seguida do titulo. Ele vai no campo proprio, nao no corpo.
+     - marque cada subtitulo com [SUBTITULO] na linha anterior. No editor do
+       LinkedIn o subtitulo esta no menu "Estilo", nao em botao proprio.
+     - PARAGRAFOS SEPARADOS, ao contrario do post. Aqui o editor afasta
+       sozinho e os subtitulos e que agrupam. Bloco denso de mil palavras nao
+       se le.
+     - fecha com pergunta ao advogado e a assinatura da marca.
+     - SEM LINK no corpo, igual ao post.
+
+  2) a CAPA, deitada, gerada por:
+       py capa_artigo.py "<titulo, com <b> na parte destacada>" P01 AAAA-MM-DD-capa-<tema>
+     A capa do artigo e 1920x1080 e o LinkedIn a mostra numa faixa larga.
+     NUNCA use slide de carrossel como capa: ele e em pe, 1080x1350, e sai
+     cortado no meio perdendo a manchete. Foi o primeiro erro que apareceu.
+
+VALEM AS MESMAS PROIBICOES de sempre: nada de promessa de resultado,
+percentual de exito, comparacao, preco, caso identificavel, credencial
+juridica ou sigla de conselho. Numero de demonstracao sempre rotulado.
+
+FALHANDO O ARTIGO: nao derrube a rodada. A peca das 18h e o principal; o
+artigo e acrescimo. Anote no log e siga.
