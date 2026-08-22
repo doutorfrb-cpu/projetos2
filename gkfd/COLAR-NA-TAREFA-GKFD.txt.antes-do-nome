@@ -1,0 +1,587 @@
+Rode a Content Machine da GKFD e publique UMA peça, em modo automático: sem menu de entrada, sem pedir aprovação, sem relatório de processo.
+
+ESTA TAREFA RODA NO COMPUTADOR DO FÁBIO. A pasta do projeto está acessível, o Python está instalado e o config_publicacao.json está na raiz. Não há contingência de "pasta inacessível": se a pasta não aparecer, é defeito — pare e avise, não invente conteúdo sem o log.
+
+A pasta do projeto: C:\Users\fabio\Desktop\projetos2\gkfd
+
+QUEM É A GKFD, em uma linha, porque isso governa tudo o que vem depois: contabilidade no Simples Nacional focada estritamente em vendedor de marketplace, feita por quem é Mercado Líder Platinum. Não é escritório generalista que também atende e-commerce. É o contrário.
+
+REGRA ZERO: esta tarefa nunca termina em silêncio. Se qualquer etapa travar, entregue o que já existir e diga em uma linha o que faltou.
+
+
+1. LER A REGRA
+
+Leia BANCO-DE-AREAS-GKFD.md inteiro, na raiz da pasta. Ele foi REMONTADO em 18/08/2026 a partir dos 90 tópicos de dor ditados pelo Fábio, e a versão anterior foi descartada inteira por estar errada no essencial.
+
+Ele traz as 9 ÁREAS DO SITE (G1 a G9), os 10 momentos do vendedor, os 20 pontos
+de vazamento e — o mais importante — o BURACO de cada um, que é de onde sai a headline.
+
+CORRIGIDO EM 19/08/2026 — A BASE É O SITE. Antes este banco tinha 12 áreas que a
+sessão tinha deduzido. O site gkfd.com.br oferece 9, com nomes próprios, e quem
+manda é o site: é para lá que a pessoa vai depois de ver o post. Peça que oferece
+área inexistente quebra a promessa na chegada. Use G1 a G9 e mais nada.
+A antiga A12 (prova técnica e disputa com a plataforma) SAIU do rodízio: não
+consta do site da GKFD. A tabela de correspondência com a numeração velha está
+no banco, para o rodízio não perder o histórico.
+
+SEIS PLATAFORMAS, NÃO UMA. O site atende Mercado Livre, Shopee, Amazon, Magalu e
+outras. As peças até 19/08 leem como exclusivas do Mercado Livre. REGRA: no
+máximo uma peça em três cita plataforma pelo nome; as demais dizem "a
+plataforma". Quando citar, revezar entre as seis.
+
+FAIXA DE MARCA NA CAPA — OBRIGATÓRIA desde 19/08/2026. O bloco "marca" do
+spec TEM de trazer o campo "descritor". Sem ele a capa sai sem dizer o que a
+GKFD é, e a peça lê como informação de vendedor em vez de serviço de contador.
+
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E\u2011COMMERCE"
+    "prova": ["25 ANOS DE EXPERI\u00caNCIA", "6 PLATAFORMAS ATENDIDAS", "ATENDIMENTO NACIONAL"]
+    "assinatura": "GKFD Contábil — contabilidade especializada em e-commerce e marketplace<br>Fábio Rebouças — Contador · Mercado Líder Platinum"
+
+O hífen de E\u2011COMMERCE é o não separável (U+2011). Com hífen comum a palavra
+quebra em duas linhas na faixa.
+
+A ASSINATURA foi ALARGADA em 19/08/2026: era "no Simples Nacional para vendedor
+de marketplace" e virou "especializada em e-commerce e marketplace", porque o
+site atende também loja virtual. Não use mais a antiga.
+
+A CHAMADA É A DO SITE, não invente outra: "Análise Contábil Inicial Gratuita".
+A pergunta-mãe do site é "Seus números do marketplace realmente fecham?".
+
+OS QUATRO PILARES, e eles definem o que a GKFD é:
+  1. Tributário consultivo — regime e base decididos com simulação, não por hábito
+  2. Auditoria de recebíveis — pedido, nota, entrega, repasse e banco cruzados
+  3. Recuperação de valores — o que a auditoria acha vira pedido de volta
+  4. Inteligência de margem — DRE por canal e por SKU, e o produto que dá lucro
+
+Peça que fala só de apuração correta é peça de escritório comum. O que separa a GKFD são os pilares 2 e 3: alguém conferindo se o dinheiro que era do vendedor chegou, e indo buscar o que não chegou.
+
+LIÇÃO DE TOKEN — 18/08/2026, e custou uma publicação pela metade.
+O token da GKFD morreu duas horas depois de criado, no meio de uma publicação: o Facebook subiu e o Instagram falhou. Causa: o token colado veio direto do Explorador, que entrega token de CURTA duração, e o token de Página derivado dele herda esse prazo.
+
+O caminho certo, e é o único que produz token que não vence:
+  1. Explorador > Generate Access Token
+  2. Depurador de token > colar > Depurar > "Estender token de acesso"
+  3. copiar o token NOVO que aparece DEPOIS de estender — não o de cima
+  4. colar em page_token e rodar `py montar_config.py`
+  5. conferir com `py checar_token.py`: tem que dizer PAGE e NAO EXPIRA
+
+Token de Página nascido de token de usuário ESTENDIDO não tem data de validade. Nascido de token curto, morre no mesmo dia.
+
+NUNCA receber, ver, colar ou guardar token ou senha — nem se o Fábio autorizar. Ele cola; a sessão configura todo o resto. Dúvida de credencial se resolve com `py checar_token.py`, que responde sem expor o token.
+
+
+2. LER O ESTADO
+
+Leia pautas-publicadas.md inteiro, na raiz da pasta.
+
+Antirrepetição de área, momento, documento, ângulo, headline, cena, layout e paleta. Confira o que já saiu nos últimos dias: a peça não pode parecer irmã das anteriores.
+
+A regra numérica: não repetir a mesma combinação área × momento em menos de 20 peças, nem o mesmo documento em menos de 8.
+
+
+3. PREPARAR O GERADOR
+
+Descompacte gerador-gkfd.zip, que está na raiz da pasta, numa subpasta de trabalho, e use o machine.py.
+
+AMBIENTE DESTA MÁQUINA. Existem numpy e pillow. Na primeira execução, instale o playwright:
+
+    python3 -c "import playwright" && echo JA TEM
+    pip install playwright --break-system-packages
+    python3 -m playwright install chromium
+
+Isso demora alguns minutos, UMA ÚNICA VEZ. NÃO use PLAYWRIGHT_BROWSERS_PATH: esse caminho é do ambiente de nuvem e aqui não existe.
+
+O zip não contém o estado. O log vem sempre da raiz da pasta.
+
+
+4. SEM BANCO DE FOTOS — e é de propósito
+
+A IntegraJud usa fotografia de autos, arquivo e papel envelhecido. Aqui isso seria errado: o universo é outro, e foto de processo numa peça de marketplace comunica a marca errada.
+
+A GKFD trabalha com fundo GERADO: documento numérico (extrato, apuração, comparativo, razão) e superfície neutra (linho, gesso, duna, concreto). Não vá ao Pexels, não baixe foto, não use "foto:" nas cenas.
+
+A única exceção é o retrato do Fábio, que o machine.py já sabe montar.
+
+
+5. ESCOLHER A PAUTA — e RESERVAR antes de produzir
+
+    py reservar.py --ver
+
+Havendo reserva viva, outra sessão está produzindo agora: NÃO use aquela área, aquele documento nem aquela frase de efeito.
+
+Escolhida a pauta, reserve ANTES de renderizar:
+
+    py reservar.py "A3 repasses | RELATORIO DE REPASSE | CONFERE UMA COISA"
+
+Ao final, depois de publicar e gravar o log:
+
+    py reservar.py --liberar
+
+A reserva vence sozinha em 45 minutos.
+
+A ORDEM DE ESCOLHA, e ela importa: escolha primeiro o PONTO DE VAZAMENTO. Ele é o terceiro eixo desta operação — o equivalente à peça processual da IntegraJud — e é o que vai na tarja da capa.
+
+ATENÇÃO, isto foi corrigido em 18/08/2026: o terceiro eixo NÃO é o documento. O vendedor não reconhece "PGDAS-D"; ele reconhece SALDO RETIDO, CHARGEBACK, ADS, DEVOLUÇÃO, DIFAL, BLOQUEIO DE CONTA. O ponto de vazamento é o lugar por onde o dinheiro sai, e a tabela dele está no BANCO-DE-AREAS-GKFD.md, com a conta que cada um exige e o buraco que vira headline.
+
+Depois do ponto de vazamento, escolha a área, depois o momento.
+
+Layout fora dos três últimos. Paleta fora das TRÊS últimas (são seis paletas, G01 a G06 — a regra da IntegraJud é quatro porque lá são dez). Frase de efeito fora das cinco últimas.
+
+
+6. A PEÇA — CINCO SLIDES
+
+    SLIDE 1  GANCHO      a exposição do VENDEDOR
+    SLIDE 2  VALOR I     o que está em jogo tecnicamente
+    SLIDE 3  VALOR II    o que se apura, ou as perguntas que o mês precisa responder
+    SLIDE 4  VALOR III   a demonstração com números; sem ela, o erro que se repete
+    SLIDE 5  OFERTA      o machine.py monta
+
+No spec: "slides": [capa, valor, valor, valor, oferta]. O gerador aceita de 3 a 6.
+
+O SLIDE 1 nomeia a EXPOSIÇÃO DO VENDEDOR, nunca o tema técnico. "Como funciona o Fator R" é aula. "Você está no anexo V e sua folha diz outra coisa" é peça. Arquitetura da capa: frase de efeito, tarja do DOCUMENTO, headline, linha de apoio.
+
+Headline de 6 a 12 palavras. Dureza é especificidade, nunca volume. Headline de 3 linhas ou mais NÃO cabe no layout L5: use L1, L2 ou L3.
+
+CADA SLIDE DE VALOR CARREGA UM ARGUMENTO, DESENVOLVIDO. Não sustentando cinco slides com densidade real, faça três — peça curta e cheia vale mais que cinco telas com enchimento.
+
+MODO DEMONSTRAÇÃO em UMA PEÇA A CADA DUAS, no slide 4: a mesma base sob dois critérios, a diferença entre eles, e no rodapé, obrigatoriamente, "Números de demonstração, não de caso real". A conta TEM que fechar. É esta demonstração que substitui a promessa de economia — em vez de "reduza até 30%", mostrar que a mesma receita, no anexo III e no anexo V, dá dois DAS diferentes.
+
+
+7. O QUE NUNCA ENTRA — e aqui é mais duro que na IntegraJud
+
+Contador tem regra de publicidade profissional. Fora, sempre:
+
+  - percentual de economia tributária, ainda que médio ou "de até"
+  - "reduza seus impostos", "pague menos imposto legalmente"
+  - COMPARAÇÃO COM O CONTADOR DO CLIENTE, MESMO INDIRETA. Em 17/08/2026 uma
+    peça saiu com "o contador genérico lança pelo painel e fecha o mês em
+    quinze minutos". Vende bem e é proibido. Reescrita atacando a prática e
+    não a pessoa: "quatro erros que nascem de fechar o mês olhando só o
+    painel". Faça sempre assim.
+  - preço, tabela ou mensalidade em arte de post
+  - print de cliente, faturamento de cliente, caso identificável
+  - promessa de resultado em fiscalização ou em recuperação de crédito
+
+A REGRA DA RESTITUIÇÃO EM DOBRO — determinada pelo Fábio em 18/08/2026:
+
+NUNCA anunciar "devolução em dobro" como resultado garantido. É forte comercialmente, e é exatamente por isso que é perigoso. A formulação autorizada, e é para usar esta:
+
+    "Identificamos cobranças e retenções indevidas e produzimos a apuração
+    técnica necessária para buscar restituição, inclusive em dobro quando
+    houver fundamento jurídico aplicável."
+
+Ela promete o TRABALHO TÉCNICO, que é o que a GKFD entrega, e devolve ao Direito o que é do Direito. A GKFD apura; quem diz se cabe dobro é o advogado do cliente, no caso concreto.
+
+O que entrega o mesmo sem infringir nada: a demonstração aritmética.
+
+
+8. FUNDOS
+
+A CAPA ALTERNA — corrigido em 18/08/2026, e é regra dura.
+
+A versão anterior mandava "capa SEMPRE documento numérico gerado". Em três peças seguidas isso deu três capas de tabela de número: apuração, planilha e extrato. Famílias diferentes, gênero igual. No feed parecem a mesma peça, e o Fábio viu de novo: "não está mudando o fundo".
+
+Olhe o pautas-publicadas.md e veja o tipo de fundo das DUAS últimas capas:
+
+    duas últimas foram DOCUMENTO   ->  esta capa usa SUPERFÍCIE
+    a última foi SUPERFÍCIE        ->  esta capa usa DOCUMENTO
+    nunca três capas seguidas do mesmo tipo
+
+CAPA DE DOCUMENTO: "doc:extrato/dobra", "doc:apuracao/copia", "doc:planilha/formulario", "doc:comparativo/liso", "doc:razao/dobra". Overlay .74,.84,.93. Ela comunica "o número está aí atrás".
+
+CAPA DE SUPERFÍCIE: "linho", "gesso", "concreto", "duna", "granito", "couro", "madeira". Overlay mais leve, .30,.52,.74 — aqui não há número para esconder, e o que domina é a COR da paleta com a textura do material. Ela comunica presença, e é o que quebra a monotonia da grade.
+
+Registre no log qual dos dois tipos a capa usou. Sem isso a próxima sessão não tem como alternar.
+
+O resto dos slides continua livre, respeitando a regra de nunca dois seguidos com a mesma textura aparente. Exemplo de cenas:
+
+    "cenas": ["doc:apuracao/dobra", "linho", "gesso", "doc:comparativo/liso", "duna"]
+
+OVERLAY — CORRIGIDO EM 18/08/2026, e o motivo importa mais que o número.
+
+A primeira versão desta seção mandava wash quase opaco (.93,.955,.975) em paleta clara sobre documento. Eu tinha copiado essa regra da IntegraJud sem pensar. Lá ela existe porque as paletas são ESCURAS e o documento aparece com números CLAROS, que brigam com a headline.
+
+Aqui é o oposto: paleta clara, texto escuro, documento em cinza baixo. Ele não briga com nada — e com wash .93 ele simplesmente SOME. O resultado foi que as duas primeiras peças da GKFD saíram com capas visualmente idênticas, apesar de terem paleta, cena e layout diferentes: fundo branco liso nas duas. O Fábio viu na hora: "com o mesmo fundo de ontem".
+
+Os valores certos para esta operação:
+
+    paleta clara sobre doc, capa: .74,.84,.93
+    paleta escura (G04) sobre doc, capa: .88,.93,.97
+    superfície neutra nos slides de valor: .18,.34
+
+REGRA GERAL, para não errar de novo em paleta nova: o wash existe para impedir que o fundo COMPITA com a headline. Onde o fundo já é discreto — texto escuro sobre papel claro — wash alto não protege nada, só apaga a identidade e faz todas as capas parecerem a mesma.
+
+CONFIRA OLHANDO. Renderizou a capa, olhe: dá para perceber que existe um documento ali? Se a resposta for não, o wash está alto demais.
+
+OLHE a capa renderizada antes de publicar. É etapa, não zelo extra.
+
+Nunca dois slides seguidos com a mesma textura aparente.
+
+
+8-B. O SELO MERCADO LÍDER PLATINUM — obrigatório
+
+Diretiva do Fábio, 18/08/2026. O PNG do selo entra em TODAS as postagens da GKFD.
+
+POR QUE, e isto governa como usar: é a única credencial desta operação que nenhum concorrente pode copiar. Qualquer escritório de contabilidade pode dizer que atende e-commerce; nenhum pode exibir reputação de vendedor. O selo não é enfeite — é a prova visual de que quem assina vive a operação em vez de ter estudado ela.
+
+ONDE ELE APARECE, e já está implementado nos três geradores:
+
+    carrossel   capa (slide 1) e slide de oferta (o último)
+    story       canto superior direito
+    reel        fixo sobre o palco, visível nas três cenas
+
+NÃO entra nos slides de valor do meio. Ali ele viraria marca d'água e competiria com o argumento.
+
+COMO LIGAR. O arquivo é selo-platinum.png, na raiz da pasta. No spec, dentro do bloco "marca":
+
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+
+TAMANHO: 320px é o padrão, definido pelo Fábio em 18/08/2026, e a razão foi dita por ele: "maior senão ninguém enxerga". Não reduza. Em 190px o selo virava enfeite decorativo e não era lido como credencial.
+
+POSIÇÃO: canto superior direito no carrossel e no reel; no STORY ele fica no RODAPÉ. Isso não é capricho: no story a headline sobe até o topo, e o selo lá em cima cobria as primeiras palavras. Se algum dia mudar o layout do story, confira isso de novo.
+
+Faltando o arquivo, a peça sai sem ele e o gerador avisa na saída — não quebra a rodada.
+
+CUIDADO DE MARCA: o selo é marca registrada do Mercado Livre e só pode ser exibido enquanto a reputação estiver ativa. Use como credencial de quem opera, nunca de um jeito que sugira patrocínio, parceria ou endosso do Mercado Livre à GKFD.
+
+
+9. MONTAR — e o bloco "marca" é OBRIGATÓRIO
+
+O mesmo machine.py serve as duas operações. Sem o bloco "marca" no spec, a peça sai assinada como IntegraJud, com o site e a credencial de perícia. Copie este bloco em TODO spec da GKFD:
+
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E\u2011COMMERCE",
+    "prova": ["25 ANOS DE EXPERI\u00caNCIA", "6 PLATAFORMAS ATENDIDAS", "ATENDIMENTO NACIONAL"],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil — contabilidade especializada em e-commerce e marketplace<br>Fábio Rebouças — Contador · Mercado Líder Platinum",
+    "cargo": "Contador",
+    "cta": "GKFD Contábil · atendimento nacional",
+    "site": "Fábio Rebouças — Contador",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  }
+
+ESTE É O BLOCO CANÔNICO. Copie ele inteiro, sem editar nada além do que a peça
+exigir. Ele foi corrigido em 19/08/2026 e passou a incluir "descritor", "prova",
+"assinatura" e o selo — que antes ficavam espalhados e vinham sendo esquecidos.
+
+Cinco slides 1080x1350. Proibido em arte de feed qualquer "clique", "toque" ou seta.
+
+
+10. LEGENDAS — duas, uma por destino
+
+legenda.txt (Instagram): abre repetindo a tensão do gancho, desenvolve em 4 a 7 parágrafos e fecha nesta ordem — a oferta com prazo de 24h úteis, a assinatura da GKFD, e https://wa.me/5511977237113. Mais 6 a 12 hashtags sem acento.
+
+CONFIRA O TAMANHO ANTES DE PUBLICAR: `wc -m legenda.txt`. O limite do Instagram é 2200 caracteres e a legenda de cinco slides estoura com facilidade. Escreva mirando 2100.
+
+legenda_facebook.txt: a mesma matéria, texto diferente, SEM hashtag. No Facebook o link é clicável, então o CTA pode ser direto.
+
+ASSINATURA PERMITIDA, e só ela:
+
+    GKFD Contábil — contabilidade especializada em e-commerce e marketplace.
+    Fábio Rebouças — Contador
+
+ALARGADA EM 19/08/2026. A anterior dizia "no Simples Nacional para vendedor de
+marketplace" e era mais estreita que o site, que atende loja virtual e operação
+própria em seis plataformas. Não use mais a antiga em lugar nenhum.
+
+O "Mercado Líder Platinum" pode ser usado, porque é fato verificável e é a maior diferenciação da marca — a própria Página se chama GKFD Contábil Seller Platinum. Use como credencial de quem vive a operação, nunca como promessa de resultado ao cliente.
+
+NUNCA use a assinatura da IntegraJud aqui, nem a palavra "perícia". São duas marcas, dois públicos e duas autoridades diferentes.
+
+
+11. PUBLICAR — POR API, NOS DOIS DESTINOS
+
+Salve a peça na subpasta AAAA-MM-DD_tema com os cinco PNGs, o legenda.txt e o legenda_facebook.txt. Depois, da raiz da pasta:
+
+    py postar.py <caminho_da_subpasta>
+
+Ele publica no Facebook e no Instagram e mostra um placar. Um destino falhando não impede o outro. Não precisa de navegador.
+
+A imagem do Instagram é hospedada pela própria Meta (host.tipo = "facebook"): não há FTP nem pasta no site envolvidos.
+
+Deu erro: repasse a mensagem exata ao Fábio em uma linha e PARE. Se o erro for de token, rode `py checar_token.py` e repasse a saída — ela não expõe o token.
+
+Conferir depois de publicar: abrir o perfil e ver se a contagem de posts subiu.
+
+
+11-B. STORY E REEL
+
+Isto é parte da rodada, não é extra. O carrossel só alcança quem já segue; o reel é o único formato que Instagram e Facebook entregam para quem NÃO segue — e numa conta que está começando, é a diferença entre existir e não existir.
+
+Gere, de dentro da subpasta de trabalho:
+
+    python3 story_ad.py <caminho_do_spec.json> --limpo
+    python3 reel.py <caminho_do_spec.json>
+
+O --limpo é obrigatório: sem ele a arte sai com uma caixa tracejada escrita "reservado: sticker de link", que serve para montar anúncio e não pode aparecer publicada.
+
+Copie para a pasta da peça como story_916.png e reel.mp4, e publique com um comando só, da raiz:
+
+    py extras.py <pasta_da_peca>
+
+Ele publica story e reel no Instagram e na Página, e imprime um placar. Como a GKFD faz UMA peça por dia, o reel entra em todas — diferente da IntegraJud, onde ele só sai na peça das 18h.
+
+CONFIRA O VÍDEO ANTES DE PUBLICAR. O reel.py imprime "cena(s) reduzida(s) para caber" e "cortando Xs de preto do inicio" quando corrige sozinho os dois defeitos conhecidos. Não aparecendo nenhuma das duas linhas em peça densa, desconfie e olhe o mp4.
+
+FALHANDO QUALQUER EXTRA: o carrossel JÁ ESTÁ PUBLICADO e a rodada não se perde. Registre a falha no log em uma linha e siga.
+
+
+ORDEM QUE NAO PODE INVERTER — 18/08/2026, e custou um post errado.
+Publique o CARROSSEL primeiro, e so depois gere e publique story e reel. Na
+GKFD o extras.py rodou antes do postar.py, o story_916.png ja estava na pasta,
+e o carrossel saiu com SEIS imagens: a arte 9:16 do story entrou como sexto
+slide, esticada. Os publicadores agora filtram e so aceitam os slides
+numerados, mas a ordem certa continua sendo carrossel primeiro.
+
+
+12. REGISTRAR E LIBERAR
+
+Grave a linha da peça em pautas-publicadas.md, na raiz da pasta, no mesmo formato da IntegraJud, com os IDs de Facebook e Instagram que o postar.py devolveu.
+
+Registre também a LIÇÃO da rodada, se houver — overlay que não assentou, cena que ficou parecida com a anterior, legenda que estourou. É esse acúmulo que faz a próxima peça sair melhor sem ninguém corrigir nada à mão.
+
+Depois:  py reservar.py --liberar
+
+
+AO FINAL
+
+Confirme em uma linha: "Postado no @gkfdfisco e na Página", mais área, momento, documento, paleta e headline. Diga também se o story e o reel subiram.
+
+Não publicou: diga por quê, também em uma linha.
+
+
+GRAMATICA DE ANUNCIO NA CAPA E NA OFERTA — 19/08/2026, pedido do Fabio:
+"gramatica de anuncio, com informacao documental no miolo".
+
+O QUE MUDOU, e e automatico — voce nao escreve nada a mais no spec alem dos
+campos "descritor" e "prova":
+  - a chamada e a tarja viram UMA pilula com gradiente e brilho (o selo de
+    pauta). Continue preenchendo "chamada" e "peca" como sempre.
+  - a capa ganha faixa de WhatsApp e tira de prova no rodape.
+  - o slide 5 fecha com a mesma tira, e o selo Platinum entra menor, dentro
+    da faixa de marca: em tamanho de capa ele cobria a ponte.
+  - a manchete se mede contra a faixa em cima E contra o rodape embaixo, e
+    encolhe sozinha ate caber entre os dois.
+
+OS SLIDES 2, 3 E 4 NAO MUDARAM E NAO DEVEM MUDAR. E la que mora a densidade
+que filtra: quem chega no slide 4 de uma peca sobre conciliacao de repasse E
+vendedor de marketplace. A capa para o dedo; o miolo convence. Nao encurte o
+miolo para deixar a peca mais leve — isso destroi o filtro.
+
+DOS NOVE BLOCOS do exemplo que o Fabio mandou, ficaram CINCO na capa: faixa de
+marca, selo de pauta, manchete, apoio, rodape de contato e prova. O resto e
+ruido a 400 pixels, que e o tamanho real no feed.
+
+LIMITE CONHECIDO: o visual de anuncio nasce de fundo escuro. Nas paletas
+claras ele existe, mas discreto — sem brilho, so borda e contraste. Nao e
+defeito, e fisica: nao ha como brilhar sobre papel claro.
+
+
+NENHUMA MENÇÃO A CRC — determinado pelo Fábio em 19/08/2026.
+Não escreva "CRC", número de registro no conselho, nem sigla de conselho em
+slide, legenda, tira de prova ou bio. Vale para esta marca e para a
+IntegraJud, que já tinha a mesma regra quanto a credencial jurídica.
+A tira de prova passou a usar "25 ANOS DE EXPERIÊNCIA", que está no site, é
+verificável e diz mais ao vendedor do que uma sigla de conselho.
+
+
+LINK COM ORIGEM, COMENTARIO FIXADO, PRIMEIRA LINHA E ARTIGO — 19/08/2026.
+Quatro coisas que faltavam. Todas entram na rotina normal, sem custo.
+
+1) NUNCA MAIS ESCREVA O wa.me NA MAO. Use o links.py, que embute a origem na
+mensagem que a pessoa ja abre digitada. As duas marcas usam o MESMO numero:
+sem isso nao da para saber se o contato veio da GKFD ou da IntegraJud, do
+carrossel ou do story, do Instagram ou do Facebook.
+
+    py links.py carrossel instagram "<tema da peca>"
+    py links.py carrossel facebook "<tema da peca>"
+    py links.py story instagram "<tema da peca>"
+
+Cada legenda leva o link do SEU destino. Errar o destino estraga a medicao.
+
+2) PRIMEIRO COMENTARIO, logo depois de publicar:
+
+    py comentar.py <ig_media_id> <fb_post_id> "<tema da peca>"
+
+Os dois ids sao os mesmos que voce ja grava no log. Imagem de feed NAO clica —
+e por isso que a arte tem proibicao de "clique" e de seta. O comentario clica.
+Ate hoje a gente publicava sem deixar link em lugar nenhum no Instagram.
+Falhando, NAO desfaca nada: a peca ja esta publicada, anote e siga.
+FIXAR o comentario nao tem endpoint na API. E no aplicativo, e so vale a pena
+nas pecas que engrenarem.
+
+3) A PRIMEIRA LINHA DA LEGENDA e a unica que aparece no feed antes do "mais".
+Ela nao pode ser aquecimento nem repeticao da headline que ja esta na arte.
+Ela precisa carregar UMA informacao nova, concreta, que faca o dedo parar —
+de preferencia um numero ou uma consequencia. Escreva ela por ultimo, depois
+que a legenda estiver pronta, olhando o texto inteiro.
+
+4) ARTIGO. Grave tambem artigo.md na pasta da peca: titulo, 4 a 7 paragrafos e
+um fecho. O corpo sai dos slides 2, 3 e 4, que ja estao escritos — nao e
+conteudo novo, e o mesmo conteudo em prosa corrida, sem as quebras de slide.
+O Fabio publica no blog quando quiser. Motivo: quem digita a duvida no Google
+e cem por cento do nicho, o artigo trabalha por anos, e o carrossel do dia
+morre em 48 horas. Custo marginal quase zero, alcance que nao expira.
+Sem promessa de resultado, sem percentual, sem caso identificavel — as mesmas
+regras da arte valem no artigo.
+
+
+TEXTO ALTERNATIVO E REVISITA — 19/08/2026.
+
+5) ALT.TXT. Grave na pasta da peca um arquivo alt.txt com UMA LINHA POR SLIDE,
+na ordem. Cada linha descreve o que o slide mostra, em uma frase, comecando
+pelo assunto. Exemplo da capa: "Capa sobre chargeback: venda desfeita que
+continua na apuracao do mes." O publicar_instagram.py le esse arquivo sozinho
+e manda como alt_text de cada imagem. Sem o arquivo, publica sem alt e nada
+quebra — mas grave, porque serve para leitor de tela e para a propria Meta
+entender do que a peca trata. Maximo 990 caracteres por linha.
+
+6) REVISITA, uma vez por dia, na ULTIMA rodada da marca:
+
+    py revisitar.py
+
+Ele pega a peca mais antiga que ainda nao foi revisitada e republica a capa
+dela como story. Peca de tres semanas atras e NOVA para quem comecou a seguir
+semana passada, e a conta cresce todo dia. Nao toca no feed, nao refaz nada,
+nao gasta producao: e material ja pago e ja revisado.
+Ele guarda quem ja foi em .revisitados.txt e nao repete. Falhando, siga em
+frente e anote — revisita nao e o trabalho principal da rodada.
+
+7) O LINK DA BIO tambem tem origem propria:  py links.py bio instagram
+
+
+LINKEDIN — 19/08/2026. SUBSTITUI o artigo.md, nao soma.
+
+Grave o texto em  linkedin/<AAAA-MM-DD>-<tema-curto>.md  na RAIZ da pasta da
+marca, e nao dentro da pasta da peca. Motivo: o Fabio abre uma pasta so, em
+ordem, sem cacar dentro de pasta datada.
+
+NAO gere tambem artigo.md. Um texto so, no formato do LinkedIn, que serve para
+blog com ajuste minimo. Produzir dois seria trabalho dobrado sobre o mesmo
+conteudo — e a rodada ja esta longa.
+
+FORMATO DO LINKEDIN, que nao e o da legenda do Instagram:
+  - a PRIMEIRA LINHA e o gancho e aparece sozinha antes do "ver mais".
+    Uma frase, curta, com a tensao inteira dentro dela.
+  - PARAGRAFOS AGRUPADOS, SEM LINHA EM BRANCO entre eles. Determinacao do
+    Fabio em 19/08/2026. Blocos densos, cada um fechando uma ideia inteira,
+    separados por UMA quebra de linha simples. Nao espalhe em frases soltas.
+  - o gancho da primeira linha continua sozinho, sendo o primeiro bloco.
+  - listas viram TEXTO CORRIDO dentro do paragrafo, separadas por ponto e
+    virgula ou por travessao. Sem marcador, sem numeracao: o LinkedIn nao
+    renderiza markdown e asterisco aparece cru na tela.
+  - TEXTO JUSTIFICADO NAO EXISTE no LinkedIn. A plataforma nao tem formatacao
+    nenhuma: e texto puro, sempre alinhado a esquerda. Nao tente, nao promete.
+  - hashtags SEM ACENTO (#PericiaContabil, nao #PericiaContabil com acento):
+    hashtag acentuada quebra a indexacao no LinkedIn.
+  - entre 1.500 e 2.200 caracteres. O teto e 3.000.
+  - fecha com pergunta ao leitor OU com um teste que ele pode fazer sozinho.
+    Nao repita a oferta de 24h uteis: no LinkedIn ela soa comercial demais.
+  - de 3 a 5 hashtags, no fim, com acento e em CamelCase (#PericiaContabil).
+  - TITULO na primeira linha, em caixa alta, curto e direto. Requisito do
+    Fabio, 19/08/2026. Ele e a primeira coisa que aparece antes do "ver mais",
+    entao precisa segurar sozinho. O gancho vem logo abaixo, no bloco seguinte.
+  - LINK NO COMENTARIO, NAO NO POST — decidido em 20/08/2026, depois de o
+    Fabio ver na tela como fica. O arquivo sai com DUAS partes separadas por
+    uma linha de tracos:
+        ### POST — copie daqui ate a linha de tracos
+        <o post, terminando nas hashtags>
+        ------------------------------------------------------------------
+        ### COMENTARIO — cole depois de publicar, no seu proprio post
+        Quem quiser que eu olhe o caso, me chama aqui:
+        <link>
+    Ele publica o post limpo e cola o comentario logo em seguida, no proprio
+    post. Depois pode fixar o comentario nos tres pontinhos.
+    MOTIVO: o LinkedIn empurra menos post que manda gente para fora. No
+    comentario isso nao conta como saida, e o post circula mais.
+    O link e colado CRU: o LinkedIn transforma em clicavel sozinho, desde que
+    comece com https://. Nao existe link com texto embutido no LinkedIn.
+    Requisito do Fabio. Gere com:  py links.py post linkedin "<tema>"
+    NO LINKEDIN O LINK SAI CURTO de proposito ("Vim do LinkedIn - <tema>").
+    Em 20/08/2026 a frase completa codificada virou uma URL de QUATRO LINHAS
+    na caixa de publicacao — feia e com cara de link suspeito. Nao volte a
+    usar a mensagem longa no LinkedIn; nos outros destinos ela continua.
+    O aviso "nao foi possivel exibir pre-visualizacao" e NORMAL: o LinkedIn
+    nao gera cartao de preview para link de WhatsApp com parametro. Publique.
+    O destino linkedin existe no links.py desde 19/08/2026, entao o contato
+    que vier de la chega identificado como LinkedIn.
+    RESSALVA REGISTRADA: link no corpo derruba o alcance no LinkedIn — a
+    plataforma nao quer tirar gente de la. O Fabio sabe e decidiu assim. Nao
+    refaca essa discussao a cada rodada; a decisao esta tomada.
+  - assinatura da marca no fim, a mesma da legenda.
+
+VALEM AS MESMAS PROIBICOES da arte e da legenda: nada de promessa de resultado,
+percentual de exito, comparacao com outro profissional, preco, caso
+identificavel, credencial juridica ou sigla de conselho. Numero de demonstracao
+sempre rotulado como tal.
+
+
+CHAMADA DE PUBLICO NA CAPA — 20/08/2026, proposta do Fabio.
+Campo novo, OBRIGATORIO no bloco "marca":
+
+    "chamada_publico": "EI SELLER"
+
+Vira uma FAIXA cheia, largura inteira, na cor de destaque, logo abaixo da
+faixa de marca. So na CAPA — nunca nos slides internos.
+E FIXA: nao invente variacao, nao troque por peca. A frase e sempre essa.
+
+POR QUE: nomear o leitor faz ele parar, e filtra — quem nao e do ramo passa
+direto. Cada marca no registro do proprio comprador: a GKFD informal, com a
+palavra que o vendedor usa para se descrever; a IntegraJud seca, porque o
+advogado compra autoridade e "EI" derruba o tom caro da peca.
+
+CUSTO CONHECIDO: a faixa come 74px e empurra o conteudo. A manchete encolhe
+sozinha para caber — o autoajuste ja mede contra a faixa em cima E contra o
+rodape embaixo. Havendo aviso "capa nao limpou", encurte a headline.
+
+E ELA CANSA: sendo fixa, o seguidor antigo para de ve-la em uma ou duas
+semanas. Ela trabalha para quem ainda nao conhece a marca, nao para quem ja
+segue. Isso e esperado e nao e defeito.
+
+
+TRANSBORDO DOS SLIDES INTERNOS — corrigido no CODIGO em 20/08/2026.
+
+NAO EXISTE MAIS a regra "conferir o rodape olhando". Ela estava escrita desde
+19/08 e falhou de novo em 20/08: o slide 3 da peca das 16h saiu com a barra de
+progresso atravessando a segunda linha do rodape, publicado. Regra que depende
+de alguem olhar nao e regra.
+
+AGORA O SLIDE SE MEDE E ENCOLHE SOZINHO. Cada slide interno compara o fundo do
+seu conteudo com o topo da barra de progresso e reduz passo, fonte, espacamento
+e titulo em ate 9 passos de 6% ate passar acima dela.
+
+POR QUE O MEDIDOR ANTIGO NAO PEGAVA: ele compara altura do conteudo com altura
+da caixa. A barra e posicionada por cima, FORA do fluxo — entao o slide "cabia"
+pela conta e mesmo assim saia riscado. Sobreposicao nao e transbordo.
+
+O QUE ISSO NAO DISPENSA: se aparecer no console
+      .. <slug> slide N encolhido para 86%
+o texto ESTA grande demais. Encolher e rede de seguranca, nao licenca para
+escrever sem limite — abaixo de 90% a peca comeca a perder presenca ao lado das
+outras do carrossel. Aparecendo isso, encurte o passo mais longo ou o rodape.
+E se aparecer "nao coube acima da barra", ai e defeito real: corte texto.
+
+REFERENCIA DE TAMANHO que costuma caber a 100%: quatro passos de ate 4 linhas
+cada, titulo de 2 linhas e rodape de 1 linha. Rodape de 2 linhas ja aperta.
+
+
+MEDIDOR POR REGRA — 20/08/2026, e vale entender o principio.
+
+O medidor que impede texto riscado NAO usa mais lista de nomes de classe.
+Ele pergunta a posicao do elemento: quem esta fora do fluxo (absolute ou
+fixed) nao empurra texto nenhum e por isso nao entra na medida.
+
+POR QUE MUDOU: a lista falhou DUAS VEZES no mesmo dia. Primeiro faltava a
+barra de progresso e o slide 3 saiu riscado, publicado. Depois faltavam o
+retrato e a tira de prova, e o slide 5 encolheu a 57% sem nada sobrepondo.
+Lista esquece o proximo elemento que alguem criar. Regra nao esquece.
+
+CONSEQUENCIA PRATICA para quem escreve peca: nada muda no seu trabalho. Mas
+se aparecer no console
+      .. <slug> slide N encolhido para X%
+agora e verdade — nao e mais falso alarme. Abaixo de 90%, corte texto.

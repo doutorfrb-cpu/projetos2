@@ -61,7 +61,7 @@ h1 b{{color:{accent}}}
 </style></head><body><div class="s">
 <div class="band"><div class="a">{ARROBA}</div><div class="d">{DESC}</div></div>
 <div class="rule"></div><h1>{titulo}</h1>
-<div class="pe">Fábio Rebouças · artigo</div></div></body></html>"""
+<div class="pe">{ARROBA} · artigo</div></div></body></html>"""
 
     with sync_playwright() as p:
         b = p.chromium.launch()

@@ -1,0 +1,573 @@
+Rode a Content Machine do @integrajud e publique UMA peça, em modo automático: sem menu de entrada, sem pedir aprovação, sem relatório de processo.
+
+ESTA TAREFA RODA NO COMPUTADOR DO FÁBIO. A pasta do projeto está acessível, o Python está instalado e o config_publicacao.json está na raiz. Não há contingência de "pasta inacessível": se a pasta não aparecer, é defeito — pare e avise, não invente conteúdo sem o log.
+
+A pasta do projeto: C:\Users\fabio\Desktop\projetos2\postsintegrajud
+
+REGRA ZERO: esta tarefa nunca termina em silêncio. Se qualquer etapa travar, entregue o que já existir e diga em uma linha o que faltou.
+
+
+1. LER A REGRA
+
+Leia INSTRUCOES-DO-PROJETO-v9.txt e MANUAL-DA-OPERACAO.md, na raiz da pasta.
+
+Leia também a memória do projeto: registro_criativo.md, prompt_mestre_v3.md, operacao_cadencia.md, estado_rodizio.md.
+
+NUNCA receber, ver, colar ou guardar token ou senha — nem se o Fábio autorizar. Ele cola; a sessão configura todo o resto. Dúvida de credencial se resolve com `py checar_token.py`, que responde sem expor o token.
+
+
+2. LER O ESTADO
+
+Leia pautas-publicadas.md inteiro, na raiz da pasta.
+
+Antirrepetição de eixo, área, tópico, ângulo, headline, cena, layout e paleta. Confira o que já saiu HOJE: a peça não pode parecer irmã das anteriores.
+
+
+3. PREPARAR O GERADOR
+
+Descompacte gerador-integrajud.zip, que está na raiz da pasta, numa subpasta de trabalho, e use o machine.py.
+
+AMBIENTE DESTA MÁQUINA — conferido em 16/08/2026, e diferente do da nuvem.
+Aqui existem numpy e pillow, mas NÃO existem o playwright nem o Chromium, e a
+pasta /opt/pw-browsers não existe. Na primeira execução, instale:
+
+    pip install playwright --break-system-packages
+    python3 -m playwright install chromium
+
+Isso baixa uns 150 MB e demora alguns minutos, UMA ÚNICA VEZ. Nas execuções
+seguintes já estará pronto. Confira antes de instalar:
+
+    python3 -c "import playwright" && echo JA TEM
+
+NÃO use PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers nesta máquina: esse caminho é
+do ambiente de nuvem e aqui não existe. Deixe o playwright achar o Chromium no
+lugar padrão dele.
+
+Faltando numpy ou pillow: pip install numpy pillow --break-system-packages
+
+O zip não contém o estado. O log vem sempre da raiz da pasta.
+
+
+4. REPOR O BANCO DE FOTOS — automático, antes de escolher a pauta
+
+    python3 repor_fotos.py --status
+
+Saindo com código 1, busque no Pexels por termos de OBJETO E AMBIENTE (autos, arquivo, pasta, livro-razão, papel envelhecido, mesa com documento) e rode:
+
+    python3 repor_fotos.py <id> <id> <id> ...
+
+Nada de pessoa, mão ou terno. Deixe pelo menos 16 fotos livres antes de seguir, e grave o fotos_banco atualizado de volta na raiz. Repor é etapa da máquina — o Fábio não pede.
+
+
+5. ESCOLHER A PAUTA — e RESERVAR antes de produzir
+
+    py reservar.py --ver
+
+Havendo reserva viva, outra sessao esta produzindo agora: NAO use aquela area, aquela peca processual nem aquela frase de efeito. Em 16/08/2026 duas producoes rodaram com dois minutos de diferenca, leram o mesmo log, escolheram o mesmo tema e sairam dois posts gemeos lado a lado no perfil. O log resolve repeticao ao longo do tempo; nao resolve producao simultanea.
+
+Escolhida a pauta, reserve ANTES de renderizar:
+
+    py reservar.py "A4 bancarios | ACAO REVISIONAL | SE ISSO ESTA NO SEU PROCESSO"
+
+ATENCAO, CORRIGIDO EM 19/08/2026 — A BASE E O SITE.
+O rodizio usa SOMENTE as 14 areas que existem em www.integrajud.com.br:
+A1 civeis, A2 contabeis, A3 financeiros, A4 bancarios, A5 trabalhistas,
+A6 previdenciarios, A7 tributarios, A8 empresariais, A9 marketplace,
+A10 auditoria, A11 seguros, A12 imobiliarios, A13 agrarios, A14 personalizados.
+
+A PARTE 2 — A15 familia e sucessoes, A16 recuperacao judicial e falencia,
+A17 administrativo e licitacoes, A18 consumidor e superendividamento — foi
+LIBERADA pelo Fabio em 19/08/2026. Ele vai criar as quatro paginas no site.
+
+TRAVA, e ela e absoluta: cada uma so entra no rodizio DEPOIS que a pagina dela
+existir. No banco, cada uma dessas quatro traz uma linha PAGINA:. Se estiver
+escrito "pendente", NAO USE aquela area — escolha outra. Quando o Fabio criar
+a pagina, ele troca "pendente" pelo endereco e a area entra sozinha.
+Post que oferece area sem pagina quebra a promessa na chegada. Foi por isso
+que o exemplo do reservar.py, que usava A18, foi trocado.
+
+FAIXA DE MARCA NA CAPA — OBRIGATORIA desde 19/08/2026. Todo spec passa a
+trazer um bloco "marca", que antes nao existia nesta operacao:
+
+  "marca": {
+    "arroba": "@integrajud",
+    "descritor": "INTELIGENCIA PERICIAL PARA ADVOCACIA",
+    "faixa_opacidade": 0.86,
+    "prova": ["PERITO CONTABIL E FINANCEIRO", "+200 MODALIDADES DE CALCULO", "ATUACAO EM TODO O BRASIL"]
+  }
+
+Escreva "prova" com os acentos corretos: PERITO CONTABIL vira CONTABIL com A
+acentuado, MODALIDADES DE CALCULO com A acentuado, ATUACAO com C cedilha e A
+til. Os tres itens vem do site e sao verificaveis. NAO invente numero novo:
+"+200 modalidades" esta no site; qualquer outro numero precisa da palavra do
+Fabio antes de entrar.
+
+Escreva o descritor com os acentos corretos: INTELIGENCIA vai com E acentuado.
+E a mesma linha que esta no cabecalho de integrajud.com.br, embaixo do logo —
+nao invente outra. O motivo: "IntegraJud" diz ao advogado o MUNDO (juridico),
+nao o SERVICO. Sem a linha ele pode achar que e software de processo ou
+correspondencia juridica.
+
+A opacidade 0.86 e deliberada: o Fabio quer que a foto dele apareca um pouco
+atras da faixa. Nao subir para 1.0 nem descer abaixo de 0.80, que e onde o
+texto comeca a perder contraste.
+
+A capa se autoajusta: se a headline for longa demais e o bloco subir por baixo
+da faixa, o gerador encolhe a headline sozinho ate limpar. Havendo o aviso
+"capa nao limpou a faixa de marca", encurte a headline — e defeito real.
+
+A CHAMADA E A DO SITE: "Analise Tecnica Inicial Gratuita".
+A pergunta-mae do site e "Seu processo precisa de prova tecnica solida?".
+Nunca inventar chamada propria.
+
+Ao final, depois de publicar e gravar o log:
+
+    py reservar.py --liberar
+
+A reserva vence sozinha em 45 minutos, entao producao travada nao bloqueia o proximo disparo.
+
+Rodízio por PEÇA PROCESSUAL x ÁREA x MOMENTO, conforme a seção 8. Escolha a peça processual primeiro: é o que o advogado tem aberto na tela.
+
+Layout fora dos três últimos. Paleta fora das quatro últimas. Frase de efeito fora das cinco últimas.
+
+Área sem página no site pode virar pauta, desde que a legenda aponte para a HOME. Nunca publicar link para /areas/... que não existe.
+
+
+6. A PEÇA — CINCO SLIDES
+
+    SLIDE 1  GANCHO      a exposição do advogado
+    SLIDE 2  VALOR I     o que está em jogo tecnicamente
+    SLIDE 3  VALOR II    o que se apura, ou as perguntas que a peça precisa responder
+    SLIDE 4  VALOR III   a demonstração com números; sem ela, o erro que se repete
+    SLIDE 5  OFERTA      o machine.py monta
+
+No spec: "slides": [capa, valor, valor, valor, oferta]. O gerador aceita de 3 a 6 e ajusta a barra de progresso sozinho.
+
+CADA SLIDE DE VALOR CARREGA UM ARGUMENTO, DESENVOLVIDO. O erro a evitar é pegar quatro linhas e espalhar em três telas: isso é o mesmo conteúdo com mais rolagem, e o advogado percebe. Não sustentando cinco slides com densidade real, faça três — peça curta e cheia vale mais que cinco telas com enchimento.
+
+MODO DEMONSTRAÇÃO em UMA PEÇA A CADA DUAS, no slide 4: mesma base sob dois critérios, a diferença entre eles, e no rodapé, obrigatoriamente, "Números de demonstração, não de caso real". A conta TEM que fechar — advogado confere. Nunca resultado obtido, nunca percentual de êxito.
+
+O SLIDE 1 nomeia a EXPOSIÇÃO DO ADVOGADO, nunca o tema técnico. Arquitetura da capa: frase de efeito, tarja da peça processual, headline, linha de apoio.
+
+Headline de 6 a 12 palavras. Dureza é especificidade, nunca volume. Proibidos promessa de resultado, percentual de êxito, superlativo, comparação com outro profissional, preço e caso identificável.
+
+Headline de 3 linhas ou mais NÃO cabe no layout L5: use L1, L2 ou L3.
+
+
+7. FUNDOS
+
+Capa SEMPRE documento numérico gerado: "cenas": ["doc:extrato/dobra", "linho", "foto:px_9439258.jpg"]
+
+Overlay — o documento tem que virar TEXTURA, não conteúdo:
+  paleta escura sobre doc, capa: .50,.68,.86
+  paleta CLARA (P03, P08, P10) sobre doc, capa: .84,.90,.96
+  paleta escura sobre foto, capa: .30,.52,.80
+
+A família "planilha" é densa demais para capa com headline longa. Trocar por apuracao, razao ou comparativo.
+
+OLHE a capa renderizada antes de publicar. É etapa, não zelo extra.
+
+
+8. MONTAR
+
+Cinco slides 1080x1350. O machine.py já monta o rodapé do último slide com a faixa de WhatsApp e a chamada de análise gratuita. Não reescreva esse bloco.
+
+O spec traz uma cena por slide em "cenas". Havendo menos cenas que slides, o gerador reaproveita as do meio com seed diferente — funciona, mas escolher cena para cada slide sai melhor. Nunca dois slides seguidos com a mesma cara.
+
+Proibido em arte de feed qualquer "clique", "toque" ou seta: imagem de post do Instagram não carrega link.
+
+
+9. LEGENDAS — duas, uma por destino
+
+legenda.txt (Instagram): abre repetindo a tensão do gancho, desenvolve em 4 a 7 parágrafos — a legenda acompanha a profundidade da peça e é onde o argumento respira — e fecha nesta ordem — a oferta com prazo de 24h úteis, "Solicite a análise gratuita do seu caso em www.integrajud.com.br", https://wa.me/5511977237113. Mais 6 a 12 hashtags sem acento.
+
+legenda_facebook.txt: a mesma matéria, texto diferente, SEM hashtag. No Facebook o link é clicável, então o CTA pode ser direto.
+
+O site vem ANTES do WhatsApp. O que é gratuito é a ANÁLISE TÉCNICA inicial do documento — nunca "consultoria", "assessoria" ou "avaliação jurídica".
+
+Assinatura permitida, e só ela: Fábio Rebouças — Contador e Perito Contábil / IntegraJud · Inteligência pericial para advocacia
+
+Proibido em qualquer slide ou legenda: OAB, OAB/SP, número de inscrição (com ou
+sem o sufixo E), "Bacharel em Direito", "estagiário", "advogado" como
+qualificação própria, "assessoria jurídica", "consultoria jurídica".
+
+REFORÇADO EM 19/08/2026. O site listava "Bacharel em Direito" entre as
+qualificações. Cogitou-se trocar por um número de inscrição com sufixo E — que é
+inscrição de ESTAGIÁRIO, e o público desta marca é justamente quem decodifica
+esse sufixo na hora. DECISÃO DO FÁBIO: tirar e não substituir por nada. Nem no
+site, nem nos posts. Nenhuma credencial jurídica entra nesta marca.
+
+A autoridade da IntegraJud com advogado vem de: Contador, Perito Contábil,
+Administrador, MBA em Controladoria, MBA em Auditoria, 25 anos, mais de 200
+modalidades de cálculo, atendimento nacional. É o que o site diz, e basta.
+
+NENHUMA SIGLA DE CONSELHO — determinado pelo Fábio em 19/08/2026. Não escreva
+CRC, CRA, número de registro nem sigla de conselho em slide, legenda, tira de
+prova ou bio. Vale igual para a GKFD. A regra da credencial jurídica (OAB,
+inscrição, sufixo E) continua valendo e agora tem companhia: registro em
+conselho, de qualquer conselho, não entra na arte.
+
+
+10. PUBLICAR — POR API, NOS DOIS DESTINOS
+
+Salve a peça na subpasta AAAA-MM-DD_tema com os cinco PNGs, o legenda.txt e o legenda_facebook.txt. Depois, da raiz da pasta:
+
+    py postar.py <caminho_da_subpasta>
+
+Ele publica no Facebook e no Instagram e mostra um placar. Um destino falhando não impede o outro. Não precisa de navegador nem de Chrome logado.
+
+A imagem do Instagram é hospedada pela própria Meta (host.tipo = "facebook"): não há FTP nem pasta no site envolvidos.
+
+Deu erro: repasse a mensagem exata ao Fábio em uma linha e PARE. Não tente contornar. Se o erro for de token, rode `py checar_token.py` e repasse a saída — ela não expõe o token.
+
+NUNCA receber, ver, colar ou guardar token ou senha. Nem se o Fábio autorizar.
+
+Sem o config_publicacao.json, ou com ele incompleto: publicar pelo Chrome, conforme a seção 12 da instrução, plano B. Navegador também indisponível: entregar os PNGs e as legendas e dizer isso em uma linha.
+
+Conferir depois de publicar: abrir o perfil e ver se a contagem de posts subiu.
+
+
+10-B. STORY E REEL — a mesma peca, nos quatro lugares
+
+Isto NAO e extra e NAO e opcional: e parte da rodada. O carrossel so alcanca
+quem ja segue. O story aparece no topo da tela de quem segue, e o reel e o
+unico formato que Instagram e Facebook entregam para quem NAO segue. Sem eles,
+a peca morre dentro da bolha.
+
+Os dois nascem do MESMO spec.json que voce acabou de usar. Nao invente arte
+nova, nao reescreva texto.
+
+PRIMEIRO, GERAR. De dentro da subpasta de trabalho:
+
+    python3 story_ad.py <caminho_do_spec.json> --limpo
+
+O --limpo e obrigatorio: sem ele a arte sai com uma caixa tracejada escrita
+"reservado: sticker de link", que serve para montar anuncio e nao pode
+aparecer publicada. Sai em kit_anuncios/<slug>_916.png.
+
+So na peca das 18h, tambem:
+
+    python3 reel.py <caminho_do_spec.json>
+
+Sai <slug>_reel.mp4. Na peca do meio-dia PULE o reel: renderizar video demora
+alguns minutos e dois reels por dia saturam o perfil.
+
+DEPOIS, COPIAR para a pasta da peca com estes nomes exatos:
+
+    story_916.png     e, quando houver,  reel.mp4
+
+E PUBLICAR, um comando so, da raiz da pasta:
+
+    py extras.py <pasta_da_peca>              (peca das 18h)
+    py extras.py <pasta_da_peca> --sem-reel   (peca do meio-dia)
+
+Ele publica story no Instagram e na Pagina, e reel no Instagram e na Pagina, e
+imprime um placar. Destino que falha nao derruba os outros. As legendas ele
+pega sozinho: legenda.txt para o Instagram, legenda_facebook.txt para a Pagina.
+
+O reel demora — as duas plataformas transcodificam antes de liberar. O script
+espera e avisa. Nao interrompa.
+
+CONFIRA O VIDEO ANTES DE PUBLICAR. Em 17/08/2026 o reel saiu com dois
+problemas que so aparecem olhando quadro a quadro: dois segundos de tela
+branca no inicio, e o texto da cena do meio estourando a altura e saindo
+cortado. Os dois estao corrigidos no reel.py, e a correcao se anuncia sozinha
+na saida do comando — ele imprime "cena(s) reduzida(s) para caber" e
+"cortando Xs de preto do inicio". Nao aparecendo nenhuma das duas linhas em
+peca densa, desconfie e olhe o mp4.
+
+FALHANDO QUALQUER EXTRA: o carrossel JA ESTA PUBLICADO e a rodada nao se
+perde. Registre a falha no log em uma linha e siga. Nunca republique o
+carrossel por causa de story ou reel.
+
+
+ORDEM QUE NAO PODE INVERTER — 18/08/2026, e custou um post errado.
+Publique o CARROSSEL primeiro, e so depois gere e publique story e reel. Na
+GKFD o extras.py rodou antes do postar.py, o story_916.png ja estava na pasta,
+e o carrossel saiu com SEIS imagens: a arte 9:16 do story entrou como sexto
+slide, esticada. Os publicadores agora filtram e so aceitam os slides
+numerados, mas a ordem certa continua sendo carrossel primeiro.
+
+
+11. REGISTRAR E LIBERAR
+
+Grave a linha da peça em pautas-publicadas.md, na raiz da pasta, e em estado_rodizio.md na memória do projeto.
+
+Depois:  py reservar.py --liberar
+
+
+AO FINAL
+
+Confirme em uma linha: "Postado no @integrajud e na Página", mais eixo, área, peça processual, paleta e headline. Diga também se o story e o reel subiram.
+
+Não publicou: diga por quê, também em uma linha.
+
+
+GRAMATICA DE ANUNCIO NA CAPA E NA OFERTA — 19/08/2026, pedido do Fabio:
+"gramatica de anuncio, com informacao documental no miolo".
+
+O QUE MUDOU, e e automatico — voce nao escreve nada a mais no spec alem dos
+campos "descritor" e "prova":
+  - a chamada e a tarja viram UMA pilula com gradiente e brilho (o selo de
+    pauta). Continue preenchendo "chamada" e "peca" como sempre.
+  - a capa ganha faixa de WhatsApp e tira de prova no rodape.
+  - o slide 5 fecha com a mesma tira, e o selo Platinum entra menor, dentro
+    da faixa de marca: em tamanho de capa ele cobria a ponte.
+  - a manchete se mede contra a faixa em cima E contra o rodape embaixo, e
+    encolhe sozinha ate caber entre os dois.
+
+OS SLIDES 2, 3 E 4 NAO MUDARAM E NAO DEVEM MUDAR. E la que mora a densidade
+que filtra: quem chega no slide 4 de uma peca sobre conciliacao de repasse E
+vendedor de marketplace. A capa para o dedo; o miolo convence. Nao encurte o
+miolo para deixar a peca mais leve — isso destroi o filtro.
+
+DOS NOVE BLOCOS do exemplo que o Fabio mandou, ficaram CINCO na capa: faixa de
+marca, selo de pauta, manchete, apoio, rodape de contato e prova. O resto e
+ruido a 400 pixels, que e o tamanho real no feed.
+
+LIMITE CONHECIDO: o visual de anuncio nasce de fundo escuro. Nas paletas
+claras ele existe, mas discreto — sem brilho, so borda e contraste. Nao e
+defeito, e fisica: nao ha como brilhar sobre papel claro.
+
+
+LINK COM ORIGEM, COMENTARIO FIXADO, PRIMEIRA LINHA E ARTIGO — 19/08/2026.
+Quatro coisas que faltavam. Todas entram na rotina normal, sem custo.
+
+1) NUNCA MAIS ESCREVA O wa.me NA MAO. Use o links.py, que embute a origem na
+mensagem que a pessoa ja abre digitada. As duas marcas usam o MESMO numero:
+sem isso nao da para saber se o contato veio da GKFD ou da IntegraJud, do
+carrossel ou do story, do Instagram ou do Facebook.
+
+    py links.py carrossel instagram "<tema da peca>"
+    py links.py carrossel facebook "<tema da peca>"
+    py links.py story instagram "<tema da peca>"
+
+Cada legenda leva o link do SEU destino. Errar o destino estraga a medicao.
+
+2) PRIMEIRO COMENTARIO, logo depois de publicar:
+
+    py comentar.py <ig_media_id> <fb_post_id> "<tema da peca>"
+
+Os dois ids sao os mesmos que voce ja grava no log. Imagem de feed NAO clica —
+e por isso que a arte tem proibicao de "clique" e de seta. O comentario clica.
+Ate hoje a gente publicava sem deixar link em lugar nenhum no Instagram.
+Falhando, NAO desfaca nada: a peca ja esta publicada, anote e siga.
+FIXAR o comentario nao tem endpoint na API. E no aplicativo, e so vale a pena
+nas pecas que engrenarem.
+
+3) A PRIMEIRA LINHA DA LEGENDA e a unica que aparece no feed antes do "mais".
+Ela nao pode ser aquecimento nem repeticao da headline que ja esta na arte.
+Ela precisa carregar UMA informacao nova, concreta, que faca o dedo parar —
+de preferencia um numero ou uma consequencia. Escreva ela por ultimo, depois
+que a legenda estiver pronta, olhando o texto inteiro.
+
+4) ARTIGO. Grave tambem artigo.md na pasta da peca: titulo, 4 a 7 paragrafos e
+um fecho. O corpo sai dos slides 2, 3 e 4, que ja estao escritos — nao e
+conteudo novo, e o mesmo conteudo em prosa corrida, sem as quebras de slide.
+O Fabio publica no blog quando quiser. Motivo: quem digita a duvida no Google
+e cem por cento do nicho, o artigo trabalha por anos, e o carrossel do dia
+morre em 48 horas. Custo marginal quase zero, alcance que nao expira.
+Sem promessa de resultado, sem percentual, sem caso identificavel — as mesmas
+regras da arte valem no artigo.
+
+
+TEXTO ALTERNATIVO E REVISITA — 19/08/2026.
+
+5) ALT.TXT. Grave na pasta da peca um arquivo alt.txt com UMA LINHA POR SLIDE,
+na ordem. Cada linha descreve o que o slide mostra, em uma frase, comecando
+pelo assunto. Exemplo da capa: "Capa sobre chargeback: venda desfeita que
+continua na apuracao do mes." O publicar_instagram.py le esse arquivo sozinho
+e manda como alt_text de cada imagem. Sem o arquivo, publica sem alt e nada
+quebra — mas grave, porque serve para leitor de tela e para a propria Meta
+entender do que a peca trata. Maximo 990 caracteres por linha.
+
+6) REVISITA, uma vez por dia, na ULTIMA rodada da marca:
+
+    py revisitar.py
+
+Ele pega a peca mais antiga que ainda nao foi revisitada e republica a capa
+dela como story. Peca de tres semanas atras e NOVA para quem comecou a seguir
+semana passada, e a conta cresce todo dia. Nao toca no feed, nao refaz nada,
+nao gasta producao: e material ja pago e ja revisado.
+Ele guarda quem ja foi em .revisitados.txt e nao repete. Falhando, siga em
+frente e anote — revisita nao e o trabalho principal da rodada.
+
+7) O LINK DA BIO tambem tem origem propria:  py links.py bio instagram
+
+
+LINKEDIN — 19/08/2026. SUBSTITUI o artigo.md, nao soma.
+
+Grave o texto em  linkedin/<AAAA-MM-DD>-<tema-curto>.md  na RAIZ da pasta da
+marca, e nao dentro da pasta da peca. Motivo: o Fabio abre uma pasta so, em
+ordem, sem cacar dentro de pasta datada.
+
+NAO gere tambem artigo.md. Um texto so, no formato do LinkedIn, que serve para
+blog com ajuste minimo. Produzir dois seria trabalho dobrado sobre o mesmo
+conteudo — e a rodada ja esta longa.
+
+FORMATO DO LINKEDIN, que nao e o da legenda do Instagram:
+  - a PRIMEIRA LINHA e o gancho e aparece sozinha antes do "ver mais".
+    Uma frase, curta, com a tensao inteira dentro dela.
+  - PARAGRAFOS AGRUPADOS, SEM LINHA EM BRANCO entre eles. Determinacao do
+    Fabio em 19/08/2026. Blocos densos, cada um fechando uma ideia inteira,
+    separados por UMA quebra de linha simples. Nao espalhe em frases soltas.
+  - o gancho da primeira linha continua sozinho, sendo o primeiro bloco.
+  - listas viram TEXTO CORRIDO dentro do paragrafo, separadas por ponto e
+    virgula ou por travessao. Sem marcador, sem numeracao: o LinkedIn nao
+    renderiza markdown e asterisco aparece cru na tela.
+  - TEXTO JUSTIFICADO NAO EXISTE no LinkedIn. A plataforma nao tem formatacao
+    nenhuma: e texto puro, sempre alinhado a esquerda. Nao tente, nao promete.
+  - hashtags SEM ACENTO (#PericiaContabil, nao #PericiaContabil com acento):
+    hashtag acentuada quebra a indexacao no LinkedIn.
+  - entre 1.500 e 2.200 caracteres. O teto e 3.000.
+  - fecha com pergunta ao leitor OU com um teste que ele pode fazer sozinho.
+    Nao repita a oferta de 24h uteis: no LinkedIn ela soa comercial demais.
+  - de 3 a 5 hashtags, no fim, com acento e em CamelCase (#PericiaContabil).
+  - TITULO na primeira linha, em caixa alta, curto e direto. Requisito do
+    Fabio, 19/08/2026. Ele e a primeira coisa que aparece antes do "ver mais",
+    entao precisa segurar sozinho. O gancho vem logo abaixo, no bloco seguinte.
+  - LINK NO COMENTARIO, NAO NO POST — decidido em 20/08/2026, depois de o
+    Fabio ver na tela como fica. O arquivo sai com DUAS partes separadas por
+    uma linha de tracos:
+        ### POST — copie daqui ate a linha de tracos
+        <o post, terminando nas hashtags>
+        ------------------------------------------------------------------
+        ### COMENTARIO — cole depois de publicar, no seu proprio post
+        Quem quiser que eu olhe o caso, me chama aqui:
+        <link>
+    Ele publica o post limpo e cola o comentario logo em seguida, no proprio
+    post. Depois pode fixar o comentario nos tres pontinhos.
+    MOTIVO: o LinkedIn empurra menos post que manda gente para fora. No
+    comentario isso nao conta como saida, e o post circula mais.
+    O link e colado CRU: o LinkedIn transforma em clicavel sozinho, desde que
+    comece com https://. Nao existe link com texto embutido no LinkedIn.
+    Requisito do Fabio. Gere com:  py links.py post linkedin "<tema>"
+    NO LINKEDIN O LINK SAI CURTO de proposito ("Vim do LinkedIn - <tema>").
+    Em 20/08/2026 a frase completa codificada virou uma URL de QUATRO LINHAS
+    na caixa de publicacao — feia e com cara de link suspeito. Nao volte a
+    usar a mensagem longa no LinkedIn; nos outros destinos ela continua.
+    O aviso "nao foi possivel exibir pre-visualizacao" e NORMAL: o LinkedIn
+    nao gera cartao de preview para link de WhatsApp com parametro. Publique.
+    O destino linkedin existe no links.py desde 19/08/2026, entao o contato
+    que vier de la chega identificado como LinkedIn.
+    RESSALVA REGISTRADA: link no corpo derruba o alcance no LinkedIn — a
+    plataforma nao quer tirar gente de la. O Fabio sabe e decidiu assim. Nao
+    refaca essa discussao a cada rodada; a decisao esta tomada.
+  - assinatura da marca no fim, a mesma da legenda.
+
+VALEM AS MESMAS PROIBICOES da arte e da legenda: nada de promessa de resultado,
+percentual de exito, comparacao com outro profissional, preco, caso
+identificavel, credencial juridica ou sigla de conselho. Numero de demonstracao
+sempre rotulado como tal.
+
+
+CHAMADA DE PUBLICO NA CAPA — 20/08/2026, proposta do Fabio.
+Campo novo, OBRIGATORIO no bloco "marca":
+
+    "chamada_publico": "ADVOGADO:"
+
+Vira uma FAIXA cheia, largura inteira, na cor de destaque, logo abaixo da
+faixa de marca. So na CAPA — nunca nos slides internos.
+E FIXA: nao invente variacao, nao troque por peca. A frase e sempre essa.
+
+POR QUE: nomear o leitor faz ele parar, e filtra — quem nao e do ramo passa
+direto. Cada marca no registro do proprio comprador: a GKFD informal, com a
+palavra que o vendedor usa para se descrever; a IntegraJud seca, porque o
+advogado compra autoridade e "EI" derruba o tom caro da peca.
+
+CUSTO CONHECIDO: a faixa come 74px e empurra o conteudo. A manchete encolhe
+sozinha para caber — o autoajuste ja mede contra a faixa em cima E contra o
+rodape embaixo. Havendo aviso "capa nao limpou", encurte a headline.
+
+E ELA CANSA: sendo fixa, o seguidor antigo para de ve-la em uma ou duas
+semanas. Ela trabalha para quem ainda nao conhece a marca, nao para quem ja
+segue. Isso e esperado e nao e defeito.
+
+
+TRANSBORDO DOS SLIDES INTERNOS — corrigido no CODIGO em 20/08/2026.
+
+NAO EXISTE MAIS a regra "conferir o rodape olhando". Ela estava escrita desde
+19/08 e falhou de novo em 20/08: o slide 3 da peca das 16h saiu com a barra de
+progresso atravessando a segunda linha do rodape, publicado. Regra que depende
+de alguem olhar nao e regra.
+
+AGORA O SLIDE SE MEDE E ENCOLHE SOZINHO. Cada slide interno compara o fundo do
+seu conteudo com o topo da barra de progresso e reduz passo, fonte, espacamento
+e titulo em ate 9 passos de 6% ate passar acima dela.
+
+POR QUE O MEDIDOR ANTIGO NAO PEGAVA: ele compara altura do conteudo com altura
+da caixa. A barra e posicionada por cima, FORA do fluxo — entao o slide "cabia"
+pela conta e mesmo assim saia riscado. Sobreposicao nao e transbordo.
+
+O QUE ISSO NAO DISPENSA: se aparecer no console
+      .. <slug> slide N encolhido para 86%
+o texto ESTA grande demais. Encolher e rede de seguranca, nao licenca para
+escrever sem limite — abaixo de 90% a peca comeca a perder presenca ao lado das
+outras do carrossel. Aparecendo isso, encurte o passo mais longo ou o rodape.
+E se aparecer "nao coube acima da barra", ai e defeito real: corte texto.
+
+REFERENCIA DE TAMANHO que costuma caber a 100%: quatro passos de ate 4 linhas
+cada, titulo de 2 linhas e rodape de 1 linha. Rodape de 2 linhas ja aperta.
+
+
+MEDIDOR POR REGRA — 20/08/2026, e vale entender o principio.
+
+O medidor que impede texto riscado NAO usa mais lista de nomes de classe.
+Ele pergunta a posicao do elemento: quem esta fora do fluxo (absolute ou
+fixed) nao empurra texto nenhum e por isso nao entra na medida.
+
+POR QUE MUDOU: a lista falhou DUAS VEZES no mesmo dia. Primeiro faltava a
+barra de progresso e o slide 3 saiu riscado, publicado. Depois faltavam o
+retrato e a tira de prova, e o slide 5 encolheu a 57% sem nada sobrepondo.
+Lista esquece o proximo elemento que alguem criar. Regra nao esquece.
+
+CONSEQUENCIA PRATICA para quem escreve peca: nada muda no seu trabalho. Mas
+se aparecer no console
+      .. <slug> slide N encolhido para X%
+agora e verdade — nao e mais falso alarme. Abaixo de 90%, corte texto.
+
+
+ARTIGO SEMANAL DO LINKEDIN — so na rodada das 18h, e so as QUARTAS.
+Definido pelo Fabio em 21/08/2026: "ou tem rotina ou nao faz".
+
+CONDICAO: se hoje for QUARTA-FEIRA e esta for a rodada das 18h, produza tambem
+o artigo. Nos outros dias, NAO produza — nao pergunte, nao avise, so siga.
+Para saber o dia: `py -c "import datetime;print(datetime.date.today().weekday())"`
+devolve 0 para segunda e 2 para QUARTA.
+
+POR QUE SEMANAL E NAO DIARIO: artigo nao e post grande, e outra funcao. O post
+alcanca; o artigo PERMANECE e ranqueia no Google. O LinkedIn distribui artigo
+bem menos que post, de proposito. Sessenta artigos rasos por mes nao valem
+quatro bons — e artigo bom exige profundidade, que nao existe em ritmo diario.
+
+DE ONDE SAI O TEMA: das QUATRO pecas da semana da IntegraJud, escolha a mais
+forte e APROFUNDE. Nao repita o texto do post — o post ficou na superficie das
+perguntas; o artigo desce ao mecanismo, explica POR QUE o erro passa
+despercebido, e traz uma demonstracao aritmetica que FECHA.
+
+DOIS ARQUIVOS, os dois em linkedin/:
+
+  1) linkedin/AAAA-MM-DD-ARTIGO-<tema>.md
+     - 800 a 1.200 palavras
+     - primeira linha: [TITULO DO ARTIGO — cole no campo de titulo]
+       seguida do titulo. Ele vai no campo proprio, nao no corpo.
+     - marque cada subtitulo com [SUBTITULO] na linha anterior. No editor do
+       LinkedIn o subtitulo esta no menu "Estilo", nao em botao proprio.
+     - PARAGRAFOS SEPARADOS, ao contrario do post. Aqui o editor afasta
+       sozinho e os subtitulos e que agrupam. Bloco denso de mil palavras nao
+       se le.
+     - fecha com pergunta ao advogado e a assinatura da marca.
+     - SEM LINK no corpo, igual ao post.
+
+  2) a CAPA, deitada, gerada por:
+       py capa_artigo.py "<titulo, com <b> na parte destacada>" P01 AAAA-MM-DD-capa-<tema>
+     A capa do artigo e 1920x1080 e o LinkedIn a mostra numa faixa larga.
+     NUNCA use slide de carrossel como capa: ele e em pe, 1080x1350, e sai
+     cortado no meio perdendo a manchete. Foi o primeiro erro que apareceu.
+
+VALEM AS MESMAS PROIBICOES de sempre: nada de promessa de resultado,
+percentual de exito, comparacao, preco, caso identificavel, credencial
+juridica ou sigla de conselho. Numero de demonstracao sempre rotulado.
+
+FALHANDO O ARTIGO: nao derrube a rodada. A peca das 18h e o principal; o
+artigo e acrescimo. Anote no log e siga.

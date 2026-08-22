@@ -414,8 +414,11 @@ def build(spec_path):
     MK_ZAP = _m.get("whatsapp", "11 97723-7113")
     MK_CTA = _m.get("cta", "Análise gratuita do seu caso em")
     MK_SITE = _m.get("site", "www.integrajud.com.br")
-    MK_CARGO = _m.get("cargo", "Perito Contábil")
-    MK_NOME = _m.get("nome", "Fábio Rebouças")
+    # IDENTIDADE E DA EMPRESA — 21/08/2026. Estes dois campos saiam
+    # como nome e cargo pessoais ao lado do retrato. Agora carregam a
+    # MARCA. Spec que mandar nome de pessoa aqui esta errado.
+    MK_CARGO = _m.get("cargo", "Inteligência pericial para advocacia")
+    MK_NOME = _m.get("nome", "IntegraJud")
     MK_OFERTA = _m.get("oferta_padrao",
                        "Mande o laudo. Em até 24h úteis eu digo se há o que impugnar")
 

@@ -85,9 +85,11 @@ def montar_html(spec, out):
     MK_SUB = _m.get("cta", "Análise gratuita do seu caso em")
     MK_SITE = _m.get("site", "www.integrajud.com.br")
     MK_ZAP = _m.get("whatsapp", "11 97723-7113")
+    # IDENTIDADE E DA EMPRESA — 21/08/2026, determinacao do Fabio.
+    # NENHUM nome pessoal na arte. Quem assina e a marca.
     MK_ASSIN = _m.get("assinatura",
-                      "Fábio Rebouças — Contador e Perito Contábil<br>"
-                      "IntegraJud · Inteligência pericial para advocacia")
+                      "IntegraJud<br>"
+                      "Inteligência pericial para advocacia")
     # SELO DA MARCA — 18/08/2026. No reel ele fica FIXO sobre o palco, visivel
     # nas tres cenas: e credencial, e credencial some junto com a cena nao
     # cumpre a funcao. Fora do .cena de proposito, para nao entrar na animacao.

@@ -1,0 +1,94 @@
+{
+  "slug": "gkfd_escrituracao_extrato",
+  "outdir": "pc_gkfd9",
+  "paleta": "G05",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "duna",
+    "linho",
+    "granito",
+    "madeira",
+    "gesso"
+  ],
+  "seeds": [
+    9101,
+    9102,
+    9103,
+    9104,
+    9105
+  ],
+  "overlay": [
+    ".30,.52,.74",
+    ".18,.34",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L2",
+      "chamada": "O BANCO NÃO CONTA TUDO",
+      "peca": "ESCRITURAÇÃO POR EXTRATO",
+      "headline": "O que caiu no banco<br>não é o que<br><b>você vendeu</b>",
+      "apoio": "O crédito do repasse chega líquido de comissão, tarifa, frete, publicidade e estorno. Escriturado por ele, o mês nasce com a receita menor e a despesa invisível."
+    },
+    {
+      "kicker": "Marketplace · primeiro mês de operação",
+      "titulo": "O crédito do banco é o fim da conta, não o começo",
+      "passos": [
+        "<em>O que a plataforma deposita já é saldo.</em> Entre a venda e o crédito entram comissão, tarifa fixa, frete, publicidade, estorno e antecipação. O que chega é o resultado de uma conta que outra empresa fechou.",
+        "<em>Receita bruta é a venda, não o depósito.</em> A base do Simples é o valor da operação, pelo preço que o comprador pagou. Escriturar pelo líquido declara receita a menor e apaga a despesa que explicaria a diferença.",
+        "<em>Despesa não lançada não reduz nada.</em> Comissão, frete e publicidade são custo da operação e precisam existir na contabilidade para aparecer no resultado. Embutidos na receita, somem do DRE."
+      ],
+      "rodape": "O extrato diz quanto sobrou. A contabilidade tem de dizer de onde."
+    },
+    {
+      "kicker": "O que o primeiro fechamento precisa responder",
+      "titulo": "Quatro perguntas antes de fechar o mês",
+      "passos": [
+        "<em>Quanto você vendeu, pelo preço da nota?</em> A receita do mês é a soma das operações, não a soma dos créditos. Os dois números existem, e são diferentes.",
+        "<em>Quanto a plataforma reteve, e a que título?</em> Comissão, tarifa, frete e publicidade têm naturezas distintas e não cabem num desconto único de venda.",
+        "<em>O que foi cancelado, devolvido ou estornado?</em> Venda desfeita sai da base, mas só sai se estiver identificada. Diluída no líquido, nunca chegou a ser lançada.",
+        "<em>O banco fecha com o relatório de repasse?</em> Diferença que não se explica linha a linha vira ajuste, e ajuste sem origem é dinheiro que ninguém foi procurar."
+      ],
+      "rodape": "Quatro respostas no primeiro mês, ou doze meses de conciliação depois."
+    },
+    {
+      "kicker": "O erro que se repete",
+      "titulo": "Onde ele aparece no balancete",
+      "passos": [
+        "<em>Receita menor que o painel de vendas.</em> O total escriturado não bate com o total vendido, e a diferença tem exatamente o tamanho das tarifas do mês.",
+        "<em>Nenhuma conta de comissão no resultado.</em> Operação de marketplace sem linha de comissão, frete e publicidade não é operação enxuta: é custo escondido dentro da receita.",
+        "<em>Margem que parece boa e caixa que não sobra.</em> Com a despesa embutida, o percentual de lucro sai alto sobre uma receita pequena, e o preço é formado em cima disso.",
+        "<em>Diferença rolando de mês a mês.</em> Retenção, reserva e liberação parcial atravessam a virada. Sem competência definida, o saldo pendente vira ajuste no mês seguinte."
+      ],
+      "rodape": "Nenhum deles aparece no extrato. Todos aparecem no repasse."
+    },
+    {
+      "ponte": "A contabilidade<br>tem de descrever<br>a sua operação.",
+      "itens": [
+        "Escrituração a partir do repasse, e não do crédito bancário",
+        "Pedido, nota, repasse e banco conciliados linha a linha",
+        "Balancete e DRE separados por canal"
+      ],
+      "oferta": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa"
+    }
+  ]
+}

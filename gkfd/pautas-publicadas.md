@@ -21,42 +21,203 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
 
 2026-08-20 | 20h13 | G4 estoque e custos | M4 entrando no fulfillment | EXTRAVIO E AVARIA | ESTOQUE FORA DE CASA | estoque em poder de terceiro: perda nao classificada e ressarcimento pago por valor de referencia da plataforma | as quatro perguntas do inventario e o erro que se repete (perda vira custo, ressarcimento vira receita de venda) | Sumiu no fulfillment e o ressarcimento veio menor que o seu custo | L4 | doc:extrato/formulario (DOCUMENTO) | G02 verde liberado | /areas/estoque | FB 1336325419554251_122097515937451002 | IG 18204594271366220 | story e reel publicados nos dois destinos | primeiro comentario FALHOU (permissao, mesmo erro de 16h) | revisita: story da peca 2026-08-18_repasse-receita-bruta
 
+2026-08-21 | 16h05 | G8 abertura e regularização | M1 antes de abrir | CNPJ E CNAE | O CADASTRO COBRA DEPOIS | CNAE genérico escolhido na abertura empurra a receita para o anexo errado desde a primeira venda | demonstração aritmética da mesma receita no Anexo I e no Anexo III (6,61% x 9,53% efetivos, R$ 1.165 de diferença no mês) | Você escolheu o CNAE em cinco minutos e continua pagando por ele todo mês | L5 | doc:comparativo/liso (DOCUMENTO) | G04 noturno operacional | /areas/abertura | FB 1336325419554251_122098043985451002 | IG CARROSSEL PENDENTE (OAuthException 4) | story e reel publicados nos dois destinos | plataforma citada: Shopee, Amazon e Magalu (quebra as 4 peças seguidas sem citar) | primeiro comentário NÃO tentado (escopo do app, estado conhecido)
+
+2026-08-21 | 20h05 | G1 contabilidade do e-commerce | M2 primeiro mês vendendo | ESCRITURAÇÃO POR EXTRATO | O BANCO NÃO CONTA TUDO | escrituração feita pelo crédito bancário, sem o repasse que está por trás | o crédito é o FIM da conta: receita a menor e despesa invisível, e os quatro sinais disso no balancete | O que caiu no banco não é o que você vendeu | L2 | duna (SUPERFÍCIE) | G05 roxo plataforma | /areas/contabilidade | FB 1336325419554251_122098135815451002 | IG CARROSSEL PENDENTE (OAuthException 4, segunda vez no dia) | story e reel publicados nos quatro destinos | SEM modo demonstração (slide 4 no formato "o erro que se repete") | plataforma NÃO citada pelo nome | primeiro comentário NÃO tentado (escopo do app, estado conhecido) | revisita: story da peça 2026-08-18_saldo-retido
+
 ## Rodízio — estado atual
-- Total do perfil: 6 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
+- Total do perfil: 8 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
   de 17-18/08, saiu antes do log existir — considerar A3 e o ponto de
   vazamento REPASSE DO MÊS como usados, e a paleta G01 e o layout L2 também.)
 - Áreas usadas: A3/G3 repasse, A8/G5 ads, A4/G9 retenção, A1/G2 regime,
-  G6 devoluções e estornos, G7 gestão e rentabilidade, G4 estoque e custos.
-  INTACTAS: G1, G8.
+  G6 devoluções e estornos, G7 gestão e rentabilidade, G4 estoque e custos,
+  G8 abertura e regularização, G1 contabilidade do e-commerce.
+  AS NOVE ÁREAS DO SITE JÁ RODARAM. A partir daqui a área repete, e o que
+  segura a diferença é o PAR área × momento (não repetir em menos de 20 peças)
+  e o ponto de vazamento (não repetir em menos de 8). Sobram 19 dos 28 pontos.
 - Momentos usados: M7 fechamento do mês (2x — G3 e G6), M6 investindo em ADS,
   M8 saldo retido, M3 crescendo rápido, M5 abrindo em segunda plataforma,
-  M4 entrando no fulfillment.
+  M4 entrando no fulfillment, M1 antes de abrir, M2 primeiro mês vendendo.
+  INTACTOS: M9 caiu na malha, M10 trocando de contador.
 - Pontos de vazamento usados: REPASSE DO MÊS, ADS DA PLATAFORMA, SALDO RETIDO,
-  ANEXO E FATOR R, CHARGEBACK, DRE POR CANAL, EXTRAVIO E AVARIA.
+  ANEXO E FATOR R, CHARGEBACK, DRE POR CANAL, EXTRAVIO E AVARIA, CNPJ E CNAE,
+  ESCRITURAÇÃO POR EXTRATO.
 - Paletas GKFD: G01 azul painel, G02 verde liberado, G03 laranja embalagem,
   G04 noturno operacional, G05 roxo plataforma, G06 vermelho retido.
-  Últimas três: G03, G01, G02. Próxima peça sai em G04, G05 ou G06.
+  Últimas três: G02, G04, G05. Próxima peça sai em G01, G03 ou G06.
 - Frases de efeito usadas: CONFERE UMA COISA, ANTES DE SUBIR O ORÇAMENTO,
   O DINHEIRO JÁ É SEU, A FOLHA DECIDE O ANEXO, VENDA DESFEITA,
-  FATURA MAIS, SOBRA MENOS, ESTOQUE FORA DE CASA.
-- Layouts: L1 a L6. Últimos três: L2, L1, L4. Próxima peça sai em L5
-  (L3 e L6 seguem vetados por causa do selo de 320px).
-- Modo demonstração: usada em 18/08 (ADS), 19/08 manhã (Fator R) e 20/08 16h
-  (DRE por canal). A peça de 20/08 20h saiu SEM demonstração, com o slide 4 no
-  formato "o erro que se repete". A PRÓXIMA peça VOLTA a trazer demonstração,
-  em quadro.
+  FATURA MAIS, SOBRA MENOS, ESTOQUE FORA DE CASA, O CADASTRO COBRA DEPOIS,
+  O BANCO NÃO CONTA TUDO.
+- Layouts: L1 a L6. Últimos três: L4, L5, L2. Próxima peça sai em L1 — e é a
+  única disponível: com L3 e L6 vetados pelo selo de 320px, sobraram quatro
+  layouts para uma regra de rodízio de três. Na prática o rodízio virou fixo
+  L1-L2-L4-L5. Se isso incomodar, ou o selo encolhe, ou a regra passa a ser
+  "fora dos DOIS últimos".
+- Modo demonstração: usada em 18/08 (ADS), 19/08 manhã (Fator R), 20/08 16h
+  (DRE por canal) e 21/08 16h (CNAE, em quadro). A de 21/08 20h saiu SEM
+  demonstração. A PRÓXIMA VOLTA A TER demonstração, em quadro no slide 4.
 - Sem banco de fotos: fundo sempre gerado (documento numérico + superfície
   neutra). Nada de foto.
-- TIPO DE CAPA DAS ÚLTIMAS TRÊS: documento (extrato/copia), SUPERFÍCIE
-  (concreto), DOCUMENTO (extrato/formulario). A PRÓXIMA CAPA PODE SER QUALQUER
-  UM DOS DOIS — nunca três seguidas do mesmo tipo.
-- Plataforma citada pelo nome: nenhuma desde 18/08 — as peças de 19/08 e as
-  duas de 20/08 dizem "a plataforma", "o canal" ou "o galpão". A de 20/08 20h
-  chegou a considerar citar (fulfillment: Full, FBA) e não citou, para não
-  afirmar política de plataforma específica. A PRÓXIMA deveria citar uma,
-  revezando entre as seis — já são quatro peças seguidas sem citar.
+- TIPO DE CAPA DAS ÚLTIMAS TRÊS: DOCUMENTO (extrato/formulario), DOCUMENTO
+  (comparativo/liso), SUPERFÍCIE (duna). A PRÓXIMA CAPA SAI EM DOCUMENTO.
+- Plataforma citada pelo nome: a peça de 21/08 16h citou Shopee, Amazon e
+  Magalu, numa frase que NÃO afirma política de plataforma nenhuma ("vender na
+  Shopee, na Amazon ou no Magalu não muda essa classificação"). Foi assim que
+  deu para citar sem o risco que travou a peça de 20/08 20h: cite o NOME dentro
+  de uma afirmação sobre a LEI, nunca sobre a regra da plataforma. A peça de
+  21/08 20h NÃO citou. Falta uma sem citar; depois, revezar para Mercado Livre.
 
 ## LIÇÕES
+
+**21/08/2026 (20h) — AS NOVE ÁREAS DO SITE SE ESGOTARAM EM QUATRO DIAS.**
+Com a peça de G1 fecha o primeiro giro completo: G1 a G9, uma cada. Daqui em
+diante a área OBRIGATORIAMENTE repete, e a antirrepetição passa a depender
+inteira dos outros dois eixos — o PAR área × momento (20 peças) e o PONTO DE
+VAZAMENTO (8 peças). Sobram 19 dos 28 pontos de vazamento e 2 dos 10 momentos
+intactos, o que dá fôlego, mas o padrão de esgotamento é o mesmo que derrubou
+o banco de 14 áreas da IntegraJud em um dia. RECOMENDAÇÃO PARA O FÁBIO, não
+executada porque é decisão dele: a G1 do site é ampla ("contabilidade do
+e-commerce") e comporta subpáginas; sem isso, o link da peça de hoje foi para
+/areas/contabilidade e a variação futura terá de vir toda do vazamento.
+
+**21/08/2026 (20h) — OAuthException 4 DE NOVO, E NÃO É JANELA CURTA.**
+Segunda peça seguida em que o Facebook publica na primeira tentativa e o
+carrossel do Instagram morre no `media_publish` do container pai com
+"Application request limit reached". Entre as duas tentativas passaram QUATRO
+HORAS, e no meio delas o `extras.py` publicou story e reel nos quatro destinos
+e o `revisitar.py` publicou mais um story — tudo no mesmo app e no mesmo token,
+tudo OK. Isso derruba as duas hipóteses fáceis: não é token e não é limite da
+conta. É limite do endpoint de publicação de CARROSSEL, e ele não virou em
+quatro horas.
+CONDUTA SEGUIDA, e é a da lição das 16h: UMA tentativa, e parar. Não insisti.
+O QUE FALTA INVESTIGAR numa sessão com tempo: as seis tentativas das 16h
+criaram 36 containers e podem ter estourado a janela DIÁRIA de publicação
+(o limite documentado é de 50 posts por 24h por conta do Instagram, e cada
+tentativa de carrossel conta). Se for isso, a janela vira à meia-noite e o
+comando é `python3 publicar_instagram.py 2026-08-21_escrituracao-extrato`.
+DUAS PEÇAS PENDENTES no Instagram hoje: a das 16h (cnae-abertura) e esta.
+Publicar as duas com intervalo, nunca em sequência.
+
+**21/08/2026 (20h) — O SLIDE 5 COUBE, E O QUE FEZ CABER FOI A REGRA DE LINHA.**
+Aplicada a regra corrigida das 16h — ponte de 3 linhas, 3 itens somando 5
+linhas com o terceiro em 1 linha, oferta de 2 linhas — a tira de prova ficou
+abaixo de `www.gkfd.com.br` sem encostar. Primeira vez em três peças que o
+slide de oferta sai limpo sem paliativo de última hora. A regra funciona; o
+autoajuste continua sendo o conserto de verdade.
+
+**21/08/2026 (20h) — SLIDE DE 3 PASSOS NÃO ENCOLHE; DE 4, ENCOLHE.**
+Primeira renderização: slides 2 e 3 a 94%. Cortei UMA linha de cada passo do
+slide 2 (3 passos) e encurtei o título de "não é o começo dela" para "não é o
+começo" — o slide 2 subiu para 100%. O slide 3, com QUATRO passos de 3 linhas,
+ficou em 94% mesmo depois do mesmo corte. Confirma o teto: com quatro passos o
+layout não fecha a 100%, e 94% é o normal dele, não um aviso. Com três passos,
+100% é alcançável. Quem quiser slide interno sem encolhimento nenhum, escreva
+TRÊS passos.
+
+**21/08/2026 (20h) — SANDBOX LINUX NÃO TEM AS BIBLIOTECAS DO CHROMIUM.**
+`pip install playwright` e `playwright install chromium` funcionam, mas o
+binário não sobe: `libXdamage.so.1: cannot open shared object file`. O
+`playwright install-deps` exige sudo e o sandbox não tem. O que resolveu, e
+fica registrado para não custar meia hora de novo: baixar os .deb com
+`apt-get download`, extrair com `dpkg-deb -x` numa pasta do HOME (não em /tmp,
+que tem permissão restrita) e exportar
+`LD_LIBRARY_PATH=$HOME/pwdeps/root/usr/lib/x86_64-linux-gnu:$HOME/pwdeps/root/lib/x86_64-linux-gnu`.
+São ~48 pacotes: libxdamage1, libxkbcommon0, libgbm1, libasound2, libatk*,
+libcups2, libnspr4, libnss3, libpango*, libcairo2, libxcomposite1, libxfixes3,
+libxrandr2, libatspi2.0-0, libdrm2, libxext6, libwayland-client0, libxcb1,
+libx11-6, libx11-xcb1, libexpat1, libdbus-1-3 e as dependências deles.
+ISSO NÃO ACONTECE NO PYTHON DO WINDOWS, que já tem tudo desde 21/08.
+
+**21/08/2026 (20h) — O ZIP DO GERADOR ESTÁ DESATUALIZADO. NÃO USE O .py DELE.**
+`gerador-gkfd.zip` traz machine.py e reel.py com md5 DIFERENTE dos da raiz —
+são versões anteriores ao medidor por regra e ao conserto do nome pessoal. A
+instrução manda descompactar o zip e usar o machine.py dele; se isso for feito
+ao pé da letra, a peça sai com os dois defeitos já corrigidos.
+O QUE FIZ: descompactei o zip só pelo `node_modules` (as fontes) e copiei os
+.py DA RAIZ por cima. O zip continua útil pelas fontes; o código, não.
+CONSERTO PARA O FÁBIO: regerar o gerador-gkfd.zip a partir da raiz, ou tirar
+os .py de dentro dele e deixar só node_modules e fotos_banco. Enquanto isso
+não for feito, TODA sessão tem de copiar os .py da raiz por cima do zip.
+
+**21/08/2026 (16h) — O L5 NÃO TEM "VÃO": ELE TEM UMA BORDA FIXA EM y=773.**
+A instrução diz "no L5, apoio de no máximo 4 linhas" e a lição de 19/08 diz que
+com apoio curto o filete "cai no vão e vira separador". As duas estão
+DESATUALIZADAS desde que a faixa EI SELLER entrou (20/08): ela come 74px, empurra
+o bloco para baixo, e a conta que valia em 19/08 não vale mais.
+O QUE É DE FATO: `.L5 .metade` é um bloco de cor chapada que ocupa os 58% de cima
+(0 a 783px) com uma borda accent de 10px em 773-783. Não é filete decorativo, é o
+fim do bloco. O conteúdo é ANCORADO NO TOPO (padding-top 96px), não centralizado:
+a headline começa sempre em y≈509 e tudo depois dela é aritmética de altura de
+linha. O `.apoio` tem margin-top 34px, e com o leading isso dá 53px entre o fim
+da headline e o início do apoio.
+A CONTA, e ela resolve o L5 de uma vez: a borda só cai em vão se o FIM DA
+HEADLINE ficar entre 730 e 773. Como cada linha de headline mede o corpo da
+fonte × 1,06 e o corpo sai do `fit_headline` (92 até 46 caracteres, 86 até 58,
+78 até 70, 71 até 84, 62 acima disso), o número de linhas e o tamanho da fonte
+decidem juntos. O que fechou: 4 linhas forçadas com `<br>` e texto de 59 a 70
+caracteres — fonte 78, headline terminando em 745, borda em 773-782 limpa, apoio
+começando em 798.
+O QUE FALHOU, para ninguém repetir: 3 linhas em 78px termina em 720 e a borda
+risca a PRIMEIRA LINHA DO APOIO; 3 linhas em 86px termina em 728, mesma coisa;
+4 linhas em 86px termina em 807 e a borda risca a QUARTA LINHA DA HEADLINE;
+2 linhas com apoio de 4 linhas risca no meio do apoio. Encurtar o apoio não
+resolve nada, porque o apoio não é o que se move — a headline é.
+MEDIDO, NÃO OLHADO, que é a regra que 20/08 deixou: um script lê o PNG, acha as
+linhas em que a cor accent ocupa mais de 90% da largura, e mede a altura do
+"run" de tinta que contém y=778. Se esse run tiver 10px, é só a borda e está
+limpo; se tiver 27 ou 35, tem texto grudado nela. Ficou em
+`checar_capa.py` na raiz. Rodar em TODA capa L5 antes de publicar.
+
+**21/08/2026 (16h) — O SLIDE 5 CONTINUA COMENDO A LINHA DO SITE, e o número é 1 linha.**
+A tira de prova cobriu `www.gkfd.com.br` de novo, exatamente como em 20/08 20h.
+O paliativo daquele dia ("3 itens de até 2 linhas, oferta de até 2 linhas") NÃO
+foi suficiente: com 3 itens de 2 linhas o bloco ainda transborda uma linha.
+O QUE FECHOU: 3 itens de 1 a 2 linhas com o TERCEIRO em 1 linha, e a oferta em
+2 linhas. Na prática, cortar UMA linha a mais do que a regra de 20/08 pedia.
+Regra de tamanho corrigida para o slide 5: ponte de 3 linhas, 3 itens somando no
+máximo 5 linhas, oferta de até 2 linhas. O conserto de verdade continua sendo o
+autoajuste que os slides internos já têm e o slide 5 não tem.
+
+**21/08/2026 (16h) — O CARROSSEL DO INSTAGRAM NÃO PUBLICOU: OAuthException 4.**
+O Facebook publicou na primeira tentativa. No Instagram as cinco imagens subiram,
+as URLs responderam, os cinco containers filhos e o container pai foram criados —
+e o `media_publish` do pai devolveu `OAuthException 4: Application request limit
+reached`. Sete tentativas entre 16h13 e 17h16, todas parando no mesmo ponto.
+NÃO É TOKEN: o `checar_token.py` diz PAGE e NÃO EXPIRA, e o `extras.py` publicou
+story e reel nos QUATRO destinos (Instagram e Página) no meio dessas tentativas,
+com o mesmo token e o mesmo app. O limite é do endpoint de publicação de
+carrossel, não da conta nem da credencial.
+O QUE APRENDI E CUSTA CARO: cada retentativa recria cinco containers filhos e um
+pai. Seis tentativas = 36 chamadas do mesmo endpoint, o que só afunda mais o
+limite. NA PRÓXIMA VEZ: uma tentativa, e se der erro 4, PARAR e esperar a janela
+virar. Insistir piora.
+A PEÇA ESTÁ MARCADA com `.publicado` para o `publicar_pendentes.py` não
+republicar no Facebook — ele chama o `postar.py`, que sai nos DOIS destinos e
+duplicaria o post da Página. Para tentar de novo SÓ o Instagram, o comando é
+`py publicar_instagram.py 2026-08-21_cnae-abertura`, e o id do post precisa ser
+gravado na linha do log, que hoje está com "IG CARROSSEL PENDENTE".
+FALTA NA FERRAMENTA: não existe jeito de mandar só um destino pelo `postar.py`,
+e não existe fila de retentativa por destino. O `publicar_pendentes.py` é
+tudo-ou-nada por peça.
+
+**21/08/2026 (16h) — DEMONSTRAÇÃO DE ANEXO SEM VIRAR CONSELHO DE ESCOLHER TABELA.**
+A peça mostra o mesmo mês de R$ 40 mil no Anexo I (6,61% efetivos, R$ 2.645,00) e
+no Anexo III (9,53%, R$ 3.810,00), com RBT12 de R$ 480 mil na terceira faixa das
+duas tabelas. A conta fecha nas duas e os números são das tabelas da LC 123.
+O RISCO, que é real: demonstração de anexo lê como "escolha o CNAE mais barato",
+que além de errado é planejamento tributário irregular. O que segurou o sentido
+foi o rodapé do próprio slide — "o anexo segue a atividade, não a escolha" — mais
+uma frase equivalente na legenda e outra no LinkedIn. Sem essas três a peça vira
+outra coisa. Padrão reaproveitável: em demonstração de duas tabelas, a frase que
+devolve a decisão à realidade tem de estar NA ARTE, não só na legenda.
+
+**21/08/2026 (16h) — O slide 3 encolheu para 94% e encurtar o título não devolveu nada.**
+Quatro passos de 3 a 4 linhas cada, com título de 1 a 2 linhas e rodapé de
+1 linha, dão 94% — encurtei o título de "Quatro perguntas antes de abrir o CNPJ"
+para "Quatro perguntas antes da abertura" e o percentual não mudou. Confirma a
+lição de 20/08: a altura cede a corte de LINHA no corpo, não a corte de palavra
+no título. Com quatro passos, o teto real é 3 linhas por passo.
 
 **19/08/2026 — DOCUMENTO em slide de VALOR não funciona com o overlay padrão.**
 Na primeira renderização o slide 3 usou `doc:comparativo/liso` e o overlay do
@@ -575,3 +736,39 @@ exatamente o caso que saiu riscado no dia anterior. Nenhum falso alarme.
 OBSERVAR: 94% duas vezes na mesma peca indica que o texto vem sistematicamente
 maior que o layout comporta. Se virar rotina, apertar a regra de tamanho em
 vez de depender do encolhimento — letra menor que as vizinhas custa presenca.
+
+**21/08/2026 — A IDENTIDADE É DA EMPRESA. NENHUM NOME PESSOAL NA ARTE.**
+Determinação do Fábio, e ele já tinha dito antes: "a identidade é da empresa".
+
+O QUE SAÍA ERRADO, em seis lugares vivos:
+  reel.py .......... assinatura padrão com nome e cargo pessoais
+  machine.py ....... MK_NOME e MK_CARGO ao lado do retrato
+  capa_artigo.py ... rodapé fixo com o nome
+  bloco marca GKFD . campo "site" com o NOME dentro
+  assinatura GKFD .. segunda linha com nome e cargo
+  assinatura IJ .... primeira linha com nome e cargo
+
+AGORA: a assinatura é só a marca, nas duas.
+  IntegraJud / Inteligência pericial para advocacia
+  GKFD Contábil / Contabilidade especializada em e-commerce e marketplace
+
+CONTINUAM, porque são credencial da casa e não nome de pessoa: o selo Mercado
+Líder Platinum e o "25 anos de experiência" da tira de prova.
+
+O PIOR DELES, e vale entender a mecânica: o campo "site" da GKFD estava com
+"Fábio Rebouças — Contador" dentro. Foi improviso meu de quando a GKFD ainda
+não tinha site conhecido — eu preenchi para não deixar vazio. Depois
+descobrimos o gkfd.com.br, analisamos o site inteiro, conformamos os dois
+bancos de área a ele — e ninguém voltou nesse campo.
+Resultado: o reel e o slide de oferta imprimiam o NOME em negrito, 56px, no
+lugar do ENDEREÇO. E ainda repetiam o nome logo abaixo, na assinatura.
+Agora o campo é www.gkfd.com.br e o cta é "Análise contábil inicial gratuita
+em", que é a chamada do próprio site.
+
+LIÇÃO: campo preenchido por improviso vira defeito permanente quando ninguém
+revisita. Toda vez que uma informação nova entrar na operação — um site, um
+endereço, uma credencial — varrer os campos que foram preenchidos ANTES dela
+existir. É a terceira vez esta semana que um resto de improviso aparece:
+o log copiado no _work, as fontes só no rascunho, e agora este.
+
+BACKUPS: *.antes-do-nome nos três scripts de cada marca.

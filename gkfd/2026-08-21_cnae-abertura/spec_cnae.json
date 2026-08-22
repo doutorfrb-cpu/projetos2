@@ -1,0 +1,98 @@
+{
+  "slug": "gkfd_cnae_abertura",
+  "outdir": "pc_gkfd8",
+  "paleta": "G04",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Me diga o que você pretende vender. Em até 24h úteis eu digo em que anexo isso cai",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "doc:comparativo/liso",
+    "linho",
+    "concreto",
+    "madeira",
+    "gesso"
+  ],
+  "seeds": [
+    8101,
+    8102,
+    8103,
+    8104,
+    8105
+  ],
+  "overlay": [
+    ".88,.93,.97",
+    ".18,.34",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L5",
+      "chamada": "O CADASTRO COBRA DEPOIS",
+      "peca": "CNPJ E CNAE",
+      "headline": "Você escolheu o CNAE<br>em cinco minutos<br>e continua pagando<br><b>por ele todo mês</b>",
+      "apoio": "O CNAE declarado na abertura define o anexo do Simples e a alíquota que corre desde a primeira venda. Descreveu errado, o DAS cobra a diferença todo mês."
+    },
+    {
+      "kicker": "Marketplace · abertura de CNPJ",
+      "titulo": "O CNAE não é etiqueta de cadastro: é o que decide o anexo",
+      "passos": [
+        "<em>Ele descreve o que a empresa faz.</em> Revenda de mercadoria própria, com ou sem loja física, é comércio — e comércio no Simples é Anexo I. Não é o canal de venda que define isso, é a natureza da operação.",
+        "<em>O que muda quando entra serviço.</em> Instalação, montagem, assistência técnica e gestão de anúncio para terceiro não são revenda: são receita de serviço, com anexo próprio, e convivem com a de comércio na mesma empresa.",
+        "<em>A classificação errada não se corrige sozinha.</em> Alterar o CNAE depois é possível, mas a apuração já correu. O que foi declarado no período fica declarado, e o acerto passa por retificação, não por um clique no cadastro."
+      ],
+      "rodape": "O CNAE segue a atividade real; a atividade real não segue o CNAE."
+    },
+    {
+      "kicker": "O que a abertura precisa responder",
+      "titulo": "Quatro perguntas antes da abertura",
+      "passos": [
+        "<em>O que você vende, exatamente?</em> Revenda, fabricação própria, kit montado e serviço prestado junto caem em anexos diferentes — e vender na Shopee, na Amazon ou no Magalu não muda essa classificação.",
+        "<em>Vai emitir nota para fora do estado?</em> Venda interestadual a consumidor final abre DIFAL e partilha. Quem abre sem inscrição estadual descobre a obrigação na primeira operação com mercadoria.",
+        "<em>Qual receita você projeta para doze meses?</em> A faixa do RBT12 e o sublimite estadual mudam a alíquota efetiva no meio do caminho. Regime escolhido sem projeção é escolha feita com um número só: zero.",
+        "<em>Onde a mercadoria vai ficar?</em> Endereço fiscal sem previsão de estoque, ou galpão de terceiro desde o início, muda cadastro e obrigação acessória."
+      ],
+      "rodape": "As quatro se respondem antes do CNPJ, não depois da multa."
+    },
+    {
+      "formato": "quadro",
+      "kicker": "Demonstração",
+      "titulo": "A mesma receita, classificada de dois jeitos",
+      "linhas": [
+        ["Receita do mês", "R$ 40.000,00"],
+        ["Receita de 12 meses", "R$ 480.000,00 · 3ª faixa nas duas tabelas"],
+        ["Comércio · Anexo I", "9,50% menos R$ 13.860 = 6,61% efetivos"],
+        ["DAS no Anexo I", "R$ 2.645,00"],
+        ["Serviço · Anexo III", "13,20% menos R$ 17.640 = 9,53% efetivos"],
+        ["DAS no Anexo III", "R$ 3.810,00"],
+        ["Diferença no mês", "R$ 1.165,00 sobre a mesma venda"]
+      ],
+      "rodape": "Números de demonstração, não de caso real. O anexo segue a atividade, não a escolha."
+    },
+    {
+      "ponte": "O anexo já está<br>decidido antes<br>da primeira venda.",
+      "itens": [
+        "CNAE conferido contra a operação real, com o anexo que ele produz",
+        "Inscrição estadual, sublimite e DIFAL antes da primeira nota",
+        "Simples, Presumido e Real simulados sobre doze meses"
+      ],
+      "oferta": "Diga o que você pretende vender. Em até 24h úteis eu digo em que anexo cai"
+    }
+  ]
+}

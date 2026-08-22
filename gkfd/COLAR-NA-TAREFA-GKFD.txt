@@ -35,7 +35,7 @@ GKFD é, e a peça lê como informação de vendedor em vez de serviço de conta
 
     "descritor": "CONTABILIDADE PARA MARKETPLACE E E\u2011COMMERCE"
     "prova": ["25 ANOS DE EXPERI\u00caNCIA", "6 PLATAFORMAS ATENDIDAS", "ATENDIMENTO NACIONAL"]
-    "assinatura": "GKFD Contábil — contabilidade especializada em e-commerce e marketplace<br>Fábio Rebouças — Contador · Mercado Líder Platinum"
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace"
 
 O hífen de E\u2011COMMERCE é o não separável (U+2011). Com hífen comum a palavra
 quebra em duas linhas na faixa.
@@ -255,10 +255,11 @@ O mesmo machine.py serve as duas operações. Sem o bloco "marca" no spec, a pe�
     "descritor": "CONTABILIDADE PARA MARKETPLACE E E\u2011COMMERCE",
     "prova": ["25 ANOS DE EXPERI\u00caNCIA", "6 PLATAFORMAS ATENDIDAS", "ATENDIMENTO NACIONAL"],
     "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
-    "assinatura": "GKFD Contábil — contabilidade especializada em e-commerce e marketplace<br>Fábio Rebouças — Contador · Mercado Líder Platinum",
-    "cargo": "Contador",
-    "cta": "GKFD Contábil · atendimento nacional",
-    "site": "Fábio Rebouças — Contador",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
     "whatsapp": "11 97723-7113",
     "oferta_padrao": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa",
     "selo": "selo-platinum.png",
@@ -282,8 +283,8 @@ legenda_facebook.txt: a mesma matéria, texto diferente, SEM hashtag. No Faceboo
 
 ASSINATURA PERMITIDA, e só ela:
 
-    GKFD Contábil — contabilidade especializada em e-commerce e marketplace.
-    Fábio Rebouças — Contador
+    GKFD Contábil
+    Contabilidade especializada em e-commerce e marketplace
 
 ALARGADA EM 19/08/2026. A anterior dizia "no Simples Nacional para vendedor de
 marketplace" e era mais estreita que o site, que atende loja virtual e operação
@@ -585,3 +586,24 @@ CONSEQUENCIA PRATICA para quem escreve peca: nada muda no seu trabalho. Mas
 se aparecer no console
       .. <slug> slide N encolhido para X%
 agora e verdade — nao e mais falso alarme. Abaixo de 90%, corte texto.
+
+
+IDENTIDADE E DA EMPRESA — 21/08/2026, determinacao do Fabio.
+
+NENHUM NOME PESSOAL EM LUGAR NENHUM DA PECA. Nao escreva "Fabio Reboucas"
+em arte, legenda, story, reel, capa de artigo, texto de LinkedIn ou
+comentario. Quem assina e a MARCA.
+
+    GKFD Contabil
+    Contabilidade especializada em e-commerce e marketplace
+
+ISSO NAO AFETA o selo Mercado Livre Platinum nem "25 anos de experiencia" na
+tira de prova: os dois continuam, porque sao credencial da casa e nao nome de
+pessoa.
+
+DE ONDE VEIO O ERRO, para nao repetir: o campo "site" da GKFD estava com
+"Fabio Reboucas — Contador" dentro. Foi improviso meu de quando a GKFD ainda
+nao tinha site conhecido. Depois descobrimos o gkfd.com.br, conformamos os
+bancos de area ao site inteiro, e ninguem voltou nesse campo. Resultado: o
+reel e o slide de oferta imprimiam o NOME em negrito, no lugar do ENDERECO.
+Campo de improviso vira defeito permanente quando ninguem revisita.

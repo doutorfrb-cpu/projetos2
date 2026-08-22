@@ -1,0 +1,82 @@
+{
+ "slug": "integrajud_impugnacao_calculos_atrasados",
+ "outdir": "pc_18h_21ago",
+ "paleta": "P04",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:liquidacao/formulario",
+  "couro",
+  "trama",
+  "doc:comparativo/dobra",
+  "foto:px_5807057.jpg"
+ ],
+ "seeds": [5181, 5182, 5183, 5184, 5185],
+ "overlay": [
+  ".96,.98,.99",
+  ".46,.62",
+  ".50,.78"
+ ],
+ "slides": [
+  {
+   "layout": "L1",
+   "chamada": "A CONTA VEIO PRONTA",
+   "peca": "IMPUGNAÇÃO AOS CÁLCULOS",
+   "headline": "Você ganhou. <b>Os atrasados vieram por outro índice</b>",
+   "apoio": "Termo inicial e critério de correção estão no julgado. A planilha nem sempre repete os dois."
+  },
+  {
+   "kicker": "Previdenciários · liquidação do julgado",
+   "titulo": "O valor não sai da tese, sai de três definições",
+   "passos": [
+    "<em>A diferença mensal.</em> É o benefício devido menos o benefício pago, mês a mês. Depende da RMI recalculada e do que já foi recebido no período — inclusive de benefício inacumulável, cujo desconto precisa vir demonstrado parcela a parcela, e não em uma linha de total.",
+    "<em>O termo inicial.</em> DIB, DER, data da citação e data do requerimento administrativo são marcos diferentes, e o julgado escolhe um. Deslocar o marco não muda a tese nem gera discussão jurídica nova: apaga meses inteiros da conta, em silêncio.",
+    "<em>O critério de correção.</em> Índice de atualização e juros têm termo próprio e mudam de regime ao longo do período. Aplicar um índice único do começo ao fim é mais simples de montar — e é onde a conta se afasta do que a sentença determinou."
+   ],
+   "rodape": "A tese venceu no acórdão. O valor se decide na planilha."
+  },
+  {
+   "kicker": "O que a impugnação precisa responder",
+   "titulo": "Quatro perguntas antes de alegar excesso",
+   "passos": [
+    "<em>Qual marco o julgado fixou.</em> Transcrito do dispositivo, não da fundamentação. O primeiro mês da conta apresentada tem que coincidir com ele, e a divergência se mede em meses, com valor.",
+    "<em>Qual índice e desde quando.</em> Cada regime de correção tem data de início e de fim. A planilha precisa mostrar a virada; planilha com coluna única do começo ao fim não permite conferir nada.",
+    "<em>O que foi abatido a título de benefício pago.</em> Valor, competência e origem de cada desconto. Abatimento em bloco, sem competência, impede saber se o mês descontado é do período em execução.",
+    "<em>Qual é o valor que você sustenta.</em> Impugnar sem apresentar conta devolve o arbítrio ao juízo. A memória que aponta o valor certo transfere o ônus para quem juntou a planilha."
+   ],
+   "rodape": "Dispositivo, planilha do executado e histórico de pagamentos respondem as quatro."
+  },
+  {
+   "kicker": "Demonstração",
+   "titulo": "A mesma diferença mensal, duas leituras do julgado",
+   "passos": [
+    "<em>A base, igual nas duas.</em> Diferença mensal apurada de R$ 900,00, sem discussão sobre o valor do benefício e sem parcela paga em disputa.",
+    "<em>Leitura A — o marco do dispositivo.</em> 24 competências alcançadas. 24 × R$ 900,00 = R$ 21.600,00 de principal. Correção acumulada do período pelo critério do julgado, 18%: R$ 25.488,00.",
+    "<em>Leitura B — o marco da planilha juntada.</em> Termo inicial seis meses à frente, 18 competências. 18 × R$ 900,00 = R$ 16.200,00 de principal. Índice único aplicado a todo o período, 7%: R$ 17.334,00.",
+    "<em>A diferença.</em> R$ 8.154,00 sobre a mesma diferença mensal e o mesmo benefício. Só o deslocamento do marco já responde por R$ 5.400,00 de principal; o resto é o índice."
+   ],
+   "rodape": "Números de demonstração, não de caso real.",
+   "painel": true
+  },
+  {
+   "retrato": "sim",
+   "ponte": "Impugnar é metade.<br>A conta é a outra.",
+   "itens": [
+    "Recálculo dos atrasados competência a competência",
+    "Memória de correção com a virada de índice destacada",
+    "Parecer sobre a planilha juntada pelo executado"
+   ],
+   "oferta": "Mande a planilha. Em até 24h úteis eu respondo"
+  }
+ ]
+}

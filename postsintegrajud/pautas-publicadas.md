@@ -1,6 +1,83 @@
 
+## PEÇAS PUBLICADAS
+
+DATA | HORA | EIXO | ÁREA | MOMENTO | PEÇA | FRASE | TÓPICO | ÂNGULO | HEADLINE | LAYOUT | CENA DA CAPA | PALETA | DESTINO
+
+2026-08-21 | 18h | 1 | A6 previdenciários | M7 sentença e liquidação | IMPUGNAÇÃO AOS CÁLCULOS | A CONTA VEIO PRONTA | atrasados com termo inicial e critério de correção divergentes do julgado | ganhou a ação e a planilha do executado desloca o marco e aplica índice único; impugnar sem apresentar conta devolve o arbítrio ao juízo | Você ganhou. Os atrasados vieram por outro índice | L1 | doc:liquidacao/formulario (foto do slide 5: px_5807057) | P04 SÉPIA ESCURO | /areas/previdenciarios
+  ig_media_id 18016217147942741 · fb_post_id 1164892873373934_122134079625355676
+  slide 4 em MODO DEMONSTRAÇÃO (o das 14h não foi): R$ 900,00/mês, 24 comp. → R$ 25.488,00 contra 18 comp. → R$ 17.334,00, diferença R$ 8.154,00. Conta conferida.
+  story e reel publicados nos dois destinos (extras.py, placar 4/4). Reel 19,25s; saíram as duas linhas de correção ("cena(s) reduzida(s) para caber: [94]%" e "cortando 1.37s de preto do inicio") e o mp4 foi conferido quadro a quadro.
+  comentar.py FALHOU de novo nos dois, mesmos erros de ontem: OAuthException 10 no Instagram e OAuthException 200 no Facebook. Peça publicada, nada desfeito. É permissão do app, e agora são duas rodadas seguidas — vale pedir a permissão de comentário no app da Meta.
+  revisita: rodou (é a última rodada da marca) e republicou a capa de 2026-08-15_avaliacao-imovel como story, id 18414317125157582.
+  LinkedIn gravado em linkedin/2026-08-21-atrasados-indice-termo-inicial.md. Sem artigo: hoje é sexta, e o artigo é só quarta.
+
+**21/08/2026, rodada das 18h — L3 NÃO SERVE MAIS PARA CAPA COM RODAPÉ DE ANÚNCIO.**
+A capa saiu primeiro em L3 e a linha de apoio veio impressa POR BAIXO da faixa de
+WhatsApp e da tira de prova, ilegível. Não é tamanho de texto: `.L3 .apoio` é
+`position:absolute; bottom:120px`, que é exatamente onde mora o rodapé de anúncio
+criado em 19/08. Encurtar headline e apoio não resolveu, e o gerador não avisou —
+o medidor ignora quem está fora do fluxo, e aqui os DOIS elementos são absolutos,
+então não há sobreposição que ele possa detectar.
+Trocado para L1, que deixa o apoio no fluxo, e a capa limpou.
+ENQUANTO NÃO FOR CORRIGIDO NO CÓDIGO: não use L3 na capa. E vale conferir L5,
+que também pode ter posicionamento próprio de apoio.
+É o mesmo padrão de 20/08 no slide 3: elemento absoluto não empurra nada, e por
+isso passa pelo medidor e sai riscado. A regra pegou o caso do fluxo; este é o
+caso de absoluto contra absoluto, que ela não cobre.
+
+2026-08-21 | 14h | 1 | A3 financeiros | M3 contestação | CONTESTAÇÃO | LEIA O DEMONSTRATIVO | amortização negativa: parcela inferior ao juro do período | pagou em dia e o saldo subiu; contestação alega excesso sem apontar o valor certo | Pagou em dia. E o saldo devedor subiu | L6 | doc:razao/copia (foto do slide 5: px_9852063) | P02 GRAFITE E ÂMBAR | /areas/financeiros
+  ig_media_id 18101334917580364 · fb_post_id 1164892873373934_122133995769355676
+  story e reel publicados nos dois destinos (extras.py, placar 4/4)
+  comentar.py FALHOU nos dois: OAuthException 10 no Instagram ("Application does not have permission for this action") e OAuthException 200 no Facebook. Peça publicada, nada desfeito. É permissão do app, não do post.
+  LinkedIn gravado em linkedin/2026-08-21-amortizacao-negativa.md
+  Sem revisita e sem artigo: revisita é da ÚLTIMA rodada da marca (18h) e o artigo é só quarta.
+
+**21/08/2026 — ATENÇÃO: este arquivo perdeu as linhas de peça.**
+Ao ler o log hoje, a seção de peças estava vazia — só decisões. A versão commitada
+em 20/08 às 23h50 já estava assim, então a perda é anterior e não veio desta
+rodada. A antirrepetição desta peça foi reconstruída pelos spec.json das
+subpastas datadas (que guardam layout, paleta, frase, peça e cenas) e pelo
+_work/_LIXO-log-antigo-NAO-USAR.md, que é histórico e está desatualizado.
+Vale reconstruir a lista completa: sem ela, headline repetida vira questão de tempo.
+
 **21/08/2026 — o artigo semanal passa para QUARTA, decisão do Fábio.**
 Era sexta, virou quarta, na mesma rodada das 18h. Meio de semana é dia mais
 forte de leitura profissional no LinkedIn que sexta — a escolha dele foi
 melhor que a minha.
 A capa deitada foi aprovada por ele: "ficou ótima".
+
+**21/08/2026 — A IDENTIDADE É DA EMPRESA. NENHUM NOME PESSOAL NA ARTE.**
+Determinação do Fábio, e ele já tinha dito antes: "a identidade é da empresa".
+
+O QUE SAÍA ERRADO, em seis lugares vivos:
+  reel.py .......... assinatura padrão com nome e cargo pessoais
+  machine.py ....... MK_NOME e MK_CARGO ao lado do retrato
+  capa_artigo.py ... rodapé fixo com o nome
+  bloco marca GKFD . campo "site" com o NOME dentro
+  assinatura GKFD .. segunda linha com nome e cargo
+  assinatura IJ .... primeira linha com nome e cargo
+
+AGORA: a assinatura é só a marca, nas duas.
+  IntegraJud / Inteligência pericial para advocacia
+  GKFD Contábil / Contabilidade especializada em e-commerce e marketplace
+
+CONTINUAM, porque são credencial da casa e não nome de pessoa: o selo Mercado
+Líder Platinum e o "25 anos de experiência" da tira de prova.
+
+O PIOR DELES, e vale entender a mecânica: o campo "site" da GKFD estava com
+"Fábio Rebouças — Contador" dentro. Foi improviso meu de quando a GKFD ainda
+não tinha site conhecido — eu preenchi para não deixar vazio. Depois
+descobrimos o gkfd.com.br, analisamos o site inteiro, conformamos os dois
+bancos de área a ele — e ninguém voltou nesse campo.
+Resultado: o reel e o slide de oferta imprimiam o NOME em negrito, 56px, no
+lugar do ENDEREÇO. E ainda repetiam o nome logo abaixo, na assinatura.
+Agora o campo é www.gkfd.com.br e o cta é "Análise contábil inicial gratuita
+em", que é a chamada do próprio site.
+
+LIÇÃO: campo preenchido por improviso vira defeito permanente quando ninguém
+revisita. Toda vez que uma informação nova entrar na operação — um site, um
+endereço, uma credencial — varrer os campos que foram preenchidos ANTES dela
+existir. É a terceira vez esta semana que um resto de improviso aparece:
+o log copiado no _work, as fontes só no rascunho, e agora este.
+
+BACKUPS: *.antes-do-nome nos três scripts de cada marca.

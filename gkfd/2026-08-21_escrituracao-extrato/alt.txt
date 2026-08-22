@@ -1,0 +1,5 @@
+Capa sobre escrituracao por extrato: o valor que cai no banco nao e o que o vendedor vendeu, porque o repasse chega liquido de comissao, tarifa, frete, publicidade e estorno.
+Slide sobre o credito bancario como fim da conta: o que a plataforma deposita ja e saldo, a receita bruta e a venda e nao o deposito, e despesa nao lancada nao reduz resultado.
+Slide com quatro perguntas antes de fechar o mes: quanto foi vendido pelo preco da nota, quanto a plataforma reteve e a que titulo, o que foi cancelado ou estornado, e se o banco fecha com o relatorio de repasse.
+Slide sobre o erro que se repete e onde ele aparece no balancete: receita menor que o painel de vendas, ausencia de conta de comissao, margem alta com caixa que nao sobra e diferenca rolando de mes a mes.
+Slide de oferta da GKFD Contabil: escrituracao a partir do repasse, conciliacao de pedido, nota, repasse e banco, balancete e DRE separados por canal, com WhatsApp e o site gkfd.com.br.

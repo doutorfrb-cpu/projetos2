@@ -1,0 +1,20 @@
+O cliente pagou tudo em dia, e o saldo devedor terminou maior do que o valor contratado. Não é erro de cadastro: é aritmética que o demonstrativo do credor não abre.
+
+Toda parcela paga primeiro o juro do período. Só o que sobra reduz o principal. Quando a prestação é menor que o juro do mês, não sobra nada — e a diferença não some: entra no saldo e volta a render juro no mês seguinte. É a amortização negativa, e ela aparece em carência sem destaque no contrato, renegociação alongada, consignado com margem espremida, rotativo rolado por meses e contrato indexado com encargo acima da prestação fixa.
+
+Como conferir no documento que já está nos autos, sem refazer nenhuma conta:
+
+O saldo não cai entre duas linhas seguidas, mesmo com pagamento registrado no intervalo.
+A coluna de amortização não existe — o demonstrativo traz data, valor pago e saldo atualizado, e pula justamente a que mostraria quanto do pagamento reduziu o principal.
+O saldo inicial do mês é maior que o saldo final do mês anterior; a diferença é encargo incorporado, e ela tem nome, valor e data que costumam não estar declarados.
+O total pago já passou do valor financiado, e a dívida continua de pé.
+
+A contestação que apenas alega excesso devolve o arbítrio ao juízo. A que aponta o valor certo, com memória parcela a parcela, transfere o ônus para quem apresentou a conta.
+
+Mande o demonstrativo. Em até 24h úteis eu digo se há o que impugnar.
+
+Análise técnica inicial gratuita, exclusiva para advogados e escritórios: www.integrajud.com.br/areas/financeiros
+
+WhatsApp: https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20IntegraJud%20no%20Facebook%20sobre%20amortiza%C3%A7%C3%A3o%20negativa%20e%20queria%20falar%20sobre%20o%20c%C3%A1lculo%20do%20meu%20processo.
+
+IntegraJud · Inteligência pericial para advocacia

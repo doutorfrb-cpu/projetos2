@@ -1,0 +1,82 @@
+{
+ "slug": "integrajud_contestacao_amortizacao_negativa",
+ "outdir": "pc_14h_21ago",
+ "paleta": "P02",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:razao/copia",
+  "concreto",
+  "metal",
+  "doc:memoria/dobra",
+  "foto:px_9852063.jpg"
+ ],
+ "seeds": [4211, 4212, 4213, 4214, 4215],
+ "overlay": [
+  ".96,.98,.99",
+  ".46,.62",
+  ".50,.78"
+ ],
+ "slides": [
+  {
+   "layout": "L6",
+   "chamada": "LEIA O DEMONSTRATIVO",
+   "peca": "CONTESTAÇÃO",
+   "headline": "Pagou em dia. <b>E o saldo devedor subiu</b>",
+   "apoio": "Parcela menor que o juro do mês não amortiza: a diferença volta para o saldo e rende de novo."
+  },
+  {
+   "kicker": "Financeiros · amortização negativa",
+   "titulo": "Quando a parcela paga não reduz o saldo",
+   "passos": [
+    "<em>A parcela paga o juro antes de amortizar.</em> Só o que sobra do encargo do período reduz o principal. Prestação menor que o juro do mês não deixa sobra — e a diferença não é perdoada: soma-se ao saldo e rende juro no mês seguinte.",
+    "<em>Onde isso nasce.</em> Carência sem destaque, renegociação alongada para caber no orçamento, consignado com margem espremida, rotativo rolado por meses, contrato indexado com encargo acima da prestação fixa. Em todos, o pagamento é pontual e a dívida cresce.",
+    "<em>Por que o extrato não denuncia.</em> Ele traz parcela paga, data e saldo atualizado, e apresenta o saldo maior como efeito do tempo. A coluna que provaria o contrário — a amortização do período — é a que não aparece."
+   ],
+   "rodape": "Pagar em dia e amortizar são fatos diferentes."
+  },
+  {
+   "kicker": "O que a contestação precisa responder",
+   "titulo": "Quatro perguntas antes de alegar excesso",
+   "passos": [
+    "<em>Qual é o encargo de cada período.</em> Taxa contratada, base de incidência e forma de contagem. Sem isso não se afirma se a parcela cobria o juro do mês ou ficava abaixo dele.",
+    "<em>Quanto cada parcela amortizou.</em> A memória separa juro, encargo e amortização em colunas próprias. Amortização zero ou negativa é o fato alegado, e é ele que precisa aparecer demonstrado.",
+    "<em>O que foi incorporado ao principal.</em> Tarifa, seguro, IOF, resíduo de carência e encargo de renegociação voltam a render juro. Cada incorporação tem data, valor e origem, ou não se sustenta.",
+    "<em>Qual é o valor incontroverso.</em> Contestação que apenas nega devolve arbítrio ao juízo. A que aponta o valor certo, com memória, transfere o ônus para quem apresentou a conta."
+   ],
+   "rodape": "Contrato, demonstrativo de evolução e comprovantes respondem as quatro."
+  },
+  {
+   "kicker": "O erro que se repete",
+   "titulo": "Onde ele aparece no demonstrativo",
+   "passos": [
+    "<em>O saldo não cai entre duas linhas seguidas.</em> Com pagamento registrado no intervalo. É a assinatura mais simples da amortização negativa, e está visível sem nenhuma conta.",
+    "<em>A coluna de amortização não existe.</em> O documento traz data, valor pago e saldo atualizado, e pula a coluna que mostraria quanto do pagamento reduziu o principal.",
+    "<em>O saldo do mês supera o final do mês anterior.</em> A diferença é encargo incorporado. Ela tem nome, valor e data, e nenhum dos três costuma estar declarado.",
+    "<em>O total pago já passou do valor financiado.</em> Somar a coluna de pagamentos e confrontar com o principal contratado leva dois minutos e indica se a conta merece perícia."
+   ],
+   "rodape": "Demonstrativo que não abre a amortização informa um saldo, não demonstra.",
+   "painel": true
+  },
+  {
+   "retrato": "sim",
+   "ponte": "Alegar excesso é metade.<br>A conta é a outra.",
+   "itens": [
+    "Recálculo do contrato parcela a parcela",
+    "Memória de evolução do saldo devedor",
+    "Parecer sobre o demonstrativo do credor"
+   ],
+   "oferta": "Mande o demonstrativo. Em até 24h úteis eu respondo"
+  }
+ ]
+}

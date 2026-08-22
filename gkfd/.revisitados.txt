@@ -1,2 +1,3 @@
 2026-08-18_ads-acos-margem
 2026-08-18_repasse-receita-bruta
+2026-08-18_saldo-retido
