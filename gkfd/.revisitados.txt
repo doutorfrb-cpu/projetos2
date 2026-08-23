@@ -3,3 +3,4 @@
 2026-08-18_saldo-retido
 2026-08-19_anexo-fator-r
 2026-08-19_chargeback-venda-desfeita
+2026-08-20_dre-por-canal

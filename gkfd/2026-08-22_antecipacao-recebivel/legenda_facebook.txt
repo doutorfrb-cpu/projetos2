@@ -1,0 +1,24 @@
+Antecipar o repasse resolve o giro do mês. O que quase nunca é resolvido é onde esse custo foi parar na contabilidade.
+
+O deságio da antecipação não é desconto de venda. A receita nasceu na venda, pelo valor cheio do pedido, e continua sendo esse valor mesmo que o dinheiro entre trinta dias antes. O que a plataforma retém para pagar adiantado é custo de dinheiro no tempo — mesma natureza de juro. Ele pertence ao resultado, como despesa financeira, e não à receita.
+
+Parece detalhe de lançamento e não é. Como desconto de venda, o deságio encolhe a receita escriturada e a declaração passa a divergir do relatório de repasse. Como despesa financeira, a base bate com o relatório e o custo aparece onde deve aparecer.
+
+A conta, com números de demonstração e não de caso real. Mês de R$ 120.000,00 vendidos na plataforma, R$ 3.600,00 retidos como deságio para adiantar os repasses, alíquota efetiva de 8,00% no Simples.
+
+Critério A, deságio como desconto de venda: receita escriturada de R$ 116.400,00 e DAS de R$ 9.312,00.
+Critério B, deságio como despesa financeira: receita de R$ 120.000,00 e DAS de R$ 9.600,00.
+Diferença: R$ 288,00.
+
+Esses R$ 288,00 não são economia. São DAS sobre receita que ficou fora da declaração, e o relatório de repasse da plataforma prova o valor cheio linha a linha. É o tipo de diferença que só aparece depois, quando alguém pede a conciliação.
+
+Há ainda o lado da margem. Antecipação é custo de vender naquele canal, e fora do custo do pedido a margem por SKU fica melhor no papel do que na conta. Canal caro passa por barato, e a decisão de onde investir sai errada.
+
+Quatro perguntas fecham o assunto no fechamento do mês: quanto custou, somado? Está dentro ou fora da receita? Que margem sobrou depois dele? Foi decisão ou virou hábito?
+
+Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a antecipação está no lugar certo:
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Facebook%20sobre%20antecipacao%20de%20recebivel%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.
+
+GKFD Contábil
+Contabilidade especializada em e-commerce e marketplace
+Análise contábil inicial gratuita em www.gkfd.com.br

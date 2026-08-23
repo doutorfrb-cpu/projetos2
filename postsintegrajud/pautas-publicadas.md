@@ -3,6 +3,16 @@
 
 DATA | HORA | EIXO | ÁREA | MOMENTO | PEÇA | FRASE | TÓPICO | ÂNGULO | HEADLINE | LAYOUT | CENA DA CAPA | PALETA | DESTINO
 
+2026-08-22 | 23h | 3 | A10 auditoria e compliance | M4 quesitos | QUESITOS | O PERITO JÁ FOI NOMEADO | amostragem apresentada como universo: plano amostral e critério de extrapolação não declarados no laudo | o perito examina 60 de 1.200 lançamentos e a conclusão cobre os 1.200; o quesito é o último momento em que universo, seleção, extrapolação e margem ainda se fixam | O perito vai examinar 60 lançamentos. E concluir sobre 1.200 | L4 | doc:comparativo/dobra (foto do slide 5: px_16978372) | P03 OFF-WHITE CLÁSSICO | /areas/auditoria
+  ig_media_id 18081980822302791 · fb_post_id 1164892873373934_122134412355355676
+  slide 4 em MODO DEMONSTRAÇÃO (a das 18h não foi): universo 1.200 lançamentos / R$ 6.000.000,00, média R$ 5.000,00; amostra 60 / R$ 300.000,00 com 6 divergentes / R$ 42.000,00; critério A (itens) 10% → 120 × R$ 5.000,00 = R$ 600.000,00; critério B (valor) 14% × R$ 6.000.000,00 = R$ 840.000,00; diferença R$ 240.000,00. Conta conferida.
+  story e reel publicados nos dois destinos (extras.py, placar 4/4). Story ig 18098323223457300 · story página 1754814639180270 · reel ig 18218967754332585 · reel página 1768425247730287. Reel 18,7s; saiu "cortando 1.05s de preto do inicio" e os quadros foram conferidos (abertura, três cenas de miolo e fecho) — sem texto cortado.
+  PRIMEIRA TENTATIVA DO postar.py FALHOU NOS DOIS: legenda do Instagram com 2615 caracteres (limite 2200) e, no Facebook, "Please reduce the amount of data you're asking for" na hora de montar o post com as 5 fotos. A legenda foi encurtada para 2123 e a segunda tentativa publicou os dois. O erro do Facebook não voltou — foi transitório, e as 5 fotos são reenviadas a cada tentativa.
+  comentar.py FALHOU de novo nos dois, mesmos erros: OAuthException 10 no Instagram e OAuthException 200 no Facebook. QUARTA rodada seguida — a permissão de comentário do app na Meta continua pendente.
+  reel gerado pelo envelope _reel23.py, que põe a raiz no PATH antes de chamar o reel.py (o ffmpeg.exe está na raiz e o Windows não o acha sozinho).
+  LinkedIn gravado em linkedin/2026-08-22-quesitos-amostragem.md. Sem artigo: o artigo é só quarta, e hoje é sábado.
+  SEM revisita nesta rodada: a revisita do dia já rodou na peça das 18h e é uma por dia. Esta rodada foi disparada manualmente às 23h47, fora das duas do agendamento.
+
 2026-08-22 | 18h | 2 | A9 marketplace e plataformas | M1 antes da ação | AÇÃO DE EXIGIR CONTAS | ISSO PASSOU BATIDO? | relatório exportado do painel apresentado como prestação de contas, sem débito, crédito e saldo encadeado | vencida a primeira fase, o documento que chega não permite conferir: rubricas agregadas por competência, nenhuma volta ao pedido de venda | Você exigiu contas. Veio um PDF sem débito, crédito e saldo | L2 | doc:extrato/envelhecido (foto do slide 5: px_30857714) | P06 AZUL PETRÓLEO | /areas/marketplace
   ig_media_id 18124628848696225 · fb_post_id 1164892873373934_122134374213355676
   slide 4 SEM demonstração (a das 18h de 21/08 foi): alternância mantida — o slide 4 traz o erro que se repete (estorno sem pedido de origem, antecipação sobre valor já antecipado, campanha e frete em bloco).

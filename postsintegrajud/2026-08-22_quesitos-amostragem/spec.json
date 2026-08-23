@@ -1,0 +1,85 @@
+{
+ "slug": "integrajud_quesitos_amostragem",
+ "outdir": "pc_23h_22ago",
+ "paleta": "P03",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:comparativo/dobra",
+  "granito",
+  "vidro",
+  "doc:planilha/copia",
+  "foto:px_16978372.jpg"
+ ],
+ "seeds": [7301, 7302, 7303, 7304, 7305],
+ "overlay": [
+  ".84,.90,.96",
+  ".42,.60",
+  ".44,.72"
+ ],
+ "slides": [
+  {
+   "layout": "L4",
+   "chamada": "O PERITO JÁ FOI NOMEADO",
+   "peca": "QUESITOS",
+   "cifra": {
+    "rotulo": "a diferença entre os critérios",
+    "valor": "R$ 240.000"
+   },
+   "headline": "O perito vai examinar 60 lançamentos. <b>E concluir sobre 1.200</b>",
+   "apoio": "Amostrar é legítimo. O critério que transforma 60 em 1.200 decide o valor — e se fixa no quesito."
+  },
+  {
+   "kicker": "Perícia contábil · amostragem",
+   "titulo": "Toda amostra carrega uma decisão que o laudo precisa declarar",
+   "passos": [
+    "<em>Amostrar é legítimo; omitir o plano não é.</em> O que torna o exame verificável é o plano: tamanho, forma de seleção, período coberto e estratificação. Sem esses quatro itens escritos, ninguém repete o que o perito fez.",
+    "<em>Seleção não declarada não se refaz.</em> Amostra dirigida busca o que já se suspeita e não representa o conjunto; aleatória representa e pode passar longe do que interessa. São perguntas diferentes, e o laudo precisa dizer qual respondeu.",
+    "<em>A conclusão herda o alcance da amostra.</em> Examinados 60 de 1.200 lançamentos, demonstraram-se 60. Estender o achado ao restante é inferência: passo separado, com premissa própria — e é esse passo que costuma ficar implícito."
+   ],
+   "rodape": "Quesito que não pergunta o plano amostral aceita o plano que houver."
+  },
+  {
+   "kicker": "O que o quesito precisa fixar",
+   "titulo": "Quatro perguntas que o laudo não responde sozinho",
+   "passos": [
+    "<em>Qual é o universo.</em> Quantidade de lançamentos, valor total e período coberto. Sem o denominador declarado, nenhum percentual do laudo tem significado: seis divergências podem ser 10% ou 0,5%.",
+    "<em>Como a amostra é selecionada.</em> Aleatória, sistemática ou dirigida, e se há estratificação por faixa de valor. Amostra dirigida ao que está acima de certo valor nada diz sobre o que está abaixo.",
+    "<em>Qual o critério de extrapolação.</em> Proporção de itens ou proporção de valor: dois resultados diferentes sobre a mesma amostra. O quesito é onde se pede que o perito declare qual adotou.",
+    "<em>Qual a margem do resultado.</em> Extrapolação sem intervalo é ponto sem tolerância. Perguntar o erro admitido impede que o número da amostra vire valor da conta sem ressalva."
+   ],
+   "rodape": "Pergunta aberta devolve resposta aberta — e o método ainda se escolhe aqui."
+  },
+  {
+   "kicker": "Demonstração · dois critérios de extrapolação",
+   "titulo": "A mesma amostra, dois números para o mesmo laudo",
+   "passos": [
+    "<em>O universo.</em> 1.200 lançamentos, R$ 6.000.000,00 no período — valor médio de R$ 5.000,00 por lançamento.",
+    "<em>A amostra.</em> 60 lançamentos, R$ 300.000,00. Dentro dela, 6 lançamentos divergentes, somando R$ 42.000,00.",
+    "<em>Critério A, proporção de itens.</em> 6 em 60 são 10%; 10% de 1.200 são 120 lançamentos; a R$ 5.000,00 cada, R$ 600.000,00.",
+    "<em>Critério B, proporção de valor.</em> R$ 42.000,00 sobre R$ 300.000,00 são 14%; 14% de R$ 6.000.000,00 são R$ 840.000,00. A diferença entre um critério e outro: R$ 240.000,00."
+   ],
+   "rodape": "Números de demonstração, não de caso real. A perícia apura qual critério a base admite — e mostra a conta dos dois.",
+   "painel": true
+  },
+  {
+   "ponte": "A amostra é do perito.<br>O critério ainda se discute.",
+   "itens": [
+    "Crítica de plano amostral e de extrapolação em laudo pericial",
+    "Quesitos e quesitos suplementares sobre método e alcance",
+    "Recontagem por universo, quando a base de dados permitir"
+   ],
+   "oferta": "Mande a minuta de quesitos. Em até 24h úteis eu digo o que falta perguntar"
+  }
+ ]
+}

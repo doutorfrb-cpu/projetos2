@@ -136,46 +136,6 @@ def montar_html(spec, out):
         f'<div class="ln" style="animation-delay:{t_p0 + i*passo_dur:.2f}s">{p}</div>'
         for i, p in enumerate(corpo))
 
-    # --- ajuste automatico de fonte: nenhum texto transborda o quadro ---
-    import re as _re
-
-    def _puro(t):
-        return _re.sub(r"<[^>]+>", "", str(t or "")).strip()
-
-    def _fs(txt, base_px, cabe_em, minimo):
-        """Encolhe a fonte quando o texto passa do que cabe naquele espaco."""
-        n = len(_puro(txt))
-        if n <= cabe_em:
-            return base_px
-        v = int(base_px * ((cabe_em / float(n)) ** 0.5))
-        return max(minimo, v)
-
-    _chamada = capa.get("chamada", "")
-    _headline = capa.get("headline", "")
-    _titulo = limpar(demo.get("titulo", "")) if demo else ""
-    _corpo_txt = " ".join(_puro(x) for x in corpo)
-
-    fs_frase = _fs(_chamada, 44, 46, 28)
-    fs_tarja = _fs(capa.get("peca", ""), 42, 26, 26)
-    fs_head = _fs(_headline, 104, 34, 56)
-    fs_kick = _fs(limpar(demo.get("kicker", "")) if demo else "", 40, 30, 28)
-    fs_tit = _fs(_titulo, 76, 42, 44)
-    fs_fecho = _fs(fecho, 60, 60, 36)
-
-    # as linhas disputam altura entre si: conta tambem QUANTAS sao
-    fs_ln = _fs(_corpo_txt, 46, 210, 28)
-    n_ln = max(1, len(corpo))
-    if n_ln >= 4:
-        fs_ln = min(fs_ln, 40)
-    if n_ln >= 5:
-        fs_ln = min(fs_ln, 35)
-    if n_ln >= 6:
-        fs_ln = min(fs_ln, 31)
-    fs_ln = max(26, fs_ln)
-
-    mb_ln = 34 if n_ln <= 3 else (26 if n_ln == 4 else 20)
-    mb_tit = 64 if n_ln <= 3 else (46 if n_ln == 4 else 34)
-
     ac = accent
     base = css(fundo, accent, texto, dark)
 
@@ -198,30 +158,30 @@ body.medindo .palco{{visibility:hidden}}
 @keyframes sobe{{from{{opacity:0;transform:translateY(38px)}}to{{opacity:1;transform:none}}}}
 @keyframes cresce{{from{{opacity:0;transform:scale(.86)}}to{{opacity:1;transform:none}}}}
 
-.frase{{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:{fs_frase}px;
+.frase{{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:44px;
   letter-spacing:.14em;text-transform:uppercase;color:{ac};line-height:1.2;
   padding-bottom:20px;border-bottom:5px solid {rgba(ac,.55)};align-self:flex-start;
   opacity:0;animation:sobe .6s {t_gancho}s both}}
 .tarja{{display:inline-block;align-self:flex-start;background:{ac};
   color:{fundo if not dark else '#111'};font-family:'Plus Jakarta Sans',sans-serif;
-  font-weight:800;font-size:{fs_tarja}px;letter-spacing:.10em;text-transform:uppercase;
+  font-weight:800;font-size:42px;letter-spacing:.10em;text-transform:uppercase;
   padding:22px 34px 18px;margin:34px 0 44px;line-height:1;
   opacity:0;animation:sobe .6s {t_tarja}s both}}
-.head{{font-family:'Playfair Display',serif;font-weight:900;font-size:{fs_head}px;
+.head{{font-family:'Playfair Display',serif;font-weight:900;font-size:104px;
   line-height:1.02;color:{texto};text-transform:uppercase;
   opacity:0;animation:sobe .7s {t_head}s both}}
 .head b{{color:{ac}}}
 
-.kick{{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:{fs_kick}px;
+.kick{{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:40px;
   letter-spacing:.16em;text-transform:uppercase;color:{ac};margin-bottom:36px;
   opacity:0;animation:sobe .5s {t_kick + .2:.2f}s both}}
-.tit{{font-family:'Playfair Display',serif;font-weight:900;font-size:{fs_tit}px;
-  line-height:1.06;color:{texto};margin-bottom:{mb_tit}px;
+.tit{{font-family:'Playfair Display',serif;font-weight:900;font-size:76px;
+  line-height:1.06;color:{texto};margin-bottom:64px;
   opacity:0;animation:sobe .5s {t_kick + .45:.2f}s both}}
-.ln{{font-family:'Plus Jakarta Sans',sans-serif;font-weight:500;font-size:{fs_ln}px;
-  line-height:1.34;color:{texto};margin-bottom:{mb_ln}px;padding-left:30px;
+.ln{{font-family:'Plus Jakarta Sans',sans-serif;font-weight:500;font-size:46px;
+  line-height:1.34;color:{texto};margin-bottom:34px;padding-left:30px;
   border-left:7px solid {rgba(ac,.65)};opacity:0;animation:sobe .55s both}}
-.fecho{{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:{fs_fecho}px;
+.fecho{{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:60px;
   line-height:1.22;color:{ac};margin-top:26px;padding:34px 0 0;
   border-top:5px solid {rgba(ac,.5)};
   opacity:0;animation:cresce .7s {t_fecho:.2f}s both}}

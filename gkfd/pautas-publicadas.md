@@ -29,8 +29,10 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
 
 2026-08-22 | 20h20 | G2 fiscal e tributário | M9 caiu na malha | MALHA E INTIMAÇÃO | ELES JÁ TÊM O SEU NÚMERO | resposta à malha escrita como alegação, quando o que foi pedido é memória de cálculo | as quatro amarrações entre os cinco elos (pedido, nota, entrega, repasse, banco) e o erro que se repete | A intimação pede um número, e você tem uma explicação | L4 | couro (SUPERFÍCIE) | G06 vermelho retido | /areas/fiscal | FB 1336325419554251_122098865205451002 | IG CARROSSEL PENDENTE (OAuthException 4, quarto dia seguido) | story e reel publicados nos quatro destinos | SEM modo demonstração (slide 4 no formato "o erro que se repete") | cifra do L4: "5 ELOS" com rótulo "o que a resposta precisa amarrar" | plataforma citada: Mercado Livre, Shopee e Amazon, dentro de afirmação sobre a LEI ("não transfere apuração nenhuma") | primeiro comentário NÃO tentado (escopo do app, estado conhecido) | revisita: story da peça 2026-08-19_chargeback-venda-desfeita
 
+2026-08-22 | 23h20 | G3 conciliação de repasses | M3 crescendo rápido | ANTECIPAÇÃO DE RECEBÍVEL | O DINHEIRO CHEGOU ANTES | deságio da antecipação lançado como desconto de venda, encolhendo a receita escriturada e sumindo do resultado | demonstração aritmética do mesmo mês sob dois critérios (R$ 120.000 vendidos, R$ 3.600 de deságio, 8,00% efetivos: receita 116.400 e DAS 9.312 x receita 120.000 e DAS 9.600, diferença de R$ 288,00) | Você antecipou o repasse, e o custo não aparece em conta nenhuma | L5 | doc:extrato/liso (DOCUMENTO) | G01 azul painel | /areas/repasses | FB 1336325419554251_122098949355451002 | IG CARROSSEL PENDENTE (OAuthException 4, quinto dia seguido) | story e reel publicados nos quatro destinos | reel IG 17966264595145948 · reel Página 1377390207183036 | COM modo demonstração (quebra as duas peças seguidas sem) | plataforma NÃO citada pelo nome (terceira seguida sem citar; a próxima PODE citar, e a vez é do Mercado Livre) | primeiro comentário TENTADO só no Facebook (IG sem media id) e FALHOU: OAuthException 200, sem permissão | revisita: story da peça 2026-08-20_dre-por-canal
+
 ## Rodízio — estado atual
-- Total do perfil: 10 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
+- Total do perfil: 11 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
   de 17-18/08, saiu antes do log existir — considerar A3 e o ponto de
   vazamento REPASSE DO MÊS como usados, e a paleta G01 e o layout L2 também.)
 - Áreas usadas: A3/G3 repasse, A8/G5 ads, A4/G9 retenção, A1/G2 regime,
@@ -43,8 +45,11 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   com M3 e outro ponto de vazamento (TARIFA E COMISSÃO). O par é novo.
   SEGUNDA REPETIÇÃO: G2 saiu em 19/08 com M3 (Fator R) e voltou em 22/08 20h
   com M9 (malha). Par novo, ponto de vazamento novo.
+  TERCEIRA REPETIÇÃO: G3 saiu em 17-18/08 com M7 (repasse do mês) e voltou em
+  22/08 23h com M3 e ANTECIPAÇÃO DE RECEBÍVEL. Par novo, ponto novo.
 - Momentos usados: M7 fechamento do mês (2x — G3 e G6), M6 investindo em ADS,
-  M8 saldo retido, M3 crescendo rápido (2x — G2 Fator R e G5 tarifa),
+  M8 saldo retido, M3 crescendo rápido (3x — G2 Fator R, G5 tarifa e
+  G3 antecipação),
   M5 abrindo em segunda plataforma, M4 entrando no fulfillment,
   M1 antes de abrir, M2 primeiro mês vendendo, M9 caiu na malha.
   INTACTO: M10 trocando de contador — é o ÚLTIMO. A partir da próxima peça
@@ -52,31 +57,37 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   que segura a diferença sozinho, junto com o ponto de vazamento.
 - Pontos de vazamento usados: REPASSE DO MÊS, ADS DA PLATAFORMA, SALDO RETIDO,
   ANEXO E FATOR R, CHARGEBACK, DRE POR CANAL, EXTRAVIO E AVARIA, CNPJ E CNAE,
-  ESCRITURAÇÃO POR EXTRATO, TARIFA E COMISSÃO, MALHA E INTIMAÇÃO.
-  Sobram 17 dos 28.
+  ESCRITURAÇÃO POR EXTRATO, TARIFA E COMISSÃO, MALHA E INTIMAÇÃO,
+  ANTECIPAÇÃO DE RECEBÍVEL.
+  Sobram 16 dos 28.
 - Paletas GKFD: G01 azul painel, G02 verde liberado, G03 laranja embalagem,
   G04 noturno operacional, G05 roxo plataforma, G06 vermelho retido.
-  Últimas três: G05, G03, G06. Próxima peça sai em G01, G02 ou G04.
+  Últimas três: G03, G06, G01. Próxima peça sai em G02, G04 ou G05.
 - Frases de efeito usadas: CONFERE UMA COISA, ANTES DE SUBIR O ORÇAMENTO,
   O DINHEIRO JÁ É SEU, A FOLHA DECIDE O ANEXO, VENDA DESFEITA,
   FATURA MAIS, SOBRA MENOS, ESTOQUE FORA DE CASA, O CADASTRO COBRA DEPOIS,
-  O BANCO NÃO CONTA TUDO, A TARIFA NÃO É UMA SÓ, ELES JÁ TÊM O SEU NÚMERO.
-- Layouts: L1 a L6. Últimos três: L2, L1, L4. Próxima peça sai em L5 — e é a
+  O BANCO NÃO CONTA TUDO, A TARIFA NÃO É UMA SÓ, ELES JÁ TÊM O SEU NÚMERO,
+  O DINHEIRO CHEGOU ANTES.
+- Layouts: L1 a L6. Últimos três: L1, L4, L5. Próxima peça sai em L2 — e é a
   única disponível: com L3 e L6 vetados pelo selo de 320px, sobraram quatro
   layouts para uma regra de rodízio de três. Na prática o rodízio virou fixo
   L1-L2-L4-L5. Se isso incomodar, ou o selo encolhe, ou a regra passa a ser
   "fora dos DOIS últimos".
 - Modo demonstração: usada em 18/08 (ADS), 19/08 manhã (Fator R), 20/08 16h
   (DRE por canal), 21/08 16h (CNAE, em quadro) e 22/08 18h (tarifa, em quadro).
-  As de 21/08 20h e 22/08 20h saíram SEM demonstração. A PRÓXIMA TEM DE TER —
-  o rodízio é uma peça a cada duas e já foram duas seguidas sem.
+  As de 21/08 20h e 22/08 20h saíram SEM demonstração, e a de 22/08 23h
+  (antecipação de recebível) VOLTOU a ter. O rodízio está em dia: a próxima
+  pode sair sem.
 - Sem banco de fotos: fundo sempre gerado (documento numérico + superfície
   neutra). Nada de foto.
-- TIPO DE CAPA DAS ÚLTIMAS TRÊS: SUPERFÍCIE (duna), DOCUMENTO (extrato/dobra),
-  SUPERFÍCIE (couro). A PRÓXIMA CAPA PODE SER QUALQUER UMA DAS DUAS — a regra
-  só proíbe três seguidas do mesmo tipo, e a sequência está alternada.
+- TIPO DE CAPA DAS ÚLTIMAS TRÊS: DOCUMENTO (extrato/dobra), SUPERFÍCIE (couro),
+  DOCUMENTO (extrato/liso). A PRÓXIMA CAPA PODE SER QUALQUER UMA DAS DUAS — a
+  regra só proíbe três seguidas do mesmo tipo, e a sequência está alternada.
   Superfícies já usadas em CAPA: granito, concreto, duna, couro.
   Ainda intactas: linho, gesso, madeira.
+  Papéis de `extrato` já usados em CAPA: dobra (2x), copia, formulario, liso.
+  A família extrato está esgotada em papel: a próxima capa de documento sobre
+  dinheiro da plataforma repete papel ou muda de família.
 - Plataforma citada pelo nome: a peça de 21/08 16h citou Shopee, Amazon e
   Magalu, numa frase que NÃO afirma política de plataforma nenhuma ("vender na
   Shopee, na Amazon ou no Magalu não muda essa classificação"). Foi assim que
@@ -85,9 +96,82 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   21/08 20h NÃO citou, e a de 22/08 18h também NÃO. A de 22/08 20h CITOU
   Mercado Livre, Shopee e Amazon, dentro de afirmação sobre a LEI ("vender no
   Mercado Livre, na Shopee ou na Amazon não transfere apuração nenhuma"), que
-  é a forma segura já registrada em 21/08. AS DUAS PRÓXIMAS NÃO CITAM.
+  é a forma segura já registrada em 21/08. A de 22/08 23h NÃO citou (terceira
+  peça seguida sem citar contando 22/08 18h). A PRÓXIMA PODE CITAR, e a vez é
+  do Mercado Livre — dentro de afirmação sobre a LEI, nunca sobre a regra da
+  plataforma.
 
 ## LIÇÕES
+
+**22/08/2026 (23h) — O PUBLICADOR SÓ ACEITA PNG COM O NOME DO SLUG. `1.png` NÃO SERVE.**
+Copiei os cinco slides para a pasta da peça renomeando para `1.png`…`5.png`, que
+é o que o nome "os slides numerados" sugere. O `postar.py` recusou os cinco:
+"fora do carrossel (nao sao slides): 1.png, 2.png, 3.png, 4.png, 5.png" e depois
+"ERRO: nenhuma imagem na pasta" — nos DOIS destinos, sem publicar nada.
+O filtro que os publicadores ganharam depois do acidente do story de 18/08 casa
+`<alguma coisa>_<numero>.png`, e um nome que é SÓ o número não bate. Copie os
+PNGs COM o nome que o `machine.py` gerou (`<slug>_1.png` … `<slug>_5.png`), que
+é como todas as pastas antigas estão.
+Custo: uma rodada de publicação perdida, sem efeito colateral — nada subiu.
+
+**22/08/2026 (23h) — O ARQUIVO DO STORY NÃO NASCE JUNTO DOS SLIDES.**
+O `machine.py` grava em `outdir` (aqui `pc_gkfd12`) e o `reel.py` também. O
+`story_ad.py` NÃO: ele grava em `work22b/kit_anuncios/<slug>_916.png`, e a linha
+que ele imprime é só o nome do arquivo, sem caminho. Procurar o 916 no `outdir`
+não acha nada e parece que o story falhou. Ele não falhou — está na outra pasta.
+
+**22/08/2026 (23h) — O CARROSSEL DO INSTAGRAM FALHOU PELO QUINTO DIA SEGUIDO.**
+Mesma assinatura exata: Facebook publica de primeira, as cinco imagens sobem, os
+cinco containers filhos e o pai (18089323364282865) são criados, e o
+`media_publish` do PAI devolve OAuthException 4. Minutos depois, no mesmo token,
+`extras.py` publicou story e reel nos QUATRO destinos e o `revisitar.py`
+publicou mais um story — cinco publicações seguidas sem um erro.
+UMA tentativa, e parei. SÃO CINCO PEÇAS PENDENTES no Instagram:
+2026-08-21_cnae-abertura, 2026-08-21_escrituracao-extrato,
+2026-08-22_tarifa-comissao, 2026-08-22_malha-intimacao e
+2026-08-22_antecipacao-recebivel. Comando, UMA POR VEZ e com intervalo:
+`python publicar_instagram.py <pasta>`.
+PARA O FÁBIO: cinco dias com o mesmo erro e nenhuma outra chamada afetada não é
+mais coisa que vira sozinha. Ou pedir revisão de limite do app no painel da
+Meta, ou publicar o carrossel pelo aplicativo. O feed do Instagram está cinco
+peças atrás do Facebook.
+
+**22/08/2026 (23h) — TRÊS PASSOS DE TRÊS LINHAS E QUATRO PASSOS DE TRÊS LINHAS,
+TODOS A 100%. A REGRA DE LINHA FECHOU.**
+Primeira renderização, nenhum aviso de encolhimento em nenhum slide — inédito em
+peça de cinco. O que foi feito, e é a lição de 22/08 20h aplicada na escrita e
+não na correção: cada passo escrito já mirando ≤160 caracteres (que é o que dá
+3 linhas), rodapé de 1 linha em todos os slides internos, título de 2 linhas.
+O slide 3 e o slide 4 têm QUATRO passos e mesmo assim couberam a 100% — o teto
+de 94% registrado em 21/08 e 22/08 era de passos de 4 linhas, não de quatro
+passos. CONFIRMA: o que decide é a LINHA, e 160 caracteres é o número prático.
+
+**22/08/2026 (23h) — O L5 COM 4 LINHAS DE HEADLINE SAI LIMPO, E O `checar_capa.py`
+CONFIRMA.**
+Headline forçada em 4 linhas com `<br>` e 61 caracteres de texto puro (o
+`fit_headline` desconta as tags, então `<b>` e `<br>` não contam): fonte 78, e o
+`checar_capa.py` devolveu "nenhuma borda na faixa do split L5". A receita de
+21/08 16h (4 linhas, 59 a 70 caracteres) está confirmada em segunda peça — e
+vale registrar que a conta de altura escrita naquela lição não bate com a
+medição, então use a FAIXA DE CARACTERES, não a aritmética de y.
+
+**22/08/2026 (23h) — DUNA E GESSO LEEM COMO A MESMA TEXTURA, COMO CONCRETO E COURO.**
+Slides 4 e 5 saíram em `duna` e `gesso` e no par ficaram os dois claros e
+granulados, indistinguíveis ao rolar — o mesmo defeito registrado em 19/08 para
+concreto/couro. Trocado o 4 para `madeira`, que tem veio direcional e resolve.
+CONSOLIDANDO os pares que NÃO podem ficar vizinhos: concreto+couro (cinza
+rugoso), duna+gesso (claro granulado). Os que contrastam bem: linho (trama
+fina), granito (mosqueado escuro), madeira (veio direcional).
+
+**22/08/2026 (23h) — O PRIMEIRO COMENTÁRIO ACEITA UM DESTINO SÓ, COM `-`.**
+Com o carrossel do Instagram pendente não existe `ig_media_id`, e por isso as
+quatro rodadas anteriores registraram "não tentado". O `comentar.py` pula
+qualquer id que seja `-`, `0` ou vazio: `py comentar.py - <fb_post_id> "<tema>"`
+tenta só o Facebook. Tentei, e o Facebook devolveu OAuthException 200, "You do
+not have sufficient permissions" — o mesmo erro de 20/08. Fica registrado que o
+comentário na PÁGINA também está bloqueado por permissão, e não só o do
+Instagram por falta de id. PARA O FÁBIO: falta a permissão de publicar
+comentário em nome da Página no app da Meta.
 
 **22/08/2026 (20h) — O CARROSSEL DO INSTAGRAM FALHOU PELO QUARTO DIA SEGUIDO,
 E AGORA O RECORTE ESTÁ FECHADO.**
