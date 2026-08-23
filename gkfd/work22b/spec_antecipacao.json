@@ -1,0 +1,94 @@
+{
+  "slug": "gkfd_antecipacao_recebivel",
+  "outdir": "pc_gkfd12",
+  "paleta": "G01",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a antecipação está no lugar certo",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "doc:extrato/liso",
+    "linho",
+    "granito",
+    "duna",
+    "gesso"
+  ],
+  "seeds": [
+    9401,
+    9402,
+    9403,
+    9404,
+    9405
+  ],
+  "overlay": [
+    ".74,.84,.93",
+    ".18,.34",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L5",
+      "chamada": "O DINHEIRO CHEGOU ANTES",
+      "peca": "ANTECIPAÇÃO DE RECEBÍVEL",
+      "headline": "Você antecipou<br>o repasse, e o custo<br>não aparece<br>em <b>conta nenhuma</b>",
+      "apoio": "Adiantar o repasse tem custo, e ele não é desconto de venda. Lançado no lugar errado, encolhe a receita declarada, some do resultado e deixa a margem por canal melhor do que ela é."
+    },
+    {
+      "kicker": "Marketplace · crescendo rápido",
+      "titulo": "Antecipar muda a data do crédito, não o valor da venda",
+      "passos": [
+        "<em>A receita nasce na venda.</em> O valor cheio do pedido é a base, e ele não muda porque o repasse foi adiantado. Antecipar move a data, não o fato gerador.",
+        "<em>O deságio é despesa financeira.</em> O que a plataforma retém para pagar antes é custo de dinheiro no tempo, da mesma natureza de juro. Não é redução de preço.",
+        "<em>O lançamento decide dois números.</em> Como desconto de venda, o deságio encolhe a receita declarada. Como despesa, ele sai da base e entra no resultado."
+      ],
+      "rodape": "A data do crédito não move a competência da receita."
+    },
+    {
+      "kicker": "O que o mês precisa responder",
+      "titulo": "Quatro perguntas antes de antecipar de novo",
+      "passos": [
+        "<em>Quanto custou, somado?</em> O deságio vem diluído em dezenas de operações e some no total. Somado no mês, vira uma linha de despesa que quase nunca existe.",
+        "<em>Está dentro ou fora da receita?</em> Receita escriturada menor que o bruto do relatório de repasse é sinal de deságio lançado como desconto, e base errada.",
+        "<em>Que margem sobrou depois dele?</em> Antecipação é custo de vender naquele canal. Fora do custo do pedido, a margem por SKU fica melhor no papel.",
+        "<em>Foi decisão ou virou hábito?</em> Antecipação contratada uma vez costuma ficar automática. Sem o custo do mês apurado, não há com o que comparar."
+      ],
+      "rodape": "Antecipar é decisão financeira. Sem custo apurado, é hábito."
+    },
+    {
+      "kicker": "Modo demonstração",
+      "titulo": "A mesma antecipação, lançada de dois jeitos",
+      "passos": [
+        "<em>A base.</em> Mês de R$ 120.000,00 vendidos na plataforma e R$ 3.600,00 retidos como deságio para adiantar os repasses. Alíquota efetiva de 8,00%.",
+        "<em>A — deságio como desconto de venda.</em> Receita escriturada de R$ 116.400,00 e DAS de R$ 9.312,00. A declaração fica abaixo do relatório de repasse.",
+        "<em>B — deságio como despesa financeira.</em> Receita de R$ 120.000,00 e DAS de R$ 9.600,00. O custo vai para o resultado e a base bate com o relatório.",
+        "<em>A diferença: R$ 288,00.</em> É o DAS que o critério A deixou de recolher. Não é economia: é receita fora da declaração, e o relatório prova o valor cheio."
+      ],
+      "rodape": "Números de demonstração, não de caso real."
+    },
+    {
+      "ponte": "O adiantamento<br>tem custo.<br>Ele precisa aparecer.",
+      "itens": [
+        "Relatório de repasse aberto linha a linha, com o deságio separado da venda",
+        "Receita escriturada pelo bruto e o custo financeiro no resultado do mês",
+        "Custo de antecipação alocado ao canal"
+      ],
+      "oferta": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a antecipação está no lugar certo"
+    }
+  ]
+}
