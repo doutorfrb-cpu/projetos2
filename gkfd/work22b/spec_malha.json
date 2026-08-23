@@ -1,0 +1,97 @@
+{
+  "slug": "gkfd_malha_intimacao",
+  "outdir": "pc_gkfd11",
+  "paleta": "G06",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o repasse e a apuração do mês. Em até 24h úteis eu digo onde a diferença nasceu",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "couro",
+    "linho",
+    "concreto",
+    "madeira",
+    "gesso"
+  ],
+  "seeds": [
+    9301,
+    9302,
+    9303,
+    9304,
+    9305
+  ],
+  "overlay": [
+    ".30,.52,.74",
+    ".18,.34",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L4",
+      "chamada": "ELES JÁ TÊM O SEU NÚMERO",
+      "peca": "MALHA E INTIMAÇÃO",
+      "cifra": {
+        "rotulo": "o que a resposta precisa amarrar",
+        "valor": "5 ELOS"
+      },
+      "headline": "A intimação pede um número,<br>e você tem <b>uma explicação</b>",
+      "apoio": "Resposta à malha não se escreve com argumento. Ela se monta com a conciliação entre pedido, nota, entrega, repasse e crédito bancário — e cada elo que falta vira diferença aceita."
+    },
+    {
+      "kicker": "Marketplace · caiu na malha",
+      "titulo": "A divergência não nasce na fiscalização, ela só aparece lá",
+      "passos": [
+        "<em>O número chega ao fisco por fora.</em> Plataforma e meio de pagamento informam, por conta própria, o que passa por eles. O dado já estava lá antes da intimação.",
+        "<em>A obrigação é da empresa, não do canal.</em> Vender no Mercado Livre, na Shopee ou na Amazon não transfere apuração: a receita é da sua empresa, a nota é sua e a declaração também. Quem responde pela base é o CNPJ.",
+        "<em>O que diverge quase nunca é venda escondida.</em> É bruto contra líquido, competência contra data de crédito, cancelamento que ficou na base, devolução sem nota de entrada. Sem conciliação, erro de amarração tem a mesma cara que omissão."
+      ],
+      "rodape": "A diferença já existia antes da intimação. A intimação só pediu a conta."
+    },
+    {
+      "kicker": "O que a resposta precisa demonstrar",
+      "titulo": "Quatro amarrações, na ordem em que o dinheiro andou",
+      "passos": [
+        "<em>Pedido contra nota.</em> Mesmo valor, mesma data, mesmo destinatário. Pedido sem nota e nota sem pedido são as pontas soltas que a malha encontra primeiro.",
+        "<em>Nota contra entrega.</em> Cancelamento antes do despacho, extravio e devolução mudam o destino da mercadoria. Sem documento do evento, a nota segue afirmando que a venda se realizou.",
+        "<em>Entrega contra repasse.</em> O creditado é o preço menos comissão, frete, campanha e ajuste. Cada desconto é despesa própria: somados no líquido, encolhem a receita declarada.",
+        "<em>Repasse contra banco.</em> Data de crédito não é competência de venda, e antecipação não é desconto de preço. Conferir pelo extrato troca quanto foi vendido por quando o dinheiro chegou."
+      ],
+      "rodape": "Quatro amarrações entre cinco elos, não a última linha do extrato."
+    },
+    {
+      "kicker": "O erro que se repete",
+      "titulo": "Responder com alegação, e não com memória de cálculo",
+      "passos": [
+        "<em>Como ele aparece.</em> A resposta descreve a operação em texto: existe comissão, houve devolução, parte do valor nunca foi creditada. Frases verdadeiras e sem lastro documental não alcançam o número apontado.",
+        "<em>Onde ele custa.</em> Diferença não demonstrada é diferença que permanece. O prazo corre, a resposta é protocolada, e o que era erro de escrituração segue tratado como base.",
+        "<em>O que muda com a conciliação.</em> A mesma matéria em planilha auditável — pedido, nota, evento, repasse e crédito, linha a linha, fechando com o declarado — deixa de ser versão e passa a ser demonstração."
+      ],
+      "rodape": "Alegação sem documento não alcança número. Só a conta alcança."
+    },
+    {
+      "ponte": "A malha pede<br>uma conta.<br>Não uma versão.",
+      "itens": [
+        "Pedido, nota, entrega, repasse e crédito conciliados linha a linha",
+        "Cada diferença classificada por evento, com o documento que a sustenta",
+        "Memória de cálculo auditável, no formato da resposta"
+      ],
+      "oferta": "Mande o repasse e a apuração do mês. Em até 24h úteis eu digo onde a diferença nasceu"
+    }
+  ]
+}

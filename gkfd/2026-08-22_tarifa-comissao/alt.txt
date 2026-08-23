@@ -1,0 +1,5 @@
+Capa sobre tarifa e comissão de marketplace: a tarifa é cobrada por pedido e conferida uma vez por mês, sobre fundo de extrato de repasse.
+Slide sobre variação de tarifa: categoria, faixa de preço, tipo de anúncio e campanha mudam o percentual dentro do mesmo mês, e o relatório traz o valor debitado sem o critério.
+Slide com quatro perguntas por linha de repasse: qual percentual foi aplicado, se ele bate com a tabela vigente na data, se a tarifa fixa está somada duas vezes e o que foi debitado fora da linha da venda.
+Slide de demonstração aritmética: a mesma venda de 89 reais e 90 centavos, em 420 pedidos, com comissão a 14,00% e a 14,50%, resultando em 45 centavos por pedido e 189 reais no mês.
+Slide de oferta da GKFD Contábil: percentual efetivo por pedido, separação por natureza e conciliação de repasse, com WhatsApp e endereço do site.

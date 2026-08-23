@@ -3,6 +3,33 @@
 
 DATA | HORA | EIXO | ÁREA | MOMENTO | PEÇA | FRASE | TÓPICO | ÂNGULO | HEADLINE | LAYOUT | CENA DA CAPA | PALETA | DESTINO
 
+2026-08-22 | 18h | 2 | A9 marketplace e plataformas | M1 antes da ação | AÇÃO DE EXIGIR CONTAS | ISSO PASSOU BATIDO? | relatório exportado do painel apresentado como prestação de contas, sem débito, crédito e saldo encadeado | vencida a primeira fase, o documento que chega não permite conferir: rubricas agregadas por competência, nenhuma volta ao pedido de venda | Você exigiu contas. Veio um PDF sem débito, crédito e saldo | L2 | doc:extrato/envelhecido (foto do slide 5: px_30857714) | P06 AZUL PETRÓLEO | /areas/marketplace
+  ig_media_id 18124628848696225 · fb_post_id 1164892873373934_122134374213355676
+  slide 4 SEM demonstração (a das 18h de 21/08 foi): alternância mantida — o slide 4 traz o erro que se repete (estorno sem pedido de origem, antecipação sobre valor já antecipado, campanha e frete em bloco).
+  story e reel publicados nos dois destinos (extras.py, placar 4/4). Reel 17,3s; saíram as duas linhas de correção ("cena(s) reduzida(s) para caber: [96]%" e "cortando 1.17s de preto do inicio") e os quadros foram conferidos.
+  comentar.py FALHOU de novo nos dois, mesmos erros: OAuthException 10 no Instagram e OAuthException 200 no Facebook. Terceira rodada seguida — a permissão de comentário do app na Meta continua pendente e é a única coisa que impede deixar link no Instagram.
+  revisita: rodou (última rodada da marca) e republicou a capa de 2026-08-15_conciliacao-bancaria como story, id 18169369699455931.
+  LinkedIn gravado em linkedin/2026-08-22-exigir-contas-plataforma.md. Sem artigo: hoje é sábado, e o artigo é só quarta.
+  Não houve rodada das 12h hoje para a IntegraJud — nenhuma pasta de peça de 22/08 existia antes desta.
+
+**22/08/2026 — O REEL PRECISA DO ffmpeg, E ELE NÃO ESTAVA NO PATH.**
+O reel.py renderizou o vídeo pelo Playwright e quebrou em seguida, no
+`subprocess.run(["ffmpeg", ...])`, com FileNotFoundError [WinError 2]. Não é
+defeito do reel.py: nesta máquina o ffmpeg não está em nenhuma pasta do PATH.
+Existia solto em C:\Users\fabio\Downloads e uma cópia já tinha sido feita para
+gkfd\work22b — ou seja, o problema já apareceu antes e foi contornado sem ficar
+registrado.
+RESOLVIDO nesta rodada copiando o ffmpeg.exe para a RAIZ da pasta
+(postsintegrajud\ffmpeg.exe, 101 MB) e rodando o reel por um envelope que põe a
+raiz no PATH antes de chamar o reel.py:
+    py _reel22.py        (os dois arquivos ficaram na raiz)
+Colocar o exe na raiz NÃO basta sozinho: o Windows desta máquina não procura
+executável no diretório atual. É o PATH que resolve.
+O DEFINITIVO seria instalar o ffmpeg e colocá-lo no PATH do sistema, ou o
+reel.py aceitar um caminho explícito. Enquanto isso não acontece, toda sessão
+que gerar reel precisa do envelope — e sem ele a rodada perde o reel em
+silêncio, depois de já ter gasto o render.
+
 2026-08-21 | 18h | 1 | A6 previdenciários | M7 sentença e liquidação | IMPUGNAÇÃO AOS CÁLCULOS | A CONTA VEIO PRONTA | atrasados com termo inicial e critério de correção divergentes do julgado | ganhou a ação e a planilha do executado desloca o marco e aplica índice único; impugnar sem apresentar conta devolve o arbítrio ao juízo | Você ganhou. Os atrasados vieram por outro índice | L1 | doc:liquidacao/formulario (foto do slide 5: px_5807057) | P04 SÉPIA ESCURO | /areas/previdenciarios
   ig_media_id 18016217147942741 · fb_post_id 1164892873373934_122134079625355676
   slide 4 em MODO DEMONSTRAÇÃO (o das 14h não foi): R$ 900,00/mês, 24 comp. → R$ 25.488,00 contra 18 comp. → R$ 17.334,00, diferença R$ 8.154,00. Conta conferida.

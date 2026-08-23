@@ -1,0 +1,20 @@
+Existe uma diferença de escala no centro da conciliação de repasse, e quase ninguém a enxerga: a tarifa é debitada uma vez por pedido, e é conferida uma vez por mês.
+
+No total, meio ponto percentual de comissão desaparece. Numa operação de 420 pedidos a R$ 89,90, ele vale R$ 189,00 — 0,50% do bruto do mês. Na linha do pedido, ele é R$ 0,45. Nenhum dos dois números chama atenção sozinho; o segundo, repetido 420 vezes, é o primeiro.
+
+O percentual também não é um só. Categoria do produto, faixa de preço, tipo de anúncio e participação em campanha entram na conta de cada venda, e alteração de tarifa tem data de vigência. Duas vendas do mesmo item, em semanas diferentes, podem sair com percentuais diferentes — e o relatório de repasse informa o valor que foi debitado, nunca o critério que produziu aquele valor.
+
+A alíquota real de cada linha é uma divisão: valor debitado sobre preço da operação. O trabalho não está na conta, está em fazê-la pedido a pedido, comparar cada resultado com a tabela vigente naquela data, e separar por natureza o que foi comissão, o que foi tarifa fixa por unidade, o que foi frete e o que foi publicidade. Somados num desconto único de venda, os quatro somem do resultado e da apuração.
+
+Some-se a isso o que chega fora da linha da venda: ajuste de reclamação, estorno de campanha, correção retroativa. Débito sem pedido de origem identificado não se explica pelo total do mês — ele se explica por conciliação entre pedido, nota, repasse e banco.
+
+Números de demonstração, não de caso real: preço de R$ 89,90, 420 pedidos, comissão a 14,00% (R$ 12,59 por pedido) e a 14,50% (R$ 13,04 por pedido). Diferença de R$ 0,45 por pedido, R$ 189,00 no mês e R$ 2.268,00 em doze meses no mesmo volume.
+
+Identificamos cobranças e retenções indevidas e produzimos a apuração técnica necessária para buscar restituição, inclusive em dobro quando houver fundamento jurídico aplicável.
+
+Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa:
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Facebook%20sobre%20tarifa%20e%20comissao%20por%20pedido%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.
+
+GKFD Contábil
+Contabilidade especializada em e-commerce e marketplace
+Análise contábil inicial gratuita em www.gkfd.com.br

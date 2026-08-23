@@ -1,0 +1,21 @@
+Seis rubricas agregadas, um valor líquido no rodapé e nenhuma linha que volte ao pedido que a originou — é isso que costuma chegar quando se pede as contas de uma plataforma.
+
+A ação de exigir contas tem duas fases, e elas decidem coisas diferentes. A primeira decide se existe dever de prestar. A segunda decide o valor. Vencer a primeira e receber um relatório exportado do painel é chegar à segunda sem material para discutir.
+
+O art. 551 do Código de Processo Civil não pede relatório: manda especificar as receitas, a aplicação das despesas e os investimentos. Isso é conta — cada linha com data, documento de origem, natureza e valor, e um saldo que se encadeia com a anterior. Total por competência é o resultado que a própria parte apurou, e é exatamente o que se pretendia conferir.
+
+Na prática, o extrato de repasse abre em saldo anterior e fecha em valor líquido, sem que as linhas do meio reproduzam a diferença. Comissão, frete subsidiado, campanha, estorno, antecipação e retenção aparecem agregados por competência, e nenhum deles volta ao pedido de venda que o originou.
+
+Quem tem o dado é quem presta a conta. O vendedor enxerga o painel; a base transacional fica com a plataforma. Por isso o pedido precisa descer ao nível do pedido de venda: identificador, data, valor bruto, cada dedução e o repasse líquido correspondente, cada um na competência em que entrou.
+
+Quatro definições que o juízo não vai suprir: o período, delimitado por competência mensal, do primeiro ao último repasse discutido; o nível do dado; os documentos que fecham o mês — nota fiscal de serviço da plataforma, relatório de comissão e comprovante do crédito bancário; e a conta que você sustenta, ainda que parcial, apurada sobre o que o vendedor já tem em mãos.
+
+E três lançamentos que passam sem origem: estorno registrado na competência em que foi processado, e não na da venda; antecipação com percentual visível e base invisível, incidindo outra vez sobre parcela já antecipada; campanha e frete debitados em bloco, sem a lista de pedidos participantes.
+
+Mande o extrato de repasse e o relatório de comissão. Em até 24h úteis eu digo o que falta para essas contas serem conferíveis.
+
+Solicite a análise técnica inicial gratuita em www.integrajud.com.br/areas/marketplace
+
+Prefere WhatsApp? https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20IntegraJud%20no%20Facebook%20sobre%20exigir%20contas%20da%20plataforma%20e%20queria%20falar%20sobre%20o%20c%C3%A1lculo%20do%20meu%20processo.
+
+IntegraJud · Inteligência pericial para advocacia

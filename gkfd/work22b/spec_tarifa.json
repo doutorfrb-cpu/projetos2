@@ -1,0 +1,98 @@
+{
+  "slug": "gkfd_tarifa_comissao",
+  "outdir": "pc_gkfd10",
+  "paleta": "G03",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "doc:extrato/dobra",
+    "linho",
+    "madeira",
+    "concreto",
+    "duna"
+  ],
+  "seeds": [
+    9201,
+    9202,
+    9203,
+    9204,
+    9205
+  ],
+  "overlay": [
+    ".74,.84,.93",
+    ".18,.34",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L1",
+      "chamada": "A TARIFA NÃO É UMA SÓ",
+      "peca": "TARIFA E COMISSÃO",
+      "headline": "A tarifa é cobrada<br>por pedido e conferida<br><b>uma vez por mês</b>",
+      "apoio": "Categoria, faixa de preço, tipo de anúncio e campanha mudam o percentual dentro do mesmo mês. O total do repasse não mostra qual deles foi aplicado em cada venda."
+    },
+    {
+      "kicker": "Marketplace · operação crescendo",
+      "titulo": "O percentual não é um só, e não é fixo",
+      "passos": [
+        "<em>A tarifa muda dentro do próprio mês.</em> Categoria do produto, faixa de preço, tipo de anúncio e participação em campanha entram na conta de cada venda. Duas vendas do mesmo item, em semanas diferentes, podem sair com percentuais diferentes.",
+        "<em>O relatório traz o valor, não o critério.</em> A linha mostra quanto foi debitado. Qual regra produziu aquele número é conclusão, e ela só nasce do cruzamento entre o preço praticado e a tabela vigente na data do pedido.",
+        "<em>Crescer multiplica a linha, não a conferência.</em> De cem para mil pedidos, o total do mês continua sendo um número só. O que mudou de tamanho foi a diferença por pedido, dez vezes repetida e ainda invisível no total."
+      ],
+      "rodape": "Tarifa é preço de serviço contratado. Preço contratado se confere."
+    },
+    {
+      "kicker": "O que a conciliação do mês precisa responder",
+      "titulo": "Quatro perguntas por linha de repasse",
+      "passos": [
+        "<em>Qual percentual foi aplicado nesta venda?</em> Valor debitado dividido pelo preço da operação. É assim que se descobre a alíquota real da linha, e ela não vem escrita em lugar nenhum.",
+        "<em>Ele bate com a tabela vigente na data?</em> Alteração de tarifa tem data de início. Sem a vigência demonstrada, não há como saber se o percentual novo entrou antes ou depois do pedido.",
+        "<em>A tarifa fixa está somada duas vezes?</em> Comissão percentual e valor fixo por unidade convivem na mesma venda. Em pedido com mais de um item é onde a duplicidade costuma aparecer.",
+        "<em>O que foi debitado fora da linha da venda?</em> Ajuste de reclamação, estorno de campanha e correção retroativa chegam soltos, sem pedido de origem identificado."
+      ],
+      "rodape": "Nenhuma delas se responde pelo total do mês."
+    },
+    {
+      "kicker": "Modo demonstração",
+      "titulo": "Meio ponto percentual, no mesmo mês",
+      "formato": "quadro",
+      "linhas": [
+        ["Preço da venda", "R$ 89,90 · 420 pedidos no mês"],
+        ["Comissão a 14,00%", "R$ 12,59 por pedido"],
+        ["Comissão a 14,50%", "R$ 13,04 por pedido"],
+        ["Diferença por pedido", "R$ 0,45"],
+        ["Diferença no mês", "R$ 189,00"],
+        ["Peso no bruto do mês", "R$ 189,00 em R$ 37.758,00 · 0,50%"],
+        ["No mesmo volume, em doze meses", "R$ 2.268,00"]
+      ],
+      "rodape": "Números de demonstração, não de caso real. Meio ponto não aparece no total do mês; aparece na linha do pedido."
+    },
+    {
+      "ponte": "Tarifa é preço.<br>Preço se confere<br>linha a linha.",
+      "itens": [
+        "Percentual efetivo por pedido, calculado do valor debitado",
+        "Tarifa, comissão, frete e campanha separados por natureza",
+        "Repasse conciliado com pedido e nota"
+      ],
+      "oferta": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa"
+    }
+  ]
+}

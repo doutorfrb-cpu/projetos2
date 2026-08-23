@@ -25,8 +25,12 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
 
 2026-08-21 | 20h05 | G1 contabilidade do e-commerce | M2 primeiro mês vendendo | ESCRITURAÇÃO POR EXTRATO | O BANCO NÃO CONTA TUDO | escrituração feita pelo crédito bancário, sem o repasse que está por trás | o crédito é o FIM da conta: receita a menor e despesa invisível, e os quatro sinais disso no balancete | O que caiu no banco não é o que você vendeu | L2 | duna (SUPERFÍCIE) | G05 roxo plataforma | /areas/contabilidade | FB 1336325419554251_122098135815451002 | IG CARROSSEL PENDENTE (OAuthException 4, segunda vez no dia) | story e reel publicados nos quatro destinos | SEM modo demonstração (slide 4 no formato "o erro que se repete") | plataforma NÃO citada pelo nome | primeiro comentário NÃO tentado (escopo do app, estado conhecido) | revisita: story da peça 2026-08-18_saldo-retido
 
+2026-08-22 | 18h15 | G5 tarifas e publicidade | M3 crescendo rápido | TARIFA E COMISSÃO | A TARIFA NÃO É UMA SÓ | tarifa debitada por pedido e conferida uma vez por mês, pelo total | demonstração aritmética de meio ponto de comissão (14,00% x 14,50% em 420 pedidos de R$ 89,90: R$ 0,45 por pedido, R$ 189,00 no mês, 0,50% do bruto) | A tarifa é cobrada por pedido e conferida uma vez por mês | L1 | doc:extrato/dobra (DOCUMENTO) | G03 laranja embalagem | /areas/tarifas | FB 1336325419554251_122098805487451002 | IG CARROSSEL PENDENTE (OAuthException 4, terceiro dia seguido) | story e reel publicados nos quatro destinos | story IG 18122851384801033 · story Página 1086335207221038 · reel IG 18102462827522960 · reel Página 1050825781073015 | plataforma NÃO citada pelo nome (segunda seguida sem citar; a próxima pode citar, e a vez é do Mercado Livre) | primeiro comentário NÃO tentado (escopo do app, estado conhecido) | revisita: story da peça 2026-08-19_anexo-fator-r
+
+2026-08-22 | 20h20 | G2 fiscal e tributário | M9 caiu na malha | MALHA E INTIMAÇÃO | ELES JÁ TÊM O SEU NÚMERO | resposta à malha escrita como alegação, quando o que foi pedido é memória de cálculo | as quatro amarrações entre os cinco elos (pedido, nota, entrega, repasse, banco) e o erro que se repete | A intimação pede um número, e você tem uma explicação | L4 | couro (SUPERFÍCIE) | G06 vermelho retido | /areas/fiscal | FB 1336325419554251_122098865205451002 | IG CARROSSEL PENDENTE (OAuthException 4, quarto dia seguido) | story e reel publicados nos quatro destinos | SEM modo demonstração (slide 4 no formato "o erro que se repete") | cifra do L4: "5 ELOS" com rótulo "o que a resposta precisa amarrar" | plataforma citada: Mercado Livre, Shopee e Amazon, dentro de afirmação sobre a LEI ("não transfere apuração nenhuma") | primeiro comentário NÃO tentado (escopo do app, estado conhecido) | revisita: story da peça 2026-08-19_chargeback-venda-desfeita
+
 ## Rodízio — estado atual
-- Total do perfil: 8 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
+- Total do perfil: 10 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
   de 17-18/08, saiu antes do log existir — considerar A3 e o ponto de
   vazamento REPASSE DO MÊS como usados, e a paleta G01 e o layout L2 também.)
 - Áreas usadas: A3/G3 repasse, A8/G5 ads, A4/G9 retenção, A1/G2 regime,
@@ -34,41 +38,172 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   G8 abertura e regularização, G1 contabilidade do e-commerce.
   AS NOVE ÁREAS DO SITE JÁ RODARAM. A partir daqui a área repete, e o que
   segura a diferença é o PAR área × momento (não repetir em menos de 20 peças)
-  e o ponto de vazamento (não repetir em menos de 8). Sobram 19 dos 28 pontos.
+  e o ponto de vazamento (não repetir em menos de 8). Sobram 18 dos 28 pontos.
+  PRIMEIRA REPETIÇÃO DE ÁREA: G5 saiu em 18/08 com M6 (ADS) e voltou em 22/08
+  com M3 e outro ponto de vazamento (TARIFA E COMISSÃO). O par é novo.
+  SEGUNDA REPETIÇÃO: G2 saiu em 19/08 com M3 (Fator R) e voltou em 22/08 20h
+  com M9 (malha). Par novo, ponto de vazamento novo.
 - Momentos usados: M7 fechamento do mês (2x — G3 e G6), M6 investindo em ADS,
-  M8 saldo retido, M3 crescendo rápido, M5 abrindo em segunda plataforma,
-  M4 entrando no fulfillment, M1 antes de abrir, M2 primeiro mês vendendo.
-  INTACTOS: M9 caiu na malha, M10 trocando de contador.
+  M8 saldo retido, M3 crescendo rápido (2x — G2 Fator R e G5 tarifa),
+  M5 abrindo em segunda plataforma, M4 entrando no fulfillment,
+  M1 antes de abrir, M2 primeiro mês vendendo, M9 caiu na malha.
+  INTACTO: M10 trocando de contador — é o ÚLTIMO. A partir da próxima peça
+  todos os dez momentos repetem, e o par área × momento passa a ser o eixo
+  que segura a diferença sozinho, junto com o ponto de vazamento.
 - Pontos de vazamento usados: REPASSE DO MÊS, ADS DA PLATAFORMA, SALDO RETIDO,
   ANEXO E FATOR R, CHARGEBACK, DRE POR CANAL, EXTRAVIO E AVARIA, CNPJ E CNAE,
-  ESCRITURAÇÃO POR EXTRATO.
+  ESCRITURAÇÃO POR EXTRATO, TARIFA E COMISSÃO, MALHA E INTIMAÇÃO.
+  Sobram 17 dos 28.
 - Paletas GKFD: G01 azul painel, G02 verde liberado, G03 laranja embalagem,
   G04 noturno operacional, G05 roxo plataforma, G06 vermelho retido.
-  Últimas três: G02, G04, G05. Próxima peça sai em G01, G03 ou G06.
+  Últimas três: G05, G03, G06. Próxima peça sai em G01, G02 ou G04.
 - Frases de efeito usadas: CONFERE UMA COISA, ANTES DE SUBIR O ORÇAMENTO,
   O DINHEIRO JÁ É SEU, A FOLHA DECIDE O ANEXO, VENDA DESFEITA,
   FATURA MAIS, SOBRA MENOS, ESTOQUE FORA DE CASA, O CADASTRO COBRA DEPOIS,
-  O BANCO NÃO CONTA TUDO.
-- Layouts: L1 a L6. Últimos três: L4, L5, L2. Próxima peça sai em L1 — e é a
+  O BANCO NÃO CONTA TUDO, A TARIFA NÃO É UMA SÓ, ELES JÁ TÊM O SEU NÚMERO.
+- Layouts: L1 a L6. Últimos três: L2, L1, L4. Próxima peça sai em L5 — e é a
   única disponível: com L3 e L6 vetados pelo selo de 320px, sobraram quatro
   layouts para uma regra de rodízio de três. Na prática o rodízio virou fixo
   L1-L2-L4-L5. Se isso incomodar, ou o selo encolhe, ou a regra passa a ser
   "fora dos DOIS últimos".
 - Modo demonstração: usada em 18/08 (ADS), 19/08 manhã (Fator R), 20/08 16h
-  (DRE por canal) e 21/08 16h (CNAE, em quadro). A de 21/08 20h saiu SEM
-  demonstração. A PRÓXIMA VOLTA A TER demonstração, em quadro no slide 4.
+  (DRE por canal), 21/08 16h (CNAE, em quadro) e 22/08 18h (tarifa, em quadro).
+  As de 21/08 20h e 22/08 20h saíram SEM demonstração. A PRÓXIMA TEM DE TER —
+  o rodízio é uma peça a cada duas e já foram duas seguidas sem.
 - Sem banco de fotos: fundo sempre gerado (documento numérico + superfície
   neutra). Nada de foto.
-- TIPO DE CAPA DAS ÚLTIMAS TRÊS: DOCUMENTO (extrato/formulario), DOCUMENTO
-  (comparativo/liso), SUPERFÍCIE (duna). A PRÓXIMA CAPA SAI EM DOCUMENTO.
+- TIPO DE CAPA DAS ÚLTIMAS TRÊS: SUPERFÍCIE (duna), DOCUMENTO (extrato/dobra),
+  SUPERFÍCIE (couro). A PRÓXIMA CAPA PODE SER QUALQUER UMA DAS DUAS — a regra
+  só proíbe três seguidas do mesmo tipo, e a sequência está alternada.
+  Superfícies já usadas em CAPA: granito, concreto, duna, couro.
+  Ainda intactas: linho, gesso, madeira.
 - Plataforma citada pelo nome: a peça de 21/08 16h citou Shopee, Amazon e
   Magalu, numa frase que NÃO afirma política de plataforma nenhuma ("vender na
   Shopee, na Amazon ou no Magalu não muda essa classificação"). Foi assim que
   deu para citar sem o risco que travou a peça de 20/08 20h: cite o NOME dentro
   de uma afirmação sobre a LEI, nunca sobre a regra da plataforma. A peça de
-  21/08 20h NÃO citou. Falta uma sem citar; depois, revezar para Mercado Livre.
+  21/08 20h NÃO citou, e a de 22/08 18h também NÃO. A de 22/08 20h CITOU
+  Mercado Livre, Shopee e Amazon, dentro de afirmação sobre a LEI ("vender no
+  Mercado Livre, na Shopee ou na Amazon não transfere apuração nenhuma"), que
+  é a forma segura já registrada em 21/08. AS DUAS PRÓXIMAS NÃO CITAM.
 
 ## LIÇÕES
+
+**22/08/2026 (20h) — O CARROSSEL DO INSTAGRAM FALHOU PELO QUARTO DIA SEGUIDO,
+E AGORA O RECORTE ESTÁ FECHADO.**
+Mesma assinatura de 21/08 (2x) e 22/08 18h: Facebook publica de primeira, as
+cinco imagens sobem, os cinco containers filhos e o pai são criados, e o
+`media_publish` do PAI devolve OAuthException 4. Minutos depois, na MESMA
+sessão e com o MESMO token, o `extras.py` publicou story e reel nos quatro
+destinos e o `revisitar.py` publicou mais um story — cinco publicações
+seguidas sem um erro.
+O QUE ISSO ELIMINA, definitivamente: não é token, não é escopo, não é limite
+da conta e não é janela de 24h (já viraram quatro meias-noites). É o endpoint
+de publicação de CARROSSEL, e só ele.
+CONDUTA MANTIDA: uma tentativa, e parar.
+SÃO QUATRO PEÇAS PENDENTES no Instagram: 2026-08-21_cnae-abertura,
+2026-08-21_escrituracao-extrato, 2026-08-22_tarifa-comissao e
+2026-08-22_malha-intimacao. Comando, UMA POR VEZ e com intervalo:
+`python publicar_instagram.py <pasta>`.
+PARA O FÁBIO, e agora é o único caminho que sobrou: pedir revisão de limite do
+app no painel da Meta, ou publicar o carrossel do Instagram pelo aplicativo.
+Enquanto isso, o feed do Instagram está quatro peças atrás do Facebook — e a
+produção continua rodando por cima de um destino que não está recebendo.
+
+**22/08/2026 (20h) — 88% É AVISO DE VERDADE, E TRÊS PASSOS LONGOS TAMBÉM ESTOURAM.**
+Primeira renderização: slides 2 e 3 a 88%, slide 4 a 94%. O slide 2 tinha só
+TRÊS passos — a lição de 21/08 dizia que com três passos 100% é alcançável, e
+está certa, mas ela pressupõe passos de até 3 linhas. Os meus tinham 4 e 5.
+O QUE DEVOLVEU OS 12 PONTOS: cortar uma linha de cada passo e reduzir o rodapé
+de 2 linhas para 1. Depois disso o slide 2 subiu a 100% e o 4 também; o 3, com
+quatro passos, ficou nos 94% que já são o normal dele.
+REGRA PRÁTICA que fecha as duas lições: o que decide não é o número de passos,
+é o número de LINHAS. Três passos de 3 linhas mais título de 2 e rodapé de 1
+cabem a 100%. Quatro passos de 3 linhas cabem a 94%. Passo de 5 linhas derruba
+qualquer arranjo.
+
+**22/08/2026 (20h) — A CIFRA DO L4 PODE SER UMA CONTAGEM, NÃO SÓ UM VALOR.**
+Em 18/08 o L4 saiu com `R$ 0,00` e rótulo técnico, e ficou registrado como
+padrão reaproveitável. Repetir a mesma solução na segunda peça de L4 faria as
+duas capas lerem como irmãs. Saída desta rodada: a cifra virou `5 ELOS`, com
+o rótulo "o que a resposta precisa amarrar", e o slide 3 desenvolve exatamente
+esses elos em quatro amarrações. Ganho colateral: a capa passa a PROMETER a
+estrutura do miolo, em vez de só ilustrar. Padrão reaproveitável — o
+protagonista do L4 pode ser quantidade, prazo ou contagem, desde que a peça
+cumpra o número lá dentro.
+
+**22/08/2026 — FALTA ffmpeg NO WINDOWS, E O REEL MORRE NA ÚLTIMA LINHA.**
+O `reel.py` grava o vídeo com o playwright e chama `ffmpeg` PELO NOME para duas
+coisas: detectar o preto de entrada e converter o webm em mp4. Nesta máquina o
+ffmpeg NÃO está no PATH — nem no Git Bash nem no PowerShell — e o script morre
+com `FileNotFoundError: [WinError 2]` DEPOIS de já ter gravado o vídeo, o que
+faz o erro parecer defeito do reel e não falta de dependência.
+O QUE RESOLVEU, e custa 30 segundos: `python -m pip install imageio-ffmpeg`,
+que traz um ffmpeg.exe empacotado; copiar esse exe para a pasta de trabalho e
+rodar o reel por um lançador que antecipa a pasta no PATH do processo. Ficou em
+`work22b/_reel_run.py` — uso: `python _reel_run.py spec.json`.
+NÃO ADIANTA só deixar o ffmpeg.exe na pasta de trabalho: o CreateProcess do
+Windows não procura no diretório atual quando o subprocess é chamado sem shell.
+Tem de estar no PATH do processo.
+PARA O FÁBIO, conserto definitivo: instalar o ffmpeg de vez (`winget install
+Gyan.FFmpeg`) ou o `reel.py` passar a resolver o binário pelo imageio-ffmpeg
+quando não achar no PATH. Enquanto isso, toda sessão no Windows repete o
+paliativo — e as sessões que rodaram no sandbox Linux nunca viram isso porque
+lá o ffmpeg já vinha no sistema.
+
+**22/08/2026 — O CARROSSEL DO INSTAGRAM FALHOU PELO TERCEIRO DIA SEGUIDO.**
+Mesmo desenho de 21/08, agora com uma informação nova que estreita o
+diagnóstico: nesta rodada o Facebook publicou de primeira, o carrossel do
+Instagram morreu no `media_publish` do container pai com OAuthException 4
+("Application request limit reached") — e, MINUTOS DEPOIS, o `extras.py`
+publicou story e reel no Instagram e na Página e o `revisitar.py` publicou mais
+um story, TUDO no mesmo token e no mesmo app, sem um erro.
+Ou seja: o limite atinge o endpoint de publicação de CARROSSEL e só ele. Story,
+reel e foto avulsa passam no mesmo minuto em que o carrossel é recusado.
+CONDUTA MANTIDA: uma tentativa, e parar. Não insisti.
+JÁ SÃO TRÊS PEÇAS PENDENTES no Instagram: 2026-08-21_cnae-abertura,
+2026-08-21_escrituracao-extrato e esta. Publicar com
+`python publicar_instagram.py <pasta>`, UMA POR VEZ e com intervalo, e gravar
+o id na linha do log no lugar de "IG CARROSSEL PENDENTE". Se a janela diária de
+50 posts for mesmo a causa, as 36 chamadas queimadas em 21/08 explicam a
+véspera, mas não explicam hoje — o que aponta para limite por app acumulado, e
+aí o caminho é o Fábio pedir revisão/aumento de limite no app da Meta.
+
+**22/08/2026 — RODADA HERDADA PELA METADE, E O ARQUIVO DE RESERVA MENTIU.**
+Esta sessão encontrou a peça JÁ RENDERIZADA na pasta `2026-08-22_tarifa-comissao`
+(cinco PNGs, legenda, legenda_facebook e alt), com 3 minutos de idade, e o
+`pauta-em-producao.json` reservando OUTRA pauta ("G2 fiscal e tributario | MALHA
+E INTIMACAO"). A sessão anterior morreu entre renderizar e publicar, e deixou a
+reserva apontando para uma pauta que não era a que ela produziu.
+O QUE FIZ: conferi a peça inteira (paleta G03, layout L1 e capa de DOCUMENTO
+batiam com o rodízio; a aritmética do slide 4 fecha; legenda com 2.119
+caracteres), corrigi a reserva para a pauta real e segui do ponto onde parou —
+em vez de jogar fora uma peça correta e produzir outra.
+LIÇÃO PARA A FERRAMENTA: o `reservar.py` grava a pauta ANTES da produção e
+nunca é reescrito se a sessão mudar de ideia no meio. Reserva que não
+corresponde ao que está na pasta é pior do que reserva nenhuma, porque a sessão
+seguinte acredita nela. Quem trocar de pauta depois de reservar tem de reservar
+de novo — e o `reservar.py` recusa reserva nova enquanto a antiga estiver viva,
+então o caminho é reescrever o JSON à mão, como já está registrado em 20/08.
+
+**22/08/2026 — O WORKSPACE NÃO ESTÁ "TRUSTED" E AS PERMISSÕES SÃO IGNORADAS.**
+Nos logs da sessão anterior (`logs/GKFD-2026-08-22-1745.txt`): "Ignoring 20
+permissions.allow entries from .claude/settings.json: this workspace has not
+been trusted". Efeito prático: `py`, o caminho completo do Python314 e qualquer
+comando composto travam pedindo aprovação, e numa rodada automática isso
+significa parar no meio.
+O QUE PASSOU MESMO ASSIM: `python <script>` simples, sem `&&`, sem prefixo de
+variável de ambiente, sem caminho completo de executável. Foi assim que esta
+rodada publicou. O Python que responde por `python` é o 3.13 e ele TEM
+playwright, numpy e pillow — não é o 3.14 da lição de 21/08, mas serve.
+PARA O FÁBIO, e é de um minuto: abrir o Claude Code interativamente uma vez
+nesta pasta e aceitar o diálogo de confiança, ou pôr
+`projects["C:/Users/fabio/Desktop/projetos2"].hasTrustDialogAccepted: true` no
+`C:\Users\fabio\.claude.json`. Sem isso toda rodada automática fica dependendo
+de quais comandos o sandbox resolve liberar sozinho.
+O outro aviso do mesmo log também vale conserto: a regra `Write(./**)` do
+`.claude/settings.json` não é usada para checagem de arquivo — só regras
+`Edit(path)` valem. Trocar por `Edit(./**)`.
 
 **21/08/2026 (20h) — AS NOVE ÁREAS DO SITE SE ESGOTARAM EM QUATRO DIAS.**
 Com a peça de G1 fecha o primeiro giro completo: G1 a G9, uma cada. Daqui em

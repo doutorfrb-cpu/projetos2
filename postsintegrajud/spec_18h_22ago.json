@@ -1,0 +1,80 @@
+{
+ "slug": "integrajud_exigir_contas_plataforma",
+ "outdir": "pc_18h_22ago",
+ "paleta": "P06",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:extrato/envelhecido",
+  "pedra",
+  "linho",
+  "doc:apuracao/dobra",
+  "foto:px_30857714.jpg"
+ ],
+ "seeds": [6221, 6222, 6223, 6224, 6225],
+ "overlay": [
+  ".50,.68,.86",
+  ".46,.62",
+  ".64,.88"
+ ],
+ "slides": [
+  {
+   "layout": "L2",
+   "chamada": "ISSO PASSOU BATIDO?",
+   "peca": "AÇÃO DE EXIGIR CONTAS",
+   "headline": "Você exigiu contas. <b>Veio um PDF sem débito, crédito e saldo</b>",
+   "apoio": "A lei manda especificar receitas, despesas e investimentos. Exportação de painel traz total por período, não conta."
+  },
+  {
+   "kicker": "Marketplace · contas da plataforma",
+   "titulo": "O que a lei chama de conta, o painel não entrega",
+   "passos": [
+    "<em>Forma adequada tem conteúdo.</em> O art. 551 do CPC manda especificar receitas, aplicação das despesas e investimentos. Conta é linha com data, documento de origem, natureza, valor e saldo que se encadeia com a anterior.",
+    "<em>Saldo que não se encadeia não se confere.</em> O extrato abre em saldo anterior e fecha em valor líquido, sem que o meio reproduza a diferença. Comissão, frete, campanha, estorno e antecipação vêm agregados por competência.",
+    "<em>Quem tem o dado é quem presta a conta.</em> O vendedor enxerga o painel; a base por pedido fica com a plataforma. Sem pedi-la, a segunda fase se abre com o mesmo documento que motivou a primeira."
+   ],
+   "rodape": "A primeira fase decide o dever de prestar. A segunda decide o valor."
+  },
+  {
+   "kicker": "O que o pedido precisa nomear",
+   "titulo": "Quatro definições que o juiz não vai suprir",
+   "passos": [
+    "<em>O período.</em> Contas pedidas desde o começo da relação convidam discussão de prescrição e de volume. Delimitar por competência mensal, do primeiro ao último repasse discutido.",
+    "<em>O nível do dado.</em> Não é todos os documentos: é a base por pedido — identificador, data, valor bruto, comissão, frete, campanha, estorno, antecipação e repasse líquido.",
+    "<em>O que fecha o mês.</em> Nota fiscal de serviço da plataforma, relatório de comissão e comprovante do crédito bancário: é o que amarra o debitado ao efetivamente pago.",
+    "<em>A conta que você sustenta.</em> Ainda que parcial, apurada sobre o que o vendedor já tem. Quem chega à segunda fase com número impugna linha a linha; quem chega sem, homologa."
+   ],
+   "rodape": "Pedido específico é o que separa exibir documento de prestar conta."
+  },
+  {
+   "kicker": "O erro que se repete",
+   "titulo": "Três lançamentos que passam sem origem",
+   "passos": [
+    "<em>Estorno sem o pedido de origem.</em> Entra como ajuste na competência em que foi processado, não na da venda. Sem o identificador, não se sabe se o valor estornado é o mesmo que foi repassado, nem se a comissão daquela venda voltou junto.",
+    "<em>Antecipação sobre valor já antecipado.</em> O documento mostra o percentual, quase nunca a base. Quando a base é o bruto do pedido e parte do repasse já havia sido antecipada, a taxa incide duas vezes sobre o mesmo dinheiro.",
+    "<em>Campanha e frete debitados em bloco.</em> Vêm como rubrica agregada do mês, sem a lista de pedidos participantes. Adesão que não se demonstra pedido a pedido não se confere por total — e é onde a conferência costuma parar."
+   ],
+   "rodape": "Onde olhar: a competência do lançamento, a base de incidência e o identificador do pedido.",
+   "painel": true
+  },
+  {
+   "ponte": "Exigir é o pedido.<br>Conferir é a prova.",
+   "itens": [
+    "Reconstrução de vendas e repasses pedido a pedido",
+    "Extrato da plataforma confrontado com o crédito bancário",
+    "Quesitos e parecer técnico sobre as contas prestadas"
+   ],
+   "oferta": "Mande o extrato de repasse. Em até 24h úteis eu digo o que falta"
+  }
+ ]
+}
