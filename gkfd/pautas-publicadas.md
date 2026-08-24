@@ -31,8 +31,14 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
 
 2026-08-22 | 23h20 | G3 conciliação de repasses | M3 crescendo rápido | ANTECIPAÇÃO DE RECEBÍVEL | O DINHEIRO CHEGOU ANTES | deságio da antecipação lançado como desconto de venda, encolhendo a receita escriturada e sumindo do resultado | demonstração aritmética do mesmo mês sob dois critérios (R$ 120.000 vendidos, R$ 3.600 de deságio, 8,00% efetivos: receita 116.400 e DAS 9.312 x receita 120.000 e DAS 9.600, diferença de R$ 288,00) | Você antecipou o repasse, e o custo não aparece em conta nenhuma | L5 | doc:extrato/liso (DOCUMENTO) | G01 azul painel | /areas/repasses | FB 1336325419554251_122098949355451002 | IG CARROSSEL PENDENTE (OAuthException 4, quinto dia seguido) | story e reel publicados nos quatro destinos | reel IG 17966264595145948 · reel Página 1377390207183036 | COM modo demonstração (quebra as duas peças seguidas sem) | plataforma NÃO citada pelo nome (terceira seguida sem citar; a próxima PODE citar, e a vez é do Mercado Livre) | primeiro comentário TENTADO só no Facebook (IG sem media id) e FALHOU: OAuthException 200, sem permissão | revisita: story da peça 2026-08-20_dre-por-canal
 
+2026-08-23 | 13h45 | G8 abertura e regularização | M10 trocando de contador | TROCA DE CONTADOR | O PASSADO VEM JUNTO | migração feita sem inventário de pendência: obrigação, base de apuração e crédito a recuperar continuam no CNPJ da empresa | as quatro perguntas do inventário da migração e o erro que se repete (migrar só com o acesso ao sistema) | A obrigação que ficou para trás continua no seu CNPJ | L2 | madeira (SUPERFÍCIE) | G04 noturno operacional | /areas/abertura | FB 1336325419554251_122099463495451002 | IG 17943520068276620 | story e reel publicados nos quatro destinos | reel IG 17977335855095751 · reel Página 1419713626727812 | SEM modo demonstração (slide 4 no formato "o erro que se repete") | plataforma citada: Mercado Livre, dentro de afirmação sobre a LEI ("não transfere apuração, entrega nem recolhimento para outra pessoa") | ÚLTIMO MOMENTO INTACTO: M10 fecha os dez; a partir daqui todos repetem | primeiro comentário NÃO tentado (escopo do app, estado conhecido) | revisita: story da peça 2026-08-20_extravio-ressarcimento | INCIDENTE DA RODADA: republicação acidental do acervo, ver LIÇÕES
+
+2026-08-23 | 15h20 | G7 gestão e rentabilidade | M3 crescendo rápido | PREÇO | O PREÇO FICOU PARADO | preço formado num dia e mantido depois que comissão, frete, mídia e alíquota efetiva mudaram | demonstração aritmética do mesmo preço sob dois critérios (R$ 129,90, mesmo custo de produto: sobra de R$ 12,97 · 9,99% na conta de origem contra R$ 3,03 · 2,33% na conta de hoje; diferença de R$ 9,94 por venda, R$ 2.982,00 em 300 vendas) | Tudo na sua venda subiu, menos o preço que você cobra | L1 | doc:planilha/dobra (DOCUMENTO) | G02 verde liberado | /areas/gestao | FB 1336325419554251_122099541333451002 | IG 18109247228171455 (publicado, mas ver LIÇÕES: saiu CINCO vezes, e as outras quatro não puderam ser apagadas) | story e reel publicados nos quatro destinos | story IG 18093859469546598 · story Página 1726291265088083 · reel IG 18122750152859825 · reel Página 2171646526951129 | COM modo demonstração (o rodízio pedia; a de 23/08 13h45 saiu sem) | plataforma NÃO citada pelo nome (primeira das duas obrigatórias depois da citação de 23/08 13h45) | primeiro comentário NÃO tentado (escopo do app, estado conhecido) | revisita NÃO rodada: já saiu na rodada das 13h45 de hoje
+
+2026-08-24 | 07h20 | G5 tarifas e publicidade | M4 entrando no fulfillment | FRETE | O CUSTO DE ENTREGAR | débito de logística do fulfillment agregado numa conta só de frete, sem vínculo com o pedido de origem | as quatro naturezas do débito (guarda, manuseio, transporte e reversa), as quatro perguntas antes de aceitar o débito e o erro que se repete | Entrou no fulfillment e o frete virou quatro débitos | L4 | linho (SUPERFÍCIE) | G03 laranja embalagem | /areas/tarifas | FB 1336325419554251_122100012729451002 | IG 18118985000305093 (o postar.py reportou FALHOU com OAuthException 4; o _ig_ultimas.py confirmou a mídia no perfil — NÃO foi republicada) | story e reel publicados nos quatro destinos | story IG 17948567922257715 · story Página 1408649794490959 · reel IG 18067852877775529 · reel Página 1803988147446709 | cifra do L4: "4 DÉBITOS" com rótulo "o que desce como frete" | SEM modo demonstração (slide 4 no formato "o erro que se repete") | plataforma NÃO citada pelo nome (segunda das duas obrigatórias; a próxima PODE citar, e a vez é de Shopee ou Magalu) | primeiro comentário NÃO tentado (escopo do app, estado conhecido) | revisita: story da peça 2026-08-21_cnae-abertura | artigo do LinkedIn NÃO gerado (segunda-feira; só quarta e domingo)
+
 ## Rodízio — estado atual
-- Total do perfil: 11 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
+- Total do perfil: 15 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
   de 17-18/08, saiu antes do log existir — considerar A3 e o ponto de
   vazamento REPASSE DO MÊS como usados, e a paleta G01 e o layout L2 também.)
 - Áreas usadas: A3/G3 repasse, A8/G5 ads, A4/G9 retenção, A1/G2 regime,
@@ -40,35 +46,57 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   G8 abertura e regularização, G1 contabilidade do e-commerce.
   AS NOVE ÁREAS DO SITE JÁ RODARAM. A partir daqui a área repete, e o que
   segura a diferença é o PAR área × momento (não repetir em menos de 20 peças)
-  e o ponto de vazamento (não repetir em menos de 8). Sobram 18 dos 28 pontos.
+  e o ponto de vazamento (não repetir em menos de 8). Sobram 14 dos 28 pontos.
   PRIMEIRA REPETIÇÃO DE ÁREA: G5 saiu em 18/08 com M6 (ADS) e voltou em 22/08
   com M3 e outro ponto de vazamento (TARIFA E COMISSÃO). O par é novo.
   SEGUNDA REPETIÇÃO: G2 saiu em 19/08 com M3 (Fator R) e voltou em 22/08 20h
   com M9 (malha). Par novo, ponto de vazamento novo.
   TERCEIRA REPETIÇÃO: G3 saiu em 17-18/08 com M7 (repasse do mês) e voltou em
   22/08 23h com M3 e ANTECIPAÇÃO DE RECEBÍVEL. Par novo, ponto novo.
+  QUARTA REPETIÇÃO: G8 saiu em 21/08 16h com M1 (CNAE, antes de abrir) e voltou
+  em 23/08 com M10 e TROCA DE CONTADOR. Par novo, ponto novo. A G8 comporta os
+  dois extremos da vida da empresa — quem ainda não abriu e quem já opera e
+  está migrando —, e por isso não lê como repetição.
+  QUINTA REPETIÇÃO: G7 saiu em 20/08 16h com M5 (DRE por canal, abrindo em
+  segunda plataforma) e voltou em 23/08 15h com M3 e PREÇO. Par novo, ponto
+  novo. O DRE por canal pergunta QUAL canal dá lucro; o piso de preço pergunta
+  se o PRODUTO dá lucro. Mesma área, duas decisões diferentes.
+  SEXTA REPETIÇÃO: G5 saiu em 18/08 com M6 (ADS) e em 22/08 18h com M3 (tarifa
+  e comissão), e voltou em 24/08 com M4 e FRETE. Par novo, ponto novo. A G5
+  cobre comissão, mídia E fulfillment: o custo de entregar dentro do centro de
+  distribuição é tarifa da plataforma, não logística de terceiro.
 - Momentos usados: M7 fechamento do mês (2x — G3 e G6), M6 investindo em ADS,
-  M8 saldo retido, M3 crescendo rápido (3x — G2 Fator R, G5 tarifa e
-  G3 antecipação),
+  M8 saldo retido, M3 crescendo rápido (4x — G2 Fator R, G5 tarifa,
+  G3 antecipação e G7 preço),
   M5 abrindo em segunda plataforma, M4 entrando no fulfillment,
-  M1 antes de abrir, M2 primeiro mês vendendo, M9 caiu na malha.
-  INTACTO: M10 trocando de contador — é o ÚLTIMO. A partir da próxima peça
-  todos os dez momentos repetem, e o par área × momento passa a ser o eixo
-  que segura a diferença sozinho, junto com o ponto de vazamento.
+  M1 antes de abrir, M2 primeiro mês vendendo, M9 caiu na malha,
+  M10 trocando de contador (23/08, com G8).
+  M4 entrando no fulfillment agora tem 2x (G4 extravio em 20/08 e G5 frete em
+  24/08).
+  ATENÇÃO AO M3: são quatro, e é de longe o mais usado. Os pares continuam
+  novos, mas o momento está gasto. As próximas peças devem puxar M6, M8 e M2,
+  que rodaram uma vez só e há mais tempo — M4 acaba de sair.
+  OS DEZ MOMENTOS JÁ RODARAM. A partir daqui todos repetem, e o par
+  área × momento passa a ser o eixo que segura a diferença sozinho, junto com
+  o ponto de vazamento.
 - Pontos de vazamento usados: REPASSE DO MÊS, ADS DA PLATAFORMA, SALDO RETIDO,
   ANEXO E FATOR R, CHARGEBACK, DRE POR CANAL, EXTRAVIO E AVARIA, CNPJ E CNAE,
   ESCRITURAÇÃO POR EXTRATO, TARIFA E COMISSÃO, MALHA E INTIMAÇÃO,
-  ANTECIPAÇÃO DE RECEBÍVEL.
-  Sobram 16 dos 28.
+  ANTECIPAÇÃO DE RECEBÍVEL, TROCA DE CONTADOR, PREÇO, FRETE.
+  Sobram 13 dos 28: DEVOLUÇÃO, ESTORNO, DIFAL, ICMS-ST, REGIME
+  TRIBUTÁRIO, INVENTÁRIO, BLOQUEIO DE CONTA, CONCILIAÇÃO ERP × PLATAFORMA,
+  BALANCETE SEM CANAL, FECHAMENTO FORA DO PRAZO, INSCRIÇÃO ESTADUAL,
+  MEI NO LIMITE, EMPRESA PARADA.
 - Paletas GKFD: G01 azul painel, G02 verde liberado, G03 laranja embalagem,
   G04 noturno operacional, G05 roxo plataforma, G06 vermelho retido.
-  Últimas três: G03, G06, G01. Próxima peça sai em G02, G04 ou G05.
+  Últimas três: G04, G02, G03. Próxima peça sai em G01, G05 ou G06.
 - Frases de efeito usadas: CONFERE UMA COISA, ANTES DE SUBIR O ORÇAMENTO,
   O DINHEIRO JÁ É SEU, A FOLHA DECIDE O ANEXO, VENDA DESFEITA,
   FATURA MAIS, SOBRA MENOS, ESTOQUE FORA DE CASA, O CADASTRO COBRA DEPOIS,
   O BANCO NÃO CONTA TUDO, A TARIFA NÃO É UMA SÓ, ELES JÁ TÊM O SEU NÚMERO,
-  O DINHEIRO CHEGOU ANTES.
-- Layouts: L1 a L6. Últimos três: L1, L4, L5. Próxima peça sai em L2 — e é a
+  O DINHEIRO CHEGOU ANTES, O PASSADO VEM JUNTO, O PREÇO FICOU PARADO,
+  O CUSTO DE ENTREGAR.
+- Layouts: L1 a L6. Últimos três: L2, L1, L4. Próxima peça sai em L5 — e é a
   única disponível: com L3 e L6 vetados pelo selo de 320px, sobraram quatro
   layouts para uma regra de rodízio de três. Na prática o rodízio virou fixo
   L1-L2-L4-L5. Se isso incomodar, ou o selo encolhe, ou a regra passa a ser
@@ -76,18 +104,23 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
 - Modo demonstração: usada em 18/08 (ADS), 19/08 manhã (Fator R), 20/08 16h
   (DRE por canal), 21/08 16h (CNAE, em quadro) e 22/08 18h (tarifa, em quadro).
   As de 21/08 20h e 22/08 20h saíram SEM demonstração, e a de 22/08 23h
-  (antecipação de recebível) VOLTOU a ter. O rodízio está em dia: a próxima
-  pode sair sem.
+  (antecipação de recebível) VOLTOU a ter. A de 23/08 (troca de contador)
+  saiu SEM — o tema é de procedimento, não de conta, e forçar aritmética ali
+  seria enchimento. A de 23/08 15h (PREÇO) saiu COM, em quadro de 7 linhas.
+  A de 24/08 (FRETE) saiu SEM, no formato "o erro que se repete".
+  O rodízio pede que a PRÓXIMA saia COM demonstração.
 - Sem banco de fotos: fundo sempre gerado (documento numérico + superfície
   neutra). Nada de foto.
-- TIPO DE CAPA DAS ÚLTIMAS TRÊS: DOCUMENTO (extrato/dobra), SUPERFÍCIE (couro),
-  DOCUMENTO (extrato/liso). A PRÓXIMA CAPA PODE SER QUALQUER UMA DAS DUAS — a
-  regra só proíbe três seguidas do mesmo tipo, e a sequência está alternada.
-  Superfícies já usadas em CAPA: granito, concreto, duna, couro.
-  Ainda intactas: linho, gesso, madeira.
+- TIPO DE CAPA DAS ÚLTIMAS TRÊS: SUPERFÍCIE (madeira), DOCUMENTO
+  (planilha/dobra), SUPERFÍCIE (linho). A PRÓXIMA CAPA É DE DOCUMENTO: a
+  sequência ficou sup-doc-sup e a alternância manda voltar ao documento.
+  Superfícies já usadas em CAPA: granito, concreto, duna, couro, madeira,
+  linho. Ainda intacta: só gesso.
   Papéis de `extrato` já usados em CAPA: dobra (2x), copia, formulario, liso.
   A família extrato está esgotada em papel: a próxima capa de documento sobre
   dinheiro da plataforma repete papel ou muda de família.
+  Famílias de documento já usadas em CAPA: extrato (5x), planilha (formulario
+  e dobra), comparativo (liso). Intactas em capa: razao e apuracao.
 - Plataforma citada pelo nome: a peça de 21/08 16h citou Shopee, Amazon e
   Magalu, numa frase que NÃO afirma política de plataforma nenhuma ("vender na
   Shopee, na Amazon ou no Magalu não muda essa classificação"). Foi assim que
@@ -97,9 +130,12 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   Mercado Livre, Shopee e Amazon, dentro de afirmação sobre a LEI ("vender no
   Mercado Livre, na Shopee ou na Amazon não transfere apuração nenhuma"), que
   é a forma segura já registrada em 21/08. A de 22/08 23h NÃO citou (terceira
-  peça seguida sem citar contando 22/08 18h). A PRÓXIMA PODE CITAR, e a vez é
-  do Mercado Livre — dentro de afirmação sobre a LEI, nunca sobre a regra da
-  plataforma.
+  peça seguida sem citar contando 22/08 18h). A de 23/08 CITOU Mercado Livre,
+  sozinho, dentro de afirmação sobre a LEI ("vender no Mercado Livre ou trocar
+  de escritório não transfere apuração, entrega nem recolhimento para outra
+  pessoa"). A de 23/08 15h (PREÇO) NÃO citou — primeira das duas que precisavam
+  ficar sem. A de 24/08 (FRETE) também NÃO citou, e fecha a dupla: a PRÓXIMA
+  PODE citar, e a vez é de Shopee ou Magalu, que aparecem menos.
 
 ## LIÇÕES
 
@@ -991,3 +1027,176 @@ existir. É a terceira vez esta semana que um resto de improviso aparece:
 o log copiado no _work, as fontes só no rascunho, e agora este.
 
 BACKUPS: *.antes-do-nome nos três scripts de cada marca.
+
+**23/08/2026 — O `publicar_pendentes.py` REPUBLICOU O ACERVO. Erro meu, caro.**
+
+O QUE ACONTECEU. O carrossel do dia saiu no Facebook e o postar.py devolveu
+OAuthException 4 no Instagram — o mesmo erro dos cinco dias anteriores. Para
+reenviar SÓ aquela peça, rodei `py publicar_pendentes.py`. Ele não reenvia uma
+peça: varre TODAS as subpastas datadas e publica toda peça que não tenha o
+arquivo `.publicado` dentro. Nenhuma pasta da GKFD tinha essa marca. Ele
+começou pela mais antiga e foi subindo.
+
+MATEI o processo em cinco minutos, mas já tinham saído DE NOVO:
+  Facebook  5 posts (ads/ACOS, repasse-receita-bruta, saldo-retido,
+            anexo-fator-r e chargeback)
+  Instagram 4 carrosséis (os mesmos, menos o chargeback)
+
+O QUE PIOROU: o comando foi rodado com `| tail -25`. O `tail` só imprime no
+fim, então a saída ficou muda enquanto ele publicava. Eu achei que estava
+travado; estava trabalhando. REGRA: comando que PUBLICA nunca vai para dentro
+de um pipe que segura a saída. Publicação se acompanha ao vivo.
+
+CONSERTO. Os 5 posts do Facebook foram apagados pela API (DELETE no id do
+post, todos com `{"success":true}`), conferidos um a um por created_time e por
+legenda antes de apagar. Os 4 do Instagram NÃO PUDERAM ser apagados: a Graph
+API responde `(#10) Insufficient permissions` para DELETE em mídia do
+Instagram — é o mesmo escopo que falta ao comentar.py. Ficam para o
+aplicativo, à mão. Ids registrados para isso:
+    18423935884194137  ACOS
+    18117448900931099  R$ 300 no painel
+    18126311983704583  saldo retido
+    18212556574346735  Fator R
+
+CONSERTO ESTRUTURAL, já feito: TODA pasta de peça ganhou o arquivo
+`.publicado`. O próprio cabeçalho do publicar_pendentes.py avisa que as peças
+antigas precisam ser marcadas na primeira vez, e ninguém nunca marcou. Aviso
+em docstring não é proteção — só vira proteção quando alguém executa.
+
+DESCOBERTA COLATERAL, e é boa: o carrossel do Instagram TINHA sido publicado.
+O `postar.py` reportou FALHOU, mas a mídia 17943520068276620 está no perfil,
+com a legenda certa, criada 49 segundos depois do post do Facebook. Ou seja:
+o OAuthException 4 estourou DEPOIS do publish, numa chamada seguinte. Vale
+conferir isso nos cinco dias anteriores antes de aceitar "IG CARROSSEL
+PENDENTE" como verdade — pode haver peça marcada como pendente que saiu.
+E vale consertar o postar.py para conferir o perfil antes de declarar falha.
+
+**23/08/2026 — EU IMPRIMI O page_token NA CONVERSA. Trocar o token.**
+
+Ao inspecionar as chaves do `config_publicacao.json` eu mascarei só as chaves
+de primeiro nível cujo nome tem "token". O `page_token` está DENTRO do bloco
+`facebook`, e saiu inteiro na tela. A regra da instrução é explícita — nunca
+ver, colar ou guardar token — e eu a quebrei por descuido de código, não por
+decisão. O token precisa ser revogado e refeito pelo caminho de sempre
+(Explorador > Depurador > Estender > `page_token` > `py montar_config.py` >
+`py checar_token.py`).
+REGRA: não inspecionar o config imprimindo conteúdo, nem mascarado. Quem
+responde sobre credencial é o `checar_token.py`, que existe exatamente para
+isso e não expõe nada.
+
+**23/08/2026 — OVERLAY DE DOCUMENTO NOS SLIDES INTERNOS, EM PALETA ESCURA.**
+
+O `overlay` do spec tem três valores: capa, TODOS os slides de valor, e o
+slide de oferta. Só um número para os internos — ele não distingue documento
+de superfície. Com `.18,.34` (o valor que a instrução manda para superfície) e
+paleta G04, os slides 2 e 4, que tinham fundo de razão e de apuração, ficaram
+ilegíveis: os números do documento cruzavam as linhas de texto.
+Subir para `.44,.62` quase não mudou nada. O que resolveu foi `.78,.88` — e
+nesse valor a superfície do slide 3 (gesso) CONTINUOU perceptível, porque
+textura de material sobrevive a wash que apaga tabela de número.
+REGRA PRÁTICA: misturando documento e superfície nos slides internos, calibre
+o overlay pelo DOCUMENTO, não pela superfície. O documento é que compete com
+o texto; a superfície aguenta.
+
+**23/08/2026 — A TIRA DE PROVA COBRIU O SITE NO SLIDE 5, DE NOVO.**
+Mesmo defeito de 20/08, e o paliativo de lá funcionou de novo: encurtar os
+três itens para 1 ou 2 linhas e a linha de oferta para 2 linhas. Com 3 itens
+de 2 linhas e oferta de 3 linhas, o `www.gkfd.com.br` sai POR BAIXO da tira.
+Continua faltando o conserto de verdade — o slide 5 não tem o autoajuste que
+os internos ganharam em 20/08. Enquanto isso, a regra de tamanho é lei:
+ponte de 3 linhas, 3 itens de até 2 linhas, oferta de até 2 linhas.
+
+**23/08/2026 (15h) — O OAuthException 4 DO CARROSSEL É MENTIRA: ELE JÁ PUBLICOU.**
+
+O `postar.py` publicou no Facebook e reportou Instagram FALHOU com
+`OAuthException 4: Application request limit reached`, estourando no PRIMEIRO
+status do container pai. Achei que o carrossel não tinha saído e tentei de
+novo. Cada tentativa devolveu o MESMO erro — e cada tentativa PUBLICOU.
+No fim havia CINCO carrosséis idênticos no perfil:
+    18109247228171455  18:23:04  <- o que ficou
+    17900832531555220  18:24:53  <- apagar a mao
+    18064155941509836  18:29:33  <- apagar a mao
+    18172067257450074  18:31:05  <- apagar a mao
+    17920669449202947  18:35:02  <- apagar a mao
+O DELETE respondeu `(#10) Insufficient permissions` nos quatro, que é o mesmo
+escopo que falta ao comentar.py. Os quatro precisam sair no aplicativo, à mão.
+
+A CAUSA, e agora está confirmada: o erro NÃO é do publish. Ele estoura na
+chamada seguinte, quando o app já gastou a cota de rajada — a mídia sobe, a
+Meta responde erro, e o script morre antes de gravar o id. Foi exatamente o
+que o registro de 23/08 de manhã já suspeitava ("vale conferir isso nos cinco
+dias anteriores"). Agora não é mais suspeita.
+
+CONSEQUÊNCIA IMEDIATA, e vale para as peças de 21 e 22/08 marcadas como
+"IG CARROSSEL PENDENTE": elas provavelmente ESTÃO no ar. Conferir antes de
+republicar qualquer uma delas — republicar é o que criou este estrago.
+
+REGRA NOVA: carrossel do Instagram que devolver erro NÃO se republica. Antes
+de qualquer retentativa, LISTAR as últimas mídias do perfil e conferir se a
+peça já está lá. O `_ig_ultimas.py`, gravado hoje na raiz, faz isso em uma
+chamada e não expõe token.
+
+CONSERTO DE VERDADE, para uma sessão com tempo: o `publicar_instagram.py`
+precisa (1) espaçar as chamadas — com 20s entre elas o container chegou a
+FINISHED sem erro nenhum — e (2) ao pegar erro depois do publish, consultar
+/media e devolver o id em vez de declarar falha. Enquanto isso não existir, a
+regra acima é a proteção.
+
+**23/08/2026 (15h) — PALETA CLARA ACHATA A DIFERENÇA ENTRE AS SUPERFÍCIES.**
+Na G02 (fundo branco puro) com overlay .18,.34, gesso, madeira e concreto
+saíram praticamente iguais: três telas de textura pálida. Troquei granito por
+madeira no slide 3 justamente para quebrar, e não quebrou — a madeira lavou.
+NÃO tem conserto por overlay: subir o wash apaga a textura de vez, e é o wash
+que a regra de 18/08 mandou baixar. Em paleta clara, quem carrega a diferença
+entre os slides internos é o TÍTULO e o formato (passos x quadro), não o fundo.
+Registro para a próxima sessão não gastar rodada tentando o mesmo.
+
+**24/08/2026 — O OAuthException 4 DO CARROSSEL FOI FALSO PELA SEXTA VEZ, E A
+REGRA DE 23/08 FUNCIONOU.**
+O `postar.py` publicou no Facebook e reportou Instagram FALHOU, estourando no
+PRIMEIRO status do container pai, ainda em IN_PROGRESS — ou seja, antes mesmo
+de o publish ser chamado. Pela leitura do código isso parecia falha de verdade.
+NÃO É: o `_ig_ultimas.py` mostrou o carrossel 18118985000305093 no perfil, com
+a legenda certa, 30 segundos depois do post do Facebook. Nada foi republicado,
+e por isso não houve duplicata nenhuma nesta rodada — que é exatamente o
+estrago que a rodada de 23/08 causou.
+REGRA CONFIRMADA, e agora com contraexemplo: não importa em que ponto do fluxo
+o erro 4 estoura. NUNCA republicar. Rodar `py _ig_ultimas.py` PRIMEIRO.
+
+**24/08/2026 — O `reel.py` PRECISA DO `_reel_run.py` NESTA MÁQUINA.**
+Rodar `py reel.py <spec>` direto morre com `FileNotFoundError [WinError 2]` na
+chamada do blackdetect: o reel.py invoca "ffmpeg" pelo nome e o Windows não
+tem ffmpeg no PATH. O binário está em `work22b/ffmpeg.exe` e o wrapper
+`_reel_run.py` existe justamente para antecipar a pasta no PATH do processo.
+USE SEMPRE `py _reel_run.py <spec>`. O vídeo até é renderizado antes do erro,
+mas fica como .webm sem o corte de preto de entrada — inservível.
+Vale a pena registrar de novo porque o wrapper foi criado em 22/08 e ninguém
+anotou aqui; a sessão de hoje perdeu uma tentativa redescobrindo.
+
+**24/08/2026 — A CIFRA DO L4 TEM RÓTULO CURTO, DE UMA LINHA SÓ.**
+"o que desce no repasse com nome de frete" quebrou em duas linhas e a segunda
+("FRETE") ficou POR BAIXO do número gigante, riscada por ele. O rótulo da
+cifra é `letter-spacing` alto e caixa alta: cabe pouco. Encurtado para "o que
+desce como frete" resolveu na hora. REGRA: rótulo de cifra em até 5 palavras
+curtas. O autoajuste da capa NÃO pega isso — a cifra é bloco próprio e o
+medidor não vê sobreposição entre dois filhos do mesmo bloco.
+
+**24/08/2026 — OVERLAY DE DOCUMENTO EM PALETA CLARA: .82,.91.**
+Complemento ao registro de 23/08, que calibrou `.78,.88` na paleta ESCURA G04.
+Na G03 (papel #F7F4EE, texto quase preto) os documentos `razao` e `apuracao`
+a `.70,.84` ficaram FORTES demais: os números atravessavam as linhas de texto
+dos slides 2 e 4. `.82,.91` deixou o documento como marca d'água ainda
+perceptível — dá para ver que existe uma tabela atrás — e o texto limpo.
+E o `linho` da capa, com o overlay de superfície `.30,.52,.74`, apareceu com
+textura evidente: em paleta clara a superfície SOBREVIVE onde o documento
+precisa apagar. Confirma a regra de 23/08 pelo outro lado.
+
+**24/08/2026 — O ENCOLHIMENTO DOS INTERNOS EM 94% É O TETO PRÁTICO.**
+Primeira renderização: 78%, 83% e 88% nos três slides internos. Dois cortes de
+texto depois: 94% nos três. A regra de tamanho do log ("quatro passos de até 4
+linhas") é otimista para esta paleta e este layout — na prática, quatro passos
+de 3 a 4 linhas com título de 2 linhas e rodapé de 1 dá 94%, não 100%.
+Encolhimento IGUAL nos três slides é sinal de que o problema é a régua e não o
+texto de um slide: quando os três batem no mesmo número, o corte tem de ser
+proporcional em todos, e não concentrado no maior.
+

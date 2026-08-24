@@ -1,0 +1,19 @@
+O recibo de transmissão da ECD traz data, hash e número de ordem do livro — e quase nunca é ele que chega aos autos.
+
+A contestação veio instruída com a contabilidade da empresa: balanço, DRE, um PDF com o timbre do escritório contábil. Você tem a réplica para falar sobre esse documento, e a discussão vai toda para o conteúdo. Fica de fora a pergunta que vem antes: desde quando essa escrituração existe.
+
+Relatório exportado de sistema não é livro contábil. Livro tem termo de abertura, termo de encerramento, número de ordem e assinatura digital do contador e do responsável legal. O PDF não tem nada disso: mostra o que o banco de dados diz hoje, e o banco de dados pode ter sido alimentado ontem.
+
+O livro digital carrega a própria data. A ECD transmitida ao Sped devolve recibo com data, hash do arquivo e número de ordem — é ele, exercício por exercício, que situa a escrituração antes ou depois da citação. E livro já transmitido só se substitui por livro novo, com termo próprio e numeração nova: a troca aparece na sequência de ordem, nunca no conteúdo.
+
+Quatro pedidos que cabem na réplica: o recibo de cada exercício, com número, data e hash; livro substituto, com termo e motivo declarado; o razão analítico confrontado conta a conta com o balanço; e o documento de suporte dos lançamentos relevantes.
+
+O erro que se repete é impugnar o conteúdo e aceitar a forma. Conta de sócio que zera em 31/12 e reaparece em janeiro, sem contrapartida identificável, é acerto de fechamento. Sequência de lançamento que pula ou concentra centenas de registros na mesma data indica escrituração feita de uma vez, depois do fato. Nada disso está no balanço.
+
+Mande o razão analítico. Em até 24h úteis eu digo se há o que impugnar.
+Solicite a análise gratuita do seu caso em www.integrajud.com.br/areas/contabeis
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20IntegraJud%20no%20Instagram%20sobre%20escrituracao%20e%20data%20do%20livro%20e%20queria%20falar%20sobre%20o%20c%C3%A1lculo%20do%20meu%20processo.
+
+IntegraJud · Inteligência pericial para advocacia
+
+#periciacontabil #assistentetecnico #provapericial #escrituracaocontabil #contabilidadeforense #processocivil #advocacia

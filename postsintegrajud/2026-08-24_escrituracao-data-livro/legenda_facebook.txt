@@ -1,0 +1,19 @@
+Um livro contábil digital tem data de nascimento registrada: o recibo de transmissão da ECD, com data, hash do arquivo e número de ordem. Um PDF exportado do sistema não tem nada disso.
+
+É essa a diferença que costuma passar em branco quando a contabilidade da outra parte entra nos autos. Vem o balanço, vem a DRE, vem um relatório bem formatado, e a réplica discute o conteúdo: se a despesa existiu, se o passivo é aquele. A pergunta anterior — desde quando essa escrituração existe — não é feita, e o prazo de falar sobre o documento passa.
+
+Livro contábil tem termo de abertura, termo de encerramento, número de ordem e assinatura digital do contador e do responsável legal. Relatório de sistema mostra o que o banco de dados diz hoje. Escrituração pode ter sido montada depois da citação e sair exatamente com essa cara.
+
+Livro já transmitido não se corrige por cima: substitui-se por livro novo, com termo próprio, numeração nova e hipóteses restritas. Por isso a troca aparece na sequência de ordem, e nunca no conteúdo.
+
+O que cabe pedir na réplica é objetivo. Recibo de transmissão de cada exercício, com número, data e hash. Existência de livro substituto, com termo e motivo declarado. Razão analítico confrontado conta a conta com o balanço — o balanço é resultado, o razão é movimento, e só ele traz data, histórico e contrapartida. E o documento de suporte dos lançamentos que importam para a tese.
+
+Três sinais que aparecem no razão e não aparecem no balanço: cabeçalho sem número de ordem e sem assinatura; conta de sócio que zera em 31/12 e reaparece em janeiro sem contrapartida identificável; e sequência de lançamento que pula ou concentra centenas de registros na mesma data.
+
+Mande o razão analítico. Em até 24h úteis eu digo se há o que impugnar.
+
+Solicite a análise técnica inicial gratuita do seu caso: www.integrajud.com.br/areas/contabeis
+
+Prefere falar direto: https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20IntegraJud%20no%20Facebook%20sobre%20escrituracao%20e%20data%20do%20livro%20e%20queria%20falar%20sobre%20o%20c%C3%A1lculo%20do%20meu%20processo.
+
+IntegraJud · Inteligência pericial para advocacia

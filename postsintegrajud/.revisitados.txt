@@ -1,3 +1,5 @@
 2026-08-15_apuracao-haveres
 2026-08-15_avaliacao-imovel
 2026-08-15_conciliacao-bancaria
+2026-08-15_distrato-imovel
+2026-08-15_ebitda

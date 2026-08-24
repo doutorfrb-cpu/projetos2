@@ -1,0 +1,5 @@
+Capa sobre preco: tudo na venda subiu, menos o preco que o vendedor cobra, sobre fundo de planilha de valores.
+Slide sobre custo de vender: preco de concorrente nao carrega o seu custo, e nenhuma parcela da conta e opcional.
+Slide com quatro perguntas antes de repetir o preco do mes: custo total da venda, aliquota efetiva, custo da devolucao e se o produto ainda cabe na operacao.
+Slide de demonstracao: o mesmo preco de R$ 129,90 sob a conta de quando foi formado e sob a conta de hoje, com sobra de R$ 12,97 e R$ 3,03 por venda. Numeros de demonstracao, nao de caso real.
+Slide de oferta da GKFD Contabil: custo total da venda por SKU, piso de preco, margem de contribuicao e DRE por canal, com WhatsApp e site.

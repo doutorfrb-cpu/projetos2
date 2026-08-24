@@ -4,3 +4,5 @@
 2026-08-19_anexo-fator-r
 2026-08-19_chargeback-venda-desfeita
 2026-08-20_dre-por-canal
+2026-08-20_extravio-ressarcimento
+2026-08-21_cnae-abertura

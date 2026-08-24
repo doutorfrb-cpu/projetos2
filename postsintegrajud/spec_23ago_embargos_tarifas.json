@@ -1,0 +1,81 @@
+{
+ "slug": "integrajud_embargos_tarifas_financiadas",
+ "outdir": "pc_23ago_embargos",
+ "paleta": "P07",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:evolucao/copia",
+  "linho",
+  "granito",
+  "doc:comparativo/liso",
+  "foto:px_37947882.jpg"
+ ],
+ "seeds": [9231, 9232, 9233, 9234, 9235],
+ "overlay": [
+  ".50,.68,.86",
+  ".42,.60",
+  ".44,.72"
+ ],
+ "slides": [
+  {
+   "layout": "L1",
+   "chamada": "O PRAZO JÁ COMEÇOU",
+   "peca": "EMBARGOS À EXECUÇÃO",
+   "headline": "Você vai embargar sobre <b>a conta que o próprio banco fez</b>",
+   "apoio": "Quinze dias para alegar excesso, e a evolução do saldo — com tarifas, IOF e juros — não está nos autos."
+  },
+  {
+   "kicker": "Perícia contábil · execução de cédula bancária",
+   "titulo": "O saldo devedor é uma conclusão. Os embargos discutem o caminho",
+   "passos": [
+    "<em>Saldo não é demonstrativo.</em> A execução se instrui com o valor atual do débito. O que sustenta esse valor é outra coisa: quanto foi liberado, o que foi pago e o que foi incorporado ao saldo mês a mês.",
+    "<em>O que entra no principal rende juros por todo o prazo.</em> Tarifa de cadastro, registro do contrato, avaliação do bem, seguro e IOF podem ser pagos no ato ou financiados. Financiados, deixam de ser custo e viram base de cálculo.",
+    "<em>Excesso se alega com valor.</em> O art. 917, §3º do CPC exige que o embargante declare o valor que entende correto e junte demonstrativo discriminado. Sem isso, os embargos são rejeitados liminarmente nessa parte."
+   ],
+   "rodape": "Quem produziu a planilha da execução foi o exequente."
+  },
+  {
+   "kicker": "O que a memória precisa responder",
+   "titulo": "Quatro perguntas que a planilha do credor não responde",
+   "passos": [
+    "<em>Quanto foi liberado e quanto foi financiado.</em> Valor do crédito, valor entregue e a diferença entre os dois. Tarifas, IOF e prêmio de seguro compõem essa diferença, cada um com rubrica, valor e data.",
+    "<em>Qual sistema de amortização o contrato prevê.</em> Price, SAC e SACRE mudam a composição da parcela e o saldo de cada mês. A execução traz o resultado; o critério está no contrato, e os dois têm de bater.",
+    "<em>Como o saldo evoluiu depois da última parcela paga.</em> Vencimento antecipado, encargos de mora, comissão de permanência cumulada com multa. É o trecho mais curto da conta e o menos conferido.",
+    "<em>O que foi abatido e em que data.</em> Pagamento parcial, venda do bem alienado, seguro acionado. Crédito lançado fora da data efetiva desloca o saldo de todos os meses seguintes."
+   ],
+   "rodape": "Cada resposta vira uma linha da memória dos embargos."
+  },
+  {
+   "kicker": "Demonstração · tarifa financiada",
+   "titulo": "A mesma tarifa, paga no ato ou dentro do saldo",
+   "passos": [
+    "<em>A base.</em> R$ 40.000,00 liberados, 48 parcelas, juros de 2% ao mês, tabela Price. Tarifas e IOF do contrato: R$ 2.000,00.",
+    "<em>Critério A — tarifas pagas no ato.</em> Parcela de R$ 1.304,08. As 48 somam R$ 62.595,84; com os R$ 2.000,00 pagos à vista, R$ 64.595,84.",
+    "<em>Critério B — as mesmas tarifas financiadas.</em> Parcela de R$ 1.369,28. As 48 somam R$ 65.725,44.",
+    "<em>A diferença entre um critério e outro: R$ 1.129,60.</em> Mais da metade do valor da tarifa, cobrada como juro sobre tarifa, dentro do saldo que a execução apresenta fechado."
+   ],
+   "rodape": "Números de demonstração, não de caso real. A perícia apura o que foi financiado e a que taxa.",
+   "painel": true
+  },
+  {
+   "ponte": "A execução traz o saldo.<br>Os embargos precisam da conta.",
+   "itens": [
+    "Evolução do saldo parcela a parcela, do desembolso à data-base",
+    "Recálculo pelo sistema e pela taxa do contrato, com memória",
+    "Apuração do valor que o embargante entende correto"
+   ],
+   "oferta": "Mande o demonstrativo do débito. Em até 24h úteis eu digo se há o que impugnar"
+  }
+ ]
+}

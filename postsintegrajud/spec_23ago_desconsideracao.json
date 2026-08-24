@@ -1,0 +1,81 @@
+{
+ "slug": "integrajud_desconsideracao_razao",
+ "outdir": "pc_23ago_desconsideracao",
+ "paleta": "P01",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:razao/formulario",
+  "couro",
+  "trama",
+  "doc:apuracao/copia",
+  "foto:px_27409011.jpg"
+ ],
+ "seeds": [8801, 8802, 8803, 8804, 8805],
+ "overlay": [
+  ".50,.68,.86",
+  ".42,.60",
+  ".44,.72"
+ ],
+ "slides": [
+  {
+   "layout": "L6",
+   "chamada": "ANTES DE PROTOCOLAR",
+   "peca": "INCIDENTE DE DESCONSIDERAÇÃO",
+   "headline": "Você pediu a prova. <b>Veio o balanço</b>",
+   "apoio": "Confusão patrimonial não se demonstra por balanço fechado. Ela aparece no razão, no extrato e na conta corrente do sócio."
+  },
+  {
+   "kicker": "Perícia contábil · confusão patrimonial",
+   "titulo": "O que o incidente precisa demonstrar não está no balanço",
+   "passos": [
+    "<em>Balanço é resultado, não trilha.</em> Ele mostra saldos em uma data. Confusão patrimonial é movimento — quem pagou o quê, com que dinheiro, em que data. Movimento mora no razão e no extrato.",
+    "<em>A conta que interessa tem nome.</em> Conta corrente de sócio, mútuo, adiantamento para futuro aumento de capital. São as rubricas por onde empresa e pessoa física se comunicam.",
+    "<em>Indício não é demonstração.</em> Mesmo endereço, mesmo contador, mesmo administrador: começo de conversa. O que sustenta o incidente é o par lançamento-extrato, com data, valor e beneficiário."
+   ],
+   "rodape": "Quem tem a contabilidade do incidente é o requerido."
+  },
+  {
+   "kicker": "O que o requerimento precisa pedir",
+   "titulo": "Quatro documentos que o balanço não substitui",
+   "passos": [
+    "<em>Razão analítico das contas de sócio.</em> Não o balancete resumido: o razão lançamento a lançamento, com histórico, no período em que a dívida se formou.",
+    "<em>Extratos bancários integrais.</em> Todas as contas, todos os meses, sem recorte. Print de tela não deixa conferir a sequência de saldo, e a lacuna de período costuma ser o que interessa.",
+    "<em>Livro-caixa e comprovantes.</em> Cada pagamento de natureza pessoal — escola, condomínio, cartão, veículo — lançado como despesa operacional. A conferência é de nota contra lançamento.",
+    "<em>Contratos de mútuo e o desembolso que os lastreia.</em> Mútuo entre empresa e sócio é lícito. Sem transferência correspondente, sem prazo e sem encargo, é distribuição com outro nome."
+   ],
+   "rodape": "Pedido genérico devolve o que o requerido escolher."
+  },
+  {
+   "kicker": "O erro que se repete",
+   "titulo": "Quatro modos de esvaziar o incidente",
+   "passos": [
+    "<em>Pedir o balanço e receber o balanço.</em> Chegam balanço e DRE do exercício, assinados e formalmente corretos. E agregam em uma linha o que precisava aparecer lançamento a lançamento.",
+    "<em>Aceitar o período curto.</em> Junta-se o último exercício. A confusão que sustenta o pedido é de três anos antes, quando a dívida se formou — fora da janela, nada aparece.",
+    "<em>Deixar a classificação passar.</em> Despesa pessoal lançada em serviços de terceiros fecha o balanço sem erro aritmético. O que denuncia é o comprovante por trás da conta.",
+    "<em>Não perguntar pela contrapartida.</em> Toda saída tem um par. Retirada sem lucro apurado, sem tributação e sem lançamento em conta de sócio não tem par."
+   ],
+   "rodape": "Não é ausência de confusão: é pedido mal instruído.",
+   "painel": true
+  },
+  {
+   "ponte": "A confusão deixa rastro.<br>O rastro está no razão.",
+   "itens": [
+    "Conta corrente de sócio e mútuos, lançamento a lançamento",
+    "Confronto de extratos bancários com a escrituração",
+    "Parecer técnico e quesitos para o incidente"
+   ],
+   "oferta": "Mande o razão das contas de sócio. Em até 24h úteis eu digo o que ele demonstra"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+O preço do seu anúncio tem data de nascimento. E quase nunca tem data de revisão.
+
+Ele foi formado num dia, com os números daquele dia: a comissão que a plataforma cobrava, o frete que era debitado, a mídia que você gastava e a alíquota efetiva que a empresa pagava. Desde então, todos esses quatro mudaram. O preço continuou onde estava.
+
+Preço de concorrente não resolve, porque preço de concorrente não carrega o seu custo. Quem anuncia tem a própria tabela de comissão, o próprio custo de compra, o próprio frete contratado e a própria alíquota efetiva. Copiar o número da vitrine é copiar o resultado de uma operação que não é a sua.
+
+O que resolve é o piso, e ele é calculável. Custo da mercadoria, embalagem, comissão, frete, mídia e imposto efetivo, mais o índice de devolução do SKU, formam o valor abaixo do qual a venda tira dinheiro do caixa. Nenhuma dessas parcelas é opcional: comissão e frete saem antes do repasse, o imposto sai depois, mídia e devolução saem do resultado. Deixar uma delas fora da conta não torna a venda mais lucrativa. Torna o prejuízo invisível até o fechamento.
+
+A parcela mais esquecida é a alíquota efetiva. Ela se calcula sobre a receita dos últimos doze meses e sobe junto com o faturamento. Quem formou preço numa faixa e cresceu para outra está com um preço desatualizado por dentro, mesmo que o número na tela continue idêntico.
+
+A conta do carrossel é aritmética simples, com números de demonstração e não de caso real. Mesma venda de R$ 129,90, mesmo custo de produto. Sob a conta de quando o preço foi formado, sobram R$ 12,97 por venda. Sob a conta de hoje, sobram R$ 3,03. A diferença é de R$ 9,94 por venda, ou R$ 2.982,00 num mês de 300 vendas, sem que ninguém tenha mexido no preço.
+
+Com o piso na mão a decisão deixa de ser de gosto: ou o preço sobe, ou o custo cai, ou o SKU sai da vitrine. Sem o piso, o que existe é palpite com cara de estratégia.
+
+Mande o relatório de repasse do mês. Em até 24h úteis eu digo onde está o piso do seu preço:
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Facebook%20sobre%20piso%20de%20preco%20por%20SKU%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.
+
+GKFD Contábil
+Contabilidade especializada em e-commerce e marketplace

@@ -1,0 +1,20 @@
+A guarda de estoque é a única linha do seu repasse que cresce justamente quando você não vende nada.
+
+Do próprio galpão você paga uma coisa só: o transporte daquele pedido. No centro de distribuição da plataforma isso vira quatro — guarda de estoque, manuseio, transporte e retorno. Quatro fatos distintos, cobrados em momentos distintos, que descem no repasse dentro da mesma família de débito.
+
+A guarda não tem pedido: é debitada por volume ocupado e tempo parado, ou seja, cobra o SKU que não girou. Lançada junto com o transporte de saída, encarece o produto que vendeu e deixa barato o encalhado, que é exatamente quem ela está cobrando.
+
+O frete subsidiado tem pedido, mas chega sem ele. A plataforma banca parte da entrega e recompõe o valor depois, agregado numa linha só. Sem o vínculo com a origem, não há como levar o débito até o produto que o gerou — e sem alocação não existe margem por SKU.
+
+A reversa é custo de venda desfeita. Pertence ao produto que devolve, não ao mês. Na mesma conta do transporte de saída, some no total, e o índice de devolução por SKU nunca é calculado.
+
+O erro que se repete não é falta de cuidado: é plano de contas. Tudo entra numa linha chamada despesa com frete, o total do relatório é comparado com o total do extrato e, batendo, dá-se por conferido. O que não bate por dentro segue invisível.
+
+Mande o relatório de repasse do mês. Em até 24h úteis eu digo o que desceu como frete e não era.
+
+GKFD Contábil
+Contabilidade especializada em e-commerce e marketplace
+
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Instagram%20sobre%20frete%20no%20fulfillment%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.
+
+#marketplace #ecommerce #fulfillment #logistica #contabilidade #simplesnacional #vendedordemarketplace #conciliacaoderepasse #margem #sku

@@ -1,0 +1,99 @@
+{
+  "slug": "gkfd_frete_fulfillment",
+  "outdir": "pc_gkfd15",
+  "paleta": "G03",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo o que desceu como frete e não era",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "linho",
+    "doc:razao/dobra",
+    "gesso",
+    "doc:apuracao/copia",
+    "duna"
+  ],
+  "seeds": [
+    9701,
+    9702,
+    9703,
+    9704,
+    9705
+  ],
+  "overlay": [
+    ".30,.52,.74",
+    ".82,.91",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L4",
+      "chamada": "O CUSTO DE ENTREGAR",
+      "peca": "FRETE",
+      "cifra": {
+        "rotulo": "o que desce como frete",
+        "valor": "4 DÉBITOS"
+      },
+      "headline": "Entrou no fulfillment<br>e o frete virou<br><b>quatro débitos</b>",
+      "apoio": "Guarda de estoque, manuseio, transporte e retorno descem no repasse como débito, quase sempre sem o pedido de origem ao lado. Lançados numa conta só de frete, deixam de ser custo do produto e viram despesa do mês."
+    },
+    {
+      "kicker": "Marketplace · entrando no fulfillment",
+      "titulo": "No fulfillment, frete deixa de ser frete",
+      "passos": [
+        "<em>Entregar virou contrato, não serviço.</em> Do próprio galpão você paga o transporte do pedido, e só. No centro de distribuição passam a existir guarda de estoque, manuseio, transporte e retorno — quatro fatos cobrados em momentos distintos.",
+        "<em>A guarda de estoque não tem pedido.</em> É debitada por volume ocupado e tempo parado, e incide sobre o SKU que não vendeu. Lançada como frete, contamina o custo de quem girou.",
+        "<em>O frete subsidiado desce sem a origem.</em> A plataforma banca parte da entrega e recompõe o valor depois, agregado numa linha só. Sem vínculo com o pedido, não há como alocar ao produto que o gerou.",
+        "<em>A reversa é custo de venda desfeita.</em> Nasce de pedido que não virou receita e continua sendo custo do SKU. Na conta do transporte de saída, some no total do mês."
+      ],
+      "rodape": "Quatro naturezas na mesma conta viram um número que não explica nada."
+    },
+    {
+      "kicker": "O que o mês precisa responder",
+      "titulo": "Quatro perguntas antes de aceitar o débito",
+      "passos": [
+        "<em>Qual tabela estava vigente no dia do pedido?</em> Faixa de peso, faixa de preço e regra de gratuidade mudam com aviso, e o débito chega depois. Sem a vigência ao lado, não dá para saber se o cobrado é o contratado.",
+        "<em>Este débito tem pedido?</em> Guarda e ajustes agregados descem sem identificação. O que não tem pedido não é custo de produto: é custo de estoque parado ou de canal.",
+        "<em>Quanto o SKU parado custou de guarda?</em> É a única parcela que cresce quando nada acontece. Pertence ao produto que ocupou o espaço, não ao que saiu dele.",
+        "<em>A reversa está no SKU certo?</em> Índice de devolução e custo de retorno pertencem ao produto que devolve. Rateados por igual, o produto bom paga o prejuízo do ruim."
+      ],
+      "rodape": "Débito sem pedido não é frete. É custo de operação, e decide outra coisa."
+    },
+    {
+      "kicker": "O erro que se repete",
+      "titulo": "Uma conta só, chamada despesa com frete",
+      "passos": [
+        "<em>Primeiro: tudo entra na mesma conta.</em> Guarda, manuseio, transporte e retorno viram uma linha do mês. Nenhuma pergunta de margem tem resposta: a informação foi destruída no lançamento.",
+        "<em>Segundo: o agregado é conferido pelo total.</em> Compara-se o somatório do relatório com o do extrato. Batendo, dá-se por conferido, e o que não bate por dentro nunca aparece.",
+        "<em>Terceiro: entregar fica fora do preço.</em> O preço nasce com comissão e imposto; a entrega entra depois, como despesa. O SKU pesado e o leve saem com a mesma margem no papel.",
+        "<em>Quarto: o estoque parado não é cobrado de ninguém.</em> A guarda é paga todo mês e rateada no total. O que não gira nunca aparece caro, e continua ocupando o espaço que encarece."
+      ],
+      "rodape": "Frete não é uma despesa. São quatro decisões diferentes na mesma linha."
+    },
+    {
+      "ponte": "O frete do fulfillment<br>não é uma linha.<br>São quatro contas.",
+      "itens": [
+        "Débitos de logística separados por natureza e vinculados ao pedido",
+        "Guarda, manuseio, transporte e reversa alocados por SKU",
+        "Tabela vigente conferida contra o valor efetivamente debitado"
+      ],
+      "oferta": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo o que desceu como frete e não era"
+    }
+  ]
+}

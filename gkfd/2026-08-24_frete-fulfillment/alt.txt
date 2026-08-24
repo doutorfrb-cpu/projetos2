@@ -1,0 +1,5 @@
+Capa sobre frete no fulfillment: o que desce no repasse com nome de frete são quatro débitos diferentes, guarda de estoque, manuseio, transporte e retorno.
+Slide sobre o que muda ao entrar no centro de distribuição da plataforma: entregar deixa de ser um serviço e vira quatro cobranças com fatos geradores distintos.
+Slide com quatro perguntas antes de aceitar o débito de logística: tabela vigente no dia do pedido, débito com pedido identificado, custo de guarda do SKU parado e reversa lançada no SKU certo.
+Slide sobre o erro que se repete: guarda, manuseio, transporte e retorno lançados numa conta só de despesa com frete, conferida pelo total e nunca linha a linha.
+Slide de oferta da GKFD Contábil: débitos de logística separados por natureza e vinculados ao pedido, alocação por SKU e conferência da tabela vigente, com contato por WhatsApp e site.

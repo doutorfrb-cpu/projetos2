@@ -1,0 +1,21 @@
+Existe uma cobrança no repasse do fulfillment que sobe quando a venda cai: a guarda de estoque.
+
+Enquanto a mercadoria sai do seu galpão, entregar é um serviço só — o transporte daquele pedido. No centro de distribuição da plataforma, entregar vira um contrato com quatro cobranças: guarda de estoque, manuseio de saída, transporte e retorno. Cada uma tem fato gerador próprio, momento próprio e critério próprio de cálculo.
+
+A guarda é debitada por volume ocupado e por tempo parado. Ela não tem pedido, porque não nasce de venda nenhuma: nasce de espaço ocupado. Somada à conta de frete, ela encarece o produto que girou e deixa barato o produto que está encalhado — que é justamente o que ela está cobrando.
+
+O frete subsidiado é o oposto: tem pedido, mas chega sem ele. A plataforma banca parte da entrega e recompõe o valor depois, com frequência agregado numa única linha do repasse. Sem a origem ao lado do débito, não há como levar aquele custo até o SKU que o gerou.
+
+E a logística reversa é custo de uma venda que não existiu. Ela pertence ao produto que devolve, não ao mês. Rateada por igual, faz o produto bom pagar o prejuízo do produto ruim, e o índice de devolução por SKU nunca é calculado.
+
+O erro prático é sempre o mesmo, e não é falta de cuidado: é o plano de contas. Guarda, manuseio, transporte e retorno entram numa linha chamada despesa com frete. Depois, o fechamento compara o total do relatório com o total do extrato. Batendo, dá-se por conferido — e o que não bate por dentro segue invisível, mês após mês.
+
+Quatro perguntas resolvem a maior parte disso: qual tabela estava vigente no dia do pedido, este débito tem pedido, quanto o SKU parado custou de guarda no mês, e a reversa está lançada no SKU certo.
+
+Mande o relatório de repasse do mês. Em até 24h úteis eu digo o que desceu como frete e não era:
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Facebook%20sobre%20frete%20no%20fulfillment%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.
+
+Análise contábil inicial gratuita em www.gkfd.com.br
+
+GKFD Contábil
+Contabilidade especializada em e-commerce e marketplace

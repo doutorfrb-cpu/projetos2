@@ -1,0 +1,119 @@
+{
+  "slug": "gkfd_piso_de_preco",
+  "outdir": "pc_gkfd14",
+  "paleta": "G02",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo onde está o piso do seu preço",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "doc:planilha/dobra",
+    "gesso",
+    "madeira",
+    "concreto",
+    "duna"
+  ],
+  "seeds": [
+    9601,
+    9602,
+    9603,
+    9604,
+    9605
+  ],
+  "overlay": [
+    ".74,.84,.93",
+    ".18,.34",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L1",
+      "chamada": "O PREÇO FICOU PARADO",
+      "peca": "PREÇO",
+      "headline": "Tudo na sua venda<br>subiu, menos o <b>preço</b><br>que você cobra",
+      "apoio": "Comissão, frete, mídia e alíquota efetiva mudaram desde que esse número foi formado. A conta que sustenta o preço não foi refeita — e a sobra some sem aparecer no faturamento."
+    },
+    {
+      "kicker": "Marketplace · crescendo rápido",
+      "titulo": "Preço de concorrente não carrega o seu custo",
+      "passos": [
+        "<em>O preço da vitrine é o fim de uma conta que você não viu.</em> Quem anuncia tem a própria tabela de comissão, o próprio custo de compra, o próprio frete contratado e a própria alíquota efetiva. Copiar o número é copiar o resultado de uma operação que não é a sua.",
+        "<em>O piso é seu, e é calculável.</em> Custo da mercadoria, embalagem, comissão, frete, mídia, imposto efetivo e índice de devolução formam o valor abaixo do qual a venda tira dinheiro do caixa. Esse número existe por SKU e por canal.",
+        "<em>Nenhuma dessas parcelas é opcional.</em> Comissão e frete saem antes do repasse; o imposto sai depois; mídia e devolução saem do resultado. Deixar uma delas fora não torna a venda mais lucrativa — torna o prejuízo invisível até o fechamento."
+      ],
+      "rodape": "Preço formado por comparação não tem piso. Tem palpite."
+    },
+    {
+      "kicker": "O que o mês precisa responder",
+      "titulo": "Quatro perguntas antes de repetir o preço",
+      "passos": [
+        "<em>Qual é o custo total desta venda, hoje?</em> Não o custo de compra: o custo de vender. Comissão praticada no mês, frete debitado, mídia alocada ao SKU e alíquota efetiva do período, sobre o mesmo pedido.",
+        "<em>Qual é a alíquota efetiva do mês, e não a da tabela?</em> Ela se calcula sobre a receita dos últimos doze meses e sobe junto com o faturamento. Preço formado numa faixa e mantido em outra está desatualizado por dentro.",
+        "<em>Quanto a devolução custa neste SKU?</em> Índice de devolução e logística reversa rateados sobre as vendas que deram certo. Produto que devolve muito precisa de preço maior, não de anúncio maior.",
+        "<em>Este produto ainda cabe na operação?</em> Com o piso na mão: ou o preço sobe, ou o custo cai, ou o SKU sai da vitrine."
+      ],
+      "rodape": "O piso muda todo mês. O preço, quase nunca."
+    },
+    {
+      "kicker": "Modo demonstração",
+      "titulo": "O mesmo preço, sob a conta de antes e a de agora",
+      "formato": "quadro",
+      "linhas": [
+        [
+          "Preço da venda",
+          "R$ 129,90 · 300 vendas no mês"
+        ],
+        [
+          "Custo do produto, nos dois",
+          "R$ 62,00 + R$ 2,10 de embalagem"
+        ],
+        [
+          "Critério 1 · quando o preço foi formado",
+          "comissão 16,00% · frete R$ 14,90 · imposto 8,20% · mídia 5,00%"
+        ],
+        [
+          "Sobra no critério 1",
+          "R$ 12,97 por venda · 9,99% do preço"
+        ],
+        [
+          "Critério 2 · a conta de hoje",
+          "comissão 16,50% · frete R$ 16,40 · imposto 11,20% · mídia 8,00%"
+        ],
+        [
+          "Sobra no critério 2",
+          "R$ 3,03 por venda · 2,33% do preço"
+        ],
+        [
+          "Diferença no mesmo mês",
+          "R$ 9,94 por venda · R$ 2.982,00 em 300 vendas"
+        ]
+      ],
+      "rodape": "Números de demonstração, não de caso real. O preço não mudou. Tudo o que ele precisa cobrir, sim."
+    },
+    {
+      "ponte": "Preço não é opinião.<br>É o piso da operação,<br>calculado por SKU.",
+      "itens": [
+        "Custo total da venda por SKU: comissão, frete, mídia e imposto",
+        "Piso de preço e margem de contribuição, canal a canal",
+        "DRE por canal para decidir o que fica na vitrine"
+      ],
+      "oferta": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo onde está o piso do seu preço"
+    }
+  ]
+}

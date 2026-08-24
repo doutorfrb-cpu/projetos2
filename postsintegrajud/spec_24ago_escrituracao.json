@@ -1,0 +1,81 @@
+{
+ "slug": "integrajud_escrituracao_data_replica",
+ "outdir": "pc_24ago_escrituracao",
+ "paleta": "P05",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:apuracao/dobra",
+  "gesso",
+  "duna",
+  "doc:razao/liso",
+  "foto:px_17269117.jpg"
+ ],
+ "seeds": [8441, 8442, 8443, 8444, 8445],
+ "overlay": [
+  ".50,.68,.86",
+  ".42,.60",
+  ".44,.72"
+ ],
+ "slides": [
+  {
+   "layout": "L2",
+   "chamada": "A OUTRA PARTE JÁ JUNTOU",
+   "peca": "RÉPLICA",
+   "headline": "A escrituração veio inteira. <b>Falta saber quando ela foi feita</b>",
+   "apoio": "O PDF impresso do sistema não tem data de origem. O recibo de transmissão da ECD tem — e ele não veio."
+  },
+  {
+   "kicker": "Perícia contábil · prova documental contábil",
+   "titulo": "Livro contábil tem data própria. Relatório de sistema não tem",
+   "passos": [
+    "<em>Relatório não é livro.</em> O que costuma chegar aos autos é um PDF exportado do sistema: sem termo de abertura, sem termo de encerramento, sem número de ordem e sem assinatura digital. Ele mostra o que o banco de dados diz hoje.",
+    "<em>O livro digital carrega a própria data.</em> A ECD transmitida ao Sped devolve recibo com data, hash do arquivo e número de ordem do livro. É o recibo, e não o PDF, que demonstra desde quando aquela escrituração existe.",
+    "<em>Substituição deixa rastro.</em> Livro já transmitido só se substitui por livro novo, com termo próprio e numeração nova, em hipóteses restritas. A troca aparece na sequência de ordem — nunca no conteúdo."
+   ],
+   "rodape": "A réplica não discute só o que o livro diz. Discute desde quando ele diz isso."
+  },
+  {
+   "kicker": "O que a réplica precisa pedir",
+   "titulo": "Quatro perguntas que a contabilidade juntada tem de responder",
+   "passos": [
+    "<em>Qual o recibo de cada exercício.</em> Número, data e hash da transmissão, um a um. Sem essa lista não se sabe se a escrituração é anterior ou posterior à citação.",
+    "<em>Houve livro substituto.</em> Número de ordem, termo de substituição e motivo declarado. Escrituração refeita com o litígio já instalado muda de peso como prova.",
+    "<em>O razão bate com o balanço.</em> Conta a conta. O balanço é resultado; o razão é movimento, e só ele traz data, histórico e contrapartida de cada lançamento.",
+    "<em>Onde está o documento de suporte.</em> Nota, contrato, extrato e recibo dos lançamentos relevantes. Lançamento sem lastro é afirmação contábil, não é prova."
+   ],
+   "rodape": "Sem pedido específico, o documento atravessa a fase sem contraditório técnico."
+  },
+  {
+   "kicker": "O erro que se repete",
+   "titulo": "Impugnar o conteúdo e aceitar a forma",
+   "passos": [
+    "<em>Ataca-se o valor e ignora-se a origem.</em> Discute-se se a despesa existiu, e não quando ela foi escriturada. O momento de falar sobre o documento é esse — e ele passa.",
+    "<em>O cabeçalho já responde.</em> Sem número de ordem, termo de abertura e assinatura do contador e do responsável legal, aquilo é relatório de sistema.",
+    "<em>Conta de sócio zerada em 31/12.</em> Saldo que some no último dia do exercício e reaparece em janeiro, sem contrapartida identificável, é acerto de fechamento.",
+    "<em>Salto na numeração dos lançamentos.</em> Sequência que pula, renumera ou concentra centenas de lançamentos na mesma data indica escrituração feita de uma vez."
+   ],
+   "rodape": "Nada disso está no balanço. Está no razão analítico e no recibo do Sped.",
+   "painel": true
+  },
+  {
+   "ponte": "O balanço chegou aos autos.<br>Falta saber quando ele foi feito.",
+   "itens": [
+    "Conferência de recibos, termos e numeração dos livros digitais",
+    "Confronto entre razão analítico, balanço e documento de suporte",
+    "Parecer técnico para instruir a réplica e os quesitos"
+   ],
+   "oferta": "Mande o razão analítico. Em até 24h úteis eu digo se há o que impugnar"
+  }
+ ]
+}

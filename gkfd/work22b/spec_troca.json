@@ -1,0 +1,94 @@
+{
+  "slug": "gkfd_troca_de_contador",
+  "outdir": "pc_gkfd13",
+  "paleta": "G04",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande as guias e o relatório de repasse dos últimos três meses. Em até 24h úteis eu digo o que refazer",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "madeira",
+    "doc:razao/dobra",
+    "gesso",
+    "doc:apuracao/copia",
+    "linho"
+  ],
+  "seeds": [
+    9501,
+    9502,
+    9503,
+    9504,
+    9505
+  ],
+  "overlay": [
+    ".20,.42,.66",
+    ".78,.88",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L2",
+      "chamada": "O PASSADO VEM JUNTO",
+      "peca": "TROCA DE CONTADOR",
+      "headline": "A obrigação que<br>ficou para trás<br>continua no <b>seu CNPJ</b>",
+      "apoio": "Trocar de escritório muda quem executa. Não muda quem responde. Declaração não entregue, apuração feita sobre base errada e crédito nunca pedido continuam no nome da empresa — e aparecem anos depois."
+    },
+    {
+      "kicker": "Marketplace · trocando de contador",
+      "titulo": "A obrigação é da empresa, não de quem executa",
+      "passos": [
+        "<em>Quem responde é o CNPJ.</em> A lei atribui a obrigação ao contribuinte. Vender no Mercado Livre, contratar um escritório ou trocar de escritório não transfere apuração, entrega nem recolhimento para outra pessoa.",
+        "<em>O prazo não recomeça.</em> A troca não zera contagem nenhuma. Declaração vencida há dois anos continua vencida depois da migração, e a multa nasce com a data antiga, não com a data da mudança.",
+        "<em>O que foi pago a maior também fica.</em> Imposto apurado sobre venda cancelada, devolvida ou sobre valor que a plataforma nunca repassou não vira crédito sozinho: ele espera ser apurado e pedido, dentro de um prazo que corre."
+      ],
+      "rodape": "Trocar de escritório muda a execução. A obrigação fica onde sempre esteve."
+    },
+    {
+      "kicker": "O que a migração precisa levantar",
+      "titulo": "Quatro perguntas antes de migrar",
+      "passos": [
+        "<em>O que está entregue, e o que só foi gerado?</em> Guia emitida não é guia paga, e declaração transmitida não é declaração aceita. Recibo e comprovante são o que prova.",
+        "<em>Qual base alimentou a apuração?</em> Receita tirada do painel e receita escriturada pelo relatório de repasse dão dois números. Saber qual deles foi usado define o que precisa ser refeito.",
+        "<em>Há pendência aberta no nome da empresa?</em> Situação fiscal, parcelamento, malha e obrigação estadual são consultáveis hoje. Achada na migração é tarefa; achada depois, é multa.",
+        "<em>O que ainda dá para recuperar?</em> Devolução, cancelamento e retenção indevida que entraram na base deixam rastro no relatório de repasse. O que está no prazo pode ser apurado e pedido."
+      ],
+      "rodape": "Migração sem inventário não é troca. É transferência de risco."
+    },
+    {
+      "kicker": "O erro que se repete",
+      "titulo": "A migração feita só com o acesso ao sistema",
+      "passos": [
+        "<em>Recebe o login, não recebe o histórico.</em> O acesso abre a tela do mês corrente. Ele não diz qual base foi usada, o que ficou pendente nem o que já foi recolhido a maior.",
+        "<em>Assume o número pronto.</em> A receita do mês anterior é copiada como está e vira ponto de partida. Erro de base atravessa a troca intacto e continua correndo mês a mês.",
+        "<em>Trata mês fechado como assunto encerrado.</em> Fechado não é conferido. O prazo para pedir de volta o que foi pago a maior corre justamente nesse período.",
+        "<em>Descobre pela intimação.</em> A pendência que ninguém mapeou chega pela caixa postal eletrônica, com multa e prazo curto, no nome da empresa."
+      ],
+      "rodape": "O que não foi inventariado na troca volta depois, com multa."
+    },
+    {
+      "ponte": "Trocar de contador<br>não zera o passado.<br>Ele precisa ser mapeado.",
+      "itens": [
+        "Inventário de pendência conferido por documento, não por declaração",
+        "Base da apuração reconstruída pelo relatório de repasse",
+        "Levantamento do que ainda está dentro do prazo"
+      ],
+      "oferta": "Mande as guias e o relatório de repasse dos últimos três meses. Em até 24h úteis eu digo o que refazer"
+    }
+  ]
+}
