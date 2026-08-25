@@ -37,8 +37,10 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
 
 2026-08-24 | 07h20 | G5 tarifas e publicidade | M4 entrando no fulfillment | FRETE | O CUSTO DE ENTREGAR | débito de logística do fulfillment agregado numa conta só de frete, sem vínculo com o pedido de origem | as quatro naturezas do débito (guarda, manuseio, transporte e reversa), as quatro perguntas antes de aceitar o débito e o erro que se repete | Entrou no fulfillment e o frete virou quatro débitos | L4 | linho (SUPERFÍCIE) | G03 laranja embalagem | /areas/tarifas | FB 1336325419554251_122100012729451002 | IG 18118985000305093 (o postar.py reportou FALHOU com OAuthException 4; o _ig_ultimas.py confirmou a mídia no perfil — NÃO foi republicada) | story e reel publicados nos quatro destinos | story IG 17948567922257715 · story Página 1408649794490959 · reel IG 18067852877775529 · reel Página 1803988147446709 | cifra do L4: "4 DÉBITOS" com rótulo "o que desce como frete" | SEM modo demonstração (slide 4 no formato "o erro que se repete") | plataforma NÃO citada pelo nome (segunda das duas obrigatórias; a próxima PODE citar, e a vez é de Shopee ou Magalu) | primeiro comentário NÃO tentado (escopo do app, estado conhecido) | revisita: story da peça 2026-08-21_cnae-abertura | artigo do LinkedIn NÃO gerado (segunda-feira; só quarta e domingo)
 
+2026-08-24 | 14h33 | G4 estoque e custos | M7 fechamento do mês | INVENTÁRIO | NINGUÉM CONTOU | saldo de sistema usado como estoque final, sem contagem física por trás, e o CMV saindo de um número que ninguém mediu | demonstração aritmética do mesmo mês com estoque final replicado e com estoque contado (receita R$ 400.000,00, inicial R$ 180.000,00, compras R$ 240.000,00: CMV 240.000 e margem 40,00% x CMV 263.600 e margem 34,10%; diferença de R$ 23.600,00 e 5,90 pontos) | Seu estoque fecha na planilha e ninguém foi contar no galpão | L5 | doc:apuracao/formulario (DOCUMENTO) | G05 roxo plataforma | /areas/estoque | FB 1336325419554251_122100276807451002 | IG 18128885692590400 (o postar.py reportou FALHOU com OAuthException 4; o _ig_ultimas.py confirmou a mídia no perfil — NÃO foi republicada) | story e reel publicados nos quatro destinos | story IG 18237749830315110 · story Página 1108149258211056 · reel IG 18113984044787005 · reel Página 2322359698568557 | COM modo demonstração, em quadro de 7 linhas (o rodízio pedia) | plataforma citada: Shopee e Magalu, dentro de afirmação sobre a LEI ("a posse é de terceiro, a propriedade não") — era a vez das duas | primeiro comentário NÃO tentado (escopo do app, estado conhecido) | revisita NÃO rodada: já saiu na rodada das 07h20 de hoje | artigo do LinkedIn NÃO gerado (segunda-feira; só quarta e domingo) | primeira renderização SEM nenhum encolhimento nos três slides internos
+
 ## Rodízio — estado atual
-- Total do perfil: 15 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
+- Total do perfil: 16 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
   de 17-18/08, saiu antes do log existir — considerar A3 e o ponto de
   vazamento REPASSE DO MÊS como usados, e a paleta G01 e o layout L2 também.)
 - Áreas usadas: A3/G3 repasse, A8/G5 ads, A4/G9 retenção, A1/G2 regime,
@@ -65,7 +67,12 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   e comissão), e voltou em 24/08 com M4 e FRETE. Par novo, ponto novo. A G5
   cobre comissão, mídia E fulfillment: o custo de entregar dentro do centro de
   distribuição é tarifa da plataforma, não logística de terceiro.
-- Momentos usados: M7 fechamento do mês (2x — G3 e G6), M6 investindo em ADS,
+  SÉTIMA REPETIÇÃO: G4 saiu em 20/08 20h com M4 (extravio e avaria no
+  fulfillment) e voltou em 24/08 14h com M7 e INVENTÁRIO. Par novo, ponto novo.
+  A distinção que sustenta as duas: extravio é PERDA COM CULPADO, e a peça
+  pergunta quanto o terceiro deve ressarcir; inventário é DIFERENÇA SEM DONO, e
+  a peça pergunta quanto o custo da mercadoria vendida estava subestimado.
+- Momentos usados: M7 fechamento do mês (3x — G3, G6 e G4), M6 investindo em ADS,
   M8 saldo retido, M3 crescendo rápido (4x — G2 Fator R, G5 tarifa,
   G3 antecipação e G7 preço),
   M5 abrindo em segunda plataforma, M4 entrando no fulfillment,
@@ -76,27 +83,36 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   ATENÇÃO AO M3: são quatro, e é de longe o mais usado. Os pares continuam
   novos, mas o momento está gasto. As próximas peças devem puxar M6, M8 e M2,
   que rodaram uma vez só e há mais tempo — M4 acaba de sair.
+  POR QUE A DE 24/08 14h NÃO PUXOU M6, M8 NEM M2, e vale registrar porque a
+  recomendação acima vai reaparecer: M6 (investindo em ADS) e M8 (saldo retido
+  ou conta bloqueada) já esgotaram o par com a área natural deles — G5×M6 saiu
+  em 18/08 e G9×M8 também, e os dois voltariam dentro das 20 peças da regra.
+  M2 (primeiro mês vendendo) puxava DEVOLUÇÃO/G6, que leria como irmã do
+  CHARGEBACK de 19/08. Sobrou M7, que estava em 2x mas sem uso desde 19/08.
+  CONCLUSÃO PRÁTICA: a recomendação por momento só vale se o PAR com a área
+  ainda existir. M6 e M8 só voltam a ser úteis quando a G5 e a G9 ficarem fora
+  do alcance da regra das 20 peças, ou com uma área diferente da natural.
   OS DEZ MOMENTOS JÁ RODARAM. A partir daqui todos repetem, e o par
   área × momento passa a ser o eixo que segura a diferença sozinho, junto com
   o ponto de vazamento.
 - Pontos de vazamento usados: REPASSE DO MÊS, ADS DA PLATAFORMA, SALDO RETIDO,
   ANEXO E FATOR R, CHARGEBACK, DRE POR CANAL, EXTRAVIO E AVARIA, CNPJ E CNAE,
   ESCRITURAÇÃO POR EXTRATO, TARIFA E COMISSÃO, MALHA E INTIMAÇÃO,
-  ANTECIPAÇÃO DE RECEBÍVEL, TROCA DE CONTADOR, PREÇO, FRETE.
-  Sobram 13 dos 28: DEVOLUÇÃO, ESTORNO, DIFAL, ICMS-ST, REGIME
-  TRIBUTÁRIO, INVENTÁRIO, BLOQUEIO DE CONTA, CONCILIAÇÃO ERP × PLATAFORMA,
+  ANTECIPAÇÃO DE RECEBÍVEL, TROCA DE CONTADOR, PREÇO, FRETE, INVENTÁRIO.
+  Sobram 12 dos 28: DEVOLUÇÃO, ESTORNO, DIFAL, ICMS-ST, REGIME
+  TRIBUTÁRIO, BLOQUEIO DE CONTA, CONCILIAÇÃO ERP × PLATAFORMA,
   BALANCETE SEM CANAL, FECHAMENTO FORA DO PRAZO, INSCRIÇÃO ESTADUAL,
   MEI NO LIMITE, EMPRESA PARADA.
 - Paletas GKFD: G01 azul painel, G02 verde liberado, G03 laranja embalagem,
   G04 noturno operacional, G05 roxo plataforma, G06 vermelho retido.
-  Últimas três: G04, G02, G03. Próxima peça sai em G01, G05 ou G06.
+  Últimas três: G02, G03, G05. Próxima peça sai em G01, G04 ou G06.
 - Frases de efeito usadas: CONFERE UMA COISA, ANTES DE SUBIR O ORÇAMENTO,
   O DINHEIRO JÁ É SEU, A FOLHA DECIDE O ANEXO, VENDA DESFEITA,
   FATURA MAIS, SOBRA MENOS, ESTOQUE FORA DE CASA, O CADASTRO COBRA DEPOIS,
   O BANCO NÃO CONTA TUDO, A TARIFA NÃO É UMA SÓ, ELES JÁ TÊM O SEU NÚMERO,
   O DINHEIRO CHEGOU ANTES, O PASSADO VEM JUNTO, O PREÇO FICOU PARADO,
-  O CUSTO DE ENTREGAR.
-- Layouts: L1 a L6. Últimos três: L2, L1, L4. Próxima peça sai em L5 — e é a
+  O CUSTO DE ENTREGAR, NINGUÉM CONTOU.
+- Layouts: L1 a L6. Últimos três: L1, L4, L5. Próxima peça sai em L2 — e é a
   única disponível: com L3 e L6 vetados pelo selo de 320px, sobraram quatro
   layouts para uma regra de rodízio de três. Na prática o rodízio virou fixo
   L1-L2-L4-L5. Se isso incomodar, ou o selo encolhe, ou a regra passa a ser
@@ -107,20 +123,25 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   (antecipação de recebível) VOLTOU a ter. A de 23/08 (troca de contador)
   saiu SEM — o tema é de procedimento, não de conta, e forçar aritmética ali
   seria enchimento. A de 23/08 15h (PREÇO) saiu COM, em quadro de 7 linhas.
-  A de 24/08 (FRETE) saiu SEM, no formato "o erro que se repete".
-  O rodízio pede que a PRÓXIMA saia COM demonstração.
+  A de 24/08 07h (FRETE) saiu SEM, no formato "o erro que se repete".
+  A de 24/08 14h (INVENTÁRIO) saiu COM, em quadro de 7 linhas.
+  O rodízio pede que a PRÓXIMA saia SEM demonstração.
 - Sem banco de fotos: fundo sempre gerado (documento numérico + superfície
   neutra). Nada de foto.
-- TIPO DE CAPA DAS ÚLTIMAS TRÊS: SUPERFÍCIE (madeira), DOCUMENTO
-  (planilha/dobra), SUPERFÍCIE (linho). A PRÓXIMA CAPA É DE DOCUMENTO: a
-  sequência ficou sup-doc-sup e a alternância manda voltar ao documento.
+- TIPO DE CAPA DAS ÚLTIMAS TRÊS: DOCUMENTO (planilha/dobra), SUPERFÍCIE
+  (linho), DOCUMENTO (apuracao/formulario). A PRÓXIMA CAPA É DE SUPERFÍCIE: a
+  sequência ficou doc-sup-doc e a alternância manda voltar à superfície.
   Superfícies já usadas em CAPA: granito, concreto, duna, couro, madeira,
-  linho. Ainda intacta: só gesso.
+  linho. Ainda intacta: só gesso — ou seja, a próxima capa de superfície ou
+  usa gesso ou repete material. Repetindo, troque a PALETA e o LAYOUT junto,
+  que é o que carrega a diferença quando o material volta.
   Papéis de `extrato` já usados em CAPA: dobra (2x), copia, formulario, liso.
   A família extrato está esgotada em papel: a próxima capa de documento sobre
   dinheiro da plataforma repete papel ou muda de família.
   Famílias de documento já usadas em CAPA: extrato (5x), planilha (formulario
-  e dobra), comparativo (liso). Intactas em capa: razao e apuracao.
+  e dobra), comparativo (liso), apuracao (formulario). Intacta em capa: só
+  razao — e a lição de 19/08 desaconselha razao (vocabulário de financiamento).
+  Na prática, a capa de documento da GKFD tem três famílias, não cinco.
 - Plataforma citada pelo nome: a peça de 21/08 16h citou Shopee, Amazon e
   Magalu, numa frase que NÃO afirma política de plataforma nenhuma ("vender na
   Shopee, na Amazon ou no Magalu não muda essa classificação"). Foi assim que
@@ -134,10 +155,61 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   sozinho, dentro de afirmação sobre a LEI ("vender no Mercado Livre ou trocar
   de escritório não transfere apuração, entrega nem recolhimento para outra
   pessoa"). A de 23/08 15h (PREÇO) NÃO citou — primeira das duas que precisavam
-  ficar sem. A de 24/08 (FRETE) também NÃO citou, e fecha a dupla: a PRÓXIMA
-  PODE citar, e a vez é de Shopee ou Magalu, que aparecem menos.
+  ficar sem. A de 24/08 07h (FRETE) também NÃO citou, e fechou a dupla. A de
+  24/08 14h (INVENTÁRIO) CITOU Shopee e Magalu, que eram justamente as que
+  apareciam menos, dentro de afirmação sobre a LEI ("no fulfillment da Shopee
+  ou do Magalu a mercadoria continua sua e continua na sua escrita: posse é de
+  terceiro, propriedade não"). A PRÓXIMA e a seguinte NÃO citam.
+  Placar de nomes citados até aqui: Mercado Livre 2, Shopee 3, Amazon 2,
+  Magalu 2. Amazon e Mercado Livre são as próximas na fila quando a vez voltar.
 
 ## LIÇÕES
+
+**24/08/2026 (14h) — O `checar_capa.py` NÃO ENXERGA A BORDA DO L5 EM PALETA CLARA.**
+A capa saiu em L5 e o `checar_capa.py` devolveu "borda accent de largura
+inteira: NAO ENCONTRADA". Não é capa quebrada: a borda está lá, limpa, com a
+manchete terminando acima dela e o apoio começando abaixo — conferido olhando o
+PNG. O script procura linhas em que a cor accent ocupa mais de 90% da largura, e
+o roxo da G05 sobre papel claro não bate o limiar que foi calibrado na G04
+(noturno). Ou seja: em paleta clara a checagem devolve NÃO ENCONTRADA tanto
+quando a capa está limpa quanto quando a borda sumiu — ela não distingue os dois.
+CONDUTA, enquanto o limiar não for afrouxado: "NAO ENCONTRADA" em paleta clara
+não é reprovação, mas obriga a olhar o PNG. "run de 27 ou 35px" continua sendo
+reprovação de verdade, em qualquer paleta.
+PARA UMA SESSÃO COM TEMPO: o script deveria comparar a cor da linha com a accent
+da paleta do spec, e não procurar saturação alta.
+
+**24/08/2026 (14h) — CINCO SLIDES A 100%, E O QUE FEZ CABER FOI ESCREVER PARA A RÉGUA.**
+Primeira renderização, nenhum aviso de encolhimento em nenhum slide — o segundo
+caso disso, depois de 22/08 23h, e nas duas vezes a receita foi a mesma: cada
+passo escrito já mirando 160 caracteres, título de 2 linhas, rodapé de 1 linha,
+três passos no slide 2 e quatro nos slides 3 e 4. Vale contra o registro de
+24/08 de manhã, que achou 94% ser o teto prático: 94% é o teto quando o texto é
+escrito primeiro e medido depois. Escrevendo contra a régua, 100% sai de novo.
+E o quadro de 7 linhas do slide 4 coube junto, o que confirma o limite de 18/08.
+
+**24/08/2026 (14h) — DEMONSTRAÇÃO DE ESTOQUE NÃO PODE VIRAR DEMONSTRAÇÃO DE IMPOSTO.**
+As demonstrações anteriores terminavam em DAS, porque o tema era base de cálculo.
+Aqui não dá, e o motivo é técnico: no Simples Nacional o CMV não altera o DAS, que
+corre sobre receita. Uma demonstração que terminasse em imposto seria falsa.
+A saída foi fechar em MARGEM BRUTA — mesma receita, dois estoques finais, dois
+CMV, 40,00% contra 34,10%, R$ 23.600,00 e 5,90 pontos. A conta fecha e o efeito
+é o que de fato existe: decisão de preço, de compra e de descontinuação tomada
+sobre um custo subestimado.
+PADRÃO REAPROVEITÁVEL: antes de montar o quadro, perguntar em que número aquele
+vazamento realmente desemboca. Repasse, deságio e anexo desembocam em DAS;
+estoque, frete e mídia desembocam em margem. Errar isso produz aritmética que
+fecha e afirmação que não se sustenta.
+
+**24/08/2026 (14h) — A CAPA DE DOCUMENTO NO L5 SÓ MOSTRA O DOCUMENTO EM 42% DA ARTE.**
+O L5 tem um bloco de cor chapada nos 58% de cima, então o documento do fundo só
+aparece abaixo da borda accent, atrás do apoio. Com `.74,.84,.93` sobre a G05 o
+`apuracao` ficou nitidamente perceptível ali — dá para ler "Deduções" e as
+colunas de cifra —, e o teste da instrução ("dá para perceber que existe um
+documento?") passa. Mas fica o registro para a alternância de capa: L5 é o
+layout que menos aproveita fundo de documento. Havendo escolha entre L5 e L1/L2
+numa capa de DOCUMENTO, o documento rende mais nos outros dois; guarde o L5 para
+as capas de superfície, onde a cor chapada e a textura convivem melhor.
 
 **22/08/2026 (23h) — O PUBLICADOR SÓ ACEITA PNG COM O NOME DO SLUG. `1.png` NÃO SERVE.**
 Copiei os cinco slides para a pasta da peça renomeando para `1.png`…`5.png`, que

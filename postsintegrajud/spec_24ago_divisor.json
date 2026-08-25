@@ -1,0 +1,85 @@
+{
+ "slug": "integrajud_divisor_excecao_preexecutividade",
+ "outdir": "pc_24ago_divisor",
+ "paleta": "P09",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:memoria/envelhecido",
+  "granito",
+  "trama",
+  "doc:comparativo/liso",
+  "foto:px_34293525.jpg"
+ ],
+ "seeds": [9101, 9102, 9103, 9104, 9105],
+ "overlay": [
+  ".50,.68,.86",
+  ".42,.60",
+  ".44,.72"
+ ],
+ "slides": [
+  {
+   "layout": "L4",
+   "chamada": "TEM CONTA NESSA PEÇA?",
+   "peca": "EXCEÇÃO DE PRÉ-EXECUTIVIDADE",
+   "cifra": {
+    "rotulo": "demonstração · só o divisor",
+    "valor": "R$ 7.200"
+   },
+   "headline": "Quem fixou o divisor <b>foi a conta</b>",
+   "apoio": "A sentença não disse o número. A exceção dispensa o depósito, mas só aceita o vício já demonstrado."
+  },
+  {
+   "kicker": "Cálculo trabalhista · base horária",
+   "titulo": "O divisor não é detalhe de planilha. É o preço da hora",
+   "passos": [
+    "<em>Ele traduz a jornada em horas mensais.</em> Jornada de 44 horas semanais dá 220; de 40 horas, 200; de 30 horas, 150. Quem fixa o número é a jornada contratada — não o hábito do calculista.",
+    "<em>E define o valor da hora normal.</em> Sobre um salário de R$ 3.300,00, o divisor 220 dá R$ 15,00 por hora e o 200 dá R$ 16,50. A diferença de 10% nasce antes de qualquer adicional.",
+    "<em>O erro não para na hora extra.</em> A hora extra alimenta DSR, 13º, férias com um terço e FGTS com 40%. Divisor errado se propaga por todas as parcelas do período."
+   ],
+   "rodape": "Um número escolhido uma vez, aplicado em todos os meses do contrato."
+  },
+  {
+   "kicker": "O que a exceção precisa levar pronto",
+   "titulo": "Quatro perguntas antes de alegar vício de plano",
+   "passos": [
+    "<em>A sentença fixou o divisor.</em> Se o título diz o número, ele é coisa julgada e a conta tem de segui-lo. Se o título silencia, quem escolheu foi o calculista — e escolha de calculista se discute.",
+    "<em>Qual a jornada contratada nos autos.</em> CTPS, contrato, norma coletiva e controles de ponto. O divisor sai da jornada, e a jornada já está documentada: não é matéria que peça dilação.",
+    "<em>O mesmo divisor valeu o contrato inteiro.</em> Alteração de jornada no curso do contrato muda o divisor dali em diante. Planilha com um número único do começo ao fim já pede conferência.",
+    "<em>Os reflexos partiram da base corrigida.</em> DSR, 13º, férias e FGTS têm de sair da hora refeita. Corrigir a hora extra e deixar os reflexos na base antiga refaz metade do erro."
+   ],
+   "rodape": "Tudo isso se responde com documento que já está no processo."
+  },
+  {
+   "kicker": "Demonstração · o mesmo período, dois divisores",
+   "titulo": "A mesma base horária, dois divisores",
+   "passos": [
+    "<em>Base.</em> Salário fixo de R$ 3.300,00 e 2.000 horas extras reconhecidas no período, com adicional de 50%.",
+    "<em>Divisor 220.</em> Hora normal de R$ 15,00 e hora extra de R$ 22,50. As 2.000 horas somam R$ 45.000,00.",
+    "<em>Divisor 200.</em> Hora normal de R$ 16,50 e hora extra de R$ 24,75. As mesmas 2.000 horas somam R$ 49.500,00.",
+    "<em>Com os reflexos.</em> Aplicado aos dois o mesmo conjunto de reflexos, de 60% sobre as horas, chega-se a R$ 72.000,00 e a R$ 79.200,00. A diferença é de R$ 7.200,00."
+   ],
+   "rodape": "Números de demonstração, não de caso real. A perícia apura qual divisor a jornada impõe — e mostra a conta dos dois.",
+   "painel": true
+  },
+  {
+   "ponte": "A conta escolheu um número.<br>O contrato já dizia outro.",
+   "itens": [
+    "Conferência do divisor e da base horária, mês a mês",
+    "Refazimento da conta com os reflexos na base corrigida",
+    "Parecer técnico para instruir a exceção de pré-executividade"
+   ],
+   "oferta": "Mande a conta de liquidação. Em até 24h úteis eu digo se há vício de plano"
+  }
+ ]
+}

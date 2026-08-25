@@ -1,0 +1,19 @@
+O número mais importante do seu resultado é o único que ninguém foi medir: o estoque final.
+
+A conta do custo da mercadoria vendida é sempre a mesma — estoque inicial, mais compras, menos estoque final. Compras têm nota. Estoque inicial vem do ano anterior. O estoque final, na prática, costuma vir do saldo do sistema, que não é uma contagem: é o acúmulo de entradas menos saídas, lançamento a lançamento. Um lançamento errado não se corrige sozinho, e nada no sistema volta ao galpão para conferir.
+
+Em operação de marketplace a distância entre o papel e a prateleira cresce mais rápido, por três motivos concretos. Mercadoria guardada em centro de distribuição some do seu controle diário, embora continue sendo sua e continue na sua escrita — a posse é de terceiro, a propriedade não. Devolução em que o cliente foi reembolsado e a peça nunca voltou tira a venda e não repõe o produto. E kit vendido como um SKU, mas baixado como vários, deixa componente sobrando no papel e faltando na estante.
+
+A demonstração do carrossel mostra o tamanho disso, com números de demonstração e não de caso real. Um mês de R$ 400.000,00 de receita, estoque inicial de R$ 180.000,00 e R$ 240.000,00 de compras. Repetindo o inventário do ano anterior, o estoque final fica em R$ 180.000,00, o CMV dá R$ 240.000,00 e a margem bruta aparece como 40,00%. Contando de fato, o estoque final é R$ 156.400,00, o CMV sobe para R$ 263.600,00 e a margem cai para 34,10%. A diferença é de R$ 23.600,00, ou 5,90 pontos de margem, no mesmo mês e com a mesma receita.
+
+Vale dizer o que a contagem faz e o que ela não faz: ela não cria a perda. A perda por avaria, extravio, quebra e baixa não lançada já tinha acontecido ao longo dos meses. A contagem apenas para de escondê-la — e devolve para a decisão de preço, de compra e de descontinuação um custo que estava sendo subestimado.
+
+Quatro perguntas fecham o mês: quando foi a última contagem física, o que está em poder de terceiro, quais devoluções voltaram fisicamente e se kit e composto têm ficha técnica aberta.
+
+Mande o relatório de estoque do mês. Em até 24h úteis eu digo se o seu CMV tem contagem por trás.
+
+Fale direto: https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Facebook%20sobre%20inventario%20e%20CMV%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.
+
+GKFD Contábil
+Contabilidade especializada em e-commerce e marketplace
+www.gkfd.com.br

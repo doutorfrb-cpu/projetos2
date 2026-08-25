@@ -1,0 +1,22 @@
+R$ 23.600,00 de mercadoria que não estava na prateleira, e a margem do mês inteiro saiu errada por causa disso.
+
+O saldo que aparece no seu sistema não é contagem. É entrada menos saída, lançamento a lançamento. Errando um, o erro fica: nada no sistema volta sozinho a conferir com o galpão.
+
+Isso importaria pouco se o estoque final não fosse o número que fecha a conta do custo. Estoque inicial mais compras menos estoque final — é assim que nasce o CMV. O único termo que ninguém mede é o que decide o resultado.
+
+Quem vende em marketplace opera com dois estoques: o da plataforma e o seu. Eles divergem por perda, avaria, extravio e devolução reembolsada que nunca voltou. E nenhum dos dois é contagem — são dois relatórios.
+
+Quatro perguntas resolvem quase tudo no fechamento. Quando foi a última contagem física? O que está em centro de distribuição — a mercadoria continua sua e continua na sua escrita: a posse é de terceiro, a propriedade não. A devolução voltou de fato, ou só o dinheiro saiu? Kit e composto têm ficha técnica, ou são vendidos como um SKU e baixados como vários?
+
+A demonstração do slide 4 fecha em três linhas. Mesmo mês, R$ 400.000,00 de receita, estoque inicial de R$ 180.000,00 e R$ 240.000,00 de compras. Estoque final replicado do ano anterior: CMV de R$ 240.000,00 e margem bruta de 40,00%. Estoque contado em R$ 156.400,00: CMV de R$ 263.600,00 e margem de 34,10%. São R$ 23.600,00 e 5,90 pontos no mesmo mês. Números de demonstração, não de caso real.
+
+Repare no que a contagem faz: ela não cria a perda. A perda já tinha acontecido — a contagem só parou de escondê-la.
+
+Mande o relatório de estoque do mês. Em até 24h úteis eu digo se o seu CMV tem contagem por trás.
+
+GKFD Contábil
+Contabilidade especializada em e-commerce e marketplace
+
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Instagram%20sobre%20inventario%20e%20CMV%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.
+
+#marketplace #ecommerce #estoque #inventario #cmv #contabilidade #simplesnacional #vendedordemarketplace #fulfillment #margem

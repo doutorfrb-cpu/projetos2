@@ -1,0 +1,21 @@
+Trocar 220 por 200 muda o valor da hora em 10% — e esse 10% viaja por DSR, 13º, férias e FGTS até a última linha da conta.
+
+O divisor é o número que transforma salário mensal em valor de hora. Jornada de 44 horas semanais dá 220; de 40 horas, 200; de 30 horas, 150. Quem fixa esse número é a jornada contratada, e ela já está nos autos: CTPS, contrato, norma coletiva, ponto.
+
+Só que a sentença nem sempre diz o divisor. Quando o título silencia, quem escolhe é o calculista — e escolha de calculista não é coisa julgada. É conta, e conta se confere.
+
+O problema é o momento. Na execução trabalhista, discutir a conta por embargos exige garantir o juízo. A exceção de pré-executividade dispensa o depósito, mas só admite o vício demonstrável de plano. Ou o erro chega pronto, com a conta refeita, ou a matéria volta para a via que exige depósito.
+
+Quatro perguntas resolvem isso antes de protocolar. A sentença fixou o divisor? Qual a jornada contratada nos autos? O mesmo divisor valeu o contrato inteiro? E os reflexos partiram da hora refeita, ou ficaram na base antiga?
+
+Uma demonstração, com números que não são de caso real. Salário fixo de R$ 3.300,00 e 2.000 horas extras reconhecidas, com adicional de 50%. Pelo divisor 220, a hora extra sai a R$ 22,50 e as 2.000 horas somam R$ 45.000,00. Pelo 200, sai a R$ 24,75 e as mesmas horas somam R$ 49.500,00. Com o mesmo conjunto de reflexos nos dois, de 60% sobre as horas, chega-se a R$ 72.000,00 e a R$ 79.200,00. A diferença entre um critério e outro é de R$ 7.200,00.
+
+Não depende de prova nova. Depende de conferir de onde saiu o valor da hora.
+
+Mande a conta de liquidação. Em até 24h úteis eu digo se há vício de plano.
+Solicite a análise gratuita do seu caso em www.integrajud.com.br/areas/trabalhistas
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20IntegraJud%20no%20Instagram%20sobre%20divisor%20de%20horas%20extras%20na%20conta%20de%20liquidacao%20e%20queria%20falar%20sobre%20o%20c%C3%A1lculo%20do%20meu%20processo.
+
+IntegraJud · Inteligência pericial para advocacia
+
+#PericiaContabil #CalculoTrabalhista #ExecucaoTrabalhista #LiquidacaoDeSentenca #HorasExtras #AssistenteTecnico #CalculoJudicial

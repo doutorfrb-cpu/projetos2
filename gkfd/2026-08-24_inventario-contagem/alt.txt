@@ -1,0 +1,5 @@
+Capa sobre inventário: o estoque fecha na planilha porque o saldo do sistema é lançamento, e não contagem física no galpão.
+Slide sobre saldo de sistema não ser inventário: o saldo é entrada menos saída, o CMV nasce do estoque final e quem usa fulfillment convive com dois estoques que divergem.
+Slide com quatro perguntas antes de fechar o estoque: data da última contagem física, mercadoria em poder de terceiro, devolução com retorno físico e ficha técnica de kit e composto.
+Slide de demonstração com o mesmo mês sob dois critérios: estoque final replicado do ano anterior contra estoque final contado, com o CMV e a margem bruta resultantes de cada um.
+Slide de oferta da GKFD Contábil: estoque físico conferido contra o saldo escriturado e o da plataforma, CMV por entrada real e margem por SKU, com contato por WhatsApp e site.

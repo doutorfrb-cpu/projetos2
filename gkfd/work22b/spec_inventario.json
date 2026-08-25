@@ -1,0 +1,119 @@
+{
+  "slug": "gkfd_inventario_contagem",
+  "outdir": "pc_gkfd16",
+  "paleta": "G05",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório de estoque do mês. Em até 24h úteis eu digo se o seu CMV tem contagem por trás",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "doc:apuracao/formulario",
+    "granito",
+    "linho",
+    "madeira",
+    "duna"
+  ],
+  "seeds": [
+    9801,
+    9802,
+    9803,
+    9804,
+    9805
+  ],
+  "overlay": [
+    ".74,.84,.93",
+    ".18,.34",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L5",
+      "chamada": "NINGUÉM CONTOU",
+      "peca": "INVENTÁRIO",
+      "headline": "Seu estoque<br>fecha na planilha,<br>e ninguém foi<br>contar no <b>galpão</b>",
+      "apoio": "O saldo do sistema é resultado de lançamento, não de contagem. Enquanto ninguém confere o que existe de fato, o custo da mercadoria vendida sai de um estoque que só existe no papel."
+    },
+    {
+      "kicker": "Marketplace · fechamento do mês",
+      "titulo": "Saldo de sistema não é inventário",
+      "passos": [
+        "<em>O saldo é uma conta, não um fato.</em> Entrada menos saída, lançamento a lançamento. Errado um, o erro fica: nada no sistema volta sozinho a conferir com o galpão.",
+        "<em>O CMV nasce do estoque final.</em> Estoque inicial mais compras menos estoque final. O único número que ninguém mede é justamente o que fecha a conta do custo.",
+        "<em>Quem usa fulfillment tem dois estoques.</em> O da plataforma e o seu, e eles divergem por perda, avaria e devolução não retornada. Nenhum dos dois é contagem."
+      ],
+      "rodape": "Estoque no sistema é a soma dos lançamentos. Inventário é o que está lá."
+    },
+    {
+      "kicker": "O que o fechamento precisa responder",
+      "titulo": "Quatro perguntas antes de fechar o estoque",
+      "passos": [
+        "<em>Quando foi a última contagem física?</em> Sem data, o saldo é herança: repetir o inventário do ano anterior mantém o número e esconde a diferença acumulada.",
+        "<em>E o que está com terceiro?</em> No fulfillment da Shopee ou do Magalu a mercadoria continua sua, e continua na sua escrita: posse é de terceiro, propriedade não.",
+        "<em>A devolução voltou mesmo?</em> Reembolso e retorno físico são dois fatos, e nem sempre acontecem juntos. Um sem o outro deixa peça no papel e vazio na prateleira.",
+        "<em>Kit e composto têm ficha técnica?</em> Vendido como um SKU e baixado como vários, o kit sem ficha deixa componente sobrando no papel e faltando na estante."
+      ],
+      "rodape": "Estoque não se confere em relatório. Confere-se na prateleira."
+    },
+    {
+      "kicker": "Modo demonstração",
+      "titulo": "O mesmo mês, com estoque replicado e com estoque contado",
+      "formato": "quadro",
+      "linhas": [
+        [
+          "Receita do mês",
+          "R$ 400.000,00"
+        ],
+        [
+          "Estoque inicial escriturado",
+          "R$ 180.000,00"
+        ],
+        [
+          "Compras do período",
+          "R$ 240.000,00"
+        ],
+        [
+          "Critério 1 · estoque final replicado",
+          "R$ 180.000,00 · CMV R$ 240.000,00 · margem bruta 40,00%"
+        ],
+        [
+          "Critério 2 · estoque final contado",
+          "R$ 156.400,00 · CMV R$ 263.600,00 · margem bruta 34,10%"
+        ],
+        [
+          "A diferença de estoque",
+          "R$ 23.600,00 em perda, avaria e baixa não lançada"
+        ],
+        [
+          "Efeito no resultado do mês",
+          "R$ 23.600,00 a menos de margem · 5,90 pontos"
+        ]
+      ],
+      "rodape": "Números de demonstração, não de caso real. A contagem não criou a perda: ela só apareceu."
+    },
+    {
+      "ponte": "Inventário não é<br>número copiado.<br>É contagem.",
+      "itens": [
+        "Estoque físico conferido contra o saldo escriturado e o da plataforma",
+        "CMV por entrada real, com kit e composto abertos em ficha técnica",
+        "Margem por SKU depois do custo certo"
+      ],
+      "oferta": "Mande o relatório de estoque do mês. Em até 24h úteis eu digo se o seu CMV tem contagem por trás"
+    }
+  ]
+}
