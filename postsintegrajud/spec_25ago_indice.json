@@ -1,0 +1,81 @@
+{
+ "slug": "integrajud_indice_contratual_revisional",
+ "outdir": "pc_25ago_indice",
+ "paleta": "P10",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:comparativo/formulario",
+  "gesso",
+  "couro",
+  "doc:memoria/copia",
+  "foto:px_17190476.jpg"
+ ],
+ "seeds": [9251, 9252, 9253, 9254, 9255],
+ "overlay": [
+  ".84,.90,.96",
+  ".42,.60",
+  ".44,.72"
+ ],
+ "slides": [
+  {
+   "layout": "L6",
+   "chamada": "QUEM FEZ ESSA CONTA?",
+   "peca": "AÇÃO REVISIONAL DE CONTRATO",
+   "headline": "O índice do contrato <b>não tem série pública</b>",
+   "apoio": "Pedir revisão sem demonstrar a divergência entrega ao juízo a escolha do índice."
+  },
+  {
+   "kicker": "Cláusula de reajuste · índice próprio",
+   "titulo": "Índice com nome não é índice conferível",
+   "passos": [
+    "<em>Índice público tem fonte, data e fórmula.</em> IPCA, INPC e IGP-M são apurados por instituição declarada, divulgados em data certa e reproduzíveis por qualquer perito: quem confere chega duas vezes ao mesmo número.",
+    "<em>Índice próprio entrega só o resultado.</em> Tabela do fornecedor, variação do custo do insumo, índice interno de reequilíbrio. O contrato nomeia, a parte apura, e o percentual chega ao boleto pronto — sem cesta, sem pesos, sem data-base.",
+    "<em>E quem apura é quem recebe.</em> O reajuste é calculado por quem emite a cobrança e conferido por ninguém. O problema não é o nome da cláusula: é não haver prestação de contas dentro do preço de cada período."
+   ],
+   "rodape": "A revisional não se resolve no percentual do último reajuste. Ela se resolve na série."
+  },
+  {
+   "kicker": "O que a inicial precisa levar apurado",
+   "titulo": "Quatro perguntas que viram conta",
+   "passos": [
+    "<em>Qual índice foi aplicado de fato, período a período.</em> Divide-se o valor de cada período pelo anterior e a série real aparece nos boletos e notas, mesmo que nunca tenha sido publicada.",
+    "<em>O que a cláusula manda aplicar, lida como está escrita.</em> Fonte, periodicidade, data-base e fórmula. É aqui que a revisão deixa de ser opinião e passa a ter parâmetro.",
+    "<em>Onde a série real se afasta da pactuada.</em> A divergência raramente começa no último reajuste: nasce em período antigo e se acumula, porque cada um incide sobre base já reajustada.",
+    "<em>Qual o efeito no saldo até hoje.</em> O pedido precisa do valor recomposto e do termo inicial da diferença. Sem isso, o juízo recebe a tese sem o número."
+   ],
+   "rodape": "Tudo isso se apura com o contrato e as cobranças que o cliente já tem."
+  },
+  {
+   "kicker": "O erro que se repete",
+   "titulo": "Ataca-se o percentual, e a série passa",
+   "passos": [
+    "<em>Impugna-se só o último reajuste.</em> É o que o cliente reclama. Mas o anterior já entrou na base, e atacar o último preserva tudo o que veio antes.",
+    "<em>O índice troca de nome no meio do contrato.</em> Aditivo, carta de reajuste ou rótulo novo no boleto. Está no documento e quase nunca chega à petição.",
+    "<em>O reajuste incide sobre base já reajustada.</em> Composição sem previsão na cláusula. Não aparece no percentual do ano: aparece no acumulado.",
+    "<em>Falta a memória de apuração.</em> O fornecedor entrega o percentual, não o cálculo. Cesta, pesos e data-base é pedido específico — e específico não se indefere."
+   ],
+   "rodape": "Nenhum dos quatro se enxerga no percentual do mês. Todos, na série.",
+   "painel": true
+  },
+  {
+   "ponte": "O contrato disse como reajustar.<br>A cobrança disse quanto.",
+   "itens": [
+    "Reconstrução da série de reajustes, período a período",
+    "Confronto entre o índice aplicado e a fórmula da cláusula",
+    "Parecer técnico para instruir a revisional"
+   ],
+   "oferta": "Mande o contrato e os boletos. Em até 24h úteis eu digo se a série fecha"
+  }
+ ]
+}

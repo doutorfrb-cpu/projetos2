@@ -1,0 +1,94 @@
+{
+  "slug": "gkfd_icms_st",
+  "outdir": "pc_gkfd17",
+  "paleta": "G06",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande a nota de entrada e a guia do mês. Em até 24h úteis eu digo se a receita foi separada",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "gesso",
+    "doc:razao/copia",
+    "concreto",
+    "doc:apuracao/dobra",
+    "duna"
+  ],
+  "seeds": [
+    9601,
+    9602,
+    9603,
+    9604,
+    9605
+  ],
+  "overlay": [
+    ".30,.52,.74",
+    ".82,.91",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L2",
+      "chamada": "JÁ VEIO COM IMPOSTO",
+      "peca": "ICMS-ST",
+      "headline": "Você paga ICMS de novo<br>sobre um produto que<br><b>já veio tributado</b>",
+      "apoio": "Mercadoria com substituição tributária circula com o ICMS da cadeia já recolhido lá atrás. Se essa receita não é separada na apuração do mês, o imposto entra outra vez no DAS — e sai da sua margem."
+    },
+    {
+      "kicker": "Marketplace · primeiro mês vendendo",
+      "titulo": "O ICMS desse produto foi recolhido antes de você",
+      "passos": [
+        "<em>A substituição antecipa a cadeia inteira.</em> Nos produtos submetidos ao regime, o fabricante, o importador ou o atacadista recolhe de uma vez o ICMS das etapas seguintes. A mercadoria chega até você com esse imposto já pago.",
+        "<em>No Simples, essa receita tem tratamento próprio.</em> A Lei Complementar 123 manda segregar, na apuração do mês, a venda de mercadoria cujo ICMS já foi recolhido por substituição. Segregada, a parcela de ICMS da tabela sai do cálculo daquela receita.",
+        "<em>Sem segregar, o DAS cobra outra vez.</em> A receita entra no bolo com o percentual cheio do anexo, o ICMS é calculado sobre ela, e você recolhe um imposto que a cadeia já havia recolhido."
+      ],
+      "rodape": "Não é isenção nem benefício. É imposto que já foi pago uma vez."
+    },
+    {
+      "kicker": "O que a nota de entrada responde",
+      "titulo": "Quatro perguntas antes de apurar o mês",
+      "passos": [
+        "<em>O produto está no regime?</em> Quem responde é o NCM combinado com o CEST, conferidos na legislação do seu estado. Nome comercial não decide nada: dois itens parecidos podem ter enquadramentos diferentes.",
+        "<em>A entrada veio com ST retida?</em> No XML da nota, a base de cálculo e o valor do ICMS-ST mostram quanto foi retido. O CST 60 e o CSOSN 500 dizem a mesma coisa em uma linha: imposto cobrado anteriormente.",
+        "<em>A saída saiu coerente com a entrada?</em> Mercadoria que entrou com ST retida sai sem destaque de ICMS. Nota emitida fora disso desalinha a escrituração e a apuração do mesmo mês.",
+        "<em>A receita foi separada no cálculo?</em> Na apuração, a venda desses itens vai para a linha de receita com substituição. É esse campo que retira o ICMS do percentual aplicado sobre ela."
+      ],
+      "rodape": "A resposta já está na nota que você recebeu."
+    },
+    {
+      "kicker": "O erro que se repete",
+      "titulo": "A receita do mês entra toda no mesmo bolo",
+      "passos": [
+        "<em>Apura pelo total do painel.</em> O relatório entrega um número só de vendas. Ele não separa o que tem substituição do que não tem, e quem apura por ele nunca chega a separar nada.",
+        "<em>Confia no cadastro feito às pressas.</em> O item foi cadastrado para anunciar rápido. O NCM veio do que parecia certo e o enquadramento nunca foi checado contra a legislação estadual.",
+        "<em>Repete o mês anterior.</em> A primeira apuração vira modelo. O erro não aparece em lugar nenhum: a guia é gerada, paga e arquivada, mês após mês, sempre igual.",
+        "<em>Descobre com o prazo correndo.</em> O que foi recolhido a maior não volta sozinho. Precisa ser apurado, documentado e pedido — e o prazo para isso corre desde o pagamento."
+      ],
+      "rodape": "Guia paga não é guia conferida."
+    },
+    {
+      "ponte": "Mercadoria com ST<br>já pagou o ICMS.<br>O mês precisa separar isso.",
+      "itens": [
+        "Enquadramento conferido por NCM e CEST, item a item",
+        "Receita com substituição separada na apuração do mês",
+        "O que foi pago a maior e ainda está dentro do prazo"
+      ],
+      "oferta": "Mande a nota de entrada e a guia do mês. Em até 24h úteis eu digo se a receita foi separada"
+    }
+  ]
+}

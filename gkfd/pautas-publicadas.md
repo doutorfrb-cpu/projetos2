@@ -39,8 +39,12 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
 
 2026-08-24 | 14h33 | G4 estoque e custos | M7 fechamento do mês | INVENTÁRIO | NINGUÉM CONTOU | saldo de sistema usado como estoque final, sem contagem física por trás, e o CMV saindo de um número que ninguém mediu | demonstração aritmética do mesmo mês com estoque final replicado e com estoque contado (receita R$ 400.000,00, inicial R$ 180.000,00, compras R$ 240.000,00: CMV 240.000 e margem 40,00% x CMV 263.600 e margem 34,10%; diferença de R$ 23.600,00 e 5,90 pontos) | Seu estoque fecha na planilha e ninguém foi contar no galpão | L5 | doc:apuracao/formulario (DOCUMENTO) | G05 roxo plataforma | /areas/estoque | FB 1336325419554251_122100276807451002 | IG 18128885692590400 (o postar.py reportou FALHOU com OAuthException 4; o _ig_ultimas.py confirmou a mídia no perfil — NÃO foi republicada) | story e reel publicados nos quatro destinos | story IG 18237749830315110 · story Página 1108149258211056 · reel IG 18113984044787005 · reel Página 2322359698568557 | COM modo demonstração, em quadro de 7 linhas (o rodízio pedia) | plataforma citada: Shopee e Magalu, dentro de afirmação sobre a LEI ("a posse é de terceiro, a propriedade não") — era a vez das duas | primeiro comentário NÃO tentado (escopo do app, estado conhecido) | revisita NÃO rodada: já saiu na rodada das 07h20 de hoje | artigo do LinkedIn NÃO gerado (segunda-feira; só quarta e domingo) | primeira renderização SEM nenhum encolhimento nos três slides internos
 
+2026-08-25 | 11h25 | G2 fiscal e tributário | M2 primeiro mês vendendo | ICMS-ST | JÁ VEIO COM IMPOSTO | mercadoria que circula com o ICMS da cadeia já recolhido e volta a ser tributada dentro do DAS | as quatro perguntas que a nota de entrada responde (NCM+CEST, ST retida no XML, coerência da saída, segregação da receita) e o erro que se repete | Você paga ICMS de novo sobre um produto que já veio tributado | L2 | gesso (SUPERFÍCIE) | G06 vermelho retido | /areas/fiscal | FB 1336325419554251_122100895737451002 | IG 18122808346650644 (o postar.py reportou FALHOU com OAuthException 4 no PRIMEIRO status do container pai; o _ig_ultimas.py confirmou a mídia no perfil — NÃO foi republicada) | story e reel publicados nos quatro destinos | story IG 18021824171885245 · story Página 1008025165615087 · reel IG 17990405945840220 · reel Página 2281166056032166 | SEM modo demonstração (slide 4 no formato "o erro que se repete"; o rodízio pedia) | plataforma NÃO citada pelo nome (primeira das duas obrigatórias depois da citação de 24/08 14h) | primeiro comentário TENTADO e FALHOU nos dois (IG OAuthException 10, FB OAuthException 200 — escopo do app) | revisita: story da peça 2026-08-21_escrituracao-extrato | artigo do LinkedIn NÃO gerado (terça-feira; só quarta e domingo) | encolhimento 94% nos slides 3 e 4, slide 2 a 100%
+
+2026-08-25 | 16h50 | G1 contabilidade do e-commerce | M5 abrindo em segunda plataforma | CONCILIAÇÃO ERP × PLATAFORMA | QUAL DELES ESTÁ CERTO | quatro sistemas medindo quatro coisas em datas diferentes, e nenhum deles conferido contra o outro depois que o segundo canal abriu | demonstração aritmética do mesmo mês por dois critérios (soma dos painéis R$ 300.000,00 × receita escriturada R$ 287.400,00, com R$ 7.800,00 de cancelado antes de faturar e R$ 4.800,00 de virada de mês; DAS a 10,00% de demonstração: R$ 30.000,00 × R$ 28.740,00) | Abriu o segundo canal e tem quatro números do mesmo mês | L1 | doc:comparativo/dobra (DOCUMENTO) | G01 azul painel | /areas/contabilidade | FB 1336325419554251_122101120605451002 | IG 18051376577798482 (o postar.py reportou FALHOU com OAuthException 4 no PRIMEIRO status do container pai, ainda IN_PROGRESS; o _ig_ultimas.py confirmou a mídia no perfil — NÃO foi republicada) | story e reel publicados nos quatro destinos | story IG 18091410965644368 · story Página 2310592579347229 · reel IG 18111561566141753 · reel Página 1744721453386714 | COM modo demonstração, em quadro de 7 linhas (o rodízio pedia) | plataforma NÃO citada pelo nome (segunda das duas obrigatórias; a próxima PODE citar, e a vez é de Amazon ou Mercado Livre) | primeiro comentário TENTADO e FALHOU nos dois (IG OAuthException 10, FB OAuthException 200 — escopo do app, estado conhecido) | revisita NÃO rodada: já saiu na rodada das 11h25 de hoje | artigo do LinkedIn NÃO gerado (terça-feira; só quarta e domingo) | encolhimento 94% nos três slides internos
+
 ## Rodízio — estado atual
-- Total do perfil: 16 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
+- Total do perfil: 19 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
   de 17-18/08, saiu antes do log existir — considerar A3 e o ponto de
   vazamento REPASSE DO MÊS como usados, e a paleta G01 e o layout L2 também.)
 - Áreas usadas: A3/G3 repasse, A8/G5 ads, A4/G9 retenção, A1/G2 regime,
@@ -72,6 +76,17 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   A distinção que sustenta as duas: extravio é PERDA COM CULPADO, e a peça
   pergunta quanto o terceiro deve ressarcir; inventário é DIFERENÇA SEM DONO, e
   a peça pergunta quanto o custo da mercadoria vendida estava subestimado.
+  OITAVA REPETIÇÃO: G2 saiu em 19/08 com M3 (Fator R) e em 22/08 20h com M9
+  (malha), e voltou em 25/08 com M2 e ICMS-ST. Par novo, ponto novo. A distinção
+  que sustenta as três: Fator R decide o ANEXO, malha responde ao FISCO, e o
+  ICMS-ST decide o que entra na BASE do mês — três perguntas fiscais diferentes.
+  NONA REPETIÇÃO: G1 saiu em 21/08 20h com M2 (escrituração por extrato) e
+  voltou em 25/08 16h50 com M5 e CONCILIAÇÃO ERP × PLATAFORMA. Par novo, ponto
+  novo. A distinção que sustenta as duas, e vale registrar porque elas são
+  vizinhas de tema: a de 21/08 diz que o CRÉDITO BANCÁRIO é o fim da conta e
+  não serve de fonte para a escrituração; a de 25/08 diz que, com DOIS CANAIS,
+  existem quatro números do mesmo mês e só a escrituração é receita. Uma ataca
+  a fonte errada; a outra, a ausência de conciliação entre fontes.
 - Momentos usados: M7 fechamento do mês (3x — G3, G6 e G4), M6 investindo em ADS,
   M8 saldo retido, M3 crescendo rápido (4x — G2 Fator R, G5 tarifa,
   G3 antecipação e G7 preço),
@@ -95,24 +110,40 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   OS DEZ MOMENTOS JÁ RODARAM. A partir daqui todos repetem, e o par
   área × momento passa a ser o eixo que segura a diferença sozinho, junto com
   o ponto de vazamento.
+  M2 (primeiro mês vendendo) voltou em 25/08, com G2 e ICMS-ST — era uma das
+  três recomendadas (M6, M8, M2) e foi a única que ainda tinha par disponível.
+  A objeção registrada em 24/08 contra o M2 ("puxava DEVOLUÇÃO/G6, que leria
+  como irmã do CHARGEBACK") caiu porque o M2 foi puxado por OUTRA área: a
+  recomendação por momento só trava quando o par natural está gasto, e o M2
+  tinha par livre fora da G6.
+  M5 (abrindo em segunda plataforma) voltou em 25/08 16h50, com G1 e
+  CONCILIAÇÃO ERP × PLATAFORMA — agora tem 2x (G7 DRE por canal em 20/08 e
+  G1 conciliação em 25/08). É o momento certo para todo ponto de vazamento que
+  só existe quando há mais de um canal, e ainda sobram BALANCETE SEM CANAL e
+  DRE-adjacentes nessa família.
 - Pontos de vazamento usados: REPASSE DO MÊS, ADS DA PLATAFORMA, SALDO RETIDO,
   ANEXO E FATOR R, CHARGEBACK, DRE POR CANAL, EXTRAVIO E AVARIA, CNPJ E CNAE,
   ESCRITURAÇÃO POR EXTRATO, TARIFA E COMISSÃO, MALHA E INTIMAÇÃO,
-  ANTECIPAÇÃO DE RECEBÍVEL, TROCA DE CONTADOR, PREÇO, FRETE, INVENTÁRIO.
-  Sobram 12 dos 28: DEVOLUÇÃO, ESTORNO, DIFAL, ICMS-ST, REGIME
-  TRIBUTÁRIO, BLOQUEIO DE CONTA, CONCILIAÇÃO ERP × PLATAFORMA,
+  ANTECIPAÇÃO DE RECEBÍVEL, TROCA DE CONTADOR, PREÇO, FRETE, INVENTÁRIO,
+  ICMS-ST, CONCILIAÇÃO ERP × PLATAFORMA.
+  Sobram 10 dos 28: DEVOLUÇÃO, ESTORNO, DIFAL, REGIME
+  TRIBUTÁRIO, BLOQUEIO DE CONTA,
   BALANCETE SEM CANAL, FECHAMENTO FORA DO PRAZO, INSCRIÇÃO ESTADUAL,
   MEI NO LIMITE, EMPRESA PARADA.
+  ATENÇÃO AO BALANCETE SEM CANAL: com a CONCILIAÇÃO ERP × PLATAFORMA gasta em
+  25/08, ele ficou perto demais para vir logo em seguida. Deixe pelo menos
+  três peças entre os dois, ou puxe-o por uma área que não seja a G1.
 - Paletas GKFD: G01 azul painel, G02 verde liberado, G03 laranja embalagem,
   G04 noturno operacional, G05 roxo plataforma, G06 vermelho retido.
-  Últimas três: G02, G03, G05. Próxima peça sai em G01, G04 ou G06.
+  Últimas três: G05, G06, G01. Próxima peça sai em G02, G03 ou G04.
 - Frases de efeito usadas: CONFERE UMA COISA, ANTES DE SUBIR O ORÇAMENTO,
   O DINHEIRO JÁ É SEU, A FOLHA DECIDE O ANEXO, VENDA DESFEITA,
   FATURA MAIS, SOBRA MENOS, ESTOQUE FORA DE CASA, O CADASTRO COBRA DEPOIS,
   O BANCO NÃO CONTA TUDO, A TARIFA NÃO É UMA SÓ, ELES JÁ TÊM O SEU NÚMERO,
   O DINHEIRO CHEGOU ANTES, O PASSADO VEM JUNTO, O PREÇO FICOU PARADO,
-  O CUSTO DE ENTREGAR, NINGUÉM CONTOU.
-- Layouts: L1 a L6. Últimos três: L1, L4, L5. Próxima peça sai em L2 — e é a
+  O CUSTO DE ENTREGAR, NINGUÉM CONTOU, JÁ VEIO COM IMPOSTO,
+  QUAL DELES ESTÁ CERTO.
+- Layouts: L1 a L6. Últimos três: L5, L2, L1. Próxima peça sai em L4 — e é a
   única disponível: com L3 e L6 vetados pelo selo de 320px, sobraram quatro
   layouts para uma regra de rodízio de três. Na prática o rodízio virou fixo
   L1-L2-L4-L5. Se isso incomodar, ou o selo encolhe, ou a regra passa a ser
@@ -125,23 +156,27 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   seria enchimento. A de 23/08 15h (PREÇO) saiu COM, em quadro de 7 linhas.
   A de 24/08 07h (FRETE) saiu SEM, no formato "o erro que se repete".
   A de 24/08 14h (INVENTÁRIO) saiu COM, em quadro de 7 linhas.
-  O rodízio pede que a PRÓXIMA saia SEM demonstração.
+  A de 25/08 11h25 (ICMS-ST) saiu SEM, no formato "o erro que se repete".
+  A de 25/08 16h50 (CONCILIAÇÃO ERP × PLATAFORMA) saiu COM, em quadro de 7
+  linhas. O rodízio pede que a PRÓXIMA saia SEM demonstração.
 - Sem banco de fotos: fundo sempre gerado (documento numérico + superfície
   neutra). Nada de foto.
-- TIPO DE CAPA DAS ÚLTIMAS TRÊS: DOCUMENTO (planilha/dobra), SUPERFÍCIE
-  (linho), DOCUMENTO (apuracao/formulario). A PRÓXIMA CAPA É DE SUPERFÍCIE: a
+- TIPO DE CAPA DAS ÚLTIMAS TRÊS: DOCUMENTO (apuracao/formulario), SUPERFÍCIE
+  (gesso), DOCUMENTO (comparativo/dobra). A PRÓXIMA CAPA É DE SUPERFÍCIE: a
   sequência ficou doc-sup-doc e a alternância manda voltar à superfície.
   Superfícies já usadas em CAPA: granito, concreto, duna, couro, madeira,
-  linho. Ainda intacta: só gesso — ou seja, a próxima capa de superfície ou
-  usa gesso ou repete material. Repetindo, troque a PALETA e o LAYOUT junto,
-  que é o que carrega a diferença quando o material volta.
+  linho, gesso. ESGOTADAS — as sete rodaram. A partir daqui toda capa de
+  superfície repete material; repetindo, troque a PALETA e o LAYOUT junto,
+  que é o que carrega a diferença quando o material volta. A mais antiga é
+  granito (19/08), depois concreto (20/08) e duna (21/08).
   Papéis de `extrato` já usados em CAPA: dobra (2x), copia, formulario, liso.
   A família extrato está esgotada em papel: a próxima capa de documento sobre
   dinheiro da plataforma repete papel ou muda de família.
   Famílias de documento já usadas em CAPA: extrato (5x), planilha (formulario
-  e dobra), comparativo (liso), apuracao (formulario). Intacta em capa: só
-  razao — e a lição de 19/08 desaconselha razao (vocabulário de financiamento).
-  Na prática, a capa de documento da GKFD tem três famílias, não cinco.
+  e dobra), comparativo (liso e dobra), apuracao (formulario). Intacta em capa:
+  só razao — e a lição de 19/08 desaconselha razao (vocabulário de
+  financiamento). Na prática, a capa de documento da GKFD tem três famílias,
+  não cinco.
 - Plataforma citada pelo nome: a peça de 21/08 16h citou Shopee, Amazon e
   Magalu, numa frase que NÃO afirma política de plataforma nenhuma ("vender na
   Shopee, na Amazon ou no Magalu não muda essa classificação"). Foi assim que
@@ -159,11 +194,78 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   24/08 14h (INVENTÁRIO) CITOU Shopee e Magalu, que eram justamente as que
   apareciam menos, dentro de afirmação sobre a LEI ("no fulfillment da Shopee
   ou do Magalu a mercadoria continua sua e continua na sua escrita: posse é de
-  terceiro, propriedade não"). A PRÓXIMA e a seguinte NÃO citam.
+  terceiro, propriedade não"). A de 25/08 (ICMS-ST) NÃO citou — primeira das
+  duas que precisavam ficar sem. A de 25/08 16h50 (CONCILIAÇÃO ERP ×
+  PLATAFORMA) também NÃO citou, e fechou a dupla — e nela isso saiu de graça,
+  porque a peça é justamente sobre DOIS canais quaisquer: "canal antigo" e
+  "canal novo" dizem tudo sem nomear ninguém. A PRÓXIMA PODE citar.
   Placar de nomes citados até aqui: Mercado Livre 2, Shopee 3, Amazon 2,
-  Magalu 2. Amazon e Mercado Livre são as próximas na fila quando a vez voltar.
+  Magalu 2. Amazon e Mercado Livre são as próximas na fila.
 
 ## LIÇÕES
+
+**25/08/2026 (16h50) — O `python` DO PATH DESTA MÁQUINA É O 3.13, E É ELE QUE
+TEM TUDO. O CAMINHO ABSOLUTO REGISTRADO NO LOG APONTA PARA O 3.14, QUE NÃO TEM
+`requests`.**
+O log de 20/08 mandou abandonar o `py` e usar
+`C:\Users\fabio\AppData\Local\Programs\Python\Python314\python.exe`. Hoje esse
+caminho não serviu: o 3.14 não tem `requests`, e sem ele nenhum publicador
+roda. O `python` que está no PATH resolve para o **Python313**, e nele estão
+numpy, pillow, playwright E requests — a rodada inteira (machine, story, reel,
+postar, extras) saiu com ele, sem instalar nada.
+E há um motivo prático para preferir o nome curto: o `.claude/settings.json`
+libera `Bash(python *)` e `Bash(py *)`, mas NÃO libera caminho absoluto de
+executável. Chamar pelo caminho completo trava pedindo aprovação, e em rodada
+automática isso é a rodada parada. REGRA: use `python <script>`, do diretório
+da raiz. Se um dia o PATH mudar, confira com
+`python -c "import sys,numpy,PIL,playwright,requests; print(sys.executable)"`
+antes de sair procurando caminho absoluto.
+
+**25/08/2026 (16h50) — O `story_ad.py` NÃO GRAVA NA PASTA DO `outdir`.**
+Ele escreve o `<slug>_916.png` em `kit_anuncios/`, na raiz da pasta de
+trabalho, e não em `pc_gkfd<N>/` junto com os slides. Procurar o arquivo ao
+lado dos PNGs do carrossel devolve FileNotFoundError e faz perder um passo.
+O `reel.py` faz o contrário: grava o mp4 DENTRO do `outdir`. São dois destinos
+diferentes no mesmo spec, e não há nada no nome dos scripts que avise.
+
+**25/08/2026 (16h50) — O OAuthException 4 FOI FALSO PELA SÉTIMA VEZ.**
+Mesmo padrão exato de 24/08: `postar.py` publica no Facebook, estoura no
+PRIMEIRO status do container pai ainda em IN_PROGRESS, declara Instagram
+FALHOU — e o `_ig_ultimas.py` mostra o carrossel no perfil 30 segundos depois.
+Nada foi republicado. A regra de 23/08 já pagou sozinha o estrago que a
+originou: sete rodadas seguidas sem duplicata. O conserto de verdade no
+`publicar_instagram.py` (espaçar chamadas e consultar /media antes de declarar
+falha) continua pendente, e a cada dia que passa fica mais claro que ele é
+barato: o erro é 100% previsível, sempre no mesmo ponto.
+
+**25/08/2026 — O SLIDE 5 SÓ FICA LIMPO COM A RÉGUA DE TAMANHO DO LOG, E ELA
+VALE ITEM POR ITEM.**
+Primeira renderização: 3 itens (o terceiro com 2 linhas) e oferta de 3 linhas.
+Resultado, o mesmo defeito de 20/08 e 23/08: a tira de prova encostou na base
+do `www.gkfd.com.br`. Encurtar o terceiro item para 1 linha e a oferta para 2
+resolveu na hora, sem tocar em mais nada. A régua registrada em 23/08 — ponte
+de 3 linhas, 3 itens de ATÉ 2 linhas, oferta de ATÉ 2 linhas — funciona, mas o
+teto de "até 2 linhas" no item já é o limite: com um item de 2 linhas E oferta
+de 3, estoura. Na prática: se a oferta passar de 2 linhas, corte a oferta
+ANTES de mexer nos itens, porque ela fica mais perto do rodapé.
+O slide 5 continua sem o autoajuste que os internos ganharam em 20/08. Enquanto
+isso não existir, RENDERIZE E OLHE o slide 5 — foi olhando que este apareceu.
+
+**25/08/2026 — O OAuthException 4 DO CARROSSEL FOI FALSO PELA SÉTIMA VEZ.**
+Estourou no PRIMEIRO status do container pai, ainda em IN_PROGRESS (1/20), e o
+`postar.py` reportou Instagram FALHOU. O `_ig_ultimas.py` mostrou o carrossel
+18122808346650644 no perfil, com a legenda certa. Nada republicado, nenhuma
+duplicata. A regra de 23/08 já é rotina e está funcionando — mas vale registrar
+que o placar do `postar.py` é hoje SEMPRE mentiroso nesse ponto: sete rodadas,
+sete falsos negativos. O conserto de verdade (consultar /media antes de
+declarar falha) continua pendente e economizaria uma checagem por dia.
+
+**25/08/2026 — MOMENTO RECOMENDADO SÓ TRAVA SE O PAR NATURAL ESTIVER GASTO.**
+O registro de 24/08 tinha descartado o M2 porque ele "puxava DEVOLUÇÃO/G6", que
+leria como irmã do CHARGEBACK de 19/08. A peça de hoje usou M2 com G2 e ICMS-ST
+e a objeção sumiu: o problema nunca foi o momento, era o par. Ao ler a
+recomendação de momento do rodízio, teste o momento contra TODAS as áreas com
+ponto de vazamento livre, não só contra a área natural dele.
 
 **24/08/2026 (14h) — O `checar_capa.py` NÃO ENXERGA A BORDA DO L5 EM PALETA CLARA.**
 A capa saiu em L5 e o `checar_capa.py` devolveu "borda accent de largura

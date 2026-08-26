@@ -1,0 +1,20 @@
+Tem mercadoria que entra no seu estoque com o ICMS de toda a cadeia já recolhido — e sai do seu DAS outra vez no fim do mês.
+
+Chama-se substituição tributária. O fabricante, o importador ou o atacadista recolhe antecipadamente o ICMS das etapas seguintes, e a mercadoria passa a circular com esse imposto já pago. Quando ela chega até você, o ICMS daquela venda já foi para o estado.
+
+No Simples Nacional isso tem tratamento próprio. A Lei Complementar 123 manda segregar, na apuração do mês, a receita de venda de mercadoria cujo ICMS já foi recolhido por substituição. Segregada, a parcela de ICMS da tabela do anexo sai do cálculo daquela receita. É um campo da apuração, e existe justamente para o imposto não ser cobrado duas vezes.
+
+O problema é que a receita do marketplace chega em bloco: um número só de vendas, que não separa o que tem substituição do que não tem. Quem apura por ele nunca chega a separar nada.
+
+O que responde não está no painel, está na nota de entrada. O NCM combinado com o CEST diz se o produto está no regime, pela legislação do seu estado. O CST 60 e o CSOSN 500 dizem em uma linha que o imposto foi cobrado anteriormente. A base de cálculo e o valor do ICMS-ST no XML mostram quanto foi retido.
+
+O erro tem uma característica ruim: não aparece. A guia é gerada, paga e arquivada, mês após mês, sempre igual, porque a primeira apuração virou modelo. E o que foi recolhido a maior não volta sozinho: precisa ser apurado, documentado e pedido, dentro de um prazo que corre desde o pagamento.
+
+Mande a nota de entrada de um dos seus produtos e a guia do mês. Em até 24h úteis eu digo se a receita foi separada.
+
+GKFD Contábil
+Contabilidade especializada em e-commerce e marketplace
+
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Instagram%20sobre%20ICMS-ST%20pago%20duas%20vezes%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.
+
+#substituicaotributaria #icms #simplesnacional #marketplace #ecommerce #vendedordemarketplace #tributario #nfe

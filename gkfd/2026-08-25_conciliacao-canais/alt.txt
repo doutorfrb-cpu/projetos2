@@ -1,0 +1,5 @@
+Capa sobre conciliacao entre ERP e plataforma: abriu o segundo canal e passou a ter quatro numeros do mesmo mes, sobre fundo de comparativo numerico.
+Slide sobre os quatro sistemas: painel mede pedido, ERP mede o que foi mandado faturar, escrituracao mede documento fiscal e banco mede o que sobrou.
+Slide com as quatro perguntas do mes quando existe mais de um canal: canal identificado, data que manda, o que existe no painel e nao na escrituracao, e repasse conferido por canal.
+Slide de demonstracao aritmetica: soma de dois paineis de 300 mil reais contra receita escriturada de 287.400 reais, com o DAS calculado pelos dois criterios.
+Slide de oferta da GKFD Contabil: dois canais sao um mes so, com contato de WhatsApp, site e selo Mercado Lider Platinum.

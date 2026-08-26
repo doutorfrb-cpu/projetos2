@@ -1,0 +1,19 @@
+Existe um imposto que o seu produto já pagou antes de chegar ao seu estoque — e que muita apuração de marketplace cobra de novo, todo mês, sem ninguém perceber.
+
+É o ICMS retido por substituição tributária. Em determinados produtos, a lei desloca o recolhimento para o começo da cadeia: o fabricante, o importador ou o atacadista paga de uma vez o ICMS das etapas seguintes, e a mercadoria segue circulando com esse imposto já quitado. Quando o vendedor de marketplace revende esse item, o ICMS daquela venda já está no cofre do estado.
+
+O Simples Nacional trata essa receita de forma específica. A Lei Complementar 123 determina que a venda de mercadoria com ICMS já recolhido por substituição seja segregada na apuração do mês. Feita a segregação, a parcela de ICMS da tabela do anexo é retirada do cálculo daquela receita. Sem ela, a receita entra no bolo com o percentual cheio, o ICMS é calculado sobre ela, e a empresa recolhe um imposto que a cadeia já tinha recolhido.
+
+O que torna esse erro tão comum é a forma como a receita chega. O relatório da plataforma entrega um número consolidado de vendas. Ele não distingue o item com substituição do item sem substituição, e a apuração feita a partir desse total nunca separa nada.
+
+A resposta está em outro documento, que a empresa já tem: a nota de entrada. O NCM combinado com o CEST define se o produto está no regime, conforme a legislação estadual. O CST 60 e o CSOSN 500 registram, em uma linha, que o imposto foi cobrado anteriormente. E os campos de base de cálculo e valor do ICMS-ST no XML mostram exatamente quanto foi retido.
+
+O agravante é o silêncio: a guia é gerada, paga e arquivada, mês após mês, porque a primeira apuração virou modelo. O que foi recolhido a maior não retorna sozinho. Ele precisa ser apurado, documentado e pedido, dentro de um prazo que corre desde o pagamento.
+
+Mande a nota de entrada de um dos seus produtos e a guia do mês. Em até 24h úteis eu digo se a receita foi separada:
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Facebook%20sobre%20ICMS-ST%20pago%20duas%20vezes%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.
+
+Análise contábil inicial gratuita em www.gkfd.com.br
+
+GKFD Contábil
+Contabilidade especializada em e-commerce e marketplace

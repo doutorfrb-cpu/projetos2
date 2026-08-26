@@ -1,0 +1,15 @@
+Abriu o segundo canal e o mês passou a ter quatro números diferentes — todos verdadeiros, e só um deles é a receita da empresa.
+
+Com um canal só dava para conferir no olho. O painel mostrava um total, a apuração mostrava quase o mesmo, e o que sobrava de diferença nunca chegou a atrapalhar. Aberto o segundo canal, some a referência: agora são dois painéis, um ERP, uma escrituração e um extrato bancário, e cada um deles mede uma coisa em uma data diferente.
+
+Painel mede pedido, no dia do clique. ERP mede o que foi mandado faturar, a partir do que a integração conseguiu trazer. Escrituração mede documento fiscal: nota emitida, com data, valor e destinatário. Banco mede o que sobrou depois de comissão, frete, publicidade e ajuste. Para a apuração do mês, receita é a escrituração. Os outros três existem para conferir a escrituração, não para ocupar o lugar dela.
+
+Um exemplo aritmético, com números de demonstração e não de caso real: painel do canal antigo R$ 180.000,00, painel do canal novo R$ 120.000,00, soma de R$ 300.000,00. Tire R$ 7.800,00 de pedidos cancelados antes de faturar e R$ 4.800,00 de vendas dos dias 30 e 31 que só viraram nota no dia 1º, e a receita escriturada do mês fica em R$ 287.400,00. A uma alíquota efetiva de 10,00% de demonstração, o DAS calculado pelo painel dá R$ 30.000,00 e o calculado pela escrituração dá R$ 28.740,00. Não é economia: os R$ 4.800,00 entram no mês seguinte, quando a nota é emitida. É a receita certa, no mês certo.
+
+O que faz o mês fechar com dois canais é curto de dizer e trabalhoso de manter: canal identificado no pedido, na nota e no lançamento; data de competência definida pela nota; e o repasse de cada canal conferido contra o crédito daquele canal, um de cada vez. Diferença pode existir. Diferença sem nome, não.
+
+Quer conferir o seu mês? Mande o relatório dos dois canais e a apuração. Em até 24h úteis eu digo onde os números se separam:
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Facebook%20sobre%20conciliacao%20entre%20dois%20canais%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.
+
+GKFD Contábil
+Contabilidade especializada em e-commerce e marketplace

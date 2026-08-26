@@ -1,0 +1,99 @@
+{
+  "slug": "gkfd_conciliacao_canal",
+  "outdir": "pc_gkfd18",
+  "paleta": "G01",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório dos dois canais e a apuração do mês. Em até 24h úteis eu digo onde os números se separam",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "doc:comparativo/dobra",
+    "linho",
+    "doc:planilha/liso",
+    "gesso",
+    "couro"
+  ],
+  "seeds": [
+    9701,
+    9702,
+    9703,
+    9704,
+    9705
+  ],
+  "overlay": [
+    ".74,.84,.93",
+    ".82,.91",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L1",
+      "chamada": "QUAL DELES ESTÁ CERTO",
+      "peca": "CONCILIAÇÃO ERP × PLATAFORMA",
+      "headline": "Abriu o segundo canal<br>e tem quatro números<br><b>do mesmo mês</b>",
+      "apoio": "Painel do canal antigo, painel do canal novo, ERP e escrituração fiscal. Cada um mede uma coisa, em uma data diferente — e só um deles é a receita da empresa."
+    },
+    {
+      "kicker": "Marketplace · abrindo em segunda plataforma",
+      "titulo": "Quatro sistemas medem quatro coisas diferentes",
+      "passos": [
+        "<em>O painel mede pedido, não receita.</em> Ele soma o que foi vendido na vitrine, no dia do clique. Cancelamento, devolução e reenvio entram e saem desse número em datas que não são as da apuração.",
+        "<em>O ERP mede o que você mandou faturar.</em> Ele parte do pedido que a integração trouxe. Pedido que não desceu, item duplicado e venda sem canal viram diferença silenciosa — e ninguém confere, porque a integração está funcionando.",
+        "<em>A escrituração mede documento fiscal.</em> Receita é nota emitida, com data, valor e destinatário. É esse número que sustenta a apuração e é ele que o fisco confere depois.",
+        "<em>O banco mede o que sobrou.</em> O crédito chega líquido de tarifa, frete, publicidade e ajuste. Ele é o fim da conta, e não serve de começo para nenhuma das outras."
+      ],
+      "rodape": "Com um canal só, a diferença cabia no olho. Com dois, não cabe mais."
+    },
+    {
+      "kicker": "O que o mês precisa responder",
+      "titulo": "Quatro perguntas quando existe mais de um canal",
+      "passos": [
+        "<em>Cada venda tem canal identificado?</em> Sem marca de origem no pedido, na nota e no lançamento, receita, tarifa e custo dos dois canais viram um bloco só, e o mês deixa de ser conferível.",
+        "<em>Qual data manda em cada número?</em> Pedido, faturamento e repasse caem em dias diferentes, e o canal novo não repete o calendário do antigo. A competência é a da nota; o resto se concilia contra ela.",
+        "<em>O que existe no painel e não na escrituração?</em> Cancelado antes de faturar, devolvido, reenviado, ajustado. Cada caso explica uma parte da diferença, e precisa aparecer com nome, não como sobra.",
+        "<em>O repasse de cada canal fecha com o crédito dele?</em> São dois relatórios, duas contas de tarifa e duas datas de liberação. Conferir os dois pelo total do mês é o mesmo que não conferir."
+      ],
+      "rodape": "Respondidas as quatro, o mês volta a ter um número só."
+    },
+    {
+      "kicker": "Demonstração · o mesmo mês por dois critérios",
+      "titulo": "A soma dos painéis não é a receita do mês",
+      "formato": "quadro",
+      "linhas": [
+        ["Painel do canal antigo, no mês", "R$ 180.000,00"],
+        ["Painel do canal novo, no mês", "R$ 120.000,00"],
+        ["Soma dos dois painéis", "R$ 300.000,00"],
+        ["Pedidos cancelados antes de faturar", "− R$ 7.800,00"],
+        ["Vendas dos dias 30 e 31, com nota em 1º", "− R$ 4.800,00"],
+        ["Receita escriturada do mês", "R$ 287.400,00"],
+        ["DAS a 10,00% · painel × escrituração", "R$ 30.000,00 × R$ 28.740,00"]
+      ],
+      "rodape": "Números de demonstração, não de caso real. Os R$ 4.800,00 entram no mês seguinte."
+    },
+    {
+      "ponte": "Dois canais<br>não são dois relatórios.<br>São um mês só.",
+      "itens": [
+        "Canal identificado no pedido, na nota e no lançamento",
+        "Painel, ERP, escrituração e banco conciliados por canal",
+        "A diferença do mês explicada linha a linha, com nome"
+      ],
+      "oferta": "Mande o relatório dos dois canais e a apuração do mês. Em até 24h úteis eu digo onde os números se separam"
+    }
+  ]
+}

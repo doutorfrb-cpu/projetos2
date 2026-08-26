@@ -1,0 +1,81 @@
+{
+ "slug": "integrajud_cda_sem_composicao",
+ "outdir": "pc_25ago_cda",
+ "paleta": "P02",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:liquidacao/liso",
+  "concreto",
+  "granito",
+  "doc:apuracao/copia",
+  "foto:px_31955577.jpg"
+ ],
+ "seeds": [7311, 7312, 7313, 7314, 7315],
+ "overlay": [
+  ".50,.68,.86",
+  ".42,.60",
+  ".44,.72"
+ ],
+ "slides": [
+  {
+   "layout": "L1",
+   "chamada": "FALTA UM NÚMERO AQUI",
+   "peca": "EMBARGOS À EXECUÇÃO FISCAL",
+   "headline": "A certidão traz um valor. <b>Não traz a conta que chegou nele</b>",
+   "apoio": "Presunção de liquidez é do título, não do cálculo. Sem a composição, embargar é discutir valor sem tocar na conta."
+  },
+  {
+   "kicker": "Execução fiscal · presunção de liquidez",
+   "titulo": "A presunção protege o título, não a conta",
+   "passos": [
+    "<em>A certidão transporta um resultado, não uma memória.</em> A inscrição leva para a CDA o valor apurado no processo administrativo: principal, multa, juros e encargo já somados. O cálculo que produziu cada parcela ficou lá atrás, e não vem com a inicial.",
+    "<em>A presunção é de certeza e liquidez, e é relativa.</em> Ela dispensa o exequente de provar o crédito — não de tê-lo composto. Desconstituir exige prova inequívoca, e prova inequívoca de valor é aritmética, não adjetivo.",
+    "<em>Sem a composição aberta, o embargo vira tese.</em> Alegar excesso sem dizer qual parcela, sobre qual base e em que período devolve ao juízo a escolha do número — e o número disponível continua sendo o da certidão."
+   ],
+   "rodape": "A execução fiscal não discute o tributo. Discute o valor, e valor é conta."
+  },
+  {
+   "kicker": "O que os embargos precisam apurar",
+   "titulo": "Quatro perguntas que abrem a certidão",
+   "passos": [
+    "<em>Qual é o principal, e de que competência.</em> Uma CDA reúne períodos. Separar por competência revela parcela já paga, parcelada ou prescrita dentro do mesmo título.",
+    "<em>Qual multa incidiu, e sobre que base.</em> Mora e ofício têm percentual e fato gerador distintos. Para a conta, o que decide é a base sobre a qual o percentual foi aplicado.",
+    "<em>Como os juros foram acumulados.</em> Taxa, termo inicial e — a pergunta que muda o total — se correram sobre o principal ou sobre o principal já acrescido da multa.",
+    "<em>Sobre que base entrou o encargo legal.</em> Percentual só existe com base declarada. Sem ela, o último item do título não se refaz."
+   ],
+   "rodape": "Nenhuma é pergunta de direito. Todas são pergunta de base de cálculo."
+  },
+  {
+   "kicker": "Demonstração · mesma base, duas composições",
+   "titulo": "Muda a base dos juros, muda o título inteiro",
+   "passos": [
+    "<em>Base comum às duas.</em> Principal de R$ 200.000,00, multa de mora de 20% (R$ 40.000,00), juros de 30% no período e encargo legal de 20% sobre o subtotal.",
+    "<em>A — juros sobre o principal.</em> Juros de R$ 60.000,00, subtotal de R$ 300.000,00, encargo de R$ 60.000,00. Total: R$ 360.000,00.",
+    "<em>B — juros sobre principal e multa.</em> Juros de R$ 72.000,00, subtotal de R$ 312.000,00, encargo de R$ 62.400,00. Total: R$ 374.400,00.",
+    "<em>Diferença de R$ 14.400,00</em> na mesma base. As duas composições cabem embaixo do mesmo valor inscrito."
+   ],
+   "rodape": "Números de demonstração, não de caso real. A perícia refaz a composição e mostra as duas.",
+   "painel": true
+  },
+  {
+   "ponte": "A certidão diz quanto.<br>Ela não diz como chegou lá.",
+   "itens": [
+    "Decomposição da CDA: principal, multa, juros e encargo",
+    "Recálculo por competência, com memória confrontável",
+    "Parecer técnico para instruir os embargos"
+   ],
+   "oferta": "Mande a CDA e o demonstrativo. Em até 24h úteis eu digo se a conta abre"
+  }
+ ]
+}
