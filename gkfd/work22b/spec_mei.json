@@ -1,0 +1,99 @@
+{
+  "slug": "gkfd_mei_no_limite",
+  "outdir": "pc_gkfd19",
+  "paleta": "G02",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório de vendas do ano. Em até 24h úteis eu digo quanto do teto já foi usado",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "granito",
+    "doc:apuracao/dobra",
+    "linho",
+    "doc:comparativo/formulario",
+    "madeira"
+  ],
+  "seeds": [
+    9801,
+    9802,
+    9803,
+    9804,
+    9805
+  ],
+  "overlay": [
+    ".30,.52,.74",
+    ".82,.91",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L4",
+      "chamada": "O TETO NÃO AVISA",
+      "peca": "MEI NO LIMITE",
+      "cifra": {
+        "rotulo": "o teto anual, medido pelo bruto",
+        "valor": "R$ 81 MIL"
+      },
+      "headline": "O teto do MEI conta<br>a venda inteira,<br><b>não o repasse</b>",
+      "apoio": "O limite anual se mede pela receita bruta: o valor cheio de cada pedido, antes de comissão, frete e mídia. Quem acompanha o acumulado pelo extrato bancário chega em dezembro com um número menor que o da lei."
+    },
+    {
+      "kicker": "Marketplace · crescendo rápido",
+      "titulo": "O teto é da empresa, e se mede pelo bruto",
+      "passos": [
+        "<em>O limite conta o preço do anúncio.</em> São R$ 81.000,00 de receita bruta no ano, medidos pelo valor cheio da venda. Comissão, frete e mídia descem depois e não abatem nada do teto.",
+        "<em>O extrato mostra o líquido.</em> Acompanhar o acumulado pelo que caiu no banco é trabalhar com um número menor que o real, e a diferença é exatamente o que a plataforma reteve antes de creditar.",
+        "<em>Um CNPJ, um teto.</em> Vender no Mercado Livre e na Amazon não cria dois limites: a lei mede a receita da empresa, não a de cada canal. Somar só o painel principal subestima o ano inteiro.",
+        "<em>O ano é fechado, o mês não.</em> O teto é anual e o excesso só aparece no acumulado. Um mês acima da média não desenquadra ninguém; o que decide é a soma de janeiro a dezembro."
+      ],
+      "rodape": "O teto não se mede no banco. Mede-se na soma das vendas do ano."
+    },
+    {
+      "kicker": "O que o ano precisa responder",
+      "titulo": "Quatro perguntas antes de dezembro",
+      "passos": [
+        "<em>Quanto já foi vendido pelo bruto?</em> Soma dos pedidos faturados no ano, canal por canal, pelo valor da venda. É esse número que a lei olha, e ele nunca é o total creditado no repasse.",
+        "<em>A empresa abriu neste ano?</em> No ano de abertura o teto é proporcional: R$ 6.750,00 por mês de atividade, contando o mês da abertura inteiro. Quem abriu em julho tem metade do limite.",
+        "<em>O excesso ficou dentro dos 20%?</em> Até R$ 97.200,00 o desenquadramento vale a partir de 1º de janeiro do ano seguinte. Acima disso, retroage a 1º de janeiro do ano em que a receita estourou.",
+        "<em>A atividade ainda cabe no MEI?</em> O enquadramento depende da ocupação permitida, não só do valor. Atividade fora da lista desenquadra com receita baixa, e o ajuste vem pela data do fato."
+      ],
+      "rodape": "O desenquadramento não chega como aviso. Chega como consequência da soma."
+    },
+    {
+      "kicker": "O erro que se repete",
+      "titulo": "Descobrir o estouro em janeiro",
+      "passos": [
+        "<em>Primeiro: o controle é feito pelo saldo.</em> O acumulado do ano é olhado no extrato, já líquido de comissão e frete. O bruto real está acima, e o espaço que parecia sobrar não existe.",
+        "<em>Segundo: o segundo canal fica de fora.</em> A loja nova fatura pouco no começo e não entra no controle. Somada ao canal antigo, é ela que empurra o ano para cima do teto.",
+        "<em>Terceiro: o valor fixo continua sendo pago.</em> No desenquadramento retroativo a apuração passa a ser do Simples desde janeiro, por anexo e sobre a receita bruta, e o carnê mensal não cobre isso.",
+        "<em>Quarto: as notas do período ficam para trás.</em> Vendas emitidas enquanto a empresa era MEI precisam ser tratadas no novo regime, com escrituração e obrigação acessória do mês em que ocorreram."
+      ],
+      "rodape": "Quem descobre em janeiro passa o ano seguinte pagando o ano anterior."
+    },
+    {
+      "ponte": "O teto do MEI não é<br>o que caiu no banco.<br>É a venda inteira.",
+      "itens": [
+        "Receita bruta acumulada do ano somada por canal, pelo valor da venda",
+        "Enquadramento conferido contra o teto e contra a atividade permitida",
+        "Transição para o Simples apurada com a data certa"
+      ],
+      "oferta": "Mande o relatório de vendas do ano. Em até 24h úteis eu digo quanto do teto já foi usado"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+ "slug": "integrajud_fatorr2",
+ "outdir": "peca_c3",
+ "paleta": "P04",
+ "cenas": [
+  "foto:px_2355408.jpg",
+  "guilhoche",
+  "foto:px_31955577.jpg"
+ ],
+ "seeds": [
+  31,
+  32,
+  33
+ ],
+ "overlay": [
+  ".34,.56,.82",
+  ".40,.50",
+  ".58,.84"
+ ],
+ "slides": [
+  {
+   "headline": "<b>A empresa recolheu a maior.</b> E ninguém refez a apuração",
+   "apoio": "Enquanto ninguém recalcula, a diferença continua saindo do caixa todo mês."
+  },
+  {
+   "kicker": "Restituição e compensação",
+   "titulo": "Onde o recolhimento a maior costuma nascer",
+   "passos": [
+    "<em>Enquadramento errado</em> de anexo ou regime, mantido por meses sem que ninguém revise.",
+    "<em>Base de cálculo com valores que não deveriam entrar</em>, repetidos competência após competência.",
+    "<em>Créditos não aproveitados</em> no período em que havia direito a eles.",
+    "<em>Prazo de cinco anos</em> correndo: o que vence deixa de ser recuperável."
+   ],
+   "rodape": "Cada mês que passa, uma competência sai do alcance da restituição."
+  },
+  {
+   "ponte": "Restituir exige memória por competência.<br>Estimativa não instrui pedido.",
+   "itens": [
+    "Apuração do indébito mês a mês",
+    "Memória de cálculo para instruir o pedido",
+    "Parecer técnico em matéria tributária"
+   ],
+   "oferta": "Mande as apurações. Em até 24h úteis eu digo se há indébito a recuperar"
+  }
+ ]
+}

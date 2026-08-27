@@ -1,0 +1,52 @@
+{
+ "slug": "integrajud_haveres_livros",
+ "outdir": "pc_a4",
+ "paleta": "P10",
+ "cenas": [
+  "doc:apuracao/copia",
+  "linho",
+  "granito"
+ ],
+ "seeds": [
+  1401,
+  1402,
+  1403
+ ],
+ "overlay": [
+  ".46,.66,.86",
+  ".34,.46",
+  ".38,.68"
+ ],
+ "slides": [
+  {
+   "layout": "L1",
+   "chamada": "PERGUNTA RÁPIDA",
+   "peca": "APURAÇÃO DE HAVERES",
+   "headline": "<b>O balanço de determinação</b> foi feito por quem ficou com a empresa",
+   "apoio": "Quem controla a escrituração escolhe a data-base, o critério e o que entra no ativo.",
+   "retrato": "fundo",
+   "retrato_forca": 0.7,
+   "retrato_lado": "esquerda"
+  },
+  {
+   "kicker": "Balanço de determinação",
+   "titulo": "Quatro escolhas que definem o valor da quota",
+   "passos": [
+    "<em>Data-base</em>: a do fato gerador da dissolução, não a mais conveniente.",
+    "<em>Critério de avaliação</em>: valor contábil, de mercado ou fluxo descontado.",
+    "<em>Intangíveis e clientela</em>, que costumam simplesmente não constar.",
+    "<em>Passivo contingente</em> provisionado sem laudo que o sustente."
+   ],
+   "rodape": "As quatro somadas mudam o valor da quota em ordem de grandeza, não em percentual."
+  },
+  {
+   "ponte": "Apurar haveres é refazer o balanço.<br>Aceitar o da sociedade é aceitar o resultado.",
+   "itens": [
+    "Balanço de determinação independente",
+    "Avaliação por critério alternativo",
+    "Assistência técnica em dissolução parcial"
+   ],
+   "oferta": "Mande o balanço apresentado. Em até 24h úteis eu digo o que falta nele"
+  }
+ ]
+}

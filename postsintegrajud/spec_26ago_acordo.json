@@ -1,0 +1,80 @@
+{
+ "slug": "integrajud_acordo_base_distrato",
+ "outdir": "pc_26ago_acordo",
+ "paleta": "P08",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:extrato/dobra",
+  "linho",
+  "doc:evolucao/liso",
+  "granito",
+  "foto:px_16143154.jpg"
+ ],
+ "seeds": [8261, 8262, 8263, 8264, 8265],
+ "overlay": [
+  ".84,.90,.96",
+  ".66,.80",
+  ".42,.70"
+ ],
+ "slides": [
+  {
+   "layout": "L2",
+   "chamada": "ANTES DE ASSINAR O ACORDO",
+   "peca": "PROPOSTA DE ACORDO",
+   "headline": "A proposta diz 80%. <b>Não diz 80% de quê</b>",
+   "apoio": "Percentual sem base declarada não é valor. E acordo homologado é título executivo: depois dele, a conta não se reabre."
+  },
+  {
+   "kicker": "Distrato · o percentual e a base",
+   "titulo": "O percentual é o que se negocia. A base é o que decide",
+   "passos": [
+    "<em>Percentual não é valor; base é.</em> Devolver 80% de parcelas nominais e devolver 80% das mesmas parcelas atualizadas desde cada pagamento produz dois números distantes. A minuta escreve o percentual e cala a base.",
+    "<em>O que entra na soma muda o resultado.</em> Sinal, mensais, intermediárias, comissão de corretagem paga em separado, taxa de assessoria: cada rubrica está dentro ou fora da base devolvida, e a proposta costuma não dizer qual.",
+    "<em>Homologado, o acordo resolve o mérito.</em> Não há revisional depois. A conta que ficou implícita na assinatura vira definitiva, com a mesma força de uma sentença transitada."
+   ],
+   "rodape": "O que se assina é um valor. O que se negocia é a base que o produziu."
+  },
+  {
+   "kicker": "O que a minuta precisa responder",
+   "titulo": "Quatro perguntas antes da assinatura",
+   "passos": [
+    "<em>Sobre qual soma incide o percentual.</em> Valores nominais ou atualizados. Se atualizados, por qual índice e a partir de quando — a data de cada pagamento ou a data do contrato.",
+    "<em>A corretagem integra a base.</em> Quem recebeu, quanto e em que data. Comissão paga a terceiro saiu do bolso do comprador, mas só volta se a minuta disser que volta.",
+    "<em>Que abatimentos já vieram embutidos.</em> Taxa de fruição, IPTU, condomínio, multa. A proposta chega como número líquido, sem a lista do que foi descontado antes de ela ser escrita.",
+    "<em>Como o próprio acordo será pago.</em> Parcela única ou prazo, índice de atualização do saldo e o que corre entre a assinatura e o último pagamento."
+   ],
+   "rodape": "Nenhuma delas discute a rescisão. Todas discutem o número que a fecha."
+  },
+  {
+   "kicker": "O erro que se repete",
+   "titulo": "Comparar percentual com percentual",
+   "passos": [
+    "<em>80% pode ser menos que 75%.</em> Basta que o primeiro incida sobre valores nominais e o segundo sobre valores corrigidos desde cada desembolso. Comparar propostas sem recompor a base compara rótulos.",
+    "<em>Retenção e fruição aceitas juntas, sem enquadrar.</em> Uma remunera a rescisão, a outra o uso do imóvel. Quem não recebeu as chaves não usou nada — e mesmo assim os dois descontos aparecem somados.",
+    "<em>A corretagem sai por omissão.</em> Ela está nos comprovantes do comprador e quase nunca na base da devolução. Não é negada na minuta: é apenas não mencionada.",
+    "<em>Saldo parcelado sem índice.</em> Fixar hoje um valor a receber em doze vezes, sem atualização, concede um segundo desconto — e esse ninguém negociou."
+   ],
+   "rodape": "Cada item vale um pedaço do preço. Somados, mudam a resposta."
+  },
+  {
+   "ponte": "A proposta traz um percentual.<br>A conta atrás dele não vem junto.",
+   "itens": [
+    "Recomposição da base: parcelas, corretagem e reajustes",
+    "Atualização pagamento a pagamento, com memória confrontável",
+    "Parecer técnico para instruir a negociação"
+   ],
+   "oferta": "Mande o contrato e os comprovantes. Em até 24h úteis eu digo o que a proposta devolve"
+  }
+ ]
+}

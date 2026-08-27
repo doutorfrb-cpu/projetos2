@@ -1,0 +1,99 @@
+{
+  "slug": "gkfd_bloqueio_de_conta",
+  "outdir": "pc_gkfd20",
+  "paleta": "G04",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande os repasses dos últimos 90 dias. Em até 24h úteis eu devolvo a base histórica da sua operação",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "doc:apuracao/copia",
+    "concreto",
+    "doc:comparativo/dobra",
+    "duna",
+    "couro"
+  ],
+  "seeds": [
+    9901,
+    9902,
+    9903,
+    9904,
+    9905
+  ],
+  "overlay": [
+    ".82,.89,.94",
+    ".83,.91",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L5",
+      "chamada": "A CONTA PAROU, O CUSTO NÃO",
+      "peca": "BLOQUEIO DE CONTA",
+      "headline": "A conta foi bloqueada<br>e o prejuízo <b>não tem número</b>",
+      "apoio": "Faturamento que deixou de entrar não é prejuízo apurado. Sem média histórica, margem de contribuição e custo fixo do período, o valor perdido continua sendo estimativa de cabeça."
+    },
+    {
+      "kicker": "Marketplace · conta suspensa",
+      "titulo": "O que para e o que continua correndo",
+      "passos": [
+        "<em>A venda para, a obrigação não.</em> A receita do período anterior já foi realizada, e o imposto dela vence na data de sempre. Conta suspensa não suspende apuração, entrega nem recolhimento: suspende a entrada de caixa.",
+        "<em>O saldo lá dentro não deixou de ser seu.</em> O que já foi vendido e ainda não foi repassado é direito de crédito da empresa e continua na contabilidade como valor a receber. Ele não some porque a conta fechou.",
+        "<em>O custo fixo roda igual.</em> Aluguel, folha, sistema, armazenagem e mídia já contratada seguem debitando com a loja fora do ar. É esse pedaço que transforma queda de faturamento em resultado negativo.",
+        "<em>O estoque perde giro, não perde custo.</em> A mercadoria comprada para vender no período fica parada, e o capital imobilizado nela continua imobilizado enquanto a conta não volta."
+      ],
+      "rodape": "A operação para. A contabilidade da operação continua."
+    },
+    {
+      "kicker": "O que o período precisa responder",
+      "titulo": "Quatro perguntas antes de estimar a perda",
+      "passos": [
+        "<em>Qual era a média diária antes?</em> Receita bruta dos noventa dias anteriores, por dia e por canal, tirada da escrituração e não do painel. Sem base histórica documentada, qualquer valor alegado depois é opinião.",
+        "<em>Qual era a margem de contribuição?</em> O que sobrava de cada venda depois de comissão, frete, imposto e devolução. É ela que mede o resultado perdido — o faturamento mede só o que passou pelo caixa.",
+        "<em>Quanto de custo fixo correu no período?</em> A parcela dos dias parados nas despesas que não dependem de venda. Ela entra inteira na conta, porque foi paga sem contrapartida nenhuma.",
+        "<em>Quanto ficou retido, e desde quando?</em> Composição do bloqueado, do disponível e do a liberar, com data por pedido. Capital preso tem custo, e esse custo é apurável."
+      ],
+      "rodape": "A perda do período é uma conta. Ela precisa de base, não de estimativa."
+    },
+    {
+      "kicker": "Demonstração",
+      "titulo": "A mesma parada, por dois critérios",
+      "formato": "quadro",
+      "linhas": [
+        ["Conta suspensa", "12 dias"],
+        ["Média diária de receita bruta, 90 dias antes", "R$ 4.000,00"],
+        ["Critério 1 · receita que deixou de entrar", "R$ 48.000,00"],
+        ["Margem de contribuição antes do bloqueio", "18,4%"],
+        ["Resultado perdido: 48.000,00 × 18,4%", "R$ 8.832,00"],
+        ["Custo fixo: 12/30 de R$ 8.000,00", "R$ 3.200,00"],
+        ["Critério 2 · perda apurada", "R$ 12.032,00"]
+      ],
+      "rodape": "Diferença: R$ 35.968,00. Números de demonstração, não de caso real."
+    },
+    {
+      "ponte": "Perda de período parado<br>não se estima.<br><b>Apura-se.</b>",
+      "itens": [
+        "Média histórica de receita e margem por canal, antes do bloqueio",
+        "Custo fixo do período e saldo retido, com composição e data",
+        "Memória de cálculo do resultado perdido, auditável linha a linha"
+      ],
+      "oferta": "Mande os repasses dos últimos 90 dias. Em até 24h úteis eu devolvo a base histórica da sua operação"
+    }
+  ]
+}
