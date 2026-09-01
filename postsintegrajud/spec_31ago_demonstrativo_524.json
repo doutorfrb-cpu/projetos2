@@ -1,0 +1,87 @@
+{
+ "slug": "integrajud_demonstrativo_marco_524",
+ "outdir": "pc_31ago_demonstrativo",
+ "paleta": "P06",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:memoria/formulario",
+  "couro",
+  "doc:evolucao/liso",
+  "concreto",
+  "foto:px_28238205.jpg"
+ ],
+ "seeds": [
+  3101,
+  3102,
+  3103,
+  3104,
+  3105
+ ],
+ "overlay": [
+  ".62,.77,.91",
+  ".80,.91",
+  ".44,.72"
+ ],
+ "slides": [
+  {
+   "layout": "L6",
+   "chamada": "ANTES DE PROTOCOLAR",
+   "peca": "DEMONSTRATIVO DO ART. 524",
+   "headline": "A lei mudou a correção. <b>Seu demonstrativo não</b>",
+   "apoio": "Desde 30/08/2024 a conta tem dois regimes. Critério único é o primeiro ponto que a impugnação alcança."
+  },
+  {
+   "kicker": "Cível · liquidação e cumprimento",
+   "titulo": "A Lei 14.905/2024 partiu a conta em duas",
+   "passos": [
+    "<em>O demonstrativo é peça do credor, e é ele que fixa o valor.</em> O art. 524 exige memória discriminada: principal, índice, termo inicial, juros, multa e honorários. Protocolado, esse número passa a ser o débito do processo até que alguém o desmonte.",
+    "<em>Desde 30 de agosto de 2024 há dois regimes na mesma conta.</em> A Lei 14.905/2024 reescreveu os arts. 389 e 406 do Código Civil: a correção passou ao IPCA e os juros à taxa legal, que é a Selic com o IPCA deduzido. Antes do marco, vale o critério que o julgado impôs.",
+    "<em>Uma linha só para os dois períodos não é simplificação.</em> É aplicar a um intervalo o critério que nele não vigora — e a distância cresce com o tempo, porque incide sobre saldo já corrigido."
+   ],
+   "rodape": "O demonstrativo não é anexo do requerimento. É o requerimento."
+  },
+  {
+   "kicker": "O que o art. 524 cobra",
+   "titulo": "Quatro pontos que a planilha tem que mostrar",
+   "passos": [
+    "<em>Onde a série foi cortada.</em> Subtotal em 29/08/2024 e reinício em 30/08/2024, em linhas separadas. Fator único do começo até hoje não mostra o corte, e o que não aparece não se confere.",
+    "<em>Qual índice em cada trecho.</em> Antes do marco, o critério que o julgado impôs. Depois dele, IPCA. Índice que troca no meio da série sem justificativa é o que a impugnação lê primeiro.",
+    "<em>Como os juros correm depois do marco.</em> A taxa legal é a Selic menos o IPCA do período, e resultado negativo conta como zero (art. 406, §3º). Manter 1% ao mês soma dois regimes.",
+    "<em>Sobre que base incidem multa e honorários.</em> Cada um dos 10% do art. 523 recai sobre o débito da intimação, não um sobre o outro."
+   ],
+   "rodape": "Nenhum discute a tese. Todos discutem a conta que a executa.",
+   "painel": true
+  },
+  {
+   "kicker": "O erro que se repete",
+   "titulo": "A conta inteira corrigida por um fator só",
+   "passos": [
+    "<em>Onde ele aparece.</em> No cabeçalho da planilha, quando há um campo de índice só para todo o período, e na coluna de correção, quando o fator cresce sem quebra em agosto de 2024.",
+    "<em>Por que passa despercebido.</em> A planilha fecha. A soma bate e a memória parece completa. O vício não está na aritmética, está na premissa — e conferir o resultado não encontra esse erro.",
+    "<em>O que ele muda.</em> Juros de 1% ao mês depois do marco, sobre base já corrigida, remuneram o mesmo intervalo duas vezes. Quanto mais longo o período posterior, maior a distância.",
+    "<em>Como se demonstra.</em> Refazendo a série em dois trechos, com o que já está nos autos: sentença, data da intimação e a tabela de cada período. Não é perícia nova."
+   ],
+   "rodape": "O erro sobrevive porque ninguém procura a quebra da série."
+  },
+  {
+   "ponte": "Os autos têm uma conta só.<br>Até que alguém apresente a segunda.",
+   "itens": [
+    "Demonstrativo do art. 524 com a série cortada no marco",
+    "Conferência da conta do exequente, item a item",
+    "Memória de cálculo para instruir a impugnação do art. 525"
+   ],
+   "oferta": "Mande a planilha de cálculo. Em até 24h úteis eu digo se a série foi cortada"
+  }
+ ]
+}

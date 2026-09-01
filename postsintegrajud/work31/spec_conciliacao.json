@@ -1,0 +1,33 @@
+{
+  "slug": "integrajud_conciliacao",
+  "outdir": "peca_conciliacao",
+  "paleta": "P02",
+  "cenas": ["duna", "linho", "vidro"],
+  "seeds": [801, 802, 803],
+  "overlay": [".18,.40,.66", ".38,.48", ".30,.56"],
+  "slides": [
+    {
+      "headline": "Saldo que bate <b>não prova conciliação</b>",
+      "apoio": "Dois erros de sinais opostos também fecham."
+    },
+    {
+      "kicker": "Norma e critério",
+      "titulo": "O que uma conciliação bancária precisa mostrar",
+      "passos": [
+        "<em>Saldo do extrato e saldo do razão</em> na mesma data, com a diferença aberta linha a linha.",
+        "<em>Partidas em trânsito</em> identificadas: depósito não compensado, cheque emitido e não descontado, TED do dia seguinte.",
+        "<em>Lançamentos do banco ainda não escriturados</em>: tarifa, IOF, estorno, rendimento — cada um com a data em que ocorreu.",
+        "Conciliação é <em>documento datado e assinado</em>, não coincidência de número no fim do mês."
+      ],
+      "rodape": "O que fecha por compensação de erros volta a abrir no mês seguinte."
+    },
+    {
+      "ponte": "Fechar o saldo é aritmética.<br>Conciliar é rastrear.",
+      "itens": [
+        "Conciliação linha a linha entre extrato e razão",
+        "Reconstrução contábil de períodos sem escrituração",
+        "Laudo e assistência técnica em auditoria de contas"
+      ]
+    }
+  ]
+}

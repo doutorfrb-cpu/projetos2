@@ -1,0 +1,33 @@
+{
+  "slug": "integrajud_fatorr",
+  "outdir": "peca_fatorr",
+  "paleta": "P05",
+  "cenas": ["concreto", "linho", "pedra"],
+  "seeds": [401, 402, 403],
+  "overlay": [".20,.42,.68", ".38,.50", ".32,.58"],
+  "slides": [
+    {
+      "headline": "O Fator R <b>muda o anexo</b> e o cliente não fica sabendo",
+      "apoio": "Vinte e oito por cento separam o Anexo III do Anexo V."
+    },
+    {
+      "kicker": "Critério do Fator R",
+      "titulo": "Como se apura, e onde a conta escorrega",
+      "passos": [
+        "Fórmula: <em>folha dos últimos 12 meses ÷ receita bruta dos últimos 12 meses</em>. Igual ou acima de 28% leva ao Anexo III.",
+        "Folha inclui <em>salários, pró-labore, FGTS e encargos</em> — pró-labore esquecido derruba o índice.",
+        "O período é <em>móvel</em>: recalcula-se a cada mês, não uma vez por ano.",
+        "Base: <em>LC 123/2006, com a redação da LC 155/2016</em>. Enquadramento sem memória não se defende."
+      ],
+      "rodape": "Anexo errado gera diferença recolhida a maior, mês após mês."
+    },
+    {
+      "ponte": "Descobrir o enquadramento é um cálculo.<br>Provar é memória.",
+      "itens": [
+        "Apuração do Fator R mês a mês, com memória",
+        "Levantamento da diferença recolhida a maior",
+        "Parecer técnico para restituição ou compensação"
+      ]
+    }
+  ]
+}

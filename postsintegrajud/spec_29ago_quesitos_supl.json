@@ -1,0 +1,91 @@
+{
+ "slug": "integrajud_quesitos_suplementares_vida_util",
+ "outdir": "pc_29ago_quesitos_supl",
+ "paleta": "P04",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:apuracao/copia",
+  "trama",
+  "doc:memoria/liso",
+  "granito",
+  "foto:px_17846111.jpg"
+ ],
+ "seeds": [
+  2901,
+  2902,
+  2903,
+  2904,
+  2905
+ ],
+ "overlay": [
+  ".50,.68,.86",
+  ".80,.91",
+  ".44,.72"
+ ],
+ "slides": [
+  {
+   "layout": "L4",
+   "chamada": "A DILIGÊNCIA ESTÁ CORRENDO",
+   "peca": "QUESITOS SUPLEMENTARES",
+   "cifra": {
+    "rotulo": "demonstração · só a vida útil",
+    "valor": "R$ 8.400"
+   },
+   "headline": "Só entra no laudo <b>o que o quesito pediu</b>",
+   "apoio": "O art. 469 admite quesito novo durante a diligência. Depois do laudo, só resta impugnar."
+  },
+  {
+   "kicker": "Sinistro · a perda e o desgaste",
+   "titulo": "Indenizar bem usado é uma conta de depreciação",
+   "passos": [
+    "<em>A apólice fixa a base; a depreciação fixa o número.</em> Parte-se da reposição por bem equivalente, em preço da praça na data do evento. O que se discute dali em diante é quanto do bem já havia sido consumido pelo uso — e essa parcela não está no contrato, está na apuração.",
+    "<em>Três variáveis decidem sozinhas.</em> Vida útil adotada, valor residual ao fim dela e data de referência do desgaste. Trocar qualquer uma muda o valor indenizável sem trocar uma linha da apólice.",
+    "<em>Taxa fiscal não é vida útil.</em> Os 10% ao ano do imobilizado servem para apurar lucro tributável, não para medir o que o equipamento ainda vale em operação. Adotá-la como se fosse técnica é a escolha silenciosa mais comum."
+   ],
+   "rodape": "A apólice diz o que cobre. Quanto cobre é conta, e conta se faz com premissa."
+  },
+  {
+   "kicker": "O que o quesito suplementar ainda alcança",
+   "titulo": "Quatro perguntas enquanto a diligência corre",
+   "passos": [
+    "<em>Qual vida útil será adotada, e de onde ela vem.</em> Tabela fiscal, manual do fabricante, laudo de avaliação ou prática do setor. Todas defensáveis, nenhuma neutra. Quesito que não pergunta a fonte aceita a que vier.",
+    "<em>Qual a data de referência do desgaste.</em> Sinistro, vistoria ou laudo. Entre elas correm meses, e cada mês a mais reduz o bem por tempo em que ele já não operava.",
+    "<em>Há valor residual, e qual.</em> Depreciar até zero supõe que o equipamento nada valha ao fim da vida útil. Bem com mercado de usado tem residual, e o residual levanta a base inteira.",
+    "<em>Qual documento sustenta cada número.</em> Nota de aquisição, ficha do imobilizado, ordens de manutenção, horímetro. Vida útil sem documento é estimativa, e estimativa se rebate com documento."
+   ],
+   "rodape": "Nenhuma discute a cobertura. Todas discutem o número que ela vai pagar."
+  },
+  {
+   "kicker": "Demonstração · o mesmo bem, duas vidas úteis",
+   "titulo": "A mesma perda, dois critérios de desgaste",
+   "passos": [
+    "<em>Base.</em> Equipamento perdido no sinistro. Reposição por bem equivalente, na data do evento: R$ 36.000,00. Cinco anos de uso comprovados.",
+    "<em>Critério A — taxa fiscal.</em> Vida útil de 10 anos, 10% ao ano, sem residual. Cinco anos consomem 50%: indenização apurada de R$ 18.000,00.",
+    "<em>Critério B — vida útil técnica.</em> Vida útil de 15 anos, residual de 20%. Depreciável de R$ 28.800,00, dos quais cinco quinze avos, ou R$ 9.600,00. Indenização apurada de R$ 26.400,00.",
+    "<em>A diferença.</em> R$ 8.400,00 sobre o mesmo bem, o mesmo sinistro e a mesma apólice. Mudou só a premissa de desgaste que ninguém pediu para declarar."
+   ],
+   "rodape": "Números de demonstração, não de caso real. A conta fecha nos dois critérios.",
+   "painel": true
+  },
+  {
+   "ponte": "A perícia está apurando agora.<br>A premissa do desgaste ainda não foi declarada.",
+   "itens": [
+    "Quesitos suplementares sobre vida útil, residual e data-base",
+    "Recomposição da indenização pelos dois critérios, lado a lado",
+    "Assistência técnica acompanhando a diligência"
+   ],
+   "oferta": "Mande a apólice e a vistoria. Em até 24h úteis eu digo o que ainda cabe perguntar"
+  }
+ ]
+}

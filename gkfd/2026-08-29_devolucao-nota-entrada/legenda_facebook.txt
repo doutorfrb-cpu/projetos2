@@ -1,0 +1,23 @@
+Uma devolução tem três pernas, e só uma delas anda sozinha.
+
+O retorno físico: a mercadoria volta para o seu estoque, volta para o centro de distribuição de terceiro ou não volta nunca — três destinos com efeitos diferentes no custo do mês.
+
+O documento fiscal: é a nota de entrada que traz o item de volta para a sua escrita e sustenta a redução da receita. Quando o comprador é pessoa física, ele não emite nota nenhuma; quem documenta o retorno é o vendedor. Sem esse documento não existe devolução na contabilidade, existe uma venda que ninguém desfez.
+
+O ajuste financeiro: o reembolso ao comprador e o crédito correspondente, que aparecem no relatório de repasse com data própria, quase sempre em mês diferente do mês da venda.
+
+A terceira anda sozinha, porque a plataforma debita o reembolso sem perguntar nada. As outras duas dependem de alguém fazer — e é exatamente aí que a devolução para no meio do caminho.
+
+O calendário também engana, e vale registrar: a regra do Simples Nacional deduz a devolução no período de apuração em que ela acontece, não no mês da venda. Se ela for maior que a receita do mês, o excesso é deduzido nos meses seguintes. Venda em agosto devolvida em setembro reduz setembro.
+
+O que aparece depois, quando o mês é aberto: o reembolso lançado solto como despesa, reduzindo o resultado sem baixar a venda que o originou; a receita bruta inteira servindo de base ao imposto; o sistema mostrando item vendido enquanto o galpão tem o item de volta, com o custo da mercadoria vendida fechando errado; e o índice de devolução por SKU nunca apurado, embora seja ele que diga se aquele produto ainda dá margem depois de tudo.
+
+Devolução resolvida no atendimento não é devolução resolvida na apuração.
+
+Mande as devoluções do mês e a guia paga. Em até 24h úteis eu digo se a receita foi reduzida no período certo:
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Facebook%20sobre%20devolucao%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.
+
+Análise contábil inicial gratuita em www.gkfd.com.br
+
+GKFD Contábil
+Contabilidade especializada em e-commerce e marketplace

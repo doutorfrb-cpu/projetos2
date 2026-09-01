@@ -8,3 +8,5 @@
 2026-08-21_cnae-abertura
 2026-08-21_escrituracao-extrato
 2026-08-22_antecipacao-recebivel
+2026-08-22_malha-intimacao
+2026-08-22_tarifa-comissao

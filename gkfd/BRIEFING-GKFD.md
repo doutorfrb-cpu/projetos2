@@ -1,173 +1,272 @@
 # BRIEFING — CONTENT MACHINE DA GKFD
 
-Contabilidade no Simples Nacional, focada estritamente em vendedor de
-marketplace.
+**Atualizado em 31/08/2026.**
 
-**Como responder:** cada item já vem com a minha sugestão. Você lê, e escreve
-só onde discordar. `[OK]` significa que está bom assim. Não precisa escrever
-texto corrido em lugar nenhum.
+Contabilidade para pequenas e médias empresas do Simples Nacional, com
+especialidade em e-commerce e marketplace.
 
 ---
 
-## 1. QUEM COMPRA
+## O QUE MUDOU DESDE A VERSÃO ANTERIOR
 
-**Minha leitura:** o comprador é o **dono da operação**, não o financeiro nem o
-contador. É quem vende, quem olha o repasse e quem toma o susto na apuração.
-Provavelmente PJ no Simples, entre R$ 30 mil e R$ 400 mil de faturamento
-mensal, vendendo em Mercado Livre e talvez Shopee e Amazon.
+O briefing anterior dizia "focada **estritamente** em vendedor de marketplace".
 
-Ele já tem contador. O contador dele não é ruim — é **genérico**. Não sabe ler
-relatório de repasse, lança a receita pelo valor da venda em vez do que entrou,
-e some quando aparece DIFAL.
+**O site foi reposicionado em 28/08** e agora se apresenta como contabilidade
+para pequenas e médias empresas, com marketplace como especialidade.
 
-- [ ] OK
-- [ ] Corrigir: ____________________
+| | antes | agora |
+|---|---|---|
+| `<title>` | Contabilidade para E-commerce e Marketplaces | **Contabilidade para Pequenas e Médias Empresas** |
+| H1 | Transformamos vendas digitais em controle contábil | **Contabilidade que mostra o resultado real da sua empresa** |
+| faixa | CONTABILIDADE EXCLUSIVA PARA E-COMMERCE | **CONTABILIDADE COMPLETA · ESPECIALIDADE EM E-COMMERCE** |
+| planos | Seller Starter · Seller Growth | **Essencial · Crescimento · Avançado** |
+| áreas | 9, todas de marketplace | **14** — 6 gerais e 8 de especialidade |
 
-**Faixa de faturamento que você quer atender:** ____________________
-**Plataformas além do Mercado Livre:** ____________________
+**A palavra "exclusiva" saiu de todo o site.**
+
+**Consequência para as peças:** post que fala só com seller contradiz uma página
+que agora fala com qualquer empresa do Simples. E post que promete o que a
+página não oferece quebra a promessa na chegada — só que agora a página oferece
+mais, não menos.
+
+---
+
+## 1. QUEM COMPRA — ampliado
+
+### O comprador principal continua sendo o dono da operação
+
+Não é o financeiro nem o contador. É quem toma o susto na apuração.
+
+### Agora são dois perfis, não um
+
+**Perfil A — vendedor de marketplace** (o original)
+PJ no Simples, R$ 30 mil a R$ 400 mil/mês, vendendo em Mercado Livre, Shopee,
+Amazon. Já tem contador, e o contador é genérico: não lê relatório de repasse,
+lança receita pelo valor da venda em vez do que entrou.
+
+**Perfil B — empresário do Simples em geral** (o novo)
+Comércio de rua, prestador de serviço, clínica, indústria pequena. Mesmo
+problema de fundo: apura sobre um número que não confere, não sabe se está no
+anexo certo, e não conhece a margem por produto.
+
+**O que une os dois:** ambos recebem líquido e apuram sobre o bruto. No
+marketplace, a plataforma desconta antes. No comércio, a maquininha desconta
+antes. **É o mesmo vazamento com nome diferente.**
 
 ---
 
 ## 2. O QUE SE VENDE
 
-**Minha lista, na ordem em que eu acho que vende:**
+### Serviços gerais — os novos
 
-1. Apuração do Simples com receita de marketplace lida do jeito certo
-2. Conciliação de repasse contra nota fiscal, mês a mês
-3. Revisão de anexo e Fator R
-4. ST e DIFAL nas vendas interestaduais
-5. Regularização de quem está vendendo como pessoa física ou como MEI estourado
-6. Abertura de empresa já montada para marketplace
-7. Levantamento de tributo pago a maior sobre valor não repassado
+1. Enquadramento no Simples e revisão de anexo pelo Fator R
+2. Abertura de CNPJ e regularização
+3. Troca de contador com inventário de pendências
+4. Folha de pagamento
+5. Contabilidade para comércio e varejo
+6. Contabilidade para prestadores de serviço
 
-- [ ] A lista está certa
-- [ ] Tirar: ____________________
-- [ ] Falta: ____________________
+### Serviços de especialidade — os originais, inalterados
 
-**Qual desses é o mais lucrativo para você?** ____________________
-**Qual é a porta de entrada — o serviço barato que traz o cliente?**
-____________________
+7. Apuração do Simples com receita de marketplace lida do jeito certo
+8. Conciliação de repasse contra nota fiscal, mês a mês
+9. ST e DIFAL nas vendas interestaduais
+10. Regularização de quem vende como pessoa física ou MEI estourado
+11. Levantamento de tributo pago a maior sobre valor não repassado
+12. Auditoria de recebíveis e recuperação de valores
+
+**Porta de entrada:** revisão de anexo pelo Fator R. É o serviço que a
+ferramenta gratuita já demonstra, e que serve aos dois perfis.
 
 ---
 
-## 3. O GANCHO — a regra que fez a IntegraJud funcionar
+## 3. O GANCHO — a regra continua, o alvo ampliou
 
-Na IntegraJud, o slide 1 nomeia **a exposição do advogado**, nunca o tema
-técnico. Aqui é o mesmo, só muda quem está exposto: **o vendedor**.
+A regra não mudou: **o slide 1 nomeia a exposição de quem lê**, nunca o tema
+técnico.
 
-**Exemplos que eu escreveria:**
+**O que mudou:** quem está exposto pode ser o vendedor **ou** o empresário em
+geral.
+
+### Ganchos do bloco geral
+
+- Sua empresa presta serviço e você retira como lucro. Alguém calculou o Fator R?
+- A maquininha desconta antes de te pagar. Você apura sobre qual valor?
+- Você trocou de contador. Alguém conferiu o que ficou pendente com o anterior?
+- Contratou pelo salário. Sabe quanto custa o funcionário de verdade?
+
+### Ganchos do bloco de especialidade — inalterados
 
 - Você pagou imposto sobre um valor que a plataforma reteve e não te repassou
 - Sua nota saiu pelo preço da venda. O dinheiro que entrou foi outro
 - O comprador é de outro estado. Alguém apurou o DIFAL dessa venda?
 - Seu contador lança pelo relatório da plataforma. Ele já abriu o extrato?
 
-- [ ] É esse o tom
-- [ ] Prefiro outro: ____________________
+---
+
+## 4. A AUTORIDADE — agora tem duas, e elas não se misturam
+
+### Mercado Líder Platinum
+
+**Continua sendo a credencial mais forte — mas só nas peças de marketplace.**
+
+Nenhum concorrente copia: qualquer escritório diz que atende e-commerce,
+nenhum exibe reputação de vendedor.
+
+**Não usar em peça sobre folha de pagamento, troca de contador ou abertura de
+CNPJ.** Ali o selo confunde: sugere que a GKFD só atende quem vende online,
+que é o oposto do reposicionamento.
+
+### Contador com sistema próprio
+
+**Credencial nova, para as peças gerais.**
+
+A GKFD publica um sistema de gestão gratuito que apura o Fator R e mostra a
+diferença em reais. Nenhum escritório concorrente oferece ferramenta própria.
+
+**Como usar:** demonstrar o mecanismo, nunca prometer resultado.
 
 ---
 
-## 4. A SUA AUTORIDADE — e é ela que muda tudo
+## 5. O QUE NUNCA ENTRA — inalterado
 
-**Mercado Líder Platinum.** Eu colocaria isso em lugar de destaque, porque é o
-que separa você de qualquer escritório: você não estudou o problema, você vive
-o problema.
-
-- [ ] Pode usar, com destaque
-- [ ] Pode usar, discreto
-- [ ] Não usar — motivo: ____________________
-
-**Quantos anos vendendo?** ______
-**Pode citar reputação, tempo de conta, volume?** ____________________
-
----
-
-## 5. O QUE NUNCA ENTRA
-
-Na IntegraJud a regra é dura: nada de promessa de resultado, percentual de
-êxito, superlativo ou comparação com concorrente. Isso vale aqui igual, e com
-um agravante — contador tem regra de publicidade do Conselho.
-
-**O que eu deixaria de fora, por padrão:**
-
-- "economize X% de imposto", "reduza sua carga tributária em X"
-- "o melhor contador para marketplace"
+- percentual de economia tributária, ainda que médio ou "de até"
+- "reduza seus impostos", "pague menos imposto legalmente"
 - comparação com o contador atual do cliente, mesmo indireta
-- preço em arte de post
+- preço, tabela ou mensalidade em arte de post
 - print de cliente, faturamento de cliente, caso identificável
+- promessa de resultado em fiscalização, disputa ou recuperação
 
-- [ ] Concordo
-- [ ] Acrescentar: ____________________
+### A regra da restituição em dobro — mantida
 
-**Alguma restrição do CRC que você já conheça e queira que eu respeite?**
-____________________
+Única formulação autorizada:
+
+> "Identificamos cobranças e retenções indevidas e produzimos a apuração
+> técnica necessária para buscar restituição, inclusive em dobro quando houver
+> fundamento jurídico aplicável."
+
+**O que entrega o mesmo sem prometer nada:** a demonstração aritmética. A mesma
+receita, no anexo III e no V, dá dois DAS diferentes — e a diferença é conta,
+não promessa.
 
 ---
 
-## 6. IDENTIDADE VISUAL
-
-**Ponto importante:** as duas marcas não podem parecer a mesma coisa. Se a
-GKFD sair com serifada dourada sobre fundo preto, vira irmã da IntegraJud e as
-duas perdem identidade.
-
-**Minha proposta de contraste:**
+## 6. IDENTIDADE VISUAL — o contraste com a IntegraJud continua
 
 | | IntegraJud | GKFD |
 |---|---|---|
 | tom | judicial, sóbrio, grave | operacional, direto, prático |
-| fundo | escuro, documento de processo | claro, planilha e extrato de repasse |
-| tipografia | serifada clássica | sem serifa, mais moderna |
-| cor | ouro, vinho, marinho | a definir com você |
+| fundo | escuro, documento de processo | claro, planilha e extrato |
+| tipografia | serifada clássica | sem serifa, moderna |
+| público | advogado | empresário |
 
-**Perguntas:**
+**Descritor da faixa de capa — atualizado:**
 
-- Existe logo da GKFD? Cores dela? ____________________
-- Tem preferência de cor? ____________________
-- Sua foto entra nas capas, como na IntegraJud? [ ] sim [ ] não [ ] às vezes
-- Alguma marca visual do universo marketplace que faça sentido (caixa, etiqueta,
-  extrato de repasse, painel de vendas)? ____________________
+```json
+// peças do bloco geral
+"descritor": "CONTABILIDADE PARA PEQUENAS E M\u00c9DIAS EMPRESAS"
+
+// peças do bloco de especialidade
+"descritor": "CONTABILIDADE · ESPECIALIDADE EM E\u2011COMMERCE"
+```
+
+Hífen U+2011, não separável.
 
 ---
 
 ## 7. ONDE PUBLICA
 
-- Instagram da GKFD: @____________________  (já existe? [ ] sim [ ] não)
-- Página do Facebook: ____________________
-- Site: ____________________
-- WhatsApp que aparece na arte: ____________________
-- Oferta de entrada, equivalente à "análise gratuita" da IntegraJud:
-  ____________________
-  *(minha sugestão: "Mande seu relatório de repasse do mês. Em até 24h úteis eu
-  digo se a apuração está certa" — é o mesmo mecanismo que funcionou lá: pede um
-  documento que já está na mão dele, não pede "o seu caso")*
+```
+Instagram:  @gkfdfisco
+Site:       www.gkfd.com.br
+WhatsApp:   (11) 97723-7113
+```
+
+### A oferta de entrada — mudou
+
+**Antes:** "Mande seu relatório de repasse do mês."
+
+**Problema:** só funciona para seller, e pede documento antes de entregar algo.
+
+**Agora:**
+
+> **Descubra se você está pagando imposto a mais.**
+> Sistema gratuito, sem cadastro. Informe faturamento e folha, e em trinta
+> segundos veja se o seu enquadramento no Simples está correto — e quanto a
+> diferença representa por ano.
+
+**Por que é melhor:**
+- serve a qualquer empresa do Simples
+- entrega o número antes de pedir contato
+- é o mecanismo que já funciona no SISTAT da IntegraJud
+- termina em botão de WhatsApp que leva o valor calculado
+
+**A oferta antiga continua válida como secundária**, nas peças de marketplace.
 
 ---
 
-## 8. CADÊNCIA
+## 8. CADÊNCIA E RODÍZIO
 
-- [ ] Igual à IntegraJud: 2 por dia, 12h e 18h
-- [ ] Menos: ______ por dia, horários ____________________
-- [ ] Alternar com a IntegraJud, para não competirem pela sua atenção
+**Cadência:** 2 peças por dia, 12h e 18h.
+
+**Proporção nova — a cada cinco peças:**
+
+```
+peça 1   bloco geral
+peça 2   especialidade (marketplace)
+peça 3   bloco geral
+peça 4   bloco geral
+peça 5   especialidade (marketplace)
+```
+
+**Por quê:** o site agora oferece 14 áreas, sendo 6 gerais. Se todas as peças
+falarem de marketplace, a operação continua parecendo exclusiva de seller.
+
+**Regra mantida dentro do bloco de especialidade:** no máximo uma peça em três
+cita plataforma pelo nome, revezando entre as seis.
 
 ---
 
-## 9. UMA PERGUNTA QUE VALE MAIS QUE AS OUTRAS
+## 9. O QUE OS CONCORRENTES ESTÃO FAZENDO
 
-Qual foi a **última vez que um vendedor chegou até você já com o problema
-diagnosticado**? O que ele disse, com as palavras dele?
+Levantamento de 30/08/2026, em três perfis do mesmo produtor de conteúdo:
+@mariaxcontabilidade, @zenus_contabilidade, @nativa.contabilidade.
 
-____________________
+**O que fazem igual:**
+- link da bio vai direto para WhatsApp, nenhum manda para site
+- todos os posts são de dor tributária, não institucional
+- formato com título grande, palavra em destaque colorido, "Leia a descrição"
 
-*É daí que sai a melhor headline. Na IntegraJud, as peças que funcionaram
-nasceram de coisas que advogado realmente fala — "quinze dias para impugnar", "o
-laudo já está nos autos". Marketplace tem o equivalente, e você conhece.*
+**O achado que importa:**
+
+Um deles postou **"O que é o Fator R e como ele pode reduzir sua carga
+tributária"**.
+
+**Eles explicam o conceito. A GKFD entrega o número.**
+
+O sistema calcula o Fator R e mostra a diferença em reais em trinta segundos.
+**Essa é a vantagem, e é ela que deve aparecer nas peças.**
 
 ---
 
-## O QUE EU FAÇO DEPOIS QUE VOCÊ RESPONDER
+## 10. O QUE SE APRENDEU COM O ALCANCE
 
-1. Banco de áreas e tópicos da GKFD, no molde do que existe na IntegraJud
-2. Paleta e tipografia próprias, com contraste real em relação à IntegraJud
-3. Prompt mestre da GKFD
-4. Segundo `config_publicacao.json` e os scripts aceitando escolher a conta
-5. Tarefas agendadas separadas
+**Reels alcança quem não segue. Card estático fica na base.**
+
+Um Reels sobre laudo, na IntegraJud, fez 50 visualizações orgânicas contra 2 ou
+3 dos cards.
+
+**Implicação para a GKFD:** priorizar Reels sobre tema específico com número,
+não card institucional.
+
+**O tema com maior potencial:** Fator R, pelo mesmo motivo que laudo funcionou —
+é concreto, tem número, e o empresário reconhece.
+
+---
+
+## AS DUAS MARCAS
+
+Na GKFD o cliente é o **empresário**. Na IntegraJud é o **advogado**.
+
+Nunca misturar as duas na mesma peça. Nunca usar a assinatura da IntegraJud
+aqui, nem a palavra "perícia".

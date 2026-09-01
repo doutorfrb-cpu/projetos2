@@ -1,0 +1,95 @@
+{
+  "slug": "gkfd_devolucao",
+  "outdir": "pc_gkfd21",
+  "paleta": "G03",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA MARKETPLACE E E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade especializada em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Contabilidade especializada em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para marketplace e e-commerce",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande as devoluções do mês e a guia paga. Em até 24h úteis eu digo se a receita foi reduzida",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "concreto",
+    "doc:planilha/copia",
+    "couro",
+    "doc:extrato/formulario",
+    "madeira"
+  ],
+  "seeds": [
+    9721,
+    9722,
+    9723,
+    9724,
+    9725
+  ],
+  "overlay": [
+    ".30,.52,.74",
+    ".82,.91",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L2",
+      "chamada": "A MERCADORIA VOLTOU",
+      "peca": "DEVOLUÇÃO",
+      "headline": "A devolução acabou<br>para o cliente e continua<br><b>na sua apuração</b>",
+      "apoio": "O comprador foi reembolsado, a caixa voltou para o galpão e o assunto morreu no atendimento. Na contabilidade ele continua aberto: sem nota de entrada, aquela venda segue dentro da receita que o mês vai tributar."
+    },
+    {
+      "kicker": "Marketplace · primeiro mês vendendo",
+      "titulo": "Uma devolução, três registros diferentes",
+      "passos": [
+        "<em>O retorno físico.</em> A mercadoria volta para o seu estoque, volta para o centro de distribuição de terceiro ou não volta nunca. São três destinos com efeitos diferentes no custo do mês, e nenhum deles se resolve sozinho.",
+        "<em>O documento fiscal.</em> É a nota de entrada que traz o item de volta para a sua escrita e sustenta a redução da receita. Sem ela não existe devolução na contabilidade, existe uma venda que ninguém desfez.",
+        "<em>O ajuste financeiro.</em> O reembolso ao comprador e o crédito correspondente aparecem no relatório de repasse, com data própria, quase sempre em mês diferente do mês da venda.",
+        "<em>Só o terceiro anda sozinho.</em> A plataforma debita o reembolso sem perguntar nada. As duas primeiras pernas dependem de alguém fazer — e é aí que a devolução para no meio do caminho."
+      ],
+      "rodape": "Devolução resolvida no atendimento não é devolução resolvida na apuração."
+    },
+    {
+      "kicker": "O que o mês precisa responder",
+      "titulo": "Quatro perguntas antes de gerar a guia",
+      "passos": [
+        "<em>Cada devolução tem nota de entrada?</em> Mesmo item, mesma quantidade, mesmo valor da saída. Comprador pessoa física não emite nota: quem documenta o retorno é o vendedor.",
+        "<em>A redução caiu no mês certo?</em> A regra do Simples deduz a devolução no período em que ela acontece, não no mês da venda. Sendo maior que a receita do mês, o excesso vai para os meses seguintes.",
+        "<em>O reembolso bate com o repasse?</em> O valor devolvido ao comprador e o ajuste da plataforma precisam se encontrar pedido a pedido, nunca no total da fatura.",
+        "<em>A mercadoria voltou para onde?</em> Estoque disponível, avaria, descarte ou extravio na volta. A resposta muda o custo do produto vendido e o que dá para cobrar de quem transportou."
+      ],
+      "rodape": "A guia costuma sair antes das quatro respostas."
+    },
+    {
+      "kicker": "O erro que se repete",
+      "titulo": "A venda desfeita continua contando como venda",
+      "passos": [
+        "<em>Vira ocorrência de atendimento.</em> Resolve-se com o comprador, encerra-se o chamado e não nasce documento nenhum. A contabilidade recebe o mês sem saber que aquela venda voltou atrás.",
+        "<em>O reembolso entra como despesa.</em> Lançado solto, ele reduz o resultado e não baixa a venda que o originou. A receita bruta do mês continua inteira, e é sobre ela que o imposto é calculado.",
+        "<em>O estoque não é corrigido.</em> O sistema mostra o item vendido, o galpão tem o item de volta. O custo da mercadoria vendida fecha errado, e o inventário do ano herda a diferença.",
+        "<em>O índice por SKU nunca é apurado.</em> Produto que volta em uma a cada dez vendas tem outro custo real. Sem esse número, o preço é formado como se toda venda fosse definitiva."
+      ],
+      "rodape": "Cada uma parece pequena sozinha. Juntas, elas movem a base do imposto e a margem do mês."
+    },
+    {
+      "ponte": "A devolução não é<br>um assunto de atendimento.<br>É um evento de apuração.",
+      "itens": [
+        "Devoluções do mês conferidas contra nota de entrada",
+        "Reembolso e ajuste da plataforma batidos pedido a pedido",
+        "Receita reduzida no período certo, com memória de cálculo"
+      ],
+      "oferta": "Mande as devoluções do mês e a guia paga. Em até 24h úteis eu digo se a receita foi reduzida"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "integrajud_marketplace",
+  "outdir": "peca_marketplace",
+  "paleta": "P03",
+  "cenas": ["vidro", "papel", "trama"],
+  "seeds": [201, 202, 203],
+  "overlay": [".14,.34,.60", ".26,.36", ".22,.48"],
+  "slides": [
+    {
+      "headline": "O relatório do marketplace <b>não é a conciliação</b>",
+      "apoio": "Ele mostra o repasse. Não mostra a origem dele."
+    },
+    {
+      "kicker": "Alcance da prova técnica",
+      "titulo": "Até onde a perícia reconstrói um extrato de marketplace",
+      "passos": [
+        "Pedido a pedido: <em>venda, comissão, frete, imposto e devolução</em> reconciliados com o repasse líquido.",
+        "Linha do tempo do dinheiro: <em>data do pedido, da liberação e do saque</em>, que raramente coincidem.",
+        "Diferenças por natureza: <em>tarifa em duplicidade, chargeback sem estorno, frete redebitado</em>.",
+        "O limite: sem a base bruta da plataforma, demonstra-se a <em>inconsistência</em>, não o valor final."
+      ],
+      "rodape": "Reconstruir exige o dado bruto. Sem ele, o laudo aponta a lacuna."
+    },
+    {
+      "ponte": "O extrato você baixa.<br>A reconstrução é outro trabalho.",
+      "itens": [
+        "Conciliação pedido a pedido contra o repasse",
+        "Apuração de tarifas, fretes e chargebacks",
+        "Laudo e assistência técnica em ação contra marketplace"
+      ]
+    }
+  ]
+}

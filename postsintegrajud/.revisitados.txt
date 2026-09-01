@@ -5,3 +5,5 @@
 2026-08-15_ebitda
 2026-08-15_encargos-mora
 2026-08-15_exibicao-repasses
+2026-08-15_fator-r
+2026-08-15_horas-extras

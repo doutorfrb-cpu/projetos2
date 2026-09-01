@@ -1,0 +1,17 @@
+A maquininha desconta antes de te pagar. Você apura sobre qual valor?
+
+Sobre o valor da venda — e está certo. No Simples, a base é a receita bruta, não o que a operadora creditou. Se você vendeu R$ 100 e recebeu R$ 96,80, o imposto é sobre os R$ 100. Esse não é o problema.
+
+O problema são os R$ 3,20. Eles saíram da empresa no dia da venda, foram retidos pela adquirente antes do repasse e, na maior parte dos fechamentos, não viram lançamento nenhum. Não somem do caixa: somem do relatório que você usa para formar preço.
+
+Uma venda no cartão tem três valores. O bruto, que vai para a nota e para a receita. A taxa, que é despesa com fato gerador no dia da venda. E o líquido, que entra no banco dois dias depois no débito, trinta ou mais no parcelado. Faltando o do meio, a conta ainda bate com o extrato bancário. É no resultado que ela mente.
+
+Quatro perguntas para o fechamento do mês. A taxa está lançada por bandeira, já que débito, crédito à vista e parcelado têm percentuais diferentes e o extrato traz um por transação? A venda entrou na competência, ou na data do crédito — o que joga receita para o mês seguinte e desalinha o DAS? A antecipação de recebível está separada da taxa da adquirente, já que uma é despesa financeira e a outra é custo da venda? E o estorno: devolveu a taxa, ou devolveu só o valor ao cliente?
+
+A demonstração, com números que não são de caso real. Receita de R$ 120.000,00 no mês, tudo no cartão. Custo da mercadoria e despesas fixas de R$ 100.000,00. DAS de R$ 8.208,00. Sem a taxa lançada, a sobra aparece como R$ 11.792,00, ou 9,83% da receita. Com os R$ 3.840,00 de taxa no lugar certo, a sobra é R$ 7.952,00, ou 6,63%. O DAS é idêntico nos dois critérios. O que muda é a margem — e em doze meses a diferença chega a R$ 46.080,00. Formar preço sobre o primeiro número é formar preço sobre uma margem que não existe.
+
+Descubra em 30 segundos se você está pagando imposto a mais: sistema gratuito, sem cadastro, em www.gkfd.com.br. E se quiser o olho humano, mande o extrato da adquirente de um mês com a apuração do mesmo mês. Em até 24h úteis eu digo se a taxa está lançada e onde ela foi parar.
+
+GKFD Contábil
+Contabilidade para pequenas e médias empresas
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20GKFD%20no%20Facebook%20sobre%20taxa%20de%20cartao%20e%20queria%20falar%20sobre%20a%20apura%C3%A7%C3%A3o%20da%20minha%20opera%C3%A7%C3%A3o.

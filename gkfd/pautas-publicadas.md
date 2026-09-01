@@ -45,9 +45,12 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
 
 2026-08-26 | 07h55 | G8 abertura e regularização | M3 crescendo rápido | MEI NO LIMITE | O TETO NÃO AVISA | teto do MEI medido pelo repasse líquido em vez da receita bruta, e desenquadramento que retroage | as quatro perguntas do ano (bruto acumulado, teto proporcional do ano de abertura, os 20% de tolerância, ocupação permitida) e o erro que se repete | O teto do MEI conta a venda inteira, não o repasse | L4 | granito (SUPERFÍCIE, material repetido de 19/08 com paleta e layout trocados) | G02 verde liberado | /areas/abertura | FB 1336325419554251_122101571373451002 | IG 18142714513566149 (o postar.py reportou FALHOU com OAuthException 4 no PRIMEIRO status do container pai, ainda IN_PROGRESS 1/20; o _ig_ultimas.py confirmou a mídia no perfil — NÃO foi republicada) | story e reel publicados nos quatro destinos | reel IG 18182680150416944 | cifra do L4: "R$ 81 MIL" com rótulo "o teto anual, medido pelo bruto" | SEM modo demonstração (slide 4 no formato "o erro que se repete"; o rodízio pedia) | plataforma citada: Mercado Livre e Amazon, dentro de afirmação sobre a LEI ("a lei mede a receita da empresa, não a de cada canal") — eram as duas próximas da fila | primeiro comentário TENTADO e FALHOU nos dois (IG OAuthException 10, FB OAuthException 200 — escopo do app, estado conhecido) | revisita: story da peça 2026-08-22_antecipacao-recebivel | artigo do LinkedIn NÃO gerado (a ordem da execução dizia NÃO) | encolhimento 94% nos slides 2 e 3, slide 4 a 100%
 2026-08-26 | 22h20 | G7 gestão e rentabilidade | M8 saldo retido ou conta bloqueada | BLOQUEIO DE CONTA | A CONTA PAROU, O CUSTO NÃO | perda de período parado estimada pelo faturamento que deixou de entrar, sem margem de contribuição nem custo fixo por trás | demonstração aritmética da mesma parada por dois critérios (12 dias, média diária R$ 4.000,00, margem 18,4%, custo fixo R$ 8.000,00/mês: critério 1 R$ 48.000,00 × critério 2 R$ 12.032,00 = 8.832,00 de resultado perdido + 3.200,00 de custo fixo; diferença R$ 35.968,00) | A conta foi bloqueada e o prejuízo não tem número | L5 | doc:apuracao/copia (DOCUMENTO) | G04 noturno operacional | /areas/gestao | FB 1336325419554251_122102097471451002 | IG 17991786165033445 (o postar.py reportou FALHOU com OAuthException 4 no PRIMEIRO status do container pai, ainda IN_PROGRESS 1/20; o _ig_ultimas.py confirmou a mídia no perfil — NÃO foi republicada) | story e reel publicados nos quatro destinos | story IG 17878863333528833 · story Página 827573340381273 · reel IG 17955028680229177 · reel Página 4694802577426316 | COM modo demonstração, em quadro de 7 linhas (o rodízio pedia) | plataforma NÃO citada pelo nome (primeira das duas obrigatórias; a próxima também fica sem) | primeiro comentário TENTADO e FALHOU nos dois (IG OAuthException 10, FB OAuthException 200 — escopo do app, estado conhecido) | revisita NÃO rodada: já saiu na rodada das 07h55 de hoje | artigo do LinkedIn NÃO gerado (a ordem da execução dizia NÃO) | encolhimento 94% nos três slides internos
+2026-08-29 | 20h50 | G6 devoluções e estornos | M2 primeiro mês vendendo | DEVOLUÇÃO | A MERCADORIA VOLTOU | venda desfeita que se resolve no atendimento e nunca vira nota de entrada, seguindo dentro da receita que o mês tributa | as três pernas da devolução (retorno físico, documento fiscal, ajuste financeiro), as quatro perguntas antes de gerar a guia e o erro que se repete | A devolução acabou para o cliente e continua na sua apuração | L2 | concreto (SUPERFÍCIE) | G03 laranja embalagem | /areas/devolucoes | FB 1336325419554251_122103919137451002 | IG 17899461831588641 (o postar.py reportou FALHOU com OAuthException 4 no PRIMEIRO status do container pai, ainda IN_PROGRESS 1/20; o _ig_ultimas.py confirmou a mídia no perfil — NÃO foi republicada) | story e reel publicados nos quatro destinos | reel IG 18109110374329221 · reel Página 1081522314711062 | SEM modo demonstração (slide 4 no formato "o erro que se repete"; o rodízio pedia) | plataforma NÃO citada pelo nome (segunda das duas obrigatórias; a próxima PODE citar, e a vez é do Magalu) | primeiro comentário TENTADO e FALHOU nos dois (IG OAuthException 10, FB OAuthException 200 — escopo do app, estado conhecido) | revisita: story da peça 2026-08-22_malha-intimacao | artigo do LinkedIn NÃO gerado (a ordem da execução dizia NÃO) | encolhimento 94% nos slides 2 e 4, slide 3 a 100% (depois de encurtar; ver LIÇÕES)
+
+2026-08-31 | 11h55 | GA3 contabilidade para comércio e varejo (BLOCO A — primeira peça geral depois do reposicionamento) | M7 fechamento do mês | TAXA DE CARTÃO (ponto de vazamento NOVO, dos 10 de 31/08) | A MAQUININHA DESCONTA ANTES | taxa da adquirente retida antes do repasse e nunca lançada como despesa: o imposto sobre o bruto está certo, a margem sobre o bruto está errada | os três valores de uma venda no cartão (bruto, taxa, líquido), as quatro perguntas do fechamento e a demonstração dos dois critérios | A maquininha desconta antes, e a taxa nunca virou custo | L1 | doc:razao/dobra (DOCUMENTO) | G01 azul painel | /areas/comercio-varejo | FB 1336325419554251_122104431399451002 | IG 17967254487160358 (o postar.py reportou FALHOU com OAuthException 4 depois do container pai 18092076815282865; o _ig_ultimas.py confirmou a mídia no perfil às 14:58 UTC — NÃO foi republicada. Sétima vez que o erro 4 é falso) | story e reel publicados nos quatro destinos | story IG 18619784044044817 · story Página 2200803627149608 · reel IG 18119961761476006 · reel Página 1698454974546244 | COM modo demonstração, em quadro de 7 linhas (o rodízio pedia; R$ 120.000,00 de receita só no cartão, R$ 100.000,00 de custo e despesa fixa, DAS R$ 8.208,00: critério 1 sobra R$ 11.792,00 · 9,83% × critério 2 sobra R$ 7.952,00 · 6,63%, taxa de R$ 3.840,00, diferença R$ 46.080,00 em doze meses; o DAS é o mesmo nos dois) | SEM selo Platinum e SEM "Mercado Líder" na legenda (regra do bloco A) | chamada_publico EI EMPRESÁRIO | descritor e prova do bloco A ("SIMPLES NACIONAL" no lugar de "6 PLATAFORMAS ATENDIDAS") | oferta nova do bloco A (sistema gratuito de 30 segundos) + oferta de 24h úteis na legenda | plataforma NÃO citada pelo nome (peça geral, não cabe) | primeiro comentário TENTADO e FALHOU nos dois (IG OAuthException 10, FB OAuthException 200 — escopo do app, estado conhecido) | revisita: story da peça 2026-08-22_tarifa-comissao (story 18091442057134747) | artigo do LinkedIn NÃO gerado (a ordem da execução dizia NÃO) | encolhimento 94% nos três slides internos | legenda IG 2143 caracteres
 
 ## Rodízio — estado atual
-- Total do perfil: 20 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
+- Total do perfil: 21 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
   de 17-18/08, saiu antes do log existir — considerar A3 e o ponto de
   vazamento REPASSE DO MÊS como usados, e a paleta G01 e o layout L2 também.)
 - Áreas usadas: A3/G3 repasse, A8/G5 ads, A4/G9 retenção, A1/G2 regime,
@@ -111,6 +114,17 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   a 17 peças, dentro da regra das 20. G6 só tem DEVOLUÇÃO e ESTORNO livres, e as
   duas leriam como irmãs do CHARGEBACK de 19/08. Área antiga não basta: o ponto
   de vazamento que sobra tem de aceitar um momento cujo par ainda esteja livre.
+  DÉCIMA SEGUNDA REPETIÇÃO: G6 saiu em 19/08 16h com M7 (CHARGEBACK, fechamento
+  do mês) e voltou em 29/08 com M2 e DEVOLUÇÃO. Par novo, ponto novo — e aqui a
+  objeção que travou a G6 em 24 e em 26/08 ("DEVOLUÇÃO e ESTORNO leriam como
+  irmãs do CHARGEBACK") CAIU, por dois motivos que vale registrar. Primeiro, o
+  par G6×M7 está travado pela regra das 20, o que proibiu de saída repetir o
+  ângulo de fechamento do mês da peça de 19/08. Segundo, o M2 obrigou a peça a
+  falar com quem recebe a PRIMEIRA devolução, e aí a distinção fica sozinha em
+  pé: chargeback é venda desfeita por TERCEIRO, sem retorno de mercadoria e com
+  prazo de contestação correndo; devolução é venda desfeita pelo COMPRADOR, com
+  mercadoria voltando, nota de entrada a emitir e estoque a corrigir. O que
+  parecia tema irmão virou tema oposto assim que o par mudou.
 - Momentos usados: M7 fechamento do mês (3x — G3, G6 e G4), M6 investindo em ADS,
   M8 saldo retido, M3 crescendo rápido (4x — G2 Fator R, G5 tarifa,
   G3 antecipação e G7 preço),
@@ -154,15 +168,31 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   M8 (saldo retido ou conta bloqueada) voltou em 26/08 22h, com G7 e BLOQUEIO DE
   CONTA — agora 2x, e destravado pelo caminho descrito na décima primeira
   repetição: par natural travado, momento intocável, área trocada.
+  M2 (primeiro mês vendendo) voltou em 29/08, com G6 e DEVOLUÇÃO — agora 3x.
+  Foi escolhido de propósito para NÃO usar o M3 (5x, o mais gasto) e para não
+  repetir o M7 da peça de chargeback, que é o par travado da G6. Estado atual
+  dos momentos: M3 5x, M7 3x, M2 3x, M4 2x, M5 2x, M8 2x, e M1, M6, M9 e M10
+  com uma aparição cada. M1, M9 e M10 continuam sendo os menos usados com par
+  ainda livre; M6 segue travado pelo par natural G5×M6 de 18/08.
 - Pontos de vazamento usados: REPASSE DO MÊS, ADS DA PLATAFORMA, SALDO RETIDO,
   ANEXO E FATOR R, CHARGEBACK, DRE POR CANAL, EXTRAVIO E AVARIA, CNPJ E CNAE,
   ESCRITURAÇÃO POR EXTRATO, TARIFA E COMISSÃO, MALHA E INTIMAÇÃO,
   ANTECIPAÇÃO DE RECEBÍVEL, TROCA DE CONTADOR, PREÇO, FRETE, INVENTÁRIO,
-  ICMS-ST, CONCILIAÇÃO ERP × PLATAFORMA, MEI NO LIMITE, BLOQUEIO DE CONTA.
-  Sobram 8 dos 28: DEVOLUÇÃO, ESTORNO, DIFAL, REGIME
-  TRIBUTÁRIO,
+  ICMS-ST, CONCILIAÇÃO ERP × PLATAFORMA, MEI NO LIMITE, BLOQUEIO DE CONTA,
+  DEVOLUÇÃO.
+  Sobram 7 dos 28: ESTORNO, DIFAL, REGIME TRIBUTÁRIO,
   BALANCETE SEM CANAL, FECHAMENTO FORA DO PRAZO, INSCRIÇÃO ESTADUAL,
   EMPRESA PARADA.
+  ATENÇÃO AO ESTORNO: com a DEVOLUÇÃO gasta em 29/08, ele ficou na mesma
+  situação em que a DEVOLUÇÃO estava em relação ao CHARGEBACK. Ele continua
+  utilizável, mas exige o mesmo cuidado que funcionou aqui: par área × momento
+  diferente do da devolução (G6×M2 está gasto) e um eixo próprio — o estorno é
+  ajuste FINANCEIRO lançado solto, sem retorno de mercadoria e sem nota de
+  entrada, e a pergunta dele é a qual venda ele se amarra, não o que fazer com
+  o item que voltou. Deixe pelo menos três peças entre os dois.
+  INSCRIÇÃO ESTADUAL e EMPRESA PARADA continuam presos à G8, que já tem três
+  peças e a mais recente em 26/08 — e o par G8×M1 (21/08) segue dentro da regra
+  das 20. Os dois pedem ou uma área não natural, ou mais distância.
   CUIDADO COM O DIFAL, e é técnico: o buraco descrito no banco ("vende para o
   Brasil inteiro e apura como se fosse operação interna") pressupõe DIFAL de
   SAÍDA, e para empresa do Simples Nacional na condição de remetente essa
@@ -176,18 +206,20 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   três peças entre os dois, ou puxe-o por uma área que não seja a G1.
 - Paletas GKFD: G01 azul painel, G02 verde liberado, G03 laranja embalagem,
   G04 noturno operacional, G05 roxo plataforma, G06 vermelho retido.
-  Últimas três: G01, G02, G04. Próxima peça sai em G03, G05 ou G06.
+  Últimas três: G02, G04, G03. Próxima peça sai em G01, G05 ou G06.
 - Frases de efeito usadas: CONFERE UMA COISA, ANTES DE SUBIR O ORÇAMENTO,
   O DINHEIRO JÁ É SEU, A FOLHA DECIDE O ANEXO, VENDA DESFEITA,
   FATURA MAIS, SOBRA MENOS, ESTOQUE FORA DE CASA, O CADASTRO COBRA DEPOIS,
   O BANCO NÃO CONTA TUDO, A TARIFA NÃO É UMA SÓ, ELES JÁ TÊM O SEU NÚMERO,
   O DINHEIRO CHEGOU ANTES, O PASSADO VEM JUNTO, O PREÇO FICOU PARADO,
   O CUSTO DE ENTREGAR, NINGUÉM CONTOU, JÁ VEIO COM IMPOSTO,
-  QUAL DELES ESTÁ CERTO, O TETO NÃO AVISA, A CONTA PAROU, O CUSTO NÃO.
-- Layouts: L1 a L6. Últimos três: L1, L4, L5. Próxima peça sai em L2 — e é a
+  QUAL DELES ESTÁ CERTO, O TETO NÃO AVISA, A CONTA PAROU, O CUSTO NÃO,
+  A MERCADORIA VOLTOU.
+- Layouts: L1 a L6. Últimos três: L4, L5, L2. Próxima peça sai em L1 — e é a
   única disponível: com L3 e L6 vetados pelo selo de 320px, sobraram quatro
   layouts para uma regra de rodízio de três. Na prática o rodízio virou fixo
-  L1-L2-L4-L5. Se isso incomodar, ou o selo encolhe, ou a regra passa a ser
+  L1-L2-L4-L5, e a peça de 29/08 confirmou isso pela segunda volta completa.
+  Se isso incomodar, ou o selo encolhe, ou a regra passa a ser
   "fora dos DOIS últimos".
 - Modo demonstração: usada em 18/08 (ADS), 19/08 manhã (Fator R), 20/08 16h
   (DRE por canal), 21/08 16h (CNAE, em quadro) e 22/08 18h (tarifa, em quadro).
@@ -201,20 +233,26 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   A de 25/08 16h50 (CONCILIAÇÃO ERP × PLATAFORMA) saiu COM, em quadro de 7
   linhas. A de 26/08 07h (MEI NO LIMITE) saiu SEM, no formato "o erro que se
   repete". A de 26/08 22h (BLOQUEIO DE CONTA) saiu COM, em quadro de 7 linhas.
-  O rodízio pede que a PRÓXIMA saia SEM demonstração.
+  A de 29/08 (DEVOLUÇÃO) saiu SEM, no formato "o erro que se repete" — o
+  rodízio pedia, e o tema ajudou: a devolução desemboca em base de imposto E em
+  custo de estoque ao mesmo tempo, e um quadro só teria de escolher um dos dois.
+  O rodízio pede que a PRÓXIMA saia COM demonstração.
 - Sem banco de fotos: fundo sempre gerado (documento numérico + superfície
   neutra). Nada de foto.
-- TIPO DE CAPA DAS ÚLTIMAS TRÊS: DOCUMENTO (comparativo/dobra), SUPERFÍCIE
-  (granito, repetido), DOCUMENTO (apuracao/copia). A PRÓXIMA CAPA É DE
-  SUPERFÍCIE: a sequência ficou doc-sup-doc e a alternância manda voltar à
-  superfície. Na fila, por antiguidade: concreto (20/08).
+- TIPO DE CAPA DAS ÚLTIMAS TRÊS: SUPERFÍCIE (granito, repetido), DOCUMENTO
+  (apuracao/copia), SUPERFÍCIE (concreto, segundo giro). A PRÓXIMA CAPA É DE
+  DOCUMENTO: a sequência ficou sup-doc-sup e a alternância manda voltar ao
+  documento. Na fila das superfícies, para a vez seguinte: duna (21/08).
   Superfícies já usadas em CAPA: granito (2x), concreto, duna, couro, madeira,
   linho, gesso. ESGOTADAS — as sete rodaram, e o segundo giro começou em 26/08
   com o granito. Repetindo material, troque a PALETA e o LAYOUT junto, que é o
   que carrega a diferença quando o material volta: o granito de 19/08 era G04
   noturno em L5 e o de 26/08 saiu G02 verde em L4, e não leem como irmãos.
-  Na fila do segundo giro, por antiguidade: concreto (20/08), duna (21/08),
-  couro (22/08), madeira (23/08), linho (24/08), gesso (25/08).
+  Na fila do segundo giro, por antiguidade: duna (21/08), couro (22/08),
+  madeira (23/08), linho (24/08), gesso (25/08). O concreto saiu em 29/08, em
+  G03 laranja e L2 — o de 20/08 era G01 azul em L1, e não leem como irmãos.
+  Confirma a receita do granito: material repetido só volta com paleta E layout
+  trocados.
   Papéis de `extrato` já usados em CAPA: dobra (2x), copia, formulario, liso.
   A família extrato está esgotada em papel: a próxima capa de documento sobre
   dinheiro da plataforma repete papel ou muda de família.
@@ -250,11 +288,73 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   receita da empresa, não a de cada canal"). A de 26/08 22h (BLOQUEIO DE CONTA)
   NÃO citou — primeira das duas que precisavam ficar sem, e nela isso saiu de
   graça pelo mesmo motivo da peça de 25/08 16h50: o assunto é a conta suspensa
-  de qualquer plataforma, e "a plataforma" diz tudo. A PRÓXIMA TAMBÉM FICA SEM.
+  de qualquer plataforma, e "a plataforma" diz tudo. A de 29/08 (DEVOLUÇÃO)
+  também NÃO citou, e fechou a dupla — de novo de graça, porque devolução é
+  evento de qualquer canal e a peça só precisa de "a plataforma". A PRÓXIMA
+  PODE CITAR.
   Placar de nomes citados até aqui: Mercado Livre 3, Shopee 3, Amazon 3,
   Magalu 2. Magalu é o próximo da fila.
 
 ## LIÇÕES
+
+**29/08/2026 — O `reel.py` NÃO ACHA O `ffmpeg` NESTA MÁQUINA. RODE O
+`_reel_run.py`, QUE JÁ EXISTE NA `work22b` DESDE 22/08.**
+`python reel.py <spec>` renderizou as cenas, imprimiu "[reel] duração 18.7s" e
+estourou com `FileNotFoundError: [WinError 2]` na chamada de `blackdetect`. O
+`ffmpeg.exe` ESTÁ na `work22b`, o processo roda com a `work22b` de diretório
+atual, e mesmo assim o `shutil.which('ffmpeg')` devolve `None`: nesta máquina o
+diretório atual não entra na busca de executável. O `_reel_run.py` resolve em
+uma linha — antecipa a pasta no PATH do processo e chama o `reel.py` por
+`runpy`. Ele foi escrito em 22/08 e o log nunca registrou que ele é
+OBRIGATÓRIO, então cada sessão redescobre o erro. Agora está escrito:
+    cd work22b && python _reel_run.py <spec>.json
+Nunca `python reel.py` direto. Custo desta vez: dois tracebacks e uma busca.
+
+**29/08/2026 — O PISO DE 90% PEGOU DE VERDADE, E O QUE DERRUBOU O SLIDE FOI UM
+PASSO DE CINCO LINHAS, NÃO O NÚMERO DE PASSOS.**
+Primeira renderização: slide 2 a 94%, slide 4 a 94%, slide 3 a **88%** — abaixo
+do piso. Os três slides tinham quatro passos cada; o que diferia era um único
+passo do slide 3, com a regra do Simples escrita por extenso ("no período de
+apuração em que ela acontece" · "o excesso é deduzido nos meses seguintes"), que
+ocupava cinco linhas. Cortadas três frases nesse passo e encurtado o rodapé de
+"A devolução se fecha em quatro respostas — e a guia sai antes de todas elas"
+para "A guia costuma sair antes das quatro respostas", o slide subiu de 88% para
+**100%** — não para 94%. REGRA: quando um slide destoa dos vizinhos no
+encolhimento, procure O PASSO MAIS LONGO, não o número de passos. E o ganho não
+é linear: cortar o excedente devolve o slide ao tamanho cheio de uma vez.
+
+**29/08/2026 — TEMA "IRMÃO" DEIXA DE SER IRMÃO QUANDO O PAR MUDA.**
+A DEVOLUÇÃO estava vetada no log desde 24/08 por "ler como irmã do CHARGEBACK
+de 19/08", e o veto foi repetido em 26/08 sem ninguém testar. Ele não
+sobreviveu ao teste: o par G6×M7 (o par do chargeback) está travado pela regra
+das 20, o que já proíbe repetir o ângulo; e com M2 a peça passou a falar com
+quem recebe a primeira devolução, onde a distinção é estrutural — chargeback é
+venda desfeita por TERCEIRO, sem mercadoria voltando e com prazo de contestação
+correndo; devolução é venda desfeita pelo COMPRADOR, com item de volta, nota de
+entrada a emitir e estoque a corrigir. Vale como método: veto por semelhança
+temática deve ser reexaminado toda vez que o momento disponível mudar, porque é
+o PAR, e não o tema, que produz a sensação de repetição.
+
+**29/08/2026 — O OAuthException 4 FOI FALSO PELA NONA VEZ, MESMO PONTO EXATO.**
+`postar.py` publicou no Facebook (1336325419554251_122103919137451002), hospedou
+as 5 imagens, criou os 5 filhos e o pai (18091507982282865), estourou no
+PRIMEIRO status do container pai ainda em IN_PROGRESS (1/20) e declarou
+Instagram FALHOU. O `_ig_ultimas.py` mostrou o carrossel 17899461831588641 no
+perfil, com a legenda certa. Nada republicado. Nove rodadas, nove falsos
+negativos, sempre na mesma linha de código. O conserto continua pendente e
+continua sendo o mesmo: dormir alguns segundos antes do primeiro status e
+consultar /media antes de declarar falha. Enquanto não for feito, o placar do
+`postar.py` deve ser lido como "Instagram: não sei", nunca como "FALHOU".
+
+**29/08/2026 — A LEGENDA DE CINCO SLIDES NASCEU COM 2.439 CARACTERES E PRECISOU
+DE QUATRO CORTES PARA CABER.**
+O limite do Instagram é 2.200 e a instrução manda mirar 2.100. Escrita primeiro
+e medida depois, ela saiu 240 caracteres acima do teto, e cada corte devolveu
+menos do que parecia: 2.439 → 2.278 → 2.208 → 2.198 → 2.154. O que de fato
+economizou espaço foi FUNDIR parágrafos curtos no anterior, não trocar palavras.
+E há um custo fixo que não se corta: o link do `links.py` sozinho ocupa cerca de
+215 caracteres, mais a assinatura e as hashtags. Na prática o texto útil da
+legenda tem uns 1.750 caracteres, e é contra esse número que se deve escrever.
 
 **26/08/2026 (22h) — O WASH DA CAPA DE DOCUMENTO EM G04 É .82,.89,.94, NÃO
 .88,.93,.97.** A instrução manda `.88,.93,.97` para paleta escura sobre
@@ -1516,3 +1616,45 @@ Encolhimento IGUAL nos três slides é sinal de que o problema é a régua e nã
 texto de um slide: quando os três batem no mesmo número, o corte tem de ser
 proporcional em todos, e não concentrado no maior.
 
+**31/08/2026 — A PRIMEIRA PEÇA DO BLOCO A SAIU SEM MEXER NO GERADOR.**
+
+O `machine.py` não precisou de nenhuma alteração para o reposicionamento. O
+bloco "marca" do bloco A é só o bloco B sem os campos `selo` e `selo_largura`,
+com `descritor`, `prova`, `credencial`, `assinatura`, `cargo`, `chamada_publico`
+e `oferta_padrao` trocados. Spec sem `selo` simplesmente não desenha selo — não
+avisa, não quebra, não deixa buraco no layout. A faixa `EI EMPRESÁRIO` ocupou o
+mesmo espaço da `EI SELLER`, e a tira de prova com "SIMPLES NACIONAL" no lugar
+de "6 PLATAFORMAS ATENDIDAS" coube na mesma largura de três colunas.
+CONSEQUÊNCIA: alternar entre os dois blocos custa copiar o bloco certo da
+instrução. Não há trabalho de código pendente para o bloco A.
+
+**31/08/2026 — O ESTADO DO RODÍZIO A × B ESTAVA TODO EM B.**
+
+Antes desta peça, as cinco últimas eram G2, G1, G8 (abertura, hoje GA1), G7 e
+G6 — ou seja, quatro de marketplace e uma geral. A nova proporção pede no
+máximo duas de bloco B a cada cinco. Esta peça (GA3, comércio e varejo) é a
+primeira do bloco A com a marca reposicionada.
+PARA A PRÓXIMA SESSÃO, e é o que a regra pede daqui em diante: bloco B, depois
+bloco A, bloco A, bloco B. Sobram cinco áreas gerais nunca usadas — GA2 Simples
+Nacional, GA4 prestadores de serviço, GA5 folha de pagamento, GA6 troca de
+contador (a antiga troca de contador saiu em 23/08, mas pela ótica de seller) —
+e nove dos dez pontos de vazamento novos.
+
+**31/08/2026 — G01 CLARA SOBRE `doc:razao` A .74,.84,.93: O DOCUMENTO APARECE.**
+
+Confirmação prática da regra de overlay de 18/08, agora na paleta mais clara do
+conjunto (#F4F6F8 com azul #0B63CE). A razão atrás da capa ficou legível como
+tabela — dá para ver data, histórico e saldo — sem competir com a headline em
+Playfair preta. Nos internos, `.82,.91` sobre `doc:extrato` deixou o extrato
+como marca d'água e o texto limpo, igual ao que 24/08 tinha calibrado na G03.
+E o `granito` do slide 4, com o mesmo `.82,.91`, quase sumiu: repete o achado de
+23/08 de que em paleta clara a superfície lava quando o overlay é calibrado pelo
+documento. Não é defeito, é a escolha certa — o quadro de números é que manda ali.
+
+**31/08/2026 — QUADRO DE 7 LINHAS COM RODAPÉ DE 2 LINHAS COUBE A 94%.**
+
+Referência prática nova, ao lado da dos passos: sete linhas de quadro, com
+rótulo de até 2 linhas cada, título de 2 linhas e rodapé de 2 linhas fecham em
+94% — o mesmo teto que 24/08 registrou para quatro passos. Nenhum encostou na
+barra de progresso. Acima de sete linhas, cortar rótulo antes de cortar linha:
+o rótulo é que quebra em duas e come altura.

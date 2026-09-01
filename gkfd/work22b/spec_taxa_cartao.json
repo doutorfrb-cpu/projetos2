@@ -1,0 +1,97 @@
+{
+  "slug": "gkfd_taxa_cartao",
+  "outdir": "pc_gkfd22",
+  "paleta": "G01",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA PEQUENAS E MÉDIAS EMPRESAS",
+    "chamada_publico": "EI EMPRESÁRIO",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "SIMPLES NACIONAL",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade para pequenas e médias empresas · abertura, fiscal, folha e apuração",
+    "assinatura": "GKFD Contábil<br>Contabilidade para pequenas e médias empresas",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para pequenas e médias empresas",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Descubra em 30 segundos se você está pagando imposto a mais: sistema gratuito, sem cadastro, em www.gkfd.com.br"
+  },
+  "cenas": [
+    "doc:razao/dobra",
+    "linho",
+    "doc:extrato/copia",
+    "granito",
+    "duna"
+  ],
+  "seeds": [
+    9821,
+    9822,
+    9823,
+    9824,
+    9825
+  ],
+  "overlay": [
+    ".74,.84,.93",
+    ".82,.91",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L1",
+      "chamada": "A MAQUININHA DESCONTA ANTES",
+      "peca": "TAXA DE CARTÃO",
+      "headline": "A maquininha desconta antes,<br>e a taxa nunca<br><b>virou custo</b>",
+      "apoio": "Você vendeu R$ 100 no balcão e a operadora creditou R$ 96,80 dois dias depois. O imposto sobre os R$ 100 está certo. O que ninguém lançou foram os R$ 3,20 — e a margem do mês foi calculada como se a venda tivesse entrado inteira."
+    },
+    {
+      "kicker": "Comércio e varejo · fechamento do mês",
+      "titulo": "Uma venda no cartão, três valores diferentes",
+      "passos": [
+        "<em>O valor da venda.</em> É ele que vai para a nota, para a receita bruta e para a base do Simples. A taxa da adquirente não reduz receita: a apuração é sobre o que foi vendido, não sobre o que foi creditado.",
+        "<em>O valor creditado.</em> A operadora retém a taxa antes de mandar o dinheiro. Ele chega líquido, em data própria, dentro de um extrato que quase nunca é aberto no fechamento.",
+        "<em>A taxa retida.</em> É despesa da empresa, nascida no dia da venda. Não lançada, ela não some do bolso — some só do relatório que você usa para decidir preço.",
+        "<em>Os três precisam existir na escrita.</em> Bruto na receita, taxa na despesa, líquido no banco. Faltando o do meio, a conta ainda fecha com o banco, e é no resultado que ela mente."
+      ],
+      "rodape": "Imposto sobre o bruto está certo. Margem sobre o bruto está errada."
+    },
+    {
+      "kicker": "O que o fechamento precisa responder",
+      "titulo": "Quatro perguntas antes de fechar o mês",
+      "passos": [
+        "<em>A taxa está lançada por bandeira?</em> Débito, crédito à vista e parcelado têm percentuais diferentes, e o extrato traz um por transação. Conferido só pelo total do mês, o desvio de meio ponto passa liso.",
+        "<em>A venda entrou na competência?</em> Vendeu dia 30, recebeu dia 2. Quem escritura pela data do crédito empurra receita para o mês seguinte e desalinha a apuração do DAS.",
+        "<em>A antecipação está separada?</em> Antecipar recebível tem custo próprio, que é despesa financeira. Somado à taxa da adquirente, vira um número só e desaparece dentro de tarifas bancárias.",
+        "<em>O estorno devolveu a taxa?</em> Venda cancelada devolve o valor ao cliente. A taxa nem sempre volta para a empresa, e isso se confere transação a transação, não pelo saldo."
+      ],
+      "rodape": "As quatro respostas estão no extrato da adquirente."
+    },
+    {
+      "kicker": "Demonstração",
+      "titulo": "O mesmo mês, com e sem a taxa lançada",
+      "formato": "quadro",
+      "linhas": [
+        ["Receita bruta do mês, toda no cartão", "R$ 120.000,00"],
+        ["Custo da mercadoria e despesas fixas", "R$ 100.000,00"],
+        ["DAS do mês, 6,84% efetivos", "R$ 8.208,00"],
+        ["Critério 1 — sobra com a taxa fora da conta", "R$ 11.792,00 · 9,83%"],
+        ["Taxa da adquirente, 3,20% médios", "R$ 3.840,00"],
+        ["Critério 2 — sobra com a taxa lançada", "R$ 7.952,00 · 6,63%"],
+        ["Diferença acumulada em doze meses", "R$ 46.080,00"]
+      ],
+      "rodape": "O DAS é o mesmo nos dois. Números de demonstração, não de caso real."
+    },
+    {
+      "ponte": "A taxa não some.<br>Ela só deixa<br><b>de aparecer.</b>",
+      "itens": [
+        "Extrato da adquirente conferido por bandeira, prazo e transação",
+        "Taxa, antecipação e estorno separados do que é receita",
+        "Margem do mês calculada sobre o que entrou de verdade"
+      ],
+      "oferta": "Descubra em 30 segundos se você está pagando imposto a mais: sistema gratuito, sem cadastro, em www.gkfd.com.br"
+    }
+  ]
+}

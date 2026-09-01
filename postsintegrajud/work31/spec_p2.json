@@ -1,0 +1,49 @@
+{
+ "slug": "integrajud_indice_proprio",
+ "outdir": "peca_p2",
+ "paleta": "P07",
+ "cenas": [
+  "doc:memoria/envelhecido",
+  "granito",
+  "foto:px_16514852.jpg"
+ ],
+ "seeds": [
+  1201,
+  1202,
+  1203
+ ],
+ "overlay": [
+  ".68,.82,.93",
+  ".34,.46",
+  ".42,.74"
+ ],
+ "slides": [
+  {
+   "layout": "L1",
+   "chamada": "O PRAZO JÁ COMEÇOU",
+   "peca": "PRÉ-EXECUTIVIDADE",
+   "headline": "<b>O título corrige por um índice</b> que não existe em série pública",
+   "apoio": "Índice que ninguém consegue reproduzir não é critério de correção — é número afirmado."
+  },
+  {
+   "kicker": "Índice contratual próprio",
+   "titulo": "O que torna o vício demonstrável de plano",
+   "passos": [
+    "<em>Fonte do índice</em>: quem publica, onde, com que periodicidade — ou se não publica.",
+    "<em>Fórmula pactuada</em> contra a fórmula efetivamente aplicada na planilha.",
+    "<em>Reprodutibilidade</em>: a mesma base tem que chegar ao mesmo saldo, por qualquer um.",
+    "<em>Substituição silenciosa</em> do índice no meio da série, sem aditivo."
+   ],
+   "rodape": "Vício que se demonstra com aritmética, sem dilação probatória, cabe na via estreita."
+  },
+  {
+   "ponte": "Alegar índice indevido exige refazer a série.<br>Sem a conta, sobra a afirmação do exequente.",
+   "itens": [
+    "Reprodução da série de correção",
+    "Conferência de fórmula e de fonte do índice",
+    "Assistência técnica em execução e embargos"
+   ],
+   "oferta": "Mande o contrato e a planilha do exequente. Em até 24h úteis eu digo se reproduz"
+  }
+ ]
+}

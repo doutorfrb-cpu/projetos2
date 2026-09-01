@@ -1,0 +1,46 @@
+{
+  "slug": "integrajud_inss",
+  "outdir": "peca_inss",
+  "paleta": "P04",
+  "cenas": [
+    "foto:px_37100690.jpg",
+    "linho",
+    "foto:px_17846111.jpg"
+  ],
+  "seeds": [
+    610,
+    611,
+    612
+  ],
+  "overlay": [
+    ".30,.52,.80",
+    ".40,.50",
+    ".58,.84"
+  ],
+  "slides": [
+    {
+      "headline": "<b>O INSS calculou.</b> Ninguém conferiu. O acordo foi homologado",
+      "apoio": "Quando o cálculo do réu vira a conta do processo, a diferença já não se discute."
+    },
+    {
+      "kicker": "Onde a conta do INSS costuma escorregar",
+      "titulo": "Quatro pontos que ninguém confere e mudam o valor",
+      "passos": [
+        "<em>Salários de contribuição não atualizados</em> pelo índice e pela data corretos: a base entra menor e todo o benefício nasce menor.",
+        "<em>Divisor e período básico de cálculo</em> apurados sobre janela errada alteram a RMI de forma permanente, não em um mês só.",
+        "<em>Atrasados sem juros e correção discriminados</em>: sem memória por competência, não há como saber o que foi pago.",
+        "<em>Descontos e compensações</em> de benefício anterior lançados em bloco, sem demonstrar de onde saiu cada parcela."
+      ],
+      "rodape": "Nenhum desses pontos aparece no total. Todos aparecem no caminho até ele."
+    },
+    {
+      "ponte": "O cálculo do réu não é prova.<br>É a versão dele da conta.",
+      "itens": [
+        "Recálculo de RMI e de atrasados, competência a competência",
+        "Conferência da planilha do INSS antes de o acordo ser homologado",
+        "Assistência técnica e quesitos na perícia contábil"
+      ],
+      "oferta": "Mande a planilha. Em até 24h úteis eu digo se há diferença a discutir"
+    }
+  ]
+}

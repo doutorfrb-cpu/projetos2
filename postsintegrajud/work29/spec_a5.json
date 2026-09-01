@@ -1,0 +1,49 @@
+{
+ "slug": "integrajud_parecer_seguro",
+ "outdir": "pc_a5",
+ "paleta": "P02",
+ "cenas": [
+  "doc:comparativo/formulario",
+  "linho",
+  "granito"
+ ],
+ "seeds": [
+  1501,
+  1502,
+  1503
+ ],
+ "overlay": [
+  ".54,.72,.88",
+  ".34,.46",
+  ".38,.68"
+ ],
+ "slides": [
+  {
+   "layout": "L3",
+   "chamada": "O LAUDO ESTÁ NOS AUTOS",
+   "peca": "PARECER DIVERGENTE",
+   "headline": "<b>Discordar do laudo</b> sem metodologia própria é discordar sem nada",
+   "apoio": "Parecer que só aponta erro do outro não sustenta tese. Precisa apurar por conta própria."
+  },
+  {
+   "kicker": "Parecer técnico divergente",
+   "titulo": "O que um parecer precisa ter para pesar",
+   "passos": [
+    "<em>Metodologia declarada</em>, com norma ou literatura que a ampare.",
+    "<em>Base de dados própria</em>, indicando origem de cada documento usado.",
+    "<em>Memória de cálculo</em> reproduzível por terceiro, do início ao fim.",
+    "<em>Conclusão quantificada</em>, não adjetivada."
+   ],
+   "rodape": "O juízo compara duas apurações. Só uma existir decide o processo antes da sentença."
+  },
+  {
+   "ponte": "Parecer divergente é trabalho técnico autônomo.<br>Não é crítica ao laudo oficial.",
+   "itens": [
+    "Parecer técnico com metodologia própria",
+    "Análise crítica de laudo pericial",
+    "Assistência técnica em ação securitária"
+   ],
+   "oferta": "Mande o laudo oficial. Em até 24h úteis eu digo se cabe parecer divergente"
+  }
+ ]
+}

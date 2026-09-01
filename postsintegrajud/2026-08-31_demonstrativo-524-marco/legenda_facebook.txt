@@ -1,0 +1,23 @@
+Há dois regimes de correção dentro da mesma conta desde 30 de agosto de 2024, e a maioria dos demonstrativos ainda sai com um fator só.
+
+O demonstrativo do art. 524 não acompanha o requerimento de cumprimento de sentença: ele é o requerimento. Principal, índice, termo inicial, juros, multa e honorários saem dele. Protocolado, esse número passa a ser o débito do processo até que alguém apresente a segunda conta — e quem apresenta tem quinze dias e o art. 525.
+
+O que mudou: a Lei 14.905/2024 reescreveu os arts. 389 e 406 do Código Civil e entrou em vigor em 30/08/2024. A atualização monetária passou ao IPCA e os juros à taxa legal, que corresponde à Selic com o IPCA deduzido. Para o período anterior ao marco, permanece o critério que o título e o julgado impuseram. A série, portanto, tem duas faixas.
+
+Quatro pontos que a memória precisa deixar visíveis:
+
+1. Onde a série foi cortada — subtotal em 29/08/2024 e reinício em 30/08/2024, em linhas separadas.
+2. Qual índice em cada trecho, com a fonte declarada.
+3. Como os juros correm depois do marco, lembrando que resultado negativo da taxa legal conta como zero (art. 406, §3º).
+4. Sobre que base incidem a multa e os honorários do art. 523: cada um dos 10% recai sobre o débito da intimação, não um sobre o outro.
+
+O erro que se repete é o fator único aplicado do termo inicial até hoje. Ele aparece no cabeçalho da planilha, num campo de índice só para todo o período, e na coluna de correção, quando o fator cresce sem quebra em agosto de 2024. Passa despercebido porque a planilha fecha: a soma bate, o total é coerente, a memória parece completa. O vício não está na aritmética, está na premissa que a alimenta — e conferir o resultado não encontra esse erro.
+
+Refazer não exige perícia nova. É a mesma conta em dois trechos, com o que já está nos autos: sentença, data da intimação e a tabela de cada período.
+
+Mande a planilha de cálculo. Em até 24h úteis eu digo se a série foi cortada.
+
+Clique e solicite a análise técnica inicial gratuita: www.integrajud.com.br/areas/civeis
+Ou fale direto no WhatsApp: https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20IntegraJud%20no%20Facebook%20sobre%20demonstrativo%20do%20art.%20524%20e%20o%20marco%20de%202024%20e%20queria%20falar%20sobre%20o%20c%C3%A1lculo%20do%20meu%20processo.
+
+IntegraJud · Inteligência pericial para advocacia

@@ -1,0 +1,46 @@
+{
+ "slug": "integrajud_haveres2",
+ "outdir": "peca_c4",
+ "paleta": "P06",
+ "cenas": [
+  "foto:px_5337733.jpg",
+  "pedra",
+  "foto:px_6636100.jpg"
+ ],
+ "seeds": [
+  41,
+  42,
+  43
+ ],
+ "overlay": [
+  ".36,.58,.84",
+  ".38,.48",
+  ".56,.84"
+ ],
+ "slides": [
+  {
+   "headline": "<b>O balanço que instrui a ação</b> foi feito pela outra parte",
+   "apoio": "Na disputa societária, quem controla a contabilidade controla o número inicial."
+  },
+  {
+   "kicker": "Conflito entre sócios",
+   "titulo": "O que o sócio de fora não enxerga sozinho",
+   "passos": [
+    "<em>Despesas pessoais na conta da empresa</em>, diluídas em rubricas genéricas.",
+    "<em>Retiradas desproporcionais</em> registradas como adiantamento e nunca acertadas.",
+    "<em>Operações com partes relacionadas</em> em condições que o mercado não daria.",
+    "<em>Balanço de determinação</em> confundido com o balanço anual mais próximo."
+   ],
+   "rodape": "Sem acesso à escrituração, o sócio discute com o número que o outro apresentou."
+  },
+  {
+   "ponte": "Exibição de documentos abre a contabilidade.<br>A perícia mostra o que ela contém.",
+   "itens": [
+    "Apuração de haveres com balanço de determinação",
+    "Análise de escrituração e partes relacionadas",
+    "Assistência técnica em dissolução parcial"
+   ],
+   "oferta": "Mande o balanço e o contrato social. Em até 24h úteis eu digo o que confrontar"
+  }
+ ]
+}

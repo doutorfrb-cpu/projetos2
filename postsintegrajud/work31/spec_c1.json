@@ -1,0 +1,46 @@
+{
+ "slug": "integrajud_prazo_laudo",
+ "outdir": "peca_c1",
+ "paleta": "P01",
+ "cenas": [
+  "foto:px_30350318.jpg",
+  "couro",
+  "foto:px_17190476.jpg"
+ ],
+ "seeds": [
+  11,
+  12,
+  13
+ ],
+ "overlay": [
+  ".42,.62,.86",
+  ".38,.48",
+  ".56,.84"
+ ],
+ "slides": [
+  {
+   "headline": "<b>O laudo chegou.</b> O prazo já está correndo",
+   "apoio": "Quinze dias para impugnar, e a conta que decide o processo é a do perito do juízo."
+  },
+  {
+   "kicker": "Impugnação ao laudo",
+   "titulo": "O que dá para conferir dentro do prazo",
+   "passos": [
+    "<em>Método declarado</em>: o laudo diz qual critério usou? Sem isso, o resultado não é reproduzível.",
+    "<em>Memória de cálculo</em>: dá para refazer a conta linha a linha, ou só existe o total?",
+    "<em>Documentos que sustentam</em> cada número, e os que o perito pediu e não recebeu.",
+    "<em>Quesitos sem resposta</em>: o que ficou em branco vale tanto quanto o que foi respondido."
+   ],
+   "rodape": "Quatro conferências cabem em quinze dias. Refazer tudo do zero, não."
+  },
+  {
+   "ponte": "Impugnar sem laudo divergente é discordar.<br>Com parecer técnico, é demonstrar.",
+   "itens": [
+    "Parecer técnico divergente dentro do prazo",
+    "Assistência técnica e quesitos complementares",
+    "Recálculo com memória e critérios declarados"
+   ],
+   "oferta": "Mande o laudo hoje. Em até 24h úteis eu digo se há o que impugnar"
+  }
+ ]
+}

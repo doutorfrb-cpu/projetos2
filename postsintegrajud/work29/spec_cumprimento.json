@@ -1,0 +1,46 @@
+{
+  "slug": "integrajud_cumprimento",
+  "outdir": "peca_cumprimento",
+  "paleta": "P05",
+  "cenas": [
+    "foto:px_13315189.jpg",
+    "trama",
+    "foto:px_11176866.jpg"
+  ],
+  "seeds": [
+    940,
+    941,
+    942
+  ],
+  "overlay": [
+    ".52,.70,.88",
+    ".38,.48",
+    ".56,.82"
+  ],
+  "slides": [
+    {
+      "headline": "<b>Quinze dias para impugnar</b> o cálculo. E ele tem trinta páginas",
+      "apoio": "No cumprimento de sentença, o prazo corre sobre a conta da outra parte."
+    },
+    {
+      "kicker": "Cumprimento de sentença",
+      "titulo": "Onde olhar primeiro quando o prazo é curto",
+      "passos": [
+        "<em>Termo inicial de correção e de juros</em>: citação, evento danoso ou trânsito em julgado mudam o total sem mudar uma linha da conta.",
+        "<em>Índice aplicado</em> conforme o título e a fase — trocar o índice altera anos de atualização de uma vez.",
+        "<em>Base sobre a qual incide a multa e os honorários</em> do art. 523: se a base já vem inflada, os 20% acompanham.",
+        "<em>Abatimento de valores pagos</em> lançado sem data: pagamento na data errada vira diferença que se acumula até o fim."
+      ],
+      "rodape": "Quatro conferências cabem no prazo. A conta inteira, refeita do zero, não cabe."
+    },
+    {
+      "ponte": "Impugnar sem recálculo é discordar.<br>Com recálculo, é demonstrar.",
+      "itens": [
+        "Recálculo de liquidação com memória e critérios declarados",
+        "Parecer técnico para instruir a impugnação no prazo",
+        "Assistência técnica em perícia contábil de execução"
+      ],
+      "oferta": "Mande o cálculo. Em até 24h úteis eu digo se há o que impugnar"
+    }
+  ]
+}

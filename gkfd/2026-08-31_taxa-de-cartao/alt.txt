@@ -1,0 +1,5 @@
+Capa sobre taxa de cartao: a maquininha desconta antes de pagar e a taxa nunca virou custo no fechamento do mes.
+Slide sobre os tres valores de uma venda no cartao: o bruto que vai para a receita, a taxa retida pela adquirente e o liquido que entra no banco.
+Slide com quatro perguntas do fechamento: taxa lancada por bandeira, venda na competencia, antecipacao separada e estorno que devolve ou nao a taxa.
+Slide de demonstracao com quadro de numeros: o mesmo mes com e sem a taxa lancada, mostrando que o DAS nao muda e a sobra cai de 9,83% para 6,63%.
+Slide de oferta da GKFD Contabil: conferencia do extrato da adquirente por bandeira, prazo e transacao, com telefone de WhatsApp e endereco do site.

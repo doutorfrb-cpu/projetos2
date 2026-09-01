@@ -1,0 +1,33 @@
+{
+  "slug": "integrajud_ebitda",
+  "outdir": "peca_ebitda",
+  "paleta": "P01",
+  "cenas": ["gesso", "madeira", "granito"],
+  "seeds": [901, 902, 903],
+  "overlay": [".16,.38,.66", ".38,.48", ".30,.56"],
+  "slides": [
+    {
+      "headline": "<b>EBITDA ajustado</b> sem dizer o ajuste é opinião",
+      "apoio": "Cada exclusão precisa de nome, valor e razão."
+    },
+    {
+      "kicker": "Erro de apuração",
+      "titulo": "Quatro pontos onde o ajuste escorrega",
+      "passos": [
+        "<em>Despesa dita não recorrente</em> que se repete em três exercícios seguidos deixou de ser não recorrente.",
+        "<em>Pró-labore e despesa do sócio</em> normalizados sem critério declarado inflam o resultado.",
+        "<em>Provisão revertida</em> lançada como ganho operacional muda a base sem mudar o caixa.",
+        "<em>Ajuste sem contrapartida</em> no balanço: o que sai da despesa precisa aparecer em algum lugar."
+      ],
+      "rodape": "Ajuste sem memória não é indicador: é argumento com aparência de número."
+    },
+    {
+      "ponte": "Calcular o EBITDA é fórmula.<br>Justificar o ajuste é laudo.",
+      "itens": [
+        "Reconstrução do EBITDA com cada ajuste demonstrado",
+        "Teste de recorrência das despesas excluídas",
+        "Parecer técnico em valuation e apuração de resultado"
+      ]
+    }
+  ]
+}

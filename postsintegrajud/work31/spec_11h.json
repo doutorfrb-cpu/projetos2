@@ -1,0 +1,52 @@
+{
+ "slug": "integrajud_alimentos_renda",
+ "outdir": "pc_11h",
+ "paleta": "P07",
+ "cenas": [
+  "doc:evolucao/formulario",
+  "trama",
+  "foto:px_27409011.jpg"
+ ],
+ "seeds": [
+  1801,
+  1802,
+  1803
+ ],
+ "overlay": [
+  ".30,.54,.86",
+  ".34,.46",
+  ".46,.74"
+ ],
+ "slides": [
+  {
+   "layout": "L1",
+   "chamada": "ANTES DA AUDIÊNCIA",
+   "peca": "AÇÃO DE ALIMENTOS",
+   "headline": "<b>O percentual incide sobre o pró-labore.</b> A renda está na distribuição",
+   "apoio": "Pró-labore é valor que o próprio sócio decide. Fixar a base sobre ele é fixar sobre o menor número disponível.",
+   "retrato": "fundo",
+   "retrato_forca": 0.7,
+   "retrato_lado": "direita"
+  },
+  {
+   "kicker": "Alimentos e revisional",
+   "titulo": "O que se apura quando o alimentante é sócio",
+   "passos": [
+    "<em>Pró-labore</em> é decidido pelo próprio sócio — não mede renda.",
+    "<em>Distribuição de lucros</em>: valor, periodicidade e conta que recebeu.",
+    "<em>Despesa pessoal</em> paga pela empresa integra a disponibilidade.",
+    "<em>Conta corrente de sócio</em>: retirada que sai sem nome de renda."
+   ],
+   "rodape": "Renda declarada não é renda disponível. A diferença aparece na escrituração, não na declaração."
+  },
+  {
+   "ponte": "A base da pensão se apura.<br>E se apura antes de ela ser fixada.",
+   "itens": [
+    "Apuração de renda disponível do sócio",
+    "Análise de distribuição, retiradas e despesa pessoal",
+    "Assistência técnica em alimentos e revisional"
+   ],
+   "oferta": "Mande o contrato social e as declarações. Em até 24h úteis eu digo o que dá para apurar"
+  }
+ ]
+}
