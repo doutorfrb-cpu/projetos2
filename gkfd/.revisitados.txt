@@ -10,3 +10,5 @@
 2026-08-22_antecipacao-recebivel
 2026-08-22_malha-intimacao
 2026-08-22_tarifa-comissao
+2026-08-23_piso-de-preco
+2026-08-23_troca-de-contador

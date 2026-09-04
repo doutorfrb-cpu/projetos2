@@ -49,6 +49,10 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
 
 2026-08-31 | 11h55 | GA3 contabilidade para comércio e varejo (BLOCO A — primeira peça geral depois do reposicionamento) | M7 fechamento do mês | TAXA DE CARTÃO (ponto de vazamento NOVO, dos 10 de 31/08) | A MAQUININHA DESCONTA ANTES | taxa da adquirente retida antes do repasse e nunca lançada como despesa: o imposto sobre o bruto está certo, a margem sobre o bruto está errada | os três valores de uma venda no cartão (bruto, taxa, líquido), as quatro perguntas do fechamento e a demonstração dos dois critérios | A maquininha desconta antes, e a taxa nunca virou custo | L1 | doc:razao/dobra (DOCUMENTO) | G01 azul painel | /areas/comercio-varejo | FB 1336325419554251_122104431399451002 | IG 17967254487160358 (o postar.py reportou FALHOU com OAuthException 4 depois do container pai 18092076815282865; o _ig_ultimas.py confirmou a mídia no perfil às 14:58 UTC — NÃO foi republicada. Sétima vez que o erro 4 é falso) | story e reel publicados nos quatro destinos | story IG 18619784044044817 · story Página 2200803627149608 · reel IG 18119961761476006 · reel Página 1698454974546244 | COM modo demonstração, em quadro de 7 linhas (o rodízio pedia; R$ 120.000,00 de receita só no cartão, R$ 100.000,00 de custo e despesa fixa, DAS R$ 8.208,00: critério 1 sobra R$ 11.792,00 · 9,83% × critério 2 sobra R$ 7.952,00 · 6,63%, taxa de R$ 3.840,00, diferença R$ 46.080,00 em doze meses; o DAS é o mesmo nos dois) | SEM selo Platinum e SEM "Mercado Líder" na legenda (regra do bloco A) | chamada_publico EI EMPRESÁRIO | descritor e prova do bloco A ("SIMPLES NACIONAL" no lugar de "6 PLATAFORMAS ATENDIDAS") | oferta nova do bloco A (sistema gratuito de 30 segundos) + oferta de 24h úteis na legenda | plataforma NÃO citada pelo nome (peça geral, não cabe) | primeiro comentário TENTADO e FALHOU nos dois (IG OAuthException 10, FB OAuthException 200 — escopo do app, estado conhecido) | revisita: story da peça 2026-08-22_tarifa-comissao (story 18091442057134747) | artigo do LinkedIn NÃO gerado (a ordem da execução dizia NÃO) | encolhimento 94% nos três slides internos | legenda IG 2143 caracteres
 
+2026-09-02 | 06h50 | GB1 contabilidade do e-commerce (BLOCO B) | M13 fechando o ano (MOMENTO NOVO, primeiro dos quatro de 31/08 a rodar) | FECHAMENTO FORA DO PRAZO | O NÚMERO CHEGA TARDE | escrituração que anda meses atrás do caixa, e decisão de dezembro (regime, retirada, preço) tomada com o último mês fechado lá atrás | o que o fechamento sustenta (receita do ano, estoque em 31/12, retirada do sócio, balanço que terceiro lê), as quatro perguntas que só o fechamento em dia responde e o erro que se repete | Você decide o ano que vem com o número de agosto | L4 | duna (SUPERFÍCIE, segundo giro — 21/08 foi G05 em L2; aqui G06 em L4) | G06 vermelho retido | /areas/contabilidade | FB 1336325419554251_122104803705451002 | IG 17947928142269695 (o postar.py reportou FALHOU com OAuthException 4 no PRIMEIRO status do container pai 18092522759282865, ainda IN_PROGRESS 1/20; o _ig_ultimas.py confirmou a mídia no perfil às 09:50 UTC — NÃO foi republicada. OITAVA vez que o erro 4 é falso) | story e reel publicados nos quatro destinos | story IG 18135124630621512 · story Página 1587288952749363 · reel IG 18106199564269561 · reel Página 955413146913930 | cifra do L4: "4 DECISÕES" com rótulo "o que dezembro exige" | SEM modo demonstração (slide 4 no formato "o erro que se repete"; o rodízio pedia, a de 31/08 saiu COM) | COM selo Platinum, descritor, prova, credencial, assinatura e oferta_padrao do bloco B | chamada_publico EI SELLER | plataforma citada: Magalu, dentro de afirmação sobre a LEI ("a lei mede o prazo pela empresa, não pelo canal") — era o próximo da fila | primeiro comentário TENTADO e FALHOU nos dois (IG OAuthException 10, FB OAuthException 200 — escopo do app, estado conhecido) | revisita: story da peça 2026-08-23_piso-de-preco (story 18619837894055710) | artigo do LinkedIn NÃO gerado (a ordem da execução dizia NÃO) | encolhimento 94% nos três slides internos | legenda IG 2063 caracteres
+
+2026-09-03 | 18h15 | GA5 folha de pagamento (BLOCO A — área geral ESTREANTE) | M11 primeira contratação (MOMENTO NOVO, segundo dos quatro de 31/08 a rodar) | FOLHA E ENCARGOS (ponto de vazamento NOVO, dos 10 de 31/08) | O SALÁRIO NÃO É O CUSTO | salário combinado como se fosse o custo do funcionário, com FGTS, 13º e férias nascendo no mesmo instante e nunca provisionados | as cinco parcelas de um salário só, as quatro perguntas antes de assinar a carteira e a demonstração dos dois critérios | Contratou pelo salário. O custo tem cinco parcelas | L5 | doc:planilha/copia (DOCUMENTO) | G04 noturno operacional | /areas/folha | FB 1336325419554251_122105182509451002 | IG 18113285461931305 (o postar.py reportou FALHOU com OAuthException 4 no PRIMEIRO status do container pai 18092891747282865, ainda IN_PROGRESS 1/20; o _ig_ultimas.py confirmou a mídia no perfil às 21:16 UTC — NÃO foi republicada. NONA vez que o erro 4 é falso) | story e reel publicados nos quatro destinos | reel IG 17907992250494583 | COM modo demonstração, em quadro de 7 linhas (o rodízio pedia; salário R$ 2.000,00, FGTS R$ 160,00, 13º R$ 166,67, férias com o terço R$ 222,22, FGTS sobre os dois R$ 31,11: critério 1 R$ 2.000,00 × critério 2 R$ 2.580,00 · 1,29×, diferença R$ 6.960,00 em doze meses; rodapé rotula anexo III, sem vale-transporte e sem multa rescisória) | SEM selo Platinum e SEM "Mercado Líder" na legenda (regra do bloco A) | chamada_publico EI EMPRESÁRIO | descritor e prova do bloco A | oferta nova do bloco A (sistema gratuito de 30 segundos) + oferta de 24h úteis na legenda | plataforma NÃO citada pelo nome (peça geral, não conta no rodízio de citação) | primeiro comentário TENTADO e FALHOU nos dois (IG OAuthException 10, FB OAuthException 200 — escopo do app, estado conhecido) | revisita: story da peça 2026-08-23_troca-de-contador (story 17998486940809761) | artigo do LinkedIn NÃO gerado (a ordem da execução dizia NÃO) | encolhimento 94% nos slides 2 e 3, slide 4 a 100% | legenda IG 2064 caracteres
+
 ## Rodízio — estado atual
 - Total do perfil: 21 posts com log. (A peça A3 repasse / REPASSE DO MÊS,
   de 17-18/08, saiu antes do log existir — considerar A3 e o ponto de
@@ -125,6 +129,27 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   prazo de contestação correndo; devolução é venda desfeita pelo COMPRADOR, com
   mercadoria voltando, nota de entrada a emitir e estoque a corrigir. O que
   parecia tema irmão virou tema oposto assim que o par mudou.
+  DÉCIMA TERCEIRA REPETIÇÃO: GB1 (contabilidade do e-commerce) saiu em 21/08 20h
+  com M2 (escrituração por extrato) e em 25/08 16h50 com M5 (conciliação
+  ERP × plataforma), e voltou em 02/09 com M13 e FECHAMENTO FORA DO PRAZO. Par
+  novo, ponto novo, e agora são TRÊS peças na mesma área. A distinção que
+  sustenta as três, e vale registrar porque elas são vizinhas: a de 21/08 ataca
+  a FONTE errada (o crédito bancário não serve de base para escriturar); a de
+  25/08 ataca a AUSÊNCIA de conciliação entre fontes (quatro números do mesmo
+  mês); a de 02/09 ataca o TEMPO (a escrita pode estar certa e chegar tarde
+  demais para a decisão que dezembro cobra). Fonte, conciliação e prazo — três
+  falhas diferentes do mesmo processo.
+- RODÍZIO A × B (regra de 31/08: no máximo duas de bloco B a cada cinco):
+  31/08 bloco A (GA3), 02/09 bloco B (GB1), 03/09 bloco A (GA5). A recomendação
+  que o log de 31/08 deixou era "bloco B, depois bloco A, bloco A, bloco B", e a
+  peça de hoje cumpriu o primeiro dos dois blocos A. FALTA UM BLOCO A, e depois
+  volta o bloco B — fechando o ciclo A-B-A-A-B da regra de 31/08.
+  Áreas gerais ainda nunca usadas: GA2 Simples Nacional e enquadramento,
+  GA4 prestadores de serviço, GA6 troca de contador (a troca de 23/08 saiu, mas
+  pela ótica de seller e sob a área antiga). A GA5 folha de pagamento ESTREOU em
+  03/09, com M11 e FOLHA E ENCARGOS.
+  GA1 abertura já tem três peças no acervo antigo (G8), então as quatro acima
+  são o caminho de menor repetição.
 - Momentos usados: M7 fechamento do mês (3x — G3, G6 e G4), M6 investindo em ADS,
   M8 saldo retido, M3 crescendo rápido (4x — G2 Fator R, G5 tarifa,
   G3 antecipação e G7 preço),
@@ -174,15 +199,40 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   dos momentos: M3 5x, M7 3x, M2 3x, M4 2x, M5 2x, M8 2x, e M1, M6, M9 e M10
   com uma aparição cada. M1, M9 e M10 continuam sendo os menos usados com par
   ainda livre; M6 segue travado pelo par natural G5×M6 de 18/08.
+  M7 voltou em 31/08, com GA3 e TAXA DE CARTÃO — agora 4x, empatado com o M3.
+  M13 (fechando o ano) ESTREOU em 02/09, com GB1 e FECHAMENTO FORA DO PRAZO.
+  É o PRIMEIRO dos quatro momentos novos de 31/08 a rodar, e vale registrar o
+  alívio que ele traz: M11, M12 e M14 continuam intactos, e os quatro juntos
+  destravam a pressão que vinha empurrando M3 e M7 para 4x e 5x. Estado atual:
+  M3 5x, M7 4x, M2 3x, M4 2x, M5 2x, M8 2x, M1/M6/M9/M10/M13 1x, e
+  M11/M12/M14 zerados.
+  M11 (primeira contratação) ESTREOU em 03/09, com GA5 e FOLHA E ENCARGOS — é o
+  segundo dos quatro momentos novos a rodar, e saiu exatamente no par que a
+  recomendação abaixo previa. Estado atual: M3 5x, M7 4x, M2 3x, M4 2x, M5 2x,
+  M8 2x, M1/M6/M9/M10/M11/M13 1x, e M12/M14 zerados.
+  RECOMENDAÇÃO PARA AS PRÓXIMAS: puxar M12 (saindo do MEI) e M14 (pedindo
+  crédito) antes de repetir qualquer coisa. Os três são
+  de público geral e casam com os 9 pontos de vazamento novos que sobraram —
+  M11 com FOLHA E ENCARGOS, M14 com DESPESA PESSOAL NA PJ ou INADIMPLÊNCIA,
+  M12 com SUBLIMITE ESTADUAL ou PRÓ-LABORE. É a combinação mais folgada que a
+  operação tem hoje, e ela nasce toda do reposicionamento.
 - Pontos de vazamento usados: REPASSE DO MÊS, ADS DA PLATAFORMA, SALDO RETIDO,
   ANEXO E FATOR R, CHARGEBACK, DRE POR CANAL, EXTRAVIO E AVARIA, CNPJ E CNAE,
   ESCRITURAÇÃO POR EXTRATO, TARIFA E COMISSÃO, MALHA E INTIMAÇÃO,
   ANTECIPAÇÃO DE RECEBÍVEL, TROCA DE CONTADOR, PREÇO, FRETE, INVENTÁRIO,
   ICMS-ST, CONCILIAÇÃO ERP × PLATAFORMA, MEI NO LIMITE, BLOQUEIO DE CONTA,
-  DEVOLUÇÃO.
-  Sobram 7 dos 28: ESTORNO, DIFAL, REGIME TRIBUTÁRIO,
-  BALANCETE SEM CANAL, FECHAMENTO FORA DO PRAZO, INSCRIÇÃO ESTADUAL,
-  EMPRESA PARADA.
+  DEVOLUÇÃO, TAXA DE CARTÃO (dos 10 novos, em 31/08),
+  FECHAMENTO FORA DO PRAZO (02/09), FOLHA E ENCARGOS (03/09).
+  Sobram 5 dos 28 originais: ESTORNO, DIFAL, REGIME TRIBUTÁRIO,
+  BALANCETE SEM CANAL, INSCRIÇÃO ESTADUAL, EMPRESA PARADA — e 8 dos 10 novos
+  de 31/08 (saíram TAXA DE CARTÃO e FOLHA E ENCARGOS). Os 8 novos servem ao
+  bloco A e continuam sendo a reserva mais folgada da operação: PRAZO DE
+  RECEBIMENTO, PRÓ-LABORE, NFS-e E ISS, CONTRATO RECORRENTE, DESPESA PESSOAL
+  NA PJ, INADIMPLÊNCIA, SUBLIMITE ESTADUAL e PARCELAMENTO EM ABERTO.
+  ATENÇÃO AO PRÓ-LABORE: a peça de 03/09 já usou o pró-labore como TERCEIRA das
+  quatro perguntas, pelo ângulo do Fator R. Ele continua utilizável como tarja
+  própria, mas precisa de eixo diferente — a peça dele é a do sócio que retira
+  sem folha e descobre no INSS, não a do numerador do Fator R, que já saiu.
   ATENÇÃO AO ESTORNO: com a DEVOLUÇÃO gasta em 29/08, ele ficou na mesma
   situação em que a DEVOLUÇÃO estava em relação ao CHARGEBACK. Ele continua
   utilizável, mas exige o mesmo cuidado que funcionou aqui: par área × momento
@@ -206,7 +256,8 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   três peças entre os dois, ou puxe-o por uma área que não seja a G1.
 - Paletas GKFD: G01 azul painel, G02 verde liberado, G03 laranja embalagem,
   G04 noturno operacional, G05 roxo plataforma, G06 vermelho retido.
-  Últimas três: G02, G04, G03. Próxima peça sai em G01, G05 ou G06.
+  Últimas três: G01 (31/08), G06 (02/09), G04 (03/09).
+  Próxima peça sai em G02, G03 ou G05.
 - Frases de efeito usadas: CONFERE UMA COISA, ANTES DE SUBIR O ORÇAMENTO,
   O DINHEIRO JÁ É SEU, A FOLHA DECIDE O ANEXO, VENDA DESFEITA,
   FATURA MAIS, SOBRA MENOS, ESTOQUE FORA DE CASA, O CADASTRO COBRA DEPOIS,
@@ -214,13 +265,14 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   O DINHEIRO CHEGOU ANTES, O PASSADO VEM JUNTO, O PREÇO FICOU PARADO,
   O CUSTO DE ENTREGAR, NINGUÉM CONTOU, JÁ VEIO COM IMPOSTO,
   QUAL DELES ESTÁ CERTO, O TETO NÃO AVISA, A CONTA PAROU, O CUSTO NÃO,
-  A MERCADORIA VOLTOU.
-- Layouts: L1 a L6. Últimos três: L4, L5, L2. Próxima peça sai em L1 — e é a
-  única disponível: com L3 e L6 vetados pelo selo de 320px, sobraram quatro
-  layouts para uma regra de rodízio de três. Na prática o rodízio virou fixo
-  L1-L2-L4-L5, e a peça de 29/08 confirmou isso pela segunda volta completa.
-  Se isso incomodar, ou o selo encolhe, ou a regra passa a ser
-  "fora dos DOIS últimos".
+  A MERCADORIA VOLTOU, A MAQUININHA DESCONTA ANTES,
+  O NÚMERO CHEGA TARDE, O SALÁRIO NÃO É O CUSTO.
+- Layouts: L1 a L6. Últimos três: L1 (31/08), L4 (02/09), L5 (03/09).
+  Próxima peça sai em L2 — ou em L6, SE for peça do BLOCO A.
+  A DESTRAVA DE 02/09 FOI PELA METADE. Ver a lição de 03/09: o L3 continua
+  VETADO, e não pelo selo — o `.L3 .apoio` é `position:absolute; bottom:120px`
+  e o rodapé de anúncio ocupa dali para cima. O L6 permanece jogável no bloco A,
+  com uma ressalva de alinhamento também registrada nas lições.
 - Modo demonstração: usada em 18/08 (ADS), 19/08 manhã (Fator R), 20/08 16h
   (DRE por canal), 21/08 16h (CNAE, em quadro) e 22/08 18h (tarifa, em quadro).
   As de 21/08 20h e 22/08 20h saíram SEM demonstração, e a de 22/08 23h
@@ -236,31 +288,40 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   A de 29/08 (DEVOLUÇÃO) saiu SEM, no formato "o erro que se repete" — o
   rodízio pedia, e o tema ajudou: a devolução desemboca em base de imposto E em
   custo de estoque ao mesmo tempo, e um quadro só teria de escolher um dos dois.
-  O rodízio pede que a PRÓXIMA saia COM demonstração.
+  A de 31/08 (TAXA DE CARTÃO) saiu COM, em quadro de 7 linhas.
+  A de 02/09 (FECHAMENTO FORA DO PRAZO) saiu SEM, no formato "o erro que se
+  repete" — o rodízio pedia, e o tema é de tempo e procedimento, não de conta:
+  forçar aritmética num assunto cuja tese é "a decisão foi tomada sem número"
+  seria contradizer a própria peça.
+  A de 03/09 (FOLHA E ENCARGOS) saiu COM, em quadro de 7 linhas — o rodízio
+  pedia, e o tema é aritmético por natureza: o custo do funcionário É uma soma.
+  O rodízio pede que a PRÓXIMA saia SEM demonstração.
 - Sem banco de fotos: fundo sempre gerado (documento numérico + superfície
   neutra). Nada de foto.
-- TIPO DE CAPA DAS ÚLTIMAS TRÊS: SUPERFÍCIE (granito, repetido), DOCUMENTO
-  (apuracao/copia), SUPERFÍCIE (concreto, segundo giro). A PRÓXIMA CAPA É DE
-  DOCUMENTO: a sequência ficou sup-doc-sup e a alternância manda voltar ao
-  documento. Na fila das superfícies, para a vez seguinte: duna (21/08).
+- TIPO DE CAPA DAS ÚLTIMAS TRÊS: DOCUMENTO (razao/dobra, 31/08), SUPERFÍCIE
+  (duna, 02/09), DOCUMENTO (planilha/copia, 03/09). A PRÓXIMA CAPA É DE
+  SUPERFÍCIE: a sequência ficou doc-sup-doc e a alternância manda voltar à
+  superfície. Na fila do segundo giro, por antiguidade: couro (22/08).
   Superfícies já usadas em CAPA: granito (2x), concreto, duna, couro, madeira,
   linho, gesso. ESGOTADAS — as sete rodaram, e o segundo giro começou em 26/08
   com o granito. Repetindo material, troque a PALETA e o LAYOUT junto, que é o
   que carrega a diferença quando o material volta: o granito de 19/08 era G04
   noturno em L5 e o de 26/08 saiu G02 verde em L4, e não leem como irmãos.
-  Na fila do segundo giro, por antiguidade: duna (21/08), couro (22/08),
-  madeira (23/08), linho (24/08), gesso (25/08). O concreto saiu em 29/08, em
+  Na fila do segundo giro, por antiguidade: couro (22/08), madeira (23/08),
+  linho (24/08), gesso (25/08). O concreto saiu em 29/08, em
   G03 laranja e L2 — o de 20/08 era G01 azul em L1, e não leem como irmãos.
-  Confirma a receita do granito: material repetido só volta com paleta E layout
-  trocados.
+  A duna voltou em 02/09, em G06 vermelho e L4 — a de 21/08 era G05 roxo em L2.
+  Confirma a receita do granito pela terceira vez: material repetido só volta
+  com paleta E layout trocados.
   Papéis de `extrato` já usados em CAPA: dobra (2x), copia, formulario, liso.
   A família extrato está esgotada em papel: a próxima capa de documento sobre
   dinheiro da plataforma repete papel ou muda de família.
-  Famílias de documento já usadas em CAPA: extrato (5x), planilha (formulario
-  e dobra), comparativo (liso e dobra), apuracao (formulario e copia). Intacta
-  em capa: só razao — e a lição de 19/08 desaconselha razao (vocabulário de
-  financiamento). Na prática, a capa de documento da GKFD tem três famílias,
-  não cinco.
+  Famílias de documento já usadas em CAPA: extrato (5x), planilha (formulario,
+  dobra e copia), comparativo (liso e dobra), apuracao (formulario e copia),
+  razao (dobra, em 31/08 — o registro antigo de "razao intacta" estava vencido).
+  A planilha em papel `copia` estreou em 03/09, e a escolha veio do TEMA: peça
+  de folha de pagamento pede planilha atrás, não extrato. Papel livre na
+  planilha: só `liso` e `envelhecido`.
 - Plataforma citada pelo nome: a peça de 21/08 16h citou Shopee, Amazon e
   Magalu, numa frase que NÃO afirma política de plataforma nenhuma ("vender na
   Shopee, na Amazon ou no Magalu não muda essa classificação"). Foi assim que
@@ -290,10 +351,20 @@ DATA | HORA | ÁREA | MOMENTO | DOCUMENTO (o da tarja) | FRASE DE EFEITO | TÓPI
   graça pelo mesmo motivo da peça de 25/08 16h50: o assunto é a conta suspensa
   de qualquer plataforma, e "a plataforma" diz tudo. A de 29/08 (DEVOLUÇÃO)
   também NÃO citou, e fechou a dupla — de novo de graça, porque devolução é
-  evento de qualquer canal e a peça só precisa de "a plataforma". A PRÓXIMA
-  PODE CITAR.
+  evento de qualquer canal e a peça só precisa de "a plataforma". A de 31/08
+  (TAXA DE CARTÃO) NÃO citou porque é peça do BLOCO A: seller não é o leitor,
+  e nomear plataforma ali chamaria o público errado. A de 02/09 (FECHAMENTO
+  FORA DO PRAZO) CITOU o Magalu, sozinho, dentro de afirmação sobre a LEI
+  ("vender no Magalu ou em qualquer outra plataforma não muda a data: a lei
+  mede o prazo pela empresa, não pelo canal") — era o próximo da fila.
   Placar de nomes citados até aqui: Mercado Livre 3, Shopee 3, Amazon 3,
-  Magalu 2. Magalu é o próximo da fila.
+  Magalu 3. Empatados: a próxima citação pode ser qualquer um dos quatro, e
+  Shopee/Amazon/Magalu estão há mais tempo sem aparecer sozinhos.
+  A de 03/09 (FOLHA E ENCARGOS) NÃO citou, pelo mesmo motivo da de 31/08: é
+  peça do BLOCO A.
+  REGRA NOVA DE 02/09, e ela decorre do reposicionamento: a contagem de "uma
+  peça em três cita plataforma" só corre dentro do BLOCO B. Peça do bloco A
+  não cita e não conta — nem como citação, nem como omissão.
 
 ## LIÇÕES
 
@@ -1658,3 +1729,113 @@ rótulo de até 2 linhas cada, título de 2 linhas e rodapé de 2 linhas fecham 
 94% — o mesmo teto que 24/08 registrou para quatro passos. Nenhum encostou na
 barra de progresso. Acima de sete linhas, cortar rótulo antes de cortar linha:
 o rótulo é que quebra em duas e come altura.
+
+**02/09/2026 — O RÓTULO DA CIFRA DO L4 BATE NO TIL DA PALAVRA DE BAIXO.**
+
+Defeito NOVO, e é primo do de 24/08 (rótulo de duas linhas indo parar por baixo
+do número). Aqui o rótulo tinha UMA linha só e mesmo assim colidiu: a cifra era
+`4 DECISÕES`, e o til do `Õ` sobe acima da altura das maiúsculas e encostou no
+`A` final de `O QUE O FECHAMENTO SUSTENTA`, que terminava justamente sobre ele.
+O medidor não pega — como 24/08 já registrou, cifra e rótulo são filhos do
+mesmo bloco e sobreposição entre irmãos não é transbordo.
+CONSERTO: encurtar o rótulo para `o que dezembro exige`, que termina bem antes
+da coluna do `Õ`. Não foi preciso trocar a cifra.
+REGRA QUE FICA, mais estreita que a de 24/08: rótulo de cifra em até 5 palavras
+curtas E, se a cifra tiver letra com til, circunflexo ou cedilha, mais curto
+ainda — mire 20 caracteres. Conferir OLHANDO a capa continua sendo etapa: este
+não aparece em nenhum aviso do console.
+
+**02/09/2026 — L3 E L6 NÃO ESTÃO MAIS VETADOS: O SELO É QUE VETAVA.**
+
+Registro do estado do rodízio de layout, porque ele mudou sem ninguém mexer em
+código. Desde 19/08 o log dizia "L3 e L6 vetados pelo selo de 320px" e o rodízio
+tinha virado o ciclo fixo L1-L2-L4-L5. O selo só existe no BLOCO B — logo, em
+peça do bloco A os dois layouts vetados voltam a ser jogáveis.
+Ninguém testou ainda. A primeira peça de bloco A que usar L3 ou L6 deve olhar a
+capa renderizada com atenção: o veto original era visual, não sintático, e o
+gerador nunca reclamou deles.
+LIÇÃO GERAL, e é a terceira vez que ela aparece neste arquivo: restrição
+registrada como absoluta ("L3 e L6 estão vetados") costuma ser restrição
+condicional cuja condição ninguém escreveu junto. Quando a operação se divide
+em dois blocos, toda regra antiga precisa ser relida perguntando "isto vale nos
+dois?".
+
+**02/09/2026 — OITAVA VEZ QUE O `OAuthException 4` DO CARROSSEL FOI FALSO.**
+
+Mesmo padrão de sempre: Facebook publicado, `postar.py` estourando no PRIMEIRO
+status do container pai (`18092522759282865`, ainda IN_PROGRESS 1/20), e o
+`_ig_ultimas.py` mostrando o carrossel `17947928142269695` no perfil com a
+legenda certa. Nada foi republicado, nenhuma duplicata.
+Oito ocorrências, zero falhas reais. A essa altura o erro 4 no carrossel não é
+mais "suspeita de falso alarme": é ruído conhecido do publicador. O conserto de
+verdade continua pendente e continua sendo o mesmo descrito em 23/08 — espaçar
+as chamadas e, ao pegar erro depois do publish, consultar /media e devolver o
+id em vez de declarar falha. Enquanto isso não existir, a regra vale: NUNCA
+republicar, rodar `py _ig_ultimas.py` primeiro.
+
+
+**03/09/2026 — O L3 NÃO ESTAVA VETADO PELO SELO. ELE ESTÁ VETADO PELO RODAPÉ DE
+ANÚNCIO, E ISSO É DE CÓDIGO.**
+
+O log de 02/09 registrou que "L3 e L6 estavam vetados pelo SELO de 320px, que só
+existe no bloco B" e concluiu que em peça do bloco A os dois voltavam a ser
+jogáveis. Metade disso é falso, e dá para provar sem renderizar nada:
+
+    .L3 .apoio{position:absolute;bottom:120px;left:84px;right:84px;...}
+    .rodape-ad{position:absolute;left:84px;right:84px;bottom:96px;z-index:12}
+    .s.ad{padding-bottom:352px!important}
+
+O rodapé de anúncio começa em `bottom:96px` e sobe uns 256px. A linha de apoio do
+L3 é ancorada em `bottom:120px` — ou seja, DENTRO dele. E como as duas são
+`absolute`, o medidor por regra de 20/08 não vê: ele ignora quem está fora do
+fluxo, justamente para não confundir sobreposição com transbordo. O L3 sairia com
+a linha de apoio impressa por cima da faixa de WhatsApp, publicado, sem aviso
+nenhum no console. O selo nunca teve nada a ver com isso: o veto nasceu em 19/08,
+no mesmo dia em que o rodapé de anúncio entrou.
+
+O L6 é outro caso e continua jogável no bloco A. Ele não posiciona nada em
+absoluto: centraliza dentro da caixa já reduzida pelos dois paddings. A ressalva
+é de alinhamento — a pílula do selo de pauta é `.pauta{align-self:flex-start}` e
+NÃO existe regra `.L6 .pauta{align-self:center}`, então numa capa centrada a
+pílula sairia encostada à esquerda. Ou se aceita isso, ou se acrescenta a regra
+no `machine.py` antes de usar o L6.
+
+LIÇÃO GERAL, e é a quarta vez que ela aparece aqui em outra roupa: restrição
+registrada com a CAUSA ERRADA é pior que restrição sem causa. A de 02/09 tinha
+causa plausível, e por ser plausível ninguém a conferiu contra o CSS. Antes de
+destravar um layout velho, leia a regra que o posiciona — leva um minuto e teria
+evitado uma capa riscada.
+
+**03/09/2026 — O L5 ACEITA MANCHETE DE 4 LINHAS. A REGRA ANTIGA ENVELHECEU.**
+
+A instrução diz "headline de 3 linhas ou mais NÃO cabe no layout L5: use L1, L2
+ou L3". A manchete de hoje ("Contratou pelo salário. O custo tem cinco parcelas")
+saiu em QUATRO linhas e coube, com folga pequena mas real entre a última linha e
+o filete que fecha a metade sólida do L5.
+
+POR QUE MUDOU: a regra é anterior ao autoajuste da capa. Hoje a manchete se mede
+contra a faixa de marca em cima E contra o rodapé de anúncio embaixo, e encolhe
+sozinha até caber. O que era estouro virou fonte menor.
+
+O QUE NÃO MUDOU, e por isso a regra não deve ser apagada: com 4 linhas a folga
+fica em ~20px e a peça perde ar. Conferir OLHANDO continua sendo etapa. A leitura
+correta da regra hoje é "no L5, 4 linhas é o teto, e é apertado" — não "não
+cabe".
+
+**03/09/2026 — NONA VEZ QUE O `OAuthException 4` DO CARROSSEL FOI FALSO.**
+
+Mesmo padrão, sem nenhuma novidade: Facebook publicado, `postar.py` estourando no
+PRIMEIRO status do container pai `18092891747282865` ainda em IN_PROGRESS 1/20, e
+o `_ig_ultimas.py` mostrando o carrossel `18113285461931305` no perfil com a
+legenda certa, três minutos depois. Nada republicado, nenhuma duplicata.
+Nove ocorrências, zero falhas reais. Registro aqui só para manter a contagem: o
+conserto de verdade continua pendente e continua sendo o de 23/08 — espaçar as
+chamadas e, ao pegar erro depois do publish, consultar /media e devolver o id.
+
+**03/09/2026 — O STORY DO BLOCO A SAI EM `kit_anuncios`, NÃO NA PASTA DO SPEC.**
+
+Detalhe de operação que custou uma busca: o `story_ad.py` imprime só o nome do
+arquivo (`gkfd_folha_encargos_916.png`) e grava em `work22b/kit_anuncios/`, não
+no `outdir` do spec. O `reel.py`, ao contrário, grava no `outdir` e imprime o
+caminho inteiro. Quem procurar o 9:16 dentro de `pc_gkfdNN` não acha e acha que
+o story falhou. Não é defeito; é só assimetria entre os dois geradores.

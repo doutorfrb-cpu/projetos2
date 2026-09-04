@@ -7,3 +7,5 @@
 2026-08-15_exibicao-repasses
 2026-08-15_fator-r
 2026-08-15_horas-extras
+2026-08-15_lucros-cessantes
+2026-08-15_marketplace

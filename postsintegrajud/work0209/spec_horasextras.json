@@ -1,0 +1,34 @@
+{
+  "slug": "integrajud_horasextras",
+  "outdir": "peca_horasextras",
+  "paleta": "P04",
+  "cenas": ["pedra", "papel", "linho"],
+  "seeds": [101, 102, 103],
+  "overlay": [".20,.40,.66", ".38,.48", ".30,.56"],
+  "slides": [
+    {
+      "headline": "O <b>divisor errado</b> reduz a hora extra de todo o contrato",
+      "apoio": "E ninguém percebe: cada hora sai um pouco menor."
+    },
+    {
+      "kicker": "Onde a conta escorrega",
+      "titulo": "Quatro pontos que mudam o valor da hora extra",
+      "formato": "quadro",
+      "linhas": [
+        ["Divisor", "220 ou 200 conforme a jornada contratada e a norma coletiva; trocá-lo altera todas as horas."],
+        ["Base de cálculo", "salário mais as parcelas salariais habituais, não apenas o salário-base."],
+        ["Adicional", "50%, 100% ou o percentual da norma coletiva, sobre a hora já corrigida."],
+        ["Reflexos", "DSR, férias, 13º e FGTS — a diferença na hora se repete em cada reflexo."]
+      ],
+      "rodape": "Hora errada não erra uma vez: erra em cada mês do período."
+    },
+    {
+      "ponte": "Conferir uma hora é simples.<br>Refazer o período inteiro, não.",
+      "itens": [
+        "Recálculo do período com memória mês a mês",
+        "Conferência de divisor, base de cálculo e reflexos",
+        "Parecer técnico e assistência em liquidação trabalhista"
+      ]
+    }
+  ]
+}

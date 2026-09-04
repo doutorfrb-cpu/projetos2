@@ -1,0 +1,99 @@
+{
+  "slug": "gkfd_fechamento",
+  "outdir": "pc_gkfd23",
+  "paleta": "G06",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE · ESPECIALIDADE EM E‑COMMERCE",
+    "chamada_publico": "EI SELLER",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "6 PLATAFORMAS ATENDIDAS",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Especialidade em e-commerce e marketplace · apuração, conciliação de repasse e obrigações acessórias",
+    "assinatura": "GKFD Contábil<br>Especialidade em e-commerce e marketplace",
+    "nome": "GKFD Contábil",
+    "cargo": "Especialidade em e-commerce e marketplace",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa",
+    "selo": "selo-platinum.png",
+    "selo_largura": 320
+  },
+  "cenas": [
+    "duna",
+    "doc:apuracao/copia",
+    "gesso",
+    "doc:planilha/liso",
+    "concreto"
+  ],
+  "seeds": [
+    9921,
+    9922,
+    9923,
+    9924,
+    9925
+  ],
+  "overlay": [
+    ".30,.52,.74",
+    ".82,.91",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L4",
+      "chamada": "O NÚMERO CHEGA TARDE",
+      "peca": "FECHAMENTO FORA DO PRAZO",
+      "cifra": {
+        "valor": "4 DECISÕES",
+        "rotulo": "o que dezembro exige"
+      },
+      "headline": "Você decide o ano que vem<br>com o número <b>de agosto</b>",
+      "apoio": "A escrituração do e-commerce anda meses atrás do caixa: conciliação de repasse pendente, devolução sem nota, estoque sem contagem. Em dezembro você precisa decidir regime, retirada e preço — e o último mês fechado ainda é agosto."
+    },
+    {
+      "kicker": "E-commerce · fechando o ano",
+      "titulo": "O fechamento não é entrega. É base de decisão.",
+      "passos": [
+        "<em>Ele fixa a receita do ano.</em> Não a soma dos painéis, nem o que caiu no banco: a receita escriturada, já limpa de cancelamento, devolução e virada de mês. É esse número que define faixa, alíquota efetiva e limite.",
+        "<em>Ele mede o estoque em 31 de dezembro.</em> O saldo de inventário fecha o custo da mercadoria vendida do ano inteiro. Contado em março, ele conta o galpão de março e serve de fecho para um ano que já passou.",
+        "<em>Ele sustenta a retirada do sócio.</em> Sem escrituração contábil regular, o lucro distribuível fica preso ao cálculo presumido da lei. Com ela, o lucro é o que o resultado apurado demonstra.",
+        "<em>Ele é o balanço que terceiro vai ler.</em> Banco, adquirente e fornecedor pedem demonstração assinada quando você pede limite, prazo ou capital de giro. Quem não fechou não tem o que apresentar."
+      ],
+      "rodape": "Fechar o ano é produzir o número com que o ano seguinte será decidido."
+    },
+    {
+      "kicker": "O que o ano precisa responder",
+      "titulo": "Quatro perguntas que só o fechamento em dia responde",
+      "passos": [
+        "<em>A receita do ano bate com a declarada?</em> Painel de venda, nota emitida, relatório de repasse e escrituração dão quatro números do mesmo ano. Um só deles é receita bruta, e é ele que a apuração usa.",
+        "<em>O limite foi ultrapassado, e quando?</em> Excesso pequeno produz efeito no ano seguinte; excesso grande produz efeito imediato. A diferença entre os dois cenários se descobre pelo acumulado mês a mês, não em abril.",
+        "<em>Continuar no regime é a melhor conta?</em> A opção se comunica no começo do ano e vale para o ano inteiro. Simular sem o resultado fechado é escolher no escuro e conviver com a escolha por doze meses.",
+        "<em>O que está em poder de terceiro é seu?</em> Estoque no centro de distribuição, saldo retido pela plataforma e repasse a liberar continuam no seu ativo em 31 de dezembro. Fora do balanço, viram surpresa."
+      ],
+      "rodape": "As quatro respostas vencem em janeiro e nascem no fechamento de dezembro."
+    },
+    {
+      "kicker": "O erro que se repete",
+      "titulo": "O ano fecha em março, e a decisão foi em dezembro",
+      "passos": [
+        "<em>O mês é dado por fechado sem conciliação.</em> A apuração sai pelo relatório da plataforma e a diferença entre venda, repasse e banco fica para depois. Doze “depois” viram um ano que ninguém fechou.",
+        "<em>A pendência se acumula em silêncio.</em> Devolução sem nota de entrada, tarifa não classificada e estorno solto não travam nada no mês. Eles aparecem juntos no fim, quando o prazo já está em cima.",
+        "<em>A obrigação anual vira prazo isolado.</em> Vender no Magalu ou em qualquer outra plataforma não muda a data: a lei mede o prazo pela empresa, não pelo canal, e a entrega só reproduz o que a escrita já tinha.",
+        "<em>Decide-se com o número que existe.</em> Como dezembro não espera, regime, preço e retirada saem do último mês fechado. O ano seguinte inteiro fica preso a uma foto de agosto."
+      ],
+      "rodape": "O atraso não aparece como multa. Aparece como decisão tomada sem número."
+    },
+    {
+      "ponte": "Fechar o ano em dia<br>não é obrigação cumprida.<br><b>É decisão informada.</b>",
+      "itens": [
+        "Receita, estoque e repasse conciliados mês a mês",
+        "Resultado do ano fechado antes de janeiro",
+        "Regime do ano seguinte decidido com número na mão"
+      ],
+      "oferta": "Mande o relatório de repasse do mês. Em até 24h úteis eu digo se a apuração está certa"
+    }
+  ]
+}

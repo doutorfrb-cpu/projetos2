@@ -1,0 +1,19 @@
+A tabela de evolução do financiamento traz data, prestação, juros, amortização e saldo. Não traz uma linha dizendo qual sistema de amortização a gerou — e é essa linha que muda o saldo devedor de todos os meses.
+
+Quando a conta do exequente é homologada por decisão, o saldo devedor do processo passa a ser o daquela curva. Não o da cláusula que as partes assinaram. E na fase de execução e de cumprimento de sentença o art. 1.015, parágrafo único do CPC abre agravo de instrumento contra todas as decisões interlocutórias: são 15 dias, contados da intimação.
+
+Price e SAC não são sinônimos. No Price a prestação é constante e a amortização começa pequena; no SAC a amortização é constante e a prestação cai mês a mês. Mesmo valor liberado, mesmo prazo, mesma taxa — e duas evoluções de saldo devedor que se afastam desde a primeira competência.
+
+O que a razão do agravo precisa abrir é objetivo: qual sistema o título prevê, com a cláusula citada; qual sistema a planilha efetivamente aplicou, o que se lê na própria tabela do credor e não no cabeçalho dela; onde a divergência aparece, que é no saldo devedor de cada mês — base da cobrança, da purgação da mora e do que sobra depois da venda do bem; e qual é o efeito concreto no valor. Agravo sobre cálculo sem prejuízo demonstrado discute método, e método sem número não move tribunal.
+
+O erro passa despercebido porque o começo das duas curvas é parecido. Nos primeiros meses as prestações ficam próximas o bastante para não chamar atenção, e a conferência costuma parar na prestação paga, não na amortização daquele mês. Prestação certa com amortização menor mantém saldo devedor maior por todo o contrato.
+
+Depois da preclusão, o número vira premissa: a curva homologada instrui penhora, avaliação e eventual acordo. O que se discutiria em 15 dias passa a exigir via própria.
+
+Mande o contrato e a planilha. Em até 24h úteis eu digo qual sistema ela aplicou.
+
+Solicite a análise técnica gratuita do seu caso: www.integrajud.com.br/areas/financeiros
+
+Ou fale direto no WhatsApp: https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20IntegraJud%20no%20Facebook%20sobre%20agravo%20sistema%20de%20amortizacao%20e%20queria%20falar%20sobre%20o%20c%C3%A1lculo%20do%20meu%20processo.
+
+IntegraJud · Inteligência pericial para advocacia

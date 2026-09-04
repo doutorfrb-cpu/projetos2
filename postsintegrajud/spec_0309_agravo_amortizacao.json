@@ -1,0 +1,87 @@
+{
+ "slug": "integrajud_agravo_sistema_amortizacao",
+ "outdir": "pc_0309_agravo_amortizacao",
+ "paleta": "P01",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:evolucao/formulario",
+  "pedra",
+  "doc:planilha/liso",
+  "madeira",
+  "foto:px_33352856.jpg"
+ ],
+ "seeds": [
+  3091,
+  3092,
+  3093,
+  3094,
+  3095
+ ],
+ "overlay": [
+  ".50,.68,.86",
+  ".80,.91",
+  ".44,.72"
+ ],
+ "slides": [
+  {
+   "layout": "L2",
+   "chamada": "ANTES DE RECORRER",
+   "peca": "AGRAVO DE INSTRUMENTO",
+   "headline": "A decisão adotou a conta do credor. <b>Você tem 15 dias</b>",
+   "apoio": "Na fase de cumprimento toda interlocutória é agravável. O agravo que não mostra o efeito no valor não move nada."
+  },
+  {
+   "kicker": "Financeiro · sistema de amortização",
+   "titulo": "A planilha diz Price. O contrato diz SAC",
+   "passos": [
+    "<em>O sistema de amortização não é detalhe de cálculo: é cláusula.</em> No Price a prestação é constante e a amortização começa pequena; no SAC a amortização é constante e a prestação cai mês a mês. Mesmo valor liberado, mesmo prazo, mesma taxa — e duas curvas de saldo devedor diferentes do primeiro mês ao último.",
+    "<em>A decisão que homologa a conta fixa o sistema por omissão.</em> O credor junta a planilha pronta, sem nomear o sistema que a gerou; o juízo homologa o resultado. Dali em diante o saldo devedor do processo é o daquela curva, e não o da cláusula que as partes assinaram.",
+    "<em>Na execução e no cumprimento, a interlocutória é agravável.</em> Art. 1.015, parágrafo único do CPC: nessas fases cabe agravo de instrumento contra todas as decisões interlocutórias. O prazo é de 15 dias e corre da intimação — não da hora em que alguém conferiu a planilha."
+   ],
+   "rodape": "O contrato escolheu o sistema. A planilha escolheu de novo."
+  },
+  {
+   "kicker": "O que a razão do recurso precisa abrir",
+   "titulo": "Quatro pontos que o agravo tem que demonstrar",
+   "passos": [
+    "<em>Qual sistema o título prevê.</em> “Amortização constante” não é o mesmo que “prestações iguais e sucessivas”. O agravo começa na cláusula, não na tese.",
+    "<em>Qual sistema a planilha aplicou.</em> Prestação constante do início ao fim indica Price; amortização constante com prestação decrescente indica SAC. O cabeçalho não decide — a coluna decide.",
+    "<em>Onde a divergência aparece.</em> Não na parcela do mês, e sim no saldo devedor de cada competência — base da cobrança, da purgação da mora e do saldo após a venda do bem.",
+    "<em>Qual é o efeito no valor.</em> Agravo sobre cálculo sem prejuízo demonstrado discute método. O tribunal precisa ver o número que muda."
+   ],
+   "rodape": "Sem memória paralela, o agravo põe critério contra número.",
+   "painel": true
+  },
+  {
+   "kicker": "O erro que se repete",
+   "titulo": "Por que o sistema trocado passa despercebido",
+   "passos": [
+    "<em>A planilha não se apresenta.</em> A tabela traz data, prestação, juros, amortização e saldo — e nenhuma linha dizendo qual sistema gerou aquilo. Quem não abre a coluna acaba aceitando o cabeçalho.",
+    "<em>O começo dos dois é parecido; o fim, não.</em> Nos primeiros meses as prestações ficam próximas o bastante para não chamar atenção. A distância entre as curvas cresce com o prazo, e é no saldo devedor que ela se acumula.",
+    "<em>A conferência costuma parar na prestação.</em> Confere-se o valor pago no mês e não a amortização daquele mês. Prestação certa com amortização menor mantém saldo devedor maior por todo o contrato.",
+    "<em>Depois da preclusão, o número vira premissa.</em> Não agravada a decisão, a curva homologada instrui penhora, avaliação e eventual acordo. O que se discutiria em 15 dias passa a exigir via própria."
+   ],
+   "rodape": "Olhe a coluna da amortização antes de olhar a da prestação."
+  },
+  {
+   "ponte": "A cláusula escolheu o sistema.<br>A planilha escolheu outro.",
+   "itens": [
+    "Evolução do saldo refeita em SAC e em Price",
+    "Memória de cálculo para instruir a razão do agravo",
+    "Parecer técnico sobre a planilha homologada"
+   ],
+   "oferta": "Mande o contrato e a planilha. Em até 24h úteis eu digo qual sistema ela aplicou"
+  }
+ ]
+}

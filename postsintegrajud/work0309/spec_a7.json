@@ -1,0 +1,52 @@
+{
+ "slug": "integrajud_demonstrativo_524",
+ "outdir": "pc_a7",
+ "paleta": "P01",
+ "cenas": [
+  "doc:liquidacao/dobra",
+  "linho",
+  "granito"
+ ],
+ "seeds": [
+  1701,
+  1702,
+  1703
+ ],
+ "overlay": [
+  ".08,.20,.38",
+  ".34,.46",
+  ".38,.68"
+ ],
+ "slides": [
+  {
+   "layout": "L1",
+   "chamada": "LEIA O DEMONSTRATIVO",
+   "peca": "DEMONSTRATIVO ART. 524",
+   "headline": "<b>Demonstrativo incompleto</b> é embargável antes de discutir o mérito",
+   "apoio": "A lei lista o que a memória precisa conter. Faltando item, o vício é formal e vem antes da conta.",
+   "retrato": "fundo",
+   "retrato_forca": 0.7,
+   "retrato_lado": "direita"
+  },
+  {
+   "kicker": "Cumprimento de sentença",
+   "titulo": "O que o art. 524 exige e costuma faltar",
+   "passos": [
+    "<em>Índice de correção</em> adotado, nomeado — não apenas aplicado.",
+    "<em>Termo inicial</em> de juros e de correção, cada um com sua data.",
+    "<em>Periodicidade</em> da capitalização, quando houver.",
+    "<em>Multa e honorários</em> discriminados, fora da base de correção."
+   ],
+   "rodape": "Demonstrativo que não permite refazer a conta não cumpre a função de demonstrar."
+  },
+  {
+   "ponte": "Antes de discutir o valor, confira a forma.<br>Vício formal resolve mais rápido.",
+   "itens": [
+    "Conferência formal do demonstrativo",
+    "Recálculo com critério do título",
+    "Assistência técnica em cumprimento"
+   ],
+   "oferta": "Mande o demonstrativo do exequente. Em até 24h úteis eu digo o que falta nele"
+  }
+ ]
+}

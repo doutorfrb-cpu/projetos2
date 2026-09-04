@@ -1,0 +1,87 @@
+{
+ "slug": "integrajud_conversao_sacas_laudo",
+ "outdir": "pc_0209_conversao_sacas",
+ "paleta": "P03",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:comparativo/envelhecido",
+  "gesso",
+  "doc:apuracao/liso",
+  "trama",
+  "foto:px_34293528.jpg"
+ ],
+ "seeds": [
+  2091,
+  2092,
+  2093,
+  2094,
+  2095
+ ],
+ "overlay": [
+  ".84,.90,.96",
+  ".66,.80",
+  ".42,.70"
+ ],
+ "slides": [
+  {
+   "layout": "L1",
+   "chamada": "O LAUDO ESTÁ NOS AUTOS",
+   "peca": "IMPUGNAÇÃO AO LAUDO",
+   "headline": "A dívida é em sacas. <b>O laudo escolheu o dia da cotação</b>",
+   "apoio": "Mesma quantidade de sacas. O valor muda conforme a data e a fonte de preço que o laudo adotou."
+  },
+  {
+   "kicker": "Agrário · arrendamento e parceria",
+   "titulo": "O contrato paga em produto. O laudo paga em reais",
+   "passos": [
+    "<em>A obrigação nasce em sacas e só vira dinheiro na conversão.</em> Arrendamento e parceria fixam o pagamento em produto: tantas sacas por hectare, na safra. Converter esse volume em reais exige três definições — data, praça e padrão do produto. Nenhuma está na quantidade, e todas mudam o valor.",
+    "<em>A data da conversão é cláusula, não é escolha do perito.</em> O contrato fixa o vencimento; o laudo às vezes adota a data em que foi elaborado. São preços diferentes para a mesma dívida, e a diferença não aparece na aritmética: aparece na premissa.",
+    "<em>O prazo para dizer isso é de 15 dias.</em> Art. 477, §1º do CPC: entregue o laudo, as partes se manifestam em prazo comum. Vencido ele, a conversão que o perito adotou passa a ser a conversão dos autos."
+   ],
+   "rodape": "A quantidade não se discute. O preço que a converte, sim."
+  },
+  {
+   "kicker": "O que a impugnação precisa abrir",
+   "titulo": "Quatro pontos que a conversão tem que mostrar",
+   "passos": [
+    "<em>Qual data o contrato fixou.</em> Vencimento, entrega da safra e data do laudo são três preços distintos. A cláusula responde, e o laudo precisa citá-la.",
+    "<em>De onde saiu o preço.</em> Indicador de referência, boletim regional ou nota fiscal na praça: a fonte tem que ser nomeada e conferível naquela data.",
+    "<em>Qual padrão de produto.</em> Saca de 60 kg, tipo, umidade e impureza mudam a cotação. Produto fora de padrão convertido pelo preço do padrão embute ágio.",
+    "<em>O que vem depois.</em> Fixada a base em reais, correção e juros incidem sobre ela. Data errada não erra uma vez: erra na base e em tudo que a segue."
+   ],
+   "rodape": "Quesito sem data e sem fonte devolve resposta sem data e sem fonte.",
+   "painel": true
+  },
+  {
+   "kicker": "Demonstração · só a data da conversão",
+   "titulo": "A mesma quantidade, dois dias de cotação",
+   "passos": [
+    "<em>A base.</em> Débito de 1.500 sacas de soja de 60 kg. A quantidade é a mesma nos dois critérios; muda só o dia em que ela vira dinheiro.",
+    "<em>Critério A — preço na data do vencimento contratual.</em> R$ 120,00 por saca: 1.500 × R$ 120,00 = R$ 180.000,00.",
+    "<em>Critério B — preço na data de elaboração do laudo.</em> R$ 145,00 por saca: 1.500 × R$ 145,00 = R$ 217.500,00.",
+    "<em>A diferença.</em> R$ 37.500,00 na mesma dívida, que é 1.500 × R$ 25,00 de variação. E é sobre a base maior que correção e juros passam a incidir."
+   ],
+   "rodape": "Números de demonstração, não de caso real. A perícia não escolhe o preço: demonstra a data que o contrato fixou e a fonte que a comprova."
+  },
+  {
+   "ponte": "A quantidade está no contrato.<br>O valor está no laudo.",
+   "itens": [
+    "Conferência da conversão de produto em reais",
+    "Memória de cálculo para instruir a impugnação",
+    "Quesitos e parecer sobre o laudo já juntado"
+   ],
+   "oferta": "Mande o laudo e o contrato. Em até 24h úteis eu digo se a conversão fecha"
+  }
+ ]
+}

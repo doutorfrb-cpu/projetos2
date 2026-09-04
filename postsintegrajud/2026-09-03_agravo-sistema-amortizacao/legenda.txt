@@ -1,0 +1,19 @@
+Price e SAC, no mesmo valor, no mesmo prazo e na mesma taxa, produzem saldos devedores diferentes em todos os meses do contrato — e a planilha do credor quase nunca diz qual dos dois gerou a tabela.
+
+A decisão já saiu. O juízo homologou a conta do exequente e, dali em diante, o saldo devedor do processo é o daquela curva, não o da cláusula assinada. O prazo do agravo é de 15 dias e corre da intimação.
+
+O sistema de amortização é cláusula, não detalhe de cálculo. No Price a prestação é constante e a amortização começa pequena. No SAC a amortização é constante e a prestação cai mês a mês. Mesmo desembolso, mesmo prazo, mesma taxa — e duas curvas que se afastam desde a primeira competência.
+
+Na execução e no cumprimento, o art. 1.015, parágrafo único do CPC abre agravo contra todas as interlocutórias. A via existe; o que falta é o número. Agravo sobre cálculo sem prejuízo demonstrado discute método, e método sem valor não move tribunal.
+
+Qual sistema o título prevê, e qual a planilha aplicou — isso se lê na tabela, não no cabeçalho: prestação constante indica Price; amortização constante com prestação decrescente indica SAC. A divergência mora no saldo devedor de cada competência, base da cobrança, da purgação da mora e do que sobra depois da venda do bem.
+
+O erro passa porque o começo das duas curvas é parecido, e a conferência costuma parar na prestação paga, não na amortização do mês. Depois da preclusão o número vira premissa: a curva homologada instrui penhora, avaliação e acordo.
+
+Mande o contrato e a planilha. Em até 24h úteis eu digo qual sistema ela aplicou.
+Análise técnica gratuita em www.integrajud.com.br/areas/financeiros
+https://wa.me/5511977237113?text=Vi%20o%20carrossel%20da%20IntegraJud%20no%20Instagram%20sobre%20agravo%20sistema%20de%20amortizacao%20e%20queria%20falar%20sobre%20o%20c%C3%A1lculo%20do%20meu%20processo.
+
+IntegraJud · Inteligência pericial para advocacia
+
+#periciacontabil #calculojudicial #agravodeinstrumento #cumprimentodesentenca #execucao #direitobancario #revisionaldecontrato #assistentetecnico #saldodevedor #advocacia

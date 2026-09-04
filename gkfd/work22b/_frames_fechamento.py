@@ -1,0 +1,10 @@
+import os, subprocess
+BASE = os.path.dirname(os.path.abspath(__file__))
+os.environ["PATH"] = BASE + os.pathsep + os.environ.get("PATH", "")
+src = os.path.join(BASE, "pc_gkfd23", "gkfd_fechamento_reel.mp4")
+out = os.path.join(BASE, "_frames_fechamento")
+os.makedirs(out, exist_ok=True)
+for t in ("2.0", "8.0", "14.0"):
+    subprocess.run(["ffmpeg", "-y", "-ss", t, "-i", src, "-frames:v", "1",
+                    os.path.join(out, f"f{t}.png")], capture_output=True)
+print(os.listdir(out))

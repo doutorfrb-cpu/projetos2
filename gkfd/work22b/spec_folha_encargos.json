@@ -1,0 +1,97 @@
+{
+  "slug": "gkfd_folha_encargos",
+  "outdir": "pc_gkfd24",
+  "paleta": "G04",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA PEQUENAS E MÉDIAS EMPRESAS",
+    "chamada_publico": "EI EMPRESÁRIO",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "SIMPLES NACIONAL",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade para pequenas e médias empresas · abertura, fiscal, folha e apuração",
+    "assinatura": "GKFD Contábil<br>Contabilidade para pequenas e médias empresas",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para pequenas e médias empresas",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Descubra em 30 segundos se você está pagando imposto a mais: sistema gratuito, sem cadastro, em www.gkfd.com.br"
+  },
+  "cenas": [
+    "doc:planilha/copia",
+    "couro",
+    "doc:razao/liso",
+    "concreto",
+    "linho"
+  ],
+  "seeds": [
+    9931,
+    9932,
+    9933,
+    9934,
+    9935
+  ],
+  "overlay": [
+    ".83,.89,.94",
+    ".81,.90",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L5",
+      "chamada": "O SALÁRIO NÃO É O CUSTO",
+      "peca": "FOLHA E ENCARGOS",
+      "headline": "Contratou pelo salário.<br>O custo tem <b>cinco parcelas</b>",
+      "apoio": "Você combinou R$ 2.000 por mês e o caixa sente outro número. O FGTS sai no mês seguinte; o décimo terceiro e as férias vencem lá na frente, mas nascem todo mês desde o primeiro dia de trabalho."
+    },
+    {
+      "kicker": "Folha de pagamento · primeira contratação",
+      "titulo": "Um salário combinado, cinco parcelas que nascem juntas",
+      "passos": [
+        "<em>A remuneração do mês.</em> É a única parcela que aparece no acerto da contratação. Todas as outras nascem dela por lei, no instante em que o contrato passa a valer.",
+        "<em>O FGTS, todo mês.</em> Oito por cento da remuneração, em conta vinculada do trabalhador. Não é provisão: é saída de caixa no mês seguinte ao trabalhado, e não espera o resultado da empresa.",
+        "<em>O décimo terceiro, um doze avos por mês.</em> Pago em dezembro, conquistado desde janeiro. Quem só o enxerga no mês do pagamento transforma despesa anual conhecida em aperto de caixa anunciado.",
+        "<em>As férias com o terço, e o FGTS sobre as duas.</em> Um doze avos de férias mais um terço, todo mês, e o FGTS que incide também sobre elas e sobre o décimo terceiro. O direito se forma antes de o descanso acontecer."
+      ],
+      "rodape": "Cinco parcelas. Só a primeira foi combinada em voz alta."
+    },
+    {
+      "kicker": "O que a contratação precisa responder",
+      "titulo": "Quatro perguntas antes de assinar a carteira",
+      "passos": [
+        "<em>O seu anexo recolhe a patronal dentro do DAS?</em> Nos anexos I, II, III e V ela já está na alíquota. No anexo IV fica de fora, recolhida à parte. Orçar sem saber em qual deles você está é orçar errado.",
+        "<em>A folha vai mexer no seu anexo?</em> Na atividade sujeita ao Fator R, a razão entre folha e receita de doze meses decide entre o anexo III e o V. A contratação altera o numerador já no mês seguinte.",
+        "<em>O pró-labore está na folha?</em> Declarado como pró-labore, com INSS recolhido, entra na massa salarial do Fator R. Retirado como lucro, não entra — e a empresa fica no anexo caro pelo que o dono não declarou.",
+        "<em>O eSocial recebeu no prazo?</em> A admissão se transmite até o dia anterior ao início do trabalho. Fora do prazo, a multa não chega por carta: aparece quando alguém vai consultar."
+      ],
+      "rodape": "As quatro se respondem antes. Depois, só restam as consequências."
+    },
+    {
+      "kicker": "Demonstração",
+      "titulo": "O mesmo funcionário, orçado e provisionado",
+      "formato": "quadro",
+      "linhas": [
+        ["Critério 1 — o salário combinado", "R$ 2.000,00"],
+        ["FGTS, 8% da remuneração", "R$ 160,00"],
+        ["Décimo terceiro, um doze avos", "R$ 166,67"],
+        ["Férias com o terço, um doze avos", "R$ 222,22"],
+        ["FGTS sobre 13º e férias", "R$ 31,11"],
+        ["Critério 2 — custo mensal real", "R$ 2.580,00 · 1,29×"],
+        ["Diferença em doze meses", "R$ 6.960,00"]
+      ],
+      "rodape": "Anexo III, sem vale-transporte e sem multa rescisória. Números de demonstração, não de caso real."
+    },
+    {
+      "ponte": "O salário é o combinado.<br>O custo é o que<br><b>a lei já somou.</b>",
+      "itens": [
+        "Custo mensal do funcionário calculado antes da contratação",
+        "Férias, décimo terceiro e FGTS provisionados mês a mês",
+        "Efeito da folha no Fator R conferido a cada apuração"
+      ],
+      "oferta": "Descubra em 30 segundos se você está pagando imposto a mais: sistema gratuito, sem cadastro, em www.gkfd.com.br"
+    }
+  ]
+}

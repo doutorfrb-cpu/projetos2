@@ -1,0 +1,34 @@
+{
+  "slug": "integrajud_mora",
+  "outdir": "peca_mora",
+  "paleta": "P07",
+  "cenas": ["foto:px_16978372.jpg", "granito", "foto:px_33656448.jpg"],
+  "seeds": [301, 302, 303],
+  "overlay": [".46,.66,.88", ".38,.48", ".56,.84"],
+  "slides": [
+    {
+      "headline": "<b>A mora foi cobrada três vezes.</b> O prazo dos embargos correu",
+      "apoio": "Comissão de permanência, juros de mora e multa somados na mesma parcela. A conta entrou nos autos sem separação."
+    },
+    {
+      "kicker": "Execução de contrato bancário",
+      "titulo": "Onde o encargo se duplica",
+      "passos": [
+        "<em>Comissão de permanência</em> não acumula com juros remuneratórios, moratórios e multa — Súmula 472 do STJ.",
+        "<em>Capitalização mensal</em> exige pactuação expressa: conferir a taxa anual contra o duodécuplo da mensal — Súmula 541.",
+        "<em>Encargo de inadimplência</em> incide a partir do vencimento, não da data do contrato.",
+        "<em>Tarifa repassada ao saldo devedor</em> passa a render juros e realimenta a dívida."
+      ],
+      "rodape": "Separar encargo por encargo é o que transforma alegação em demonstração."
+    },
+    {
+      "ponte": "A conta da execução pode ser refeita linha a linha.<br>O que sustenta o embargo é a memória, não a alegação.",
+      "itens": [
+        "Recálculo de contrato e execução bancária",
+        "Assistência técnica em embargos e impugnação",
+        "Parecer contábil com memória de cálculo"
+      ],
+      "oferta": "Mande a planilha do banco. Em até 24h úteis eu digo se há o que impugnar"
+    }
+  ]
+}
