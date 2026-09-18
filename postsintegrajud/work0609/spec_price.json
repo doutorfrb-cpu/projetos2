@@ -1,0 +1,33 @@
+{
+  "slug": "integrajud_pricesac",
+  "outdir": "peca_pricesac",
+  "paleta": "P10",
+  "cenas": ["granito", "guilhoche", "madeira"],
+  "seeds": [501, 502, 503],
+  "overlay": [".14,.34,.62", ".26,.36", ".22,.50"],
+  "slides": [
+    {
+      "headline": "A planilha diz Price. <b>O contrato diz SAC</b>",
+      "apoio": "E a diferença aparece em toda a série."
+    },
+    {
+      "kicker": "Erro de apuração",
+      "titulo": "Quatro checagens antes de aceitar a evolução do saldo",
+      "passos": [
+        "Confira o <em>sistema pactuado no contrato</em>: Price tem parcela constante; SAC, amortização constante e parcela decrescente.",
+        "Reconstrua a primeira parcela: no SAC, <em>amortização = saldo ÷ prazo</em>; no Price, prestação pela fórmula de série uniforme.",
+        "Compare a <em>curva do saldo devedor</em> — no SAC ela cai em linha reta; no Price, devagar no começo.",
+        "Cheque o <em>CET declarado</em> contra a taxa aplicada: divergência aponta encargo não incluído na simulação."
+      ],
+      "rodape": "Sistema trocado não erra uma parcela: reescreve a série inteira."
+    },
+    {
+      "ponte": "Identificar o sistema é leitura.<br>Refazer a série é apuração.",
+      "itens": [
+        "Reconstrução da evolução do saldo, parcela a parcela",
+        "Conferência de sistema, taxa efetiva e CET",
+        "Parecer técnico e assistência em revisão de financiamento"
+      ]
+    }
+  ]
+}

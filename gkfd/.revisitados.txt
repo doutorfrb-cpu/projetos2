@@ -12,3 +12,4 @@
 2026-08-22_tarifa-comissao
 2026-08-23_piso-de-preco
 2026-08-23_troca-de-contador
+2026-08-24_frete-fulfillment

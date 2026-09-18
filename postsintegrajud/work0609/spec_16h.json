@@ -1,0 +1,49 @@
+{
+ "slug": "integrajud_reequilibrio",
+ "outdir": "pc_16h",
+ "paleta": "P02",
+ "cenas": [
+  "doc:apuracao/envelhecido",
+  "pedra",
+  "foto:px_5153472.jpg"
+ ],
+ "seeds": [
+  2001,
+  2002,
+  2003
+ ],
+ "overlay": [
+  ".52,.62,.88",
+  ".38,.52",
+  ".44,.74"
+ ],
+ "slides": [
+  {
+   "layout": "L2",
+   "chamada": "O NÚMERO ESTÁ LÁ?",
+   "peca": "PEDIDO DE REEQUILÍBRIO",
+   "headline": "<b>Sem planilha de custo</b>, reequilíbrio é alegação de prejuízo",
+   "apoio": "A administração indefere o que não consegue conferir. A composição do custo é o que transforma o pedido em conta."
+  },
+  {
+   "kicker": "Contratos públicos",
+   "titulo": "O que sustenta um pedido de reequilíbrio",
+   "passos": [
+    "<em>Custo da proposta</em>: composição na data-base, item a item.",
+    "<em>Custo efetivo</em>: o que se pagou no período, com nota e contrato.",
+    "<em>BDI aberto</em>: o que ele cobre, e o que já está no preço unitário.",
+    "<em>Índice do item</em>, não índice geral: cimento não segue o IPCA."
+   ],
+   "rodape": "Reequilíbrio não se pede por índice. Se demonstra por custo, e o custo se prova com documento."
+  },
+  {
+   "ponte": "O desequilíbrio se demonstra.<br>E é isso que o pedido precisa carregar.",
+   "itens": [
+    "Planilha de formação de preços aberta, com BDI destacado",
+    "Confronto entre custo da proposta e custo efetivo do período",
+    "Assistência técnica em contratos e licitações"
+   ],
+   "oferta": "Mande a planilha da proposta e as notas do período. Em até 24h úteis eu digo se o reequilíbrio se sustenta"
+  }
+ ]
+}

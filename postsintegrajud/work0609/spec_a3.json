@@ -1,0 +1,49 @@
+{
+ "slug": "integrajud_tutela_bloqueio",
+ "outdir": "pc_a3",
+ "paleta": "P08",
+ "cenas": [
+  "doc:extrato/liso",
+  "linho",
+  "granito"
+ ],
+ "seeds": [
+  1301,
+  1302,
+  1303
+ ],
+ "overlay": [
+  ".62,.78,.92",
+  ".34,.46",
+  ".38,.68"
+ ],
+ "slides": [
+  {
+   "layout": "L5",
+   "chamada": "ANTES DE PROTOCOLAR",
+   "peca": "TUTELA DE URGÊNCIA",
+   "headline": "<b>Você vai pedir a suspensão</b> de um débito que ninguém decompôs",
+   "apoio": "Urgência se demonstra com valor. Total contestado não é valor incontroverso."
+  },
+  {
+   "kicker": "Débito em discussão",
+   "titulo": "O que separa o incontroverso do resto",
+   "passos": [
+    "<em>Principal contratado</em> e o que dele já foi efetivamente pago.",
+    "<em>Encargos do período</em>: quais estão pactuados e quais apareceram depois.",
+    "<em>Parcela controversa</em> isolada, competência a competência.",
+    "<em>Valor a depositar</em>, se for o caso, apurado e não estimado."
+   ],
+   "rodape": "Depósito do incontroverso pressupõe saber qual é. Quase sempre ninguém apurou."
+  },
+  {
+   "ponte": "Suspender cobrança exige separar o que se discute.<br>Sem isso, discute-se o total.",
+   "itens": [
+    "Apuração do valor incontroverso",
+    "Decomposição de encargos por competência",
+    "Assistência técnica em tutela e revisional"
+   ],
+   "oferta": "Mande o contrato e os extratos. Em até 24h úteis eu digo qual é o incontroverso"
+  }
+ ]
+}

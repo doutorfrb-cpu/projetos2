@@ -1,0 +1,46 @@
+{
+ "slug": "integrajud_revisional",
+ "outdir": "peca_c2",
+ "paleta": "P03",
+ "cenas": [
+  "foto:px_164686.jpg",
+  "linho",
+  "foto:px_34293528.jpg"
+ ],
+ "seeds": [
+  21,
+  22,
+  23
+ ],
+ "overlay": [
+  ".62,.78,.92",
+  ".36,.46",
+  ".64,.88"
+ ],
+ "slides": [
+  {
+   "headline": "<b>Seu cliente pediu revisão.</b> O banco mandou a planilha dele",
+   "apoio": "Sem recálculo próprio, a discussão fica entre a alegação e o número do outro lado."
+  },
+  {
+   "kicker": "Revisional de contrato",
+   "titulo": "Quatro pontos que sustentam o pedido",
+   "passos": [
+    "<em>Sistema de amortização</em>: o contrato diz um, a planilha aplica outro, e a curva do saldo muda inteira.",
+    "<em>Capitalização</em>: comparar a taxa anual com o duodécuplo da mensal responde se foi pactuada.",
+    "<em>Encargos de inadimplência</em> aplicados antes do vencimento inflam o saldo em todo o período de normalidade.",
+    "<em>Tarifas no saldo devedor</em> passam a render juros e realimentam a dívida."
+   ],
+   "rodape": "Revisional sem memória de cálculo é pedido sem número."
+  },
+  {
+   "ponte": "O juiz decide sobre o que foi demonstrado.<br>Não sobre o que foi alegado.",
+   "itens": [
+    "Recálculo do contrato parcela a parcela",
+    "Parecer contábil para instruir a inicial",
+    "Assistência técnica na perícia"
+   ],
+   "oferta": "Mande o contrato e a planilha. Em até 24h úteis eu digo se há diferença"
+  }
+ ]
+}

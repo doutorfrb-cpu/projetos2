@@ -1,0 +1,5 @@
+Capa sobre NFS-e e ISS: quem saiu do MEI e continua emitindo nota do mesmo jeito, com a tarja do ponto de vazamento e a faixa de contato da GKFD.
+Slide sobre o que muda na nota no dia do desenquadramento: ISS deixa de ser valor fixo, a nota vira documento fiscal do municipio, o tomador pode reter na fonte e a data do desenquadramento tem efeito proprio.
+Slide com quatro perguntas antes de emitir fora do MEI: qual codigo de servico, se o ISS e da sede ou do local da prestacao, se o tomador retem e desde quando a empresa e ME.
+Slide sobre o erro que se repete: emitir pelo caminho de sempre, perder a retencao no controle, pagar o DAS pelo valor da tela e nao conferir a data do desenquadramento.
+Slide de oferta da GKFD Contabil: no MEI o imposto era fixo, fora dele ele nasce de cada nota, com telefone de WhatsApp e o endereco www.gkfd.com.br.

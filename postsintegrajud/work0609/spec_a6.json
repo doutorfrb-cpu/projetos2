@@ -1,0 +1,53 @@
+{
+ "slug": "integrajud_arbitramento",
+ "outdir": "pc_a6",
+ "paleta": "P04",
+ "cenas": [
+  "doc:memoria/liso",
+  "linho",
+  "granito"
+ ],
+ "seeds": [
+  1601,
+  1602,
+  1603
+ ],
+ "overlay": [
+  ".68,.82,.93",
+  ".34,.46",
+  ".38,.68"
+ ],
+ "slides": [
+  {
+   "layout": "L4",
+   "chamada": "ANTES DE PEDIR LIQUIDAÇÃO",
+   "peca": "ARBITRAMENTO",
+   "headline": "<b>Lucro cessante não é faturamento perdido.</b> É margem",
+   "apoio": "Somar receita que deixou de entrar infla o pedido e derruba a credibilidade da conta.",
+   "cifra": {
+    "rotulo": "o lucro cessante de 8 meses",
+    "valor": "R$ 60.000"
+   }
+  },
+  {
+   "kicker": "Demonstração · lucro cessante",
+   "titulo": "A mesma paralisação, duas contas",
+   "passos": [
+    "<em>Faturamento anual</em>: R$ 500.000,00. Paralisação de 8 meses.",
+    "<em>Pelo faturamento</em>: 8/12 de R$ 500.000,00 dão R$ 333.333,33.",
+    "<em>Pela margem líquida</em> de 18%: o lucro anual é R$ 90.000,00, e 8 meses dão R$ 60.000,00.",
+    "<em>A diferença</em> entre as duas leituras é de R$ 273.333,33."
+   ],
+   "rodape": "Números de demonstração, não de caso real. Lucro cessante se apura líquido dos custos que também cessaram."
+  },
+  {
+   "ponte": "Arbitramento se decide pela metodologia.<br>Quem chega com margem apurada define a conta.",
+   "itens": [
+    "Apuração de lucro cessante por margem",
+    "Reconstrução de série de resultado",
+    "Assistência técnica em liquidação"
+   ],
+   "oferta": "Mande as demonstrações do período. Em até 24h úteis eu digo qual é a margem"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "integrajud_lucroscessantes",
+  "outdir": "peca_lc",
+  "paleta": "P09",
+  "cenas": ["marmore", "papel", "gesso"],
+  "seeds": [601, 602, 603],
+  "overlay": [".18,.40,.66", ".38,.48", ".30,.56"],
+  "slides": [
+    {
+      "headline": "Lucro cessante <b>sem série histórica</b> é expectativa",
+      "apoio": "E expectativa não se apura: se alega."
+    },
+    {
+      "kicker": "Alcance da prova técnica",
+      "titulo": "O que a perícia demonstra — e onde ela para",
+      "passos": [
+        "Demonstra a <em>margem histórica</em>: receita e custo dos períodos anteriores, mês a mês, a partir de escrita contábil e fiscal.",
+        "Demonstra a <em>quebra</em>: comparação entre o período afetado e a sazonalidade dos mesmos meses em anos anteriores.",
+        "Demonstra o que <em>deixou de entrar</em>, líquido dos custos que também deixaram de existir no período parado.",
+        "Não demonstra <em>contrato que não chegou a existir</em> nem crescimento projetado sem base — isso é instrução probatória."
+      ],
+      "rodape": "Sem escrita regular do período anterior, não há lucro cessante apurável."
+    },
+    {
+      "ponte": "Alegar a perda é petição.<br>Demonstrá-la é apuração.",
+      "itens": [
+        "Apuração da margem histórica e da quebra do período",
+        "Laudo com memória e fonte de cada valor",
+        "Assistência técnica em ação indenizatória e securitária"
+      ]
+    }
+  ]
+}

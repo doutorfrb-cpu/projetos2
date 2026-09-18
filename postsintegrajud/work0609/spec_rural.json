@@ -1,0 +1,34 @@
+{
+  "slug": "integrajud_rural",
+  "outdir": "peca_rural",
+  "paleta": "P06",
+  "cenas": ["foto:px_3927131.jpg", "pedra", "foto:px_7654130.jpg"],
+  "seeds": [720, 721, 722],
+  "overlay": [".34,.56,.82", ".38,.48", ".56,.82"],
+  "slides": [
+    {
+      "headline": "<b>O banco apresentou o saldo.</b> A execução seguiu por ele",
+      "apoio": "Na dívida rural, o valor cobrado nasce de uma planilha que ninguém abriu."
+    },
+    {
+      "kicker": "Cédula de crédito rural",
+      "titulo": "Quatro pontos que mudam o saldo executado",
+      "passos": [
+        "<em>Encargos de inadimplência sobre o período de normalidade</em>: a taxa do inadimplemento aplicada antes do vencimento reescreve o contrato inteiro.",
+        "<em>Capitalização não pactuada</em> ou em periodicidade diferente da prevista na cédula muda a curva do saldo, não só a última parcela.",
+        "<em>Prorrogação legal por frustração de safra</em> não considerada: o período prorrogado volta como atraso que não existiu.",
+        "<em>Seguro e taxas embutidos</em> na base de cálculo dos juros, em vez de cobrados à parte."
+      ],
+      "rodape": "O saldo é um resultado. Sem a evolução mês a mês, ele é só um número afirmado."
+    },
+    {
+      "ponte": "Saldo devedor não se contesta por impressão.<br>Contesta-se por recálculo.",
+      "itens": [
+        "Reconstrução da evolução da cédula, período a período",
+        "Conferência de encargos, capitalização e prorrogações",
+        "Assistência técnica e quesitos em execução rural"
+      ],
+      "oferta": "Mande a planilha do banco. Em até 24h úteis eu digo se há diferença"
+    }
+  ]
+}

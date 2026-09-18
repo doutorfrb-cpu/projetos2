@@ -1,0 +1,93 @@
+{
+  "slug": "gkfd_nfse_iss",
+  "outdir": "pc_gkfd25",
+  "paleta": "G05",
+  "marca": {
+    "arroba": "@gkfdfisco",
+    "descritor": "CONTABILIDADE PARA PEQUENAS E MÉDIAS EMPRESAS",
+    "chamada_publico": "EI EMPRESÁRIO",
+    "prova": [
+      "25 ANOS DE EXPERIÊNCIA",
+      "SIMPLES NACIONAL",
+      "ATENDIMENTO NACIONAL"
+    ],
+    "credencial": "Contabilidade para pequenas e médias empresas · abertura, fiscal, folha e apuração",
+    "assinatura": "GKFD Contábil<br>Contabilidade para pequenas e médias empresas",
+    "nome": "GKFD Contábil",
+    "cargo": "Contabilidade para pequenas e médias empresas",
+    "cta": "Análise contábil inicial gratuita em",
+    "site": "www.gkfd.com.br",
+    "whatsapp": "11 97723-7113",
+    "oferta_padrao": "Descubra em 30 segundos se você está pagando imposto a mais: sistema gratuito, sem cadastro, em www.gkfd.com.br"
+  },
+  "cenas": [
+    "couro",
+    "doc:comparativo/formulario",
+    "gesso",
+    "doc:razao/copia",
+    "concreto"
+  ],
+  "seeds": [
+    9941,
+    9942,
+    9943,
+    9944,
+    9945
+  ],
+  "overlay": [
+    ".30,.52,.74",
+    ".82,.91",
+    ".16,.30"
+  ],
+  "slides": [
+    {
+      "layout": "L2",
+      "chamada": "O FIXO ACABOU",
+      "peca": "NFS-e E ISS",
+      "headline": "Saiu do MEI e continua<br>emitindo nota <b>como antes</b>",
+      "apoio": "No MEI o ISS era uma quantia fechada, igual todo mês, e a nota quase não tinha consequência. Fora dele o imposto passa a nascer de cada nota emitida — e o código, o município e a alíquota que estão nela decidem quanto sai."
+    },
+    {
+      "kicker": "Prestador de serviço · saindo do MEI",
+      "titulo": "O que muda na nota no dia do desenquadramento",
+      "passos": [
+        "<em>O ISS deixou de ser valor fixo.</em> No MEI é quantia mensal fechada, que não olha o faturamento. Como ME, vira parcela da alíquota efetiva sobre a receita do mês.",
+        "<em>A nota virou documento fiscal do município.</em> Sai no sistema da prefeitura, com código de serviço, base e alíquota. É o código que amarra a atividade ao anexo e à regra de ISS.",
+        "<em>O tomador passou a poder reter.</em> Onde a lei manda reter, o ISS sai antes de o dinheiro chegar. Retenção não é desconto: é imposto seu, já pago, que precisa ser segregado na apuração.",
+        "<em>A data do desenquadramento tem efeito próprio.</em> Excesso de até vinte por cento leva o novo regime para janeiro seguinte. Acima disso ele retroage, e os meses de MEI viram meses de ME."
+      ],
+      "rodape": "Quatro mudanças no mesmo dia. Nenhuma delas avisa."
+    },
+    {
+      "kicker": "O que a primeira nota precisa responder",
+      "titulo": "Quatro perguntas antes de emitir fora do MEI",
+      "passos": [
+        "<em>Qual código de serviço descreve o que você faz?</em> Escolhido pelo que estava mais perto no cadastro, ele define a alíquota de ISS e a leitura da sua atividade. Decisão de um minuto que custa todo mês.",
+        "<em>O ISS é da sua sede ou de onde o serviço aconteceu?</em> A regra geral olha o estabelecimento do prestador. A lei lista exceções em que ele pertence ao município da prestação — e nelas emitir tudo pela sede recolhe para a cidade errada.",
+        "<em>O seu tomador é obrigado a reter?</em> A empresa do Simples informa na nota a alíquota efetiva de ISS do seu DAS. Faltando isso, a lei manda reter pelo percentual mais alto, e o excedente não se resolve sozinho.",
+        "<em>Desde quando você é ME?</em> A resposta diz quais notas do ano já nasceram fora do MEI e quais competências precisam ser recalculadas antes que alguém pergunte."
+      ],
+      "rodape": "As quatro se respondem na primeira nota. Depois, cada uma vira doze."
+    },
+    {
+      "kicker": "O erro que se repete",
+      "titulo": "A nota mudou de natureza e o hábito continuou",
+      "passos": [
+        "<em>Emite pelo caminho de sempre.</em> Mantém o modelo, o código e o município da primeira vez. A apuração inaugural como ME herda as três escolhas sem que ninguém as tenha decidido.",
+        "<em>A retenção some da conta.</em> Entrou menos do que o valor da nota, e é o que entrou que vira receita no controle. A base nasce menor, e o ISS já pago pelo tomador nunca é abatido.",
+        "<em>O DAS é pago pelo que a tela mostra.</em> Sem segregar a receita com ISS retido na fonte, o mesmo imposto sai duas vezes: na retenção do tomador e dentro da guia.",
+        "<em>O ano fecha sem ninguém olhar a data.</em> Notas anteriores ao desenquadramento formal, competências que retroagiram, limite que já tinha virado — tudo aparece na intimação, não quando dava para corrigir."
+      ],
+      "rodape": "Nenhum desses erros aparece no extrato. Todos aparecem na apuração."
+    },
+    {
+      "ponte": "No MEI o imposto era fixo.<br>Fora dele, ele nasce<br><b>de cada nota.</b>",
+      "itens": [
+        "Código de serviço e município do ISS conferidos antes de emitir",
+        "Retenção na fonte segregada e abatida na apuração do mês",
+        "Data do desenquadramento e competências recalculadas"
+      ],
+      "oferta": "Descubra em 30 segundos se você está pagando imposto a mais: sistema gratuito, sem cadastro, em www.gkfd.com.br"
+    }
+  ]
+}

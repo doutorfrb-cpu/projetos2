@@ -1,0 +1,35 @@
+{
+ "slug": "integrajud_capitalizacao",
+ "outdir": "peca_embargos",
+ "paleta": "P01",
+ "cenas": ["doc:evolucao/formulario", "linho", "foto:px_265024.jpg"],
+ "seeds": [201, 202, 203],
+ "overlay": [".54,.72,.88", ".34,.46", ".40,.72"],
+ "slides": [
+  {
+   "peca": "EMBARGOS À EXECUÇÃO",
+   "headline": "<b>Capitalização não pactuada</b> não aparece na planilha. Aparece no saldo",
+   "apoio": "O demonstrativo do credor mostra o total. O regime de juros que produziu esse total fica de fora."
+  },
+  {
+   "kicker": "Demonstração · regime de juros",
+   "titulo": "A mesma taxa, dois regimes",
+   "passos": [
+    "<em>Base</em>: R$ 200.000,00, taxa de 2% ao mês, 36 meses.",
+    "<em>Sem capitalização</em>: o montante chega a R$ 344.000,00.",
+    "<em>Com capitalização mensal</em>: chega a R$ 407.977,47.",
+    "<em>A diferença</em> entre um regime e outro, nessa base, é de R$ 63.977,47."
+   ],
+   "rodape": "Números de demonstração, não de caso real. A perícia apura qual regime o contrato pactuou — e demonstra a conta dos dois."
+  },
+  {
+   "ponte": "Alegar excesso exige opor um número.<br>Sem evolução do saldo, vale a planilha do credor.",
+   "itens": [
+    "Evolução do saldo, parcela a parcela",
+    "Apuração de capitalização, CET e encargos",
+    "Assistência técnica em embargos e revisional"
+   ],
+   "oferta": "Mande o demonstrativo do credor. Em até 24h úteis eu digo se há o que embargar"
+  }
+ ]
+}

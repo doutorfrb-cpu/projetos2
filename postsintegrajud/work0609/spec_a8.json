@@ -1,0 +1,49 @@
+{
+ "slug": "integrajud_exibicao",
+ "outdir": "pc_a8",
+ "paleta": "P09",
+ "cenas": [
+  "doc:planilha/dobra",
+  "linho",
+  "granito"
+ ],
+ "seeds": [
+  1801,
+  1802,
+  1803
+ ],
+ "overlay": [
+  ".66,.80,.92",
+  ".34,.46",
+  ".38,.68"
+ ],
+ "slides": [
+  {
+   "layout": "L2",
+   "chamada": "ISSO PASSOU BATIDO?",
+   "peca": "EXIBIÇÃO DE DOCUMENTOS",
+   "headline": "<b>Pedir todos os documentos</b> é pedir para o juízo indeferir",
+   "apoio": "Requerimento genérico não descreve o que se quer nem para que serve. E é assim que se perde a prova."
+  },
+  {
+   "kicker": "Exibição de documento e livros",
+   "titulo": "O que torna o pedido deferível",
+   "passos": [
+    "<em>Documento nomeado</em>: qual livro, qual conta, qual período.",
+    "<em>Finalidade declarada</em>: o que exatamente ele permite apurar.",
+    "<em>Suficiência</em>: por que sem ele a conta não se faz.",
+    "<em>Posse demonstrada</em>: por que está com a outra parte e não com você."
+   ],
+   "rodape": "Lista fechada e justificada é deferida. Lista aberta vira pescaria e volta indeferida."
+  },
+  {
+   "ponte": "O perito só examina o que entrou nos autos.<br>O que não foi pedido não faltou por acaso.",
+   "itens": [
+    "Lista técnica de documentos necessários",
+    "Justificativa de suficiência para o cálculo",
+    "Assistência técnica desde a fase de prova"
+   ],
+   "oferta": "Mande a inicial e a contestação. Em até 24h úteis eu devolvo a lista"
+  }
+ ]
+}

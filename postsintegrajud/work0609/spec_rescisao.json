@@ -1,0 +1,34 @@
+{
+  "slug": "integrajud_rescisao",
+  "outdir": "peca_rescisao",
+  "paleta": "P09",
+  "cenas": ["foto:px_357514.jpg", "linho", "foto:px_12983110.jpg"],
+  "seeds": [411, 412, 413],
+  "overlay": [".44,.64,.86", ".38,.48", ".54,.82"],
+  "slides": [
+    {
+      "headline": "<b>O acordo trabalhista fechou</b> sobre a conta da empresa",
+      "apoio": "A planilha que instruiu a homologação foi feita por quem devia — e conferida por ninguém."
+    },
+    {
+      "kicker": "Verbas rescisórias e acordo",
+      "titulo": "Quatro pontos que mudam o valor da rescisão",
+      "passos": [
+        "<em>Base de cálculo incompleta</em>: média de comissões, horas extras habituais e adicionais integram a base das verbas, e costumam ficar de fora.",
+        "<em>Reflexos não computados</em> em DSR, férias com um terço, 13º e FGTS — é onde a diferença original reaparece multiplicada.",
+        "<em>Multa do FGTS sobre saldo incorreto</em>: os 40% acompanham a base, então erro no depósito vira erro na multa.",
+        "<em>Correção e juros até a data do acordo</em>, e não até a rescisão: meses de atualização somem sem aparecer no total."
+      ],
+      "rodape": "O total do TRCT é um resultado. A diferença mora na composição, não nele."
+    },
+    {
+      "ponte": "Acordo homologado encerra a discussão.<br>Por isso a conferência vem antes, não depois.",
+      "itens": [
+        "Recálculo de verbas rescisórias com memória mês a mês",
+        "Conferência da planilha da empresa antes da homologação",
+        "Assistência técnica e quesitos em perícia contábil trabalhista"
+      ],
+      "oferta": "Mande o TRCT e a planilha. Em até 24h úteis eu digo se há diferença"
+    }
+  ]
+}

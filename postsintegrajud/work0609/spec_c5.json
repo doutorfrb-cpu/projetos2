@@ -1,0 +1,46 @@
+{
+ "slug": "integrajud_seguro",
+ "outdir": "peca_c5",
+ "paleta": "P10",
+ "cenas": [
+  "foto:px_35519425.jpg",
+  "trama",
+  "foto:px_963628.jpg"
+ ],
+ "seeds": [
+  51,
+  52,
+  53
+ ],
+ "overlay": [
+  ".60,.76,.90",
+  ".36,.46",
+  ".62,.86"
+ ],
+ "slides": [
+  {
+   "headline": "<b>A seguradora calculou a indenização.</b> E fixou o próprio limite",
+   "apoio": "O valor pago vem de uma apuração feita por quem paga — e entra no processo como se fosse dado."
+  },
+  {
+   "kicker": "Sinistro e indenização",
+   "titulo": "Quatro contas que a apuração precisa separar",
+   "passos": [
+    "<em>Base do prejuízo</em>: valor de reposição, valor de mercado e valor contábil dão resultados diferentes.",
+    "<em>Depreciação aplicada</em> sem critério declarado reduz o valor sem demonstrar por quê.",
+    "<em>Lucro cessante</em> apurado sobre margem histórica, líquido dos custos que também cessaram.",
+    "<em>Correção desde o sinistro</em>, e não desde a recusa ou o pagamento parcial."
+   ],
+   "rodape": "Cada uma dessas contas tem critério próprio. Somadas sem separar, viram um número só."
+  },
+  {
+   "ponte": "Contestar indenização exige apuração paralela.<br>Sem ela, sobra a conta da seguradora.",
+   "itens": [
+    "Apuração de prejuízo e de lucro cessante",
+    "Conferência do cálculo da seguradora",
+    "Assistência técnica em ação securitária"
+   ],
+   "oferta": "Mande a apuração da seguradora. Em até 24h úteis eu digo se há diferença"
+  }
+ ]
+}

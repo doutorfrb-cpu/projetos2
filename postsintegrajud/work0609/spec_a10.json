@@ -1,0 +1,49 @@
+{
+ "slug": "integrajud_cda",
+ "outdir": "pc_a10",
+ "paleta": "P05",
+ "cenas": [
+  "doc:extrato/copia",
+  "linho",
+  "granito"
+ ],
+ "seeds": [
+  2001,
+  2002,
+  2003
+ ],
+ "overlay": [
+  ".56,.74,.90",
+  ".34,.46",
+  ".38,.68"
+ ],
+ "slides": [
+  {
+   "layout": "L1",
+   "chamada": "ANTES DE RECORRER",
+   "peca": "EMBARGOS À EXECUÇÃO FISCAL",
+   "headline": "<b>A CDA presume-se líquida</b> até alguém abrir a composição dela",
+   "apoio": "A presunção é relativa. O que a afasta não é alegação: é a decomposição do valor inscrito."
+  },
+  {
+   "kicker": "Certidão de dívida ativa",
+   "titulo": "O que a composição precisa separar",
+   "passos": [
+    "<em>Principal por competência</em>, com o tributo e o período de apuração.",
+    "<em>Multa</em>: de mora ou de ofício, e o percentual de cada uma.",
+    "<em>Juros</em> com a taxa e o marco de contagem declarados.",
+    "<em>Encargo legal</em>, quando cabível, e sobre qual base incide."
+   ],
+   "rodape": "Certidão que não permite refazer o valor inscrito não sustenta a presunção que a lei lhe dá."
+  },
+  {
+   "ponte": "Afastar a presunção exige aritmética.<br>Alegar iliquidez sem decompor não move o juízo.",
+   "itens": [
+    "Decomposição da CDA por rubrica",
+    "Conferência de multa, juros e encargo",
+    "Assistência técnica em execução fiscal"
+   ],
+   "oferta": "Mande a CDA e o demonstrativo. Em até 24h úteis eu digo se ela se decompõe"
+  }
+ ]
+}

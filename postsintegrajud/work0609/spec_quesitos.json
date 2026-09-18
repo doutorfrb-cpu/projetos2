@@ -1,0 +1,35 @@
+{
+ "slug": "integrajud_quesitos",
+ "outdir": "peca_quesitos",
+ "paleta": "P07",
+ "cenas": ["doc:razao/envelhecido", "granito", "foto:px_6607100.jpg"],
+ "seeds": [211, 212, 213],
+ "overlay": [".54,.72,.88", ".34,.46", ".42,.74"],
+ "slides": [
+  {
+   "peca": "QUESITOS",
+   "headline": "<b>Quesito sem número,</b> o perito responde como ele quiser",
+   "apoio": "Pergunta aberta devolve resposta aberta — e a resposta aberta vira o laudo que decide o processo."
+  },
+  {
+   "kicker": "Quesitos em perícia contábil",
+   "titulo": "Quatro elementos que fecham a saída do perito",
+   "passos": [
+    "<em>Base declarada</em>: sobre qual valor, conta ou rubrica a resposta deve incidir.",
+    "<em>Período delimitado</em>: data inicial e final, e o que fazer com o que estiver fora.",
+    "<em>Critério nomeado</em>: qual índice, qual regime, qual norma — não \"o critério adequado\".",
+    "<em>Documento indicado</em>: o livro, o extrato ou o razão de onde o número tem que sair."
+   ],
+   "rodape": "Quesito que não diz base, período, critério e fonte deixa as quatro escolhas com o perito."
+  },
+  {
+   "ponte": "Quesito é a única pergunta que o advogado faz ao laudo.<br>Sem ela, sobra o que o perito decidiu perguntar.",
+   "itens": [
+    "Formulação de quesitos e suplementares",
+    "Análise crítica de laudo e parecer divergente",
+    "Assistência técnica desde a nomeação do perito"
+   ],
+   "oferta": "Mande a decisão que deferiu a perícia. Em até 24h úteis eu devolvo os quesitos"
+  }
+ ]
+}

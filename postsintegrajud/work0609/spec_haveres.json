@@ -1,0 +1,33 @@
+{
+  "slug": "integrajud_haveres",
+  "outdir": "peca_haveres",
+  "paleta": "P07",
+  "cenas": ["couro", "guilhoche", "trama"],
+  "seeds": [701, 702, 703],
+  "overlay": [".18,.40,.68", ".38,.50", ".32,.58"],
+  "slides": [
+    {
+      "headline": "Na apuração de haveres, <b>a data vale tanto quanto a conta</b>",
+      "apoio": "Data errada muda o valor inteiro da participação."
+    },
+    {
+      "kicker": "Quando chamar o técnico",
+      "titulo": "Três definições que precedem qualquer cálculo",
+      "formato": "quadro",
+      "linhas": [
+        ["Data da resolução", "é a base do balanço de determinação; antecipá-la ou atrasá-la desloca todo o resultado."],
+        ["Critério do contrato", "cláusula de apuração prevalece; sem ela, discute-se balanço a valor patrimonial ou de mercado."],
+        ["Balanço de determinação", "levantamento específico para a data, não o balanço anual mais próximo."]
+      ],
+      "rodape": "Definir isso depois do laudo é discutir premissa com o resultado na mesa."
+    },
+    {
+      "ponte": "As três definições vêm antes.<br>O cálculo é consequência.",
+      "itens": [
+        "Balanço de determinação na data da resolução",
+        "Leitura do critério contratual de apuração",
+        "Parecer prévio e assistência técnica em dissolução parcial"
+      ]
+    }
+  ]
+}

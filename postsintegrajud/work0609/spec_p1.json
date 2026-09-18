@@ -1,0 +1,41 @@
+{
+ "slug": "integrajud_rmi_contestacao",
+ "outdir": "peca_p1",
+ "paleta": "P05",
+ "cenas": ["doc:evolucao/dobra", "linho", "foto:px_9852063.jpg"],
+ "seeds": [1101, 1102, 1103],
+ "overlay": [".08,.20,.38", ".34,.46", ".40,.72"],
+ "slides": [
+  {
+   "layout": "L1",
+   "chamada": "ISSO ESTÁ NOS SEUS AUTOS?",
+   "peca": "CONTESTAÇÃO",
+   "retrato": "fundo",
+   "retrato_forca": 0.70,
+   "retrato_lado": "direita",
+   "headline": "<b>O INSS contestou com a conta dele.</b> A sua ainda não está nos autos",
+   "apoio": "Sem cálculo oposto, o juízo decide sobre a única apuração juntada — e ela é da autarquia."
+  },
+  {
+   "kicker": "Revisão de RMI",
+   "titulo": "O que a contestação do INSS não abre",
+   "passos": [
+    "<em>Período básico de cálculo</em>: quais competências entraram e quais foram descartadas.",
+    "<em>Salários de contribuição</em> atualizados um a um, não pela média já pronta.",
+    "<em>Divisor mínimo</em> aplicado quando faltam competências no período.",
+    "<em>Índices de reajuste</em> desde a DIB, com a data-base de cada ano."
+   ],
+   "rodape": "A carta de concessão traz o resultado. O caminho até ele fica de fora — e é nele que a revisão vive."
+  },
+  {
+   "retrato": "sim",
+   "ponte": "Revisar RMI exige refazer o PBC.<br>Sem isso, discute-se o resultado sem tocar na conta.",
+   "itens": [
+    "Recomposição do período básico de cálculo",
+    "Atualização dos salários de contribuição",
+    "Assistência técnica em ação previdenciária"
+   ],
+   "oferta": "Mande a carta de concessão e o CNIS. Em até 24h úteis eu digo se há revisão"
+  }
+ ]
+}

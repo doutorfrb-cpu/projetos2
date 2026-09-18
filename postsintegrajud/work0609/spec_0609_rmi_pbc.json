@@ -1,0 +1,91 @@
+{
+ "slug": "integrajud_rmi_pbc_inicial",
+ "outdir": "pc_0609_rmi_pbc",
+ "paleta": "P10",
+ "marca": {
+  "arroba": "@integrajud",
+  "descritor": "INTELIGÊNCIA PERICIAL PARA ADVOCACIA",
+  "chamada_publico": "ADVOGADO:",
+  "faixa_opacidade": 0.86,
+  "prova": [
+   "PERITO CONTÁBIL E FINANCEIRO",
+   "+200 MODALIDADES DE CÁLCULO",
+   "ATUAÇÃO EM TODO O BRASIL"
+  ],
+  "credencial": "Perícia contábil · atendimento nacional"
+ },
+ "cenas": [
+  "doc:memoria/liso",
+  "concreto",
+  "doc:liquidacao/dobra",
+  "marmore",
+  "foto:px_13580974.jpg"
+ ],
+ "seeds": [
+  6091,
+  6092,
+  6093,
+  6094,
+  6095
+ ],
+ "overlay": [
+  ".84,.90,.96",
+  ".66,.80",
+  ".42,.70"
+ ],
+ "slides": [
+  {
+   "layout": "L4",
+   "chamada": "O NÚMERO ESTÁ LÁ?",
+   "peca": "PETIÇÃO INICIAL",
+   "cifra": {
+    "rotulo": "demonstração · 60 meses",
+    "valor": "R$ 7.560"
+   },
+   "headline": "Você vai pedir revisão. <b>De qual número?</b>",
+   "apoio": "A inicial fixa o pedido. Sem a RMI refeita, o valor pedido continua sendo o que o INSS apurou sozinho."
+  },
+  {
+   "kicker": "Previdenciário · salário de benefício",
+   "titulo": "A RMI não é um valor. É o resultado de uma lista",
+   "passos": [
+    "<em>A média tem duas partes, e as duas se discutem.</em> No numerador, a soma dos salários de contribuição do período básico de cálculo, atualizados até a DIB. No denominador, a quantidade de competências. Mexer em qualquer uma move a renda mensal inteira, pelo resto do benefício.",
+    "<em>O CNIS é cadastro, não é prova de valor.</em> Ele registra o que foi informado em GFIP, eSocial e guias — não o que consta do carnê pago ou do processo administrativo. Competência em branco e indicador pendente entram na conta como ausência, e ausência é premissa.",
+    "<em>O coeficiente multiplica a divergência, não a corrige.</em> Aplicado sobre a média, ele transporta o desvio para a renda mensal, e de lá para cada reajuste e para as parcelas vencidas. Dezenas de reais na média viram milhares até a distribuição."
+   ],
+   "rodape": "Quem confere a RMI confere a lista, não o valor final."
+  },
+  {
+   "kicker": "O que a inicial precisa responder",
+   "titulo": "Quatro respostas antes de escrever o pedido",
+   "passos": [
+    "<em>Quantas competências entraram no PBC.</em> A quantidade é o divisor. Competência ausente é também um divisor a menos, e o efeito depende de ela estar acima ou abaixo da média.",
+    "<em>Qual índice atualizou cada salário.</em> Eles entram corrigidos até a DIB. Termo ou índice trocado em parte da série muda a média sem alterar nenhuma competência.",
+    "<em>Qual regra de cálculo foi aplicada.</em> Média e coeficiente vêm dela. Pedir revisão sem dizer qual regra se afirma aplicável entrega ao juízo a escolha do parâmetro.",
+    "<em>Quanto o pedido vale por mês.</em> Valor da causa e proveito econômico nascem da diferença mensal e das competências vencidas. É o que separa a inicial instruída da genérica."
+   ],
+   "rodape": "A inicial sem conta pede que o juízo a produza.",
+   "painel": true
+  },
+  {
+   "kicker": "Demonstração · competência ausente no PBC",
+   "titulo": "A mesma carreira, dois períodos básicos",
+   "passos": [
+    "<em>Base.</em> PBC com 96 competências, somando R$ 240.000,00 já atualizados até a DIB. Média de R$ 2.500,00.",
+    "<em>Critério A — como consta do CNIS.</em> Média de R$ 2.500,00 e coeficiente de 90% (60% mais 2% por ano acima de 20, com 35 anos de contribuição). RMI de R$ 2.250,00.",
+    "<em>Critério B — com 4 competências comprovadas por guia e não lançadas.</em> R$ 6.000,00 cada: soma de R$ 264.000,00 em 100 competências, média de R$ 2.640,00. Mesmo coeficiente: RMI de R$ 2.376,00.",
+    "<em>A diferença.</em> R$ 126,00 por mês. Em 60 competências vencidas, R$ 7.560,00 — antes de reajuste e de correção."
+   ],
+   "rodape": "Números de demonstração, não de caso real. Competência ausente entra na soma e no divisor: só levanta a média quando está acima dela."
+  },
+  {
+   "ponte": "A revisão se pede por número.<br>O número está no PBC.",
+   "itens": [
+    "RMI refeita competência a competência",
+    "CNIS confrontado com guias e contracheques",
+    "Memória de cálculo e valor da causa para a inicial"
+   ],
+   "oferta": "Mande a carta de concessão e o CNIS. Em até 24h úteis eu digo se a RMI fecha"
+  }
+ ]
+}

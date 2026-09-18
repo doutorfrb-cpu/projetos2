@@ -1,0 +1,49 @@
+{
+ "slug": "integrajud_habilitacao_credito",
+ "outdir": "pc_13h",
+ "paleta": "P03",
+ "cenas": [
+  "doc:comparativo/liso",
+  "gesso",
+  "foto:px_38373935.jpg"
+ ],
+ "seeds": [
+  1901,
+  1902,
+  1903
+ ],
+ "overlay": [
+  ".84,.90,.96",
+  ".40,.54",
+  ".52,.80"
+ ],
+ "slides": [
+  {
+   "layout": "L3",
+   "chamada": "CONFERE UMA COISA",
+   "peca": "HABILITAÇÃO DE CRÉDITO",
+   "headline": "<b>O crédito entrou no quadro</b> pelo valor que a devedora relacionou",
+   "apoio": "A relação de credores sai da contabilidade de quem pediu a recuperação. Divergência de valor e de classe se demonstra com conta, dentro do prazo."
+  },
+  {
+   "kicker": "Recuperação judicial",
+   "titulo": "O que se confere antes de habilitar ou impugnar",
+   "passos": [
+    "<em>Data-base</em>: atualização até o pedido, e não um dia além.",
+    "<em>Classe</em>: a natureza do crédito define a classe e o voto.",
+    "<em>Lastro</em>: contrato, nota e título que a relação não mostra.",
+    "<em>Encargos</em>: juros e multa param na data do pedido."
+   ],
+   "rodape": "Crédito relacionado a menor entra no quadro assim mesmo. O que muda isso é demonstração, feita no prazo."
+  },
+  {
+   "ponte": "O prazo de habilitação é curto.<br>A conta que o sustenta não se improvisa.",
+   "itens": [
+    "Conferência e atualização do crédito até a data-base",
+    "Classificação da natureza e lastro documental",
+    "Assistência técnica em recuperação judicial e falência"
+   ],
+   "oferta": "Mande a relação de credores e o seu contrato. Em até 24h úteis eu digo se o valor confere"
+  }
+ ]
+}
